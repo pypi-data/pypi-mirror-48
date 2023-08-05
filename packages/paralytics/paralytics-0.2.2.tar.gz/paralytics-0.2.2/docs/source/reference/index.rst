@@ -1,0 +1,15 @@
+=============
+API Reference
+=============
+
+This page gives an overview of all Paralytics objects and functions.
+
+.. toctree::
+   :maxdepth: 2
+
+   generals
+   preprocessing
+   mathy
+   utils
+   decorators
+   exceptions
