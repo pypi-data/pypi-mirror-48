@@ -1,0 +1,17 @@
+strct
+numpy
+scipy
+statsmodels
+
+[test]
+pytest
+coverage
+pytest-cov
+pandas
+logzero
+collective.checkdocs
+pygments
+strct
+numpy
+scipy
+statsmodels
