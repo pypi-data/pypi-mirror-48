@@ -1,0 +1,10 @@
+README.md
+setup.py
+cfg/__const__.py
+cfg/__init__.py
+cfg/icfg.py
+icfg.egg-info/PKG-INFO
+icfg.egg-info/SOURCES.txt
+icfg.egg-info/dependency_links.txt
+icfg.egg-info/requires.txt
+icfg.egg-info/top_level.txt
