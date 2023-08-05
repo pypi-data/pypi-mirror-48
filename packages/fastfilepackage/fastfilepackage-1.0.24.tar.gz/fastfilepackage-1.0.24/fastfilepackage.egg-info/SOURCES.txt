@@ -1,0 +1,16 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+fastfilepackage.egg-info/PKG-INFO
+fastfilepackage.egg-info/SOURCES.txt
+fastfilepackage.egg-info/dependency_links.txt
+fastfilepackage.egg-info/top_level.txt
+source/debugger.cpp
+source/debugger.h
+source/fastfile.cpp
+source/fastfilewrapper.cpp
+source/installation_options.h
+source/tinyformat.h
+source/version.h
