@@ -1,0 +1,17 @@
+noughts_and_crosses/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noughts_and_crosses/exceptions.py,sha256=_Ag52SHKHdVA37vJ6Newibrmv2GqFlaqVLATWm49iKc,125
+noughts_and_crosses/game.py,sha256=sqhkx335qJLmyVcUF_M2pZR8-wW1r-b8_1NXt4rSXjM,5281
+noughts_and_crosses/play.py,sha256=qBaOaiwqcHOZ3K23StEn12aKfEQgDeiuJTAAdzCEgQU,1500
+noughts_and_crosses/player.py,sha256=qNmARQBWDI1tBKRC_UdWCtqOV2oO6oxpyJyn0KAN58w,2402
+noughts_and_crosses/position_strategy.py,sha256=2VCfgbIce7Vz_5eqU154qtrZMgYGZbOJ6ylT2LOISNU,4635
+noughts_and_crosses/recorder.py,sha256=F9LE_o6nsLvsb3s3FU6azheajyuCfAhTdn95niiumOM,5519
+noughts_and_crosses/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noughts_and_crosses/tests/test_game.py,sha256=loybAzfiYY8eVR09ZP6EYGeosTJVNhpzBnLbGKmqj4s,2331
+noughts_and_crosses/tests/test_play.py,sha256=-HnHVPZebLI6J_C-VwMZGdLxXro9LUYynAFjyZhTu3U,110
+noughts_and_crosses/tests/test_position_strategy.py,sha256=k349sGLtStdKMs3TvkeA2ogXiel2hGDZjOmzaVryzDw,1757
+noughts_and_crosses/tests/test_recorder.py,sha256=ZyeOoTTlzppbYoeWje_sFnmKJkQCdUV_cRN3o1cOzsA,1905
+noughts_and_crosses-0.1.data/scripts/noughts_and_crosses,sha256=NAe8Pxx-2XtFcY-4LI5QKpIwOd6FnT_QT9RIlalRT50,115
+noughts_and_crosses-0.1.dist-info/METADATA,sha256=PFYFpCrw_jHnzxe-QhgBMc4kL7LIF4UZyjlHsiuDKPk,626
+noughts_and_crosses-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+noughts_and_crosses-0.1.dist-info/top_level.txt,sha256=1J2HLg83EA2dutJnraWlSOV18wSZgluvap-OUlAPvGs,20
+noughts_and_crosses-0.1.dist-info/RECORD,,
