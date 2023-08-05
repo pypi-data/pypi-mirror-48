@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: DocuScan
+Version: 0.0.1
+Summary: A light-weight package that can open document files (docx, doc, pdf)
+Home-page: https://github.com/mutster/DocuScan-Python
+Author: Alex Scotland
+Author-email: rocketleaguemarket@gmail.com
+License: UNKNOWN
+Description: # DocuScan Package
+        
+        DocuScan is a lightweight document scanner.
+        
+        DocuScan allows users to open up document types docx,doc,pdf and return the information inside as strings.
+        
+        DocuScan also allows for manipulation of this information via regular expressions.
+        
+        [Check out my other projects!](https://github.com/mutster)
+        
+        
+        Usage:
+          Class DocuScan has 2 functions:
+            returnFileText(self) - Takes the file that was called when making the class, converts and returns string.
+        
+            executeRegex(self, regularExpression) - Calls returnFileText, and applies specified regular expression the the text.  Returns results in a list.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
