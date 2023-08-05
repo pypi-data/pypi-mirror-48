@@ -1,0 +1,10 @@
+README.rst
+setup.py
+sphinxwrapper/__init__.py
+sphinxwrapper/config.py
+sphinxwrapper/pocketsphinx_wrap.py
+sphinxwrapper.egg-info/PKG-INFO
+sphinxwrapper.egg-info/SOURCES.txt
+sphinxwrapper.egg-info/dependency_links.txt
+sphinxwrapper.egg-info/requires.txt
+sphinxwrapper.egg-info/top_level.txt
