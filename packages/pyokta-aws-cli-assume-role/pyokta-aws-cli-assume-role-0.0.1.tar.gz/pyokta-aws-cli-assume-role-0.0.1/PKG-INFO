@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyokta-aws-cli-assume-role
+Version: 0.0.1
+Summary: The python tool to use the aws cli via assume role and Okta authentication.
+Home-page: https://github.com/mijdavis2/pyokta-aws-cli-assume-role
+Author: mijdavis2
+Author-email: 
+License: UNKNOWN
+Description: # pyokta-aws-cli-assume-role
+        
+        The python tool to use the aws cli via assume role and Okta authentication.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
