@@ -1,0 +1,12 @@
+cores/__init__.py,sha256=K0kNy26Vm6A-1V5lST3ily6yVsNLUbiqk6AZDFm2nJI,20
+cores/__version__.py,sha256=9z296DD_d1bLi7B-J8xvxY56MJChIsBCfGLoryexhdM,111
+cores/baserepo.py,sha256=2D3OkTwpIhyhAqNFWeMpqPMTMsKQnOAA1BYPtDFNRbQ,2497
+cores/core.py,sha256=rGU0JEBwfPSxNinrfX-g6X_QIb90rKb4JGtVA5vz07U,255
+cores/notification/__init__.py,sha256=OB-b_GnUnTkECn1fwxl844UBmiui3mSWIvhBqMZY7Tc,22
+cores/notification/notification.py,sha256=xU1_La8FBEcHn2mj3piT7BR0ryLrpjF2Cx7POuGu4hA,1755
+cores/notification/notificationcenter.py,sha256=TAxnw9ZrrCDcANypxNdR1oWh2R8JiCxm_6xFFhOpy8A,1233
+cores/notification/unitest.py,sha256=23m0FjfYatvMwoR55LS1LxYcMGGbc6yAr32quKXWl1k,1613
+pyCores-0.1.0.dist-info/METADATA,sha256=T1VPK9lknQ5tV9OABl7MwHiLqM-3-MrQpM3TK16dfao,825
+pyCores-0.1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pyCores-0.1.0.dist-info/top_level.txt,sha256=ZAe3hDOLZkL8yJntAGoYvwOaW5jUct3OMMFJf_ptYO8,6
+pyCores-0.1.0.dist-info/RECORD,,

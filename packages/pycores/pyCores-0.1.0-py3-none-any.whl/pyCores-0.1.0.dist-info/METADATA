@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pyCores
+Version: 0.1.0
+Summary: Core functions and Classes for python3 project.
+Home-page: https://github.com/BinaryArtists/py-cores
+Author: Fallen Ink
+Author-email: fengzilijie@qq.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+
+
+📦 Py-cores (for myself)
+=======================
+
+
+发布
+-----
+
+python setup.py sdist bdist_wheel
+
+twine upload dist/*
+
+输入 Pypi 账号密码
+
+fengzilijie mail / Feng...!@#
+
+
