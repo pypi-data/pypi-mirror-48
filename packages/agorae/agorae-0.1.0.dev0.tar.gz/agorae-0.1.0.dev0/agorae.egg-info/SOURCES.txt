@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+agorae/__init__.py
+agorae/__version__.py
+agorae.egg-info/PKG-INFO
+agorae.egg-info/SOURCES.txt
+agorae.egg-info/dependency_links.txt
+agorae.egg-info/top_level.txt
