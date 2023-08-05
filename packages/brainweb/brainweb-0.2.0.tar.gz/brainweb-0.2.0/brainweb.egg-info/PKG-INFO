@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: brainweb
+Version: 0.2.0
+Summary: 20 multimodal BrainWeb phantoms
+Home-page: UNKNOWN
+Author: Casper O. da Costa-Luis
+Author-email: casper.dcl@physics.org
+License: MPLv2.0
+Description: UNKNOWN
+Keywords: brainweb medical imaging fdg pet mri
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: IPython
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: plot
