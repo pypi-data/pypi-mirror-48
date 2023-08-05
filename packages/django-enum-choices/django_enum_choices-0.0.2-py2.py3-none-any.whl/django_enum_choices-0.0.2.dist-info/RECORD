@@ -1,0 +1,15 @@
+django_enum_choices/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_enum_choices/__version__.py,sha256=K-ZQjZ_ebgH914e5GH_QxF3xIiXBeCrl0odfNpTbAgs,63
+django_enum_choices/exceptions.py,sha256=0Ey9x60Z7-QlzMc8ZaoXkYNBC7KcuG0v4TmL4JChVX8,52
+django_enum_choices/fields.py,sha256=CHuUfSghJL20svKX2DR_JQpSGNXHxPJpMsF2E-JXWz4,2425
+django_enum_choices/mixins.py,sha256=26icXYbtoHZDooQ4wPRrYHt81ihOg38quqWSMtUsdkQ,1108
+django_enum_choices/serializers.py,sha256=IWckxWmyft-RHy8FDxlp7nIKAEYAViSRT3e8k099hLk,845
+django_enum_choices/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_enum_choices/tests/settings.py,sha256=k_TDEVZo6jPGHMJFRQ8Sbg84lBX3niA1Ch6C7C62Sxc,371
+django_enum_choices/tests/test_fields.py,sha256=9ydliSfC6IjbRf89FhuzjIreQv3a-wf04d_P_n19BeI,7469
+django_enum_choices/tests/test_serializers.py,sha256=NLORZY_nzuzhme3XJb1fZ8Ocu9tuYlNZyUeY-rxsvS4,3074
+django_enum_choices-0.0.2.dist-info/LICENSE,sha256=LKK_23dhRf6mZic2sTBZZzdTGWKyAnG3eFTLUqYO94M,1065
+django_enum_choices-0.0.2.dist-info/METADATA,sha256=IP6N61qHItkHNHmJUDNV1MOJA9ugvojS2zZrdGRp9MA,2038
+django_enum_choices-0.0.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_enum_choices-0.0.2.dist-info/top_level.txt,sha256=L9Hu4-BwUgj3MnSxyry9oVOYUPQjcNABqtHXWBkRriQ,20
+django_enum_choices-0.0.2.dist-info/RECORD,,
