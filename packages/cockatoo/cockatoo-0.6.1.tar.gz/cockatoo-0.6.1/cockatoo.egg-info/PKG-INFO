@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: cockatoo
+Version: 0.6.1
+Summary: cockatoo - A similarity metric for macromolecular crystallization conditions
+Home-page: https://github.com/ubccr/cockatoo
+Author: Andrew E. Bruno
+Author-email: aebruno2@buffalo.edu
+License: GNU General Public License v3 (GPLv3)
+Description: # A similarity metric for macromolecular crystallization conditions
+        
+        ![Cockatoo][logo]
+        
+        ## What is cockatoo?
+        
+        cockatoo is an implementation of a similarity metric used in the comparison of
+        macromolecular crystallization conditions (or cocktails).
+        
+        Documention is online at: http://ubccr.github.io/cockatoo/
+        
+        ## Install with Conda
+        
+        First download and installed either [Anaconda](https://www.anaconda.com/distribution/) or
+        [Miniconda](https://docs.conda.io/en/latest/miniconda.html).
+        
+        Create a new conda environment, checkout the cockatoo source code, and install
+        the dependencies:
+        
+        ```
+            $ conda create -c keiserlab -c rdkit -c sdaxen --name cockatoo-dev e3fp
+            $ conda activate cockatoo-dev
+        
+            # Note on Linux may want to install ncurses if using Miniconda
+            $ conda install -c default ncurses
+        
+            $ git clone git://github.com/ubccr/cockatoo.git cockatoo
+            $ cd cockatoo
+            $ pip install -e .
+        ```
+        
+        ## License
+        
+        cockatoo is released under the GNU General Public License ("GPL") Version 3.0.
+        See the LICENSE file.
+        
+        [logo]: docs/images/cockatoo-logo-lg.jpg "Cockatoo Logo"
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
