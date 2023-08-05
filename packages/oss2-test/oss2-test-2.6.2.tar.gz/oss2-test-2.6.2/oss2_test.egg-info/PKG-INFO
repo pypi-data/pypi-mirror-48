@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: oss2-test
+Version: 2.6.2
+Summary: Aliyun OSS (Object Storage Service) SDK
+Home-page: http://oss.aliyun.com
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Alibaba Cloud OSS SDK for Python
+        
+        More resources
+        --------------
+        - `More examples <https://github.com/aliyun/aliyun-oss-python-sdk/tree/master/examples>`_. 
+        - `Python SDK API documentation <http://aliyun-oss-python-sdk.readthedocs.org/en/latest>`_. 
+        - `Official Python SDK documentation <https://help.aliyun.com/document_detail/32026.html>`_.
+        
+        Contacting us
+        -------------
+        - `Alibaba Cloud OSS official website <http://oss.aliyun.com>`_.
+        - `Alibaba Cloud OSS official forum <http://bbs.aliyun.com>`_.
+        - `Alibaba Cloud OSS official documentation center <https://help.aliyun.com/document_detail/32026.html>`_.
+        - Alibaba Cloud official technical support: `Submit a ticket <https://workorder.console.aliyun.com/#/ticket/createIndex>`_.
+        
+        License
+        -------
+        - `MIT <https://github.com/aliyun/aliyun-oss-python-sdk/blob/master/LICENSE>`_.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
