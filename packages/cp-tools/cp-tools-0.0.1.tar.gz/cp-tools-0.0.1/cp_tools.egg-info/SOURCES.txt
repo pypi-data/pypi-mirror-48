@@ -1,0 +1,7 @@
+README.rst
+setup.py
+cp_tools/__init__.py
+cp_tools.egg-info/PKG-INFO
+cp_tools.egg-info/SOURCES.txt
+cp_tools.egg-info/dependency_links.txt
+cp_tools.egg-info/top_level.txt
