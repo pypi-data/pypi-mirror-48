@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+annotate_lineinfo_plugin.py
+setup.py
+annotate_lineinfo/__init__.py
+annotate_lineinfo/annotate_lineinfo.py
+annotate_lineinfo.egg-info/PKG-INFO
+annotate_lineinfo.egg-info/SOURCES.txt
+annotate_lineinfo.egg-info/dependency_links.txt
+annotate_lineinfo.egg-info/requires.txt
+annotate_lineinfo.egg-info/top_level.txt
