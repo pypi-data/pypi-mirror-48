@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: marshmallow-attrs
+Version: 0.1.0
+Summary: Marshmallow schemas for attrs classes
+Home-page: https://github.com/adamboche/python-marshmallow-attrs
+Author: Adam Boche
+Author-email: adamboche@users.noreply.github.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Utilities
+Requires-Dist: marshmallow
+Requires-Dist: attrs
+Requires-Dist: typing-inspect
+Requires-Dist: marshmallow-enum
+
+========
+Overview
+========
+
+
+
+Marshmallow schemas for attrs classes
+
+* Free software: MIT license
+
+Installation
+============
+
+::
+
+    pip install marshmallow-attrs
+
+Documentation
+=============
+
+
+https://python-marshmallow-attrs.readthedocs.io/
+
+
+Development
+===========
+
+To run the all tests run::
+
+    tox
+
+Note, to combine the coverage data from all the tox environments run:
+
+.. list-table::
+    :widths: 10 90
+    :stub-columns: 1
+
+    - - Windows
+      - ::
+
+            set PYTEST_ADDOPTS=--cov-append
+            tox
+
+    - - Other
+      - ::
+
+            PYTEST_ADDOPTS=--cov-append tox
+
+Changelog
+=========
+
+0.1.0 (2019-06-22)
+------------------
+
+Changes
+^^^^^^^
+
+- First release on PyPI.
+
+---
+
+
