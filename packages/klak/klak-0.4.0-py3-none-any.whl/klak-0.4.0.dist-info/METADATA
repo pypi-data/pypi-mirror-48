@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: klak
+Version: 0.4.0
+Summary: Klak provides the ergonoics of a project Makefile with the ease of Python and power of Click.
+License: MIT
+Author: Aubrey Taylor
+Author-email: aubricus+klak@gmail.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
