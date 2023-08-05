@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: hktools
+Version: 0.1.0
+Summary: a toolbox for Deep Learning Developer
+Home-page: https://github.com/iamhankai/hktools
+Author: Kai Han
+Author-email: kaihana@163.com
+License: MIT License
+Description: UNKNOWN
+Keywords: toolbox
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence

@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+hktools/__init__.py
+hktools/test.py
+hktools.egg-info/PKG-INFO
+hktools.egg-info/SOURCES.txt
+hktools.egg-info/dependency_links.txt
+hktools.egg-info/top_level.txt
