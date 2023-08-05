@@ -1,0 +1,12 @@
+genomedashboard/__init__.py,sha256=laH1Xe1_bGqg6ICqXioybm1mDOcWOgASUfTHu3za5oo,953
+genomedashboard/cli.py,sha256=UT1iSoh30qU-VNpr42JEemIAWpzrlxbfTLxo57tj0M0,438
+genomedashboard/genomedashboard.py,sha256=lkqWzFi48epUj7djem11IkN1Y6eTnRG5s6upQWL8Rbs,190
+genomedashboard/data/package_data.dat,sha256=PqXCwNK9a4byv6t2WXJg4mC_ZMwD7hFMwm1b7KccQK4,23
+genomedashboard/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genomedashboard/ui/ui.py,sha256=hBwYflk8s4F_inUm8lhC3005Ed5UzN-mhB8VxfsNjzM,106
+genomedashboard-0.0.30.dist-info/LICENSE,sha256=iNezFtMR4aUrX-ifLiMIVf_uCTIuxboVLrpjHmQNW_o,1094
+genomedashboard-0.0.30.dist-info/METADATA,sha256=3rMf4EfokDp2Ey5OA6D8rnL9LvkNXHvnStxQqpEh4eE,1777
+genomedashboard-0.0.30.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+genomedashboard-0.0.30.dist-info/entry_points.txt,sha256=sIDv9b7urLXroQeOfG8If_GXDQEMAuz3o0IiPkVJjXk,62
+genomedashboard-0.0.30.dist-info/top_level.txt,sha256=j2ivg5CGk4-a2LH5PA_HOroqVuqXsIIplaxucpsG0Mw,16
+genomedashboard-0.0.30.dist-info/RECORD,,
