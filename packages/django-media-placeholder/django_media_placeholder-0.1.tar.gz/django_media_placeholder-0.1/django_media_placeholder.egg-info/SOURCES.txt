@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_media_placeholder/__init__.py
+django_media_placeholder/apps.py
+django_media_placeholder/custom_storage.py
+django_media_placeholder/meta.py
+django_media_placeholder/static.py
+django_media_placeholder/utils.py
+django_media_placeholder.egg-info/PKG-INFO
+django_media_placeholder.egg-info/SOURCES.txt
+django_media_placeholder.egg-info/dependency_links.txt
+django_media_placeholder.egg-info/top_level.txt
