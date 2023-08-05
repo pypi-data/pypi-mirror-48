@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+nlppreprocess/__init__.py
+nlppreprocess/nlppreprocess.py
+nlppreprocess.egg-info/PKG-INFO
+nlppreprocess.egg-info/SOURCES.txt
+nlppreprocess.egg-info/dependency_links.txt
+nlppreprocess.egg-info/not-zip-safe
+nlppreprocess.egg-info/top_level.txt
