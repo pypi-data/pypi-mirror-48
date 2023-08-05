@@ -1,0 +1,10 @@
+texttable
+pytest
+pytest-benchmark[histogram]
+pytest-cov
+coverage
+coveralls
+flake8
+tox
+twine
+wheel
