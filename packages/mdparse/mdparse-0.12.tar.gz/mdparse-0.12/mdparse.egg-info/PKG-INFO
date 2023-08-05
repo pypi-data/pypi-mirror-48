@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mdparse
+Version: 0.12
+Summary: Parsing markdown files for deep learning.
+Home-page: https://github.com/machine-learning-apps/mdparse
+Author: Hamel Husain
+Author-email: hamel.husain@gmail.com
+License: MIT
+Download-URL: https://github.com/machine-learning-apps/mdparse/archive/v.12.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: tests
