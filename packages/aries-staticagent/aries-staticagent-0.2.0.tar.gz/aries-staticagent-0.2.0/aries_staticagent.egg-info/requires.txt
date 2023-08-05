@@ -1,0 +1,6 @@
+aiohttp
+base58
+msgpack
+pysodium
+semver
+sortedcontainers
