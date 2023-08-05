@@ -1,0 +1,11 @@
+chalice_cognito_auth/__init__.py,sha256=qKK4BMzdt84HiCorJPWqgEfa_DbJeuGx_bIPrDui2vc,22
+chalice_cognito_auth/authorizer.py,sha256=Sh-GFVJAWdUs9fSOjfkj16h2MEuV1SRV3FzHUygqapA,1361
+chalice_cognito_auth/blueprint.py,sha256=d--5e5rh2QMkV5BgWP3sfV6Pv9cxotyGZweN35GiVVY,2744
+chalice_cognito_auth/decoder.py,sha256=EGpPjy47LOxe9SZsov8eP7prMd-Q66aSSttYdp54ecU,2396
+chalice_cognito_auth/exceptions.py,sha256=GTWDR7UfWjOAeNbsD-aqZztd-ZMjdjc0PcksdDmhnpE,314
+chalice_cognito_auth/userpool.py,sha256=OiXNDOp3VyV1A0N_I3p2EWU53GImdamp-8_r7gxcF7I,3248
+chalice_cognito_auth/utils.py,sha256=9l1-wwHR-XSAWI4NgsCOElCWhASsPJHWmD1mUoZgtP4,1187
+chalice_cognito_auth-1.0.3.dist-info/METADATA,sha256=FIHOyf4Yb7tZtywNSFt-vNTgEbqy8zK27IYuUj2EH_A,500
+chalice_cognito_auth-1.0.3.dist-info/RECORD,,
+chalice_cognito_auth-1.0.3.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+chalice_cognito_auth-1.0.3.dist-info/top_level.txt,sha256=WgqDtOA8mfs_AWRlLOZ4Of64QlS7G6Hz2lR9hvfrFmY,21
