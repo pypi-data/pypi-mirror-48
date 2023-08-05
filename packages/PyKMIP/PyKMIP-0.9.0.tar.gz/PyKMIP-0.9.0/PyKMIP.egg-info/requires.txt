@@ -1,0 +1,5 @@
+cryptography
+enum34
+requests
+six
+sqlalchemy
