@@ -1,0 +1,6 @@
+README.md
+setup.py
+typetalk.egg-info/PKG-INFO
+typetalk.egg-info/SOURCES.txt
+typetalk.egg-info/dependency_links.txt
+typetalk.egg-info/top_level.txt
