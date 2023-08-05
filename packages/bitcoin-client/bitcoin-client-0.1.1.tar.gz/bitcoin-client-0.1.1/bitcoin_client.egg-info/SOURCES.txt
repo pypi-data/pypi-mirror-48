@@ -1,0 +1,8 @@
+setup.py
+bitcoin_block_book/__init__.py
+bitcoin_client.egg-info/PKG-INFO
+bitcoin_client.egg-info/SOURCES.txt
+bitcoin_client.egg-info/dependency_links.txt
+bitcoin_client.egg-info/not-zip-safe
+bitcoin_client.egg-info/requires.txt
+bitcoin_client.egg-info/top_level.txt

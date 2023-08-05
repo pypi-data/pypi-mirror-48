@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: bitcoin-client
+Version: 0.1.1
+Summary: bitcoin python client
+Home-page: https://github.com/dmitry1981/bitcoin-client
+Author: Dmitry Zhidkih
+Author-email: zhidkih.dmitry@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: bitcoin blockbook
+Platform: UNKNOWN
+Requires-Python: >=3.6,<4
