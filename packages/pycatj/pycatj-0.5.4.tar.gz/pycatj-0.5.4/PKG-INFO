@@ -1,0 +1,78 @@
+Metadata-Version: 1.1
+Name: pycatj
+Version: 0.5.4
+Summary: Json/Yaml/Toml Flattener
+Home-page: https://git.devfu.net/fuzzy/pycatj/
+Author: Mike 'Fuzzy' Partin
+Author-email: fuzzy@devfu.net
+License: UNKNOWN
+Description: # PyCatJ|Y
+        
+        Flatten out JSON|YAML|TOML files. Any number of files can be given on the command line. If no files
+        are given, it expects input on STDIN.
+        
+        For example::
+        
+          $ ./catj.py catk.json catj.json catk.yaml
+          Processing: catk.json
+          movie.name: Interstellar
+          movie.year: 2014
+          movie.is_released: True
+          movie.director: Christopher Nolan
+          movie.genres.main: foo
+          movie.genres.secondary: bar
+          movie.genres.tertiary.foo: bar
+          movie.genres.tertiary.baz[0]: qux
+          movie.genres.tertiary.baz[1]: dux
+          movie.genres.tertiary.baz[2]: fux
+          movie.deep.nested.bit.cast[0]: Matthew McConaughey
+          movie.deep.nested.bit.cast[1]: Anne Hathaway
+          movie.deep.nested.bit.cast[2]: Jessica Chastain
+          movie.deep.nested.bit.cast[3]: Bill Irwin
+          movie.deep.nested.bit.cast[4]: Ellen Burstyn
+          movie.deep.nested.bit.cast[5]: Michael Caine
+          movie.deep.nested.of: data
+          movie.deep.neat: huh?
+          
+          Processing: catj.json
+          movie.name: Interstellar
+          movie.year: 2014
+          movie.is_released: True
+          movie.director: Christopher Nolan
+          movie.cast[0]: Matthew McConaughey
+          movie.cast[1]: Anne Hathaway
+          movie.cast[2]: Jessica Chastain
+          movie.cast[3]: Bill Irwin
+          movie.cast[4]: Ellen Burstyn
+          movie.cast[5]: Michael Caine
+        
+          Processing: catk.yaml
+          movie.deep.neat: huh?
+          movie.deep.nested.bit.cast[0]: Matthew McConaughey
+          movie.deep.nested.bit.cast[1]: Anne Hathaway
+          movie.deep.nested.bit.cast[2]: Jessica Chastain
+          movie.deep.nested.bit.cast[3]: Bill Irwin
+          movie.deep.nested.bit.cast[4]: Ellen Burstyn
+          movie.deep.nested.bit.cast[5]: Michael Caine
+          movie.deep.nested.of: data
+          movie.director: Christopher Nolan
+          movie.genres.main: foo
+          movie.genres.secondary: bar
+          movie.genres.tertiary.baz[0]: qux
+          movie.genres.tertiary.baz[1]: dux
+          movie.genres.tertiary.baz[2]: fux
+          movie.genres.tertiary.foo: bar
+          movie.is_released: True
+          movie.name: Interstellar
+          movie.year: 2014
+        
+        
+Keywords: yaml,json,toml
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
