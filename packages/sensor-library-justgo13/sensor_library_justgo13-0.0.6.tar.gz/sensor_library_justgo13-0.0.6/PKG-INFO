@@ -1,0 +1,33 @@
+Metadata-Version: 1.1
+Name: sensor_library_justgo13
+Version: 0.0.6
+Summary: Library for radar parser code
+Home-page: https://github.com/Justgo13/sensor_library
+Author: Jason Gao
+Author-email: jgao2299@gmail.com
+License: UNKNOWN
+Description: Sensors project read me
+        =======================
+        Installation : 
+        1. Open command prompt
+        2. Enter  *pip install sensor-library-justgo13*
+        
+        Testing code:
+        Run *test.py* to test parser files
+        
+        Reading documentation:
+        Open file /docs/build/latex/sensor_doc_new.pdf
+        
+        Sphinx Documentation
+        --------------------
+        [Learn sphinx documentation syntax](https://pythonhosted.org/an_example_pypi_project/sphinx.html)
+        
+        Initialize project: *sphinx-quickstart* in **cmd** 
+        
+        Document editor:  [Download Vim](https://www.vim.org/download.php#pc)
+        
+        Build html page: *make html* using **cmd**
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
