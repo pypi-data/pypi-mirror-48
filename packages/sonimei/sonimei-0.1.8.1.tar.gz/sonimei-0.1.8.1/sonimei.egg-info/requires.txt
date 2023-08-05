@@ -1,0 +1,9 @@
+wget
+izen
+click
+logzero
+mutagen
+lxml
+requests
+selenium
+PyYAML
