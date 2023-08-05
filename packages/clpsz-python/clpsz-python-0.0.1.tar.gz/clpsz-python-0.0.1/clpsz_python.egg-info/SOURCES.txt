@@ -1,0 +1,11 @@
+README.md
+setup.py
+clpsz_python/__init__.py
+clpsz_python/__version__.py
+clpsz_python.egg-info/PKG-INFO
+clpsz_python.egg-info/SOURCES.txt
+clpsz_python.egg-info/dependency_links.txt
+clpsz_python.egg-info/entry_points.txt
+clpsz_python.egg-info/top_level.txt
+clpsz_python/utils/__init__.py
+clpsz_python/utils/file_utils.py
