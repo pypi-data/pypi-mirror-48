@@ -1,0 +1,17 @@
+malloovia/__init__.py,sha256=a4e6NjDqUhBJxNJC-lFpbYQRQBsK9G_u9vNmD_VVPn8,154
+malloovia/__version__.py,sha256=UiuBcRXPtXxPUBDdp0ZDvWl0U9Db1kMNfT3oAfhxqLg,22
+malloovia/cli.py,sha256=ztpalB-YCXSy-T1AqaUQjBZX2n3mJDzsicKPWK4n_fI,7697
+malloovia/lpsolver.py,sha256=kKDSY64i2V-ncSUyU8Y6RBzWjnE3L8d0XQUxhTRVgic,32661
+malloovia/malloovia.schema.yaml,sha256=W055WnyaHhxghBnOd1y-7fXa2wf9-YSoitGUL2ehKpE,8739
+malloovia/model.py,sha256=Z6ZefngVYTMDEpPhd20wuH2eMmiKcPfKdf4ejVap1jk,14932
+malloovia/phases.py,sha256=px98kARmMiiqv1dY5x0uvNwl2nlmNIn-YvYpkXIM7NI,23237
+malloovia/problem.schema.yaml,sha256=HrT-w34O_599FCV5y2A1BPwpgiXyjX_Y2oQT-pj-cbM,3472
+malloovia/solution_model.py,sha256=MKxqZm2_bK7YzeXbcdS4f_PXtKOFXIinND4an_JtuLQ,11913
+malloovia/util.py,sha256=0agpqVHIrdYg9cVfg6VzUNXgLlYfnn2XVaUYWLz_Vsc,41558
+malloovia-2.1.2.dist-info/AUTHORS.rst,sha256=ejwesbCiM2DZ34WAMV2KNrQQaJTWnzJaCabAWk1w8xA,166
+malloovia-2.1.2.dist-info/LICENSE,sha256=raFbob7GPsK4DYZAn0AJRRnBQBwgxfWcTluJjwMtx44,1074
+malloovia-2.1.2.dist-info/METADATA,sha256=dQ14WfFye3aft_a8aT9eQ8iV5bSXj-62rIJZhTvfg-g,8158
+malloovia-2.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+malloovia-2.1.2.dist-info/entry_points.txt,sha256=0Mhj-h0zONN4aPvfv0fSjug1yUzgSbXvvaMfa_1TVnY,67
+malloovia-2.1.2.dist-info/top_level.txt,sha256=IKgB1qd9N-jt4ZFVtugcozkkqzmPmZ6_As_bwJuPVzw,10
+malloovia-2.1.2.dist-info/RECORD,,
