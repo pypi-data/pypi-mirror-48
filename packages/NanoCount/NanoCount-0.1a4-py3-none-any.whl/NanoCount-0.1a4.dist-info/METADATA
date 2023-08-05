@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: NanoCount
+Version: 0.1a4
+Summary: EM based transcript abundance from nanopore reads mapped to a transcriptome with minimap2
+Home-page: https://github.com/a-slide/NanoCount
+Author: Adrien Leger
+Author-email: aleg@ebi.ac.uk
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: pysam (>=0.14.1)
+Requires-Dist: pandas (>=0.23.3)
+
+UNKNOWN
+
+
