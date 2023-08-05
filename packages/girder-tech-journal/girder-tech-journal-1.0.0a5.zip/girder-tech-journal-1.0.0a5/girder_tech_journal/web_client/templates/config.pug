@@ -1,0 +1,31 @@
+.g-config-breadcrumb-container
+#g-journal-settings-error-message
+h3 Journal Configuration
+
+form#configForm.genericForm(method="POST", action='')
+  div
+    label(for='test')
+      |  Super Admin Email
+    input#admin_email(type='text', name='adminEmail', value='')
+  div
+    label(for='test')
+      |  Default Journal
+    input#default_journal(type='text', name='defaultJournal')
+  div
+    label(for='test')
+      | Default Layout
+    input#default_layout(type='text', name='defaultLayout')
+  div
+    label(for='test')
+      | Base Handle
+    input#base_handle(type='text', name='baseHandle')
+  div
+    label(for='test')
+      | Old Website URL
+    input#old_url(type='text', name='oldWebsiteUrl')
+  div
+    label(for='test')
+      | Use Review infrastructure
+    input#use_review(type='checkbox', name='useReview')
+  div
+    input(type='submit', value='Save Configuration')
