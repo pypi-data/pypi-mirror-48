@@ -1,0 +1,11 @@
+MANIFEST.in
+README
+setup.cfg
+setup.py
+green-example/green-app.json
+green-example/lambda_function.py
+green_example.egg-info/PKG-INFO
+green_example.egg-info/SOURCES.txt
+green_example.egg-info/dependency_links.txt
+green_example.egg-info/requires.txt
+green_example.egg-info/top_level.txt

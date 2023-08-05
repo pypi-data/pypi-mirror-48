@@ -1,0 +1,42 @@
+{
+  "name": "green-example",
+  "version": "1.0.2",
+  "description": "A sample Python hello world lambda function for AWS Greengrass.",
+  "author": "Halim Qrroum <qarroumh@amazon.lu>",
+  "runtime": {
+    "handler": "lambda_function.function_handler",
+    "engine": "python2.7",
+    "type": "long-lived",
+    "memory-limit": 150000,
+    "timeout": 3
+  },
+  "license": "MIT",
+  "keywords": [
+    "python",
+    "greengrass",
+    "hello-world"
+  ],
+  "environment": {
+    "sysfs-access": false,
+    "isolation": "greengrass-container"
+  },
+  "dependencies": {},
+  "category": "Other",
+  "versions": [
+    "1.9.2",
+    "1.8.2"
+  ],
+  "resources": [],
+  "subscriptions": [
+    {
+      "source": {
+        "type": "lambda",
+        "function": "green-example"
+      },
+      "destination": {
+        "type": "cloud"
+      },
+      "topic": "green/example"
+    }
+  ]
+}
