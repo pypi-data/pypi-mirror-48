@@ -1,0 +1,9 @@
+README.md
+setup.py
+fcopy/__init__.py
+fcopy/fcopy.py
+fcopy.egg-info/PKG-INFO
+fcopy.egg-info/SOURCES.txt
+fcopy.egg-info/dependency_links.txt
+fcopy.egg-info/entry_points.txt
+fcopy.egg-info/top_level.txt
