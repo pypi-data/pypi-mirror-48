@@ -1,0 +1,16 @@
+discord_cli/__init__.py,sha256=eng9fLMt17S6bsVWOWmbngVNfe6n-S1KqIxBQaInlyA,93
+discord_cli/argument_builder.py,sha256=L1fkZRnOf6LuQw0oFUM55v4fTD7FzSuoASdvpxsycfc,12684
+discord_cli/command.py,sha256=54Vc0ilujR2GAfNxuV-I2KNlrUvyyTH88ASmBYC85ho,20451
+discord_cli/command_system.py,sha256=7UQnvkIKuaPKeg_ff9Ppu6UNQ0LiObWnjFT4pHf7cWI,7312
+discord_cli/exceptions.py,sha256=o1eZ2EiZAUzA-HWLTTciD7KO0g7oj69HLV2CyXnxWYY,1113
+discord_cli/option_builder.py,sha256=v2bwyVmWFh6PIQXRAQmQGLtq_1YqRZFYKEvKrFMNnz8,16633
+discord_cli/parsers.py,sha256=EFvPssRk-s5ZViMFl7pQ01QJCHBqzNPFq00kQzxzLwg,20581
+discord_cli/permission_builder.py,sha256=dwKfT9tIHHCg57q79NUYrCg9FPOJvaTKdOQ7_C1rdQI,2276
+discord_cli/permissions.py,sha256=VtUrmdPcWMD_Rr4HX9feC6xGQo4EuXFXMvIt0gGjRt0,26658
+discord_cli/tag_builder.py,sha256=ioBpLSv94K_yjAWlGioVyCmE4MbuhCUuy43lpKHIUGQ,6168
+discord_cli/validation.py,sha256=sT8--TfIU4Z1qaQuH59NeJeZ7832Czrwz60oXE34fxc,8773
+discord_cli-1.0.0.dist-info/LICENSE,sha256=WgQpkH-oWtEjF9z8gbrPM10_YiFfVojU6VDj0YNO--c,1063
+discord_cli-1.0.0.dist-info/METADATA,sha256=M1jXj4EMrdwjP-_INOF2mfH7uFrzwjA48f3y-18ZwdI,613
+discord_cli-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+discord_cli-1.0.0.dist-info/top_level.txt,sha256=ln2cHIX9IvTUxOMMhX7TX9DeTA4W5c3q11xmzT75Ln4,12
+discord_cli-1.0.0.dist-info/RECORD,,
