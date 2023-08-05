@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: platelets
+Version: 0.5
+Summary: Supply your daily platelets intake directly from terminal
+Home-page: https://github.com/adamyordan/platelets
+Author: Adam Jordan
+Author-email: adamyordan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pydub (==0.23.1)
+Requires-Dist: simpleaudio (==1.0.2)
+
+# Platelets in CLI
+
+Supply your daily platelets intake directly from terminal
+
+```bash
+# Install
+$ pip install platelets
+
+# Use
+$ platelets
+```
+
+Press `Enter` to poke, or enter input `q` to quit.
+
+

@@ -1,0 +1,61 @@
+#!python
+
+import argparse
+import io
+import os
+import platform
+import random
+import time
+import warnings
+from multiprocessing import Pool
+from platelets import assets
+
+with warnings.catch_warnings():
+    warnings.simplefilter("ignore")
+    import pydub
+    from pydub.playback import play
+
+
+def clear_screen():
+    if platform.system().lower() == 'windows':
+        os.system('cls')
+    else:
+        os.system('clear')
+
+
+def play_sound(data):
+    sound = pydub.AudioSegment.from_wav(io.BytesIO(data))
+    play(sound)
+
+
+def parse_args():
+    parser = argparse.ArgumentParser('platelets', description='supply your daily platelets intake for your health!!')
+    parser.add_argument('-s', '--silent', action='store_true', help='play without sound')
+    return parser.parse_args()
+
+
+if __name__ == '__main__':
+    args = parse_args()
+    pool = Pool(processes=10)
+    if not args.silent:
+        pool.apply_async(play_sound, [assets.musics['music']])
+    counter = 0
+    while True:
+        clear_screen()
+        print('\n' + assets.art1)
+        if input() == 'q':
+            exit(0)
+        counter += 1
+        clear_screen()
+        if not args.silent:
+            pool.apply_async(play_sound, [assets.musics['poke']])
+        if counter == 6:
+            if random.randint(0, 1) == 0:
+                if not args.silent:
+                    pool.apply_async(play_sound, [assets.musics['react1']])
+            else:
+                if not args.silent:
+                    pool.apply_async(play_sound, [assets.musics['react2']])
+            counter = 0
+        print('\n' + assets.art2)
+        time.sleep(0.1)
