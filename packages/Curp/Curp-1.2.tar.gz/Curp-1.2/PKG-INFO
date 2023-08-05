@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: Curp
+Version: 1.2
+Summary: Inter-residue Current calculation in Proteins from MD             trajectory
+Home-page: https://gitlab.com/yamato97/current-calculations-for-proteins
+Author: Yamato's Lab
+Author-email: yamato@nagoya-u.jp
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Fortran
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=2.7, <3.0
