@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+InstagramFakeAPI/ImageUtils.py
+InstagramFakeAPI/InstagramFakeAPI.py
+InstagramFakeAPI/__init__.py
+InstagramFakeAPI.egg-info/PKG-INFO
+InstagramFakeAPI.egg-info/SOURCES.txt
+InstagramFakeAPI.egg-info/dependency_links.txt
+InstagramFakeAPI.egg-info/not-zip-safe
+InstagramFakeAPI.egg-info/requires.txt
+InstagramFakeAPI.egg-info/top_level.txt
