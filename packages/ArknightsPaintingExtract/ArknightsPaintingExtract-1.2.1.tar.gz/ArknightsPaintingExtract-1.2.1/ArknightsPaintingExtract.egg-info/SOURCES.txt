@@ -1,0 +1,7 @@
+README.md
+setup.py
+ArknightsPaintingExtract.egg-info/PKG-INFO
+ArknightsPaintingExtract.egg-info/SOURCES.txt
+ArknightsPaintingExtract.egg-info/dependency_links.txt
+ArknightsPaintingExtract.egg-info/requires.txt
+ArknightsPaintingExtract.egg-info/top_level.txt
