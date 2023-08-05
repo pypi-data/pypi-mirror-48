@@ -1,0 +1,9 @@
+{
+    "docker_image": "docker.elastic.co/elasticsearch/elasticsearch",
+    "es_version": "7.1.1",
+    "http_port": 9200,
+    "es_data_dir": "/Users/dl/source/elastic/rally/esrally/resources/tmpdatadir",
+    "es_log_dir": "/Users/dl/source/elastic/rally/esrally/resources/tmplogdir",
+    "es_heap_dump_dir": "/Users/dl/source/elastic/rally/esrally/resources/tmpheapdumpdir",
+    "mounts": {}
+}
