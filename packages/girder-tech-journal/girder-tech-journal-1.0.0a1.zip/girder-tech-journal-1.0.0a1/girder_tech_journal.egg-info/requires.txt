@@ -1,0 +1,4 @@
+girder
+celery
+girder-worker
+girder-oauth

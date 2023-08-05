@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: girder-tech-journal
+Version: 1.0.0a1
+Summary: A Girder plugin for a Technical Journal
+Home-page: https://github.com/girder/tech_journal
+Author: Kitware, Inc.
+Author-email: kitware@kitware.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
