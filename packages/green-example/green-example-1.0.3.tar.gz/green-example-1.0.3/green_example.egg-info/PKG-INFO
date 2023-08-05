@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: green-example
+Version: 1.0.3
+Summary: A sample Python hello world lambda function for AWS Greengrass.
+Home-page: UNKNOWN
+Author: Halim Qarroum
+Author-email: qarroumh@amazon.lu
+License: MIT
+Description: UNKNOWN
+Keywords: greengrass,hello-world,pip
+Platform: UNKNOWN
