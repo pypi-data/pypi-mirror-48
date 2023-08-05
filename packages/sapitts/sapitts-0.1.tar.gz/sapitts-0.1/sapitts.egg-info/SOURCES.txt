@@ -1,0 +1,10 @@
+README.md
+setup.py
+sapitts.egg-info/PKG-INFO
+sapitts.egg-info/SOURCES.txt
+sapitts.egg-info/dependency_links.txt
+sapitts.egg-info/not-zip-safe
+sapitts.egg-info/requires.txt
+sapitts.egg-info/top_level.txt
+tts/__init__.py
+tts/sapi.py
