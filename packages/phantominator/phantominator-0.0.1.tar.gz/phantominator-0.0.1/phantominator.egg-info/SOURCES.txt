@@ -1,0 +1,7 @@
+README.md
+setup.py
+phantominator.egg-info/PKG-INFO
+phantominator.egg-info/SOURCES.txt
+phantominator.egg-info/dependency_links.txt
+phantominator.egg-info/requires.txt
+phantominator.egg-info/top_level.txt
