@@ -1,0 +1,3 @@
+django
+simple-django-tag-parser
+django-model-utils
