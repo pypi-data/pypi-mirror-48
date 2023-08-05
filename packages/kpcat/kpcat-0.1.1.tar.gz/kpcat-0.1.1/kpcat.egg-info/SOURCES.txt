@@ -1,0 +1,9 @@
+README.md
+kpcat.py
+setup.py
+kpcat.egg-info/PKG-INFO
+kpcat.egg-info/SOURCES.txt
+kpcat.egg-info/dependency_links.txt
+kpcat.egg-info/entry_points.txt
+kpcat.egg-info/requires.txt
+kpcat.egg-info/top_level.txt
