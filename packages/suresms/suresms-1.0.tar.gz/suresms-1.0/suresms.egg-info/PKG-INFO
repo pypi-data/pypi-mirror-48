@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: suresms
+Version: 1.0
+Summary: A Python wrapper around the SureSMS SMS gateway <https://www.suresms.com>
+Home-page: https://suresms.com
+Author: Glen Mandsberg
+Author-email: glen.mandsberg@suresms.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Communications :: Telephony
