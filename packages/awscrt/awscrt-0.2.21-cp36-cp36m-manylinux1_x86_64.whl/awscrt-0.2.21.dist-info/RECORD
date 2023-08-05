@@ -1,0 +1,10 @@
+_aws_crt_python.cpython-36m-x86_64-linux-gnu.so,sha256=v7VpkPfskmyor0I-0SUzX_pDAwidn-3L222gbMu1hIA,3797330
+awscrt-0.2.21.dist-info/top_level.txt,sha256=K-iDGDVCqPZjWTzX2DJlk1rOgBGkQWMqGIHBWtq9Q_w,23
+awscrt-0.2.21.dist-info/RECORD,,
+awscrt-0.2.21.dist-info/WHEEL,sha256=d2ILPScH-y2UwGxsW1PeA2TT-KW0Git4AJ6LeOK8sQo,109
+awscrt-0.2.21.dist-info/METADATA,sha256=7-QHAgAOSqEggIt6TNqD7jmhSeonForIxT_77jMhhuQ,580
+awscrt/io.py,sha256=l0eoyBm8HDw8VhKceE6nWB-xQHLWB7jRXQcq6mIpcNk,7649
+awscrt/crypto.py,sha256=aK5yrz3WfR1zKeJNbQ0mMOKU1cpHWrnyGQurnYu9reo,1991
+awscrt/__init__.py,sha256=NoW32zFFy1eLxvuYt9Y7lOlQR5pBZmPjIQ3U4ygQNTo,610
+awscrt/http.py,sha256=lqSVq4VBkOAQT4qexiSxzxa-S6Rv8TdlV_p7mrA4alo,9103
+awscrt/mqtt.py,sha256=-xBerQ1B1uPuup9x6cnqIUgJlgj0mu9QhvfD7Hlw290,6410
