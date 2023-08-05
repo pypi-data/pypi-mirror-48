@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: quotient-security-check
+Version: 0.0.1.dev1
+Summary: ip whitelisting security package
+Home-page: UNKNOWN
+Author: Suman Kumar
+Author-email: sumkumar@quotient.com
+License: UNKNOWN
+Description: Check Whitelisted IP
+        =============
+        
+        This is a simple security package to check whether client IP is allowed to access the flask`s backend APIs.
+        
+        
+        Setup
+        =====
+        ``` python
+        from flask import Flask
+        from security.check_ip import IPCheck
+        
+        # Initialize the Flask app
+        app = Flask(__name__)
+        
+        # import IP_list from the config file or declare it here
+        
+        ip_list = <>
+        
+        """Set up IPCheck, there is no need to pass third argument which is "logging_enabled"
+        By default it is set to false, but if you want to see the incoming request IP then make it true, and it will
+        be printed in the log
+        
+        optional
+        ----------
+        IPBlock(app, ip_list, logging_enabled=True)
+        """
+        
+        ipcheck= IPBlock(app, ip_list)
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
