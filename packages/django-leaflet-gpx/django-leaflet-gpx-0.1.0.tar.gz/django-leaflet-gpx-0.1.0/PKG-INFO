@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: django-leaflet-gpx
+Version: 0.1.0
+Summary: Simple Django application to include LeafletJS map and display GPX file
+Home-page: https://gitlab.com/aloha68/django-leaflet-gpx
+License: ISC
+Author: Aloha68
+Author-email: dev@aloha.im
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=2.2,<3.0)
+Project-URL: Repository, https://gitlab.com/aloha68/django-leaflet-gpx
+Description-Content-Type: text/markdown
+
+Simple Django application to include LeafletJS map and display GPX file
+
