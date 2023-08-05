@@ -1,0 +1,7 @@
+kafka_avro_binary_consumer/__init__.py,sha256=PivuLVb69RQSEjyk6guWzXwHccONAUB13vmg705RFrU,35
+kafka_avro_binary_consumer/binary_avro_consumer.py,sha256=XAWADslivF2y0TgdQ9C28F8QDRor8nM5xAn-i5x-jao,7573
+kafka_avro_binary_consumer-0.0.0.2.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+kafka_avro_binary_consumer-0.0.0.2.dist-info/METADATA,sha256=NdaqtmOngLQDP6_B9AWJyRon5LAcKfFHz1m0TM_WICo,6708
+kafka_avro_binary_consumer-0.0.0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+kafka_avro_binary_consumer-0.0.0.2.dist-info/top_level.txt,sha256=Z3SGZML1oCUgs1BrAe3khPavak6hK7a_WvBa2A5b4ng,27
+kafka_avro_binary_consumer-0.0.0.2.dist-info/RECORD,,
