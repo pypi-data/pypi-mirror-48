@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: submovements
+Version: 0.1.1
+Summary: Our goal is to detect submovements from motion data
+Home-page: https://github.com/sstbrg/submovements
+Author: Stas Steinberg, Liz Izakson, Meyrav Dayan
+Author-email: stanislavs1@mail.tau.ac.il, lizizakson@mail.tau.ac.il, meyravdayan@mail.tau.ac.il
+License: MIT license
+Description: UNKNOWN
+Keywords: submovements
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
