@@ -1,0 +1,10 @@
+README.md
+setup.py
+discoecs/__init__.py
+discoecs/discoecs.py
+discoecs.egg-info/PKG-INFO
+discoecs.egg-info/SOURCES.txt
+discoecs.egg-info/dependency_links.txt
+discoecs.egg-info/entry_points.txt
+discoecs.egg-info/requires.txt
+discoecs.egg-info/top_level.txt
