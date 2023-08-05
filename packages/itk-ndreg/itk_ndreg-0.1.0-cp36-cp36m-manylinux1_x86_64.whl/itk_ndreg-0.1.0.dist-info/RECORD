@@ -1,0 +1,10 @@
+itk_ndreg-0.1.0.dist-info/RECORD,,
+itk_ndreg-0.1.0.dist-info/WHEEL,sha256=6AcMtUKU5URlvzUTY47Ffv2ZFfmgQIOOkXOwaHWfRXI,102
+itk_ndreg-0.1.0.dist-info/METADATA,sha256=hHvHFHJHm2kdpia5FI1SsagWwnjUJSzMi8RKOiZaqLA,1245
+itk_ndreg-0.1.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk/itkMetamorphosisImageRegistrationMethodv4Python.py,sha256=fDyiUteSlVqeomu2OLM3jBSKlzNBxevWeRwTwLCN7rI,174166
+itk/itkWrapExtrapolateImageFunctionPython.py,sha256=GgmWJ8AWBScCXoGO1O8kK-L5KDmdg0dvFRwn-rQ06qs,64821
+itk/_NDRegPython.so,sha256=Hze85OGYFpZ2Ommahslw9siQGbjP_Pk_z5HcMWAsO_0,9114144
+itk/itkTimeVaryingVelocityFieldSemiLagrangianTransformPython.py,sha256=eF3jM9ofjMSHn-VACG0ELAK8q3ES6PYAD53luRvZJxw,17245
+itk/NDRegPython.py,sha256=W8z5IHtYQxIw8nMlSj5dkMhTWR4ciakSaCfrEwWggy8,3574
+itk/Configuration/NDRegConfig.py,sha256=-45PIsg09cRQuJXAX7HFbL_hwWEmhizeimdrKr0nxYI,5068
