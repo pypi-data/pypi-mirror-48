@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+callword/__init__.py
+callword/callword.py
+callword/english_words.txt
+callword.egg-info/PKG-INFO
+callword.egg-info/SOURCES.txt
+callword.egg-info/dependency_links.txt
+callword.egg-info/top_level.txt
