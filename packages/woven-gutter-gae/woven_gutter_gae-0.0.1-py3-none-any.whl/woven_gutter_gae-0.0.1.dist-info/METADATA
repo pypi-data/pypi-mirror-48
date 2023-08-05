@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: woven-gutter-gae
+Version: 0.0.1
+Summary: Client to gutter feature switches backend, using GCP (Datastore and appengine)
+Home-page: https://github.com/soulhave/woven-gutter-gae
+Author: DISQUS, soulhave
+Author-email: opensource@disqus.com, soulhave@yahoo.com.br
+License: Apache License 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Requires-Dist: durabledict (>=0.9.0)
+Requires-Dist: jsonpickle
+Requires-Dist: werkzeug
+Requires-Dist: six
+Requires-Dist: flask (>=1.0.3)
+Requires-Dist: flask-restplus (>=0.12.1)
+Requires-Dist: google-cloud-logging (>=1.11.0)
+Requires-Dist: google-cloud-datastore (>=1.8.0)
+Provides-Extra: test
+Requires-Dist: nose ; extra == 'test'
+Requires-Dist: exam ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+Requires-Dist: django ; extra == 'test'
+Requires-Dist: redis ; extra == 'test'
+
+UNKNOWN
+
+
