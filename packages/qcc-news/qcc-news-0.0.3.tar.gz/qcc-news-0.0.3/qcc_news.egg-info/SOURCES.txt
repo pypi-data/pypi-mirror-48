@@ -1,0 +1,17 @@
+README.md
+setup.py
+qcc_news.egg-info/PKG-INFO
+qcc_news.egg-info/SOURCES.txt
+qcc_news.egg-info/dependency_links.txt
+qcc_news.egg-info/top_level.txt
+qccnews/__init__.py
+qccnews/extra_passport.py
+qccnews/db/__init__.py
+qccnews/db/mongo.py
+qccnews/http_handler/__init__.py
+qccnews/http_handler/entrance_handler.py
+qccnews/http_handler/news_handler.py
+qccnews/routes/__init__.py
+qccnews/routes/news.py
+qccnews/service/__init__.py
+qccnews/service/ctrl_news.py
