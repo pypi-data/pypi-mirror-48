@@ -1,0 +1,8 @@
+numpy
+matplotlib
+requests
+scipy
+pandas
+seaborn
+statsmodels
+hic-straw
