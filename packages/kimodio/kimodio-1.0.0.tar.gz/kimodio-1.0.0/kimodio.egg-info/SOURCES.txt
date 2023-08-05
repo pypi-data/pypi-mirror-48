@@ -1,0 +1,11 @@
+README.md
+setup.py
+jose/__init__.py
+jose/my_cal.py
+kimodio.egg-info/PKG-INFO
+kimodio.egg-info/SOURCES.txt
+kimodio.egg-info/dependency_links.txt
+kimodio.egg-info/entry_points.txt
+kimodio.egg-info/requires.txt
+kimodio.egg-info/top_level.txt
+test/test.py
