@@ -1,0 +1,10 @@
+README.md
+setup.py
+ipyopt.egg-info/PKG-INFO
+ipyopt.egg-info/SOURCES.txt
+ipyopt.egg-info/dependency_links.txt
+ipyopt.egg-info/requires.txt
+ipyopt.egg-info/top_level.txt
+src/callback.c
+src/ipyopt_module.c
+src/logger.c
