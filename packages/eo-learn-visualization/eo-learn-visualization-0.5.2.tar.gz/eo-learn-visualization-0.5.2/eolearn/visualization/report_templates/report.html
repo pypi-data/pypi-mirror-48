@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
+
+    <style>
+        {{ code_css }}
+
+        .content {
+          padding: 0 18px;
+          display: none;
+          overflow: hidden;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>EO Workflow Report</h1>
+
+    <h2>Dependency graph</h2>
+
+    <img src="data:image/png;base64,{{ dependency_graph | safe }}" />
+
+    <h2>Tasks</h2>
+
+    {% for task in task_descriptions %}
+        <h3>{{ task['title'] }}</h3>
+        <ul>
+            {% for key, value in task['args'].items() %}
+                <li> <pre> {{ key }} = {{ value }} </pre> </li>
+            {% endfor %}
+        </ul>
+    {% endfor %}
+
+    {% for task_title, task_source in task_source.items() %}
+        <h3>{{ task_title }}</h3>
+        {{ task_source }}
+   {% endfor %}
+
+    <h2>Executions</h2>
+
+    {% for execution in execution_stats %}
+        <h3>Execution {{ loop.index }}</h3>
+
+        Statistics<br/>
+        <ul>
+            <li>Start time: {{ execution['start_time'] | datetime }}</li>
+            <li>End time: {{ execution['end_time'] | datetime }}</li>
+            <li>Elapsed time: {{ timedelta(execution['start_time'], execution['end_time']) }}</li>
+        </ul>
+
+        {% if 'error' in execution %}
+            Error<br/>
+            {{ execution['error'] }}
+        {% endif %}
+
+        <button class="collapsible">Logs</button>
+        <div class="content">
+          <pre>{{ execution_logs[loop.index - 1] }}</pre>
+        </div>
+    {% endfor %}
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+</body>
+</html>
