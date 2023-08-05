@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pip-purge-dep
+Version: 0.6.0
+Summary: A tool for Python uninstall packages and purge related dependencies.
+Home-page: https://github.com/Jamyw7g/pip-purge
+Author: wuyaoping
+Author-email: jamykp@gmail.com
+License: GPLv3
+Keywords: pip purge pip-purge dependencies
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: click
+
+UNKNOWN
+
+

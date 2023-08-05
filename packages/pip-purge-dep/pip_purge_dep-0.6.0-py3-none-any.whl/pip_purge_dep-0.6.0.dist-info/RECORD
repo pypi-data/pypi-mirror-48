@@ -1,0 +1,8 @@
+pippurge/__init__.py,sha256=KXKNDFCESSrEayMiOK73uUA1zvQb0D7yu4aAoz0_hjQ,113
+pippurge/__main__.py,sha256=DBPOcyCKYU0Z7EPqYwQO2xz4S075zSvliAFTR1Uwqc0,237
+pippurge/cli.py,sha256=VD1g-8iWk0YNQDoZXZiUL10vKh-3wIvQqDMLiR4S_Ns,3043
+pip_purge_dep-0.6.0.dist-info/METADATA,sha256=fk8S09f-Alr5yGErVOw74Zg3hz-KO9Ntqjgwt9hSjLc,519
+pip_purge_dep-0.6.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pip_purge_dep-0.6.0.dist-info/entry_points.txt,sha256=o9GAjeKbe0xAx7uLczAKCDlz-NlEUu2zWi7G9Xav5zs,45
+pip_purge_dep-0.6.0.dist-info/top_level.txt,sha256=dDho3B8jiRAMfaKvCqGlyj92bPbrhr2PJcg7NEJPk5Y,9
+pip_purge_dep-0.6.0.dist-info/RECORD,,
