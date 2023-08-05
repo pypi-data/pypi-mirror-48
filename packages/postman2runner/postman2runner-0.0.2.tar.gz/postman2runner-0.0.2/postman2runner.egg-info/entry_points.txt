@@ -1,0 +1,3 @@
+[console_scripts]
+postman2runner = postman2runner.cli:main
+

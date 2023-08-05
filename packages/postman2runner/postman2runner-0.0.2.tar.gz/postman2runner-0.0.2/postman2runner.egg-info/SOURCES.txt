@@ -1,0 +1,15 @@
+README.rst
+setup.py
+postman2runner/__init__.py
+postman2runner/cli.py
+postman2runner/compat.py
+postman2runner/core.py
+postman2runner/parser.py
+postman2runner/utils.py
+postman2runner.egg-info/PKG-INFO
+postman2runner.egg-info/SOURCES.txt
+postman2runner.egg-info/dependency_links.txt
+postman2runner.egg-info/entry_points.txt
+postman2runner.egg-info/top_level.txt
+tests/__init__.py
+tests/test_postmanparser.py
