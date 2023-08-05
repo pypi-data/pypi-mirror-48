@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+oneroster/__init__.py
+oneroster/classlink.py
+oneroster/clever.py
+oneroster/oneroster.py
+oneroster/util.py
+oneroster.egg-info/PKG-INFO
+oneroster.egg-info/SOURCES.txt
+oneroster.egg-info/dependency_links.txt
+oneroster.egg-info/requires.txt
+oneroster.egg-info/top_level.txt
