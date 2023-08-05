@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: mkTranslation
+Version: 1.5.6
+Summary: Command line tools translated using Google、Youdao and i18ns.com
+Home-page: https://github.com/mythkiven/mkTranslate
+Author: MythKiven
+Author-email: mythkiven@qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: google translate translator
+Platform: UNKNOWN
+Provides-Extra: h2
