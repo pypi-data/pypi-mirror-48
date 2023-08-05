@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: dwl
+Version: 0.2.0
+Summary: Stupid command to download YouTube's `watch later` videos.
+Home-page: https://gitlab.com/xliiv/dwl
+Author: xliiv
+Author-email: tymoteusz.jankowski@gmail.com
+License: UNKNOWN
+Description: Stupid command to download YouTube's `watch later` videos.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
