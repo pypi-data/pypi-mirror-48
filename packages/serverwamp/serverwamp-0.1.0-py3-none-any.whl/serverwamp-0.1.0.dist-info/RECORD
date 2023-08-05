@@ -1,0 +1,11 @@
+serverwamp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverwamp/helpers.py,sha256=j4ztUdQLUEOAVXqI0Eyx9JRrje284_CTXjU89aA0PaY,545
+serverwamp/protocol.py,sha256=vl3yYfk2tD0SbjYPOWahCgXwwK_BEMkBhb5g_fYP7E0,9401
+serverwamp/rpc.py,sha256=K9hRMZChBHPVjcv2iFpn2qYVAjjCSZOchzNR8Jnc4mI,5938
+serverwamp/adapters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverwamp/adapters/aiohttp.py,sha256=R8NguVevwtr_3K1Euybq0c9pl19JpS_GWNK7UFYQr-A,2647
+serverwamp/adapters/base.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverwamp-0.1.0.dist-info/METADATA,sha256=Pj0KTnMV3_-kgOZbJk0AAnOCkaiY80XQBH6aAt7kvcs,3598
+serverwamp-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+serverwamp-0.1.0.dist-info/top_level.txt,sha256=oMqtCEomVacFtCt62iNxzKSZDDz3rIAFywFSOZjlGkE,11
+serverwamp-0.1.0.dist-info/RECORD,,
