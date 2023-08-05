@@ -1,0 +1,11 @@
+README.md
+setup.py
+cosilico_runner/__init__.py
+cosilico_runner/cosilico_runner.py
+cosilico_runner.egg-info/PKG-INFO
+cosilico_runner.egg-info/SOURCES.txt
+cosilico_runner.egg-info/dependency_links.txt
+cosilico_runner.egg-info/entry_points.txt
+cosilico_runner.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cosilico_runner.py
