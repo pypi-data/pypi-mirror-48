@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: xrviz
+Version: 0.0.1
+Summary: Interactive visualisations for xarrays
+Home-page: UNKNOWN
+Maintainer: Martin Durant
+Maintainer-email: mdurant@anaconda.com
+License: BSD
+Description: # xrviz
+        Interactive visualisation interface for Xarrays
+        
+Platform: UNKNOWN
