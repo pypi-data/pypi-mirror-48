@@ -1,0 +1,22 @@
+/* BOX
+ **  Use it to put content inside a neat little box
+ */
+
+.box
+	+box-card
+	@extend .p-4
+	overflow: hidden
+	position: relative
+	word-break: break-word
+
+	+media-xs
+		margin-bottom: 14px
+
+	+media-sm
+		margin-bottom: 14px
+
+	p
+		position: relative
+
+	&+.box // When a box is followed immediately by another box
+		margin-top: 20px
