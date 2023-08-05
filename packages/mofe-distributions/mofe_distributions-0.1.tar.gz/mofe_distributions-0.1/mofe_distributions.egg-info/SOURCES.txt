@@ -1,0 +1,10 @@
+setup.py
+mofe_distributions/Binomialdistribution.py
+mofe_distributions/Gaussiandistribution.py
+mofe_distributions/Generaldistribution.py
+mofe_distributions/__init__.py
+mofe_distributions.egg-info/PKG-INFO
+mofe_distributions.egg-info/SOURCES.txt
+mofe_distributions.egg-info/dependency_links.txt
+mofe_distributions.egg-info/not-zip-safe
+mofe_distributions.egg-info/top_level.txt
