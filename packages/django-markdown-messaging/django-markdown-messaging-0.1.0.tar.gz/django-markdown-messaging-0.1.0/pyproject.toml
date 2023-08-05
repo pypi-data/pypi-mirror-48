@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "django-markdown-messaging"
+version = "0.1.0"
+description = "Django application to create messages based on markdown"
+authors = ["Aloha68 <dev@aloha.im>"]
+license = "ISC"
+readme = "README.md"
+homepage = "https://gitlab.com/aloha68/django-markdown-messaging"
+repository = "https://gitlab.com/aloha68/django-markdown-messaging"
+
+classifiers=[
+    'Environment :: Web Environment',
+    'Framework :: Django',
+    'Framework :: Django :: 2.2',
+    'Operating System :: OS Independent',
+    'Topic :: Communications',
+]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+django = "^2.2"
+markdown = "^2.6"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
