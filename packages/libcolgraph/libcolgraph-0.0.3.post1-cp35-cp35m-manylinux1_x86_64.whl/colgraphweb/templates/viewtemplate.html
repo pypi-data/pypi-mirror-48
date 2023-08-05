@@ -1,0 +1,34 @@
+{% block content %}
+   <div id="optionsbar">
+      <button id="generate-button" onclick="generate(basegraph)">Generate</button>
+      <input id="numcolors-textfield" type="text" name="k" value="{{ colors }}">
+   </div>
+   <div class="parent grid-parent">
+
+     <div>
+       <div>
+        {% with container_type="bg" %}
+          {% include "graphcontainer.html"  %}
+        {% endwith %}
+       </div>
+       <div>
+        {% with container_type="mcg" %}
+          {% include "graphcontainer.html"  %}
+        {% endwith %}
+       </div>
+     </div>
+
+    <div>
+      <div>
+          {% with container_type="cg" %}
+            {% include "graphcontainer.html"  %}
+          {% endwith %}
+      </div>
+      <div>
+          {% with container_type="bg" %}
+            {% include "graphcontainer.html"  %}
+          {% endwith %}
+      </div>
+    </div>
+  </div>
+{% endblock %}
