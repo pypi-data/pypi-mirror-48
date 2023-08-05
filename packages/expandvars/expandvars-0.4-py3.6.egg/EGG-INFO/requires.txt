@@ -1,0 +1,9 @@
+
+[dev]
+tox>=3.7.0
+pytest>=4.6.1
+pytest-cov>=2.7.1
+
+[testing]
+pytest>=4.6.1
+pytest-cov>=2.7.1
