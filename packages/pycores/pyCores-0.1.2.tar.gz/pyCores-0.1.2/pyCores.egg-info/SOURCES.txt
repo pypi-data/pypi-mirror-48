@@ -1,0 +1,14 @@
+README.md
+setup.py
+cores/__init__.py
+cores/__version__.py
+cores/baserepo.py
+cores/core.py
+cores/notification/__init__.py
+cores/notification/notification.py
+cores/notification/notificationcenter.py
+cores/notification/unitest.py
+pyCores.egg-info/PKG-INFO
+pyCores.egg-info/SOURCES.txt
+pyCores.egg-info/dependency_links.txt
+pyCores.egg-info/top_level.txt
