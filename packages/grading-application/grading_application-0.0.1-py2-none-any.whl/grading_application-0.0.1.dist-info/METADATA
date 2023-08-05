@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: grading-application
+Version: 0.0.1
+Summary: Short answer grading assistant with active learning support
+Home-page: https://upload.pypi.org/legacy/grading_application
+Author: Ravikiran Bhat
+Author-email: ravikiranbhat243@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Autograding assistant
+
+### Instructions
+To use the web based autograding assistant, perform the following steps:
+* Place all the student ipython notebooks (i.e, the .ipynb files) into a directory named "data".
+* copy the data/ directory into the gradin_application/ directory.
+* Once the application is lauched, go to http://127.0.0.1:5000 to get the GUI window.
+
+
