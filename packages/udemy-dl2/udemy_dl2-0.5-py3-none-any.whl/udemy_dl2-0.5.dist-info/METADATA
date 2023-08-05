@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: udemy-dl2
+Version: 0.5
+Summary: download umdemy course
+Home-page: https://github.com/r0oth3x49/udemy-dl
+Author: r0oth3x49
+Author-email: UNKNOWN
+License: License :: OSI Approved :: MIT License
+Keywords: udemy,download
+Platform: Platform Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests[security]
+Requires-Dist: six
+Requires-Dist: colorama
+Requires-Dist: requests
+Requires-Dist: unidecode
+Requires-Dist: pyOpenSSL
+
+UNKNOWN
+
+
