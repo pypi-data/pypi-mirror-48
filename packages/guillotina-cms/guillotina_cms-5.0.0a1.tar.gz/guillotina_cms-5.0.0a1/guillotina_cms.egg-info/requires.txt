@@ -1,0 +1,9 @@
+guillotina>=5.0.0a6
+guillotina-dbusers>=5.0.1
+diff-match-patch>=20121119
+Pillow
+plone.scale>=3.0.1
+
+[extras]
+guillotina_elasticsearch
+guillotina_linkintegrity

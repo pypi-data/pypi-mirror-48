@@ -1,0 +1,4 @@
+[console_scripts]
+deletedb = guillotina_cms.scripts:deletedb
+initdb = guillotina_cms.scripts:initdb
+
