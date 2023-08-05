@@ -1,0 +1,143 @@
+  - debug: var=ec2_facts verbosity=3
+
+  - name: setting az for "{{inventory_hostname}}"
+    set_fact: az="{{region}}{{inventory_hostname | zone(subnets_count, region) }}"
+
+  - set_fact: query="instances[?tags.Name=='{{inventory_hostname}}' && state == 'running']"
+
+  - set_fact: "ec2_instances={{ec2_facts| json_query(query) }}"
+
+  - set_fact: "ec2_instance={{ec2_instances[0]}}"
+    when: ec2_instances | length > 0
+
+  - set_fact: ip="{{ ec2_instance['private_ip_address'] | default('') }}"
+    when: ec2_instance is defined
+
+  - debug: var=ec2_instance verbosity=1
+    when: ec2_instance is defined
+
+  - debug:
+      msg: "{{inventory_hostname}}|{{ip | default('')}}/{{ami}}/{{az}} -> ({{security_groups}}) updates(ami: {{ami_update | bool}}, userData: {{userData_update | bool}}, boot_disk: {{boot_disk_update | bool}} }}"
+
+  - include_tasks: _lookup_ami.yml
+    when: target == 'aws'
+
+  - name: "set subnet {{subnet_name}}/{{az}}"
+    set_fact: subnet="{{all_subnets | find_subnets(subnet_name, az) |  map(attribute='id') | first}}"
+    when: target == 'aws'
+
+  - set_fact:
+      security_group_ids: []
+      security_groups: "{{ security_groups | default([]) }}"
+
+  - name: merge security group names
+    set_fact:
+      security_groups: "{{security_groups}} + ['{{role}}-{{purposeId }}']"
+    when: purposeId is defined and role != purposeId
+
+  - name: lookup security group id by name
+    set_fact:  security_group_ids="{{security_group_ids + [sg_groups.get(item | lower,'')] }}"
+    with_items: "{{security_groups}}"
+    when: sg_groups is defined
+
+  - set_fact:
+      security_group_ids: "{{ security_group_ids | reject('equalto', '') | list }}"
+
+  - debug:
+      msg: "{{inventory_hostname}}/{{subnet}}/{{az}}/{{security_groups}}/{{security_group_ids}}"
+
+  - include_tasks: _cloud_init.yml
+    when: ec2_instance is not defined or userData_update | is_truthy
+
+  - include_tasks: _soft_idempotency.yml
+    when: target == 'aws'
+
+  - set_fact:
+      tags: "{{all_tags | default({}) | combine(tags | default({})) }}"
+
+  - debug: var=hostvars[inventory_hostname] verbosity=1
+  - debug: var=play_hosts verbosity=2
+
+  - name: Create build directory
+    file:
+      path: build
+      state: directory
+    run_once: true
+
+  - name: Using standard template
+    set_fact:
+      template_name: instances.cf.tpl
+    when: target == 'aws'
+
+  - name: Using service catalog template
+    set_fact:
+      template_name: instance.catalog.tpl
+    when: target == 'aws-service-catalog'
+
+  # we generate and use a random filename as a form of authentication as there are issues with the v4 signatures in ap-northeast
+  - set_fact:
+      random_filename: "{{timestamp}}-{{ timestamp | to_uuid }}-{{inventory_file | basename}}.cf"
+
+  - set_fact:
+      cloudformation_template_url: "https://{{cf_template_bucket}}.s3.amazonaws.com/{{random_filename}}"
+
+  - name: render instances, volumes, ELB and DNS
+    template: src="{{template_name}}" dest="build/instances.cf"
+    delegate_to: localhost
+    run_once: true
+    check_mode: no
+
+  - name: Create cloudformation S3 bucket
+    aws_s3:
+      bucket: "{{cf_template_bucket}}"
+      region: "{{region}}"
+      mode: create
+    run_once: true
+    delegate_to: localhost
+
+
+  - name: upload cloudformation to S3 using v4 signature
+    aws_s3:
+      bucket: "{{cf_template_bucket}}"
+      object: "{{random_filename}}"
+      region: "{{region}}"
+      permission: public-read
+      src: build/instances.cf
+      mode: put
+    run_once: true
+    delegate_to: localhost
+
+  - include: service_catalog.yml
+    when: target == 'aws-service-catalog'
+
+  - set_fact:
+      ip: ""
+
+  - name: deploy stack {{stack_name}}
+    run_once: true
+    cloudformation:
+      stack_name: "{{stack_name}}"
+      create_changeset: "{{create_change_set}}"
+      state: "present"
+      region: "{{region}}"
+      template_url: "{{cloudformation_template_url}}"
+    register: out
+    when: target == 'aws'
+
+  - debug: var=out
+    run_once: true
+
+  - set_fact:
+      cf_url: "https://{{region}}.console.aws.amazon.com/cloudformation/home?region={{region}}#/changeset/detail?changeSetId={{out.warnings[1] | regex_search('arn:.*') | regex_replace('/', '%2F') }}"
+    when: out.warnings is defined and out.warnings | length >= 3
+    run_once: true
+
+  - name: Export Cloudformation change url
+    shell: echo "{{cf_url}}" >> urls
+    run_once: true
+    when: cf_url is defined
+
+  - include_tasks: _lookup_ip.yml
+    delay: 20
+    retries: 20
+    until: ip != ''
