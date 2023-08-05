@@ -1,0 +1,9 @@
+README.md
+setup.py
+userspy/__init__.py
+userspy/sqlite.py
+userspy/users.py
+userspy.egg-info/PKG-INFO
+userspy.egg-info/SOURCES.txt
+userspy.egg-info/dependency_links.txt
+userspy.egg-info/top_level.txt
