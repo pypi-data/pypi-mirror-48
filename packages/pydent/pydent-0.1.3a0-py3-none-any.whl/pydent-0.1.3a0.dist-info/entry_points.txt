@@ -1,0 +1,6 @@
+[console_scripts]
+civerify=pydent:_version.verify_ci
+name=pydent:_version.get_name
+upver=pydent:_version.pull_version
+version=pydent:_version.get_version
+
