@@ -1,0 +1,7 @@
+easyfile
+
+[allennlp]
+allennlp
+
+[torchtext]
+torchtext
