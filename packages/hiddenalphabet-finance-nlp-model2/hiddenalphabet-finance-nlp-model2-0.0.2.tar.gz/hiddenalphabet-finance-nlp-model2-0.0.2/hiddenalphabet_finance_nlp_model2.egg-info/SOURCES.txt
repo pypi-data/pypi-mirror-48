@@ -1,0 +1,5 @@
+setup.py
+hiddenalphabet_finance_nlp_model2.egg-info/PKG-INFO
+hiddenalphabet_finance_nlp_model2.egg-info/SOURCES.txt
+hiddenalphabet_finance_nlp_model2.egg-info/dependency_links.txt
+hiddenalphabet_finance_nlp_model2.egg-info/top_level.txt
