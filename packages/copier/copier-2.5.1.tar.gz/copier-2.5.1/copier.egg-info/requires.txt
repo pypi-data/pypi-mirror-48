@@ -1,0 +1,17 @@
+jinja2~=2.10
+colorama~=0.4
+toml~=0.10
+ruamel.yaml~=0.15
+
+[dev]
+pytest
+pytest-mock
+pytest-cov
+pytest-flake8
+flake8
+ipdb
+tox
+
+[testing]
+pytest
+pytest-mock
