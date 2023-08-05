@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.rst
+pytest_molecule.py
+setup.py
+pytest_molecule.egg-info/PKG-INFO
+pytest_molecule.egg-info/SOURCES.txt
+pytest_molecule.egg-info/dependency_links.txt
+pytest_molecule.egg-info/entry_points.txt
+pytest_molecule.egg-info/requires.txt
+pytest_molecule.egg-info/top_level.txt

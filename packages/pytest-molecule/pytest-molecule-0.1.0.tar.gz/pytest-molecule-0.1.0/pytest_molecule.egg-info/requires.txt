@@ -1,0 +1,2 @@
+pytest>=3.5.0
+molecule>=2.22rc1
