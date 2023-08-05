@@ -1,0 +1,9 @@
+README.md
+setup.py
+pySpeechAlien/__init__.py
+pySpeechAlien.egg-info/PKG-INFO
+pySpeechAlien.egg-info/SOURCES.txt
+pySpeechAlien.egg-info/dependency_links.txt
+pySpeechAlien.egg-info/not-zip-safe
+pySpeechAlien.egg-info/requires.txt
+pySpeechAlien.egg-info/top_level.txt
