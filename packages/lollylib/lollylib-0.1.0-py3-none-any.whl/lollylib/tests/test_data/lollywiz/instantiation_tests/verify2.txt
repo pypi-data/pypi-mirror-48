@@ -1,0 +1,13 @@
+/**
+* @brief: TODO: add your description
+*/
+class TestClass {
+/// This is template1 with condition1
+public:
+    /// Interface
+    /// Constructors
+    TestClass() { }
+    ~TestClass() { }
+private:
+    /// Here goes private part
+};

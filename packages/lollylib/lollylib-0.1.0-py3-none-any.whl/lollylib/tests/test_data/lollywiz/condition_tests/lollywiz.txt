@@ -1,0 +1,17 @@
+/* CONDITIONAL DIRECTIVES TEST */
+LOLLYWIZ_TEXTFILE_VERSION = 0.1.0
+
+#default_local_replacements_begin
+
+PROJECT_NAME = default_CondTest
+CLASS_NAME = default_CondTest
+CLASS_FILE_NAME = default_cond_test
+AUTHOR = 'Alex Ivanov'
+
+#default_local_replacements_end
+
+#instructions_begin 
+
+inst 'cond_template1.hpp' 'cond_output1.hpp'
+
+#instructions_end

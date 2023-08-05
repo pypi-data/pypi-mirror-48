@@ -1,0 +1,21 @@
+/* LOLLYWIZ GIT TEMPLATE */
+LOLLYWIZ_TEXTFILE_VERSION = 0.1.0
+
+/* Keys and default values to be replaced in this file 
+and also in each template file that is instantiated. */
+#default_replacement_map_begin
+
+PROJECT_NAME = MyGitProject
+AUTHOR = 'TODO: Your Name'
+AUTHOR_EMAIL = 'yourname@example.com'
+
+#default_replacement_map_end
+
+
+#instructions_begin 
+instantiate gitignore.lwt .gitignore
+instantiate README.md.lwt README.md
+[## if LICENSE_TYPE_MIT ##]
+inst MIT_LICENSE.lwt LICENSE
+[## endif ##]
+#instructions_end

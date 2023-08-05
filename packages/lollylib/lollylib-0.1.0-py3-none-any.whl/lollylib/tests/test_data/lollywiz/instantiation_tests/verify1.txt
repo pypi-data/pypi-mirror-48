@@ -1,0 +1,10 @@
+class DefaultClass {
+/// This is default template0
+public:
+    /// Interface
+    /// Constructors
+    DefaultClass() { }
+    ~DefaultClass() { }
+private:
+    /// Here goes private part
+};
