@@ -1,0 +1,6 @@
+grpcio==1.21.1
+grpcio-tools==1.21.1
+
+[dev]
+
+[test]
