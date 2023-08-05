@@ -1,0 +1,3 @@
+
+      [console_scripts]
+      ioknife = ioknife.cli:main
