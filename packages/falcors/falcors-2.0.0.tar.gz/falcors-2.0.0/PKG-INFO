@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: falcors
+Version: 2.0.0
+Summary: Falcon CORS middlware
+Home-page: https://github.com/gnucoop/falcors
+Author: Gnucoop
+Author-email: dev@gnucoop.com
+License: UNKNOWN
+Download-URL: https://github.com/gnucoop/falcors/archive/2.0.0.zip
+Description: UNKNOWN
+Keywords: falcon,cors,http
+Platform: UNKNOWN
