@@ -1,0 +1,8 @@
+README.md
+setup.py
+emarsysauthenticator/__init__.py
+emarsysauthenticator/emarsysauthenticator.py
+emarsysauthenticator.egg-info/PKG-INFO
+emarsysauthenticator.egg-info/SOURCES.txt
+emarsysauthenticator.egg-info/dependency_links.txt
+emarsysauthenticator.egg-info/top_level.txt
