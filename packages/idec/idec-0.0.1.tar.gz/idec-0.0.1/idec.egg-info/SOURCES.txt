@@ -1,0 +1,9 @@
+README.md
+setup.py
+idec/__init__.py
+idec/dec.py
+idec.egg-info/PKG-INFO
+idec.egg-info/SOURCES.txt
+idec.egg-info/dependency_links.txt
+idec.egg-info/requires.txt
+idec.egg-info/top_level.txt
