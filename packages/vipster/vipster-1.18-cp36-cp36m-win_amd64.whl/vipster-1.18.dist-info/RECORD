@@ -1,0 +1,11 @@
+vipster/__init__.py,sha256=BzdTcsIycOZ9Ix8NLx6ohSdwuM5dvMc4rezaaLI-UEk,23
+vipster/libgcc_s_seh-1.dll,sha256=R5kHkErPKDaj4QOhkjk-mMmM_dwbTAuP8gpEJSGQDGo,74240
+vipster/libstdc++-6.dll,sha256=zdMWWd7fwqrFGyyrt3wGFgP9P5H-mJWLnBecw_SsYQQ,1425920
+vipster/libvipster.dll,sha256=nTo1oJbWM8TutJ1UhHqPLXrsKvJySHSqXmxNnC8-Wv4,1291959
+vipster/libwinpthread-1.dll,sha256=vU9iKmfm8zrsEZ2YexrisPxSuNWhsqgFqrZU1Qf1adM,52224
+vipster/vipster.cp36-win_amd64.pyd,sha256=n2kxlaKCfnzSCwqZ3H7CZRypbJgH_I3hRm8fx4GQ76o,864768
+vipster-1.18.dist-info/LICENSE,sha256=xh8S2nza1Sa9y-1HpMCmA-YNu_2vi2aTPNCI6RMsMD8,32472
+vipster-1.18.dist-info/METADATA,sha256=aOVpaSzlM3AM_dfYv6SWrHt4FnkwMocC2eURgVw42i4,4845
+vipster-1.18.dist-info/WHEEL,sha256=S_mX8sP6H8AMjLVRL5jkNlK73uf4g6NGqiKQ98w1PV0,106
+vipster-1.18.dist-info/top_level.txt,sha256=oS8UyA13uzL6FhM5C_gpRxmk1ZmCVXm6AZN07GawoFc,10
+vipster-1.18.dist-info/RECORD,,
