@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+cli.py
+setup.cfg
+setup.py
+entries.egg-info/PKG-INFO
+entries.egg-info/SOURCES.txt
+entries.egg-info/dependency_links.txt
+entries.egg-info/entry_points.txt
+entries.egg-info/requires.txt
+entries.egg-info/top_level.txt
