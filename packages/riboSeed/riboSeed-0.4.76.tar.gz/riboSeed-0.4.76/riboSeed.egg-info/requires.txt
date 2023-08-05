@@ -1,0 +1,10 @@
+Biopython==1.68
+pysam
+coverage==4.4.1
+jenkspy==0.1.4
+matplotlib==1.5.3
+pandas==0.20.1
+pyaml==17.8.0
+networkx
+nose
+sphinxcontrib-napoleon
