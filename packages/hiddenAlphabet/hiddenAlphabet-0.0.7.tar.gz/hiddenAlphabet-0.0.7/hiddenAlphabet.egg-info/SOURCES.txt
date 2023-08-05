@@ -1,0 +1,7 @@
+setup.py
+hiddenAlphabet/__init__.py
+hiddenAlphabet/hiddenAlphabet.py
+hiddenAlphabet.egg-info/PKG-INFO
+hiddenAlphabet.egg-info/SOURCES.txt
+hiddenAlphabet.egg-info/dependency_links.txt
+hiddenAlphabet.egg-info/top_level.txt
