@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: beatmachine
+Version: 2.0.0
+Summary: The Beat Machine is a library for playing with beats of songs.
+Home-page: https://github.com/dhsavell/beat-machine
+License: UNKNOWN
+Author: dhsavell
+Author-email: dhsavell05@gmail.com
+Classifier: License :: OSI Approved :: MIT License
