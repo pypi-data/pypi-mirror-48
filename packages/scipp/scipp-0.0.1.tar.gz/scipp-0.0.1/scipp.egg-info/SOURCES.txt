@@ -1,0 +1,5 @@
+setup.py
+scipp.egg-info/PKG-INFO
+scipp.egg-info/SOURCES.txt
+scipp.egg-info/dependency_links.txt
+scipp.egg-info/top_level.txt

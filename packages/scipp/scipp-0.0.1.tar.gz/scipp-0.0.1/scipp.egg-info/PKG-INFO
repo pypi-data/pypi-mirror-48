@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: scipp
+Version: 0.0.1
+Summary: Multi-dimensional data arrays with labeled dimensions
+Home-page: https://github.com/scipp/scipp
+Author: Simon Heybrock et al.
+Author-email: simon.heybrock@esss.se
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
