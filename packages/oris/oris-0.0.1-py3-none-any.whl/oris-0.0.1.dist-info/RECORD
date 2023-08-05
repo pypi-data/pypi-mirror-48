@@ -1,0 +1,9 @@
+oris/__init__.py,sha256=L422VtuWSW-yyFWz5cp0O5Od-JKhOMbWDtg7i4tgwSI,418
+oris/models.py,sha256=8IBCAO5vVcByJC19mWGoFayTZIb342Tpvyq_T94VQmo,29
+oris/utils.py,sha256=iyBnf0C31irFbDA-uewZPT-t3MgIqj5ndw-Ym2yZC8Q,740
+oris/parse/oris.g4,sha256=yD9DKldugQtr_tZiLsruOXk24ULLXUpPbmJRQnHe8bY,21
+oris-0.0.1.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+oris-0.0.1.dist-info/METADATA,sha256=liJyIMYi5kC7zh0KuowK642qsJPHKycOsVr5i5tWovI,4053
+oris-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+oris-0.0.1.dist-info/top_level.txt,sha256=GVn6FA5qwTXJnHmAmqJ1c2EnmkasNk-owg6weDNqb-I,5
+oris-0.0.1.dist-info/RECORD,,
