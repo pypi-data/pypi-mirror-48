@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: gshell.py
+Version: 0.0.1
+Summary: A straight port of glib/gshell.c to Python
+Home-page: https://github.com/jfhbrook/gshell.py
+Author: Joshua Holbrook
+Author-email: josh.holbrook@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: glib,gshell,shell,shell quote,shell unquote,g_shell_quote,g_shell_unquote,g_shell_parse_argv
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Topic :: System :: Shells
