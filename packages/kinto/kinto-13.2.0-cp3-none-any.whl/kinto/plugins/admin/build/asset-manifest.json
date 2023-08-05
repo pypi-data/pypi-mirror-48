@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.js": "/v1/admin/static/js/main.c543b2a3.chunk.js",
+    "main.js.map": "/v1/admin/static/js/main.c543b2a3.chunk.js.map",
+    "runtime~main.js": "/v1/admin/static/js/runtime~main.dde49ca3.js",
+    "runtime~main.js.map": "/v1/admin/static/js/runtime~main.dde49ca3.js.map",
+    "static/css/2.a3069bcf.chunk.css": "/v1/admin/static/css/2.a3069bcf.chunk.css",
+    "static/js/2.4df34277.chunk.js": "/v1/admin/static/js/2.4df34277.chunk.js",
+    "static/js/2.4df34277.chunk.js.map": "/v1/admin/static/js/2.4df34277.chunk.js.map",
+    "index.html": "/v1/admin/index.html",
+    "precache-manifest.a9b2811f87be5126022d8bf77ffae387.js": "/v1/admin/precache-manifest.a9b2811f87be5126022d8bf77ffae387.js",
+    "service-worker.js": "/v1/admin/service-worker.js",
+    "static/css/2.a3069bcf.chunk.css.map": "/v1/admin/static/css/2.a3069bcf.chunk.css.map",
+    "static/media/bootstrap.css": "/v1/admin/static/media/glyphicons-halflings-regular.fa277232.woff"
+  }
+}
