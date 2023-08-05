@@ -1,0 +1,15 @@
+numpy
+bokeh
+pyqtgraph
+pandas
+matplotlib
+scipy
+cdflib
+xarray
+
+[tests]
+pytest
+pytest-cov
+coveralls
+flake8
+mypy
