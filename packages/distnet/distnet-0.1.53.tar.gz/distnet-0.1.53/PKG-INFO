@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: distnet
+Version: 0.1.53
+Summary: TCP connections visualizer.
+Home-page: https://github.com/p0licat/distnet
+Author: p0licat
+Author-email: tbodica@gmail.com
+License: LICENSE.txt
+Description: Visualizer for TCP connections. Ports 53 and 43 are used by some features.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: POSIX :: Linux
