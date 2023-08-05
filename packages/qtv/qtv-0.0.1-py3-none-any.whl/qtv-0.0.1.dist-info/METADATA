@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: qtv
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Fangzhou Wang
+Author-email: fwangusc@gmail.com
+License: Apache Software License
+Keywords: RSFQ STA DTV ATPG
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6, !=3.5.*, <4
+Description-Content-Type: text/markdown
+Requires-Dist: arklibpy (>=0.1.5)
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+# qTV
+A set of tools to facilitate Timing Verification of SCL circuits.
+
+
+
