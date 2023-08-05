@@ -1,0 +1,10 @@
+flu/__init__.py,sha256=vNRmgPK978BGpSmCaD7oEr8PdU0313q_1skH64zlGv4,68
+flu/__main__.py,sha256=selibLjpjg78CZBG6Q9XhZPzEaRBh2_YLDj8SXzYKEY,102
+flu/colors.py,sha256=-i4nWj7o9Nvpikwew3An8_magBsRI1fCHuWcjo-8gLo,257
+flu/flu.py,sha256=M2bl_Dc9-f2WxAl1-t6IPCBIa35Dyt506vmtOQPVI_I,279
+flu/hello.py,sha256=TgkBnrD6RbNlk3MDQvMgV67sFo9S9QNXmuIi8xvIOdg,740
+flu-0.0.1.dist-info/METADATA,sha256=LxVfMLDB0VPfw1-cXeJSoFAzg1YiU5MLLGkGlRH4RKw,883
+flu-0.0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+flu-0.0.1.dist-info/entry_points.txt,sha256=VReVwgHMUL22rQg1FaXczTH4enCQMMSvJJOZ3KxVz4A,43
+flu-0.0.1.dist-info/top_level.txt,sha256=ZcppFalD6S8hqul8B_4vGcBFo8SVqVusd5aRV6qPt60,4
+flu-0.0.1.dist-info/RECORD,,
