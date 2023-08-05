@@ -1,0 +1,8 @@
+README.md
+setup.py
+Mark2PY/__init__.py
+Mark2PY.egg-info/PKG-INFO
+Mark2PY.egg-info/SOURCES.txt
+Mark2PY.egg-info/dependency_links.txt
+Mark2PY.egg-info/requires.txt
+Mark2PY.egg-info/top_level.txt
