@@ -1,0 +1,8 @@
+README.md
+setup.py
+qtv/__init__.py
+qtv.egg-info/PKG-INFO
+qtv.egg-info/SOURCES.txt
+qtv.egg-info/dependency_links.txt
+qtv.egg-info/requires.txt
+qtv.egg-info/top_level.txt
