@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+test-requirements.txt
+jpfund/__emaxis.py
+jpfund/__fund_base.py
+jpfund/__init__.py
+jpfund/__morningstar.py
+jpfund/__nikko.py
+jpfund.egg-info/PKG-INFO
+jpfund.egg-info/SOURCES.txt
+jpfund.egg-info/dependency_links.txt
+jpfund.egg-info/requires.txt
+jpfund.egg-info/top_level.txt
