@@ -1,0 +1,3 @@
+[pyapp.extensions]
+pyapp.sqlalchemy = pyapp_ext.sqlalchemy:Extension
+
