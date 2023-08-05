@@ -1,0 +1,12 @@
+mellow/Classifiers.py,sha256=YHjlqC8lYIzmp4fmhp1eL9Duzo6Ei7DnnjZe8ZcqilE,1333
+mellow/Regressor.py,sha256=nUYhUOraHURuwoCJg66lEhJhm7ZqEZSurm1cvOObCj4,2016
+mellow/__init__.py,sha256=-YYmh4WEyDv6gsD0kP3s75Xl3tFjOIEoLyy0NhQjg_k,105
+mellow/main.py,sha256=BsULv_Y2nOVqarDmhz3G_J0V3-UIpOZIn0eRCwJmjsM,142
+mellow/ml.py,sha256=lnqCi1lFY0JXtLOJRKKHLTUDWBc5Uu0jqwXqT6fpd3Y,1063
+mellow/utility.py,sha256=QqKVcfM_txVXUPHqTFBlTEXFvKUxHwK6bSzAYAEftLA,354
+mellow-0.0.0.8.dist-info/LICENSE,sha256=Uj1PvdLU_kOZG1GRgUwM8gAQ9h-D7-tIPBEqtm210ak,1060
+mellow-0.0.0.8.dist-info/METADATA,sha256=ubxgXc_Bk98at8JSOqO3Nl5w863ThAD4RrQsV9DE3e8,1401
+mellow-0.0.0.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mellow-0.0.0.8.dist-info/entry_points.txt,sha256=lZjuZxciY88yKx0nltTbkC3ASJhKWGHLHI9zaQjkC1A,45
+mellow-0.0.0.8.dist-info/top_level.txt,sha256=PQ2KSVDsGQmbz1RGbD58VhysS-uBix0jQJ_vrqz3toc,7
+mellow-0.0.0.8.dist-info/RECORD,,

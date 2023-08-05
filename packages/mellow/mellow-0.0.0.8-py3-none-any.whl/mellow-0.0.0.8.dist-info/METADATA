@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: mellow
+Version: 0.0.0.8
+Summary: machine learning algorithms
+Home-page: https://github.com/macabdul9/mellow
+Author: Abdul Waheed
+Author-email: abdulwaheed1513@gmail.com
+License: License :: OSI Approved :: MIT License
+Keywords: machine-learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: opencv-python
+
+## Machine Learning - just do it ! 
+#### mellow is a python package that contains some well known machine learning algorithms.
+#### Exclusive to first time learner.
+It provides:
+- most popular machine learning algorithms
+- sophisticated utility functions useful in these algorithms
+- and much more
+
+Often Developers/Students feel hesitation to implement the machine learning algorithms because either they find it hefty or time consuming, what I believe is understanding the machine learning algorithms and the mathematics behind these algorithms is much more important than converting it into code. So I came up with this beautiful library mellow to help you (and myself tbh) out.
+
+
+### Installation using pip
+- pip install mellow 
+
+
+
+
