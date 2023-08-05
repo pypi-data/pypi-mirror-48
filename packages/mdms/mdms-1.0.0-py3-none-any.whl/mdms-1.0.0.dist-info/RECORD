@@ -1,0 +1,12 @@
+mdms/__init__.py,sha256=RJtEba01gbrLYzY1cV05Mku1JCx62HykC4QWbY_4Fzg,67
+mdms/amber_parameters.py,sha256=hbYf7pL72hH_2ac7rO2rmmSdjiQxFYBS6z7P8p6XeKQ,44212
+mdms/initial_struc.py,sha256=0Al9lYf9aXWn2PwkGAIkWjOs5hDnSqj_r_uks_4fSKw,61361
+mdms/mdms_menu.py,sha256=u0p4eqQAy2M-hD0XVxD0RkLeUyGDIEgiQRTTwqDh7EA,4696
+mdms/run_simulations.py,sha256=BO1KIJ3AFOW3UWZVS5eqUInzRqYVWdxe7jxR_9-gRxE,16898
+mdms/topology_prep.py,sha256=t5irkoGlN76Y_nnxVRKveEmyc1wY75kHjEyqf85_2GE,53755
+mdms-1.0.0.data/scripts/mdms_menu.py,sha256=u0p4eqQAy2M-hD0XVxD0RkLeUyGDIEgiQRTTwqDh7EA,4696
+mdms-1.0.0.dist-info/LICENSE,sha256=U7s5zX1kQeYOgsAqz_F61jslDE4J_1qXfCqWoHCYypQ,1090
+mdms-1.0.0.dist-info/METADATA,sha256=8vCxjRZ2-woBVGGOjsOU1RUGZ0jDEEdq5NxBuRQ5OlA,5910
+mdms-1.0.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+mdms-1.0.0.dist-info/top_level.txt,sha256=Ri5pVypkRRibyNaQfgKXrvO0zr3vwoEdpbnHjBfpOLI,5
+mdms-1.0.0.dist-info/RECORD,,
