@@ -1,0 +1,9 @@
+urbansim_defaults/__init__.py,sha256=peiUa6e5CtMUV1c84ZEzIpd5zAnBOeik-LR1Qh4eewA,29
+urbansim_defaults/datasources.py,sha256=r96PosXldupCeewngKhFoMKn10xvUaGyr33aJva2UXo,5685
+urbansim_defaults/models.py,sha256=aQ4aMLhIQXP_rXldcEMkskD1qYlDv8vq-ZM4uGJHNVQ,8984
+urbansim_defaults/utils.py,sha256=GdpqlGgbXMZfMhsXZKConFEC13tbRyv7B508zfGyu24,41461
+urbansim_defaults/variables.py,sha256=OkmxsCMXO_aVWo_cQBKO5O6tu8n_QVCDKx2dBRan3Ng,5182
+urbansim_defaults-0.1.dist-info/METADATA,sha256=8X6OYW0nNHEPv-9ckFl-AknODHwe9jwCONEocvHSO-o,403
+urbansim_defaults-0.1.dist-info/RECORD,,
+urbansim_defaults-0.1.dist-info/WHEEL,sha256=gduuPyBvFJQSQ0zdyxF7k0zynDXbIbvg5ZBHoXum5uk,110
+urbansim_defaults-0.1.dist-info/top_level.txt,sha256=29fy2b6jmFyFBkARvYUbKoDSU3vLsepgbyaSAICU0ic,18
