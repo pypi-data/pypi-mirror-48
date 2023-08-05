@@ -1,0 +1,11 @@
+irbis/__init__.py,sha256=iyk4BlPa1WXzB-Ee7sqHEp5hkKr-FYuavsk_OmS2vsI,414
+irbis/builder.py,sha256=JwoWk4RlMLl7zLz3wgvxyChY_gYteX7gPwd_atuouh8,4193
+irbis/core.py,sha256=iJ43hgzbStj-MSMtA5bA7COzAL1XRZVod6cexoZb9GU,92786
+irbis/export.py,sha256=tVetmQt1CIOgvo10ax4askpv6UCt_zB5YxKm8ipU_l0,1761
+irbis/ext.py,sha256=dYU78gz7BVpPEJgeUoiqrp_94hBgnMBscmUxyU_KTFI,58771
+irbis/iso2709.py,sha256=nytNL1sA9XpS1ls11VowQbjcdO8jII0fzBEUaa5UeXA,9847
+irbis-0.0.71.dist-info/LICENSE,sha256=BmuEXWeTT8MjH_GL3s55oUV1zdC8HLsX_YIlgv34JzE,1071
+irbis-0.0.71.dist-info/METADATA,sha256=nTvk4D356HGQPxLRZqougXPsqQ32uuosRqbkFrDZUTg,2969
+irbis-0.0.71.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+irbis-0.0.71.dist-info/top_level.txt,sha256=p3CUpXqK0e1TluPO6DH2dM-J9JqKwT2hnafk8KGdon0,6
+irbis-0.0.71.dist-info/RECORD,,
