@@ -1,0 +1,6 @@
+grpcio==1.16.0
+protobuf==3.6.1
+grakn
+grakn-client
+click
+six==1.11.0

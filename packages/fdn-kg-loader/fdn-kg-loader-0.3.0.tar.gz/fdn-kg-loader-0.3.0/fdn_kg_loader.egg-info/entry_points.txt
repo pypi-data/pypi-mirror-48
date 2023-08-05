@@ -1,0 +1,3 @@
+[console_scripts]
+fdnloader = fdnloader:main
+
