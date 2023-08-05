@@ -1,0 +1,127 @@
+# Congo
+
+![Python version](https://img.shields.io/pypi/pyversions/django-congo.svg)
+![Django version](https://img.shields.io/badge/django-1.11%20or%20newer-green.svg)
+![PyPI version](https://img.shields.io/pypi/v/django-congo.svg)
+![Licence](https://img.shields.io/pypi/l/django-congo.svg)
+![Downloads](https://img.shields.io/pypi/dm/django-congo.svg)
+
+Django Congo contains many useful tools for faster and more efficient Django application developing.
+
+----
+
+## Requirements
+
+Djanog Congo requires Python 2.7 and Django 1.10 or newer.
+
+## Installation
+
+To install congo, run the following command inside this directory::
+
+```
+python setup.py install
+```
+
+You can also install the package with a symlink, so that changes to the source files will be immediately available to other users of the package on your system::
+
+```
+python setup.py develop
+```
+
+If you're using `pip`:
+
+```
+pip install django-congo
+```
+
+You can also install directly from GIT repo:
+
+```
+pip install git+https://gitlab.com/integree/internal/congo3.git
+```
+
+or, if you need install from branch:
+
+```
+pip install git+https://gitlab.com/integree/internal/congo3.git@branch-name
+```
+
+## Project download
+
+Run console and cd to your working directory, eg. `D:\serwer\www`. Create a project dir and clone project from repo:
+
+```
+cd \serwer\www
+mkdir congo
+git clone https://gitlab.com/integree/internal/congo3.git congo
+```
+
+## Project development
+
+Before you start verify that packages bellow are installed:
+
+- Python 2.7
+- Microsoft Visual C++ Compiler for Python 2.7
+- MySQL 5.6 or 5.7 x64
+- MySQL Connector C 6.0.2
+- Git for Windows
+- GetText
+- Ruby & Compass
+- Node & Bower
+- virtualenv
+- virtualenvwrapper-win
+
+Verify that WORKON_HOME points to virtual env home directory
+
+```
+set WORKON_HOME
+```
+
+Make virtual env
+
+```
+virtualenv -p "c:\Python27\python.exe" "%WORKON_HOME%\congo"
+workon congo
+```
+
+Verify Python version is 2.7.x
+
+```
+python -V
+```
+
+Upgrade PIP and verify it's version
+
+```
+python -m pip install --upgrade pip
+pip -V
+```
+
+Set project dir
+
+```
+cd \serwer\www\congo
+setprojectdir .
+```
+
+Install requirements
+
+```
+pip install -r env\requirements.txt
+```
+
+Run Django migrations
+
+```
+migrate.bat
+```
+
+Run HTTP server
+
+```
+runserver.bat
+```
+
+## Authors
+
+Made with love by [Integree Bussines Solutions](https://www.integree.eu) from Warsaw, Poland
