@@ -1,0 +1,8 @@
+lazy_dataset/__init__.py,sha256=HnYM5PvqZp3vHrVNQYZjSX13gaEFllOw9HJTE7WgX7I,112
+lazy_dataset/core.py,sha256=BKoXOtc9e4hh6TmvG4BXTzi_MW7gsGJ6mg1LOixcUyc,64187
+lazy_dataset/parallel_utils.py,sha256=f91jbboR21KwHoabrjVAWz4gJmN-C7W5JckbcJqxlKw,7320
+lazy_dataset-0.0.4.dist-info/LICENSE,sha256=SCQeHq5qtMFcVxiZLKYNPRWWEhKk4yTgnl2_vHm3ghQ,1111
+lazy_dataset-0.0.4.dist-info/METADATA,sha256=XWuerM9A39bigYhLU9eGRsZ13tBmfkL0CbC2oPim3LQ,5243
+lazy_dataset-0.0.4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+lazy_dataset-0.0.4.dist-info/top_level.txt,sha256=5j9RCHsh1YzAWj-jjnGklZqipBd8PynyYOzPxspRJLI,13
+lazy_dataset-0.0.4.dist-info/RECORD,,
