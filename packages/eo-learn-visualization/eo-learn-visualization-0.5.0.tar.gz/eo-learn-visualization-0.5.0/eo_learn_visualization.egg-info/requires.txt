@@ -1,0 +1,10 @@
+eo-learn-core
+geoviews
+graphviz>=0.10.1
+hvplot
+jinja2
+matplotlib
+pydot
+pyepsg
+pygments
+xarray
