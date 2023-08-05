@@ -1,0 +1,6 @@
+[girder.plugin]
+tech_journal = girder_tech_journal:TechJournalPlugin
+
+[girder_worker_plugins]
+tech_journal_tasks = girder_tech_journal.tasks:TechJournalTasks
+
