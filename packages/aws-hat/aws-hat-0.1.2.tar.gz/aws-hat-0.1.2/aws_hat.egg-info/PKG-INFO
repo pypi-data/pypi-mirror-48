@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: aws-hat
+Version: 0.1.2
+Summary: Assume a role
+Home-page: https://github.com/binxio/aws-hat
+Author: Martijn van Dongen
+Author-email: martijnvandongen@binx.io
+License: MIT
+Description: # aws-hat
+        
+        Put on a different hat (assume role).
+        
+        Hat assumes a role and outputs temporary access keys.
+        
+Platform: any
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
