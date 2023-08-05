@@ -1,0 +1,11 @@
+README.md
+setup.py
+ipypy/__init__.py
+ipypy/config.py
+ipypy/full.py
+ipypy/ipyout.py
+ipypy/ipypy.py
+ipypy.egg-info/PKG-INFO
+ipypy.egg-info/SOURCES.txt
+ipypy.egg-info/dependency_links.txt
+ipypy.egg-info/top_level.txt
