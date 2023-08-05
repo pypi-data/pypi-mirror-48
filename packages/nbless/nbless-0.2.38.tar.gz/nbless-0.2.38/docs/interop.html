@@ -1,0 +1,139 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta charset="utf-8" />
+    <title>R and Python interoperability &#8212; Nbless 0.2.36 documentation</title>
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <script type="text/javascript" src="_static/language_data.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Missing a dependency?" href="dep.html" />
+    <link rel="prev" title="tests package" href="tests.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  <div class="document">
+    
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">Nbless</a></h1>
+
+
+
+<p class="blurb">A Python package for programmatic Jupyter notebook workflows</p>
+
+
+
+
+<p>
+<iframe src="https://ghbtns.com/github-btn.html?user=marskar&repo=nbless&type=star&count=true&size=large&v=2"
+  allowtransparency="true" frameborder="0" scrolling="0" width="200px" height="35px"></iframe>
+</p>
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="readme.html">Project overview</a></li>
+<li class="toctree-l1"><a class="reference internal" href="cli.html">Command-line interface</a></li>
+<li class="toctree-l1"><a class="reference internal" href="modules.html">Module reference</a></li>
+<li class="toctree-l1"><a class="reference internal" href="test_modules.html">Test reference</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">R and Python interoperability</a></li>
+<li class="toctree-l1"><a class="reference internal" href="dep.html">Missing dependencies?</a></li>
+<li class="toctree-l1"><a class="reference internal" href="many-file.html">Too many files to type out?</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="tests.html" title="previous chapter">tests package</a></li>
+      <li>Next: <a href="dep.html" title="next chapter">Missing a dependency?</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="r-and-python-interoperability">
+<h1>R and Python interoperability<a class="headerlink" href="#r-and-python-interoperability" title="Permalink to this headline">¶</a></h1>
+<p>All of the Nbless functions and commands work for Python <em>and</em> R code, with the caveat
+that <code class="docutils literal notranslate"><span class="pre">nbexec</span></code> and <code class="docutils literal notranslate"><span class="pre">nbless</span></code> require the kernel argument to be set to
+<code class="docutils literal notranslate"><span class="pre">ir</span></code> if R code files (<code class="docutils literal notranslate"><span class="pre">.R</span></code>) are included.</p>
+<p>If you want to execute a Jupyter notebook that contains both R and
+Python code, you will have to put the R code in Python scripts (<code class="docutils literal notranslate"><span class="pre">.py</span></code>)
+and use the <a class="reference external" href="https://rpy2.readthedocs.io/">rpy2</a> Python library with the default kernel
+(<code class="docutils literal notranslate"><span class="pre">python3</span></code>).</p>
+<p>Code files extracted from code cells with <code class="docutils literal notranslate"><span class="pre">nbraze</span></code> must all have the same extension (e.g. <cite>.py</cite>).
+If the <code class="docutils literal notranslate"><span class="pre">language_info</span></code> key is defined in the Jupyter notebook metadata, <code class="docutils literal notranslate"><span class="pre">nbraze</span></code> will try to infer the programming language.</p>
+<p>You can also run the Nbless functions in an R environment using the
+<a class="reference external" href="https://rstudio.github.io/reticulate/">reticulate</a> R package.</p>
+<p>All Nbless functions and commands rely on the <a class="reference external" href="https://nbconvert.readthedocs.io/">nbconvert</a> and <a class="reference external" href="http://nbformat.readthedocs.io/">nbformat</a> modules that are included with the <code class="docutils literal notranslate"><span class="pre">jupyter</span></code> Python library.
+The command line interface relies on the <a class="reference external" href="https://click.palletsprojects.com/">click</a> Python library.</p>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+    <div class="clearer"></div>
+  </div>
+    <div class="footer">
+      &copy;2019, Martin Skarzynski.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.1.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/interop.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+    <a href="https://github.com/marskar/nbless" class="github">
+        <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png" alt="Fork me on GitHub"  class="github"/>
+    </a>
+    
+
+    
+  </body>
+</html>
