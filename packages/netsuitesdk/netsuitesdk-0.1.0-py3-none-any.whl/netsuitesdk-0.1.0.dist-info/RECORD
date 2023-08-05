@@ -1,0 +1,10 @@
+netsuitesdk/__init__.py,sha256=scIpdo0ODOirQ6SLVSAWC3tF-FLX2w4TGmeUj5cb9A4,222
+netsuitesdk/constants.py,sha256=rsCov43zvnkIkDVCixcd2LQDKJxBa_Bb8pZtjhQQsp0,1667
+netsuitesdk/exceptions.py,sha256=kU9eklya6S62BShfq0SpCTrrqXFwH2JlAyl55TP3Ku4,950
+netsuitesdk/netsuitesdk.py,sha256=ufdkQgF3QWFfBapEyfCSw7eZmyt9Wg2J60UjclAzTs8,32505
+netsuitesdk/utils.py,sha256=zSTy3EUvQ50rJiWR0LJaiJXC9WiM83qSV3Agdf9Pxsw,2419
+netsuitesdk-0.1.0.dist-info/LICENSE,sha256=Gm8r18VTV8F_rh5IModyK4GTiTKgd0O2OS8OSOjwGkE,1063
+netsuitesdk-0.1.0.dist-info/METADATA,sha256=ef7X4gqgkoF5edt2zUFqhtQMI9sO7Zbxep_1YkQEJGc,4675
+netsuitesdk-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+netsuitesdk-0.1.0.dist-info/top_level.txt,sha256=FfkxN2jTk-9wAuseUbbyW_A6GbdsoO3FnOiVp2tLqT4,12
+netsuitesdk-0.1.0.dist-info/RECORD,,
