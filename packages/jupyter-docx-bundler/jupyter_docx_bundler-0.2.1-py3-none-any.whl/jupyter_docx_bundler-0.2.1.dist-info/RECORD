@@ -1,0 +1,12 @@
+jupyter_docx_bundler/__init__.py,sha256=mMGmLQQGcrHDZ2hhLOouOST7gU5E_11J3uavQozRZls,2413
+jupyter_docx_bundler/converters.py,sha256=46QMsifnpqOBqRSvRsQTg_8bMhhltw1p_tRv411YqUI,7410
+jupyter_docx_bundler/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jupyter_docx_bundler/tests/conftest.py,sha256=6jUA73tzaSsfy9I_gTKqYC7FvB758fJXjGLnI3AfOBg,3926
+jupyter_docx_bundler/tests/test_bundler.py,sha256=aw0QjMSeyuCmawUkMySq55f_LZKhTRH6tjPXd0sF-AM,1650
+jupyter_docx_bundler/tests/test_converters.py,sha256=xz84mrorXIyD5rtCIoQjOWt0A4IaMb8fiT3Jzi5qSes,228
+jupyter_docx_bundler-0.2.1.dist-info/LICENSE,sha256=3ZwvQE-8wkZlQGIB-5Fq0MVNcVdytInnpMeGntZDUuU,1073
+jupyter_docx_bundler-0.2.1.dist-info/METADATA,sha256=t3mfakMToHTF8JBqRUr5wMLjHB0yw5jhMM0CfhYDE9c,4056
+jupyter_docx_bundler-0.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+jupyter_docx_bundler-0.2.1.dist-info/entry_points.txt,sha256=OsBmwU7ZTwj7tsZlLwKxc6bA13XBEkr464xiILAtKS4,64
+jupyter_docx_bundler-0.2.1.dist-info/top_level.txt,sha256=d4BOgXknIjcLrQAYo3ABiOqfD7B_wGg1SQtfqBWof-U,21
+jupyter_docx_bundler-0.2.1.dist-info/RECORD,,
