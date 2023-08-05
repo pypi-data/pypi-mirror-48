@@ -1,0 +1,10 @@
+setup.py
+rrp_distributions/Binomialdistribution.py
+rrp_distributions/Gaussiandistribution.py
+rrp_distributions/Generaldistribution.py
+rrp_distributions/__init__.py
+rrp_distributions.egg-info/PKG-INFO
+rrp_distributions.egg-info/SOURCES.txt
+rrp_distributions.egg-info/dependency_links.txt
+rrp_distributions.egg-info/not-zip-safe
+rrp_distributions.egg-info/top_level.txt
