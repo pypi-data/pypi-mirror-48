@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: admin-tools-google-analytics
+Version: 0.1
+Summary: Django admin tools dashboard modules
+Home-page: https://github.com/17b0080/dat-google-analytics
+Author: 17b0080
+Author-email: evdokimovma99@gmail.com
+License: MIT
+Description: Google analytics modules for django admin tools dashboard.
+Keywords: django admin-tools analytics dashboard module
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django :: 2.2
+Classifier: Topic :: Software Development :: Libraries :: Python Modules

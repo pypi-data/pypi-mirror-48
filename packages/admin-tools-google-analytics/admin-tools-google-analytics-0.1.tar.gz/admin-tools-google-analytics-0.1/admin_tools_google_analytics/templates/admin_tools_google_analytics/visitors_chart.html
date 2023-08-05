@@ -1,0 +1,31 @@
+{% extends "admin_tools_google_analytics/module.html" %}
+{% load i18n %}
+{% block module_content %}
+
+<canvas id="GoogleVisitorsChart" width="400" height="400"></canvas>
+
+<script>
+    let ctx = document.getElementById('GoogleVisitorsChart').getContext('2d');
+    let chart = new Chart(ctx, {
+        type: 'line',
+        data: {
+            labels: {{ module.children.dates | safe }},
+            datasets: [{
+                // label: "{{ module.title }}",
+                data: {{ module.children.pageviews }},
+                fill: true,
+                borderColor: '{{ module.color }}',
+                lineTension: 0.1
+            }]
+        },
+        options: {
+            legend: {
+                display: false
+            },
+        }
+    });
+</script>
+
+
+
+{% endblock %}

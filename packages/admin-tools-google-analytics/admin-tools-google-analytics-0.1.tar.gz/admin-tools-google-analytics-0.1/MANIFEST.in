@@ -1,0 +1,2 @@
+recursive-include admin_tools_google_analytics/static *
+recursive-include admin_tools_google_analytics/templates *
