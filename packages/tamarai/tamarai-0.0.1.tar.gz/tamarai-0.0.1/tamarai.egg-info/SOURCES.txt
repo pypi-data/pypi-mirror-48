@@ -1,0 +1,7 @@
+README.md
+setup.py
+tamarai/__init__.py
+tamarai.egg-info/PKG-INFO
+tamarai.egg-info/SOURCES.txt
+tamarai.egg-info/dependency_links.txt
+tamarai.egg-info/top_level.txt
