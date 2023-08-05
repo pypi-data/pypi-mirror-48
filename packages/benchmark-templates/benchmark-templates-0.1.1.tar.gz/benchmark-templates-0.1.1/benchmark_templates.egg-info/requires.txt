@@ -1,0 +1,13 @@
+future
+gitpython
+jsonschema
+pyyaml>=5.1
+
+[docs]
+Sphinx
+sphinx-rtd-theme
+
+[tests]
+coverage>=4.0
+coveralls
+nose
