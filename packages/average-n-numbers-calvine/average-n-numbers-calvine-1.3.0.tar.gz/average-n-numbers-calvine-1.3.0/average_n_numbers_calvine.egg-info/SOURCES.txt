@@ -1,0 +1,10 @@
+README.md
+setup.py
+average_n_numbers_calvine.egg-info/PKG-INFO
+average_n_numbers_calvine.egg-info/SOURCES.txt
+average_n_numbers_calvine.egg-info/dependency_links.txt
+average_n_numbers_calvine.egg-info/entry_points.txt
+average_n_numbers_calvine.egg-info/requires.txt
+average_n_numbers_calvine.egg-info/top_level.txt
+packageadd/__init__.py
+packageadd/mycode.py
