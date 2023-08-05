@@ -1,0 +1,4 @@
+{% extends "congo/email/base.txt" %}{% block content %}{{ subject }}
+
+
+{{ content }}{% endblock %}

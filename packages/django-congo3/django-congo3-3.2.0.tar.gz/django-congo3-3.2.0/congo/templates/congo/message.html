@@ -1,0 +1,35 @@
+{% extends "congo/base.html" %}
+{% load i18n common %}
+
+{% block extra_style %}
+<style>
+  body.message {
+    margin-top: 7%;
+  }
+</style>
+{% endblock %}
+
+{% block body_class %}message{% endblock %}
+
+{% block container %}
+  <div class="row">
+    <div class="col-sm-8 offset-sm-2">
+      <div class="card">
+        <div class="card-body">
+          {% block content %}
+            <h1>{{ meta.get_full_title }}</h1>
+          
+            <p>{{ description }}</p>
+          
+            <p>
+              <a href="#" onclick="javascript:window.history.back()">{% trans "Powrót" %}</a>
+              <span class="">{% trans "lub" %}</span>
+              <a href="/">{% trans "Strona głowna" %}</a>
+            </p>
+          {% endblock %}
+          {% block footer %}{% endblock %}
+        </div>
+      </div>
+    </div>
+  </div>
+{% endblock %}
