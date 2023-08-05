@@ -1,0 +1,10 @@
+setup.py
+wda/__init__.py
+wda/xcui_element_types.py
+wda.egg-info/PKG-INFO
+wda.egg-info/SOURCES.txt
+wda.egg-info/dependency_links.txt
+wda.egg-info/not-zip-safe
+wda.egg-info/top_level.txt
+wda/__pycache__/__init__.cpython-36.pyc
+wda/__pycache__/xcui_element_types.cpython-36.pyc

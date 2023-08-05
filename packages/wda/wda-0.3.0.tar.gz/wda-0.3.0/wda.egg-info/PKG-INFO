@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: wda
+Version: 0.3.0
+Summary: just for test
+Home-page: https://github.com/rere332/wda.git
+Author: landy
+Author-email: landy.wang@outlook.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
