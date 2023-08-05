@@ -1,0 +1,3 @@
+[kombu.serializers]
+nameko-serializer = nameko_serializer.serializer:register_args
+

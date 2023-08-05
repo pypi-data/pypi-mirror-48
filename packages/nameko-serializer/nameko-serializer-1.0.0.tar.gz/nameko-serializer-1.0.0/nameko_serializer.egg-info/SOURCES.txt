@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+nameko_serializer/__init__.py
+nameko_serializer/serializer.py
+nameko_serializer.egg-info/PKG-INFO
+nameko_serializer.egg-info/SOURCES.txt
+nameko_serializer.egg-info/dependency_links.txt
+nameko_serializer.egg-info/entry_points.txt
+nameko_serializer.egg-info/requires.txt
+nameko_serializer.egg-info/top_level.txt
+nameko_serializer.egg-info/zip-safe
+test/test_serializers.py
+test/test_serializers_real.py
