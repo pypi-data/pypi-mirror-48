@@ -1,0 +1,9 @@
+ddtrace_graphql/__init__.py,sha256=AmKEVvy6RNz807UDsB_RoZTRgMvLPJM7Cqu7_kkGN8Y,1045
+ddtrace_graphql/base.py,sha256=lIwuG5HAgdK8netza4Dq4pz80J5IhIdj8qCREF2gUSU,3326
+ddtrace_graphql/patch.py,sha256=IBFq9EsTSmLnDVfXFqvFV0Wmx0vgpM1RiDu7UFXqcb8,1195
+ddtrace_graphql/utils.py,sha256=YmI8LIom9FBGYphFL7zMgTn8JWU2SIGhYjHXodEZY6s,3785
+ddtrace_graphql-0.2.0.dist-info/LICENSE,sha256=rSTeuXAGdsYFtgT_eZ5WstD6qBXvs3RsDgAxAVd05xA,1069
+ddtrace_graphql-0.2.0.dist-info/METADATA,sha256=DpcBHFa_XT6id78VA_WJg94zsN9weyWEIYX1GV4y5e4,6622
+ddtrace_graphql-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ddtrace_graphql-0.2.0.dist-info/top_level.txt,sha256=jk9Hohfum1ay8fY7trAlB8gDOZC55drUDMPKvOIavKM,16
+ddtrace_graphql-0.2.0.dist-info/RECORD,,
