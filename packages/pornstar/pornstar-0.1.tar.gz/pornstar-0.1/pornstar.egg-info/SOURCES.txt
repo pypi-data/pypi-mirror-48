@@ -1,0 +1,15 @@
+README.md
+setup.py
+pornstar/__PIL_filters.py
+pornstar/__coco.py
+pornstar/__config.py
+pornstar/__init__.py
+pornstar/__main.py
+pornstar/__model.py
+pornstar/__utils.py
+pornstar/__visualize.py
+pornstar.egg-info/PKG-INFO
+pornstar.egg-info/SOURCES.txt
+pornstar.egg-info/dependency_links.txt
+pornstar.egg-info/requires.txt
+pornstar.egg-info/top_level.txt

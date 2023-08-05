@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pornstar
+Version: 0.1
+Summary: Make you become the next porn star!
+Home-page: https://github.com/yingshaoxo/pornstar
+Author: yingshaoxo
+Author-email: yingshaoxo@gmail.com
+License: MIT
+Description: # pornstar
+        
+        A Python library to make you become the next famous pornstar!
+        
+        > It's also a gift to www.pornhub.com
+        
+        ### Author
+        
+        yingshaoxo#gmail.com
+        
+Keywords: pornstar
+Platform: UNKNOWN
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
