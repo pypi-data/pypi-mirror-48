@@ -1,0 +1,13 @@
+numpy
+scipy
+datetime
+opencv-python>3.3
+piexif
+geojson
+spiceypy
+GDAL
+lxml
+matplotlib
+shapely
+pvl
+planetaryimage
