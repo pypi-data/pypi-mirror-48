@@ -1,0 +1,8 @@
+README.rst
+envargparse.py
+setup.py
+envargparse.egg-info/PKG-INFO
+envargparse.egg-info/SOURCES.txt
+envargparse.egg-info/dependency_links.txt
+envargparse.egg-info/requires.txt
+envargparse.egg-info/top_level.txt
