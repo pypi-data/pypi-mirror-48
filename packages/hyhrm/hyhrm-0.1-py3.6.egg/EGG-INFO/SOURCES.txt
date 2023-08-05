@@ -1,0 +1,8 @@
+README.md
+setup.py
+hyhrm/__init__.py
+hyhrm/rm.py
+hyhrm.egg-info/PKG-INFO
+hyhrm.egg-info/SOURCES.txt
+hyhrm.egg-info/dependency_links.txt
+hyhrm.egg-info/top_level.txt
