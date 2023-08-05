@@ -1,0 +1,95 @@
+Metadata-Version: 2.1
+Name: lightex
+Version: 0.0.2
+Summary: LightEx: A Light Experiment Manager
+Home-page: https://github.com/ofnote/lightex
+Author: Nishant Sinha
+Author-email: nishant@offnote.co
+License: Apache 2.0
+Description: ### LightEx
+        
+        `LightEx` is a lightweight experiment framework to create, monitor and record your machine learning experiments. Targeted to individual data scientists, researchers, small teams and, in general, resource-constrained experimentation.
+        
+        #### Yet another experiment framework?
+        Systematic experimentation tools are essential for a data scientist. Unfortunately, many existing tools (`kubeflow`, `mlflow`, `polyaxon`) are too monolithic, cloud-first, target very diverse audiences and hence spread too thin, and yet lack important dev-friendly features. Other tools cater only to a specific task , e.g., `tensorboard` only handles log recording and visualization. Also, contrasting different experiment frameworks is hard: there is no standardized expt-management architecture for machine learning and most open-source frameworks are undergoing a process of adhoc requirements discovery. 
+        
+        
+        Our USP:
+        
+        * We study the [anatomy of a ML expt-framework](docs/anatomy.md). Identify principal components: flexible configuration, job dispatcher, multi-logger, log visualization and querying, storage virtualization.
+        * This informs the modular design of `LightEx`: all the key components are included and integrated via a flexible configuration manager. By design, the components are *decoupled*, swappable and can be developed independently. Codebase is small, easily navigable (hopefully stays that way).
+        * We don't re-invent the wheel. The job dispatcher builds over the docker/kubernetes ecosystem, we use `mlflow` as our primary log tracker and visualizer, and employ python `dataclass` based flexible configuration specs, both for jobs and models.
+        * We target resource-constrained computing environments, small teams of researchers and quick dev-cycles. Though, hoping that our modular design eventually makes scaling a no-brainer.
+        * Read more about design [here](docs/anatomy.md).
+        
+        `LightEx` setup cost is low for your existing projects:
+        
+        - Add or update your logging code using `LightEx`'s `multi_logger` API. Example [here](examples/m1/train.py#).
+        - Update config instances in `config_expts.py` (mainly, the hyperparameter class `HP` and run command template `cmd`)
+        
+        
+        #### Getting Started 
+        
+        `pip install lightex`
+        
+        - In your project directory:
+        ```bash
+        lightex init
+        ```
+        
+        This creates `config_expts.py`,  `run_expts.py` in the project directory.
+        
+        - Install `docker`, `microk8s`. Instructions [here](docs/install.md#backend)
+        
+        - Spin up the backend e.g., mlflow tracker, tensorboard, etc.
+          
+            * start backend services: `lightex up`
+        
+        
+        - Configure and execute experiments
+        
+            * Build your project docker container which contains all library dependencies, except the code and data, which are *mounted* separately. <!-- Even better, setup a docker compose file. -->
+            * Update `config_expts.py`. See [here](docs/config.md) for config schema. 
+            * `python run_expts.py --config-name C` 
+            Here, `C` is a config instance defined in `config_expts.py`. See [here](examples/m1/config_expts.py) for examples.
+        
+        
+        
+        ### Directory Structure
+        
+        lex/  
+            bin/  
+                legen  
+                leup  
+            backend/  
+            lex/  
+                config/  
+                    config_backend.py  
+                    config_expts.py
+        
+        
+        
+        ### Random
+        
+        * A lot of it looks like setting up giant web of configuration variables. 
+          * No optimal choice here: `json`,`yaml`,`jsonnet`— all formats have issues. 
+          * Using `dataclass`es, we can write complex config specs, with built-in inheritance and update features. Tiny bit of a learning curve here, but a lot of flexibility.
+        
+        
+        
+        ### References
+        
+        * [Trixi](https://github.com/MIC-DKFZ/trixi)
+        * k8s aliases, log collector
+        * Motivating Dataclasses [link](https://blog.jetbrains.com/pycharm/2018/04/python-37-introducing-data-class/)
+        
+        
+Platform: POSIX
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
