@@ -1,0 +1,12 @@
+validator-collection
+requests
+publicsuffixlist
+dnspython
+urllib3
+colorama
+sslyze==2.1.2
+nassl
+cryptography==2.5
+packaging
+beautifulsoup4
+psutil
