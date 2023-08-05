@@ -1,0 +1,330 @@
+# --- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+# SOME DESCRIPTIVE TITLE.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2019-06-21 13:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: ideabox.policy\n"
+
+#: ../browser/controlpanel.py:31
+msgid ""
+msgstr ""
+
+#. Default: "Against"
+#: ../vocabularies.py:89
+msgid "AGAINST"
+msgstr ""
+
+#: ../export/export.py:150
+#: ../userdataschema.py:22
+msgid "Address"
+msgstr ""
+
+#: ../form/project_encoding.py:69
+#: ../form/vote_encoding.py:81
+msgid "Anonymous"
+msgstr ""
+
+#: ../export/export.py:173
+#: ../userdataschema.py:28
+msgid "Birthdate"
+msgstr ""
+
+#: ../browser/controlpanel.py:30
+msgid "Configuration for ideabox product"
+msgstr ""
+
+#: ../content/project.py:48
+msgid "Content"
+msgstr ""
+
+#: ../setuphandlers.py:132
+msgid "District"
+msgstr ""
+
+#: ../content/project.py:40
+msgid "District(s) concerned"
+msgstr ""
+
+#: ../content/project.py:31
+msgid "Domain(s) concerned"
+msgstr ""
+
+#: ../content/project.pt:48
+msgid "Edit timeline dates"
+msgstr ""
+
+#: ../form/project_encoding.py:27
+#: ../form/vote_encoding.py:26
+msgid "Email"
+msgstr ""
+
+#: ../browser/controlpanel.py:16
+msgid "Email address of the project manager"
+msgstr ""
+
+#: ../browser/controlpanel.py:23
+msgid "Enable / Disable project submission"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Encoding project with user"
+msgstr ""
+
+#: ../faceted/configure.zcml:31
+msgid "Events"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Export projects"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Export projects with votes"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Export users"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Export users with their votes"
+msgstr ""
+
+#. Default: "Female"
+#: ../vocabularies.py:48
+msgid "FEMALE"
+msgstr ""
+
+#. Default: "For"
+#: ../vocabularies.py:89
+msgid "FOR"
+msgstr ""
+
+#: ../export/export.py:145
+#: ../userdataschema.py:20
+msgid "First name"
+msgstr ""
+
+#: ../export/export.py:155
+#: ../userdataschema.py:25
+msgid "Gender"
+msgstr ""
+
+#: ../export/export.py:190
+#: ../setuphandlers.py:140
+#: ../userdataschema.py:35
+msgid "I am"
+msgstr ""
+
+#: ../profiles/default/controlpanel.xml
+msgid "Ideabox Settings"
+msgstr ""
+
+#: ../browser/configure.zcml:104
+msgid "Ideabox Standard view"
+msgstr ""
+
+#: ../browser/configure.zcml:98
+msgid "Ideabox Summary view"
+msgstr ""
+
+#: ../profiles/default/types/Project.xml
+msgid "Ideabox project"
+msgstr ""
+
+#: ../browser/controlpanel.py:17
+msgid "If there are multiple email addresses, separate them with semicolons"
+msgstr ""
+
+#: ../configure.zcml:41
+msgid "Installs the ideabox.policy add-on."
+msgstr ""
+
+#: ../export/export.py:140
+msgid "Last name"
+msgstr ""
+
+#: ../userdataschema.py:18
+msgid "Last name or institution"
+msgstr ""
+
+#: ../tile/projects.py:25
+msgid "Limit"
+msgstr ""
+
+#: ../tile/projects.py:26
+msgid "Limit projects"
+msgstr ""
+
+#. Default: "Male"
+#: ../vocabularies.py:48
+msgid "MALE"
+msgstr ""
+
+#: ../export/export.py:98
+msgid "Negative rating "
+msgstr ""
+
+#: ../form/project_submission.py:77
+msgid "New project submission"
+msgstr ""
+
+#: ../faceted/configure.zcml:23
+msgid "News"
+msgstr ""
+
+#: ../content/project.py:53
+msgid "Original author"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Personal information"
+msgstr ""
+
+#: ../profiles/default/actions.xml
+msgid "Personal information for connected user"
+msgstr ""
+
+#: ../export/export.py:87
+msgid "Positive rating "
+msgstr ""
+
+#: ../form/vote_encoding.py:37
+#: ../profiles/default/types/Project.xml
+msgid "Project"
+msgstr ""
+
+#: ../form/project_encoding.py:31
+#: ../profiles/default/actions.xml
+msgid "Project encoding"
+msgstr ""
+
+#: ../form/project_submission.py:25
+msgid "Project image"
+msgstr ""
+
+#: ../browser/templates/project_submission.pt:12
+msgid "Project submission is currently disabled"
+msgstr ""
+
+#: ../form/vote_encoding.py:35
+msgid "Project(s)"
+msgstr ""
+
+#: ../faceted/configure.zcml:15
+#: ../tile/projects.py:22
+msgid "Projects"
+msgstr ""
+
+#: ../browser/project.py:12
+msgid "Projects in progression"
+msgstr ""
+
+#: ../browser/workflow.py:82
+msgid "Save"
+msgstr ""
+
+#: ../form/project_encoding.py:145
+#: ../form/project_submission.py:113
+#: ../form/vote_encoding.py:137
+msgid "Send"
+msgstr ""
+
+#: ../browser/project.py:28
+msgid "Setting up"
+msgstr ""
+
+#: ../tile/timeline.py:13
+msgid "Steps for timeline"
+msgstr ""
+
+#: ../browser/project.py:44
+msgid "The 7 main themes"
+msgstr ""
+
+#: ../setuphandlers.py:124
+msgid "Theme"
+msgstr ""
+
+#: ../form/project_submission.py:23
+#: ../tile/projects.py:22
+msgid "Title"
+msgstr ""
+
+#: ../tile/timeline.py:14
+msgid "Title; Date; Link"
+msgstr ""
+
+#: ../configure.zcml:50
+msgid "Uninstalls the ideabox.policy add-on."
+msgstr ""
+
+#: ../export/export.py:135
+msgid "User ID"
+msgstr ""
+
+#: ../form/vote_encoding.py:30
+msgid "Vote"
+msgstr ""
+
+#: ../form/vote_encoding.py:45
+msgid "Vote encoding"
+msgstr ""
+
+#: ../export/export.py:109
+msgid "Voters in favour"
+msgstr ""
+
+#: ../export/export.py:122
+msgid "Voters opposed"
+msgstr ""
+
+#: ../export/export.py:213
+msgid "Votes"
+msgstr ""
+
+#: ../export/export.py:208
+#: ../userdataschema.py:31
+msgid "Zip code"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "Zip code vocabulary values"
+msgstr ""
+
+#: ../browser/project.py:23
+msgid "diagnose and analysis"
+msgstr ""
+
+#. Default: "A new project has been created you can access it at the following url:\n              ${url}\n              "
+#: ../form/project_submission.py:65
+msgid "email_body_project_submission"
+msgstr ""
+
+#: ../configure.zcml:41
+msgid "ideabox.policy"
+msgstr ""
+
+#: ../configure.zcml:50
+msgid "ideabox.policy (uninstall)"
+msgstr ""
+
+#: ../profiles/default/registry.xml
+msgid "new project submission folder"
+msgstr ""
+
+#: ../browser/templates/project_summary.pt:21
+msgid "projets"
+msgstr ""
