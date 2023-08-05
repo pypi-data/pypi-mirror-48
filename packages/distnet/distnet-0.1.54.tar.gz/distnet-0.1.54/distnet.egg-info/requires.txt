@@ -1,0 +1,4 @@
+pygal_maps_world
+pygame
+python-whois
+cairosvg
