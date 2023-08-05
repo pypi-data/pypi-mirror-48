@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.py
+pyFaceTrace/__init__.py
+pyFaceTrace/kaiu.ttf
+pyFaceTrace.egg-info/PKG-INFO
+pyFaceTrace.egg-info/SOURCES.txt
+pyFaceTrace.egg-info/dependency_links.txt
+pyFaceTrace.egg-info/top_level.txt
