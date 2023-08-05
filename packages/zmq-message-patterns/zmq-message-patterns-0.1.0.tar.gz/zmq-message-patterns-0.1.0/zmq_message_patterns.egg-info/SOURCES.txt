@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+zmessage/__init__.py
+zmessage/pipeline.py
+zmessage/zmessage.py
+zmessage/znode.py
+zmq_message_patterns.egg-info/PKG-INFO
+zmq_message_patterns.egg-info/SOURCES.txt
+zmq_message_patterns.egg-info/dependency_links.txt
+zmq_message_patterns.egg-info/requires.txt
+zmq_message_patterns.egg-info/top_level.txt
