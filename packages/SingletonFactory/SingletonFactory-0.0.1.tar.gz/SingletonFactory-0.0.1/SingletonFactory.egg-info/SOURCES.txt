@@ -1,0 +1,8 @@
+README.md
+setup.py
+SingletonFactory/ResourceProvider.py
+SingletonFactory/__init__.py
+SingletonFactory.egg-info/PKG-INFO
+SingletonFactory.egg-info/SOURCES.txt
+SingletonFactory.egg-info/dependency_links.txt
+SingletonFactory.egg-info/top_level.txt
