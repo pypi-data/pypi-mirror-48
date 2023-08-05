@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "way2smswrapper"
+version = "0.1.0"
+description = "A Python Messaging Module Using Way2SMS & Selenium Module."
+authors = ["Probhakar Roy <probhakarroy3110@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+selenium = "^3.141"
+xvfbwrapper = "^0.2.9"
+
+[tool.poetry.dev-dependencies]
+pylint = "^2.3"
+autopep8 = "^1.4"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
