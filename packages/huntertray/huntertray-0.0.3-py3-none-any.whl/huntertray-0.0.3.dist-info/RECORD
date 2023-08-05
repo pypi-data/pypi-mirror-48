@@ -1,0 +1,13 @@
+huntertray/__init__.py,sha256=AQmy04RJvNld5e1TxVKITP1tNinsCX1Q7flk5pI1XMI,8402
+huntertray/appindicator_replacement.py,sha256=NhTcEjmfz317crYgdRN14YF-InkMdqMZPjdalHt6vlo,2894
+huntertray/chrome.py,sha256=SAIhhDLrYfO92yn5My8d6Jq_I6GtdXaCoRM-fYB5Qc8,1053
+huntertray/firefox.py,sha256=xY3Q7bfq3UV6-QOjOYfhbYHdm9a6PX3rLdt45MyHwdU,1120
+huntertray/producthunt.py,sha256=aTfsDSQpTUL9joelSFgGgiHswFPCtj2yIQ8dBEcaTIU,734
+huntertray/version.py,sha256=mLoYyWiSbr4_OvBfynfc1gngpLMkZhO_22MNAurGTF4,897
+huntertray/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+huntertray/data/hunter-tray.png,sha256=uU5yugzYwY3dtdSdPbK6vWWW9nPulF48zIYeQVWzy7Y,1108
+huntertray-0.0.3.dist-info/METADATA,sha256=fgz3Kxt2wxmwYsaK_7HMpgOOPNpXqVjYz268j6L_KO0,386
+huntertray-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+huntertray-0.0.3.dist-info/entry_points.txt,sha256=yTsI4K0PnMscjdc9Iq1MdAlKaBkH_icB8r_7gANwv2I,48
+huntertray-0.0.3.dist-info/top_level.txt,sha256=dwmUaJ1XeDEGZxzzGT_YKkFMQWoJ-wNylvjO-875igk,11
+huntertray-0.0.3.dist-info/RECORD,,
