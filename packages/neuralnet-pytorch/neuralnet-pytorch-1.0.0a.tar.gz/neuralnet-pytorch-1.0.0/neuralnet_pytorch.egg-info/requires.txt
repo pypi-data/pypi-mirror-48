@@ -1,0 +1,6 @@
+visdom
+matplotlib
+scipy
+numpy
+slackclient
+tb-nightly
