@@ -1,0 +1,3 @@
+[console_scripts]
+mtproxy = mtproxy.__main__:main
+
