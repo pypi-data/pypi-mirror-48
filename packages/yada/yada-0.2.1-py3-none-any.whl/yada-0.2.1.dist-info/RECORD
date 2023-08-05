@@ -1,0 +1,12 @@
+yada/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yada/config.py,sha256=QS_hvIqWlagWLRic-bcs6krUXRyUWtOCX4j-nBsQLAw,174
+yada/exceptions.py,sha256=3VrLxZfn2uWCl3WcDiOBqK95kNR1i-DXkiamoT58PIo,92
+yada/platform.py,sha256=IkEz_M191L98bIl0MVfJb2hs1S2DTh2LINkVsRBu83w,976
+yada/repo.py,sha256=wAUkkxN1nqGjcKr-omN0EXcCHa_qidwpymlTjcsFHC4,3148
+yada/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+yada/cli/main.py,sha256=_uJ2JInV0tDqtn2CIRE4ftKSgGpNvSjX56FFzAUROjQ,3100
+yada-0.2.1.dist-info/METADATA,sha256=xN5_z4-eLYmc7y2UUy21oEIPmfvAF9v9emDqvILBYjI,336
+yada-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+yada-0.2.1.dist-info/entry_points.txt,sha256=rYzTNZVkt8q8UsDPMAuD0qkZyqlMhJL6v_fmQm0hI6c,62
+yada-0.2.1.dist-info/top_level.txt,sha256=M9A6tcc9ePLv-HnQRwexwzwES6o4appNttXkyhDE2m0,5
+yada-0.2.1.dist-info/RECORD,,
