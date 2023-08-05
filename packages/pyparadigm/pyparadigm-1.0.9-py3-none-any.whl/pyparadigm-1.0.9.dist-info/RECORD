@@ -1,0 +1,11 @@
+pyparadigm/__init__.py,sha256=WeNNSE9XHOxn5SB1VYpFkLzLs4vDW3gMnGv1yshh8fQ,803
+pyparadigm/_primitives.py,sha256=a_qN1YtsxGSKdTbmcquvzN3GzPC-88UNb45VBgmokGc,195
+pyparadigm/dialogs.py,sha256=RUfGznfyxsXcTkXYrC50RPlzKESoKm-vLM7VNJ0nnY8,2066
+pyparadigm/eventlistener.py,sha256=OPUHIRLa6dm4DPSu0S3jZref8eHXKD3xZwrTHHA1MgM,12390
+pyparadigm/extras.py,sha256=GVRWUafk_xhXKdPTz19pdMAlm_Ylw2q_DIJg8QkZA-4,2295
+pyparadigm/misc.py,sha256=OQbdrHh9E-NMpKlkqtusmztckWY27reJ7AuAUWwvNUc,6915
+pyparadigm/surface_composition.py,sha256=jYw4Jlm24wlCV09arpI51Jmvqth4eNW2ez3ITunBSMs,22019
+pyparadigm-1.0.9.dist-info/LICENSE,sha256=T5Tim38JAYiO79RUqdsniSB8Nv1v1v8NyTdzzvPlRNw,1081
+pyparadigm-1.0.9.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+pyparadigm-1.0.9.dist-info/METADATA,sha256=yUAQVUU14Dv88iAZqNxEFhe9ymZe6HiE7c7j_Y8QhRc,2631
+pyparadigm-1.0.9.dist-info/RECORD,,
