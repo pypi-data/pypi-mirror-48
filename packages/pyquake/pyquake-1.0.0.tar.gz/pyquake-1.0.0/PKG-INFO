@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pyquake
+Version: 1.0.0
+Summary: A package enabling the synthesis of seismic audio.
+Home-page: https://github.com/cooperbarth/PyQuake
+Author: Cooper Barth
+Author-email: cooperfbarth@gmail.com
+License: UNKNOWN
+Description: # PyQuake
+        ## A Python Library for Seismic Sonification
+        
+        This is an easy-to-use Python library for seismic sonification using the IRIS Timeseries Web Service.
+        
+        IRIS Timeseries documentation: http://service.iris.edu/irisws/timeseries/1/
+        IRIS seismic stations: https://ds.iris.edu/gmap/
+        
+        Concept pulled from the [Earthtunes](https://github.com/cooperbarth/Earthtunes) project.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

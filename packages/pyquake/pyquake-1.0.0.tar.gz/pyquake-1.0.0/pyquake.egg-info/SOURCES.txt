@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyquake/__init__.py
+pyquake.egg-info/PKG-INFO
+pyquake.egg-info/SOURCES.txt
+pyquake.egg-info/dependency_links.txt
+pyquake.egg-info/top_level.txt
