@@ -1,0 +1,3 @@
+[console_scripts]
+gistfinder = gistfinder.console:cli
+

@@ -1,0 +1,17 @@
+Pygments
+click
+dataset
+fuzzywuzzy
+prompt_toolkit
+python-Levenshtein
+pytz
+requests
+
+[dev]
+coverage
+flake8
+mock
+nose
+wheel
+Sphinx
+sphinx_rtd_theme
