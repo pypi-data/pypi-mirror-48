@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+configkeeper/__init__.py
+configkeeper/configkeeper.py
+configkeeper.egg-info/PKG-INFO
+configkeeper.egg-info/SOURCES.txt
+configkeeper.egg-info/dependency_links.txt
+configkeeper.egg-info/not-zip-safe
+configkeeper.egg-info/top_level.txt
+test/test_configkeeper.py

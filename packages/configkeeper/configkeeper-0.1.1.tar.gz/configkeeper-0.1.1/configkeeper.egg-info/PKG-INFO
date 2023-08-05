@@ -1,0 +1,71 @@
+Metadata-Version: 1.1
+Name: configkeeper
+Version: 0.1.1
+Summary: Backup local config files to repo
+Home-page: https://gitlab.com/loxosceles/configkeeper
+Author: Magnus "Loxosceles" Henkel
+Author-email: loxosceles@gmx.de
+License: GNU General Public License v3 (GPLv3)
+Description: =============================
+        ConfigKeeper
+        =============================
+        
+        .. image:: https://badge.fury.io/py/configkeeper.png
+            :target: http://badge.fury.io/py/configkeeper
+        
+        
+        Description
+        -----------
+        ConfigKeeper provides a single backup command which copies a comfiguration file (.vimrc,
+        .bashrc, etc) into a repository and pushes it.
+        
+        Usage
+        -----
+        .. code-block:: bash
+        
+            configkeeper path/to/config-file
+        
+        Setup
+        -----
+        Clone the repository. Link the script somewhere under your `$PATH`.
+        The following assumes that `~/.local/bin` is added to your path.
+        
+        .. code-block:: bash
+        
+            git clone https://gitlab.com/loxosceles/configkeeper.git ~/tools
+            ln -s ~/tools/configkeeper/configkeeper ~/.local/bin/configkeeper
+        
+        Create a repository for your config files you want to back up. The default is
+        `~/.local_configurations`.
+        
+        
+        
+        
+        Documentation
+        -------------
+        
+        The full documentation is at http://configkeeper.rtfd.org.
+        
+        
+        
+        History
+        -------
+        
+        0.1.0 (18/06/2019)
+        ++++++++++++++++++
+        
+        * First release on PyPI.
+        
+Keywords: configkeeper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: PyPy
