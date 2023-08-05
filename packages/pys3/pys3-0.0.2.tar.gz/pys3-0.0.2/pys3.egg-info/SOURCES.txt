@@ -1,0 +1,9 @@
+README.md
+setup.py
+pys3/__init__.py
+pys3/pys3.py
+pys3/pys3_test.py
+pys3.egg-info/PKG-INFO
+pys3.egg-info/SOURCES.txt
+pys3.egg-info/dependency_links.txt
+pys3.egg-info/top_level.txt
