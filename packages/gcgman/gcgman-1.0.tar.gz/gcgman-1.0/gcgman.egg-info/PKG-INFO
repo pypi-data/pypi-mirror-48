@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: gcgman
+Version: 1.0
+Summary: A package to write any letter you want in the github graph
+Home-page: https://github.com/kosantosbik/gcgman
+Author: N.Ahmet BASTUG
+Author-email: bastugn@itu.edu.tr
+License: UNKNOWN
+Description: 
+        
+        # Github Contribution Graph Manager (gcgman)
+        A python script to write words into your github contribution graph. Chosen word has a length limit
+        of 8.
+        
+        Currently supported letters : 
+        A, B, C, D, E, F, G, H, I, J, K, L, M, N, O, P, R, S, T, U, V, Y, Z, X, W, Q, space
+        
+        ## Usage
+        `gcgman <WORD> [OPTION...]`
+        
+        
+        ## TODO
+        
+        ### Update README
+        
+        ### Add Contribution Page
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
