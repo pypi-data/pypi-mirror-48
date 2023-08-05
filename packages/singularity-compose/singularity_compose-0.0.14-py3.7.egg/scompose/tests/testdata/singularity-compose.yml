@@ -1,0 +1,16 @@
+version: "1.0"
+instances:
+  app:
+    build:
+      context: ./app
+    volumes:
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf
+      - ./app/nginx/uwsgi_params.par:/etc/nginx/uwsgi_params.par
+      - ./app/nginx/cache:/var/cache/nginx
+      - ./app/nginx/run:/var/run
+      - ./app:/code
+      - ./static:/var/www/static
+      - ./images:/var/www/images
+    post:
+      command: ["mkdir", "-p", "./images/_upload/{0..9}", "&&", "chmod", "777", "-R", "./images"]
+
