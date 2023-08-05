@@ -1,0 +1,5 @@
+Flask
+capybara-py
+selenium
+Flask-SQLAlchemy
+termcolor
