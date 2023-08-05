@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: idec
+Version: 0.0.1
+Summary: run_continuously with schedule
+Home-page: https://github.com/coghost/idec
+Author: lihe
+Author-email: imanux@sina.com
+License: GPL
+Project-URL: Bug Reports, https://github.com/coghost/idec/issues
+Project-URL: Source, https://github.com/coghost/idec
+Keywords: idec,izen,profig,logzero
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: logzero
+
+# idec
+decorators
+
+
