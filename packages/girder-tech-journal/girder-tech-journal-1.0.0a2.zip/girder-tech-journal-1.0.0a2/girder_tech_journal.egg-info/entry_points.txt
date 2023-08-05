@@ -1,0 +1,3 @@
+[girder.plugin]
+tech_journal = girder_tech_journal:TechJournalPlugin
+
