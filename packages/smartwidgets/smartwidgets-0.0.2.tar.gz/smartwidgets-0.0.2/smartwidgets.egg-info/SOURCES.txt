@@ -1,0 +1,9 @@
+README.md
+setup.py
+smartwidgets/__init__.py
+smartwidgets/widgets.py
+smartwidgets.egg-info/PKG-INFO
+smartwidgets.egg-info/SOURCES.txt
+smartwidgets.egg-info/dependency_links.txt
+smartwidgets.egg-info/requires.txt
+smartwidgets.egg-info/top_level.txt
