@@ -1,0 +1,175 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>spacepy.irbempy.get_Lm &#8212; SpacePy v0.2.0 Manual</title>
+    <link rel="stylesheet" href="../_static/default.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.2.0',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="../_static/copybutton.js"></script>
+    <link rel="shortcut icon" href="../_static/lanl_favicon.ico"/>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="spacepy.irbempy.get_Lstar" href="spacepy.irbempy.get_Lstar.html" />
+    <link rel="prev" title="spacepy.irbempy.get_Bfield" href="spacepy.irbempy.get_Bfield.html" /> 
+  </head>
+  <body>
+
+<div style="background-color: white; text-align: left; padding: 10px 10px 15px 15px">
+<a href="../index.html"><img src="../_static/spacepy_logo.jpg" border="0" alt="spacepy_logo"/></a>
+</div>
+
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             accesskey="I">index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.irbempy.get_Lstar.html" title="spacepy.irbempy.get_Lstar"
+             accesskey="N">next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.irbempy.get_Bfield.html" title="spacepy.irbempy.get_Bfield"
+             accesskey="P">previous</a> |</li>
+        <li><a href="https://github.com/spacepy/spacepy">homepage</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../irbempy.html" accesskey="U">irbempy - Python interface to irbem/ONERA library</a> &#187;</li> 
+      </ul>
+    </div>
+
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+            <p class="logo"><a href="../index.html">
+              <img class="logo" src="../_static/logo.png" alt="Logo"/>
+            </a></p>
+  <h4>Previous topic</h4>
+  <p class="topless"><a href="spacepy.irbempy.get_Bfield.html"
+                        title="previous chapter">spacepy.irbempy.get_Bfield</a></p>
+  <h4>Next topic</h4>
+  <p class="topless"><a href="spacepy.irbempy.get_Lstar.html"
+                        title="next chapter">spacepy.irbempy.get_Lstar</a></p>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/autosummary/spacepy.irbempy.get_Lm.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="spacepy-irbempy-get-lm">
+<h1>spacepy.irbempy.get_Lm<a class="headerlink" href="#spacepy-irbempy-get-lm" title="Permalink to this headline">¶</a></h1>
+<dl class="function">
+<dt id="spacepy.irbempy.get_Lm">
+<code class="descclassname">spacepy.irbempy.</code><code class="descname">get_Lm</code><span class="sig-paren">(</span><em>ticks</em>, <em>loci</em>, <em>alpha</em>, <em>extMag='T01STORM'</em>, <em>intMag='IGRF'</em>, <em>IGRFset=0</em>, <em>omnivals=None</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/spacepy/irbempy/irbempy.html#get_Lm"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#spacepy.irbempy.get_Lm" title="Permalink to this definition">¶</a></dt>
+<dd><p>Return the MacIlwain L value for a given location, time and model</p>
+<table class="docutils field-list" frame="void" rules="none">
+<col class="field-name" />
+<col class="field-body" />
+<tbody valign="top">
+<tr class="field-odd field"><th class="field-name">Parameters:</th><td class="field-body"><p class="first"><strong>- ticks (Ticktock class)</strong> : containing time information</p>
+<blockquote>
+<div><ul class="simple">
+<li>loci (Coords class) : containing spatial information</li>
+<li>alpha (list or ndarray) : pitch angles in degrees</li>
+<li><dl class="first docutils">
+<dt>extMag (string) <span class="classifier-delimiter">:</span> <span class="classifier">optional; will choose the external magnetic field model </span></dt>
+<dd>possible values [‘0’, ‘MEAD’, ‘T87SHORT’, ‘T87LONG’, ‘T89’, 
+‘OPQUIET’, ‘OPDYN’, ‘T96’, ‘OSTA’, ‘T01QUIET’, ‘T01STORM’, 
+‘T05’, ‘ALEX’, ‘TS07’]</dd>
+</dl>
+</li>
+<li><dl class="first docutils">
+<dt>intMag (string) <span class="classifier-delimiter">:</span> <span class="classifier">optional: select the internal field model</span></dt>
+<dd>possible values [‘IGRF’,’EDIP’,’JC’,’GSFC’,’DUN’,’CDIP’]
+For full details see get_Lstar</dd>
+</dl>
+</li>
+<li>omni values as dictionary (optional) : if not provided, will use lookup table</li>
+</ul>
+</div></blockquote>
+</td>
+</tr>
+<tr class="field-even field"><th class="field-name">Returns:</th><td class="field-body"><p class="first"><strong>- results (dictionary)</strong> : containing keys: Lm, Bmin, Blocal (or Bmirr), Xj, MLT</p>
+<blockquote class="last">
+<div><p>if pitch angles provided in “alpha” then drift shells are calculated and “Bmirr” 
+is returned if not provided, then “Blocal” at spacecraft is returned.</p>
+</div></blockquote>
+</td>
+</tr>
+</tbody>
+</table>
+</dd></dl>
+
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="related" role="navigation" aria-label="related navigation">
+      <h3>Navigation</h3>
+      <ul>
+        <li class="right" style="margin-right: 10px">
+          <a href="../genindex.html" title="General Index"
+             >index</a></li>
+        <li class="right" >
+          <a href="../py-modindex.html" title="Python Module Index"
+             >modules</a> |</li>
+        <li class="right" >
+          <a href="spacepy.irbempy.get_Lstar.html" title="spacepy.irbempy.get_Lstar"
+             >next</a> |</li>
+        <li class="right" >
+          <a href="spacepy.irbempy.get_Bfield.html" title="spacepy.irbempy.get_Bfield"
+             >previous</a> |</li>
+        <li><a href="https://github.com/spacepy/spacepy">homepage</a>|&nbsp;</li>
+        <li><a href="../search.html">search</a>|&nbsp;</li>
+       <li><a href="../index.html">documentation </a> &raquo;</li>
+
+          <li class="nav-item nav-item-1"><a href="../irbempy.html" >irbempy - Python interface to irbem/ONERA library</a> &#187;</li> 
+      </ul>
+    </div>
+    <div class="footer" role="contentinfo">
+        &#169; Copyright 2011-2019, The SpacePy Team.
+      Created using <a href="http://sphinx-doc.org/">Sphinx</a> 1.6.7.
+    </div>
+  </body>
+</html>
