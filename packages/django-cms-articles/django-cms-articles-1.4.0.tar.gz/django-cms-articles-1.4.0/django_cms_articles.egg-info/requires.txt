@@ -1,0 +1,4 @@
+django<2.2,>=1.11
+django-cms<3.7,>=3.6
+django-filer
+python-dateutil
