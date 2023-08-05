@@ -1,0 +1,12 @@
+setup.py
+zcpy/__init__.py
+zcpy/assembly.py
+zcpy/basic_data_analysis.py
+zcpy/main.py
+zcpy/pre.py
+zcpy/report.py
+zctestpy.egg-info/PKG-INFO
+zctestpy.egg-info/SOURCES.txt
+zctestpy.egg-info/dependency_links.txt
+zctestpy.egg-info/entry_points.txt
+zctestpy.egg-info/top_level.txt
