@@ -1,0 +1,15 @@
+protex/__init__.py,sha256=_FTcR1bO6pW2o40Fi86ft2MoqM-ZcCVaFhAYDyX1opY,661
+protex/__main__.py,sha256=lu8s8QiBcjCsxOhgo273iX_oLVpxy1Wey-SZ1AFAnNM,22
+protex/ast.py,sha256=1CwLifny0yG5XNFRXevEDKlIA6tlEG-TSaCMMKPKVg8,4683
+protex/cli.py,sha256=NptO91xHYkQzwWmTRJCyJtYpCH6PzlH4sfLGaAewXzA,5048
+protex/commands.json,sha256=Hz76gQhWocsl_32CJkKrF4ZhZLOI1FDeAJaHE8n1yWE,2224
+protex/commands.py,sha256=n3rtu-rawZr_X2R4X9zM0v3eK-g0q-KPuHy52s7lPTc,4786
+protex/lexer.py,sha256=53PDgqfTifZU-HbEBSJhfzX3MtI2QSFjzN3WHw6kKn4,4195
+protex/parser.py,sha256=koGCEpI5aw07AKub66FPXsKR4qHYqDAOMbw98UT3ajM,4631
+protex/text_pos.py,sha256=kHLo-UaXS7R9NOWKxXujnDLoXa_Q2gtvahOkTLukhaE,9186
+protex-0.1.0.data/scripts/protex,sha256=v00aFLubEJzIr-4orDMysX9U3ioG3EuZFpeDAGE1Nr4,83
+protex-0.1.0.dist-info/LICENSE,sha256=9qtMRYejNZtFDslsUQ0lwDSZVR3z_ELrWOikO9pFMgs,1092
+protex-0.1.0.dist-info/METADATA,sha256=yCYHP_wFGZa21OrpckCOTecxuWQL4Zm5XXxRBLnh2LU,3043
+protex-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+protex-0.1.0.dist-info/top_level.txt,sha256=SGJ-Atex5tpS5rTMWXSF95dKJ9OT6sV2bynGlq0RO3Y,7
+protex-0.1.0.dist-info/RECORD,,
