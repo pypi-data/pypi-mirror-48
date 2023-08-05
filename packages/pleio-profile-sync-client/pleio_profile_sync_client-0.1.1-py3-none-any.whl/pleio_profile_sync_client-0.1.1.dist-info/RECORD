@@ -1,0 +1,9 @@
+pleio_profile_sync_client/__init__.py,sha256=TiABfVVAea83ERbpWKM5Q2-wOhRFL9zt0BLSrX-K7vg,35
+pleio_profile_sync_client/cli.py,sha256=zMRLtIS1gQefYSkbdB6vS1N6FukzK-IaOv6EsNopdEY,3115
+pleio_profile_sync_client/lib.py,sha256=Qgm0F8poRQas5gBgsr4PH2jIiVnwk31SejLxMsNyIMA,1926
+pleio_profile_sync_client/reader.py,sha256=vQ-PA6DmFqAvEGk1RUmdFu6_WC0bk4xV702f20u7oqY,844
+pleio_profile_sync_client-0.1.1.dist-info/LICENSE.md,sha256=hS_URSyqoBUV0b0Vp3Ob03NC9hl4SXucP2LZAK6Hw0Y,29768
+pleio_profile_sync_client-0.1.1.dist-info/METADATA,sha256=rWY9PO18tFsHIp0lBYFh4DEg-K0VVu3q0BRZGb51yww,354
+pleio_profile_sync_client-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pleio_profile_sync_client-0.1.1.dist-info/top_level.txt,sha256=8qWMc20lu_m3PfMEOWQup94UNIPCfhLn6u794zCY5HQ,26
+pleio_profile_sync_client-0.1.1.dist-info/RECORD,,
