@@ -1,0 +1,14 @@
+controlpyweb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+controlpyweb/abstract_reader_writer.py,sha256=Yw7lRB1AuL-B5MGVQryB4vvcjbDJxC-4vT4m_TMlqb8,719
+controlpyweb/errors.py,sha256=Mmkyg94z-WuKsEEs9024IuuhmE1foPdb5MLh0dyScig,303
+controlpyweb/reader_writer.py,sha256=YlL4ftFqozjSdkpFiqLFaVdgzik-fvC4REU1RJnjb2c,3967
+controlpyweb/single_io.py,sha256=A-POSj8Imq7qkQlzQofm6TcgQ_J36psiDENDxWCX6e8,5127
+controlpyweb/webio_module.py,sha256=2CiiICsIiuYSnT_b_ZOxkc4x3SJt22-RtuPvQ5LgfZY,1344
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_single_io.py,sha256=X2yjZuRSXVPDwRSnGarfMH31Zj97gtwxieu5qqtHDqk,2099
+tests/test_webio.py,sha256=toawyp0TG9Xhy6Omo6Etnv65uqRK7cwz3o4p0buNHww,5241
+controlpyweb-0.0.14.dist-info/LICENSE.txt,sha256=hOsR7PcbsGnR64XmPrbvXeIhxDP3ikQEAWrCckxRzlQ,1065
+controlpyweb-0.0.14.dist-info/METADATA,sha256=WL9u6l4a91cAuyHbxx2H6CJgfi-G7p2jytxxCRHxKmQ,2185
+controlpyweb-0.0.14.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+controlpyweb-0.0.14.dist-info/top_level.txt,sha256=ZdLm4kk06w2-dPvI7aor6RiuUu4ElNRL-dh8lDQTG1k,19
+controlpyweb-0.0.14.dist-info/RECORD,,
