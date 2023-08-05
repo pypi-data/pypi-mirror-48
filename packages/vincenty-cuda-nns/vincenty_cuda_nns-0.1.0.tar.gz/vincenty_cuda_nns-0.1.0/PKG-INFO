@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: vincenty_cuda_nns
+Version: 0.1.0
+Summary: Nearest neighbor search on Earth's surface with a GPU
+Home-page: https://github.com/eos-vision/vincenty_cuda_nns
+Author: Serhii Hulko
+Author-email: felytic@gmail.com
+License: GPLv3
+Description: # vincenty_cuda_nns
+        Nearest neighbor search algorithm on Earth's surface that runs on a GPU
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
