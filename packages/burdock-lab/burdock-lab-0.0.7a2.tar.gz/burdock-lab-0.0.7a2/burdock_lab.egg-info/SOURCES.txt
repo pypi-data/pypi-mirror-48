@@ -1,0 +1,7 @@
+README.md
+setup.py
+burdock_lab.egg-info/PKG-INFO
+burdock_lab.egg-info/SOURCES.txt
+burdock_lab.egg-info/dependency_links.txt
+burdock_lab.egg-info/requires.txt
+burdock_lab.egg-info/top_level.txt
