@@ -1,0 +1,12 @@
+autospec/__main__.py,sha256=iKL61C_YjKGg74cHOfcTe-lW0H-wt8leg1TWjM5EVp4,332345
+autospec/data_converter.py,sha256=acRNMmUBAZ3rWRy_M9BsX5KhhygOm8KgYae-KZwEvJc,1209
+autospec/goniometer_view.py,sha256=mWyBWuYIOqldUYHOoCmCnflX9cH4aCk9PlHmkvvZuH4,8875
+autospec/plotter.py,sha256=Qx5Uar4HhVLfql8XNoerOIc1Fw-DghaEw2SH-rzA_P8,106584
+autospec/spectralon_corrector.py,sha256=W0vX1b3GEsYavfIx03enHeVm98iyDlTN1u0Zqm9Mcw0,9835
+autospec/verticalscrolledframe.py,sha256=3QWffEhn9uqhbQwOjIRGF5XZJKV_Zv6kfC1tUB1T8jw,2721
+autospec/global_config/color_config.mplstyle,sha256=d9ufXdu7w3330XhdJ1EaTvH7bXfdHq89939tzM2LW_Q,339
+autospec/global_config/size_config.mplstyle,sha256=9jld5fLrwqX73zp0RhNuq0lmLR1CIHOesIHVLDr9S0g,104
+AutoSpec-0.0.15.dist-info/METADATA,sha256=K1050BHl7LcC_MXcxVBZv2LWZzg56Hede_6enurYXHw,555
+AutoSpec-0.0.15.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+AutoSpec-0.0.15.dist-info/top_level.txt,sha256=QJ-sYaZVujxHWFXKvp9Zh_ImamJHBEqJOPkZ_qCZUVY,9
+AutoSpec-0.0.15.dist-info/RECORD,,
