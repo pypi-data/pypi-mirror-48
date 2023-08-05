@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: prettyresults
+Version: 1.0.0
+Summary: Present data analysis results in Web or Docx format
+Home-page: https://github.com/anarthal/prettyresults
+Author: Anarthal
+Author-email: rubenperez038@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=2.1.1)
+Requires-Dist: numpy (>=1.13.3)
+Requires-Dist: pandas (>=0.24.1)
+Requires-Dist: python-docx (>=0.8.10)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: Pillow (>=5.1.0)
+
+# prettyresults - Present data analysis results in Web or Docx format
+
+Prettyresults is a Python package to display data analysis results in different formats.
+In short: you run your data analysis using your preferred Python tools, generate
+a set of results (figures, tables...) and tell prettyresults about them.
+Prettyresults will generate a neat, friendly web page with your results.
+
+Suppose you are analyzing some social or medical data, using pandas and scipy.stats.
+You've created several matplotlib figures with descriptive data, some frequency tables,
+some inference analysis... Visualizing all this information at once in a notebook may
+not be practical. Prettyresults will display these results you've already created in
+a webpage, allowing you to visualize them without problems. It can also create
+a web document for you, with a subset of the obtained results.
+
+Prettyresults is a Python library. It implements a result system to add and manipulate
+results (such as figures or tables). Results are hierarchical, forming a tree.
+Results can then be used to generate a web page or a Word document.
+
+## Installation and requirements
+
+From pypi:
+
+```pip install prettyresults```
+
+Required Python 3.4+. Tested with Python 3.6.7.
+
+Prettyresults employs Pandas and Matplotlib.
+
+
