@@ -1,0 +1,9 @@
+Flask
+Werkzeug
+beautifulsoup4
+flasgger
+multiprocess
+pathos
+psycopg2
+requests
+setuptools
