@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: py-mail
+Version: 0.0.1
+Summary: gmail client for python
+Home-page: https://github.com/VladimirPodolyan/py-mail
+Author: PVladimir
+Author-email: vladimir.podolyan64@gmail.com
+License: UNKNOWN
+Description: # pymail
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
