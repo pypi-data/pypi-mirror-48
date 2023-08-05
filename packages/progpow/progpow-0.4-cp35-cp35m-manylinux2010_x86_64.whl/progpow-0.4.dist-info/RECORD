@@ -1,0 +1,11 @@
+progpow-0.4.data/data/lib/libprogpow0_9_2.so,sha256=6cclHwt5Fj815s_CK6HrGDTpd68NqNov9JNH0kdR2i0,152360
+progpow-0.4.data/data/lib/libprogpow0_9_3.so,sha256=A0vN4WJsSRET67aHxFoSH8BuyORKhDGLZzfC71u40qU,152360
+progpow/_libprogpow0_9_3.abi3.so,sha256=WuMrkqIowP_i_9ycH9X-5KXoh3HS2R0kHugO2O4bpx0,55144
+progpow/__init__.py,sha256=NtGo0MsgbNJ86yoc66QJ3vTJwL7A0HhCmbWPzcaSSrU,3286
+progpow/_libprogpow0_9_2.abi3.so,sha256=D1_pRM4ONL4GiBXdK1JxeGai-vWRonPXXnJN3GET_Zs,55144
+progpow/.libs/libprogpow0_9_3-034bcde1.so,sha256=e4DpQtSFzY8iPmKN90KEVaJMY4lWNMAA3IYzlK3g-5o,184968
+progpow/.libs/libprogpow0_9_2-e9c7251f.so,sha256=JZnC761LpADhXIyzIc300JW_mUcoQ8N5c0ijDpLBHTk,184968
+progpow-0.4.dist-info/WHEEL,sha256=pI8yMLPfYPUGndu37BdC6eAD9zGBJ4FvWklh6qPz-pw,112
+progpow-0.4.dist-info/top_level.txt,sha256=ScnAMZRgnmopHisLVFvnaUoi9sx-Fn7MX6CouIUZfPQ,42
+progpow-0.4.dist-info/METADATA,sha256=uzH91Iqa83qSqMry7G7TEZX8lKFwiMp_nD7UUDZYXe0,718
+progpow-0.4.dist-info/RECORD,,
