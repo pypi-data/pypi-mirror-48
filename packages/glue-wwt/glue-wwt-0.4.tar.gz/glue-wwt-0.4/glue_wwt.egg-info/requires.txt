@@ -1,0 +1,14 @@
+numpy
+glue-core>=0.15
+qtpy
+astropy
+pywwt>=0.6.0
+
+[qt]
+
+[qt:python_version >= "3"]
+PyQt5
+PyQtWebEngine
+
+[test]
+pytest
