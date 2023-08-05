@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: iotccsdk
+Version: 0.1.0
+Summary: SDK in Python for interacting with the Vision AI DevKIt. See https://aka.ms/visionaidevkit
+Home-page: UNKNOWN
+License: BSD-3-Clause
+Description: AI Vision Developer KIT SDK in Python
+Keywords: iot,ai,camera
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Programming Language :: Python :: 3.5
+Requires-Python: ~=3.5
