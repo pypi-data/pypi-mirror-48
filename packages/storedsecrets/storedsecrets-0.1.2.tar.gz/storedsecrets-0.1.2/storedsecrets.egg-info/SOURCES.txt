@@ -1,0 +1,7 @@
+README.md
+setup.py
+storedsecrets/__init__.py
+storedsecrets.egg-info/PKG-INFO
+storedsecrets.egg-info/SOURCES.txt
+storedsecrets.egg-info/dependency_links.txt
+storedsecrets.egg-info/top_level.txt
