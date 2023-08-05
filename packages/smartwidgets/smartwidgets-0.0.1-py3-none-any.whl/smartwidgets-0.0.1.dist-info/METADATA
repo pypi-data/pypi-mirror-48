@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: smartwidgets
+Version: 0.0.1
+Summary: Matplotlib widgets with improved appearance and options.
+Home-page: https://github.com/benrussell80/smartwidgets
+Author: Ben Russell
+Author-email: bprussell80@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+
+# smartwidgets
+Matplotlib widgets with improved appearance and options.
+
+
