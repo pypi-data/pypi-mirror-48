@@ -1,0 +1,11 @@
+windows_entry_exe/__init__.py,sha256=QVkd-W1JgXpYY7pRMpaGtuByTIK23BTlfRkjR_mv_oI,802
+windows_entry_exe/t32.exe,sha256=EM6ioNjCSXsSeOc8KxuIEBGl54Jv6079ow2zWlVpvpA,143360
+windows_entry_exe/t64.exe,sha256=ZXa7JgOXaL62zZsUbdxH_7WR4IDJMn1qd3S-yUYZ9h8,161280
+windows_entry_exe/w32.exe,sha256=QYf-ZU3d9ngT788K4kBMZzfmKO-QBEWZ8iAZSnwURLA,140800
+windows_entry_exe/w64.exe,sha256=BMKIZueZWL8UvRhzWOMPwcY7ClnnWnUcnEm2-MCAPgE,159744
+windows_entry_exe-1.2.dist-info/METADATA,sha256=c5cvUAJuKvw9I3TNAkENTy8RYi73rQIijJ2ZIBzD_QE,3006
+windows_entry_exe-1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+windows_entry_exe-1.2.dist-info/entry_points.txt,sha256=pxRloz4ZW81KLcvC6c3IXbHX2yWpsMhgRhoTqpJqj8Y,97
+windows_entry_exe-1.2.dist-info/top_level.txt,sha256=Gd5n5G2FwWEHrwuq-C4Zh1kF9d3fEEWqsTx56hgBsZM,18
+windows_entry_exe-1.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+windows_entry_exe-1.2.dist-info/RECORD,,
