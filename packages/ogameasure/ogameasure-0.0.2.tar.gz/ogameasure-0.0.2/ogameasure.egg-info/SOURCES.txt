@@ -1,0 +1,7 @@
+README.md
+setup.py
+ogameasure/__init__.py
+ogameasure.egg-info/PKG-INFO
+ogameasure.egg-info/SOURCES.txt
+ogameasure.egg-info/dependency_links.txt
+ogameasure.egg-info/top_level.txt
