@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: pytest-bug
+Version: 0.2.2
+Summary: Pytest plugin Mark test as a bug
+Home-page: https://github.com/tolstislon/pytest-bug
+Author: tolstislon
+Author-email: tolstislon@gmail.com
+License: MIT License
+Keywords: pytest
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.6
+Requires-Dist: pytest (>=3.6.0)
+
+
+pytest-bug
+==========
+
+
+.. image:: https://travis-ci.com/tolstislon/pytest-bug.svg?branch=master
+   :target: https://travis-ci.com/tolstislon/pytest-bug
+   :alt: Build Status
+
+
+.. image:: https://img.shields.io/badge/python-3.6%20%7C%203.7%20-blue.svg
+   :target: https://img.shields.io/badge/python-3.6%20%7C%203.7%20-blue.svg
+   :alt: support
+
+
+.. image:: https://img.shields.io/badge/pytest-%3E%3D3.6.0-blue.svg
+   :target: https://img.shields.io/badge/pytest-%3E%3D3.6.0-blue.svg
+   :alt: pytes_support
+
+
+.. code-block:: python
+
+   import pytest
+
+   @pytest.mark.bug('fail not calling exit code', run=True)
+   def test_one():
+       assert False
+
+or
+
+.. code-block:: python
+
+   from pytest_bug import bug
+
+   @bug('fail not calling exit code', run=True)
+   def test_one():
+       assert False
+
+
