@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: burdock-lab
+Version: 0.0.7a2
+Summary: JupyterLab integration for Burdock, a Daikon frontend for data frames.
+Home-page: https://github.com/DylanLukes/burdock_lab
+Author: Dylan A. Lukes
+Author-email: dlukes@eng.ucsd.edu
+License: BSD 3-Clause
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: burdock
+
+Burdock Lab
+===========
+
+## ⚠ Warning! ⚠
+
+Burdock Lab is under development, and should be considered pre-alpha quality software. 
+
+Nothing works yet, and everything is subject to change. Caveat emptor!
+
+## What is this?
+
+[Burdock](https://github.com/DylanLukes/burdock) is a [Daikon](http://plse.cs.washington.edu/daikon/) frontend for Python dataframes (from Pandas) and CSV/TSV files.
+
+This is a JupyterLab integration to support displaying invariants for active notebooks or consoles. It doesn't work yet.
+
