@@ -1,0 +1,10 @@
+audible/__init__.py,sha256=EZRisuv5kqdOZhCH7r-tBgUVzz9aV46c7tEUZG1YN90,28
+audible/__version__.py,sha256=dWvTvUuBcugeRBOKIw1eK4k440L0zJVmWiQtVvX58c8,63
+audible/audible.py,sha256=1wdjO5cJ3_hDMyfCT7mBo00NGRslvw2_QPrTVy260vI,14576
+audible/crypto.py,sha256=QaXqDOc0gijMqvUhIKhOIvVdHiRLD_LL_F16kp3TyWg,9877
+audible/localization.py,sha256=IC2rR7BWkCMrRk1w9GrNoRzsisRUshuR5m_x9lPknMc,1681
+audible-0.1.1.dist-info/LICENSE,sha256=dql8h4yceoMhuzlcK0TT_i-NgTFNIZsgE47Q4t3dUYI,34520
+audible-0.1.1.dist-info/METADATA,sha256=Xlf0CluHnDt_3OB6RvejjlJJdlga3useSivmETuZjSE,14281
+audible-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+audible-0.1.1.dist-info/top_level.txt,sha256=KcyHNhiKP3CEJzEu4PI4orfvBqA06JlWiK00-3VxpGA,8
+audible-0.1.1.dist-info/RECORD,,
