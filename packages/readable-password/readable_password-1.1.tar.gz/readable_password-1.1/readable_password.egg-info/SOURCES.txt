@@ -1,0 +1,8 @@
+setup.py
+readable_password/__init__.py
+readable_password/readable_password.py
+readable_password/test_readable_password.py
+readable_password.egg-info/PKG-INFO
+readable_password.egg-info/SOURCES.txt
+readable_password.egg-info/dependency_links.txt
+readable_password.egg-info/top_level.txt
