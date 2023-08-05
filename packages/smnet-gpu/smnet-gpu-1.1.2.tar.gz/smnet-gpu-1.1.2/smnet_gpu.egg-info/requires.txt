@@ -1,0 +1,4 @@
+numba
+numpy
+pycuda
+tensorflow-gpu
