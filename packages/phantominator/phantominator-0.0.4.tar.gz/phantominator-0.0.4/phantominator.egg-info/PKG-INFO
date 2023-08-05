@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: phantominator
+Version: 0.0.4
+Summary: Generate numerical phantoms.
+Home-page: https://github.com/mckib2/phantominator
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: UNKNOWN
+Description: Installation
+        ============
+        
+        .. code-block:: bash
+        
+            pip install phantominator
+        
+        About
+        =====
+        
+        Python package for easy generation of numerical phantoms.
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
