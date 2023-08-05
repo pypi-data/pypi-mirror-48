@@ -1,0 +1,3 @@
+[console_scripts]
+ddns_client = ddns_client.ddns_client:main
+
