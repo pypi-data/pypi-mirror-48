@@ -1,0 +1,5 @@
+guillotina<5,>=4
+prometheus_client
+
+[test]
+pytest
