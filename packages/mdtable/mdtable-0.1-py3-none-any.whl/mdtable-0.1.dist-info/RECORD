@@ -1,0 +1,10 @@
+mdtable/__init__.py,sha256=Y_K8HIfCW-tsWzlRjXsNlvx7U-k2gF-1FV0VqA6ZhDg,35
+mdtable/__main__.py,sha256=zp_1yix8wOnOg_kq2VRYEGa0Y3tNSjrcueBroY9Bmz4,97
+mdtable/cli.py,sha256=5YWxORHFNcm83_EBsOQ-DI2eKhbhOh1N16SaKZhqon8,1225
+mdtable/mdtable.py,sha256=KVD7rFyIVNwyKscTzXQ3IgpSZF4bY7tgXlhD-i3ywZs,6257
+mdtable-0.1.dist-info/LICENSE,sha256=jK6QWyS6s9jFm4mFbbjFciyB6LZnZi2Lh8kRqVipUkI,1067
+mdtable-0.1.dist-info/METADATA,sha256=XXNgkH0cggyb9FPiEjORp2rexJrtWzlA5GY6a7OZxDU,3850
+mdtable-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mdtable-0.1.dist-info/entry_points.txt,sha256=SlJYRE9pnXerYPQp4lYZT9LUquGbDuamwmg9VkG6gtw,46
+mdtable-0.1.dist-info/top_level.txt,sha256=j9HIBlAXQQgU2Ne9xB2aj5iTv5EGAO6QFFaSQeWuJEs,8
+mdtable-0.1.dist-info/RECORD,,
