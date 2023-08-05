@@ -1,0 +1,2 @@
+include pycrow/__tunels__/nos/nos.g.py
+include pycrow/__tunels__/igris/igris.g.py
