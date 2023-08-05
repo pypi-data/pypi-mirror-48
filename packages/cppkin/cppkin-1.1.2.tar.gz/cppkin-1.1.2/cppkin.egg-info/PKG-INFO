@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: cppkin
+Version: 1.1.2
+Summary: zipkin tracing library
+Home-page: https://github.com/Dudi119/cppKin
+Author: David (Dudi) Likvornik
+Author-email: likdudi@gmail.com
+License: Apache 2.0
+Description: 
+            cppkin is an instrumentation client library for zipkin available in C++ and Python.
+            
+Keywords: zipkin instrumentation tracing
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
