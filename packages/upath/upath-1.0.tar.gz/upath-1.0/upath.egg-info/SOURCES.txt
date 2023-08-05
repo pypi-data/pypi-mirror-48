@@ -1,0 +1,7 @@
+README.md
+setup.py
+upath/upath.c
+upath.egg-info/PKG-INFO
+upath.egg-info/SOURCES.txt
+upath.egg-info/dependency_links.txt
+upath.egg-info/top_level.txt
