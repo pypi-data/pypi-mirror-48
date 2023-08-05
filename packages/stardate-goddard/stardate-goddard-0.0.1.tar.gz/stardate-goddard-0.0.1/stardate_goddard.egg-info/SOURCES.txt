@@ -1,0 +1,12 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+examples/example.py
+examples/pelican-stardate.py
+stardate/__init__.py
+stardate/stardate.py
+stardate_goddard.egg-info/PKG-INFO
+stardate_goddard.egg-info/SOURCES.txt
+stardate_goddard.egg-info/dependency_links.txt
+stardate_goddard.egg-info/top_level.txt
