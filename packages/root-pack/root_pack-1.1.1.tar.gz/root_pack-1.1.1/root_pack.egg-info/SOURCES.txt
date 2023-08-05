@@ -1,0 +1,14 @@
+MANIFEST.in
+setup.py
+root_pack/__init__.py
+root_pack/ch.csv
+root_pack/change.csv
+root_pack/dictionary.txt
+root_pack/example.csv
+root_pack/suffixdvithva.txt
+root_pack/suffixmorph.txt
+root_pack/verb.txt
+root_pack.egg-info/PKG-INFO
+root_pack.egg-info/SOURCES.txt
+root_pack.egg-info/dependency_links.txt
+root_pack.egg-info/top_level.txt
