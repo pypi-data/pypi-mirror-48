@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: polyglot-fork
+Version: 16.7.4
+Summary: Polyglot is a natural language pipeline that supports massive multilingual applications.
+Home-page: https://github.com/aboSamoor/polyglot
+Author: Rami Al-Rfou
+Author-email: rmyeid@gmail.com
+License: GPLv3
+Keywords: polyglot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: futures (>=2.1.6)
+Requires-Dist: pycld2 (>=0.3)
+Requires-Dist: morfessor (>=2.0.2a1)
+Requires-Dist: PyICU (>=1.8)
+Requires-Dist: six (>=1.7.3)
+Requires-Dist: wheel (>=0.23.0)
+Requires-Dist: numpy (>=1.6.1)
+
+fork of polyglot
+
+
