@@ -1,0 +1,8 @@
+README.md
+setup.py
+propertymapper/__init__.py
+propertymapper/mapper.py
+pymapper.egg-info/PKG-INFO
+pymapper.egg-info/SOURCES.txt
+pymapper.egg-info/dependency_links.txt
+pymapper.egg-info/top_level.txt
