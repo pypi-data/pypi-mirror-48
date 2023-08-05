@@ -1,0 +1,10 @@
+{% extends "congo/email/base.html" %}
+{% load i18n common %}
+
+{% block content %}
+
+<h1>{{ subject }}</h1>
+
+<p>{{ content }}</p>
+
+{% endblock %}

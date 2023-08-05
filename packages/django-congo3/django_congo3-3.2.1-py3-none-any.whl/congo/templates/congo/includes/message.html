@@ -1,0 +1,5 @@
+<div class="alert {{ alert_class_set }}">
+  {% if close %}<button type="button" class="close" data-dismiss="alert">&times;</button>{% endif %}
+  <div class="alert-icon {{ text_class }}"><i class="{{ icon_class }}"></i></div>
+  <div class="alert-body">{{ message }}</div>
+</div>

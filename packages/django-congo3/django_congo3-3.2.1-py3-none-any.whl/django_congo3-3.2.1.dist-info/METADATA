@@ -1,0 +1,186 @@
+Metadata-Version: 2.1
+Name: django-congo3
+Version: 3.2.1
+Summary: Congo 3 contains many useful tools for faster and more efficient Django application developing.
+Home-page: https://integree.eu/en/solutions/congo/
+Author: Integree Bussines Solutions
+License: UNKNOWN
+Download-URL: https://pypi.python.org/packages/source/d/django-congo/django-congo-3.2.1.zip
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django :: 2.0
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: django-admin-tools (~=0.8.0)
+Requires-Dist: django-appconf (~=1.0.0)
+Requires-Dist: django-bower (~=5.2.0)
+Requires-Dist: django-filter (~=2.1.0)
+Requires-Dist: django-mptt (~=0.9.0)
+Requires-Dist: django-parler (~=1.9.0)
+Requires-Dist: martor (~=1.2.0)
+Requires-Dist: pillow (~=5.2.0)
+Requires-Dist: premailer (~=3.1.0)
+Requires-Dist: py-moneyed (~=0.8.0)
+Requires-Dist: pycryptodome (~=3.6.0)
+Requires-Dist: suds-jurko (~=0.6.0)
+Requires-Dist: unidecode (~=1.0.0)
+
+# Congo 3
+
+![Python version](https://img.shields.io/pypi/pyversions/django-congo3.svg)
+![Django version](https://img.shields.io/badge/django-1.11%20or%20newer-green.svg)
+![PyPI version](https://img.shields.io/pypi/v/django-congo3.svg)
+![Licence](https://img.shields.io/pypi/l/django-congo3.svg)
+![Downloads](https://img.shields.io/pypi/dm/django-congo3.svg)
+
+Biblioteka Congo 3 zostaĹ‚a stworzona przez [Integree Bussines Solutions](https://www.integree.eu). Paczka zawiera szereg przydatnych rozwiÄ…zaĹ„, ktĂłre usprawniajÄ… i przyspieszajÄ… tworzenie aplikacji webowych w Django 2.x pod Python 3.x.
+
+## Instalacja biblioteki Congo 3 w innym projekcie
+
+Pobierz bibliotekÄ™ ze strony https://gitlab.com/integree/internal/congo3/-/archive/master/congo3-master.zip. Po rozpakowaniu ZIP'a wykonaj polecenie:
+
+```
+python setup.py install
+```
+
+MoĹĽesz teĹĽ zainstalowaÄ‡ bibliotekÄ™ w trybie developerskim, tj. jako symlink:
+
+```
+python setup.py develop
+```
+
+MoĹĽesz teĹĽ uĹĽyÄ‡ repozytorium `PYPI`:
+
+```
+pip install django-congo3
+```
+
+Aby zainstalowaÄ‡ bibliotekÄ™ bezpoĹ›rednio z repozytorium `GIT`, wykonaj polecenie:
+
+```
+pip install git+https://gitlab.com/integree/congo3.git
+```
+
+lub, jeĹ›li chcesz zainstalowaÄ‡ branch, wykonaj polecenie:
+
+```
+pip install git+https://gitlab.com/integree/congo3.git@branch_name
+```
+
+## Instalacja i rozwĂłj projektu Congo 3
+
+### Przygotowanie Ĺ›rodowiska developerskiego
+
+Aby w ogĂłle rozpoczÄ…Ä‡ pracÄ™ z projektem, musisz przygotowaÄ‡ sobie Ĺ›rodowisko programistyczne. Upewnij siÄ™, ĹĽe zainstalowaĹ‚eĹ› i **poprawnie skonfigurowaĹ‚eĹ›** wszystkie poniĹĽsze programy i/lub narzÄ™dzia.
+
+- Python 3.6 x86
+- Visual C++ Build Tools 2015
+- MySQL 5.7 x64
+- MySQL Connector/C 6.1 x86
+- Git for Windows
+- GTK
+- GetText
+- Ruby & Compass
+- Node & Bower
+- virtualenv
+- virtualenvwrapper-win
+
+### Pobranie projektu
+
+Uruchom konsolÄ™ i przejdĹş do katalogu roboczego, np. `D:\serwer\www`, utwĂłrz katalog dla projektu i sklonuj do niego repozytorium:
+
+```
+cd \serwer\www
+mkdir congo3
+git clone https://gitlab.com/integree/congo3.git congo3
+```
+
+### Przygotowanie Ĺ›rodowiska virtualenv
+
+Upewnij siÄ™, ĹĽe zmienna Ĺ›rodowiskowa `WORKON_HOME` wskazuje na katalog domowy virtualenv'a, tj. katalog, w ktĂłrym leĹĽÄ… wszystkie Ĺ›rodowiska wirtualne, np. `D:\serwer\envs`.
+
+```
+set WORKON_HOME
+```
+
+StwĂłrz nowe Ĺ›rodowisko wirtualne:
+
+```
+c:\Python36\python.exe -m venv "%WORKON_HOME%\congo3"
+workon congo3
+```
+
+Upewnij siÄ™, ĹĽe na pewno pracujesz na Pythonie w wersji 3.6.x:
+
+```
+python -V
+```
+
+Wykonaj upgrade pip'a i upewnij siÄ™, ĹĽe masz wersjÄ™ >= 18:
+
+```
+python -m pip install --upgrade pip
+pip -V
+```
+
+PrzejdĹş do katalogu projektu, np. `D:\serwer\www\congo3` i ustaw jako domyĹ›lny dla Ĺ›rodowiska:
+
+```
+cd \serwer\www\congo3
+setprojectdir .
+```
+
+Zainstaluj requirements'y:
+
+```
+pip install -r env\requirements.txt
+```
+
+### Inicjacja bazy danych
+
+Zainicjuj bazÄ™ danych:
+
+```
+mysql -h localhost -u root -p -e "source env\init.sql"
+```
+
+Gdy baza danych jest skonfigurowana, moĹĽesz uruchomiÄ‡ migracje:
+
+```
+migrate.bat
+```
+
+### TĹ‚umaczenia
+
+Wygneruj i skompiluj tĹ‚umaczenia:
+
+```
+makemessages.bat
+compilemessages.bat
+```
+
+### Pliki statyczne
+
+Przed pierwszym uruchomieniem naleĹĽy pobraÄ‡ Bowerem biblioteki JavaScript'owe i skompilowaÄ‡ Compassem pliki Sass:
+
+```
+bower.bat
+watch.bat
+```
+
+## Developerski serwer HTTP
+
+WyglÄ…da na to, ĹĽe doszedĹ‚eĹ› do koĹ„ca. SprawdĹş, czy nic nie popierdaczyĹ‚eĹ›...
+
+```
+runserver.bat
+```
+
+## Autorzy
+
+Made with love by [Integree Bussines Solutions](https://www.integree.eu) - Warsaw, Poland
+

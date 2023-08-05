@@ -1,0 +1,14 @@
+{% extends "congo/email/base.html" %}
+{% load i18n common %}
+
+<!-- Footer -->
+{% block footer_wrapper %}
+  <tr>
+    <td class="footer">
+      {% block footer %}
+        <p>{% blocktrans %}Ta wiadomość została wysłana zgodnie z postanowieniami art. 10 Par. 2 ustawy z dnia 18.07.2002 (Dz.U. Nr 144, poz. 1204 z 2002 r.), ponieważ jesteś subskrybentem biuletynu serwisu {{ domain }}. Jeśli nie chcesz być więcej informowany o naszej ofercie, kliknij na link: <a href="{{ protocol }}://{{ domain }}{! unsubscribe !}">{{ domain }}{! unsubscribe !}</a>.{% endblocktrans %}</p>
+      {% endblock %}
+    </td>
+  </tr>
+{% endblock %}
+<!-- /Footer -->
