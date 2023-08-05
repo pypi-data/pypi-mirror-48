@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+weeder.py
+weeder.egg-info/PKG-INFO
+weeder.egg-info/SOURCES.txt
+weeder.egg-info/dependency_links.txt
+weeder.egg-info/entry_points.txt
+weeder.egg-info/top_level.txt
