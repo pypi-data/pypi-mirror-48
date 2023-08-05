@@ -1,0 +1,13 @@
+root_pack/__init__.py,sha256=WSWY8MqM-bd3wmpErXSSeAgt7W6AHPFHeKsD367b_WQ,8387
+root_pack/ch.csv,sha256=9m3d3WNE_Wls2DyOKWjvXhC2WeOThaRpdoZMciwaGOg,225
+root_pack/change.csv,sha256=PlDZNG0DgC5zJYY9ZTKnrMxlUqobDodwOJSFu9_fIoQ,2761
+root_pack/dictionary.txt,sha256=3LhXWlUX59v7b_eP7X_-0NgQ4G5XiCUHv-ZG8_vj0Mo,2032936
+root_pack/example.csv,sha256=4IXhCMpaXuJyy95Hm9Ue7vfYD0XpsKrlV16KyPpG0SU,4025
+root_pack/suffixdvithva.txt,sha256=1OjmDRaQ-LAEBQdtopqfQtbZv0aXPYOQd2QD5H6MQoo,951
+root_pack/suffixmorph.txt,sha256=kNhQRaZ9Xzzkqtx8OLy7-EDkd1mkVJMAuKKtshzkYKI,6496
+root_pack/verb.txt,sha256=eqGF83pFxDDtDz7aQgE2pNMVmqqYvDtAI5wj0peHq7w,112926
+root_pack-1.1.1.dist-info/LICENSE.txt,sha256=VPF8ARGla57dFtRvxGl89fzjEfOnq6bIiAL10FnXoxY,34693
+root_pack-1.1.1.dist-info/METADATA,sha256=9J8gy4sjYueB6pHKJQzl7NCD4Dmt-40zQkcTEYYLJIM,1838
+root_pack-1.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+root_pack-1.1.1.dist-info/top_level.txt,sha256=Y6zHgjxlSOoSY2xtzvWALzq350BqQlMRkZLQCnM_PPQ,10
+root_pack-1.1.1.dist-info/RECORD,,
