@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+bin/pipis
+src/pipis/__init__.py
+src/pipis/__main__.py
+src/pipis/utils.py
+src/pipis.egg-info/PKG-INFO
+src/pipis.egg-info/SOURCES.txt
+src/pipis.egg-info/dependency_links.txt
+src/pipis.egg-info/requires.txt
+src/pipis.egg-info/top_level.txt
