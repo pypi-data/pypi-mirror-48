@@ -1,0 +1,25 @@
+[babel.extractors]
+ftmmodel = followthemoney.messages:extract_yaml
+
+[followthemoney.types]
+address = followthemoney.types.address:AddressType
+checksum = followthemoney.types.checksum:ChecksumType
+country = followthemoney.types.country:CountryType
+date = followthemoney.types.date:DateType
+domain = followthemoney.types.domain:DomainType
+email = followthemoney.types.email:EmailType
+entity = followthemoney.types.entity:EntityType
+html = followthemoney.types.string:HTMLType
+iban = followthemoney.types.iban:IbanType
+identifier = followthemoney.types.identifier:IdentifierType
+ip = followthemoney.types.ip:IpType
+json = followthemoney.types.json:JsonType
+language = followthemoney.types.language:LanguageType
+mimetype = followthemoney.types.mimetype:MimeType
+name = followthemoney.types.name:NameType
+number = followthemoney.types.number:NumberType
+phone = followthemoney.types.phone:PhoneType
+string = followthemoney.types.string:StringType
+text = followthemoney.types.string:TextType
+url = followthemoney.types.url:UrlType
+
