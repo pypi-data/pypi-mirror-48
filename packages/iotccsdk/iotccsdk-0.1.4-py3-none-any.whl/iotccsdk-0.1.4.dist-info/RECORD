@@ -1,0 +1,10 @@
+iotccsdk/__init__.py,sha256=xah-V9HUPuk_uUOaaAlvJwJuhGtboeIMZFNuHce5EXw,2010
+iotccsdk/camera.py,sha256=035OkvNg58L8EIiipq7gwaqil2N1UA9WrfjEOu1X6wc,20699
+iotccsdk/frame_iterators.py,sha256=RO1dolRkq4bw1uXzmmzewtsKjxsiaFdi7oLW670gm6A,9225
+iotccsdk/ipcprovider.py,sha256=bKlRUxeXfuNPc129lA276FpLy8yTG-pc2lUdAbnnLUQ,11861
+iotccsdk/logger.conf,sha256=Qgi9EYcUPX-2l_v_bzuH61kRsmHZRm9jvlV-Vzk_0Ew,2131
+iotccsdk-0.1.4.dist-info/LICENSE.txt,sha256=9kg6IhORxt3CvA9qRlUva9arPYzXdrSPH3yT3v--2hs,1539
+iotccsdk-0.1.4.dist-info/METADATA,sha256=lqvQI04Abf1KBv92P85I609OML0Sxy9fhb_fwvdKmc0,2279
+iotccsdk-0.1.4.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+iotccsdk-0.1.4.dist-info/top_level.txt,sha256=qR4QaVi4ORk_spITIAHBd9w_c3yrDrbCL0AF2F_tnLk,9
+iotccsdk-0.1.4.dist-info/RECORD,,
