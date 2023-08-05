@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Simplate
+Version: 0.0.1
+Summary: Simple object-based string templating in python
+Home-page: https://github.com/krkimery/simplate
+Author: Kyle Kimery
+Author-email: kylekimery@gmail.com
+License: UNKNOWN
+Description: # simplate
+        Python Simple Templating
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
