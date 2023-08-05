@@ -1,0 +1,11 @@
+README.rst
+setup.cfg
+setup.py
+pyApp.egg-info/PKG-INFO
+pyApp.egg-info/SOURCES.txt
+pyApp.egg-info/dependency_links.txt
+pyApp.egg-info/requires.txt
+pyApp.egg-info/top_level.txt
+pyapp/__init__.py
+pyapp/exceptions.py
+pyapp/versioning.py
