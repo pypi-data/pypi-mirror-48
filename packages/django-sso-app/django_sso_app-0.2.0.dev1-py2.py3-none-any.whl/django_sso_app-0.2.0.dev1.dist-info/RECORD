@@ -1,0 +1,16 @@
+django_sso_app/__init__.py,sha256=SGoHiEyuoKznWNRAr3cDIeEAvrh0l2gxQ0F9SSQRq68,426
+django_sso_app/apps.py,sha256=_Y8f4no6l6FU2BKALxJ_MB8A8lyghHXEIyU7-D3vn24,732
+django_sso_app/backends.py,sha256=3-4O1jIZLPWWNhAImq6ikfDrSxppYMBxKZqZA8b7nT4,4080
+django_sso_app/context_processors.py,sha256=wNgxJw2LxeBDQ3OAQUfpGVyIH4ac1q3PLDHp0MmqYsU,139
+django_sso_app/middleware.py,sha256=kddTwNhXn-tJ3PbSxOiiLhvSocj8sviYGBdJGfOzb6A,6726
+django_sso_app/settings.py,sha256=mUuumPda1zujh0qfvgDoPV9VE5gvFFbkXZw-5bRWeP0,4199
+django_sso_app/urls_admin.py,sha256=HDjLGmyxCco6jE8lkOxP1KZSWII8UwC4RH-dKnMfET8,309
+django_sso_app/utils.py,sha256=u58BSq0i_7ECrOaO6dobo_RSRjNXjcOaStpyp38AMuk,11485
+django_sso_app/views.py,sha256=Wd1sZSMF8TjTpSFVGnDXQFP8nRXvAdHUqpOE-j3iXBY,483
+django_sso_app/templates/admin/login.html,sha256=9b9i7d8LCU2MYSl0b8-DWga_IG_vKTkSk-M8QlnNwwQ,785
+django_sso_app-0.2.0.dev1.dist-info/AUTHORS.rst,sha256=i8JBZ0ZEGDceNLWNWNbpmjXtTJpgSV3pKMhX3mnLJoA,66
+django_sso_app-0.2.0.dev1.dist-info/LICENSE.txt,sha256=Eih10oBKLxHUIb7--okL3VM6qkeiPuQXMT9vODhaYO8,1070
+django_sso_app-0.2.0.dev1.dist-info/METADATA,sha256=x7eCcz3jx4O5b_BIDBPvzHgyRLLeQzDhgiNiIGCs6t4,581
+django_sso_app-0.2.0.dev1.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+django_sso_app-0.2.0.dev1.dist-info/top_level.txt,sha256=FKM01Tf3Rg2lGoLeevJyVME_W2HW0oM6TgVsCnCjcq8,15
+django_sso_app-0.2.0.dev1.dist-info/RECORD,,
