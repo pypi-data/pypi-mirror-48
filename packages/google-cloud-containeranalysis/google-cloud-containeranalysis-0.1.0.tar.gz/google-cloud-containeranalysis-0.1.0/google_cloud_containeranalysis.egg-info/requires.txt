@@ -1,0 +1,6 @@
+google-api-core[grpc]<2.0.0dev,>=1.4.1
+grpc-google-iam-v1<0.12dev,>=0.11.1
+grafeas
+
+[:python_version < "3.4"]
+enum34
