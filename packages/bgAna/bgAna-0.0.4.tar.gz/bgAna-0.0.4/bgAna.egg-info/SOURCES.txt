@@ -1,0 +1,10 @@
+README.md
+setup.py
+bgAna/__init__.py
+bgAna/main.py
+bgAna.egg-info/PKG-INFO
+bgAna.egg-info/SOURCES.txt
+bgAna.egg-info/dependency_links.txt
+bgAna.egg-info/entry_points.txt
+bgAna.egg-info/requires.txt
+bgAna.egg-info/top_level.txt
