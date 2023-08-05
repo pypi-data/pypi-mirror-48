@@ -1,0 +1,6 @@
+-e .
+pytest>=3.0
+pre-commit
+requests-mock
+codecov
+pytest-cov
