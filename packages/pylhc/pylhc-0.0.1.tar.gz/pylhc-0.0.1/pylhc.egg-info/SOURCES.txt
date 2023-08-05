@@ -1,0 +1,13 @@
+README.md
+setup.py
+pylhc/__init__.py
+pylhc/debug_test.py
+pylhc/fsfd.py
+pylhc/machine_settings_info.py
+pylhc/tst_machine_settings_extract.py
+pylhc/tst_pjlsa_vs_timber.py
+pylhc.egg-info/PKG-INFO
+pylhc.egg-info/SOURCES.txt
+pylhc.egg-info/dependency_links.txt
+pylhc.egg-info/requires.txt
+pylhc.egg-info/top_level.txt
