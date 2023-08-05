@@ -1,0 +1,12 @@
+inference/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inference/gp_tools.py,sha256=wZ-tfd00jEqTIJLkMyPx1LshnxeuZ9pnrgw2A-Evtkc,22216
+inference/mcmc.py,sha256=Dk9Kiiv8bfJ1tNiCD0yeoOwRHUcn5Zu2qLMQbVvKoes,60934
+inference/pdf_tools.py,sha256=ZUF0Wn5gusLANqV4jWVv9HFNriSOBP366G5JcWhL20w,24803
+inference/plotting.py,sha256=sLMP9eai67Wjjf29x_3HrSnw6DeXqrHaKHpASYIeUuA,4971
+inference/future/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inference/future/lbde.py,sha256=hLmoZ_vb9PqREwfl25Fxr4CkjB-TfHR3u2UDZYAjvXc,6339
+inference_tools-0.4.1.dist-info/LICENSE,sha256=Y0-EfO5pdxf6d0J6Er13ZSWiPZ2o6kHvM37eRgnJdww,1069
+inference_tools-0.4.1.dist-info/METADATA,sha256=O-YJB2jTIfcMT2bi9_Bf9Dabsys6acY-v4u4HdwZxPU,1105
+inference_tools-0.4.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+inference_tools-0.4.1.dist-info/top_level.txt,sha256=I7bsb71rLtH3yvVH_HSLXUosY2AwCxEG3vctNsEhbEM,10
+inference_tools-0.4.1.dist-info/RECORD,,
