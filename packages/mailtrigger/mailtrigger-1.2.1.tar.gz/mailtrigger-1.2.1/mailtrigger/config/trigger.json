@@ -1,0 +1,40 @@
+{
+  "gerrit": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8080
+  },
+  "help": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    }
+  },
+  "jenkins": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8081
+  },
+  "jira": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8082
+  }
+}
