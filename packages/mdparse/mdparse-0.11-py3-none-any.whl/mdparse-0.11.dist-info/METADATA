@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: mdparse
+Version: 0.11
+Summary: Parsing markdown files for deep learning.
+Home-page: https://github.com/machine-learning-apps/mdparse
+Author: Hamel Husain
+Author-email: hamel.husain@gmail.com
+License: MIT
+Download-URL: https://github.com/machine-learning-apps/mdparse/archive/v.11.zip
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: attrs (>=19.1.0)
+Requires-Dist: backcall (>=0.1.0)
+Requires-Dist: beautifulsoup4 (>=4.7.1)
+Requires-Dist: blis (>=0.2.4)
+Requires-Dist: bs4 (>=0.0.1)
+Requires-Dist: cachetools (>=3.1.1)
+Requires-Dist: chardet (>=3.0.4)
+Requires-Dist: cymem (>=2.0.2)
+Requires-Dist: cytoolz (>=0.9.0.1)
+Requires-Dist: decorator (>=4.4.0)
+Requires-Dist: certifi (>=2019.3.9)
+Requires-Dist: html5lib (>=1.0.1)
+Requires-Dist: idna (>=2.8)
+Requires-Dist: jedi (>=0.13.3)
+Requires-Dist: joblib (>=0.13.2)
+Requires-Dist: jsonschema (>=3.0.1)
+Requires-Dist: mistune (>=0.8.4)
+Requires-Dist: murmurhash (>=1.0.2)
+Requires-Dist: networkx (>=2.3)
+Requires-Dist: numpy (>=1.16.4)
+Requires-Dist: parso (>=0.4.0)
+Requires-Dist: pickleshare (>=0.7.5)
+Requires-Dist: plac (>=0.9.6)
+Requires-Dist: preshed (>=2.0.1)
+Requires-Dist: prompt-toolkit (>=2.0.9)
+Requires-Dist: ptyprocess (>=0.6.0)
+Requires-Dist: pyemd (>=0.5.1)
+Requires-Dist: pygments (>=2.4.2)
+Requires-Dist: pyphen (>=0.9.5)
+Requires-Dist: pyrsistent (>=0.15.2)
+Requires-Dist: python-dateutil (>=2.8.0)
+Requires-Dist: python-levenshtein (>=0.12.0)
+Requires-Dist: regex (>=2019.6.8)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: six (>=1.12.0)
+Requires-Dist: soupsieve (>=1.9.1)
+Requires-Dist: spacy (>=2.1.4)
+Requires-Dist: srsly (>=0.0.7)
+Requires-Dist: textacy (>=0.7.0)
+Requires-Dist: thinc (>=7.0.4)
+Requires-Dist: timeout-decorator (>=0.4.1)
+Requires-Dist: toolz (>=0.9.0)
+Requires-Dist: tornado (>=6.0.2)
+Requires-Dist: tqdm (>=4.32.1)
+Requires-Dist: traitlets (>=4.3.2)
+Requires-Dist: urllib3 (>=1.24.3)
+Requires-Dist: wasabi (>=0.2.2)
+Requires-Dist: wcwidth (>=0.1.7)
+Requires-Dist: webencodings (>=0.5.1)
+Provides-Extra: tests
+Requires-Dist: pytest ; extra == 'tests'
+Requires-Dist: pytest-pep8 ; extra == 'tests'
+Requires-Dist: pytest-xdist ; extra == 'tests'
+Requires-Dist: pytest-cov ; extra == 'tests'
+
+UNKNOWN
+
+
