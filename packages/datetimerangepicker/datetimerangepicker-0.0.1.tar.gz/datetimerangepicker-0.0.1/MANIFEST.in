@@ -1,0 +1,5 @@
+include datetimerangepicker/datetimerangepicker.min.js
+include datetimerangepicker/datetimerangepicker.dev.js
+include datetimerangepicker/metadata.json
+include datetimerangepicker/package.json
+include README.md
