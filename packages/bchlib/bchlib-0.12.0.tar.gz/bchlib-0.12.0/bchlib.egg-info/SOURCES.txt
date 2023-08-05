@@ -1,0 +1,11 @@
+COPYING
+MANIFEST.in
+README.md
+setup.py
+bchlib/bch.c
+bchlib/bch.h
+bchlib/bchlib.c
+bchlib.egg-info/PKG-INFO
+bchlib.egg-info/SOURCES.txt
+bchlib.egg-info/dependency_links.txt
+bchlib.egg-info/top_level.txt
