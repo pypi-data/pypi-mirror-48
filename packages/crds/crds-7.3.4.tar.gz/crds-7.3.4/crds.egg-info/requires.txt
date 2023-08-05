@@ -1,0 +1,14 @@
+astropy
+numpy
+mock
+filelock
+lockfile
+
+[jwst]
+jwst
+
+[submission]
+requests
+lxml
+parsley
+fitsverify
