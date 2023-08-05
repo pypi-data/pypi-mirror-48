@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pypros
+Version: 0.0.4
+Summary: pyPROS: Probability of rain or snow calculation
+Home-page: https://github.com/pypa/sampleproject
+License: UNKNOWN
+Description: ![PyPI](https://img.shields.io/pypi/v/pypros.svg)
+        [![Anaconda-Server Badge](https://anaconda.org/meteocat/pypros/badges/version.svg)](https://anaconda.org/meteocat/pypros)
+        [![Documentation Status](https://readthedocs.org/projects/pypros/badge/?version=latest)](https://pypros.readthedocs.io/en/latest/?badge=latest)
+        [![Build Status](https://travis-ci.org/meteocat/pypros.svg?branch=master)](https://travis-ci.org/meteocat/pypros)
+        
+        PyPROS: Probability of Rain or Snow
+        ===================================
+        
+        The PyPROS library applied several algorithms to calculate the probability that the precipitation will be in rain, sleet or snow, given the temperature, dew point, reflectivity or other magnitudes.
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
