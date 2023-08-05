@@ -1,0 +1,7 @@
+setup.py
+staplesremoval/__init__.py
+staplesremoval/staples_detector.py
+staplesremoval.egg-info/PKG-INFO
+staplesremoval.egg-info/SOURCES.txt
+staplesremoval.egg-info/dependency_links.txt
+staplesremoval.egg-info/top_level.txt
