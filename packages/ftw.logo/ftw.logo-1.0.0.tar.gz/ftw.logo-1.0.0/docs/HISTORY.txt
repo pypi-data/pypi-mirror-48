@@ -1,0 +1,9 @@
+Changelog
+=========
+
+
+1.0.0 (2019-06-20)
+------------------
+
+- Add Plone 5.1 support. [busykoala]
+- Initial implementation.
