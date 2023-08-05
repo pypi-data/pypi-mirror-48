@@ -1,0 +1,13 @@
+cockatoo/__init__.py,sha256=_4peqW8Fu0eL6YQipDn5TrUDAbNAjrvVBKcAdMScI8Q,285
+cockatoo/cli.py,sha256=ZO5miwF5kSBj-D7VVpcTgkoM-MulV5yu6I8hlIPrLqM,6004
+cockatoo/hclust.py,sha256=_QLmISjzUiXqLHUB5wHTywi5DbAWkarvnULwt8TcVMg,10285
+cockatoo/metric.py,sha256=FPRijmhahpdCKGpTlTkSp_qOJNB1r39wAYJHn_NLh9k,2556
+cockatoo/screen.py,sha256=4bPotbt3fBTReYbLr5tz0c29sr-WD82froI5Lud8XpM,18560
+cockatoo/xtuition.py,sha256=WgqIeSLTBTLTqydfWPNJ1IBpv7nbiXOYpSYkUgXBMW4,1562
+cockatoo-0.6.1.dist-info/AUTHORS,sha256=arvP4dowr56VGpifhS8UulgcusxKqSNYb32nbap2zb4,426
+cockatoo-0.6.1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cockatoo-0.6.1.dist-info/METADATA,sha256=T90Sn8MkdCjqXEcuyyD1aDKZ7ha_L2pc3SRuCMNygSY,1958
+cockatoo-0.6.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cockatoo-0.6.1.dist-info/entry_points.txt,sha256=9ZQDzZE9qGxh3OMl4mbGKHBfSXE65XmUJQU-zIS3HFI,66
+cockatoo-0.6.1.dist-info/top_level.txt,sha256=qv4yQRPpO--fLbaVYpqxxlXZDm84LLQB2QmNBAcsoFM,9
+cockatoo-0.6.1.dist-info/RECORD,,
