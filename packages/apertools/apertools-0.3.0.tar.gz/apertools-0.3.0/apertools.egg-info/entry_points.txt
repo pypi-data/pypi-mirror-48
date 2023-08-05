@@ -1,0 +1,3 @@
+[console_scripts]
+aper = apertools.scripts.cli:cli
+
