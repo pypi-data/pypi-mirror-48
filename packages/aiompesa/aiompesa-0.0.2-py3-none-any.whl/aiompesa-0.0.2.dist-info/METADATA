@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: aiompesa
+Version: 0.0.2
+Summary: A thin async wrapper of MPESA daraja API.
+Home-page: http://github.com/musale/aiompesa
+Author: Martin Musale
+Author-email: martinmshale@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+
+
