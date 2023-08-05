@@ -1,0 +1,7 @@
+pytz
+dateparser
+pandas
+
+[testing]
+pytest
+pytest-cov
