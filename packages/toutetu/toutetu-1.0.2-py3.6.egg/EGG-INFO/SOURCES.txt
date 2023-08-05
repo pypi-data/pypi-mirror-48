@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+toutetu/__init__.py
+toutetu/food.conf
+toutetu/toutetu.py
+toutetu.egg-info/PKG-INFO
+toutetu.egg-info/SOURCES.txt
+toutetu.egg-info/dependency_links.txt
+toutetu.egg-info/entry_points.txt
+toutetu.egg-info/top_level.txt
