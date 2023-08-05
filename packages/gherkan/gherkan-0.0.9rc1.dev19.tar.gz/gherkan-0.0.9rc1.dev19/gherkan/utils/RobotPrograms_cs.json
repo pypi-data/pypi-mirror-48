@@ -1,0 +1,50 @@
+{
+    "robot r1": {
+        "1": "být inaktivní",
+        "2": "zvednout kostka 1",
+        "3": "položit kostička 1 na vozíček xy na pozice 1",
+        "4": "vyložit kostka 3x2",
+        "5": "vyložit kostka 4x2",
+        "6": "vyložit kostka 6x2"
+    },
+    "robot r2": {
+        "1": "být inaktivní",
+        "2": "vyrábět produkt",
+        "3": "vyložit kostka 4x2"
+    },
+    "robot r3": {
+        "1": "být inaktivní",
+        "2": "vyložit kostka 2x2",
+        "3": "vyložit kostka 2x4"
+    },
+    "robot n1": {
+        "1": "být inaktivní",
+        "2": "nanášet lepidlo",
+        "3": "zvednout díl 2",
+        "4": "slepit díl 1 s dílem 2",
+        "5": "nanést lepidlo na díl 2",
+        "6": "svařit díl",
+        "7": "svařit díl 1 s dílem 2",
+        "8": "měnit svářečka za gripper",
+        "9": "měnit gripper za svářečka"
+    },
+    "robot n2": {
+        "1": "být inaktivní",
+        "2": "položit produkt na linka",
+        "3": "zvednout produkt z stůl",
+        "4": "zvednout díl",
+        "5": "svařit díl",
+        "6": "zvednout produkt"
+    },
+    "robot n3": {
+        "1": "být inaktivní",
+        "2": "lakovat produkt",
+        "3": "lakovat díl 1",
+        "4": "měnit lepící pistol",
+        "5": "lakovat produkt 2",
+        "6": "měnit pistol 2 za pistol 1",
+        "7": "lakovat díl 1a nebo díl 1b",
+        "8": "měnit pistol 1 za pistol 2",
+        "9": "lakovat díl 2"
+    }
+}
