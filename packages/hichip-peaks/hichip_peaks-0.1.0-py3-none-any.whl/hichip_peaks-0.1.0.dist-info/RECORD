@@ -1,0 +1,14 @@
+hichip_peaks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hichip_peaks/bedgraph.py,sha256=OFpQgLmDkDwaLDLbq2UJvMShqE4e6qhH4z3gHXaV1u0,2871
+hichip_peaks/diffpeaks.py,sha256=k-WZI3euAavGR1dSpfp9-qVuFmOqm2zKQ7hS37s3n_Y,5763
+hichip_peaks/helpers.py,sha256=1bbsRF_H3aluPPOAa8Fz1Zgg_rGMaj9fz8elWmt44-Y,753
+hichip_peaks/interaction_to_sparse.py,sha256=Ek5g6RfAp5fv9edAYnXsEUsObUzadEFEAYnUzuMvVc0,11684
+hichip_peaks/main.py,sha256=EpkbWuU_zFVJB_MYLOIRdsFRSTMx4rYVnaHL-eanoEI,7143
+hichip_peaks/quality_report.py,sha256=xYzkIoOSAKnMpPZeyZtZ6GahOyAR5x7p79zC6FjEbQA,2926
+hichip_peaks/sparse_to_peaks.py,sha256=dlfjTT69xvCU4wssvRwwC-chRzb1YFBkSZxOwFmJM48,18733
+hichip_peaks-0.1.0.dist-info/LICENSE,sha256=4Vc4moxFvGhfaUPj88B-TqpEoN2HEJhM9olJcRBvNrA,1508
+hichip_peaks-0.1.0.dist-info/METADATA,sha256=DBRD0OwNTuuxj6bbsBxEuYf6gAmjo0h5az9zGWyE8Lo,8802
+hichip_peaks-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+hichip_peaks-0.1.0.dist-info/entry_points.txt,sha256=nnX8Z65bOR5rJKkoQDj7NHusFvPp5pXrRMdyH3kGe6c,138
+hichip_peaks-0.1.0.dist-info/top_level.txt,sha256=86ipuypHO4VbFQnwGGO13XpUJ_O6AT1E91fZRDne4w8,13
+hichip_peaks-0.1.0.dist-info/RECORD,,
