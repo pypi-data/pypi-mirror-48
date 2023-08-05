@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: elisa-clean
+Version: 0.0.2
+Summary: Lexicon cleaning tool
+Home-page: https://github.com/ChenghaoMou/elisa-clean
+Author: chenghaomou
+Author-email: chengham@isi.edu
+License: UNKNOWN
+Description: # Lexicon Clean tool
+        
+        ## Usage
+        
+        ```shell
+        python -m elisa_clean --help
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
