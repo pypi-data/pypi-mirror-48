@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: iamq
+Version: 0.0.1
+Summary: encapsulation of mqtt features
+Home-page: https://github.com/coghost/iamq
+Author: lihe
+Author-email: imanux@sina.com
+License: GPL
+Project-URL: Bug Reports, https://github.com/coghost/iamq/issues
+Project-URL: Source, https://github.com/coghost/iamq
+Keywords: iamq,izen,profig,logzero
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: logzero
+Requires-Dist: paho-mqtt
+
+# iamq
+mqtt queue
+
+
