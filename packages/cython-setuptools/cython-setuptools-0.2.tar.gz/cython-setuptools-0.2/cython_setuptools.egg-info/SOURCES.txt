@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cython_setuptools/__init__.py
+cython_setuptools/cli.py
+cython_setuptools/vendor.py
+cython_setuptools.egg-info/PKG-INFO
+cython_setuptools.egg-info/SOURCES.txt
+cython_setuptools.egg-info/dependency_links.txt
+cython_setuptools.egg-info/entry_points.txt
+cython_setuptools.egg-info/requires.txt
+cython_setuptools.egg-info/top_level.txt
