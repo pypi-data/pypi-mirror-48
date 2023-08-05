@@ -1,0 +1,15 @@
+hooked/__init__.py,sha256=6YDnFnZizq1w7t6y_Uri2d2-VqFFgZH12KQqFf-qztw,51
+hooked/admin.py,sha256=wuPmtmPddE5hYVkYnS1DT-0nEK60rJWdXfHwIe04cB4,1133
+hooked/apps.py,sha256=E9llPX8lTtx0qQpYqAKzoPljSbD9bco-C0CdS5RjJ7g,144
+hooked/hooked.py,sha256=rb1b0fihd5ZYKt58bPCS7Oi954jtIwAQfZOrbYwQynI,42
+hooked/http.py,sha256=JUm0mthTDRZJRzpLVGDuGxHpt48kyAIy9ivBC4T876E,1211
+hooked/models.py,sha256=lcSwR0Pzy9D2qgq49uFJA_cmeQFJrzdgUMFBiS-95X0,2436
+hooked/receivers.py,sha256=y0DtRwqxFYkoj0j1DIirY1vC2HKFT0mafdj92c3ARH8,1976
+hooked/tokens.py,sha256=BqLvQtIn8yp6-cnI0kk17pUJ7TW2h1uGWnwiM2cl8k0,808
+hooked/migrations/0001_initial.py,sha256=ZyYC0EeITM9sgBevNxFBcdOmypRV_hNrwRyfo9j0d2c,2315
+hooked/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_hooked-0.2.5.dist-info/LICENSE,sha256=d3TeSKaY2TOAa5SwzSf4vEM6Nr8EVK9HLAxtACGhOmg,1078
+django_hooked-0.2.5.dist-info/METADATA,sha256=Hc8CHxIZ5Fq4iPgMooYa25zKa8q-W9j-xNAOScc-frw,894
+django_hooked-0.2.5.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+django_hooked-0.2.5.dist-info/top_level.txt,sha256=Qn6TMUqM1ge9wGeviSqYmBDnTfv7eGC_rR1bSZ-NU9M,25
+django_hooked-0.2.5.dist-info/RECORD,,
