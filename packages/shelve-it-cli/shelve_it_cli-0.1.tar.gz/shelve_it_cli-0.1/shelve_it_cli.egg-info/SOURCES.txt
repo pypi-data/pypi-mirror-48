@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/shelve_it_cli
+shelve_it_cli/__init__.py
+shelve_it_cli/archivesspace.py
+shelve_it_cli/shelve_it_cli.py
+shelve_it_cli.egg-info/PKG-INFO
+shelve_it_cli.egg-info/SOURCES.txt
+shelve_it_cli.egg-info/dependency_links.txt
+shelve_it_cli.egg-info/not-zip-safe
+shelve_it_cli.egg-info/requires.txt
+shelve_it_cli.egg-info/top_level.txt
+test/test_archivesspace.py
