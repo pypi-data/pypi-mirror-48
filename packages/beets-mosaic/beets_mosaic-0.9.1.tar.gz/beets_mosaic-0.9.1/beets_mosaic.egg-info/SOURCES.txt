@@ -1,0 +1,12 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+beets_mosaic.egg-info/PKG-INFO
+beets_mosaic.egg-info/SOURCES.txt
+beets_mosaic.egg-info/dependency_links.txt
+beets_mosaic.egg-info/requires.txt
+beets_mosaic.egg-info/top_level.txt
+beetsplug/__init__.py
+beetsplug/mosaic.py
+doc/package.rst

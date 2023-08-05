@@ -1,0 +1,6 @@
+beets>=1.4.3
+Pillow
+Parse
+TTFQuery>=2.0.0b1
+fontTools
+requests
