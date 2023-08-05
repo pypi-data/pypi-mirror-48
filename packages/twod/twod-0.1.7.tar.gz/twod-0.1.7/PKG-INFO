@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: twod
+Version: 0.1.7
+Summary: A two-dimensional geometry library for humans.
+Home-page: https://github.com/JnyJny/twod.git
+Author: jnyjny
+Author-email: erik.oshaughnessy@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Games/Entertainment
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Project-URL: Repository, https://github.com/JnyJny/twod.git
