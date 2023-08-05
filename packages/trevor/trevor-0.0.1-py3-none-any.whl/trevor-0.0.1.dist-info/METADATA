@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: trevor
+Version: 0.0.1
+Summary: A small example package
+Home-page: https://github.com/pcgeek86/trevor-py
+Author: Trevor Sullvian
+Author-email: trevor@trevorsullivan.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+
+Trevor's Python package
+
+
