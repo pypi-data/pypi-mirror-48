@@ -1,0 +1,7 @@
+README.md
+setup.py
+pyless/__init__.py
+pyless.egg-info/PKG-INFO
+pyless.egg-info/SOURCES.txt
+pyless.egg-info/dependency_links.txt
+pyless.egg-info/top_level.txt
