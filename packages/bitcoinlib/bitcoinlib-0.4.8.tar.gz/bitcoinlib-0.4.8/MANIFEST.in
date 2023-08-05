@@ -1,0 +1,12 @@
+include README.rst
+include LICENSE
+include CHANGELOG
+include updatedb.py
+recursive-include bitcoinlib/config *.py
+recursive-include bitcoinlib/config/VERSION
+recursive-include bitcoinlib/data *.json
+recursive-include bitcoinlib/services *.py
+recursive-include bitcoinlib/wordlist *.txt
+recursive-include bitcoinlib/tools *.py
+recursive-include tests *.json *.py
+recursive-include docs *.pdf
