@@ -1,0 +1,9 @@
+README.md
+setup.py
+sumstats/__init__.py
+sumstats/sumstats.py
+sumstats.egg-info/PKG-INFO
+sumstats.egg-info/SOURCES.txt
+sumstats.egg-info/dependency_links.txt
+sumstats.egg-info/requires.txt
+sumstats.egg-info/top_level.txt
