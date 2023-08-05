@@ -1,0 +1,3 @@
+[console_scripts]
+eml2png = eml2png.skeleton:run
+

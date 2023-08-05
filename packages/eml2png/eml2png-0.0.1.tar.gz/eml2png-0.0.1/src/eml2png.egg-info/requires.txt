@@ -1,0 +1,6 @@
+imgkit==1.0.2
+
+[testing]
+pytest
+pytest-cov
+pytest-xvfb
