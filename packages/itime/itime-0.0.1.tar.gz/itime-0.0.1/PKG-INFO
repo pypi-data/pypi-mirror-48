@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: itime
+Version: 0.0.1
+Summary: awesome converter for various time formata
+Home-page: https://github.com/slxiao/itime
+Author: Shelwin Xiao
+Author-email: shliangxiao@gmail.com
+License: MIT
+Description: # itime: awesome convert for various time formats
+        
+        ## Installation
+        
+        You can install itime package from [PyPI](https://pypi.org/project/itime/):
+        
+            pip install itime
+        
+        The reader is supported on Python 2.7, as well as Python 3.4 and above.
+        
+        ## How to use
+        
+        T.B.D.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
