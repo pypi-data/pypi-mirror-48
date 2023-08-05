@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gcgman
+Version: 0.0.7
+Summary: A package to write any letter you want in the github graph
+Home-page: https://github.com/kosantosbik/gcgman
+Author: N.Ahmet BASTUG
+Author-email: bastugn@itu.edu.tr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Description-Content-Type: text/markdown
+
+
+
+# Github Contribution Graph Manager
+
+
+## TODO
+
+### Update README
+
+### Add Contribution Page
+
+### Add package to pypi
+
+
