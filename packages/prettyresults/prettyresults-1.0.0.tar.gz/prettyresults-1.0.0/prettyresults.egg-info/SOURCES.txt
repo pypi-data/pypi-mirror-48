@@ -1,0 +1,15 @@
+README.md
+setup.py
+prettyresults/__init__.py
+prettyresults/crosses.py
+prettyresults/dataloader.py
+prettyresults/descriptives.py
+prettyresults/result_tree.py
+prettyresults/results.py
+prettyresults/utils.py
+prettyresults/word.py
+prettyresults.egg-info/PKG-INFO
+prettyresults.egg-info/SOURCES.txt
+prettyresults.egg-info/dependency_links.txt
+prettyresults.egg-info/requires.txt
+prettyresults.egg-info/top_level.txt

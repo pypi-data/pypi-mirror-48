@@ -1,0 +1,6 @@
+matplotlib>=2.1.1
+numpy>=1.13.3
+pandas>=0.24.1
+python-docx>=0.8.10
+scipy>=0.19.1
+Pillow>=5.1.0
