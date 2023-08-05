@@ -1,0 +1,8 @@
+python/kaiju/__init__.py,sha256=VXbyC1kTIqIi4GX73C8wNfod31Pb3YoiIDDQ5WPaJ94,87
+python/kaiju/__version__.py,sha256=BPCnQGc0b9a23qO6oSMmkd6FOjCOSWYo9BLyax35BdM,48
+python/kaiju/cKaiju.cpython-37m-darwin.so,sha256=PFeHgj0C1AODUa3ozZqXDMxGiKpT1ouLiEVvhUP0p-c,346072
+sdss_kaiju-0.3.8.dist-info/LICENSE.md,sha256=_7dAUQQ5Ph_x1hcFXhi9aHBcqq9H11zco12eO4B3Cyg,1504
+sdss_kaiju-0.3.8.dist-info/METADATA,sha256=E4wz6x-xMbbBb7ZfpFbqBiFr3ZJOycS3OZjZlQhPJk4,769
+sdss_kaiju-0.3.8.dist-info/WHEEL,sha256=KUcuKd4NS6mCD7Qx4sT343lTcoCvKQec801MGpvmkDM,110
+sdss_kaiju-0.3.8.dist-info/top_level.txt,sha256=EDGn94GdSK3pv7Jma4quYYnx5XUmN8YYzFNEu9oTlFU,33
+sdss_kaiju-0.3.8.dist-info/RECORD,,
