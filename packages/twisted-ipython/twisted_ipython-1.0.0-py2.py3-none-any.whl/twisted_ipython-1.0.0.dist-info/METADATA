@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: twisted-ipython
+Version: 1.0.0
+Summary: An IPython extension for running twisted code
+Home-page: https://github.com/jfhbrook/twisted_ipython
+Author: Joshua Holbrook
+Author-email: josh.holbrook@gmail.com
+License: UNKNOWN
+Keywords: IPython,twisted,crochet
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: IPython
+Classifier: Framework :: Twisted
+Requires-Dist: twisted
+Requires-Dist: crochet
+Requires-Dist: ipython
+
+
+twisted_ipython
+===============
+
+An `IPython <https://ipython.org/>`__ extension that uses
+`crochet <https://github.com/itamarst/crochet>`__ to enable running
+`Twisted <https://twistedmatrix.com/trac/>`__ in IPython and
+`Jupyter <https://jupyter.org/>`__ notebooks.
+
+For more information, check out the
+`README <https://github.com/jfhbrook/twisted_ipython/blob/master/README.ipynb>`__.
+
+
