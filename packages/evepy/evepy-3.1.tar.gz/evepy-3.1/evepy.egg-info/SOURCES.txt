@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Eve/Decoder.py
+Eve/Encoder.py
+Eve/Parser.py
+Eve/__init__.py
+evepy.egg-info/PKG-INFO
+evepy.egg-info/SOURCES.txt
+evepy.egg-info/dependency_links.txt
+evepy.egg-info/top_level.txt
