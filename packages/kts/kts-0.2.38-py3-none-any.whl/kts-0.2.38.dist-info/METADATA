@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: kts
+Version: 0.2.38
+Summary: Competition-oriented framework for interactive feature engineering and building reproducible pipelines
+Home-page: https://github.com/konodyuk/kts
+Author: Nikita Konodyuk
+Author-email: konodyuk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: mprop
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scikit-learn
+Requires-Dist: scikit-optimize
+Requires-Dist: matplotlib
+Requires-Dist: seaborn
+Requires-Dist: dill
+Requires-Dist: feather-format
+Requires-Dist: swifter
+Requires-Dist: kts-cli
+Requires-Dist: texttable
+Requires-Dist: fastprogress
+Provides-Extra: all
+Requires-Dist: catboost ; extra == 'all'
+Requires-Dist: xgboost ; extra == 'all'
+Requires-Dist: lightgbm ; extra == 'all'
+Requires-Dist: skorch ; extra == 'all'
+Requires-Dist: eli5 ; extra == 'all'
+Requires-Dist: mujoco-py (<2.1,>=1.50) ; extra == 'all'
+Requires-Dist: imageio ; extra == 'all'
+Provides-Extra: mujoco
+Requires-Dist: mujoco-py (<2.1,>=1.50) ; extra == 'mujoco'
+Requires-Dist: imageio ; extra == 'mujoco'
+Provides-Extra: nn
+Requires-Dist: skorch ; extra == 'nn'
+Provides-Extra: robotics
+Requires-Dist: mujoco-py (<2.1,>=1.50) ; extra == 'robotics'
+Requires-Dist: imageio ; extra == 'robotics'
+Provides-Extra: selection
+Requires-Dist: eli5 ; extra == 'selection'
+Provides-Extra: zoo
+Requires-Dist: catboost ; extra == 'zoo'
+Requires-Dist: xgboost ; extra == 'zoo'
+Requires-Dist: lightgbm ; extra == 'zoo'
+
+# kts
+
+`kts` is the first competition-oriented framework for interactive feature engineering and building reproducible pipelines.
+
+## Getting started
+
+To get the latest version of the framework, you can either use `pip` or download the source code via `git clone`:
+
+``` sh
+$ pip3 install kts
+```
+or
+``` sh
+$ git clone github.com/konodyuk/kts.git
+```
+
+The second option is better only if you want to download our example.
+
+After installation you need to initialize your kts project:
+
+``` sh
+$ cd project/
+$ kts init
+```
+
+We highly recommend that you use an empty folder for that, but if you want to use already downloaded data, ensure that it is stored in `project/input` and follow the instructions.
+
+## Example
+
+To get used to kts interface, run the example notebook. It contains a full data processing cycle with kts. Of course, the example is not comprehensive, so don't hesitate to ask [me](https://telegram.me/konodyuk) any questions. 
+
+Leave your bug reports in the issues.
+
+
