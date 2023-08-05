@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: plotje
+Version: 1.1
+Summary: Simple matplotlib styling function.
+Home-page: https://www.github.com/wiheto/plotje
+Author: William Hedley Thompson
+Author-email: hedley@startmail.com
+License: UNKNOWN
+Description: Simple matplotlib styling function to make prettier and simplier axes.
+Platform: UNKNOWN
+Requires-Python: >3.5
