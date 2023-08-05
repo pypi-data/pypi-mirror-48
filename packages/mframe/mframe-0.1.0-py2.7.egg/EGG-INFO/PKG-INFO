@@ -1,0 +1,37 @@
+Metadata-Version: 1.1
+Name: mframe
+Version: 0.1.0
+Summary: A lightweight single file DataFrame implementation that works on older Python distrubtions such as Jython.
+Home-page: https://github.com/prio/mframe
+Author: Jonathan Harrington
+Author-email: jonathan@jonharrington.org
+License: BSD
+Description: ============================
+        MFrame - A minimal DataFrame
+        ============================
+        
+        
+        A lightweight single file DataFrame implementation that works on older Python distrubtions such as Jython.
+        
+        Feel free to fork, add features and make a pull request.
+        
+        Install
+        =======
+        
+        ::
+         $ pip install mframe
+        
+        
+        or copy mframe.py to your project folder.
+        
+        Tested on
+        =========
+        
+        - Python 3.7
+        - Jython 2.7
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: Jython
+Classifier: Programming Language :: Python :: Implementation :: CPython
