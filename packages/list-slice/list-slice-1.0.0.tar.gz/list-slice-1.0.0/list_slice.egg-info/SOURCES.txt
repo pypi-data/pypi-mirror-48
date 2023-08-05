@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+list_slice.egg-info/PKG-INFO
+list_slice.egg-info/SOURCES.txt
+list_slice.egg-info/dependency_links.txt
+list_slice.egg-info/top_level.txt
+listslicer/slicer.py

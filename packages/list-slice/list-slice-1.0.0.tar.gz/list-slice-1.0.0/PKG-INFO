@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: list-slice
+Version: 1.0.0
+Summary: This library has a function to split the data list into several small sections
+Home-page: https://github.com/yusriltakeuchi/list-slicer
+Author: Yusril Rapsanjani
+Author-email: yuranicorp@gmail.com
+License: MIT
+Description: # List Slicer
+        This library has a function to split the data list into several small sections
+        
+        ## Usage
+        Use the following code to split your list data
+        
+        ### Split List data
+        ```
+        from listslicer.slicer import Slicer
+        
+        #My list data
+        data = [
+            200, 1230, 15, 2200, 5550
+        ]
+        #2 is amount to split
+        data_slice = Slicer.cut(data, 2)
+        print(data_slice)
+        ```
+        ### Result
+        ```
+        [[200, 1230], [15, 2200], [5550]]
+        ```
+        
+        ## Example to split Dictionary
+        ```
+        data = [
+            {
+                "foodname": "Ayam Bakar",
+                "price": 12000
+            }, 
+            {
+                "foodname": "Jus Mangga",
+                "price": 7000
+            },
+            {
+                "foodname": "Mie Goreng",
+                "price": 9000
+            },
+            {
+                "foodname": "Chicken Katsu",
+                "price": 15000
+            },
+        ]
+        print(slicer.cut(data, 2))
+        ```
+        ### Result 
+        ```
+        [
+            [{'price': 12000, 'foodname': 'Ayam Bakar'}, {'price': 7000, 'foodname': 'Jus Mangga'}], 
+            [{'price': 9000, 'foodname': 'Mie Goreng'}, {'price': 15000, 'foodname': 'Chicken Katsu'}]
+        ]
+        ```
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
