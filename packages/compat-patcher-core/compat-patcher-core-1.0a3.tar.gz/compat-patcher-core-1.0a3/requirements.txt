@@ -1,0 +1,11 @@
+# Beware, keep in sync with setup.py dependencies
+
+pytest
+pytest-cov
+docutils
+
+sphinx
+sphinx_rtd_theme
+
+pylint
+pylint-quotes
