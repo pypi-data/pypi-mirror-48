@@ -1,0 +1,8 @@
+[console_scripts]
+nbconv = cli.nbconv_cli:nbconv_cli
+nbdeck = cli.nbdeck_cli:nbdeck_cli
+nbexec = cli.nbexec_cli:nbexec_cli
+nbless = cli.nbless_cli:nbless_cli
+nbraze = cli.nbraze_cli:nbraze_cli
+nbuild = cli.nbuild_cli:nbuild_cli
+
