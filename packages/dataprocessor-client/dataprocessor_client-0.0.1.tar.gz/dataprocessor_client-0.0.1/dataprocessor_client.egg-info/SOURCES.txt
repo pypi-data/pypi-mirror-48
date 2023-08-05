@@ -1,0 +1,11 @@
+README.md
+setup.py
+dataprocessor_client/__init__.py
+dataprocessor_client/client.py
+dataprocessor_client/exceptions.py
+dataprocessor_client/platform.py
+dataprocessor_client.egg-info/PKG-INFO
+dataprocessor_client.egg-info/SOURCES.txt
+dataprocessor_client.egg-info/dependency_links.txt
+dataprocessor_client.egg-info/not-zip-safe
+dataprocessor_client.egg-info/top_level.txt
