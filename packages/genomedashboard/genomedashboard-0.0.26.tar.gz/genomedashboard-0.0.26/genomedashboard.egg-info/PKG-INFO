@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: genomedashboard
+Version: 0.0.26
+Summary: Genome Dashboard is the logic behind a web-based prototype of a genomics dashboard, specifically designed to integrate informatics and 4D material studies of chromatin. Genome Dashboard unites our Interactive Chromatin Modeling (ICM) tools with the Biodalliance genome browser and the JSMol molecular viewer to rapidly fold any DNA sequence into atomic or coarse-grained models of DNA, nucleosomes or chromatin.
+
+Home-page: https://github.com/genomeDashboard/genome-dashboard
+Author: Zilong Li, Ran Sun, Thomas C. Bishop
+Author-email: zli007@latech.edu, rsu007@latech.edu, bishop@latech.edu
+License: MIT license
+Description: # Genome Dashboard
+        
+        [![alt text](https://img.shields.io/pypi/v/genomedashboard.svg "PyPI Status")](https://pypi.python.org/pypi/genomedashboard)
+        
+        [![alt text](https://img.shields.io/travis/genomeDashboard/genomedashboard.svg "Build Status")](https://travis-ci.org/genomeDashboard/genomedashboard)
+        
+        [![alt text](https://readthedocs.org/projects/genome-dashboard/badge/?version=latest "Documentation Status")](https://genome-dashboard.readthedocs.io/en/latest/?badge=latest)
+        
+        
+        Genome Dashboard is the logic behind a web-based prototype of a genomics dashboard, specifically designed to integrate informatics and 4D material studies of chromatin. Genome Dashboard unites our Interactive Chromatin Modeling (ICM) tools with the Biodalliance genome browser and the JSMol molecular viewer to rapidly fold any DNA sequence into atomic or coarse-grained models of DNA, nucleosomes or chromatin.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://genome-dashboard.readthedocs.io.
+        
+        
+        ## Features
+        
+        * TODO
+        
+        
+        ## Credits
+        
+        This package was created with **Cookiecutter** and the **audreyr/cookiecutter-pypackage** project template.
+        
+        * [Cookiecutter](https://github.com/audreyr/cookiecutter)
+        * [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+        
+        
+        # History
+        
+        
+        ### 0.0.6 (2019-06-18)
+        
+        * First release on PyPI.
+        
+        
+        ### 0.0.7 (2019-06-18)
+        
+        * Updated authors, contributors and general documentation.
+        
+        ### 0.0.8 (2019-06-17)
+        
+        * TBD
+        
+        ### 0.0.9 (2019-06-17)
+        
+        * TBD
+        
+        ### 0.0.10 (2019-06-17)
+        
+        * TBD
+        
+        ### 0.0.11 (2019-06-17)
+        
+        * TBD
+        
+Keywords: python biology genomics genome dashboard
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Description-Content-Type: text/x-rst
+Provides-Extra: test
+Provides-Extra: dev
