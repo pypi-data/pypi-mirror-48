@@ -1,0 +1,23 @@
+{
+    "root": "/Users/vanpelt/Development/client",
+    "git": {
+        "remote": "git@github.com:wandb/client.git",
+        "commit": "1cb30bd02a32997eab999eabd743c3d639d36612"
+    },
+    "email": "vanpelt@gmail.com",
+    "startedAt": "2019-06-05T22:01:32.473340",
+    "host": "CVP-2.local",
+    "username": "vanpelt",
+    "os": "Darwin-18.6.0-x86_64-i386-64bit",
+    "python": "3.6.4",
+    "cpu_count": 4,
+    "program": "<python with no main file>",
+    "args": [
+        "-f",
+        "/Users/vanpelt/Library/Jupyter/runtime/kernel-b9a83bec-798e-4949-8c47-b901755e32c4.json"
+    ],
+    "state": "running",
+    "heartbeatAt": "2019-06-05T22:01:34.635724",
+    "jobType": null,
+    "mode": "run"
+}

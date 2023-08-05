@@ -1,0 +1,24 @@
+{
+    "root": "/Users/vanpelt/Development/client",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "git@github.com:wandb/client.git",
+        "commit": "d34e7178ee637cf36036aa78bfffe65c654ab563"
+    },
+    "email": "vanpelt@gmail.com",
+    "startedAt": "2019-06-19T23:27:41.395320",
+    "host": "CVP-2.local",
+    "username": "vanpelt",
+    "os": "Darwin-18.6.0-x86_64-i386-64bit",
+    "python": "3.6.4",
+    "executable": "/Users/vanpelt/.pyenv/versions/3.6.4/envs/wubhub-3.6/bin/python",
+    "cpu_count": 4,
+    "args": [
+        "-f",
+        "/Users/vanpelt/Library/Jupyter/runtime/kernel-5a5e983d-3fe1-46a0-8d99-e03193a47065.json"
+    ],
+    "state": "running",
+    "heartbeatAt": "2019-06-19T23:28:32.077787",
+    "jobType": null,
+    "mode": "run"
+}

@@ -1,0 +1,9 @@
+diff --git a/requirements_dev.txt b/requirements_dev.txt
+index ab246db..1617707 100644
+--- a/requirements_dev.txt
++++ b/requirements_dev.txt
+@@ -41,3 +41,4 @@ tensorflow==1.13.1
+ protobuf>=3.6.0
+ vcrpy>=2.0.0
+ pytest-vcr>=1.0.0
++nbval>=0.9.1

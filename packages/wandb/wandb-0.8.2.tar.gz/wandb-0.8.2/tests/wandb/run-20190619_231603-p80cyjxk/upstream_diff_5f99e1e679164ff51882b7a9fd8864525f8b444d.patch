@@ -1,0 +1,291 @@
+diff --git a/CHANGELOG.md b/CHANGELOG.md
+index 6e793a0..549bbc6 100644
+--- a/CHANGELOG.md
++++ b/CHANGELOG.md
+@@ -4,6 +4,8 @@
+ 
+ -   entity is persisted on wandb.run when queried from the server
+ -   tmp files always use the temporary directory to avoid syncing
++-   raise error if file shrinks while uploading
++-   images log properly in windows
+ 
+ #### :nail_care: Enhancement
+ 
+@@ -12,6 +14,13 @@
+ -   Improved error messages for windows and tensorboard logging
+ -   output.log is uploaded at the end of each run
+ -   metadata, requirements, and patches are uploaded at the beginning of a run
++-   when not running from a git repository, store the main python file
++-   when running in jupyter store the name of the notebook
++-   auto-login support for colab
++-   store url to colab notebook
++-   store the version of this library in config
++-   store sys.executable in metadata
++-   fastai callback no longer requires path
+ 
+ ## 0.8.1 (May 23, 2019)
+ 
+diff --git a/tests/test_torch.py b/tests/test_torch.py
+index 0b54f73..d7cf936 100644
+--- a/tests/test_torch.py
++++ b/tests/test_torch.py
+@@ -37,6 +37,17 @@ class DynamicModule(nn.Module):
+         x = self.activations[act](x)
+         return x
+ 
++class Multivariate(nn.Module):
++    def __init__(self, num_outputs = 2):
++        super().__init__()
++        self.stds = nn.Parameter(torch.ones(num_outputs))
++        torch.nn.init.constant_(self.stds, 1)
++        self.fc = nn.Linear(2, 2)
++
++    def forward(self, x):
++        dist = torch.distributions.MultivariateNormal(loc=x,
++            covariance_matrix=torch.diag(self.stds.exp()))
++        return F.log_softmax(self.fc(dist.sample()), dim=0)
+ 
+ class ParameterModule(nn.Module):
+     def __init__(self):
+@@ -314,6 +325,15 @@ def test_embedding(wandb_init_run):
+         wandb.log({"loss": 1})
+     assert len(wandb_init_run.history.rows[0]) == 82
+ 
++def test_multivariate(wandb_init_run):
++    net = Multivariate(num_outputs=2)
++    wandb.watch(net, log="all", log_freq=1)
++    for i in range(2):
++        output = net(torch.ones((1)))
++        samp = output.backward(torch.ones((2)))
++        wandb.log({"loss": samp})
++    assert wandb_init_run.summary["graph_0"].to_json()
++    assert len(wandb_init_run.history.rows[0]) == 9
+ 
+ def test_double_log(wandb_init_run):
+     net = ConvNet()
+diff --git a/wandb/__init__.py b/wandb/__init__.py
+index 45cb69c..395a106 100644
+--- a/wandb/__init__.py
++++ b/wandb/__init__.py
+@@ -287,16 +287,24 @@ def _init_jupyter(run):
+ 
+     api = InternalApi()
+     if not api.api_key:
+-        termerror(
+-            "Not authenticated.  Copy a key from https://app.wandb.ai/authorize")
+-        key = getpass.getpass("API Key: ").strip()
+-        if len(key) == 40:
+-            os.environ[env.API_KEY] = key
+-            util.write_netrc(api.api_url, "user", key)
+-        else:
+-            raise ValueError("API Key must be 40 characters long")
++        key = None
++        if 'google.colab' in sys.modules:
++            key = jupyter.attempt_colab_login()
++            if key:
++                os.environ[env.API_KEY] = key
++                util.write_netrc(api.api_url, "user", key)
++        if not key:
++            termerror(
++                "Not authenticated.  Copy a key from https://app.wandb.ai/authorize")
++            key = getpass.getpass("API Key: ").strip()
++            if len(key) == 40:
++                os.environ[env.API_KEY] = key
++                util.write_netrc(api.api_url, "user", key)
++            else:
++                raise ValueError("API Key must be 40 characters long")
+         # Ensure our api client picks up the new key
+         api = InternalApi()
++        run._api = api
+     os.environ["WANDB_JUPYTER"] = "true"
+     run.resume = "allow"
+     api.set_current_run_id(run.id)
+@@ -311,8 +319,9 @@ def _init_jupyter(run):
+     ipython = get_ipython()
+     ipython.register_magics(jupyter.WandBMagics)
+ 
+-    def reset_start():
++    def reset_start(info):
+         """Reset START_TIME to when the cell starts"""
++        print(info.raw_cell)
+         global START_TIME
+         START_TIME = time.time()
+     ipython.events.register("pre_run_cell", reset_start)
+@@ -360,7 +369,6 @@ patched = {
+     "tensorboard": [],
+     "keras": []
+ }
+-
+ _saved_files = set()
+ 
+ 
+@@ -439,6 +447,24 @@ def restore(name, run_path=None, replace=False, root="."):
+         return None
+     return files[0].download(root=root, replace=True)
+ 
++_tunnel_process = None
++def tunnel(host, port):
++    """Simple helper to open a tunnel.  Returns a public HTTPS url or None"""
++    global _tunnel_process
++    if _tunnel_process:
++        _tunnel_process.kill()
++        _tunnel_process = None
++    process = subprocess.Popen("ssh -o StrictHostKeyChecking=no -o ServerAliveInterval=60 -R 80:{}:{} serveo.net".format(host, port), shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
++    while process.returncode is None:
++        for line in process.stdout:
++            match = re.match(r".+(https.+)$", line.decode("utf-8").strip())
++            if match:
++                _tunnel_process = process
++                return match.group(1)
++        # set returncode if the process has exited
++        process.poll()
++        time.sleep(1)
++    return None
+ 
+ def monitor(options={}):
+     """Starts syncing with W&B if you're in Jupyter.  Displays your W&B charts live in a Jupyter notebook.
+@@ -806,6 +832,7 @@ def init(job_type=None, dir=None, config=None, project=None, entity=None, reinit
+ 
+ tensorflow = util.LazyLoader('tensorflow', globals(), 'wandb.tensorflow')
+ tensorboard = util.LazyLoader('tensorboard', globals(), 'wandb.tensorboard')
++jupyter = util.LazyLoader('jupyter', globals(), 'wandb.jupyter')
+ keras = util.LazyLoader('keras', globals(), 'wandb.keras')
+ fastai = util.LazyLoader('fastai', globals(), 'wandb.fastai')
+ docker = util.LazyLoader('docker', globals(), 'wandb.docker')
+diff --git a/wandb/jupyter.py b/wandb/jupyter.py
+index b67d400..ed68b8e 100644
+--- a/wandb/jupyter.py
++++ b/wandb/jupyter.py
+@@ -36,6 +36,60 @@ class WandBMagics(Magics):
+         if cell is not None:
+             get_ipython().run_cell(cell)
+ 
++def attempt_colab_login():
++    from google.colab import output
++    from google.colab._message import MessageError
++    from IPython import display
++
++    display.display(display.Javascript('''
++        window._wandbApiKey = new Promise((resolve, reject) => {
++            function loadScript(url) {
++            return new Promise(function(resolve, reject) {
++                let newScript = document.createElement("script");
++                newScript.onerror = reject;
++                newScript.onload = resolve;
++                document.body.appendChild(newScript);
++                newScript.src = url;
++            });
++            }
++            loadScript("https://cdn.jsdelivr.net/npm/postmate/build/postmate.min.js").then(() => {
++            const iframe = document.createElement('iframe')
++            iframe.style.cssText = "width:0;height:0;border:none"
++            document.body.appendChild(iframe)
++            const handshake = new Postmate({
++                container: iframe,
++                url: 'https://app.test/authorize'
++            });
++            const timeout = setTimeout(() => reject("Couldn't auto auth"), 10000)
++            handshake.then(function(child) {
++                child.on('authorize', data => {
++                    clearTimeout(timeout)
++                    resolve(data)
++                });
++            });
++            })
++        });
++    '''))
++    try:
++        return output.eval_js('_wandbApiKey')
++    except MessageError:
++        return None
++
++def notebook_metadata():
++    """Queries jupyter for the path and name of the notebook file"""
++    import ipykernel
++    ipykernel.connect.get_connection_file()
++    from notebook.notebookapp import list_running_servers
++    import requests
++    from requests.compat import urljoin
++    import re
++    kernel_id = re.search('kernel-(.*).json', ipykernel.connect.get_connection_file()).group(1)
++    for s in list_running_servers():
++        res = requests.get(urljoin(s['url'], 'api/sessions'), params={'token': s.get('token', '')}).json()
++        for nn in res:
++            if nn['kernel']['id'] == kernel_id:
++                return {"root": s['notebook_dir'], "path": nn['notebook']['path'], "name": nn['notebook']['name']}
++    return {}
+ 
+ class JupyterAgent(object):
+     """A class that only logs metrics after `wandb.log` has been called and stops logging at cell completion"""
+diff --git a/wandb/meta.py b/wandb/meta.py
+index 0bada66..0d802aa 100644
+--- a/wandb/meta.py
++++ b/wandb/meta.py
+@@ -8,6 +8,7 @@ import threading
+ import time
+ import socket
+ import getpass
++from shutil import copyfile
+ from datetime import datetime
+ 
+ from wandb import util
+@@ -23,6 +24,7 @@ class Meta(object):
+     HEARTBEAT_INTERVAL_SECONDS = 15
+ 
+     def __init__(self, api, out_dir='.'):
++        self.out_dir = out_dir
+         self.fname = os.path.join(out_dir, METADATA_FNAME)
+         self._api = api
+         self._shutdown = False
+@@ -40,6 +42,21 @@ class Meta(object):
+ 
+     def setup(self):
+         self.data["root"] = os.getcwd()
++        try:
++            import __main__
++            self.data["program"] = __main__.__file__
++        except (ImportError, AttributeError):
++            self.data["program"] = '<python with no main file>'
++            if wandb._get_python_type() != "python":
++                meta = wandb.jupyter.notebook_metadata()
++                if meta.get("path"):
++                    if "fileId=" in meta["path"]:
++                        self.data["colab"] = "https://colab.research.google.com/drive/"+meta["path"].split("fileId=")[0]
++                        self.data["program"] = meta["name"]
++                    else:
++                        self.data["program"] = meta["path"]
++                        self.data["root"] = meta["root"]
++
+         if self._api.git.enabled:
+             self.data["git"] = {
+                 "remote": self._api.git.remote_url,
+@@ -47,6 +64,9 @@ class Meta(object):
+             }
+             self.data["email"] = self._api.git.email
+             self.data["root"] = self._api.git.root or self.data["root"]
++        elif os.path.exists(os.path.join(self.data["root"], self.data["program"])):
++            util.mkdir_exists_ok(os.path.join(self.out_dir, "code"))
++            copyfile(os.path.join(self.data["root"], self.data["program"]), os.path.join("code", self.data["program"]))
+ 
+         self.data["startedAt"] = datetime.utcfromtimestamp(
+             wandb.START_TIME).isoformat()
+@@ -60,6 +80,7 @@ class Meta(object):
+         self.data["username"] = os.getenv("WANDB_USERNAME", username)
+         self.data["os"] = platform.platform(aliased=True)
+         self.data["python"] = platform.python_version()
++        self.data["executable"] = sys.executable
+         if env.get_docker():
+             self.data["docker"] = env.get_docker()
+         try:
+@@ -73,11 +94,6 @@ class Meta(object):
+             self.data["cpu_count"] = multiprocessing.cpu_count()
+         except NotImplementedError:
+             pass
+-        try:
+-            import __main__
+-            self.data["program"] = __main__.__file__
+-        except (ImportError, AttributeError):
+-            self.data["program"] = '<python with no main file>'
+         # TODO: we should use the cuda library to collect this
+         if os.path.exists("/usr/local/cuda/version.txt"):
+             self.data["cuda"] = open(

@@ -1,0 +1,23 @@
+diff --git a/wandb/__init__.py b/wandb/__init__.py
+index d6c7e30..395a106 100644
+--- a/wandb/__init__.py
++++ b/wandb/__init__.py
+@@ -304,6 +304,7 @@ def _init_jupyter(run):
+                 raise ValueError("API Key must be 40 characters long")
+         # Ensure our api client picks up the new key
+         api = InternalApi()
++        run._api = api
+     os.environ["WANDB_JUPYTER"] = "true"
+     run.resume = "allow"
+     api.set_current_run_id(run.id)
+@@ -318,8 +319,9 @@ def _init_jupyter(run):
+     ipython = get_ipython()
+     ipython.register_magics(jupyter.WandBMagics)
+ 
+-    def reset_start():
++    def reset_start(info):
+         """Reset START_TIME to when the cell starts"""
++        print(info.raw_cell)
+         global START_TIME
+         START_TIME = time.time()
+     ipython.events.register("pre_run_cell", reset_start)
