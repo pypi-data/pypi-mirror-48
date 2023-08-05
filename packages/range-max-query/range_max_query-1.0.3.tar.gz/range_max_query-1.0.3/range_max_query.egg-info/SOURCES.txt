@@ -1,0 +1,9 @@
+README.md
+setup.py
+range_max_query/__init__.py
+range_max_query/core.py
+range_max_query.egg-info/PKG-INFO
+range_max_query.egg-info/SOURCES.txt
+range_max_query.egg-info/dependency_links.txt
+range_max_query.egg-info/entry_points.txt
+range_max_query.egg-info/top_level.txt

@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: range_max_query
+Version: 1.0.3
+Summary: Python implementation of range maximum query in O(logn).
+Home-page: https://github.com/cassieHuanghahaha/rangeMaxQuery
+Author: CassiezhHuang
+Author-email: cassiehuang1111@gmail.com
+License: MIT
+Description: 
+        rangeMaxQuery
+        =======================
+        Python's implementation of range maximum query. 
+        
+        
+        
+        Install 
+        -----
+        
+        -   Install via `$ pip install range_max_query` .
+        
+        How to use
+        -----
+        -   `$ from range_max_query import RangeMaxQuery` .
+        
+        ```
+        
+        >>> A = [2, 3, 4, 1, 7]         
+        >>> arr = RangeMaxQuery(A)      # initialize data structure
+        >>> arr.range_max_query(1, 4)     # maximum query in range(1, 4)
+        7
+        >>> arr.update(1, 10)           # set A[1] = 10 and update the data structure
+        >>> arr.range_max_query(1, 4)    # maximum query in range(1, 4)
+        10
+        
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
