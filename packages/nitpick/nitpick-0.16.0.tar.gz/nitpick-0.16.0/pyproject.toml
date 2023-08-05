@@ -1,0 +1,70 @@
+[tool.nitpick]
+# Use the defauly style and override some things (like the Python version)
+style = ["nitpick-style", "styles/python35-36-37"]
+
+[tool.black]
+line-length = 120
+
+[tool.poetry]
+name = "nitpick"
+version = "0.16.0"
+description = "Flake8 plugin to enforce the same lint configuration (flake8, isort, mypy, pylint) across multiple Python projects"
+authors = ["W. Augusto Andreoli <andreoliwa@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/andreoliwa/nitpick"
+keywords = ["python3", "flake8", "linter", "styleguide"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Environment :: Plugins",
+    "Intended Audience :: Developers",
+    "Operating System :: MacOS",
+    "Operating System :: Unix",
+    "Programming Language :: Python :: 3 :: Only",
+    "Topic :: Software Development :: Quality Assurance",
+]
+
+[tool.poetry.plugins."flake8.extension"]
+NIP = "nitpick.plugin:NitpickChecker"
+
+[tool.poetry.dependencies]
+python = "^3.5 || ^3.6 || ^3.7"
+flake8 = ">=3.0.0"
+attrs = "*"
+toml  = "*"
+requests = "*"
+dictdiffer = "*"
+"ruamel.yaml" = "*"
+python-slugify = "*"
+jmespath = "*"
+sortedcontainers = "*"
+
+# All flake8 plugins that are recommended by this opinionated project should be installed as dependencies,
+# so they can run in the look pre-commit hook and also on projects that use the nitpick* hooks.
+flake8-blind-except = "*"
+flake8-bugbear = "*"
+flake8-comprehensions = "*"
+flake8-debugger = "*"
+flake8-docstrings = "*"
+flake8-isort = "*"
+flake8-mypy = "*"
+flake8-polyfill = "*"
+flake8-pytest = "*"
+flake8-quotes = "*"
+yesqa = "*"
+
+[tool.poetry.dev-dependencies]
+ipython = "*"
+ipdb = "*"
+pytest = "*"
+pytest-runfailed = "*"
+pytest-repeat = "*"
+pylint = "*"
+responses = "*"
+sphinx = "*"
+sphinx_rtd_theme = "*"
+testfixtures = "*"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
