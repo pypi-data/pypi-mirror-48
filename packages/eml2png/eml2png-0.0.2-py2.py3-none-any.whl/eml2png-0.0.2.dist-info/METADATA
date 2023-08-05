@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: eml2png
+Version: 0.0.2
+Summary: Paint the EML to a single PNG image.
+Home-page: https://github.com/poipoii/eml2png
+Author: poipoii
+Author-email: earth.sama@gmail.com
+License: mit
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
+Description-Content-Type: text/markdown
+Requires-Dist: imgkit (==1.0.2)
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-xvfb ; extra == 'testing'
+
+# eml2png
+[![Build Status](https://travis-ci.com/poipoii/eml2png.svg?branch=master)](https://travis-ci.com/poipoii/eml2png)
+[![Coverage Status](https://coveralls.io/repos/github/poipoii/eml2png/badge.svg?branch=master)](https://coveralls.io/github/poipoii/eml2png?branch=master)
+[![Documentation Status](https://readthedocs.org/projects/eml2png/badge/?version=latest)](https://eml2png.readthedocs.io/en/latest/?badge=latest)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/eml2png.svg)
+![PyPI - Wheel](https://img.shields.io/pypi/wheel/eml2png.svg)
+[![PyPI version](https://badge.fury.io/py/eml2png.svg)](https://badge.fury.io/py/eml2png)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/eml2png.svg)
+[![Docker Cloud Build Status](https://img.shields.io/docker/cloud/build/poipoii/eml2png.svg?style=flat)](https://hub.docker.com/r/poipoii/eml2png)
+![Docker Pulls](https://img.shields.io/docker/pulls/poipoii/eml2png.svg)
+
+Paint the EML to a single PNG image.
+
+
+## Installing
+
+You'll need [wkhtmltopdf](http://wkhtmltopdf.org/) before you start working with eml2png, so install them first:
+
+* Debian/Ubuntu:
+
+``` bash
+sudo apt-get install wkhtmltopdf
+```
+
+* MacOSX
+
+``` bash
+brew install wkhtmltopdf
+```
+
+* Windows and other options: check [wkhtmltopdf homepage](http://wkhtmltopdf.org/) for binary installers or [wiki page](https://github.com/pdfkit/pdfkit/wiki/Installing-WKHTMLTOPDF).
+
+
+Install eml2png:
+
+``` python
+pip install eml2png
+```
+
+## Usage
+
+Simple example:
+
+``` python
+import eml2png
+
+with open('message.png', 'wb') as f:
+    f.write(eml2png.to_png('message.eml'))
+```
+
+Export your wkhtmltopdf's install path if not `/usr/bin/wkhtmltoimage`:
+
+``` sh
+export WKHTMLTOIMAGE="/usr/local/bin/wkhtmltoimage"
+```
+
+
