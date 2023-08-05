@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: asynql
+Version: 0.1.0
+Summary: AsyncIO GraphQL client
+Home-page: https://asynql.readthedocs.io
+License: GPL-3.0+
+Keywords: graphql,graphql client,asyncio
+Author: Vladimir Puzakov
+Author-email: vppuzakov@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Dist: pydantic (>=0.28.0,<0.29.0)
+Requires-Dist: typing-extensions (>=3.7,<4.0)
+Project-URL: Repository, https://github.com/k8s-team/asynql
+Description-Content-Type: text/markdown
+
+[![GraphQL logo](https://raw.githubusercontent.com/k8s-team/asynql/master/logo.png)](https://github.com/k8s-team/asynql)
+
+# asynql
+
+Asyncio `GraphQL` client
+
+## Usage
+
+```python
+from asynql import GQLModel
+
+class Address(GQLModel):
+    __one__ = 'address'
+    __many__ = 'addresses'
+
+    lat: float
+    lon: float
+    city: str
+    line: str
+```
+
+We need `__one__` and `__many__` to be specified to customize query for one item or for many items.
+
