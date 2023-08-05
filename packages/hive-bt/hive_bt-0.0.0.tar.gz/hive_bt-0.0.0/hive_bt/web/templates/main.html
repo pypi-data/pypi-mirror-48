@@ -1,0 +1,32 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Issues List | Hive
+{% endblock %}
+
+{% block body %}
+
+<form action="/" method="GET">
+    <center><input type="text" name="filters" value="{{filters}}"/> <input type="submit" value="Search"/></center>
+</form>
+
+<h2>Issues:</h2>
+
+    {% for issue in issues %}
+        <div class="issue issue-{{ "open" if issue["open"] else "closed" }}">
+            <p>Issue <a href="{{url_root}}/issue/{{ issue['id'] }}"><tt>{{ issue['id'] }}</tt></a>:<br/>
+            <big>{{ markdown(issue['title']) |safe }}</big>
+            </p>
+            <p>
+            {% for label in sorted(issue['labels']) %}
+                <span class="label label-{{label}}"><a href="{{url_root}}/?filters=label:{{label}}">{{label}}</a></span>
+            {% endfor %}
+            </p>
+            <p>
+            <small>Priority: {{ issue['priority'] }}</small><br/>
+            <small>Comments: {{ len(issue['comments_by_id']) }}</small><br/>
+            <small>Created by <i>{{issue['author']}}</i> at {{issue['time']}}</small>
+            </p>
+        </div>
+    {% endfor %}
+{% endblock %}
