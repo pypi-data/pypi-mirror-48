@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+slaccato/__init__.py
+slaccato/core.py
+slaccato.egg-info/PKG-INFO
+slaccato.egg-info/SOURCES.txt
+slaccato.egg-info/dependency_links.txt
+slaccato.egg-info/requires.txt
+slaccato.egg-info/top_level.txt
