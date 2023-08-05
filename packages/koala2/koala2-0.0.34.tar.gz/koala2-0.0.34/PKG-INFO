@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: koala2
+Version: 0.0.34
+Summary: A python module to extract all the content of an Excel document and enable calculation without Excel
+Home-page: https://github.com/anthill/koala
+Author: Ants, open innovation lab
+Author-email: contact@weareants.fr
+License: GNU GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
