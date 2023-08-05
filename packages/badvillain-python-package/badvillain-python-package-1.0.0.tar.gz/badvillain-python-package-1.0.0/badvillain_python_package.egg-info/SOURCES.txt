@@ -1,0 +1,8 @@
+MANIFEST.in
+readme.md
+setup.py
+badvillain_greeting/main.py
+badvillain_python_package.egg-info/PKG-INFO
+badvillain_python_package.egg-info/SOURCES.txt
+badvillain_python_package.egg-info/dependency_links.txt
+badvillain_python_package.egg-info/top_level.txt
