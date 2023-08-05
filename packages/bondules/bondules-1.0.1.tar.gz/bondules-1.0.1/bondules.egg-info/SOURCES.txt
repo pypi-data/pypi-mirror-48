@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bondules/__init__.py
+bondules/the_bon_library.py
+bondules.egg-info/PKG-INFO
+bondules.egg-info/SOURCES.txt
+bondules.egg-info/dependency_links.txt
+bondules.egg-info/top_level.txt
