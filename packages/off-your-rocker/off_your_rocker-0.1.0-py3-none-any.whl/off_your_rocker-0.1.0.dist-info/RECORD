@@ -1,0 +1,13 @@
+off_your_rocker/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+off_your_rocker/capabilities.py,sha256=styQcyThArZOgNPgY0z3p4aQKaL_wjoufxcobD5yXp8,1614
+off_your_rocker/colcon.py,sha256=AhIyU6MeZvrq-VFFb4vdWtis-0mRhc7IjSsMQLP4luY,838
+off_your_rocker/mount.py,sha256=mBliaHN8yKe6k3hiOj8TjPPhu3nA0MAAYpTR9oNbP2U,862
+off_your_rocker/run_arg.py,sha256=cJnIooJfJ9JE1Pyek0uYed3anuFUzVF7cEBHiNrZooM,821
+off_your_rocker/spacenav.py,sha256=kFcXbYi1zcV0R7We3k2q7mDRFud6nbu-mLT6xZ37YcI,916
+off_your_rocker/templates/colcon_snippet.Dockerfile.em,sha256=czrEdwuagV-pWq1rnhlFbmPir-HG-y3Ov2aDiaGLx9s,235
+off_your_rocker/templates/spacenav_snippet.Dockerfile.em,sha256=kEIlmNs_oU0OGb7PGWMg-ia2psDUXDAxrjH3VsrX7CM,128
+off_your_rocker-0.1.0.dist-info/METADATA,sha256=JxossBxAe0XvTAsRU2ef1TmuFxhU_R4ARPI-0RneXbw,1532
+off_your_rocker-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+off_your_rocker-0.1.0.dist-info/entry_points.txt,sha256=PcQ8dTGN3-MONpnkzInQ6ywO50QoTuXUiPd85EEn6_o,300
+off_your_rocker-0.1.0.dist-info/top_level.txt,sha256=2vlY4zGpBHyEMxBGMeqe7_3U0aUmbb8Hcy0jtMMXOOY,16
+off_your_rocker-0.1.0.dist-info/RECORD,,
