@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: prosemirror-py
+Version: 0.1.1
+Summary: ProseMirror in Python
+License: BSD-3-Clause
+Author: Shen Li
+Author-email: shen@fellow.co
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pyicu (>=2.3,<3.0)
+Requires-Dist: typing-extensions (>=3.7,<4.0)
