@@ -1,0 +1,7 @@
+jieba
+gensim
+py2neo
+pymongo
+lxml
+pyemd
+nltk
