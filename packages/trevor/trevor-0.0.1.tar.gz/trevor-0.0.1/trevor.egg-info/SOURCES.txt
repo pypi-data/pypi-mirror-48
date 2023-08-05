@@ -1,0 +1,7 @@
+README.md
+setup.py
+trevor/__init__.py
+trevor.egg-info/PKG-INFO
+trevor.egg-info/SOURCES.txt
+trevor.egg-info/dependency_links.txt
+trevor.egg-info/top_level.txt
