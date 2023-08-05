@@ -1,0 +1,9 @@
+README.md
+setup.py
+myareaexample/__init__.py
+myareaexample/circle_area.py
+mytestareaexample.egg-info/PKG-INFO
+mytestareaexample.egg-info/SOURCES.txt
+mytestareaexample.egg-info/dependency_links.txt
+mytestareaexample.egg-info/requires.txt
+mytestareaexample.egg-info/top_level.txt
