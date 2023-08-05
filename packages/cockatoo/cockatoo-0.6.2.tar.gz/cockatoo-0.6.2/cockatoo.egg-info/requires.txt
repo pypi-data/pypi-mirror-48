@@ -1,0 +1,7 @@
+Click
+e3fp
+marshmallow>=2.15.1
+numpy
+scipy
+matplotlib
+requests
