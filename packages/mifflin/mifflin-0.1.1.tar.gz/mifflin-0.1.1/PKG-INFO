@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mifflin
+Version: 0.1.1
+Summary: ...
+Home-page: https://github.com/martin-martin/mifflin
+Author: datamat.in
+Author-email: 
+License: MIT
+Description: # mifflin
+        
+        A package for handling dunder methods how they're meant to be handled.
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
