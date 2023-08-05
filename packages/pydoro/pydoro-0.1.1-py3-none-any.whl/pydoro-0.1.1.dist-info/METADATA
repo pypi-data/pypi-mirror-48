@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pydoro
+Version: 0.1.1
+Summary: Terminal Pomodoro Timer
+Home-page: https://github.com/JaDogg/pydoro
+Author: Bhathiya Perera
+Author-email: jadogg.coder@gmail.com
+License: MIT
+Requires-Dist: prompt-toolkit (>=2.0.9)
+Provides-Extra: audio
+Requires-Dist: pyobjc-core (>=5.2) ; (platform_system=="Darwin") and extra == 'audio'
+Requires-Dist: pyobjc-framework-Cocoa (>=5.2) ; (platform_system=="Darwin") and extra == 'audio'
+Requires-Dist: pycairo (>=1.18.1) ; (platform_system=="Linux") and extra == 'audio'
+Requires-Dist: PyGObject (>=3.32.1) ; (platform_system=="Linux") and extra == 'audio'
+
+pydoro 🍅
+
+
