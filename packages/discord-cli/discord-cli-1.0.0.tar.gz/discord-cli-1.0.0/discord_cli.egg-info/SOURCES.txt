@@ -1,0 +1,17 @@
+README.md
+setup.py
+discord_cli/__init__.py
+discord_cli/argument_builder.py
+discord_cli/command.py
+discord_cli/command_system.py
+discord_cli/exceptions.py
+discord_cli/option_builder.py
+discord_cli/parsers.py
+discord_cli/permission_builder.py
+discord_cli/permissions.py
+discord_cli/tag_builder.py
+discord_cli/validation.py
+discord_cli.egg-info/PKG-INFO
+discord_cli.egg-info/SOURCES.txt
+discord_cli.egg-info/dependency_links.txt
+discord_cli.egg-info/top_level.txt
