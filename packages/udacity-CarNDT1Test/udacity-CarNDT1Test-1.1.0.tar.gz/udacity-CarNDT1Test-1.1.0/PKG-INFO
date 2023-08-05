@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: udacity-CarNDT1Test
+Version: 1.1.0
+Summary: Tutorial for creating a pypi package
+Home-page: https://github.com/feng3245/ourtest
+Author: SDCT1
+Author-email: testSDCT1@udacity.com
+License: MIT
+Description: <b>Hello world test for SDC term1 webinar 14 You can add markdown and html information here and pypi will display them fine now</b>
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
