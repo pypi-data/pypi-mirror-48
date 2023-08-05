@@ -1,0 +1,12 @@
+rcsb/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+rcsb/utils/multiproc/MultiProcLogging.py,sha256=RnO3W0F29pfJC3a7pTyotC7IPHcjNhIghGXoc1pUv4A,8386
+rcsb/utils/multiproc/MultiProcPoolUtil.py,sha256=8SuX2wY-b4S77gzGJjmVlqr4BGEAuvYGsoSHzdabgNs,8399
+rcsb/utils/multiproc/MultiProcUtil.py,sha256=SuR0AA6vWqUvRqOdfoyuEx_IEr2e_F9L5xNAxTHfiKQ,8253
+rcsb/utils/multiproc/__init__.py,sha256=9zW1LVzNivQ9pJVeGn0WhqiW8Y7aXzohkDdSnaRNtCY,154
+rcsb.utils.multiproc-0.13.dist-info/LICENSE,sha256=VWLxXn8PvwE6ptB7BxQbpErZ9iyxodApO5MYZ2yZ2jk,552
+rcsb.utils.multiproc-0.13.dist-info/METADATA,sha256=hSAW0AMU7AslhYRSf8BWm8aFR3HdCjCsutorkYCQDLg,777
+rcsb.utils.multiproc-0.13.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+rcsb.utils.multiproc-0.13.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rcsb.utils.multiproc-0.13.dist-info/top_level.txt,sha256=o9JzKwjXZKvIt99MG_WvJuOnR1DZn6_CIPtgWgUB0E8,5
+rcsb.utils.multiproc-0.13.dist-info/RECORD,,
