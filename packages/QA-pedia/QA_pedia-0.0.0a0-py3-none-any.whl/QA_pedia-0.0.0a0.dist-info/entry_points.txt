@@ -1,0 +1,3 @@
+[console_scripts]
+qapedia = QApedia.qapedia:_run
+
