@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: upath
+Version: 1.0
+Summary: 
+    C extension to fetch an item from a nested structure made out of dictionaries and/or lists.
+    Can reduce the time spent retrieving items from nested structures resulted after de-serializing JSON content
+    or other nested structures.    
+Home-page: https://github.com/aoprisor/upath
+Author: Georgian-Andrei Oprișor
+Author-email: gaoprisor@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
