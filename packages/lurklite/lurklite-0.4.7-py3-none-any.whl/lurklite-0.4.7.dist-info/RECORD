@@ -1,0 +1,12 @@
+lurklite/__init__.py,sha256=83W8Zuw9vVEimor1zAnxZJ8awq-AXXQz1elsJZAgCAM,117
+lurklite/__main__.py,sha256=6zbGabE7guDg7fWvgwcEEfhhBcgpJxNZrHTe8cRbEmo,924
+lurklite/core.py,sha256=g0dNUH-Npsxt1ebeRBs2we-8wagmvdJu5tbYZHGPv18,9340
+lurklite/static_cmds.py,sha256=we3hzoKuqi79kkMYa0OoIZwF1NVZVn8TxU_Rp-1zWEk,5700
+lurklite/tempcmds.py,sha256=RqE88oDN65JHeyvCHyxNzHwrubxo-QSYMzUJXYwgFEg,10872
+lurklite/tempcmds_migrate.py,sha256=C8JgjoDPXzhwnUm_PmK4BXg1O4ng1GQ7EBgKs5x6Izc,1035
+lurklite-0.4.7.dist-info/LICENSE.md,sha256=rYWNU8rgXu2VMezUxGdECAOs_-NMad57iOA6_8W2ob0,34283
+lurklite-0.4.7.dist-info/METADATA,sha256=Mo2kf1GPGnx4Sw3acbkujW_sPjUiZIR-GpZEB1uM49o,6368
+lurklite-0.4.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+lurklite-0.4.7.dist-info/entry_points.txt,sha256=KkxM_qJ_cAMVAr4dMkZr00mXAFStj7BgMjgJDc9VnTc,53
+lurklite-0.4.7.dist-info/top_level.txt,sha256=aY7DP1o51KNzz8_jfvpu1PBhnYF8ZmPMVnl1rzxMrkU,9
+lurklite-0.4.7.dist-info/RECORD,,
