@@ -1,0 +1,15 @@
+README.md
+setup.py
+translate
+mkTranslation/__init__.py
+mkTranslation/client.py
+mkTranslation/constants.py
+mkTranslation/model.py
+mkTranslation/network.py
+mkTranslation/translator.py
+mkTranslation/utils.py
+mkTranslation.egg-info/PKG-INFO
+mkTranslation.egg-info/SOURCES.txt
+mkTranslation.egg-info/dependency_links.txt
+mkTranslation.egg-info/requires.txt
+mkTranslation.egg-info/top_level.txt
