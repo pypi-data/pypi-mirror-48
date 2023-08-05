@@ -1,0 +1,28 @@
+---
+
+interfaces:
+    default:
+        interface: slcan
+        channel: /dev/tty.usbserial-LW1FJ8ZR
+        ttyBaudrate: 1000000
+        bitrate: 1000000
+    test:
+        interface: test
+        channel: none
+        ttyBaudrate: 1000000
+        bitrate: 1000000
+
+fps:
+    default_layout: 'central_park'
+
+motor_speed: 1000
+
+actor:
+    port: 19990
+    tron:
+        host: localhost
+        port: 6093
+    logging:
+        file_level: 10
+        shell_level: 20
+        log_dir: /data/logs/actors/jaeger
