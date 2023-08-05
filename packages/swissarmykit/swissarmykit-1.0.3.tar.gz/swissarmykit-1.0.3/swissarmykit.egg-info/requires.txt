@@ -1,0 +1,9 @@
+fake_useragent
+openpyxl
+peewee
+requests
+requests
+scrapy
+selenium
+us
+usaddress
