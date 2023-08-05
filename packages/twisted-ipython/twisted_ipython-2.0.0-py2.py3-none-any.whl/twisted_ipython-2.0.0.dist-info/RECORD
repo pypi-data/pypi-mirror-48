@@ -1,0 +1,9 @@
+twisted_ipython/__init__.py,sha256=BsTAJ1AqMRZLDBpOKoR0Y9_SWQZJVzHRyYOJiGIfzB0,216
+twisted_ipython/async_runner.py,sha256=-x1VIyTbwoZ4mRXePqlq41R_mE1I4m4LnYp_FeI5i4w,458
+twisted_ipython/config.py,sha256=zyv82eGLvJ4CYjuvkhsHbX_GXlOp3Q5Oj2GW0Vdbz8E,1102
+twisted_ipython/magic.py,sha256=tkPvYDWoYzYWWyqnIX52ILDxwb-vTrmZOFuelEyolMM,3709
+twisted_ipython-2.0.0.dist-info/LICENSE,sha256=smjxIPbMysvGD9rU5FV-xImNNZ1tl7oR-axjjpouE04,1470
+twisted_ipython-2.0.0.dist-info/METADATA,sha256=jwMlGLZhfOulwT1_KR6Rxdju0qpiRt1VmqoIlCD20h4,1610
+twisted_ipython-2.0.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+twisted_ipython-2.0.0.dist-info/top_level.txt,sha256=FWFKToJ6g4ZmAwJUWoL3mKEMqJhnzfDuavQy43qoFM0,16
+twisted_ipython-2.0.0.dist-info/RECORD,,
