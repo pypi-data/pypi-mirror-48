@@ -1,0 +1,17 @@
+README.md
+setup.py
+bin/protex
+protex/__init__.py
+protex/__main__.py
+protex/ast.py
+protex/cli.py
+protex/commands.py
+protex/lexer.py
+protex/parser.py
+protex/text_pos.py
+protex.egg-info/PKG-INFO
+protex.egg-info/SOURCES.txt
+protex.egg-info/dependency_links.txt
+protex.egg-info/top_level.txt
+test/test_clean.py
+test/test_text_pos.py
