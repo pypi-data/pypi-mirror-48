@@ -1,0 +1,17 @@
+sub_modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sub_modules/buildInstall.py,sha256=o2M-FmXCGXRI69Odbz1qBNp1fVeJit0swA_iOd5EWkA,3048
+sub_modules/changeUser.py,sha256=NYhAra8iRFlrM4zkoRCMvDvX7MY_puraMVUq1Bad0Cs,699
+sub_modules/config.py,sha256=qx4j3ekGhx8hO4JrsqYreYmiKf3XNQh_c-oznvCqHPw,164
+sub_modules/configureMasterBox.py,sha256=q1QOemaZwXLBUbnbpz-gVzFJ6WrT0_40mtweFkQwc1g,3286
+sub_modules/dockerCompose.py,sha256=4Vur6tw6VP-O_LFPKbTYio6KyY3paqRhcQxhOL7gE90,712
+sub_modules/encryption.py,sha256=qtfM8ewi-emeQCCOUSvURCm7rPOpQdbsr0dEXt5EKQI,607
+sub_modules/graphQL.py,sha256=waL49euMfhijg6VXxJ1oMx0jnWbnPBF7kcY2W52NJdg,907
+sub_modules/installCommonPackagesTools.py,sha256=YCwAvr9maPy-2BLxy-k1j-BDzNO6Ijwuud6kE2KlB4c,2980
+sub_modules/lockAppsOnLauncher.py,sha256=o87QFz6MWfAPSfQNaV92pYLpfin95-a7-46x9TLYayU,399
+sub_modules/packageCleanUp.py,sha256=UEHMQreP9itGQz1Dxpb2KoF-mKFH8yvhbHANhU5jJEg,1193
+sub_modules/prerequisiteChecks.py,sha256=PAQFGP8X2cxvnx5uk_eL0kNUVtgrScwdhmNvK9fXkec,1476
+xseed_maxbox-0.1.data/scripts/xseed-maxbox,sha256=mWgmSCeHLPxU2PE9mX0n6-luUsSFfIi131EKAMcXuBY,1352
+xseed_maxbox-0.1.dist-info/METADATA,sha256=4LHlwU0wYbSYmwimmQ8SaMXW1SFbHO2HgHdF3o44e88,426
+xseed_maxbox-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+xseed_maxbox-0.1.dist-info/top_level.txt,sha256=IQZQtasnBxbpVMyFyAuzvrcbQj77Qn0qokfJiTvJai4,12
+xseed_maxbox-0.1.dist-info/RECORD,,
