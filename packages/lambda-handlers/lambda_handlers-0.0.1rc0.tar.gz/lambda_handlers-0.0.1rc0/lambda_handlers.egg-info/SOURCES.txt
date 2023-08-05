@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+lambda_handlers.egg-info/PKG-INFO
+lambda_handlers.egg-info/SOURCES.txt
+lambda_handlers.egg-info/dependency_links.txt
+lambda_handlers.egg-info/requires.txt
+lambda_handlers.egg-info/top_level.txt
