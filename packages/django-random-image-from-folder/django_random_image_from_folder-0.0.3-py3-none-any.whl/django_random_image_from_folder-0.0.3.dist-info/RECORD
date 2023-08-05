@@ -1,0 +1,8 @@
+random_image_from_folder/__init__.py,sha256=vy6dFja7mAyVzft6H2mL5MMnpKKmZXJToQJ6CTLoZqc,40
+random_image_from_folder/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+random_image_from_folder/templatetags/random_image.py,sha256=YSOLabFGVO-YvwXPlcS8vXn8RYZ2_bikEpth2hu0r0M,619
+django_random_image_from_folder-0.0.3.dist-info/LICENSE,sha256=gPspK-48A0Rtmka94sCRaCJbGcfbjZGd8kdHQ5_IaD4,1084
+django_random_image_from_folder-0.0.3.dist-info/METADATA,sha256=uS15ij1JpzvyL6VpAQjNF8EsnLugDR5x_EKwmqrWqh8,1688
+django_random_image_from_folder-0.0.3.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+django_random_image_from_folder-0.0.3.dist-info/top_level.txt,sha256=8yH65oWBHO2CCDbczA1QSdXc5dw4JaLZ8sCIbTP4qT0,25
+django_random_image_from_folder-0.0.3.dist-info/RECORD,,
