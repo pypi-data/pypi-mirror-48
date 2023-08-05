@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: terrarium-capp
+Version: 0.0.1a0
+Summary: Adaptive Computer Aided Process Planner
+Home-page: https://www.github.com/jvrana/Terrarium
+Author: Justin Vrana
+Author-email: justin.vrana@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: colorama (>=0.4.1,<0.5.0)
+Requires-Dist: dill (>=0.2.9,<0.3.0)
+Requires-Dist: pydent (==0.1.2a)
+Requires-Dist: termcolor (>=1.1,<2.0)
+Requires-Dist: webcolors (>=1.9,<2.0)
+Project-URL: Documentation, https://www.github.com/jvrana/Terrarium
+Project-URL: Repository, https://www.github.com/jvrana/Terrarium
+Description-Content-Type: text/markdown
+
+# Terrarium
+
+[![PyPI version](https://badge.fury.io/py/terrarium-capp.svg)](https://badge.fury.io/py/terrarium-capp)
+
+## Forward Planning Algorithm
+
+Adaptive (?) Directed Steiner Tree with Groups:
+
