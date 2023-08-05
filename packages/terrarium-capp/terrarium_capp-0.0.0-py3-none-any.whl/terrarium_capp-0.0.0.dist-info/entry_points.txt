@@ -1,0 +1,5 @@
+[console_scripts]
+name=terrarium:_version.get_name
+upver=terrarium:_version.pull_version
+version=terrarium:_version.get_version
+
