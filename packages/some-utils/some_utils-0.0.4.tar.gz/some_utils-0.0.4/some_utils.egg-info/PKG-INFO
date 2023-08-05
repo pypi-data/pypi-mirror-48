@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: some-utils
+Version: 0.0.4
+Summary: Some decorator utils for replacing function, retrying function... 
+Home-page: UNKNOWN
+Author: zhangming
+Author-email: 1570977353@qq.com
+Maintainer: zhangming
+Maintainer-email: 1570977353@qq.com
+License: BSD License
+Description: Some decorator utils for replacing function, retrying function...
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
