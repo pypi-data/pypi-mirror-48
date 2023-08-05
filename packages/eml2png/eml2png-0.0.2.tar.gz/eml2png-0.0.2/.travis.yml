@@ -1,0 +1,36 @@
+# Travis configuration file using the build matrix feature
+# Read more under http://docs.travis-ci.com/user/build-configuration/
+
+sudo: false
+language: python
+python: 3.6
+virtualenv:
+  system_site_packages: false
+matrix:
+  include:
+    - os: linux
+      python: 3.6
+      env: COVERAGE="true"
+env:
+  - WKHTMLTOIMAGE="/usr/local/bin/wkhtmltoimage"
+install:
+  - source tests/travis_install.sh
+script:
+  # Install wkhtmltopdf
+  # - wget --quiet https://downloads.wkhtmltopdf.org/0.12/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  - tar xf wkhtmltox-0.12.4_linux-generic-amd64.tar.xz
+  - sudo mv wkhtmltox/bin/wkhtmltoimage /usr/local/bin
+  # Build and test
+  - pip install --upgrade --quiet pip setuptools tox-travis coveralls
+  # - pip list || true
+  # - python setup.py develop
+  - tox -e py36 -e flake8
+after_success:
+  - if [[ "$COVERAGE" == "true" ]]; then (coverage combine .coverage && coveralls) || echo "failed"; fi
+after_script:
+  - travis-cleanup
+cache: pip
+notifications:
+  email:
+    on_success: never
+    on_failure: always

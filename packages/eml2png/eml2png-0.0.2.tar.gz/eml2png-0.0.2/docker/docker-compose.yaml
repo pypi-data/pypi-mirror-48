@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  eml2png:
+    image: poipoii/eml2png:latest
+    # volumes:
+    #   - ./app/main.py:/app/main.py
+    ports:
+      - 9595:80
+
+# docker build -t eml2png:latest -f docker/Dockerfile .
