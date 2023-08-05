@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: APtools
+Version: 0.1.4
+Summary: A collection of tools for accelerator physics
+Home-page: https://github.com/AngelFP/VisualPIC
+Author: Angel Ferran Pousa
+Author-email: angel.ferran.pousa@desy.de
+License: GPLv3
+Description: # APtools
+        
+        [![License](https://img.shields.io/badge/license-LGPLv3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0.html)
+        [![Build Status](https://travis-ci.org/AngelFP/APtools.svg?branch=master)](https://travis-ci.org/AngelFP/APtools)
+        
+        ## Overview
+        
+        Collection of modules containing typical functions, equations, relations, etc. used in accelerator physics.
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
