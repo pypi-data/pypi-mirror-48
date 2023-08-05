@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: way2smswrapper
+Version: 0.1.0
+Summary: A Python Messaging Module Using Way2SMS & Selenium Module.
+License: MIT
+Author: Probhakar Roy
+Author-email: probhakarroy3110@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: selenium (>=3.141,<4.0)
+Requires-Dist: xvfbwrapper (>=0.2.9,<0.3.0)
