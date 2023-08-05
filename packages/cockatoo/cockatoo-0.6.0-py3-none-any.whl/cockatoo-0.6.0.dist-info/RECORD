@@ -1,0 +1,12 @@
+cockatoo/__init__.py,sha256=y_9WTr6SnoKWVt9tTEGxHa5QP3qqETGaD4ajsI-ffdE,276
+cockatoo/cli.py,sha256=LIAFYfCXG8vDEJrpjrsdUx1eKroCOl-ys5e4k9THkCE,6526
+cockatoo/hclust.py,sha256=_QLmISjzUiXqLHUB5wHTywi5DbAWkarvnULwt8TcVMg,10285
+cockatoo/metric.py,sha256=FPRijmhahpdCKGpTlTkSp_qOJNB1r39wAYJHn_NLh9k,2556
+cockatoo/screen.py,sha256=w320htm8HqVHPJjxZ0OBeAtpTlqfr5xmrbDbHJ2GSyA,17831
+cockatoo-0.6.0.dist-info/AUTHORS,sha256=arvP4dowr56VGpifhS8UulgcusxKqSNYb32nbap2zb4,426
+cockatoo-0.6.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+cockatoo-0.6.0.dist-info/METADATA,sha256=12tbpDj6bRFo914kxC1JB-h9E4tBWqVFrLNkY7QHHpU,2037
+cockatoo-0.6.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cockatoo-0.6.0.dist-info/entry_points.txt,sha256=9ZQDzZE9qGxh3OMl4mbGKHBfSXE65XmUJQU-zIS3HFI,66
+cockatoo-0.6.0.dist-info/top_level.txt,sha256=qv4yQRPpO--fLbaVYpqxxlXZDm84LLQB2QmNBAcsoFM,9
+cockatoo-0.6.0.dist-info/RECORD,,
