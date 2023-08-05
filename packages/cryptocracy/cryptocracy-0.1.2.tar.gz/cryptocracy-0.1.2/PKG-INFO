@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: cryptocracy
+Version: 0.1.2
+Summary: Client-side attribute-based encryption (ABE)/ access control (ABAC) - 
+    Democratise cryptographic access control to your data stored in an untrusted cloud.
+Home-page: https://github.com/doughgle/cryptocracy
+Author: Douglas Hellinger
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.4

@@ -1,0 +1,3 @@
+[console_scripts]
+cryptocracy = cryptocracy.delivery.cli.cryptocracy:main
+
