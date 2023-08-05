@@ -1,0 +1,11 @@
+
+[dev]
+bandit
+black
+flake8
+ipython
+pre-commit
+pytest
+pytest-cov
+tox
+twine
