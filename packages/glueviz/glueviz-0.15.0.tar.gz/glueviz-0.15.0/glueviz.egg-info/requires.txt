@@ -1,0 +1,2 @@
+glue-core>=0.15.0
+glue-vispy-viewers>=0.12
