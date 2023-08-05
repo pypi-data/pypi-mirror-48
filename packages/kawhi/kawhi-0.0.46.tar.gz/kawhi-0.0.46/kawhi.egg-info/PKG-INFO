@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kawhi
+Version: 0.0.46
+Summary: A package inspired by Kawhi Leonard of the Toronto Raptors
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Kawhi
+        
+        A package inspired by Kawhi Leonard of the Toronto Raptors.
+        
+        ## Usage
+        
+        pip install Kawhi
+        
+        ``` python
+        from kawhi import say_hello, kawhi_joke
+        
+        # Generate Hello Kawhi, this is John
+        say_hello('John')
+        
+        # Get a Kawhi joke (with his signature laugh)
+        kawhi_joke()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
