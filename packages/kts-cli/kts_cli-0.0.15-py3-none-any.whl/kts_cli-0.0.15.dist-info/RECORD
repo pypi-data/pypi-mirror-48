@@ -1,0 +1,9 @@
+kts_cli/__init__.py,sha256=p8HfuMT9lIwJb5fKYS6ucoXMu3xodnlEZDucZpr1J-M,984
+kts_cli/examples.py,sha256=RILCAGOpS8aUJxqw4hMdAXyo9Ne-2BfZ92laGhelQbI,434
+kts_cli/file_system.py,sha256=EeP0JNh2BdUdjHLQUJvea3kCrd2EHnyPsFljN3ovaIs,3453
+kts_cli-0.0.15.dist-info/LICENSE,sha256=6Uh9AyJ-WQo9vu6UlUBdsOsygsAEALc8vca5yIRvRVk,1065
+kts_cli-0.0.15.dist-info/METADATA,sha256=cHpOC9wM7ImLyy1gKZsmKxN28P6lZqRStYItEf1HwyI,396
+kts_cli-0.0.15.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+kts_cli-0.0.15.dist-info/entry_points.txt,sha256=tX-ZYYFpAqgro4BvP8PMO4odoArBobyRxbExtmwBKsk,37
+kts_cli-0.0.15.dist-info/top_level.txt,sha256=Sa5oFKpz5spOJ0CEx84Np_YbNxi5twmgaRw9aGSrKyY,8
+kts_cli-0.0.15.dist-info/RECORD,,
