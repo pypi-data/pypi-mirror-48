@@ -1,0 +1,10 @@
+graphish/__init__.py,sha256=G-y1vOav_mb2rWqb3c5Z8g4wfS9brQpdhgNJrIUPC4g,115
+graphish/connector.py,sha256=5WotR-4rPrslbGFcSkaT6du5zr0e46mQiwkpYsY4BEg,4701
+graphish/delete.py,sha256=HGjLP_UWtKvukRt_ghabcAtFFX8wjTfb1PXopXhFjdg,1458
+graphish/message.py,sha256=0uONN7gfCNPWrGX5R7RP9D3xJy5GP-aLngz5ak9EdRk,852
+graphish/search.py,sha256=RbRI-uDnrJtZQeel9IIsNEFyxiB1J7wT79038NtvrGM,3418
+graphish-1.0.0.dist-info/LICENSE,sha256=IxaN9x5-BQvpqPVa0qdQBkqBQ5-KWgLmqu7Pwp71PdU,1065
+graphish-1.0.0.dist-info/METADATA,sha256=hrlj0NuQjNWfvjpnpUcKNam_skGg17XbB0JphqJn8_M,7752
+graphish-1.0.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+graphish-1.0.0.dist-info/top_level.txt,sha256=SqDgk3cjaRjt_uZOTVeZ9XAceTTJrWh4sgd2OQ1BWfw,9
+graphish-1.0.0.dist-info/RECORD,,
