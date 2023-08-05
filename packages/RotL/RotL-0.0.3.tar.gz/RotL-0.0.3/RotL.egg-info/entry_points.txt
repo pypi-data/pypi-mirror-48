@@ -1,0 +1,3 @@
+[console_scripts]
+remediation-off-the-land = RotL:main
+
