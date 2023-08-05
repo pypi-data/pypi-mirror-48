@@ -1,0 +1,3 @@
+[console_scripts]
+li = pyloginsight.cli.__main__:main
+
