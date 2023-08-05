@@ -1,0 +1,8 @@
+iputils/__init__.py,sha256=eOmh1N-qfa4qA-yIIZHFzX90hqmEx5_I3pmCNRJIMYs,4407
+tests/__init__.py,sha256=N2tdCkRpKJz33ziVzJpENJqEomRPg6BGa6-NK3sX77I,168
+tests/test_IPUtils.py,sha256=ZiWd448KN7jKkc2tH804oBmUsI8XUlBb9KiU1lewfYI,3738
+iputils-0.5.7.dist-info/LICENSE.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iputils-0.5.7.dist-info/METADATA,sha256=Siyfjr61LWzrRaI95k1ptWM9DpVmoQ16ghTwdJcjJVQ,973
+iputils-0.5.7.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+iputils-0.5.7.dist-info/top_level.txt,sha256=gkkTFpC_iRRMw4_zYOlj46H4F5M6NAH8FEMeu07Z7sc,14
+iputils-0.5.7.dist-info/RECORD,,
