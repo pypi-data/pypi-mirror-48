@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: optim
+Version: 0.1.0
+Summary: Playground for optimizers.
+Home-page: https://github.com/yngtodd/optim
+Author: Todd Young
+Author-email: youngmt1@ornl.gov
+License: MIT
+Description: UNKNOWN
+Keywords: optim
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: PyPy

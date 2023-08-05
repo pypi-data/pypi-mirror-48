@@ -1,0 +1,16 @@
+AUTHORS.rst
+CONTRIBUTING.rst
+HISTORY.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+optim/__init__.py
+optim/optim.py
+optim.egg-info/PKG-INFO
+optim.egg-info/SOURCES.txt
+optim.egg-info/dependency_links.txt
+optim.egg-info/not-zip-safe
+optim.egg-info/top_level.txt
+test/test_optim.py
