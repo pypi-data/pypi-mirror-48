@@ -1,0 +1,14 @@
+maup/__init__.py,sha256=f-gRxn2dyLRL6qJ_NJMrAHO6nEu8rAusvSAZygg_K2M,452
+maup/adjacencies.py,sha256=C0aLkGfcKHCXVQ1abrksNxuCkrx7-saPrBYbGmrmIyw,2053
+maup/assign.py,sha256=W6SxT7zlcB3xPv_7DdClN2OQvdZwjdkbZfc85EK5zjU,1092
+maup/crs.py,sha256=29OD9tYEYR6VKVcJUD2Vnwz97uHf2T2ILYagmCrQMm0,444
+maup/indexed_geometries.py,sha256=O3y-uuECRccJPCPnXYp2J5Jqh6RlfQljFuWUsgKfTjc,1784
+maup/indices.py,sha256=hJvHwp4iBV24Nghve6bKdu9kUm8zWAdCnOLwoqJeuYg,300
+maup/intersections.py,sha256=u_udlQ_6xUd0EqoDFmMXZai9KNj4E6y1866el0Fr65o,3671
+maup/normalize.py,sha256=FpFj3omO15epNiMUDXyKOxp0w1gG0yJsYBCl7LAzumY,427
+maup/repair.py,sha256=H-7qx2NelNxj0P7F4RAtQHZWV07y1xLHcKR86q_fUnQ,4734
+maup-0.6.dist-info/LICENSE,sha256=kKJGrM5suNB7uqz999C-1GJuoj_qZk6ypKYGvQ-CLEY,1116
+maup-0.6.dist-info/METADATA,sha256=WP6SodBHsIQJIa6YDtKjMXAtco9fd3TxN5x0q9yJ1Lg,12180
+maup-0.6.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+maup-0.6.dist-info/top_level.txt,sha256=JvloMSl4TQ-jV19w8dX7BM_qQClEW3uh6hH9YnSICAs,5
+maup-0.6.dist-info/RECORD,,
