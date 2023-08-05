@@ -1,0 +1,8 @@
+file_replicator/__init__.py,sha256=nllDrH0jyChMuuYrK0CC55iTBKUNTUjejtcwxyUF2EQ,23
+file_replicator/cli.py,sha256=idbaPrSgLELvexU1Rq_R5Wqw0dYQTDWgpy_D-BZnT-c,3677
+file_replicator/lib.py,sha256=9K_Ddsh5o2IWTKzg5eCoUEvrpk6_tzZNooE-0xbwtVU,7226
+file_replicator-0.1.11.dist-info/entry_points.txt,sha256=TSLhP4K-K0EMNMQ9Oi8qAyqmsCVzxLS12FZzeA8Hyes,60
+file_replicator-0.1.11.dist-info/LICENSE,sha256=y1Jd88qurnO9HvyrERqTYbRRhAeoyEY-lFx5hV-Wg_Q,1078
+file_replicator-0.1.11.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+file_replicator-0.1.11.dist-info/METADATA,sha256=wZyYFJxwE5vIytwz_2tTAtH8SN2H67VWyOWXztEG3Pc,8791
+file_replicator-0.1.11.dist-info/RECORD,,
