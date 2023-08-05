@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: dashboards-app-baymaxx-1
+Version: 1.9
+Summary: Blero Dashboards
+Home-page: https://www.blero.dev/
+Author: Your Name
+Author-email: info@blero.dev
+License: MIT License
+Description: =====
+        Blero Dashboards
+        =====
+        
+        
+        
+        Quick start
+        -----------
+        
+        1. Add "dashbboards_app" and desired plugins to your INSTALLED_APPS setting like this::
+        
+            INSTALLED_APPS = [
+                ...
+        
+             'dashboards_app',
+        
+            'dashboards_app.dash_docs_app',
+            'dashboards_app.plugins.blero_container_client',
+            'dashboards_app.plugins.form_addon_client',
+            'dashboards_app.plugins.blero_grid_client',
+            'dashboards_app.plugins.db_addon_client',
+            'dashboards_app.plugins.log_terminal_client',
+            'dashboards_app.plugins.task_tracker_client',
+            'dashboards_app.celery_progress',
+            ]
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
