@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+gimpscm/__init__.py
+gimpscm/fastbatch.py
+gimpscm/gimpscm.py
+gimpscm/lisp_parser.py
+gimpscm/procdump.txt
+gimpscm.egg-info/PKG-INFO
+gimpscm.egg-info/SOURCES.txt
+gimpscm.egg-info/dependency_links.txt
+gimpscm.egg-info/top_level.txt

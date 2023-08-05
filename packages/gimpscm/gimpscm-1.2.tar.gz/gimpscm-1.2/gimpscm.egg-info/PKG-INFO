@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: gimpscm
+Version: 1.2
+Summary: Automatically generate and execute gimp script files
+Home-page: https://github.com/void4/gimpscm
+Author: void4
+Author-email: void4.noreply@github.io
+License: CC BY-NC 3.0
+Download-URL: https://github.com/void4/gimpscm/archive/1.2.tar.gz
+Description: UNKNOWN
+Keywords: gimp,image,editing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
