@@ -1,0 +1,16 @@
+setup.py
+morph_gen/__init__.py
+morph_gen/ch.csv
+morph_gen/change.csv
+morph_gen/dictionary.txt
+morph_gen/example.csv
+morph_gen/nounsuf.txt
+morph_gen/suffixdvithva.txt
+morph_gen/suffixmorph.txt
+morph_gen/suffverb.txt
+morph_gen/verb.txt
+morph_gen/verbsuf.txt
+morph_gen.egg-info/PKG-INFO
+morph_gen.egg-info/SOURCES.txt
+morph_gen.egg-info/dependency_links.txt
+morph_gen.egg-info/top_level.txt

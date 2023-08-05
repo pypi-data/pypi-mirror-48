@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: morph_gen
+Version: 1.1.1
+Summary: Extract a list with stem and stripped suffixes from a Malayalam word
+Home-page: https://gitlab.com/icfoss/Malayalam-Computing/Morpheme_Generator_for_Malayalam
+Author: Jincy Baby
+Author-email: jincybaby@icfoss.org
+License: GNU Public License
+Description: # Morpheme Generator Module for Malayalam
+        
+        The Morpheme Generator helps to obtain a list with the stem and stripped suffixes from a given input word. 
+        
+        ### Requirement
+        
+        Python3
+        
+        ### Installation
+        
+        You may create a virtual environment for installing the package.
+        
+        ```
+        python -m venv ENV_DIR
+        source ENV_DIR/bin/activate
+        ```
+        
+        Install the morpheme generator
+        
+        ```
+        pip install morph-gen
+        ```
+        
+        Otherwise, use
+        
+        ```
+        pip install --user morph-gen
+        ```
+        
+        ### Implementation
+        
+        After installation, you can import the module to utilize the morph() function
+        
+        ```
+        import morph_gen
+        morph_gen.morph(wordi)
+        ```
+        The above code will output the root of the input word *wordi*. Please note that the input word must be given in Malayalam.
+        
+        For example,
+        
+        if you need to find the root of the word "മകന്റെയുമാണെന്നാണ്", you may follow the below steps
+        
+        ```
+        import morph_gen
+        morph_gen.morph("മകന്റെയുമാണെന്നാണ്")
+        ```
+        Output:
+        ```
+        ['മകന്‍ ', 'ന്റെ', 'ഉം', 'ആണ്', 'എന്ന്', 'ആണ്']
+        ```
+        
+        ##Licensed under GNU GPL v3.0.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
