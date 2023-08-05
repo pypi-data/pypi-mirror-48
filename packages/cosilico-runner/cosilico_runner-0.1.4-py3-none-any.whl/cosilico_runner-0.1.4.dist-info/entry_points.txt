@@ -1,0 +1,3 @@
+[console_scripts]
+cosilico-runner = cosilico_runner.cosilico_runner:main
+
