@@ -1,0 +1,9 @@
+setup.py
+c7n_trailcreator/__init__.py
+c7n_trailcreator/trailcreator.py
+c7n_trailcreator.egg-info/PKG-INFO
+c7n_trailcreator.egg-info/SOURCES.txt
+c7n_trailcreator.egg-info/dependency_links.txt
+c7n_trailcreator.egg-info/entry_points.txt
+c7n_trailcreator.egg-info/requires.txt
+c7n_trailcreator.egg-info/top_level.txt
