@@ -1,0 +1,5 @@
+PyYAML>=5.0
+threat_intel
+tldextract
+simplejson
+six
