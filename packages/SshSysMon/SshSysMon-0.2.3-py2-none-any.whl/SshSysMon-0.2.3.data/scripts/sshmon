@@ -1,0 +1,4 @@
+#!python
+from sshsysmon import main
+import sys
+main(sys.argv[1:])
