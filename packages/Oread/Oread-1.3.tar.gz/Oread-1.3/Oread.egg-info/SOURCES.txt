@@ -1,0 +1,10 @@
+README.md
+setup.py
+Oread.egg-info/PKG-INFO
+Oread.egg-info/SOURCES.txt
+Oread.egg-info/dependency_links.txt
+Oread.egg-info/requires.txt
+Oread.egg-info/top_level.txt
+oread/__init__.py
+oread/__main__.py
+oread/version.py
