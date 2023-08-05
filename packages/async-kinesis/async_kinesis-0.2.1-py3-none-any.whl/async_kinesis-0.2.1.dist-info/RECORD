@@ -1,0 +1,14 @@
+kinesis/__init__.py,sha256=YWv0AznKiGUbxmotLxV-_3hbRZiz_oIQRiytx23t3VU,416
+kinesis/aggregators.py,sha256=z6NkyCHuj3PsjJoS-ZEUGD4JwYZ03lT3U1Cbm9FHbAo,4204
+kinesis/base.py,sha256=bph32H-mh0hCKoE0KpXT002vLpetpw9w_WPeEEfUvng,2785
+kinesis/checkpointers.py,sha256=3V4kf9rLjhaWdkMmqOfJS3H99POUdE8qXaDoxKagCkY,6943
+kinesis/consumer.py,sha256=5e83ykKAl7NY6sMMrLYRzLt8fpcGnj6d2Px8EFmsnPY,11542
+kinesis/exceptions.py,sha256=hmwc4bhSeAa58qIFl_dP5ZKyQT7xjfI8LKKJWQIUBcE,320
+kinesis/processors.py,sha256=LRAUQ-xM9av-yqLlj3Ej2GZc-VKm5_xEsvsK3eGvbgM,513
+kinesis/producer.py,sha256=9sihAwrz5paMLGXEgAD7-7N5KCmo8GIPU8aH_alTBfY,9592
+kinesis/serializers.py,sha256=i4a0f9qCxJq0G4OA6KhakOHv15sjonS4CVJNfqJJ2sc,772
+kinesis/utils.py,sha256=eq9lCOyYEG_N75eaNf4Gsw8ljpnu69fnRyBsYKWzQKY,2225
+async_kinesis-0.2.1.dist-info/METADATA,sha256=2OylTVGAl9-0NVqs_PTYl3h2nfRD4jiNfOiLzQ5JPjI,6859
+async_kinesis-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+async_kinesis-0.2.1.dist-info/top_level.txt,sha256=Sq3kNf5BBPqAZdGJP9-qevQIUMkLuWe9b7Yw9GY6gjM,8
+async_kinesis-0.2.1.dist-info/RECORD,,
