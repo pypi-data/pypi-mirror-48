@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+ini2env.py
+setup.py
+ini_to_env.egg-info/PKG-INFO
+ini_to_env.egg-info/SOURCES.txt
+ini_to_env.egg-info/dependency_links.txt
+ini_to_env.egg-info/entry_points.txt
+ini_to_env.egg-info/requires.txt
+ini_to_env.egg-info/top_level.txt

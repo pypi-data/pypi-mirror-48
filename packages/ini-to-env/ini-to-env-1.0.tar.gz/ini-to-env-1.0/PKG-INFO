@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ini-to-env
+Version: 1.0
+Summary: Load environment variables from ini file.
+Home-page: https://github.com/MichaelKim0407/ini-to-env
+Author: Michael Kim
+Author-email: mkim0407@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: dev
+Provides-Extra: ci
+Provides-Extra: test

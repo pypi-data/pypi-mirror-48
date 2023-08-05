@@ -1,0 +1,3 @@
+[console_scripts]
+ini2env = ini2env:cmd
+
