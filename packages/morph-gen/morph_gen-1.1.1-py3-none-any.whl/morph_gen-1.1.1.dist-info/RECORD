@@ -1,0 +1,16 @@
+morph_gen/__init__.py,sha256=k9ZxdI6vjQwl0dPhfzfFqrA7RqK9R6oU6nf22uSRwyk,14758
+morph_gen/ch.csv,sha256=-Q4KFVteplFgpqhoL81PAgFoqD9eDRIc2rpwzYDVVnc,265
+morph_gen/change.csv,sha256=hbUKAulZaebm75mvRcGkMrc5anXdSKiQA_cXo_SbxN8,2607
+morph_gen/dictionary.txt,sha256=UwvKUu4URtvfKhucUbgh5RFI8g2yFQqpswnlRb_MIhk,2032768
+morph_gen/example.csv,sha256=FWxquRLxEEua6hK3XwEci_JIMNg2_gtlLJn2_IIC_3E,3747
+morph_gen/nounsuf.txt,sha256=7KidkmiPQymf2mrjMCvHYkMedpyRZagmq2gA5TmsJTU,164
+morph_gen/suffixdvithva.txt,sha256=-ceRg5FoW4wDnj9GKBU9BKfuhHAJiiFAiLN5zGbo8Xo,550
+morph_gen/suffixmorph.txt,sha256=m-mAwYoiIol4Wc0IOTRlfH3K-BeK4cbPFkQrFCErEmY,6218
+morph_gen/suffverb.txt,sha256=yGEloWPtgQVdAO4PK6KGV6be00W30ylT44nOC0Q-cN4,312
+morph_gen/verb.txt,sha256=n3hYe1XVuvnwiBdtSQnSaDvWDyzF39BAXwF0PcM1O7Q,112603
+morph_gen/verbsuf.txt,sha256=_VmmTuH12zWclwM6rZPbpwQDABoXj0q3-lvbsqnd7i0,386
+morph_gen-1.1.1.dist-info/LICENSE.txt,sha256=mXD55-_eo4C0g4EM_nWy5R1M-SUwxwUHin3M7hRzRr0,34725
+morph_gen-1.1.1.dist-info/METADATA,sha256=ViSpGzfbiT4nOScMxQHoXpcDUvLAdc7uIJbHo7T726U,1553
+morph_gen-1.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+morph_gen-1.1.1.dist-info/top_level.txt,sha256=OhW7Bc6HrhEpy0BIuAAF0s0IZfkyn4MV-6eNRH6k9MM,10
+morph_gen-1.1.1.dist-info/RECORD,,
