@@ -1,0 +1,4 @@
+[rsrc.plugins]
+5b22225d = rsrc_web.base:WebStream.from_string
+5b2266696c65225d = rsrc_web.base:WebStream.from_string
+
