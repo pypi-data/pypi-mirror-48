@@ -1,0 +1,30 @@
+/* LOLLYWIZ BASIC USAGE DEMO */
+
+/* The version must not be greater than software version */
+LOLLYWIZ_TEXTFILE_VERSION = 0.1.0
+
+/* Define keys and default values to be replaced in this file 
+and also in each template file that is instantiated. */
+#default_replacement_map_begin
+
+PROJECT_NAME = LollyWizTest
+CLASS_NAME = DefaultClass
+CLASS_FILE_NAME = default_class
+CLASS_FILE_EXTENTION = hpp
+AUTHOR = 'Alex Ivanov'
+
+/* Conditions are processed before replacements, so
+it is possible to conditionaly define variable that will be used in instructions section. */
+[## if USE_TEMPLATE1 ##]
+SELECTED_TEMPLATE = template1.hpp
+[## else ##]
+SELECTED_TEMPLATE = template0.hpp
+[## endif ##]
+
+#default_replacement_map_end
+
+
+
+#instructions_begin 
+inst '[$$SELECTED_TEMPLATE$$]' '[$$CLASS_FILE_NAME$$].[$$CLASS_FILE_EXTENTION$$]'
+#instructions_end

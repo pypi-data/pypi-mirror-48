@@ -1,0 +1,5 @@
+include README.md
+include LICENSE
+recursive-include lollylib/tests *
+recursive-include lollylib/assets *
+prune *~tmp*
