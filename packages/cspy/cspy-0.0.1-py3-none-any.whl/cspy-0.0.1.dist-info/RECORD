@@ -1,0 +1,15 @@
+cspy/__init__.py,sha256=ox0XZzN2qzlyXlJt2SeR24ME5rfKP92bOuwB5wi0KwY,259
+cspy/algorithms.py,sha256=P21kNhGdssg5dL3b-5FlsThnGlxYZNhFVxqPD3meFFA,183
+cspy/label.py,sha256=MtyeHIXobpo5piIN4WSZLizN4waHFfnHAisVjj0lSrM,3197
+cspy/preprocessing.py,sha256=LsfzB6621HPURh__CFzTGjWZI1grV1CGLx7ICBIQqcA,6825
+cspy/algorithms/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cspy/algorithms/bidirectional.py,sha256=FNXCY_nQO5Q6WRV622G-YWmpRdh5Syi7Z-pnvT0Pnfo,12037
+cspy/algorithms/tabu.py,sha256=Q41_U1TZPeMCUX8ehEdYYWef7NY3ARLVAhLAMeo0PD0,5507
+cspy/test/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cspy/test/tests.py,sha256=5uc0d8XV2ZS6jZK2K1055e5GfEVXn_sz43YALkhGCnc,4134
+cspy-0.0.1.dist-info/DESCRIPTION.rst,sha256=pxMap1s6L4GGQt_oHjefleMptHzL8yW6mhj9YFa4ylo,1183
+cspy-0.0.1.dist-info/METADATA,sha256=IMU_MR9hbMpnB-USpayVPNwH4i2VxHjNprQ5u1qRiDI,1739
+cspy-0.0.1.dist-info/RECORD,,
+cspy-0.0.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+cspy-0.0.1.dist-info/metadata.json,sha256=E4sjSZtfg3whLGLAQavXC4bHnIgBxPnNPudlbcVE4Lk,771
+cspy-0.0.1.dist-info/top_level.txt,sha256=Kbd7nwHl_tqF4OGy2TRmyTt-Bkq3rYreeBDN0cYlbnY,5
