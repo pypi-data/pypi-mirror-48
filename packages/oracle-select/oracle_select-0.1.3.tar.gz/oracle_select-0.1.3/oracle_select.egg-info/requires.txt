@@ -1,0 +1,6 @@
+attrdict
+cx_Oracle
+
+[utils]
+pandas
+IPython
