@@ -1,0 +1,7 @@
+appdirs
+yapsy
+PyMySQL
+cmd2
+GitPython
+PyQtChart
+pysftp
