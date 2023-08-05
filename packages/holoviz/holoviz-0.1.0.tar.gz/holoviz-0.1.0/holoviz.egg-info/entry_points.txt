@@ -1,0 +1,3 @@
+[console_scripts]
+holoviz = holoviz.__main__:main
+
