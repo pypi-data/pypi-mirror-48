@@ -1,0 +1,10 @@
+compat-patcher-core
+
+[:python_version < "3.0"]
+Django<2
+
+[:python_version >= "3.0"]
+Django
+
+[comments]
+django-contrib-comments
