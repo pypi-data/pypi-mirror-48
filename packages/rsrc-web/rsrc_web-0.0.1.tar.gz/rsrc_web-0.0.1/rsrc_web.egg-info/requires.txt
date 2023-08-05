@@ -1,0 +1,4 @@
+memoir>=0.0.1
+reprit>=0.0.1
+requests>=2.5.0
+rsrc>=0.0.4
