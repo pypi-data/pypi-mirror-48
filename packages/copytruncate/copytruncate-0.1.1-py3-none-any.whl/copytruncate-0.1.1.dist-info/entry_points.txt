@@ -1,0 +1,3 @@
+[console_scripts]
+copytruncate = copytruncate:main
+
