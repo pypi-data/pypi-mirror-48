@@ -1,0 +1,10 @@
+authz/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+authz/middleware.py,sha256=FBjFo95Q7AZ3RKkMwWDqdOO6j3O2Glu5WZlFbqfWORo,1623
+flask_authz-0.0.1.data/data/README.md,sha256=uqFKuH-C-rO5bNVpE7-7Q1xxX9RwQ2dLkZEZhkpVGSk,2571
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_middleware.py,sha256=wSJYE0eqVvOgTlkI-s-SX115-FsUBbSM92MJTZvYSvw,1034
+flask_authz-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+flask_authz-0.0.1.dist-info/METADATA,sha256=siL43oHbkS_sgV8bdP-OKZ1vXumvdCOLiMRU-KuZBXo,3356
+flask_authz-0.0.1.dist-info/WHEEL,sha256=LRS-GSFNyYPLBJaJJ6kxdk4Urtb4kEVXWc5DpA8iv6o,97
+flask_authz-0.0.1.dist-info/top_level.txt,sha256=flcJlAxZCIKxAS9wkPY0RBHfgtZuYCnCL68TT94qT4Y,12
+flask_authz-0.0.1.dist-info/RECORD,,
