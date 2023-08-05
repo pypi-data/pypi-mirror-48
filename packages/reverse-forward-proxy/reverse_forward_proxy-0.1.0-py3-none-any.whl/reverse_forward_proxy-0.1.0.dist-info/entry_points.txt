@@ -1,0 +1,3 @@
+[console_scripts]
+reverse-forward-proxy = reverse_forward_proxy.cli:main
+

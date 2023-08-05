@@ -1,0 +1,15 @@
+reverse_forward_proxy/__init__.py,sha256=hiIY27J4sW8L9UoGVW-IjTRqsN_uyfZ6u2wtGK212do,93
+reverse_forward_proxy/cli.py,sha256=fA0RofKzoEi0ZbUf_wq_DK931sa728k3K8vqG_JuItY,1966
+reverse_forward_proxy/server.py,sha256=GWM6R-CtP5aI1Y4rme_JHhZtajHTuBOTE1uCLkqXhSc,4135
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conftest.py,sha256=cIl7a-fQePFPpuEj6msf8PhhXzPL5MJo8QkG_U9yxNo,1514
+tests/test_assumptions.py,sha256=bCU6UE0901fohcTHxC0BjXiq_8crJBWGEGipnFs9IJI,53
+tests/test_proxy.py,sha256=gip-2JGG3KNeO3Wk_27J5GVh-Z09pdQ8Y14iRduBjmc,12112
+tests/lib/__init__.py,sha256=3tS-iGjAGBZFJvNyxm6nKzVlzbnVtzpFRTl3OctgjKU,3328
+tests/lib/tls.py,sha256=RTDrHrAahrIb1dgglEVzKvrPaKQCJkQtpM__oyo8wh0,3064
+reverse_forward_proxy-0.1.0.dist-info/LICENSE,sha256=g9EApyZqqk_H24mUeFOQOWK8PynC9V_p5MZuuvxOYz0,1071
+reverse_forward_proxy-0.1.0.dist-info/METADATA,sha256=GJPiZ2flbcMq2aqWhpxVJE4HXTGfnP2XHh1kmnlHFFI,2006
+reverse_forward_proxy-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+reverse_forward_proxy-0.1.0.dist-info/entry_points.txt,sha256=hwnFp05JIruz5yGQEP3OuANKcSS6RqYzqCpG1lEBZSs,74
+reverse_forward_proxy-0.1.0.dist-info/top_level.txt,sha256=AcVjJnm0LWGmpHa6iY0BE-qD4nfn4eOJciMKmKlC7Qo,28
+reverse_forward_proxy-0.1.0.dist-info/RECORD,,
