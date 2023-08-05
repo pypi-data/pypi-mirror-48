@@ -1,0 +1,11 @@
+jsonlog/__init__.py,sha256=qkKrOlRXrNJQcj73J79dW0A406MtSDUhSHgUdX708OI,137
+jsonlog/formatter.py,sha256=Aqur6Th-Er46reg-ZYxYh-PGECU-cmn2CBH6X4G9_d0,4717
+jsonlog/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonlog/tests/conftest.py,sha256=xAUcSe9jUQIOij4B66U3rG0FYQARK13fFIhWvJYUFsU,295
+jsonlog/tests/test_formatter.py,sha256=W4H3at_U1z63UyA9qGXzwMTPV8AWA9HUgGQFw9xy1Ec,800
+jsonlog-0.0.0.dist-info/LICENSE.md,sha256=cTyrxKXKvyZoqr61_RqSCQ24GsZq16IwzDJSuzeUjP4,1052
+jsonlog-0.0.0.dist-info/METADATA,sha256=qQaFxHI-7OussVEbZJus7ScXuvuOq5lmciMfZ3TsGFQ,1029
+jsonlog-0.0.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+jsonlog-0.0.0.dist-info/top_level.txt,sha256=WhnslSYYOXmiIBQONqs1R4lzUgq_rFo5HBcexR-UTKA,8
+jsonlog-0.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+jsonlog-0.0.0.dist-info/RECORD,,
