@@ -1,0 +1,7 @@
+include *.md
+recursive-include dong *.template
+prune tests
+prune dong/tests
+prune katsu
+prune katsu-py
+
