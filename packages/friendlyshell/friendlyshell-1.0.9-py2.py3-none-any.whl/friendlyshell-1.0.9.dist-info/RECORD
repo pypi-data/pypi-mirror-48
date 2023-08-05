@@ -1,0 +1,15 @@
+friendlyshell/__init__.py,sha256=eDvJcc646nomgE_J5CLwwYUL2uOVnUw2eSs_fLVIPqI,143
+friendlyshell/base_shell.py,sha256=2A-fBqcBzVx618TVs9rI6gIyuaZekwAdgPDCA5hk7bc,18401
+friendlyshell/basic_logger_mixin.py,sha256=jIMDBiSyI8-6edZBec-ea_qTy5L2cm1UWE_7mS1Kir0,3473
+friendlyshell/basic_shell.py,sha256=R_VuDn_8N6qPcbkj6TBqn03CYPmW98z_Uv75J01nwgw,1572
+friendlyshell/command_complete_mixin.py,sha256=b1Awl-sAeXFCKpgtcrKEpgseljyK78MsjZbTgk_mQns,20505
+friendlyshell/command_parsers.py,sha256=kGEK8CpnkXXW1ladYlsAwLydy1lXf4xwSRXJd142h1E,4963
+friendlyshell/shell_help_mixin.py,sha256=aGM6dEuB6bu6aRpDFjYl9nbuI2zQlv88ZOwlCUgunIg,7095
+friendlyshell/version.py,sha256=Xg05JmpRf0TXcJ4aJpMSxMk4jVL_TNWz0__A-y6b3Jw,58
+friendlyshell-1.0.9.dist-info/DESCRIPTION.rst,sha256=ZquLi7y2eldv_DM71-ut1wgNA72yS5a6kq2f98uy3Mw,1508
+friendlyshell-1.0.9.dist-info/METADATA,sha256=qZ0ClRx8j0KXQL9F6uQMepe1uOgW_xrw2ixeXkE3pGg,2840
+friendlyshell-1.0.9.dist-info/RECORD,,
+friendlyshell-1.0.9.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+friendlyshell-1.0.9.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+friendlyshell-1.0.9.dist-info/metadata.json,sha256=b_2wblsauq7gtiBnsQgXd2KjriHnFINeMqn9oVXuHwc,1407
+friendlyshell-1.0.9.dist-info/top_level.txt,sha256=oGuPo-4NmJbsrDK3eLmzz3JeiBEriD0WPDk_w_mt4o4,14
