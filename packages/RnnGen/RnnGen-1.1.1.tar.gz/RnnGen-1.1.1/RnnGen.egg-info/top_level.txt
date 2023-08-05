@@ -1,0 +1,7 @@
+rnngen
+rnngen/misc
+rnngen/predict
+rnngen/processing
+rnngen/recurrentnetwork
+rnngen/resources
+rnngen/word2vec
