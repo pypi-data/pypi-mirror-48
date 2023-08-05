@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+bios/__init__.py
+bios/base.py
+bios.egg-info/PKG-INFO
+bios.egg-info/SOURCES.txt
+bios.egg-info/dependency_links.txt
+bios.egg-info/requires.txt
+bios.egg-info/top_level.txt
+bios/operations/csv_io.py
+bios/operations/json_io.py
+bios/operations/standart_io.py
+bios/operations/yaml_io.py
