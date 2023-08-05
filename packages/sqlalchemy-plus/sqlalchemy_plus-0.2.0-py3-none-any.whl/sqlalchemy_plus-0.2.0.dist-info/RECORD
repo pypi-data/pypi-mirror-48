@@ -1,0 +1,12 @@
+sqlalchemyplus/__init__.py,sha256=ADq0Yr-2U6LQsK6C7ACiP7zwVdZlVZCP60S4Z2X9gR4,282
+sqlalchemyplus/compiled/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemyplus/compiled/base.py,sha256=-1f0boMNeZTkTQFW1CnguC8WxwM3m7GvEXd78iOJ7Nc,2842
+sqlalchemyplus/compiled/postgresql.py,sha256=CmO9wfIvcYl8I4yQXsYh7scn4VCPRNMsxNMIQAGyFFA,1805
+sqlalchemyplus/sql/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlalchemyplus/sql/ddl.py,sha256=xQLLp1f0rOMrfMV9ikuiYx8MKAul2vjgc1sT61RzJPw,1584
+sqlalchemyplus/sql/schema.py,sha256=WEhCRpx1msi8GKgxtxoLCKabx7YYSq0yMeUTKSMBBW4,3088
+sqlalchemy_plus-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sqlalchemy_plus-0.2.0.dist-info/METADATA,sha256=syHpfCzgZfx6rk6FrkbyXZ4X7PydS6KMSaaG7XD8bEk,1736
+sqlalchemy_plus-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+sqlalchemy_plus-0.2.0.dist-info/top_level.txt,sha256=FGaHCG7pd0LgnqmEsBOyFoqu1f6CrhvdSQFdcQJIQrA,15
+sqlalchemy_plus-0.2.0.dist-info/RECORD,,
