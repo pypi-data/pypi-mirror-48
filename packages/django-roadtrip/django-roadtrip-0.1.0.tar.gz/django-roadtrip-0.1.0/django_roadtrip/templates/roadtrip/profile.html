@@ -1,0 +1,24 @@
+{% extends 'roadtrip/base.html' %}
+{% load humanize %}
+
+{% block content %}
+
+<h3>Bienvenue sur le profil de {{ profile.display_name }}</h3>
+
+{% if road_trips %}
+<p>Liste des road-trips à son actif :</p>
+<ul>
+    {% for roadtrip in road_trips %}
+    <li>
+        <a href="{% url 'roadtrip:roadtrip' roadtrip.slug %}">
+            {{ roadtrip.title }}, débuté le {{ roadtrip.date_start }}
+            {% if roadtrip.is_finish %}
+            et terminé le {{ roadtrip.date_end }}
+            {% endif %}
+        </a>
+    </li>
+    {% endfor %}
+</ul>
+{% endif %}
+
+{% endblock %}

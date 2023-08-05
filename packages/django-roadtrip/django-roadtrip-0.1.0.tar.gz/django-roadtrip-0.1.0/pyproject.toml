@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "django-roadtrip"
+version = "0.1.0"
+description = "Django application to inform and follow your friends during road-trip"
+authors = ["Aloha68 <dev@aloha.im>"]
+license = "ISC"
+readme = "README.md"
+homepage = "https://gitlab.com/aloha68/django-roadtrip"
+repository = "https://gitlab.com/aloha68/django-roadtrip"
+
+[tool.poetry.dependencies]
+python = "^3.5"
+django = "^2.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+django-leaflet-gpx = {path = "/home/thomas/Workspace/django-apps/leaflet-gpx"}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"

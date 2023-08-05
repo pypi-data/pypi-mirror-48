@@ -1,0 +1,82 @@
+{% load humanize l10n static %}
+
+<div class="card">
+    <div class="card-header">
+        <img src="{% static 'icons/gas.png' %}" alt="Carburant" width="16px" height="16px">
+        Carburant
+    </div>
+    <div class="card-body text-center">
+        <table class="table table-sm table-bordered">
+            <tr>
+                <th>Quantité</th>
+                <td>{{ data.total_amount|floatformat:-2 }} L</td>
+            </tr>
+            <tr>
+                <th>Prix total</th>
+                <td>{{ data.total_price|floatformat:2 }} €</td>
+            </tr>
+            <tr>
+                <th>Consommation / 100 km</th>
+                <td>{{ data.consumption_per_100|floatformat:-2 }} L</td>
+            </tr>
+            <tr>
+                <th>Prix / 100 km</th>
+                <td>{{ data.price_per_100|floatformat:2 }} €</td>
+            </tr>
+        </table>
+
+        <button id="buttonRefuelModal" type="button" class="btn btn-primary" data-toggle="modal" data-target="#refuelModal">
+            Voir les détails
+        </button>
+    </div>
+</div>
+
+<div id="refuelModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="#refuelModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+            <div class="modal-header">
+                <img src="{% static 'icons/gas.png' %}" alt="Carburant">
+                <h5 id="refuelModalLabel" class="modal-title">Carburant</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                {% if data.main_vehicle %}
+                <p>
+                    Véhicule principal : {{ data.main_vehicle.brand }} {{ data.main_vehicle.model }}
+                    (capacité du réservoir : {{ data.main_vehicle.tank_capacity|floatformat:-1 }} L)
+                </p>
+                {% endif %}
+                <table class="fuel-table table table-sm table-striped table-bordered text-center">
+                    <tr>
+                        <th>Date</th>
+                        <th>Kilométrage</th>
+                        <th>Quantité</th>
+                        <th>Prix</th>
+                    </tr>
+                    {% for refuel in refuels %}
+                    <tr>
+                        <td>{{ refuel.date|date:"d/m/Y" }}</td>
+                        <td>{{ refuel.mileage|intcomma }} km</td>
+                        <td class="amount">
+                            <div class="bg" style="width: {{ refuel.style_width_percent|unlocalize }}%"></div>
+                            {{ refuel.amount|floatformat:-2 }} L
+                        </td>
+                        <td>{{ refuel.price|floatformat:2 }} €</td>
+                    </tr>
+                    {% endfor %}
+                    <tr>
+                        <th>Total</th>
+                        <th>{{ total_mileage|intcomma }} km</th>
+                        <th>{{ data.total_amount|floatformat:-2 }} L</th>
+                        <th>{{ data.total_price|floatformat:2 }} €</th>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
