@@ -1,0 +1,11 @@
+gui_automation/__init__.py,sha256=5Vy3C0VP_UDdQR8zDvF25dW4n81w1zMcdJhrhU57iMY,55
+gui_automation/example.py,sha256=aql38tpg2FzUnOZqMbavbr6I91CUjwNBR9sG8F8qrbg,138
+gui_automation/gui_automation.py,sha256=y9N1o_ex_j6DnPwYXpqpZTMnpJ_9aXKGOOk5-DZ3mws,2125
+gui_automation/image_detection.py,sha256=MBoE1kxYxHcbshJakib_GqHEZ0edcnKdP0U4CWp1y0c,1371
+gui_automation/mouse.py,sha256=XNz5Z4PNFU1QYm2SKT0Bi4x1hPRqTHILuOdpxr41dFE,786
+gui_automation/spot.py,sha256=yiRqHc_4ThwrXtGQSNbsv1tI6Yd7Gv4GoL9VuqJDJCE,1541
+gui_automation-0.2.dist-info/LICENSE,sha256=X4cjllBPVnwUfgiq6bTYQWKbFzpglrnQ_-8fLVOa1sE,1093
+gui_automation-0.2.dist-info/METADATA,sha256=_d81gm-0gO_plM-pyrwdLf__WBG1Xu8J5VJx15SQ0zk,983
+gui_automation-0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+gui_automation-0.2.dist-info/top_level.txt,sha256=oOrVg8MJxhG2xUgCbzZgH6hlhtKBTeHIuiMq3jl_VrQ,15
+gui_automation-0.2.dist-info/RECORD,,
