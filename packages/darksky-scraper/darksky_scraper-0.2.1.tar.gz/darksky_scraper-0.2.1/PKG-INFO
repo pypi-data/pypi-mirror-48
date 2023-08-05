@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: darksky_scraper
+Version: 0.2.1
+Summary: A simple scraper for darksky.net.
+Home-page: https://github.com/jimbob88/darksky_scraper
+Author: James Blackburn
+Author-email: blackburnfjames@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/jimbob88/darksky_scraper/issues
+Project-URL: Source, https://github.com/jimbob88/darksky_scraper
+Description: # darksky_scraper
+        
+        ## What is darksky_scraper?
+        Darksky Scraper is a python module created in the hopes of providing the ability for users to have access to forcasting data from [darksky.net](https://darksky.net/forecast/en) from a simple module.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.0.*, <4
+Description-Content-Type: text/markdown
