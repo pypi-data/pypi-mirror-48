@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: python-simple-html-sanitize
+Version: 0.0.1
+Summary: Only keep the text and bold, italic, underline and new line tags into an html string
+Home-page: https://github.com/remaudcorentin-dev/python-simple-html-sanitize
+Author: Corentin Remaud
+Author-email: remaudcorentin.dev@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN

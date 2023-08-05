@@ -1,0 +1,9 @@
+README.md
+setup.py
+python_simple_html_sanitize.egg-info/PKG-INFO
+python_simple_html_sanitize.egg-info/SOURCES.txt
+python_simple_html_sanitize.egg-info/dependency_links.txt
+python_simple_html_sanitize.egg-info/not-zip-safe
+python_simple_html_sanitize.egg-info/requires.txt
+python_simple_html_sanitize.egg-info/top_level.txt
+simple_html_sanitizer/__init__.py
