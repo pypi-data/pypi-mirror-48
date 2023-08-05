@@ -1,0 +1,12 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    i18n_domain="collective.easyform">
+    <utility
+        name="collective.fgrcon.pgeasyform.actions.PostgresData"
+        component=".actions.PostgresDataAction"
+        />
+    <utility
+        name="collective.fgrcon.pgeasyform.actions.PostgresData"
+        component=".actions.PostgresDataHandler"
+        />        
+</configure>
