@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: allspeak
+Version: 1.4.2
+Summary: A pythonic internationalization and localization solution.
+Home-page: https://jpscaletti.com/allspeak
+Author: Juan-Pablo Scaletti
+Author-email: juanpablo@jpscaletti.com
+License: MIT
+Project-URL: Documentation, http://allspeak.lucuma.co
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5,<4.0
+Description-Content-Type: text/markdown
+Requires-Dist: Babel (~=2.7.0)
+Requires-Dist: MarkupSafe (~=1.1.1)
+Requires-Dist: poyo (~=0.4.2)
+Requires-Dist: pytz (>=2019.1)
+Provides-Extra: dev
+Requires-Dist: django ; extra == 'dev'
+Requires-Dist: jinja2 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: webob ; extra == 'dev'
+Requires-Dist: werkzeug ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: ipdb ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Provides-Extra: testing
+Requires-Dist: django ; extra == 'testing'
+Requires-Dist: jinja2 ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: webob ; extra == 'testing'
+Requires-Dist: werkzeug ; extra == 'testing'
+
+[![Build Status](https://travis-ci.org/jpscaletti/allspeak.svg?branch=master)](https://travis-ci.org/jpscaletti/allspeak)
+
+# Allspeak
+
+*Allspeak* is a pythonic (yet ironically inspired by Rails) internationalization and localization solution for Python web applications.
+
+It's flexible, easy to use and, unlike gettext, independent of any external compilation tool.
+
+This library **does not** use gettext -we find it cumbersome, to say the least-, but instead it works with translations in **YAML** files, compatible by those used with the Rails internationalization system, so you can use any third-party service already compatible with them (for example, [Transifex](https://www.transifex.com/)).
+
+It is powered by the [Babel](http://babel.pocoo.org/) and [pytz](http://pythonhosted.org/pytz/) libraries and tested with Python 3.5+
+
+Read the documentation here: <http://allspeak.lucuma.co>
+
+
+## What's in a name?
+
+> "When Thor speaks with the All-Speak anyone who hears him will hear
+> him speak their native language in their hearts"
+> ------(from Thor's wiki page)
+
+
+## Run the tests
+
+    $  pip install .
+    $  pip install .[testing]
+
+To run the tests in your current Python version do:
+
+    $  make test
+
+To run them in every supported Python version do:
+
+    $  tox
+
+It might be also necessary to run the coverage report to make sure all lines
+of code are touch by the tests:
+
+    $  make coverage
+
+Our test suite [runs continuously on Travis
+CI](https://travis-ci.org/jpscaletti/Allspeak) with every update.
+
+
