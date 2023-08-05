@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: irds
+Version: 0.0.2
+Summary: encapsulation of hot-redis features
+Home-page: https://github.com/coghost/irds
+Author: lihe
+Author-email: imanux@sina.com
+License: GPL
+Project-URL: Bug Reports, https://github.com/coghost/irds/issues
+Project-URL: Source, https://github.com/coghost/irds
+Keywords: irds,izen,hot_redis,redis,ORM
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: hot-redis
+
+# irds
+hot-redis, redis
+
+
