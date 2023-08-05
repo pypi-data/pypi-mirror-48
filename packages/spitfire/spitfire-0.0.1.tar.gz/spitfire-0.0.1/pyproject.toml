@@ -1,0 +1,10 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "spitfire"
+author = "DK"
+author-email = "dkainama@jouwomgeving.nl"
+home-page = "https://bitbucket.org/jouwomgeving/spitfire"
+
