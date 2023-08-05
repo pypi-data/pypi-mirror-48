@@ -1,0 +1,3 @@
+[console_scripts]
+serialscope = SerialScope.__main__:main
+
