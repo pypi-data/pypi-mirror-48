@@ -1,0 +1,11 @@
+pypeeper/__init__.py,sha256=IxH4ng9k6ATg40I-O0qcrFnVTEPgYIciyvGS1xEciOE,63
+pypeeper/pypeeper.py,sha256=IWn9-dwfCDv06_moC_fay2rYxXMrHqer8ZRDXcEEzPk,2655
+pypeeper/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypeeper/examples/basic_example.py,sha256=qyBSUTolBtRCQcOJipZ9b4f-mg9r7jWBCiWAo_xlTlg,1213
+pypeeper/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pypeeper/test/test_fun_pypeeper.py,sha256=iwCO-Sq5dM6qZeX8-9WpCSgsv9OBeyRATSyUP6JSaZg,4554
+pypeeper-0.2.dist-info/LICENSE.txt,sha256=RBhg5hIyHCQyj9Hd6pdx4QVzRdIfplLdnbuNB0fm2H4,1093
+pypeeper-0.2.dist-info/METADATA,sha256=nRTby5HE_CjMMoCDtUiyQLWqNy_v-lT3o4irrOc1SBU,2000
+pypeeper-0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pypeeper-0.2.dist-info/top_level.txt,sha256=r4OwsRKyrb0iAnrU_-M2hx0i9lrQd-CUmqz4J2ZkCi8,9
+pypeeper-0.2.dist-info/RECORD,,
