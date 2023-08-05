@@ -1,0 +1,9 @@
+pyre_extensions/__init__.py,sha256=7f4G2-lqmtontfSJyBWvqw8FRbflNJsJw-iL2jmVZ6E,1493
+pyre_extensions/type_variable_operators.py,sha256=5D-qAFoBmtEfzNCF6J17sIfiDrAu2XKcHKZj_OoE18w,404
+pyre_extensions/tests/__init__.py,sha256=g0NnogwPHlksVeYwB-zOSAWYNjKRCwwS4lI1HM666kA,27
+pyre_extensions/tests/simple_tests.py,sha256=dXuio3Vx5E9Qtg9Tpads2ApAtE64ZDUWQmtVjX6WAX8,1666
+pyre_extensions-0.0.9.dist-info/LICENSE,sha256=9lf5nT-5ZH25JijpYAequ0bl8E8z5JmZB1qrjiUMp84,1080
+pyre_extensions-0.0.9.dist-info/METADATA,sha256=SKsQ5JeqTGTxGKi896oTl-rimM5_DA-TNsM-XVGKtAw,1729
+pyre_extensions-0.0.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyre_extensions-0.0.9.dist-info/top_level.txt,sha256=0uoqHb2Kcyjnqdyz9R9fbixc5wtIIepi8ZecAfyjtww,16
+pyre_extensions-0.0.9.dist-info/RECORD,,
