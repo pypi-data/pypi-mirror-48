@@ -1,0 +1,7 @@
+README.md
+setup.py
+memorization/__init__.py
+memorization.egg-info/PKG-INFO
+memorization.egg-info/SOURCES.txt
+memorization.egg-info/dependency_links.txt
+memorization.egg-info/top_level.txt
