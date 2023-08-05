@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-kakao-zipcode
+Version: 0.1.1
+Summary: Kakao zipcode service widget for Django
+Home-page: https://github.com/LeeHanYeong/django-kakao-zipcode
+Author: Lee HanYeong
+Author-email: dev@lhy.kr
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# django-kakao-zipcode
+
+
