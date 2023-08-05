@@ -1,0 +1,6 @@
+README.md
+setup.py
+b2_storage.egg-info/PKG-INFO
+b2_storage.egg-info/SOURCES.txt
+b2_storage.egg-info/dependency_links.txt
+b2_storage.egg-info/top_level.txt
