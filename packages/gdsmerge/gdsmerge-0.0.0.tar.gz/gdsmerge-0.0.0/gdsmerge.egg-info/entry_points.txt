@@ -1,0 +1,3 @@
+[console_scripts]
+gdsmerge = gdsmerge.standalone:main
+

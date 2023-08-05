@@ -1,0 +1,10 @@
+README.md
+setup.py
+gdsmerge/standalone.py
+gdsmerge.egg-info/PKG-INFO
+gdsmerge.egg-info/SOURCES.txt
+gdsmerge.egg-info/dependency_links.txt
+gdsmerge.egg-info/entry_points.txt
+gdsmerge.egg-info/not-zip-safe
+gdsmerge.egg-info/requires.txt
+gdsmerge.egg-info/top_level.txt

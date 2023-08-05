@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: gdsmerge
+Version: 0.0.0
+Summary: Merge cells of multiple GDS files into a single file.
+Home-page: https://codeberg.org/tok/gdsmerge
+Author: T. Kramer
+Author-email: code@tkramer.ch
+License: GPLv3+
+Description: # GDSMerge
+        Tool for merging cells from multiple GDS files into a single GDS file.
+        
+        ## Install
+        ```sh
+        git clone [this repo]
+        cd gdsmerge
+        python3 setup.py devel --user
+        ```
+        
+        ## Example
+        ```sh
+        gdsmerge -o /my/output.gds \
+            -i ~/my/first/input.gds -i \
+            ~/a/whole/directory/*.gds
+        ```
+Keywords: gds gds2 merge converter klayout
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
