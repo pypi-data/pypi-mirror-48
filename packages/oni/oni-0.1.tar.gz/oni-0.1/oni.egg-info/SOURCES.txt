@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+doc/ONI Guide.ipynb
+oni/__init__.py
+oni/machine.py
+oni/machine.yaml
+oni/resource.py
+oni/util.py
+oni.egg-info/PKG-INFO
+oni.egg-info/SOURCES.txt
+oni.egg-info/dependency_links.txt
+oni.egg-info/requires.txt
+oni.egg-info/top_level.txt

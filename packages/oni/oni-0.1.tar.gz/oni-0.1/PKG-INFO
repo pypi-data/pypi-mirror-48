@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: oni
+Version: 0.1
+Summary: Calculator to balance machine resources in Oxygen Not Included
+Home-page: UNKNOWN
+Author: Chris Beaumont
+Author-email: chrisnbeaumont@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
