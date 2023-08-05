@@ -1,0 +1,10 @@
+opsramp/__init__.py,sha256=UWIFGoNdpMDllzzeXngtOWJo6NJBxqGpaJ7Lilw6sZs,633
+opsramp/binding.py,sha256=jOrmlIiw-hM2KAnH1lCIPcVkmtfUL9lAgD4sQMB21Qk,10549
+opsramp/cli.py,sha256=XLVyEJ9r46bPfvci3zI7H30IWaI33CMyJ4kDsNaDDqw,3043
+opsramp/examples.py,sha256=abwLpHLeztN2ct56eVLHw8-uMu01PI-3bhAKroV-6bU,3967
+python_opsramp-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+python_opsramp-0.0.1.dist-info/METADATA,sha256=xLkbKzOregFeZMQZZVna_z9NkuReyvv4sbgP9PwoWDs,11515
+python_opsramp-0.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+python_opsramp-0.0.1.dist-info/entry_points.txt,sha256=VHs0t6T7YpjfR7NT_4Yn6onBJE6MCTWN8MXmWW55vgE,46
+python_opsramp-0.0.1.dist-info/top_level.txt,sha256=e1GgWX2v-N5ZsO3Uu-NghbYRUVQ3p0Gssj02V_Y-VHE,8
+python_opsramp-0.0.1.dist-info/RECORD,,
