@@ -1,0 +1,9 @@
+django_db_comments/__init__.py,sha256=_w9bcdMtUamjEps3cDhG_nQRo41wT_LBAHZWc8tfRf8,93
+django_db_comments/apps.py,sha256=C92YLsQZqObAD56kxnRaqBIO0SJJIFJQHd9RvqHPk_E,314
+django_db_comments/db_comments.py,sha256=I7o3f2BREYL3-vhLqs1nZHCGTXA_Q4lzhsjbCvI9b0Y,2736
+django_db_comments-0.2.1.dist-info/DESCRIPTION.rst,sha256=ukhRiSh9I8lUHTly7D4gvCoE3kIFlOQkQ-Vs7tTo1mg,1791
+django_db_comments-0.2.1.dist-info/METADATA,sha256=i3ZRTj3qujN5gVLACuCxzQyr0OHt7d9y-r6DwOZCvjI,2661
+django_db_comments-0.2.1.dist-info/RECORD,,
+django_db_comments-0.2.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+django_db_comments-0.2.1.dist-info/metadata.json,sha256=RPlLb_42bHPhq8dS1RfwFR3OWiiR5zfGjxh0-D1HTaE,972
+django_db_comments-0.2.1.dist-info/top_level.txt,sha256=uAGTzkPdOPqxiG1irCT7pvIlQ_e00JxuLo9ROtDvDQs,19
