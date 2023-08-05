@@ -1,0 +1,3 @@
+[console_scripts]
+mifflin = mifflin.__main__:main
+
