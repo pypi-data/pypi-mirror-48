@@ -1,0 +1,14 @@
+rcsb/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+rcsb/utils/__init__.py,sha256=jv2YF__bseklT3OWEzlqJ5qE24c4aWd5F4r0TTjOrWQ,65
+rcsb/utils/io/FastaUtil.py,sha256=JwL5vEi7WI9BQ1Am8RL8Q9j2nxu6TWOHeYVGjVbyPCI,5945
+rcsb/utils/io/FileUtil.py,sha256=oh5SetFbs1FxKSOMIYI8wz11RzL7E6JLLgiM3MUV8bo,5984
+rcsb/utils/io/IoUtil.py,sha256=X0entTKno6JP36CwhFiwv2KL5huK65FRzLmg1RB6Q_o,19641
+rcsb/utils/io/MarshalUtil.py,sha256=TiL0XDuBTZXO7PjLvVBFiHI0sj3sW0e_702sVjtUFXo,4416
+rcsb/utils/io/UrlRequestUtil.py,sha256=Ngta8ZRE6swQfjRg6y06PdJ0f93pSMWo3bBdYIZtzOY,2770
+rcsb/utils/io/__init__.py,sha256=rQ3wkUL3rAr5NK_JZIXaKlw6vBKwdT3aoQ0DMDwrwpM,154
+rcsb.utils.io-0.31.dist-info/LICENSE,sha256=VWLxXn8PvwE6ptB7BxQbpErZ9iyxodApO5MYZ2yZ2jk,552
+rcsb.utils.io-0.31.dist-info/METADATA,sha256=MZMmSeQ3WNmVYfAs1a05uEG7ITo4iO8G989MlXXDATQ,916
+rcsb.utils.io-0.31.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+rcsb.utils.io-0.31.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+rcsb.utils.io-0.31.dist-info/top_level.txt,sha256=o9JzKwjXZKvIt99MG_WvJuOnR1DZn6_CIPtgWgUB0E8,5
+rcsb.utils.io-0.31.dist-info/RECORD,,
