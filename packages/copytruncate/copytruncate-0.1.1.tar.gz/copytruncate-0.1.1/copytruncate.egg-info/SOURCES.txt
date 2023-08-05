@@ -1,0 +1,9 @@
+README.md
+copytruncate.py
+setup.py
+copytruncate.egg-info/PKG-INFO
+copytruncate.egg-info/SOURCES.txt
+copytruncate.egg-info/dependency_links.txt
+copytruncate.egg-info/entry_points.txt
+copytruncate.egg-info/requires.txt
+copytruncate.egg-info/top_level.txt

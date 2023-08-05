@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: copytruncate
+Version: 0.1.1
+Summary: 文件另存后清空文件，保持文件inode不变。一般可用于大日志文件的交换等场景。
+Home-page: https://github.com/appstore-zencore/copytruncate
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # COPYTRUNCATE
+        
+        
+        文件另存后清空文件，保持文件inode不变。一般可用于大日志文件的交换等场景。
+        
+        - SRC_FILE_PATH：被复制及清空的文件路径（必填）。
+        - DST_FILE_PATH：另存为的文件路径（选填），默认为：SRC_FILE_PATH后加年月日时分秒。
+        
+        
+        ## 警告
+        
+        
+            由于“文件另存”和“清空文件”两个操作不是原子操作， 在“另存”和“清空”之间可能会有新插入的数据， 而清空时也会清掉这部分新插入的数据，
+            导致数据部分丢失。
+        
+        ## 安装
+        
+        
+        ```
+            pip install copytruncate
+        ```
+        
+        
+        ## 命令帮助信息
+        
+        
+        ```
+            E:\copytruncate>copytruncate --help
+            Usage: copytruncate [OPTIONS] SRC_FILE_PATH [DST_FILE_PATH]
+        
+            文件另存后清空文件，保持文件inode不变。一般可用于大日志文件的交换等场景。
+        
+            SRC_FILE_PATH：被复制及清空的文件路径（必填）。
+            DST_FILE_PATH：另存为的文件路径（选填），默认为：SRC_FILE_PATH后加年月日时分秒。
+        
+            警告：
+        
+            由于“文件另存”和“清空文件”两个操作不是原子操作， 在“另存”和“清空”之间可能会有新插入的数据， 而清空时也会清掉这部分新插入的数据，
+            导致数据部分丢失。
+        
+            Options:
+            -v, --verbose  Show how many bytes copied.
+            --help         Show this message and exit.
+        ```
+        
+        
+        ## 使用案例
+        
+        - 将a.txt内容复制到a.txt.backup文件中，并清空a.txt的内容。保持a.txt的inode不变，已经打开a.txt进行写入操作的程序，也不需要重新打开a.txt。
+        
+        ```
+            copytruncate a.txt a.txt.backup
+        ```
+        
+        
+        - 将a.txt内容复制到a.txt.20190613092823文件（20190613092823时命令执行时的时间，这里只是用于举例）中，并清空a.txt的内容。保持a.txt的inode不变，已经打开a.txt进行写入操作的程序，也不需要重新打开a.txt。
+        
+        ```
+            copytruncate a.txt
+        ```
+Keywords: copytruncate
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires: click
+Description-Content-Type: text/markdown
