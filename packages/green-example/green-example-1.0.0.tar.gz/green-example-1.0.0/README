@@ -1,0 +1,38 @@
+# green-example
+> A sample Greengrass application emitting a `hello` message to an MQTT topic.
+
+![Green application](https://img.shields.io/badge/green-application-brightgreen.svg)
+[![CodeBuild](https://s3-us-west-2.amazonaws.com/codefactory-us-west-2-prod-default-build-badges/passing.svg)](https://s3-us-west-2.amazonaws.com/codefactory-us-west-2-prod-default-build-badges/passing.svg)
+
+Current version: **1.0.0**
+
+Lead Maintainer: [Halim Qarroum](mailto:qarroumh@amazon.lu)
+
+## Table of contents
+
+- [Installation](#install)
+- [Metrics](#metrics)
+- [Description](#description)
+
+## Install
+
+```bash
+green add pip://green-example
+```
+
+## Metrics
+
+The below metrics displays approximate values associated with deploying and using this block.
+
+Metric | Value
+------ | ------
+**Type** | Edge
+**Requirements** | `green-cli`
+**Deployment Time** | Less than 1 minute
+**Audience** | Developers, Solutions Architects
+
+## Description
+
+This application is a sample lambda function for AWS Greengrass used to demonstrate how to deploy Green Applications and their associated dependencies using the `green-cli` package and deployment manager.
+
+Every **5** seconds, this long-running application will emit a `hello` message on the `green/example` topic.
