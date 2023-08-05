@@ -1,0 +1,12 @@
+gImageGrabber-0.1.13.data/data/driver/chromedriver.exe,sha256=QKTt3XbJRPJhiI3ilvJ4xpc3g-l9DO_WezYillIgfGk,6745088
+gImageGrabber-0.1.13.data/data/driver/geckodriver,sha256=RJCkcoCrOPaFEawN__IUv62Jv9VEKxwwlsKNU3Lf4uk,8724590
+gImageGrabber-0.1.13.data/data/driver/geckodriver.exe,sha256=GugbKm9A99Eb48kcTYOXeuDAiXvV0VTAKm2Gm1iGa1g,16976488
+gImageGrabber-0.1.13.data/scripts/simpleScript.py,sha256=DyfL0FEsJemmaNmJodV6Ds3DmALF2sj21wYpSLu3quw,292
+imggrabber/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imggrabber/imgScrape.py,sha256=k4GU3xwPsLd1Vn0hkq8DJWgVUkDQtcsw13mceFSd9GQ,5555
+imggrabber/imgTools.py,sha256=CHTkSblBykSlYAAtuc16HQlt_B0FvRz8ZeGlCeKCcX0,1528
+gImageGrabber-0.1.13.dist-info/LICENSE.txt,sha256=qtFwI4fBwfYpLt-k-Hw4axhGDltNhN9TOHVawtJp31U,31942
+gImageGrabber-0.1.13.dist-info/METADATA,sha256=Up3EE8KWNhbAki8WEa7xcR1v8l0Btf24xdJ5lr6LpJc,6364
+gImageGrabber-0.1.13.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+gImageGrabber-0.1.13.dist-info/top_level.txt,sha256=TL9YLMOKdONWl6eQ7SdlHhKngKucB_rtNZl0d-jECZw,11
+gImageGrabber-0.1.13.dist-info/RECORD,,
