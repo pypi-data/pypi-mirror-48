@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.py
+src/kengste/__init__.py
+src/kengste.hello.greet.egg-info/PKG-INFO
+src/kengste.hello.greet.egg-info/SOURCES.txt
+src/kengste.hello.greet.egg-info/dependency_links.txt
+src/kengste.hello.greet.egg-info/requires.txt
+src/kengste.hello.greet.egg-info/top_level.txt
+src/kengste.hello.greet.egg-info/zip-safe
+src/kengste/hello/greet/__init__.py
+src/kengste/hello/greet/greet.py
