@@ -1,0 +1,149 @@
+{% extends 'roadtrip/base.html' %}
+{% load humanize l10n leaflet_gpx static %}
+
+{% block css_files %}{% if include_map %}{% leaflet_gpx_css %}{% endif %}{% endblock %}
+
+{% block javascript_files %}{% if include_map %}{% leaflet_gpx_js %}{% endif %}
+        <style type="text/css">
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.left-panel {
+    min-width: 250px;
+    width: 30%
+}
+
+.map-container {
+    min-width: 400px;
+    width: 65%;
+    margin: 0;
+}
+
+.map .map-icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 50px;
+
+    transition: border-color 0.25s;
+}
+
+.map .map-icon-container:hover {
+    border-color: red;
+}
+.map .map-icon-container .map-icon {
+    width: 65%;
+    height: 65%;
+}
+
+.map-container .map .map-icon-waypoint {
+    background-image: url("{% static 'icons/gas.png' %}");
+}
+
+#buttonRefuelModal img {
+    width: 16px;
+    height: 16px;
+}
+
+#refuelModal .modal-header img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    align-self: center;
+}
+
+#refuelModal .modal-header h5 {
+    margin: 0;
+    align-self: center;
+}
+
+.fuel-table td.amount {
+    position: relative;
+    z-index: 1;
+}
+
+.fuel-table td.amount div.bg {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+    background-color: #DDD;
+}
+        </style>
+{% endblock %}
+
+{% block content %}
+{% if roadtrip %}
+
+<h3>{{ roadtrip.title }}</h3>
+
+<table class="table table-sm table-bordered text-center">
+    <tr>
+        <th>Date de départ</th>
+        <th>Date d'arrivée</th>
+        <th>Kilométrage</th>
+    </tr>
+    <tr>
+        <td>{{ roadtrip.date_start|naturalday }}</td>
+        <td>
+            {% if roadtrip.is_finish %}
+            {{ roadtrip.date_end|naturalday }}
+            {% else %}
+            Voyage en cours !
+            {% endif %}
+        </td>
+        <td>{{ total_mileage|intcomma }} kms</td>
+    </tr>
+</table>
+
+{% if include_map %}
+<div class="content">
+    {% if gpx_url %}
+    {% gpx_map gpx_url %}
+    {% else %}
+    {% simple_map %}
+    {% endif %}
+
+    {% if fuel_data %}
+    <div class="left-panel">
+        {% include 'roadtrip/partials/card-fuel.html' with data=fuel_data %}
+    </div>
+    {% endif %}
+
+</div>
+{% endif %}
+
+{% if events %}
+<p>Liste des événements : </p>
+
+<table class="table table-sm table-bordered table-striped text-center">
+    <thead>
+        <tr>
+            <th>Date</th>
+            <th>Type</th>
+            <th>Kilométrage</th>
+            <th>Ville</th>
+        </tr>
+    </thead>
+    <tbody>
+    {% for event in events %}
+        <tr>
+            <td>{{ event.date|naturalday }}</td>
+            <td>{{ event.type }}</td>
+            <td>{{ event.mileage|intcomma }}</td>
+            <td>{{ event.location }} ({{ event.lat }}, {{ event.lon }})</td>
+        </tr>
+    {% endfor %}
+    </tbody>
+</table>
+{% endif %}
+
+{% endif %}
+{% endblock %}

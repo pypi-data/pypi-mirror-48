@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: django-roadtrip
+Version: 0.1.0
+Summary: Django application to inform and follow your friends during road-trip
+Home-page: https://gitlab.com/aloha68/django-roadtrip
+License: ISC
+Author: Aloha68
+Author-email: dev@aloha.im
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: django (>=2.2,<3.0)
+Project-URL: Repository, https://gitlab.com/aloha68/django-roadtrip
+Description-Content-Type: text/markdown
+
+Django application to inform and follow your friends during road trips.
+
+Not documented yet :-/
+
