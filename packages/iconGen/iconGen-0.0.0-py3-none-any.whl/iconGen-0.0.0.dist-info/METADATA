@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: iconGen
+Version: 0.0.0
+Summary: Handy command line tool with optional GUI to crop and generate icons in different resolutions
+Home-page: https://github.com/Madoshakalaka/icon-generator
+Author: Matt Yan
+Author-email: syan4@ualberta.ca
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/Madoshakalaka/icon-generator/issues
+Project-URL: Funding, https://github.com/Madoshakalaka/icon-generator
+Project-URL: Say Thanks!, https://github.com/Madoshakalaka/icon-generator
+Project-URL: Source, https://github.com/Madoshakalaka/icon-generator
+Keywords: icon development
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: opencv-python (==4.1.0.25)
+
+# Icon Generator
+
+Note: It's a basically a general purpose icon generator but
+It's originally a tool I wrote for google chrome extension in a specific project.
+So the default naming scheme of the generated icons may be weird. 
+
+With that said. It is easy to change. Just change some string literals at the end of iconGen.py file.
+
+## Functionality
+Generate a series of icons in different resolutions with a image provided.
+
+![usecase.png](readme_assets/usecase.png)
+
+The user is able to either interactively select a region from the image with GUI, OR just use some square picture without GUI.
+
+The GUI features polite and completely interactive prompts and is straightforward to use.
+
+![easy2use.png](readme_assets/easy2use.png)
+
+## How to Use
+
+1. Any python 3
+2. numpy and opencv-python as in requirements.txt
+
+`./iconGen.py thonk.png` for an interactive session with GUI
+
+`./iconGen.py --full square.png` for icon generation without GUI
+
+`./iconGen.py -h` for more help such as customizable output directory
+
