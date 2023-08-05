@@ -1,0 +1,14 @@
+SerialScope/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+SerialScope/__main__.py,sha256=ipotA4R3N2jtNZITmN5UG1G-YBvUsCw_RK9bTW88Ao4,817
+SerialScope/arduino.py,sha256=ryTDfc5lMlrVE6Ldzl_6N2ob1ehccE0ryLy_G3sxjhc,3133
+SerialScope/config.py,sha256=UPMr3aNj_PqA8IAqM4b5gX9oR2Xh0AO6NUK_8YWFqQg,1299
+SerialScope/gui.py,sha256=SqpFxs5_jRIquW-XOlQgngCMWH5Kz00OoqrlL9anLBA,6652
+SerialScope/helper.py,sha256=rjMoV8Vz76UNBmuYG-ywlV4Zx6KtHdU_PsUz4oibCjM,1187
+SerialScope/layout.py,sha256=00YBumEhZnZ6-8jzAH7jkYfpiQTWXhmWNCUvypz7b5E,3208
+SerialScope/scope.py,sha256=vVqrQrzctMPT7Piy2UZ9pQSC5zQQkRWAw953HQN-0sc,3231
+SerialScope-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+SerialScope-0.0.1.dist-info/METADATA,sha256=Quf3p9RHsQ8wphfAnqE2py9kukROfb_Aaf7K_8IbH9M,1835
+SerialScope-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+SerialScope-0.0.1.dist-info/entry_points.txt,sha256=innHt768y70Uqt4b2zDnkR0Bb7cyhxqZyHcSDzoCOxE,59
+SerialScope-0.0.1.dist-info/top_level.txt,sha256=5bZISi7WAI65rqF241pYIa88nGf6LW6Mj8XIbHCCeZc,12
+SerialScope-0.0.1.dist-info/RECORD,,
