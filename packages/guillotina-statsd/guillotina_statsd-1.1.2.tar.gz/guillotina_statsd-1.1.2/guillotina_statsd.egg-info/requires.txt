@@ -1,0 +1,5 @@
+guillotina<5,>=4
+aiostatsd
+
+[test]
+pytest
