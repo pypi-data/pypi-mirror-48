@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: quotient-security-check
+Version: 0.0.1.dev0
+Summary: ip whitelisting security package
+Home-page: UNKNOWN
+Author: Suman Kumar
+Author-email: sumkumar@quotient.com
+License: UNKNOWN
+Description: # Check Whitelisted IP
+        
+        This is a simple security package to check whether client IP is allowed to access the flask`s backend APIs.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+Description-Content-Type: text/markdown
