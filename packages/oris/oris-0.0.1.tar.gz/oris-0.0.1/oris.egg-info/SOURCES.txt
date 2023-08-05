@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+oris/__init__.py
+oris/models.py
+oris/utils.py
+oris.egg-info/PKG-INFO
+oris.egg-info/SOURCES.txt
+oris.egg-info/dependency_links.txt
+oris.egg-info/not-zip-safe
+oris.egg-info/requires.txt
+oris.egg-info/top_level.txt
+oris/parse/oris.g4
