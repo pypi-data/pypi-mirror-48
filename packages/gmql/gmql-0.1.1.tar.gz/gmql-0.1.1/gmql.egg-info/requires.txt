@@ -1,0 +1,11 @@
+pandas
+tqdm
+numpy
+py4j
+requests
+requests-toolbelt
+strconv
+typecheck-decorator
+numpy
+findspark
+sphinx_rtd_theme
