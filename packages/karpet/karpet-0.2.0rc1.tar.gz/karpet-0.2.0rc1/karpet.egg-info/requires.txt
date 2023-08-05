@@ -1,0 +1,9 @@
+numpy>=1.16.4
+coinmarketcap>=5.0.3
+pandas>=0.24.2
+
+[google]
+pytrends>=4.6.0
+
+[twitter]
+twitterscraper>=1.1.0
