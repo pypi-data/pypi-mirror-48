@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: nozama-cloudsearch
+Version: 2.0.2
+Summary: A REST service which implements the Amazon CloudSearch for local testing purposes. This is *not* intended as a replacement for Amazon CloudSearch.See the https://github.com/oisinmulvihill/nozama-cloudsearch for more details. One handy benefit of using Nozama is it provides a way to migrate from Amazon CloudSearch to ElasticSearch.
+Home-page: https://github.com/oisinmulvihill/nozama-cloudsearch
+Author: Oisin Mulvihill
+Author-email: oisin.mulvihilli@gmail.com
+License: BSD
+Description: A REST service which implements the Amazon CloudSearch for local testing purposes. This is *not* intended as a replacement for Amazon CloudSearch.See the https://github.com/oisinmulvihill/nozama-cloudsearch for more details. One handy benefit of using Nozama is it provides a way to migrate from Amazon CloudSearch to ElasticSearch.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
