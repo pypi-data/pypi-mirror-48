@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: redexpect
+Version: 1.0.0
+Summary: An SSH automation library using expect.
+Home-page: https://bitbucket.org/Red_M/RedExpect
+Author: Red_M
+Author-email: redexpect_pypi@red-m.net
+License: GPLv2
+Description: UNKNOWN
+Platform: Posix
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
