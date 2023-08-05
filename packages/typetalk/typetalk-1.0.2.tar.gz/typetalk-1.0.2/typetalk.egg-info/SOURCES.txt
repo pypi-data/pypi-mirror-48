@@ -1,0 +1,11 @@
+README.md
+setup.py
+typetalk/__init__.py
+typetalk/bot.py
+typetalk/client.py
+typetalk/http.py
+typetalk/route.py
+typetalk.egg-info/PKG-INFO
+typetalk.egg-info/SOURCES.txt
+typetalk.egg-info/dependency_links.txt
+typetalk.egg-info/top_level.txt
