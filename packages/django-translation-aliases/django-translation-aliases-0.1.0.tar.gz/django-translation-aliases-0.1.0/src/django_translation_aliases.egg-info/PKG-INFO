@@ -1,0 +1,109 @@
+Metadata-Version: 1.2
+Name: django-translation-aliases
+Version: 0.1.0
+Summary: A small library which adds "translate" and "blocktranslate" templatetags as and modified makemessages to work with them.
+Home-page: https://github.com/roverdotcom/django-translation-aliases
+Author: Mike Hansen
+Author-email: mike@rover.com
+License: BSD 3-Clause License
+Project-URL: Documentation, https://django-translation-aliases.readthedocs.io/
+Project-URL: Changelog, https://django-translation-aliases.readthedocs.io/en/latest/changelog.html
+Project-URL: Issue Tracker, https://github.com/roverdotcom/django-translation-aliases/issues
+Description: ========
+        Overview
+        ========
+        
+        
+        
+        A small library which adds "translate" and "blocktranslate"
+        template tags and modifies makemessages to work with them.
+        
+        * Free software: BSD 3-Clause License
+        
+        Installation
+        ============
+        
+        ::
+        
+            pip install django-translation-aliases
+        
+        Add `django_translation_aliases` to your `INSTALLED_APPS`::
+        
+           INSTALLED_APPS = (
+               ...
+               'django_translation_aliases',
+           )
+        
+        This will add the `translate` and `blocktranslate` template tags to
+        the `i18n` library so that you can use them in your templates::
+        
+          {% load i18n %}
+          {% translate "This message" %}
+          {% blocktranslate trimmer %}
+              Another message
+          {% endblocktranslate %}
+        
+        
+        Documentation
+        =============
+        
+        
+        https://django-translation-aliases.readthedocs.io/
+        
+        
+        Development
+        ===========
+        
+        To run the all tests run::
+        
+            tox
+        
+        Note, to combine the coverage data from all the tox environments run:
+        
+        .. list-table::
+            :widths: 10 90
+            :stub-columns: 1
+        
+            - - Windows
+              - ::
+        
+                    set PYTEST_ADDOPTS=--cov-append
+                    tox
+        
+            - - Other
+              - ::
+        
+                    PYTEST_ADDOPTS=--cov-append tox
+        
+        
+        Changelog
+        =========
+        
+        0.0.0 (2019-06-22)
+        ------------------
+        
+        * First release on PyPI.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: Framework :: Django :: 2.0
+Classifier: Framework :: Django :: 2.1
+Classifier: Framework :: Django :: 2.2
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*
