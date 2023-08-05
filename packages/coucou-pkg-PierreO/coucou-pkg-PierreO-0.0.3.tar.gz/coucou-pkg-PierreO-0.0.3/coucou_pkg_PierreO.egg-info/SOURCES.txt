@@ -1,0 +1,7 @@
+README.md
+setup.py
+coucou_pkg/__init__.py
+coucou_pkg_PierreO.egg-info/PKG-INFO
+coucou_pkg_PierreO.egg-info/SOURCES.txt
+coucou_pkg_PierreO.egg-info/dependency_links.txt
+coucou_pkg_PierreO.egg-info/top_level.txt
