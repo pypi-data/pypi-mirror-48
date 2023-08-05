@@ -1,0 +1,7 @@
+README.md
+setup.py
+vapy/__init__.py
+vapy.egg-info/PKG-INFO
+vapy.egg-info/SOURCES.txt
+vapy.egg-info/dependency_links.txt
+vapy.egg-info/top_level.txt
