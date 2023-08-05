@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: pydobot
+Version: 0.9.48
+Summary: Python library for Dobot Magician
+Home-page: https://github.com/luismesas/pydobot
+Author: Luis Mesas
+Author-email: luismesas@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/luismesas/pydobot/archive/0.9.48.tar.gz
+Description: [![CircleCI](https://circleci.com/gh/luismesas/pydobot.svg?style=svg)](https://circleci.com/gh/luismesas/pydobot)
+        
+        Python library for Dobot Magician
+        ===
+        
+        Based on Communication Protocol V1.1.4 (_latest version [here](https://www.dobot.cc/downloadcenter.html?sub_cat=72#sub-download)_)
+        
+        
+        Installation
+        ---
+        
+        ```
+        pip install pydobot
+        ```
+        
+        Samples
+        ---
+        
+        ```python
+        from serial.tools import list_ports
+        
+        from pydobot import Dobot
+        
+        port = list_ports.comports()[0].device
+        device = Dobot(port=port, verbose=True)
+        
+        (x, y, z, r, j1, j2, j3, j4) = device.pose()
+        device.go(x + 100, y, z, r)
+        device.go(x, y, z, r)
+        
+        device.close()
+        ```
+Keywords: dobot,magician,robotics
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
