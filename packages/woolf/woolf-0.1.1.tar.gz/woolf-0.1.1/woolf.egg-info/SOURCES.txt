@@ -1,0 +1,12 @@
+README.md
+setup.py
+bin/featureTable
+bin/trainWoolf
+woolf/__init__.py
+woolf/featureTable.py
+woolf/woolfClassifier.py
+woolf.egg-info/PKG-INFO
+woolf.egg-info/SOURCES.txt
+woolf.egg-info/dependency_links.txt
+woolf.egg-info/requires.txt
+woolf.egg-info/top_level.txt
