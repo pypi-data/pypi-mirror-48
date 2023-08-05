@@ -1,0 +1,11 @@
+README.md
+setup.py
+kathurima.egg-info/PKG-INFO
+kathurima.egg-info/SOURCES.txt
+kathurima.egg-info/dependency_links.txt
+kathurima.egg-info/entry_points.txt
+kathurima.egg-info/requires.txt
+kathurima.egg-info/top_level.txt
+packageadd/__init__.py
+packageadd/mycode.py
+test/test_mycode.py
