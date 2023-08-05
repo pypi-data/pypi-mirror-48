@@ -1,0 +1,4 @@
+spython>=0.0.67
+
+[all]
+spython>=0.0.67
