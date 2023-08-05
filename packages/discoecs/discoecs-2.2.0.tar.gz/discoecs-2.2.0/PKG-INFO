@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: discoecs
+Version: 2.2.0
+Summary: Easy to setup AWS ECS autodiscovery for Prometheus
+Home-page: https://github.com/bindreturn/discoecs
+Author: bindreturn
+Author-email: bindreturn@protonmail.ch
+License: UNKNOWN
+Description: # AWS ECS autodiscovery for Prometheus
+        
+        
+        ## Installation:
+        
+        ```
+        
+            $ pip install discoecs
+        
+        ```
+        
+        
+        ## Usage examples - commandline:
+        
+        
+        Scan ECS tasks every 70 seconds, outputting Prometheus config to `ecs-targets.json` with 8080 as default Prometheus metrics port.
+         
+        ```
+            
+            $ discoecs -v -f ecs-targets.json -p 8080 -i 70
+        
+        ```
+        
+        Important note: provide AWS credentials and default region in any of the boto3 library standard locations, such as ~/.aws/credentials or using environment variables `AWS_ACCESS_KEY_ID` and `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION`.
+        
+        
+        ## Programmatic use
+        
+        
+        ```
+            >>> import boto3
+            >>> import discoecs.get_cluster_tasks
+            >>> ecs_client = boto3.client('ecs')
+            >>> ecs_tasks = get_cluster_tasks(ecs_client)
+        
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
