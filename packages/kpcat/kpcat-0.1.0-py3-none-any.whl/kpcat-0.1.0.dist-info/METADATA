@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: kpcat
+Version: 0.1.0
+Summary: cat a keepass file - with style
+Home-page: https://github.com/whwright/kpcat
+Author: Harrison Wright
+Author-email: mail@harrisonwright.me
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click (==7.0)
+Requires-Dist: construct (==2.9.45)
+Requires-Dist: pykeepass (==3.0.3)
+
+UNKNOWN
+
+
