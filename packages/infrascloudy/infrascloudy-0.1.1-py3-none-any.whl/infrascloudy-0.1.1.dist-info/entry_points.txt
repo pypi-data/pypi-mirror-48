@@ -1,0 +1,3 @@
+[console_scripts]
+infrascloudy = infrascloudy.main:entry_point
+
