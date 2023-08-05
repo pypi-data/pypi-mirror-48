@@ -1,0 +1,3 @@
+[console_scripts]
+snm = sonimei.app:run
+
