@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: i18n-core
+Version: 0.34
+Summary: Internationalization and localization setup and support utilities.
+Home-page: UNKNOWN
+Author: Christopher Toth
+Author-email: q@q-continuum.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries
+Requires-Dist: babel
+Requires-Dist: platform-utils
+
+UNKNOWN
+
+
