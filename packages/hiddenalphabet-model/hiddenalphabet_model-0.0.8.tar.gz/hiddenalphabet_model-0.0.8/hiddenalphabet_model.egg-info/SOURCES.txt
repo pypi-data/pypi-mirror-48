@@ -1,0 +1,7 @@
+setup.py
+hiddenalphabet_model/__init__.py
+hiddenalphabet_model/nlp_model.py
+hiddenalphabet_model.egg-info/PKG-INFO
+hiddenalphabet_model.egg-info/SOURCES.txt
+hiddenalphabet_model.egg-info/dependency_links.txt
+hiddenalphabet_model.egg-info/top_level.txt
