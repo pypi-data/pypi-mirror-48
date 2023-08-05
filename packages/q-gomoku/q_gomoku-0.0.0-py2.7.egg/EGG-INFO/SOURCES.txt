@@ -1,0 +1,9 @@
+README
+setup.py
+q_gomoku.egg-info/PKG-INFO
+q_gomoku.egg-info/SOURCES.txt
+q_gomoku.egg-info/dependency_links.txt
+q_gomoku.egg-info/top_level.txt
+src/__init__.py
+src/play_me.py
+src/setup.py
