@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pycola/__init__.py
+pycola/bulletin_parser.py
+pycola.egg-info/PKG-INFO
+pycola.egg-info/SOURCES.txt
+pycola.egg-info/dependency_links.txt
+pycola.egg-info/top_level.txt
