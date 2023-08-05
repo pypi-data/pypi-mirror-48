@@ -1,0 +1,20 @@
+-r base.txt
+pytest
+pytest-cov
+pytest-django
+pytest-pudb
+
+pyenchant
+
+pylint
+pylint-common
+pylint-django
+pyenchant
+
+pip-tools
+invoke
+
+pep8
+
+bumpversion
+twine
