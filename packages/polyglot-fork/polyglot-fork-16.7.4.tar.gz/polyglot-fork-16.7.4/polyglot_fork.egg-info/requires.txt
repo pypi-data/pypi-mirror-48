@@ -1,0 +1,7 @@
+futures>=2.1.6
+pycld2>=0.3
+morfessor>=2.0.2a1
+PyICU>=1.8
+six>=1.7.3
+wheel>=0.23.0
+numpy>=1.6.1

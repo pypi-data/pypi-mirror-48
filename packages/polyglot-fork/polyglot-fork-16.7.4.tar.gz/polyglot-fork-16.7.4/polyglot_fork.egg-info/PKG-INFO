@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: polyglot-fork
+Version: 16.7.4
+Summary: Polyglot is a natural language pipeline that supports massive multilingual applications.
+Home-page: https://github.com/aboSamoor/polyglot
+Author: Rami Al-Rfou
+Author-email: rmyeid@gmail.com
+License: GPLv3
+Description: fork of polyglot
+Keywords: polyglot
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
