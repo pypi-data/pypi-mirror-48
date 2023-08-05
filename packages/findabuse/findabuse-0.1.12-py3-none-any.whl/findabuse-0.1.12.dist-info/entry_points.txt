@@ -1,0 +1,6 @@
+[console_scripts]
+findabuse=findabuse.cli:main
+findabusedns=findabuse.dns:main
+findabusehttp=findabuse.http:main
+findabusetelnet=findabuse.socket:main
+
