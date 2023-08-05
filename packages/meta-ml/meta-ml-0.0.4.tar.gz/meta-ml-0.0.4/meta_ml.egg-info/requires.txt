@@ -1,0 +1,13 @@
+click==6.7
+dill
+floyd-cli
+kaggle
+matplotlib
+numpy
+openml==0.7.0
+pandas==0.24.2
+pynisher
+torch==1.1.0
+scikit-learn==0.19.2
+scipy
+yamlordereddictloader
