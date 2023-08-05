@@ -1,0 +1,15 @@
+durabledict>=0.9.0
+jsonpickle
+werkzeug
+six
+flask
+flask-restplus
+google-cloud-logging
+google-cloud-datastore
+
+[test]
+nose
+exam
+mock
+django
+redis

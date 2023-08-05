@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: woven-gutter-gae
+Version: 0.0.3
+Summary: Client to gutter feature switches backend, using GCP (Datastore and appengine)
+Home-page: https://github.com/soulhave/woven-gutter-gae
+Author: DISQUS, soulhave
+Author-email: opensource@disqus.com, soulhave@yahoo.com.br
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development
+Provides-Extra: test
