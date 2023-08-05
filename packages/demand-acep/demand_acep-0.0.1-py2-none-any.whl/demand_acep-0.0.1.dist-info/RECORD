@@ -1,0 +1,16 @@
+demand_acep/__init__.py,sha256=BfrVJ0UCYKJdljLQyShWUXBQGjuFw6U2gXycPX5YaqI,204
+demand_acep/config.py,sha256=fPrK-DfwJXcomjCJG_YiO_PlZww4hztEKatmpwshwco,6686
+demand_acep/create_db_schema.py,sha256=oQVZvNVrvpwO9WdKEnprV-j9Km2YS1a7kgBZDI2YVOk,4659
+demand_acep/demand_acep.py,sha256=CPjEmIRwdBWzTROnJ9aEWaH1z5XdWyG-5IRD2yNfw-U,10206
+demand_acep/extract_data_to_csv.py,sha256=T3KA9SDwqEaFmee281st8jYOAsPCusiBlZ2CjFVJ19M,10191
+demand_acep/timescale_parallel_copy.py,sha256=sJa4HZzRx3A0v8DgtCb1n88-atjrwcoCO4w5UR0XFcU,3955
+demand_acep/version.py,sha256=umoau1mS4rWIzoT35w8PfG9v7SFYs3f0pz_PtvKu5ko,1904
+demand_acep/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+demand_acep/tests/test_config.py,sha256=teZQVPkXGXi-u5YeafI2UW0p-lvSuP1wSgdUIxIawAo,3685
+demand_acep/tests/test_demand_acep.py,sha256=hkSpxaYGIT4sa-Z7jgBD9aqZzjjisCekljvewkFKm2I,11200
+demand_acep-0.0.1.dist-info/DESCRIPTION.rst,sha256=5mBzmvcBtv3Pkv2voQq9xkKdioUlrZAtGMSiZB7itmU,163
+demand_acep-0.0.1.dist-info/METADATA,sha256=TmpgQAe0Iw93hwsUgq0P0C_blhplQWJrgG3aMG6O_hE,1070
+demand_acep-0.0.1.dist-info/RECORD,,
+demand_acep-0.0.1.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+demand_acep-0.0.1.dist-info/metadata.json,sha256=zCyjL01yj6SdE3eu6tYhduXG9ppdxVtoJLNwssdpgQg,1041
+demand_acep-0.0.1.dist-info/top_level.txt,sha256=Vj1wSiltUXdffl-rVnM0rVMDpmAOlugX7CWQGMziQ9w,12
