@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+chemify/__init__.py
+chemify/main.py
+chemify/version.py
+chemify.egg-info/PKG-INFO
+chemify.egg-info/SOURCES.txt
+chemify.egg-info/dependency_links.txt
+chemify.egg-info/top_level.txt
