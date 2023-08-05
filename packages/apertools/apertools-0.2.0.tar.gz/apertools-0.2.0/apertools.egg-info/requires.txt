@@ -1,0 +1,7 @@
+numpy
+scipy
+requests
+matplotlib
+click
+sardem
+pandas
