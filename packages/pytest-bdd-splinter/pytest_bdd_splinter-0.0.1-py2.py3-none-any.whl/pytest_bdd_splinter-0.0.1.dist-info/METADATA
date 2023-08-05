@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: pytest-bdd-splinter
+Version: 0.0.1
+Summary: Common steps for pytest bdd and splinter integration
+Home-page: https://github.com/labd/pytest-bdd-splinter
+Author: Lab Digital
+Author-email: 
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 1.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pytest (>=4.0.0)
+Requires-Dist: pytest-bdd (>=3.0.0)
+Requires-Dist: pytest-splinter (>=2.0.0)
+Provides-Extra: docs
+Requires-Dist: sphinx (>=1.4.0) ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: coverage (==4.2) ; extra == 'test'
+Requires-Dist: Flask (==1.0.3) ; extra == 'test'
+Requires-Dist: isort (==4.2.5) ; extra == 'test'
+Requires-Dist: flake8 (==3.0.3) ; extra == 'test'
+Requires-Dist: flake8-blind-except (==0.1.1) ; extra == 'test'
+Requires-Dist: flake8-debugger (==1.4.0) ; extra == 'test'
+
+=====================
+pytest_bdd_splinter
+=====================
+
+
+Status
+======
+.. image:: https://travis-ci.org/LabD/pytest-bdd-splinter.svg?branch=master
+    :target: https://travis-ci.org/LabD/pytest-bdd-splinter
+
+.. image:: http://codecov.io/github/LabD/pytest-bdd-splinter/coverage.svg?branch=master
+    :target: http://codecov.io/github/LabD/pytest-bdd-splinter?branch=master
+
+.. image:: https://img.shields.io/pypi/v/pytest-bdd-splinter.svg
+    :target: https://pypi.python.org/pypi/pytest-bdd-splinter/
+
+
+Installation
+============
+
+.. code-block:: shell
+
+   pip install pytest_bdd_splinter
+
+
