@@ -1,0 +1,5 @@
+numpy
+scipy
+matplotlib
+pyqtgraph
+plotly
