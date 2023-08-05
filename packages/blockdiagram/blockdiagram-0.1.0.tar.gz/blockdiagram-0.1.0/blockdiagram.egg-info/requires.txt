@@ -1,0 +1,5 @@
+numpy
+matplotlib
+mayavi
+scipy
+pillow

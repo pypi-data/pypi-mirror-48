@@ -1,0 +1,10 @@
+README.md
+setup.py
+/Users/zoltan/Dropbox/Git/blockdiagram/blockdiagram/blockdiagram.py
+blockdiagram/__init__.py
+blockdiagram/blockdiagram.py
+blockdiagram.egg-info/PKG-INFO
+blockdiagram.egg-info/SOURCES.txt
+blockdiagram.egg-info/dependency_links.txt
+blockdiagram.egg-info/requires.txt
+blockdiagram.egg-info/top_level.txt
