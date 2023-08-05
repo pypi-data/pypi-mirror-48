@@ -1,0 +1,8 @@
+README.md
+setup.py
+aussiebb/__init__.py
+aussiebb/portal.py
+aussiebb.egg-info/PKG-INFO
+aussiebb.egg-info/SOURCES.txt
+aussiebb.egg-info/dependency_links.txt
+aussiebb.egg-info/top_level.txt
