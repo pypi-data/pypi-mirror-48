@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: async-Eel
+Version: 1.0b2
+Summary: For little HTML GUI applications, with easy Python/JS interop
+Home-page: UNKNOWN
+Author: namuyang
+License: UNKNOWN
+Description: Eel is a little Python library for making simple Electron-like offline HTML/JS GUI apps,
+        
+Keywords: gui,html,javascript,electron
+Platform: UNKNOWN
+Requires-Python: >=3.6
