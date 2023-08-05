@@ -1,0 +1,16 @@
+setuptools>=36.2.1
+six>=1.7
+numpy
+astropy>=2
+scipy>=0.19
+PyYaml
+matplotlib
+python-dateutil
+lmfit
+scikit-image
+
+[:python_version < "3.4"]
+enum34
+
+[:python_version < "3.5"]
+contextlib2
