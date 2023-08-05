@@ -1,0 +1,9 @@
+README.md
+setup.py
+amq/__init__.py
+amq/amq.py
+iamq.egg-info/PKG-INFO
+iamq.egg-info/SOURCES.txt
+iamq.egg-info/dependency_links.txt
+iamq.egg-info/requires.txt
+iamq.egg-info/top_level.txt
