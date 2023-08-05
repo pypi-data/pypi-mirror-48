@@ -1,0 +1,9 @@
+setup.py
+rselector/RsModel.py
+rselector/__init__.py
+rselector/rselector.py
+rselector.egg-info/PKG-INFO
+rselector.egg-info/SOURCES.txt
+rselector.egg-info/dependency_links.txt
+rselector.egg-info/requires.txt
+rselector.egg-info/top_level.txt

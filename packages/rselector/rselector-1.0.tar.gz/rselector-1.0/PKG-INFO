@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: rselector
+Version: 1.0
+Summary: An CNN particle selector
+Home-page: https://github.com/LiangjunFeng/SICA
+Author: duxuan
+Author-email: UNKNOWN
+License: MIT Licence
+Description: UNKNOWN
+Keywords: pip,SICA,particle selection,CNN
+Platform: any
