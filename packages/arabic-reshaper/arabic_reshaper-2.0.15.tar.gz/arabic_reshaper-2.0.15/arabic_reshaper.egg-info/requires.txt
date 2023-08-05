@@ -1,0 +1,5 @@
+future
+setuptools
+
+[:python_version < "3"]
+configparser
