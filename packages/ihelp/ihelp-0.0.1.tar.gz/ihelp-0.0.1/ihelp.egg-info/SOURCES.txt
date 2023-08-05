@@ -1,0 +1,9 @@
+README.md
+setup.py
+ihelp/__init__.py
+ihelp/helper.py
+ihelp.egg-info/PKG-INFO
+ihelp.egg-info/SOURCES.txt
+ihelp.egg-info/dependency_links.txt
+ihelp.egg-info/requires.txt
+ihelp.egg-info/top_level.txt
