@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+filemaker/__init__.py
+filemaker/__main__.py
+filemaker/filemaker_api.py
+filemaker_api.egg-info/PKG-INFO
+filemaker_api.egg-info/SOURCES.txt
+filemaker_api.egg-info/dependency_links.txt
+filemaker_api.egg-info/entry_points.txt
+filemaker_api.egg-info/requires.txt
+filemaker_api.egg-info/top_level.txt
