@@ -1,0 +1,9 @@
+{% extends "admin_tools_google_analytics/module.html" %}
+{% load i18n %}
+{% block module_content %}
+
+{{module.children.users}}
+{{module.children.sessions}}
+{{module.children.views}}
+
+{% endblock %}

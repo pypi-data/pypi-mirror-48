@@ -1,0 +1,14 @@
+{% extends "admin/base.html" %}
+{% load static %}
+
+
+{% block blockbots %}
+{{ block.super }}
+{# Using blockbots ensures theming css comes after any form media and other css #}
+<!-- Admin tools google analytics -->
+<link rel="stylesheet" type="text/css" media="screen"
+    href="{% static 'admin_tools_google_analytics/css/chart.min.css' %}">
+<script src="{% static 'admin_tools_google_analytics/js/chart.min.js' %}" type="text/javascript"></script>
+<!-- End admin tools google analytics -->
+
+{% endblock %}
