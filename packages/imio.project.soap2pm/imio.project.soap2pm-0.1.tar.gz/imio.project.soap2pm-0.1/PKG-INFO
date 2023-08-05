@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: imio.project.soap2pm
+Version: 0.1
+Summary: Soap client methods
+Home-page: http://pypi.python.org/pypi/imio.project.soap2pm
+Author: sgeulette
+Author-email: support@imio.be
+License: GPL
+Description: ==========================================================================
+        imio.project.soap2pm
+        ==========================================================================
+        
+        Contributors
+        ============
+        
+        - sgeulette, support@imio.be
+        
+        Changelog
+        =========
+        
+        
+        0.1 (2019-06-23)
+        ----------------
+        
+        - Initial release.
+          [sgeulette]
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Plone
+Classifier: Framework :: Plone :: 4.3
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Provides-Extra: test
