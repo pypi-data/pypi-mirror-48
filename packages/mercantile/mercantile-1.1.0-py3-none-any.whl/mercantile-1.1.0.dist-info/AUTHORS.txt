@@ -1,0 +1,11 @@
+Authors
+=======
+
+* Sean Gillies <sean@mapbox.com>
+* Matthew Perry
+* Patrick M Young
+* Amit Kapadia
+* Damon Burgett
+* Stefano Costa
+* Jacob Wasserman
+* Brendan Ward
