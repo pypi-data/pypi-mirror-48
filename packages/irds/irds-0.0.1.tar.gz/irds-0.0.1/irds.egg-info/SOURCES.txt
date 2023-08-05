@@ -1,0 +1,9 @@
+README.md
+setup.py
+irds.egg-info/PKG-INFO
+irds.egg-info/SOURCES.txt
+irds.egg-info/dependency_links.txt
+irds.egg-info/requires.txt
+irds.egg-info/top_level.txt
+rds/__init__.py
+rds/rds.py
