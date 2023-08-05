@@ -1,0 +1,9 @@
+miscale/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+miscale/body_composition.py,sha256=sAno4Lt9PHBt_MyvFS1Qrzo-THfDdildtAZYwx-Ep7A,10631
+miscale/miscale.py,sha256=le3ECvrpH2vd6GRnWF0Z8dsRl1tg7D8ZY8sICPC7AdY,2804
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_miscale.py,sha256=joiBooEx4ZVSie9nlK2F6vaVoR9P6lD-i_Q24_vZ1bM,769
+miscale-0.1.1.dist-info/METADATA,sha256=9AprVTKSicwes4L18AhK_WQxtgoxoGe3XOlSmQiS8Bc,594
+miscale-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+miscale-0.1.1.dist-info/top_level.txt,sha256=fute917P1PT7Oas-wboX87cqckS0I4c2zZk2BUF6i3w,13
+miscale-0.1.1.dist-info/RECORD,,
