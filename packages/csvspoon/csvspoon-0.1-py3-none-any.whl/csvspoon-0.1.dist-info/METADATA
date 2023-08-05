@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: csvspoon
+Version: 0.1
+Summary: A tool to manipulate csv files with headers.
+Home-page: https://gitub.com/jb-leger/csvspoon
+Author: Jean-Benoist Leger
+Author-email: jb@leger.tf
+License: UNKNOWN
+Keywords: csv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: numpy ; extra == 'test'
+
+
+# csvspoon: a tool to manipulate csv file with headers
+
+Again, again, and again.
+
+## Python module
+
+All methods and functions are accessible in the python module.
+
+
+
