@@ -1,0 +1,21 @@
+Metadata-Version: 2.0
+Name: funhouse
+Version: 0.1.8
+Summary: Funguana's Foundational Preprocessing Library
+Home-page: UNKNOWN
+Author: Kevin Hill
+Author-email: kevin@funguana.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: dask[complete]
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: ta-lib
+
+UNKNOWN
+
+
