@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: django-kakao-address
+Version: 0.1.3
+Summary: Kakao address service widget for Django
+Home-page: https://github.com/LeeHanYeong/django-kakao-address
+Author: Lee HanYeong
+Author-email: dev@lhy.kr
+License: MIT
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+
+# django-kakao-zipcode
+
+

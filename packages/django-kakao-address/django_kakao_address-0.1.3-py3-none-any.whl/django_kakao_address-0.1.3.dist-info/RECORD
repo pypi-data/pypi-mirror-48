@@ -1,0 +1,9 @@
+kakao_address/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kakao_address/models.py,sha256=TYQLGsYJjUlZTo5qD--dxTgyukjaPLeej5bbLQV2iDE,2406
+kakao_address/widgets.py,sha256=M6rP_WpxmQLlFMxbUlkkuhQsZVwOWoSilZO7hINuZfI,108
+django_kakao_address-0.1.3.dist-info/LICENSE,sha256=zpCZSH7_oDD-bIX6P_UQqzdr7z8-2KOLqvOXPpK50zU,1068
+django_kakao_address-0.1.3.dist-info/METADATA,sha256=hNUHRCrPZWMgT4LVpnXQUh70quQyLprpLQoChZ6hhGc,394
+django_kakao_address-0.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_kakao_address-0.1.3.dist-info/top_level.txt,sha256=0iIk1PCNNHjpjxyyP8xC5hck_3lrl-piCanKmZHhzEA,14
+django_kakao_address-0.1.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+django_kakao_address-0.1.3.dist-info/RECORD,,
