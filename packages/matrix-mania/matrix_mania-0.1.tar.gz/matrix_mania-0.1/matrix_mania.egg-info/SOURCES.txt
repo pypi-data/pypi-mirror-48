@@ -1,0 +1,10 @@
+README.md
+setup.py
+matrix_mania/Matrix.py
+matrix_mania/__init__.py
+matrix_mania/test.py
+matrix_mania.egg-info/PKG-INFO
+matrix_mania.egg-info/SOURCES.txt
+matrix_mania.egg-info/dependency_links.txt
+matrix_mania.egg-info/not-zip-safe
+matrix_mania.egg-info/top_level.txt
