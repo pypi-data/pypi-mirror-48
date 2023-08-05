@@ -1,0 +1,13 @@
+README.md
+setup.py
+mathpix/__init__.py
+mathpix/client.py
+mathpix/errors.py
+mathpix/mathpix.py
+mathpix/utils.py
+python_mathpix.egg-info/PKG-INFO
+python_mathpix.egg-info/SOURCES.txt
+python_mathpix.egg-info/dependency_links.txt
+python_mathpix.egg-info/not-zip-safe
+python_mathpix.egg-info/requires.txt
+python_mathpix.egg-info/top_level.txt
