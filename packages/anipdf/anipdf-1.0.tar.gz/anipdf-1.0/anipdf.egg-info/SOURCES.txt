@@ -1,0 +1,8 @@
+README.md
+setup.py
+anipdf/__init__.py
+anipdf/pdf2text.py
+anipdf.egg-info/PKG-INFO
+anipdf.egg-info/SOURCES.txt
+anipdf.egg-info/dependency_links.txt
+anipdf.egg-info/top_level.txt
