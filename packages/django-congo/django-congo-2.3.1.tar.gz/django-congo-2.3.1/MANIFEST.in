@@ -1,0 +1,6 @@
+include README.md
+include LICENSE
+
+recursive-include congo/static *
+recursive-include congo/locale *
+recursive-include congo/templates *

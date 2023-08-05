@@ -1,0 +1,12 @@
+django-admin-tools~=0.8.0
+django-appconf~=1.0.0
+django-bower~=5.2.0
+django-filter~=2.1.0
+django-mptt~=0.9.0
+django-parler~=1.9.0
+pillow~=4.1.0
+premailer~=3.1.0
+py_moneyed~=0.8.0
+pycryptodome~=3.6.0
+suds-jurko~=0.6.0
+unidecode~=1.0.0
