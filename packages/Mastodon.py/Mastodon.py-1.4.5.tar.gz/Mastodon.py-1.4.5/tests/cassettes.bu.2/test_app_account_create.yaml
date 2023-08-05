@@ -1,0 +1,115 @@
+interactions:
+- request:
+    body: client_name=mastodon.py+generated+test+app&scopes=read+write+follow+push&redirect_uris=urn%3Aietf%3Awg%3Aoauth%3A2.0%3Aoob
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['122']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: http://localhost:3000/api/v1/apps
+  response:
+    body: {string: '{"id":"2","name":"mastodon.py generated test app","website":null,"redirect_uri":"urn:ietf:wg:oauth:2.0:oob","client_id":"xA0mMcOmeZ5Uftxw6MZ2KDLoEBTM0p1vKHeUXhiEOno","client_secret":"wSNQzlWZEQsDKfWEWXZ0ALj-9uv4zQ94u5UhQS-xASg","vapid_key":"BDoiaZnI8zQeheo5OzO3lDE5gn63dlzoaHrLTP7tctyKW-hj8yFIvIfWyCp8e-dT8kpJd9Ru7Sd-TTO2DXYgvwI="}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [a41339dc-18ff-4a71-b422-5fca1826da83]
+      X-Runtime: ['0.035222']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['331']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v1/instance/
+  response:
+    body: {string: '{"uri":"localhost","title":"Mastodon","description":"","email":"","version":"2.9.1","urls":{"streaming_api":"ws://localhost:4000"},"stats":{"user_count":2,"status_count":0,"domain_count":0},"thumbnail":"http://localhost/packs/media/images/preview-9a17d32fc48369e8ccd910a75260e67d.jpg","languages":["en"],"registrations":true,"contact_account":null}'}
+    headers:
+      Cache-Control: ['max-age=300, public']
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Sat, 22 Jun 2019 13:02:57 GMT']
+      ETag: [W/"e93399c77de2e714afcd550a34706e7e"]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [26ef20ce-d90c-498f-ab53-c5d727278a8b]
+      X-Runtime: ['0.031760']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['348']
+    status: {code: 200, message: OK}
+- request:
+    body: scope=read+write+follow+push&client_id=xA0mMcOmeZ5Uftxw6MZ2KDLoEBTM0p1vKHeUXhiEOno&client_secret=wSNQzlWZEQsDKfWEWXZ0ALj-9uv4zQ94u5UhQS-xASg&grant_type=client_credentials
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Connection: [keep-alive]
+      Content-Length: ['170']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: http://localhost:3000/oauth/token
+  response:
+    body: {string: '{"access_token":"YHnkkuWLHjRZ-HsIzyWsT56OQn6oAXT8tvkIe__4k9g","token_type":"Bearer","scope":"read
+        write follow push","created_at":1561208577}'}
+    headers:
+      Cache-Control: ['private, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      ETag: [W/"8f1d2693f3916319d5b2fb72627a180d"]
+      Pragma: [no-cache]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Request-Id: [d77ecf21-4bfc-476d-8361-3904e3db27f6]
+      X-Runtime: ['0.021695']
+      content-length: ['141']
+    status: {code: 200, message: OK}
+- request:
+    body: locale=en&agreement=1&email=email%40localhost42187&password=swordfish&username=coolguy42187&client_id=xA0mMcOmeZ5Uftxw6MZ2KDLoEBTM0p1vKHeUXhiEOno&client_secret=wSNQzlWZEQsDKfWEWXZ0ALj-9uv4zQ94u5UhQS-xASg
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer YHnkkuWLHjRZ-HsIzyWsT56OQn6oAXT8tvkIe__4k9g]
+      Connection: [keep-alive]
+      Content-Length: ['203']
+      Content-Type: [application/x-www-form-urlencoded]
+      User-Agent: [python-requests/2.18.4]
+    method: POST
+    uri: http://localhost:3000/api/v1/accounts
+  response:
+    body: {string: '{"access_token":"TXtHQr05S6ckK771XAa73qdvnMfjJU7dqr3aVlsqRD4","token_type":"Bearer","scope":"read
+        write follow push","created_at":1561208577}'}
+    headers:
+      Cache-Control: ['private, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      ETag: [W/"d45ffa5abcf400da6438b73b80ec142c"]
+      Pragma: [no-cache]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [1b5653f1-c622-4415-b972-7dd0a5e31202]
+      X-Runtime: ['0.205759']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['141']
+    status: {code: 200, message: OK}
+version: 1

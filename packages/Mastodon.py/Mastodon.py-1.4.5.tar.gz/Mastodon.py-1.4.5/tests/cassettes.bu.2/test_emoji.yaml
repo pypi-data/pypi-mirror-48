@@ -1,0 +1,31 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer __MASTODON_PY_TEST_ACCESS_TOKEN]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v1/custom_emojis
+  response:
+    body: {string: '[]'}
+    headers:
+      Cache-Control: ['max-age=60, public']
+      Content-Type: [application/json; charset=utf-8]
+      Date: ['Sat, 22 Jun 2019 13:03:09 GMT']
+      ETag: [W/"abc0f592302227cc9d889f9649cd9e1b"]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [ad3a31a2-4d9a-4873-a5de-3f96641deac1]
+      X-Runtime: ['0.036439']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['2']
+    status: {code: 200, message: OK}
+version: 1

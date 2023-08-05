@@ -1,0 +1,116 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer __MASTODON_PY_TEST_ACCESS_TOKEN]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v1/search?q=mastodonpy_test
+  response:
+    body: {string: '{"hashtags":[],"accounts":[{"id":"1234567890123456","username":"mastodonpy_test","acct":"mastodonpy_test","display_name":"John
+        Lennon","locked":true,"bot":false,"created_at":"2019-06-22T14:46:28.567Z","note":"\u003cp\u003eI
+        walk funny\u003c/p\u003e","url":"http://localhost/@mastodonpy_test","avatar":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","avatar_static":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header_static":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","followers_count":0,"following_count":0,"statuses_count":1,"emojis":[],"fields":[{"name":"bread","value":"toasty.","verified_at":null},{"name":"lasagna","value":"no!!!","verified_at":null}]}],"statuses":[]}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [98a6d4e6-9ebe-4964-97e5-2d1497916e56]
+      X-Runtime: ['0.134380']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['972']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer __MASTODON_PY_TEST_ACCESS_TOKEN]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v2/search?resolve=1&q=mastodonpy_test
+  response:
+    body: {string: '{"accounts":[{"id":"1234567890123456","username":"mastodonpy_test","acct":"mastodonpy_test","display_name":"John
+        Lennon","locked":true,"bot":false,"created_at":"2019-06-22T14:46:28.567Z","note":"\u003cp\u003eI
+        walk funny\u003c/p\u003e","url":"http://localhost/@mastodonpy_test","avatar":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","avatar_static":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header_static":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","followers_count":0,"following_count":0,"statuses_count":1,"emojis":[],"fields":[{"name":"bread","value":"toasty.","verified_at":null},{"name":"lasagna","value":"no!!!","verified_at":null}]}],"statuses":[],"hashtags":[]}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [774d8100-31d1-4c40-bb03-2803dd9a744d]
+      X-Runtime: ['0.096811']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['972']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer __MASTODON_PY_TEST_ACCESS_TOKEN]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v2/search?resolve=1&q=mastodonpy_test
+  response:
+    body: {string: '{"accounts":[{"id":"1234567890123456","username":"mastodonpy_test","acct":"mastodonpy_test","display_name":"John
+        Lennon","locked":true,"bot":false,"created_at":"2019-06-22T14:46:28.567Z","note":"\u003cp\u003eI
+        walk funny\u003c/p\u003e","url":"http://localhost/@mastodonpy_test","avatar":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","avatar_static":"http://localhost/system/accounts/avatars/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","header_static":"http://localhost/system/accounts/headers/123/456/789/012/345/original/mastodonpyupload_.jpeg?1561208564","followers_count":0,"following_count":0,"statuses_count":0,"emojis":[],"fields":[{"name":"bread","value":"toasty.","verified_at":null},{"name":"lasagna","value":"no!!!","verified_at":null}]}],"statuses":[],"hashtags":[]}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [438c01eb-6871-4984-a790-c5ba42653ce5]
+      X-Runtime: ['0.077231']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['972']
+    status: {code: 200, message: OK}
+- request:
+    body: null
+    headers:
+      Accept: ['*/*']
+      Accept-Encoding: ['gzip, deflate']
+      Authorization: [Bearer __MASTODON_PY_TEST_ACCESS_TOKEN]
+      Connection: [keep-alive]
+      User-Agent: [python-requests/2.18.4]
+    method: GET
+    uri: http://localhost:3000/api/v2/search?resolve=1&q=mastodonpy_test&type=statuses
+  response:
+    body: {string: '{"accounts":[],"statuses":[],"hashtags":[]}'}
+    headers:
+      Cache-Control: ['no-cache, no-store']
+      Content-Type: [application/json; charset=utf-8]
+      Referrer-Policy: [strict-origin-when-cross-origin]
+      Transfer-Encoding: [chunked]
+      Vary: ['Accept-Encoding, Origin']
+      X-Content-Type-Options: [nosniff]
+      X-Download-Options: [noopen]
+      X-Frame-Options: [SAMEORIGIN]
+      X-Permitted-Cross-Domain-Policies: [none]
+      X-Request-Id: [d6200f02-291f-4daf-b480-054fac8761ed]
+      X-Runtime: ['0.036176']
+      X-XSS-Protection: [1; mode=block]
+      content-length: ['43']
+    status: {code: 200, message: OK}
+version: 1
