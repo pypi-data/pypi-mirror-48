@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: paganini
+Version: 1.1.1
+Summary: Multiparametric tuner for combinatorial specifications
+Home-page: https://github.com/maciej-bendkowski/paganini
+Author: Maciej Bendkowski, Sergey Dovgal
+Author-email: maciej.bendkowski@tcs.uj.edu.pl, vic.north@gmail.com
+License: BSD3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.0
