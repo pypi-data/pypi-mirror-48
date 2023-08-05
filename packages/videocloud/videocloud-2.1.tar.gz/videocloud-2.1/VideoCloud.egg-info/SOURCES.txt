@@ -1,0 +1,16 @@
+README.md
+setup.py
+VideoCloud.egg-info/PKG-INFO
+VideoCloud.egg-info/SOURCES.txt
+VideoCloud.egg-info/dependency_links.txt
+VideoCloud.egg-info/entry_points.txt
+VideoCloud.egg-info/requires.txt
+VideoCloud.egg-info/top_level.txt
+videocloud/__init__.py
+videocloud/main.py
+videocloud.egg-info/PKG-INFO
+videocloud.egg-info/SOURCES.txt
+videocloud.egg-info/dependency_links.txt
+videocloud.egg-info/entry_points.txt
+videocloud.egg-info/requires.txt
+videocloud.egg-info/top_level.txt
