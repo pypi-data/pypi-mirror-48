@@ -1,0 +1,9 @@
+time_me/__data__.py,sha256=U03WOo90Qf6i17CDj6IezYU9lXNOTVPmJ0cRZUAz1Pw,74
+time_me/__init__.py,sha256=SiAmfDDwbaIBPAL-rtBkNI36QfcpIOh46k6vxm-DaM0,111
+time_me/coach.py,sha256=maB56Yk5dBf7eghwQLoB1H5CN9jAwjc2YBTSL6aQ4s4,4940
+time_me/runner.py,sha256=A2fuOoAW_5-qetv7SYL_gz2o8EV71exaETbqGtTjmDI,948
+time_me/timer.py,sha256=OSgMMBFCt-lMa9Dxhx4AejEk5952QmvVCf8a6str9vg,2244
+time_me-0.1.0.dist-info/METADATA,sha256=mp95FJ_rsADqGrFmTzI1BMghBBzBrL14p_7SJmaXzp8,179
+time_me-0.1.0.dist-info/RECORD,,
+time_me-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+time_me-0.1.0.dist-info/top_level.txt,sha256=QOU1KHmmY_wR_sPYJzteHEsOO_uqQxdapeKTBUTsOR8,8
