@@ -1,0 +1,17 @@
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+setup.py
+docs/breakout-example.gif
+gym_breakout_pygame/__init__.py
+gym_breakout_pygame/__version__.py
+gym_breakout_pygame/breakout_env.py
+gym_breakout_pygame.egg-info/PKG-INFO
+gym_breakout_pygame.egg-info/SOURCES.txt
+gym_breakout_pygame.egg-info/dependency_links.txt
+gym_breakout_pygame.egg-info/not-zip-safe
+gym_breakout_pygame.egg-info/requires.txt
+gym_breakout_pygame.egg-info/top_level.txt
+gym_breakout_pygame/assets/.gitkeep
+tests/__init__.py
