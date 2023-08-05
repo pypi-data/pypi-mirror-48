@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pikapy
+Version: 0.3
+Summary: Pikachu interpreter written in Python
+Home-page: https://github.com/DanyGLewin/pykachu
+Author: Dany Lewin
+Author-email: danyglewin@gmail.com
+License: MIT
+Download-URL: https://github.com/DanyGLewin/pykachu/archive/V0.3.tar.gz
+Keywords: Esolang,Esoteric,Language,Pokemon,Pikachu,Interpreter
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Interpreters
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Requires-Dist: click
+
+UNKNOWN
+
+
