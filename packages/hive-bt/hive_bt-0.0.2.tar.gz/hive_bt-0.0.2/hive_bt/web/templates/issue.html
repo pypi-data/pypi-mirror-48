@@ -1,0 +1,42 @@
+{% extends "layout.html" %}
+
+{% block title %}
+Issue {{ issue['id'] }} | Hive
+{% endblock %}
+
+{% block body %}
+
+<a href="{{url_root}}/">Back to Issue List</a>
+<h2>{{ markdown(issue['title']) |safe }}</h2>
+
+<p>
+{% for label in issue['labels'] %}
+    <span class="label label-{{label}}"><a href="{{url_root}}/?filters=label:{{label}}">{{label}}</a></span>
+{% endfor %}
+</p>
+
+<ul>
+    <li>Issue ID: {{issue['id']}}</li>
+    <li>Priority: {{issue['priority']}}</li>
+    <li>Created by {{issue['author']}}</li>
+    {% if issue.get('reporter', None) != None %}<li>Reported by {{issue['reporter']}}</li>{% endif %}
+    <li>Created at {{issue['time']}}</li>
+    {% if len(issue['updated_times']) > 1 %}<li>Last updated at {{issue['utime']}}</li>{% endif %}
+    {% if len(issue['assignees']) > 0 %}<li>Assigned to: {{', '.join(issue['assignees'])}}</li>{% endif %}
+</ul>
+
+<p></p>
+
+{{markdown(issue['body']) | safe}}
+
+{% if len(issue['comments']) > 0 %}
+
+<h3>Comments:</h3>
+
+{{issue['rendered_comments'] | safe}}
+
+{% endif %}
+
+<p>&nbsp;</p>
+<p><a href="{{url_root}}/">Back to Issue List</a></p>
+{% endblock %}
