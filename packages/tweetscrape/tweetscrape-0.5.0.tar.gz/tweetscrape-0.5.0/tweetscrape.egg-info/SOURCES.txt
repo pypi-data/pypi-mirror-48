@@ -1,0 +1,12 @@
+AUTHORS.rst
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+USAGE.md
+setup.py
+tweetscrape.egg-info/PKG-INFO
+tweetscrape.egg-info/SOURCES.txt
+tweetscrape.egg-info/dependency_links.txt
+tweetscrape.egg-info/requires.txt
+tweetscrape.egg-info/top_level.txt
