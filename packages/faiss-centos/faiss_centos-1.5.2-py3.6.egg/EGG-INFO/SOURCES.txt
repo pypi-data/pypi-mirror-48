@@ -1,0 +1,9 @@
+setup.py
+faiss/__init__.py
+faiss/_swigfaiss.so
+faiss/swigfaiss.py
+faiss_centos.egg-info/PKG-INFO
+faiss_centos.egg-info/SOURCES.txt
+faiss_centos.egg-info/dependency_links.txt
+faiss_centos.egg-info/requires.txt
+faiss_centos.egg-info/top_level.txt
