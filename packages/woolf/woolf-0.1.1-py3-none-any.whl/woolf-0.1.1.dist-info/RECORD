@@ -1,0 +1,14 @@
+woolf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+woolf/featureCSVfromFASTA.py,sha256=j9mx3-WVnamRpkwcApS5sF-1_DF_x-Y5ZhUySjNZcL8,2258
+woolf/featureTable.py,sha256=VDNp_MxWdEBoEj2r5FW6whx8IaAAy2bRlTgDrdPjvds,2294
+woolf/trainWoolf.py,sha256=_2XmaO0JqK7tNd0Pz0j5L2d4Lzcky2raxCIirQvRK7A,5242
+woolf/woolfClassifier.py,sha256=IwztI2-4jVtRKlnQuGPC2nX7wLt76b13_-UTv8jDHfg,4530
+woolf-0.1.1.data/scripts/featureTable,sha256=ShsIfn0JNRS6W6qQ9kypQ4Hb3d9SX_UfnwF_eWURpQQ,3235
+woolf-0.1.1.data/scripts/trainWoolf,sha256=hsutUhT7VDSWl_iW-7hykeS8561mFjv8b8rl5yk2Wqs,5799
+woolf-0.1.1.data/scripts/woolf_featureCSVfromFASTA.py,sha256=BHi9rskN9lAS58qJIVVPvJmqax_tCdz-9RSlV3D9N3U,2842
+woolf-0.1.1.data/scripts/woolf_trainWoolf.py,sha256=kPUlDp-_hGRThwxqFMHamDaw7_XtG-aTwltbGxgcyd8,5969
+woolf-0.1.1.dist-info/LICENSE,sha256=oWrWMix26fXZS4nLeazAUuPt4ACiDaHIp7cAuQBcFGQ,1076
+woolf-0.1.1.dist-info/METADATA,sha256=Zpb7LGPxY3QROSFnevHcrsTG4IKzbmAlSWMEFhP8CPw,640
+woolf-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+woolf-0.1.1.dist-info/top_level.txt,sha256=ch9M9O1cxw9nBkikIKviVjwJE2xd9qrWRZ1A6bBMiSo,6
+woolf-0.1.1.dist-info/RECORD,,

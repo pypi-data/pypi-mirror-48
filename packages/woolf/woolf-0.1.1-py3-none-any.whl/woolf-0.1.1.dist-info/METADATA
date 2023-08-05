@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: woolf
+Version: 0.1.1
+Summary: A tool to built machine learning classifiers for protein function differentiation
+Home-page: https://github.com/afarrellsherman/Woolf
+Author: Anna Farrell-Sherman
+Author-email: afarrellsherman@wellesley.edu
+License: MIT
+Keywords: biology,protein,classification,function,machine learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: pandas
+Requires-Dist: argparse
+Requires-Dist: biopython
+Requires-Dist: scikit-learn
+Requires-Dist: numpy
+
+UNKNOWN
+
+
