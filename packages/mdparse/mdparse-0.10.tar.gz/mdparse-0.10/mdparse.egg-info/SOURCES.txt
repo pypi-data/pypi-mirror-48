@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+mdparse/__init__.py
+mdparse/parser.py
+mdparse.egg-info/PKG-INFO
+mdparse.egg-info/SOURCES.txt
+mdparse.egg-info/dependency_links.txt
+mdparse.egg-info/requires.txt
+mdparse.egg-info/top_level.txt
