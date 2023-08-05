@@ -1,0 +1,11 @@
+jeraconv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jeraconv/jeraconv.py,sha256=lfX0FZvMpn0zfA981phuqRKgQeEmfw3mbYohzNS2D6Y,3127
+jeraconv/data/jeraconv.json,sha256=5CCdA0tul4UFty3OEmkr-E36P7PWfC7VHUiulE5YbbU,38102
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_jeraconv.py,sha256=267Xje0XjOGeoKHXXmnLXwGbI2cZ2OYAi3Ve8cEx600,2631
+jeraconv-0.1.0.dist-info/LICENSE,sha256=m9g7nDBaj7Z9OpquyZvUpkbBJiH0lgP5Cw8pqhc8jEE,1075
+jeraconv-0.1.0.dist-info/LICENSE_JP,sha256=wQ85v_-adpAWbbOjD1HOWgsi-iVJcdTMGFTti-8z5XU,1436
+jeraconv-0.1.0.dist-info/METADATA,sha256=IJRprqFDAtHGms2YWStaGyKFsVhjE7BYnktICEzNoy4,1137
+jeraconv-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jeraconv-0.1.0.dist-info/top_level.txt,sha256=ETsF6eA-wzY3KfiR5JlrjQ1jG2t_GEmfd67G3XmA57M,15
+jeraconv-0.1.0.dist-info/RECORD,,
