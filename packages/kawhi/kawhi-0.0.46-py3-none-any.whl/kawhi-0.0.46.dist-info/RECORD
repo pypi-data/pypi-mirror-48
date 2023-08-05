@@ -1,0 +1,12 @@
+get_jokes.py,sha256=kdbWYK4hXVm00JmTOTnXR-j5LrEoEZOYiPNG57lTb5s,1152
+kawhi.py,sha256=irDzNunTR2GrvfPWeJhmCIEushaTBJy6sGNv1gyn2kI,651
+kawhi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kawhi/get_jokes.py,sha256=kdbWYK4hXVm00JmTOTnXR-j5LrEoEZOYiPNG57lTb5s,1152
+kawhi/kawhi.py,sha256=E5_OknZsyo7C0EbEp7DLLizexvBI58FMYGQNRtORepc,642
+kawhi/support_modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kawhi/support_modules/get_jokes.py,sha256=kdbWYK4hXVm00JmTOTnXR-j5LrEoEZOYiPNG57lTb5s,1152
+kawhi-0.0.46.dist-info/METADATA,sha256=hD760p-kDufjt16-QTlJBO-DNAcib1RsFtwFapwqS-c,755
+kawhi-0.0.46.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+kawhi-0.0.46.dist-info/license.txt,sha256=U_nGxlP8VyLWCH9kHGPcUD_KRiZRgukZWLYU1A9k0Zw,1092
+kawhi-0.0.46.dist-info/top_level.txt,sha256=q1b-phPb3fHclMQ_pnK1tgh46ST0OJJAiOtteP5WoPE,6
+kawhi-0.0.46.dist-info/RECORD,,
