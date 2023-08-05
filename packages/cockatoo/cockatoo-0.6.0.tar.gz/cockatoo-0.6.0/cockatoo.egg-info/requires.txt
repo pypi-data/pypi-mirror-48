@@ -1,0 +1,6 @@
+Click
+pinky
+marshmallow>=2.15.1
+numpy
+scipy
+matplotlib
