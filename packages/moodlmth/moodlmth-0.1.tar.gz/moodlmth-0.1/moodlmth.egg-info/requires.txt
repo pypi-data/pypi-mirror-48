@@ -1,0 +1,17 @@
+requests>=2.22.0
+black>=19.3b0
+
+[dev]
+pytest>=4.4.1
+pytest-cov>=2.7.1
+mypy>=0.710
+lxml>=4.3.4
+typecov>=0.2.1
+tox>=3.12.1
+
+[testing]
+pytest>=4.4.1
+pytest-cov>=2.7.1
+mypy>=0.710
+lxml>=4.3.4
+typecov>=0.2.1
