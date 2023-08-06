@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: tcl-magic
+Version: 0.0.5
+Summary: An IPython extension for Tcl.
+Home-page: https://github.com/hieberst/tcl-magic
+Author: Steffen Hieber
+Author-email: hieberst@gmx.de
+License: MIT
+Description: # Tcl magic
+        
+        [IPython](https://ipython.org) extension which adds [Tcl](https://www.tcl.tk) magics.
+        
+        ## Installation
+        
+        Install or upgrade with `pip`:
+        
+            pip install -U tcl-magic
+        
+        ## Usage
+        
+        Load the extension:
+        
+            In[1]: %load_ext tclmagic
+        
+        Use the extension:
+        
+            In[2]: %%tcl
+                   set tcl_precision 17
+                   expr acos(-1)
+        
+            Out[2] 3.141592653589793
+        
+Keywords: ipython notebook tcl
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: IPython
+Classifier: Framework :: Jupyter
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Tcl
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown

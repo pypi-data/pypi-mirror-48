@@ -1,0 +1,8 @@
+README.md
+setup.py
+tclmagic.py
+tcl_magic.egg-info/PKG-INFO
+tcl_magic.egg-info/SOURCES.txt
+tcl_magic.egg-info/dependency_links.txt
+tcl_magic.egg-info/requires.txt
+tcl_magic.egg-info/top_level.txt
