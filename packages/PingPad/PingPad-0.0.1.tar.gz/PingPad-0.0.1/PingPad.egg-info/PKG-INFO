@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: PingPad
+Version: 0.0.1
+Summary: Client-server ping sender and receiver
+Home-page: https://github.com/subajat1/PingPad
+Author: Bajato Madison
+Author-email: bayumunajat@gmail.com
+License: UNKNOWN
+Description: This is a simple package for client-server ping sender and receiver.
+        You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
