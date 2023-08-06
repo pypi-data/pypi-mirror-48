@@ -1,0 +1,3 @@
+[console_scripts]
+apidoc2runner = apidoc2runner.cli:main
+

@@ -1,0 +1,15 @@
+README.md
+setup.py
+apidoc2runner/__init__.py
+apidoc2runner/cli.py
+apidoc2runner/compat.py
+apidoc2runner/core.py
+apidoc2runner/parser.py
+apidoc2runner/utils.py
+apidoc2runner.egg-info/PKG-INFO
+apidoc2runner.egg-info/SOURCES.txt
+apidoc2runner.egg-info/dependency_links.txt
+apidoc2runner.egg-info/entry_points.txt
+apidoc2runner.egg-info/top_level.txt
+tests/__init__.py
+tests/test_postmanparser.py
