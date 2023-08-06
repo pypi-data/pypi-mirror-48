@@ -1,0 +1,9 @@
+README.md
+setup.py
+test/test.py
+texterize/__init__.py
+texterize.egg-info/PKG-INFO
+texterize.egg-info/SOURCES.txt
+texterize.egg-info/dependency_links.txt
+texterize.egg-info/requires.txt
+texterize.egg-info/top_level.txt
