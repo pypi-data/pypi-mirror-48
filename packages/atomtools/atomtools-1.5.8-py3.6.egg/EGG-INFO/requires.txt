@@ -1,0 +1,17 @@
+chardet>=3.0.4
+psutil>=5.4.8
+numpy>=1.14.2
+chemdata>=1.2.1
+
+[curate]
+graphviz
+
+[docs]
+sphinx
+sphinxcontrib-programoutput
+sphinx_rtd_theme
+numpydoc
+
+[tests]
+pytest>=4.0
+pytest-cov
