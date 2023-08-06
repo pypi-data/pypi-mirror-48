@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: django-apidocs
+Version: 1.0.0
+Summary: Web API docs for Django
+Home-page: https://github.com/lyonyang/django-apidocs
+Author: Lyon Yang
+Author-email: lyon.yang@qq.com
+License: BSD
+Description: # django-apidocs
+        
+        本工具正在进行重构
+        
+        
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
