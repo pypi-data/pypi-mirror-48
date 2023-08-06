@@ -1,0 +1,16 @@
+pytest_csv/__init__.py,sha256=JBMo7klJN4rJPpCTg6-Pi3Y8ot-ocMpQBgZGja0e-Qc,1227
+pytest_csv/_hooks.py,sha256=IduJSloXSAaIg1CHlwZqO81ritkCGWTHGlFx_wE3tDs,2398
+pytest_csv/_plugin.py,sha256=nGmf5yKNj9cbmOlYKhPEfEaUXaGZIo4L_XKnbno6gug,3426
+pytest_csv/_reporter.py,sha256=PfwSFJGeVoEsc_0_DcEWaV5GBgvwSRf3QAx6VEYuXFo,3844
+pytest_csv/column/__init__.py,sha256=PzXrmwAApjAQKu75-8es4qG4PvhL_RWRxEny-n770cI,978
+pytest_csv/column/_builtin.py,sha256=oLYoCLlvsnHzqVYbf5aQNT0C5X4BstzdjEjeBg3L0aY,4930
+pytest_csv/column/_ids.py,sha256=SC8muwSkd0I42FLRzsfoyPFyzAxX3EJxcmIy91sOmA4,1653
+pytest_csv/column/_registry.py,sha256=4nZ4FwnZGdzI5N4WAEArlGsfEosq8vQNhHL1bRRn2LE,2028
+pytest_csv/column/_status.py,sha256=D2mm06xqv5myvwcgPN27ln3AGbgYgZomX9WWNFcH9GI,999
+pytest_csv/column/_utils.py,sha256=dA43Lr4AE_T8xTOA2lkvvGG5KYeFi4pZCsDJ6Y-5W1E,2213
+pytest_csv-2.0.2.dist-info/COPYING,sha256=_ILKi2_bGNTj6Fz9irWNG80_Gymr54KJWr2R1kdj-Oc,35068
+pytest_csv-2.0.2.dist-info/METADATA,sha256=3zKBZkg9St9xdM-O2JQ_U-NwIK5qnrWYGzHpFuFw6D4,9458
+pytest_csv-2.0.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pytest_csv-2.0.2.dist-info/entry_points.txt,sha256=q4wcfZmFzPQ1hgA54wrd-d6ys59uX5PhjxreIsEJpYM,44
+pytest_csv-2.0.2.dist-info/top_level.txt,sha256=Lfva5-uY1Mz8megy4OtNj6dNjObS-IeoA6JNb8xOQQA,11
+pytest_csv-2.0.2.dist-info/RECORD,,
