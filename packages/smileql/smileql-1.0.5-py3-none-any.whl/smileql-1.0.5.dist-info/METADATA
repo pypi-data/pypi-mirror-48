@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: smileql
+Version: 1.0.5
+Summary: GraphQL Interface for Inomial Smile
+Home-page: https://oss.rwts.com.au
+Author: Karl Kloppenborg
+Author-email: kkloppenborg@rwts.com.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+Requires-Dist: gql
+Requires-Dist: zeep
+
+UNKNOWN
+
+
