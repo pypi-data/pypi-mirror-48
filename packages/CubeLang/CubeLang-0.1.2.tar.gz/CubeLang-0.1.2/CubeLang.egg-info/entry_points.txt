@@ -1,0 +1,4 @@
+[console_scripts]
+cubelang = cubelang.cli.entry:main
+cubelang-scramble = cubelang.scrambler:main
+
