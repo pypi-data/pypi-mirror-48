@@ -1,0 +1,4 @@
+[gui_scripts]
+z5-tracker = z5tracker.main:main
+z5tracker = z5tracker.main:main
+
