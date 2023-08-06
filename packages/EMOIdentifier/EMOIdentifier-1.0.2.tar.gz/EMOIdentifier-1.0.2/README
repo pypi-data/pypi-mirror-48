@@ -1,0 +1,19 @@
+Product Name	:	EMOIdentifier
+Author		:	Omkarendra Tiwari
+License		: 	MIT
+Version		:	1.0.2
+Detail		:	
+				This project implements a extract method refactoring algorithm known as 'segmentation'.
+				The algorithm uses a graph SDG for analysing the source code and identifying the extract 
+				method opportunities. SDG is generated from an Intermediate representaiton of input source 
+				code. IR can be generated for any language like C, C++ or Java. SDG is gnerated by module 
+				'SDGExtractor'. Further, the SDG is used by the algorithm. and it generates identified 
+				extract method opportunities in file ''.
+NOTE			:	
+				This project is under-development. So, a few features may malfunction or are not supported.
+				If bug found it can be reported to author.
+Last Modified	:	01-July-2019
+
+Last uploaded	:	04-July-2019
+								
+				
