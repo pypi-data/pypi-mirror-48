@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: pymltoolkit
+Version: 0.1.2
+Summary: Machine Learning Toolkit (MLToolkit/mltk) for Python
+Home-page: https://github.com/sptennak/MLToolkit
+Author: Sumudu Tennakoon
+License: Apache License Version 2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: pandas
+Requires-Dist: scikit-learn
+Requires-Dist: statsmodels
+Requires-Dist: re
+
+# MLToolkit
+MLToolkit (mltk) is a Python package providing a set of user-friendly functions to  help building machine learning models in data science research, teaching or production focused projects. 
+
+# Introduction
+MLToolkit supports all stages of the machine learning application development process.
+
+# Installation
+```
+pip install pymltoolkit
+```
+If the installation failed with dependancy issues simply execute the above comman with --no-dependencies
+
+```
+pip install pymltoolkit --no-dependencies
+```
+
+# Functions
+- Data Extraction (SQL, Flatfiles, etc.)
+- Exploratory Data Analysis (statistical summary, univariate analysis, etc.)
+- Feature Engineering
+- Model Building
+- Hyper Parameter Tuning [in development]
+- Model Performance Analysis and Comparison Between Models
+- Auto ML (automated machine learning) [in development]
+- Model Deploymet and Serving [in development]
+
+# Machibe Learning Algorithms/Packages used
+- RandomForestClassifier
+-- scikit-learn
+- LogisticRegression 
+-- statsmodels
+... more will be added in future development ...
+
+# Usage
+```
+import mltk
+```
+
+# Examples
+
+# References
+- https://pandas.pydata.org/
+- https://scikit-learn.org
+- https://www.numpy.org/
+- https://docs.python.org/3.6/library/re.html
+- https://www.statsmodels.org
+- https://matplotlib.org/
+- http://flask.pocoo.org/
+
+
