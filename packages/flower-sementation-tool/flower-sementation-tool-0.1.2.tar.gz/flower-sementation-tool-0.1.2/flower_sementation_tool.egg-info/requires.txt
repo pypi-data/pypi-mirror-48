@@ -1,0 +1,7 @@
+cv2
+sys
+PyQt5
+numpy
+glob
+matplotlib
+os
