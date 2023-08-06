@@ -1,0 +1,3 @@
+cchardet
+httptools
+pyquery
