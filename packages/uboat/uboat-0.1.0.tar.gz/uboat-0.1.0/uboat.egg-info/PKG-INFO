@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: uboat
+Version: 0.1.0
+Summary: Utility for writing command-line python scripts that need sub-commands
+Home-page: https://github.com/cltrudeau/uboat
+Author: Christopher Trudeau
+Author-email: ctrudeau+pypi@arsensa.com
+License: MIT
+Description: uboat
+        *****
+        
+        This library helps you write command-line python scripts to use sub commands 
+        (e.g. "git commit", "git checkout"). It is a thin wrapper around the built-in
+        library argparse.
+        
+        Installation
+        ============
+        
+        .. code-block:: bash
+        
+            $ pip install uboat
+        
+        Supports
+        ========
+        
+        uboat has been tested with Python 3.6 and 3.7
+        
+        Docs & Source
+        =============
+        
+        Docs: http://uboat.readthedocs.io/en/latest/
+        
+        Source: https://github.com/cltrudeau/uboat
+        
+Keywords: subcommand,commandline,sub-command,command line
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
