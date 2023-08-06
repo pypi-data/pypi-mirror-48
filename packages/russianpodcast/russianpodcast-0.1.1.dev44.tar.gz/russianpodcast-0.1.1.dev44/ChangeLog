@@ -1,0 +1,47 @@
+CHANGES
+=======
+
+* remove requirement for test pypi
+* Real bump of version
+* Bump version
+* Add console script
+* Upload to test pypi seems working
+* Site layout has changed, so i rewrote the processing of links
+* Hide html page with direct links to episodes
+* Change target folder to user's home
+* Fetch credentials in script
+* Fetch credentials for user directory
+* Fetch credentials from configuration
+* Reuse old code but package with cokiecutter
+* Update readme
+* Code is now python3 compatible
+* Works with python3
+* black formatting
+* 2to3
+* fix requirements
+* fix security issue: https://nvd.nist.gov/vuln/detail/CVE-2019-11324
+* gitignore
+* Refactor works
+* Move from test like to object like
+* Temporarly deactivate printing
+* Wip
+* Avoid a copyright infringement by changing directory and git add . by mistake
+* Dacha/Dasha/Datcha stuff
+* Do not break copyright
+* Fix (deployment) and update documentation
+* Clean readme
+* Cleanup code
+* Fix doc
+* Add readme
+* Add quiet mode
+* proper filename
+* add credential\_template
+* Do not redownload every file
+* Check that target is here
+* --pdb
+* cosmetic fix
+* Fix base url (guessing)
+* Add code for headless mode
+* Add requirements for new test virtualenv
+* First shot ofworking example with download
+* ignore credentials and vietualenv
