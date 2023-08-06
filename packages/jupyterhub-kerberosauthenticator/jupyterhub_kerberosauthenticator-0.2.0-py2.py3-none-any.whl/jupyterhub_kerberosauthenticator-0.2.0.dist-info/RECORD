@@ -1,0 +1,11 @@
+kerberosauthenticator/__init__.py,sha256=U85oKxkhKlQYkTFky8mlzp6NK3dUMoyRAfaCj5VDOBU,161
+kerberosauthenticator/_version.py,sha256=J6SibEc7CJJTpgvZ5sH_N_mHuj-I7J5md56KcX5TV-A,497
+kerberosauthenticator/auth.py,sha256=PpYH8I-IP0Z_8N-kPnZl2qheBrU5vGJ1ZF583weIQVQ,5141
+kerberosauthenticator/templates/kerberos_login_error.html,sha256=qjzXolroe5fS3_A_JqTi4Qia-Pp-BIPO6W8MrdgvQjA,522
+kerberosauthenticator/tests/conftest.py,sha256=40oKPUb4f25hHYhUHrPGxaYPCNCqK4fpNBbjQ08wfQ4,1199
+kerberosauthenticator/tests/test_authenticator.py,sha256=W0bCvWCWcXQ7X1ooFiZIbbt1nYL23swfe22QPPzUkFc,1643
+jupyterhub_kerberosauthenticator-0.2.0.dist-info/LICENSE,sha256=hX4mV__1DsGOagtHPyEbWaNSWNrWaU987eXCtmlkQCE,1492
+jupyterhub_kerberosauthenticator-0.2.0.dist-info/METADATA,sha256=4BPJqw8C1KS4V7EE2VTCiuPEVM-EeLbhSKfCDTQ7IvY,1652
+jupyterhub_kerberosauthenticator-0.2.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+jupyterhub_kerberosauthenticator-0.2.0.dist-info/top_level.txt,sha256=QVITWCvfwMx3rsyBAc2eOJr4JMtYCgjG7FFAM-7subE,22
+jupyterhub_kerberosauthenticator-0.2.0.dist-info/RECORD,,
