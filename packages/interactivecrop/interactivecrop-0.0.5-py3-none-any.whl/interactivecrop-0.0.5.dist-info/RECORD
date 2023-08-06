@@ -1,0 +1,15 @@
+crop/__init__.py,sha256=DXvTy_z94BX6AjjE3fm_-k6ZRv3H-fH9SRwTUqyNdzM,26
+crop/interactivecrop.py,sha256=Ca8udCtTPc5K0xSyApxNji7aEwgRXMAZcgL3gj_lEzc,6146
+crop/samples.py,sha256=iaarOBQvXsx6BCZcmXck3ZCknqmoX6_HA_mVuPdy6LY,322
+crop/shapes.py,sha256=Fb40W-yKmMdNqjaLPMkUL3yhKafFrXxlqExZgkmxgAo,6903
+crop/widgets_helper.py,sha256=3g71YpD4gfL6KI5fcZUzjbeJEWwUV0x6lGaQM596ZvY,4186
+interactivecrop/__init__.py,sha256=54epdBdY_oCQ8QOnGub_0Cu_5UYIOV_g0ORdc4VFRXE,25
+interactivecrop/interactivecrop.py,sha256=oNPsWPXnnXM50B7pLDe5EWoilXkI04a3L5L9lzTCItU,6228
+interactivecrop/samples.py,sha256=xv5frxSov9nVhTuzuHza95_XlwgUmhnBaMNnzmR1PJE,325
+interactivecrop/shapes.py,sha256=PakeTe1SrFiT17P9oHgeEJy1u-csrH__52MtIwRV43w,6903
+interactivecrop/widgets_helper.py,sha256=je-S1QSvBy7U3mYJ0pgKgRjhIK6rAQ9Fy6rhNs3iRpE,4277
+interactivecrop-0.0.5.dist-info/LICENSE.txt,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+interactivecrop-0.0.5.dist-info/METADATA,sha256=QIffiPOQciJQlrI3sxdYFfBPE7Dqv_F9cfuxacwB9AY,2405
+interactivecrop-0.0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+interactivecrop-0.0.5.dist-info/top_level.txt,sha256=JrlvNhlXeweWhIlqbAeiq1kniOGnI0L1r-R-_4W0744,16
+interactivecrop-0.0.5.dist-info/RECORD,,
