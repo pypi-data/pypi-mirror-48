@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: maths
+Version: 0.0.0
+Summary: mathematical expression manipulation engine
+Home-page: https://github.com/uchchwhash/maths
+Author: Imam Tashdid ul Alam
+Author-email: imam.alam@gmail.com
+License: UNKNOWN
+Description: # maths
+        A mathematics package
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
