@@ -1,0 +1,3 @@
+[vaex.namespace]
+widget = vaex.jupyter:add_namespace
+
