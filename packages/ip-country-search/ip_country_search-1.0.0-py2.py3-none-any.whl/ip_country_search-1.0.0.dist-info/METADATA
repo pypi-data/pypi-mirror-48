@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ip-country-search
+Version: 1.0.0
+Summary: A python utility for searching country name for ipaddress
+Home-page: https://github.com/manumathew23/ip-country-search
+Author: Manu Mathew
+Author-email: manumatew@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: certifi
+Requires-Dist: chardet
+Requires-Dist: idna
+Requires-Dist: numpy
+Requires-Dist: Pillow
+Requires-Dist: requests
+Requires-Dist: six
+Requires-Dist: urllib3
+
+UNKNOWN
+
+
