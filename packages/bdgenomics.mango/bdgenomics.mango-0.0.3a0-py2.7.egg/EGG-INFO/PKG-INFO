@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: bdgenomics.mango
+Version: 0.0.3a0
+Summary: A scalable genomic visualization tool
+Home-page: https://github.com/bdgenomics/mango
+Author: Alyssa Morrow
+Author-email: akmorrow@berkeley.edu
+License: UNKNOWN
+Description: !!!!! missing pandoc do not upload to PyPI !!!!
+Platform: UNKNOWN
