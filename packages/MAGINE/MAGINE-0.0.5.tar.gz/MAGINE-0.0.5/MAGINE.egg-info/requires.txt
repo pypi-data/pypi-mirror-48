@@ -1,0 +1,13 @@
+jinja2
+networkx
+requests
+pandas
+xlrd
+matplotlib
+matplotlib-venn
+bioservices
+pathos
+plotly
+
+[test]
+coverage
