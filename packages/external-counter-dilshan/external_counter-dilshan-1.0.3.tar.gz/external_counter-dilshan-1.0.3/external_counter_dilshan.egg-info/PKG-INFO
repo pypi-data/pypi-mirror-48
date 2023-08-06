@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: external-counter-dilshan
+Version: 1.0.3
+Summary: Python API for USB seven segment display module
+Home-page: https://github.com/dilshan/usb-external-display-python
+Author: Dilshan R Jayakody
+Author-email: jayakody2000lk@gmail.com
+License: UNKNOWN
+Description: # Python API for USB external display module
+        
+        This Python API is designed to work with USB based external display module 
+        available in [here](https://github.com/dilshan/usb-external-display). 
+        This library works with Python 3.6 or newer versions and it supports many 
+        operating systems, including Linux, Windows, and Mac.
+        
+        Python API library uses the serial communication channel established by 
+        the display module for communication. To use this library display module 
+        must be in "*API mode*".
+        
+        This package also has a configuration utility which is useful to 
+        configure some parameters of the display unit such as idle mode message, 
+        system time, etc.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Topic :: System :: Hardware
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
