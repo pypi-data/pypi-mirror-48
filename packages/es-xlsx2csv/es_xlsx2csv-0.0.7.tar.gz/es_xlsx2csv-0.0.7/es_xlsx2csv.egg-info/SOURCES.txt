@@ -1,0 +1,10 @@
+README.md
+setup.py
+es_xlsx2csv/__init__.py
+es_xlsx2csv/command_line.py
+es_xlsx2csv.egg-info/PKG-INFO
+es_xlsx2csv.egg-info/SOURCES.txt
+es_xlsx2csv.egg-info/dependency_links.txt
+es_xlsx2csv.egg-info/entry_points.txt
+es_xlsx2csv.egg-info/requires.txt
+es_xlsx2csv.egg-info/top_level.txt
