@@ -1,0 +1,12 @@
+pymongo
+requests
+lxml
+bs4
+sqlalchemy
+pymysql
+numpy
+pandas
+scikit-learn
+xgboost
+shapely
+matplotlib
