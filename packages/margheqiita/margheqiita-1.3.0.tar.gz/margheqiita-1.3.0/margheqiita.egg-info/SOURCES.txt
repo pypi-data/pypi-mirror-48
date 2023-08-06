@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+data/data_file
+margheqiita.egg-info/PKG-INFO
+margheqiita.egg-info/SOURCES.txt
+margheqiita.egg-info/dependency_links.txt
+margheqiita.egg-info/entry_points.txt
+margheqiita.egg-info/requires.txt
+margheqiita.egg-info/top_level.txt
+sample/__init__.py
+sample/package_data.dat
