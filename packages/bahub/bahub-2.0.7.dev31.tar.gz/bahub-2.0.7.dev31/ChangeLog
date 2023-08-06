@@ -1,0 +1,61 @@
+CHANGES
+=======
+
+* Server: Attempt to connect to travis ci + increased coverage
+* Server: Travis - fix to try to run codeception api tests
+* Server: Clean up in tests
+* Server: Covered collections adding, editing, deleting
+* Server: Covered collections adding, editing, deleting
+* Server: Bugfix - added missing role about editing allowed collections
+* Server: Increased coverage
+* Server: Added coverage for registry listing, added possibility to backup & restore the database during tests
+* Server: Postman support will be completely deleted
+* Server: Fixed a high-risk security issue, the local adapter was storing files inside src directory. Symfony cache was indexing this directory while bootstraping (ex. on container restart in production mode, in dev and test modes on each request)
+* Server: Covered file registry upload and delete with API tests in codeception
+* Server: Increased API tests coverage
+* Server: Proper response instead of 500 in case, when fileUrl does not exist in upload-by-url
+* Server: Covered authentication module with Codeception API tests
+* Server: Fixed multiple files upload at once. All files were getting the same file name. On frontend not sending filename as query string parameter, but in multipart files. On backend added support to take the filename (if not specified in query string) from multipart - for compatibility with various uploaders
+* Server: Added initial codeception setup
+* Server: Now the "token" and "x-auth-token" headers are properly handled
+* Server: Added proper error handling for value objects
+* Server: Corrected health checks
+* Server: Split filesystem adapters into READ and WRITE for better handling of clusters and performant infrastructures
+* Docs: Added listing to index
+* Added docs for listing
+* Docs: Added info how to provision the token
+* Create LICENSE
+* The Bahub container now does not generate spam
+* Added docker/releases/versioning section
+* Added info about quay images
+* Made a clean up of infrastructural files and added feature toggle to the NGINX, so new features can be toggled on/off
+* AntiHotlink feature: Resolved a notice about array to string conversion ($\_SERVER['argv'] or $\_SERVER['argc'] was an array)
+* AntiHotlink feature: The value is now unescaped, it makes life so much easier when a unnecessary quotes are applied (eg. in docker container configuration)
+
+v2.0.6
+------
+
+* Added link to the general guide
+* Increased coverage by covering the UploadSecurityContext
+* Security: Files without a password cannot be overwritten if not an administrator
+* Fixed type error in snapshot command
+* Not raising an exception in the notifier, just printing it into the stdout - notification error cannot cancel a backup from creation
+* Added APP\_DOMAIN variable in case when "Host" header could be incorrect because of eg. complex and invalid networking configuration
+* Fixed developer toolbar displaying
+* Minimum.ui: Polish/Polski translation
+* Minimum.ui: Added tags, visibility, password fields
+* Simplification
+* Added VIDEO uploading role, the security validation error is now more verbose
+* Upgraded libraries to newest versions
+
+v2.0.5
+------
+
+* Covered ViewFileHandler partially
+* Exported values marked as todo in the container to the .env variables
+* Preparation for unit testing
+* Fixed magic properties, we use only explicit properties
+* Improving performance of the IoC container by excluding non-service classes
+* Excluded Controllers and Migrations from coverage
+* Added mockery for testing complex classes like Handlers
+* Covered aggregate with tests
