@@ -1,0 +1,10 @@
+README.md
+setup.py
+blockcard/__init__.py
+blockcard/__main__.py
+blockcard/block.py
+blockcard.egg-info/PKG-INFO
+blockcard.egg-info/SOURCES.txt
+blockcard.egg-info/dependency_links.txt
+blockcard.egg-info/requires.txt
+blockcard.egg-info/top_level.txt
