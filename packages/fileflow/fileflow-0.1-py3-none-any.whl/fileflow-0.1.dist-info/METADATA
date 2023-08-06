@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: fileflow
+Version: 0.1
+Summary: UNKNOWN
+Home-page: https://github.com/tfiers/fileflow
+Author: Tomas Fiers
+Author-email: tomas.fiers@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: typeguard (~=2.2.2)
+Requires-Dist: gitpython (~=2.1.11)
+Requires-Dist: decopatch (~=1.4.5)
+
+UNKNOWN
+
+
