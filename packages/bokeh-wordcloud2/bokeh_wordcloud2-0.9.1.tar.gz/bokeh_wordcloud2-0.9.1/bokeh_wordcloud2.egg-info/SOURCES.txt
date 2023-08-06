@@ -1,0 +1,10 @@
+README.md
+setup.py
+bokeh_wordcloud2/__init__.py
+bokeh_wordcloud2/bokeh_wordcloud2.py
+bokeh_wordcloud2.egg-info/PKG-INFO
+bokeh_wordcloud2.egg-info/SOURCES.txt
+bokeh_wordcloud2.egg-info/dependency_links.txt
+bokeh_wordcloud2.egg-info/requires.txt
+bokeh_wordcloud2.egg-info/top_level.txt
+bokeh_wordcloud2/typescript/extension_bokeh_wordcloud2.ts
