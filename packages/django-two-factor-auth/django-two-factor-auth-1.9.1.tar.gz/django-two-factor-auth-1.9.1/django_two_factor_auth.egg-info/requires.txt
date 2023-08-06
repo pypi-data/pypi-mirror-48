@@ -1,0 +1,14 @@
+Django>=1.11
+django_otp<0.99,>=0.6.0
+qrcode<6.99,>=4.0.0
+django-phonenumber-field<1.99,>=1.1.0
+django-formtools
+
+[Call]
+twilio>=6.0
+
+[SMS]
+twilio>=6.0
+
+[YubiKey]
+django-otp-yubikey
