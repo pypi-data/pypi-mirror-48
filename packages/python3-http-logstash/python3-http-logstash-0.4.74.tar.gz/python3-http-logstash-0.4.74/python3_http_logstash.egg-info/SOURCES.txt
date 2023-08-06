@@ -1,0 +1,12 @@
+README.rst
+setup.py
+logstash/__init__.py
+logstash/formatter.py
+logstash/handler_amqp.py
+logstash/handler_http.py
+logstash/handler_tcp.py
+logstash/handler_udp.py
+python3_http_logstash.egg-info/PKG-INFO
+python3_http_logstash.egg-info/SOURCES.txt
+python3_http_logstash.egg-info/dependency_links.txt
+python3_http_logstash.egg-info/top_level.txt
