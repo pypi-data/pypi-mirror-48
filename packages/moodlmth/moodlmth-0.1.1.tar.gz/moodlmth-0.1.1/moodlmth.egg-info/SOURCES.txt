@@ -1,0 +1,11 @@
+README.md
+setup.py
+moodlmth/__init__.py
+moodlmth/cli.py
+moodlmth/converter.py
+moodlmth.egg-info/PKG-INFO
+moodlmth.egg-info/SOURCES.txt
+moodlmth.egg-info/dependency_links.txt
+moodlmth.egg-info/entry_points.txt
+moodlmth.egg-info/requires.txt
+moodlmth.egg-info/top_level.txt
