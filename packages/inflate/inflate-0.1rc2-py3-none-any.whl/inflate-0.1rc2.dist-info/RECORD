@@ -1,0 +1,12 @@
+inflate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inflate/__main__.py,sha256=m5GLD-sG31EjtWaKxH2u6lRzTvLKrydQZZ62eUrFZvM,59
+inflate/inflate.py,sha256=D2ejFu7LyHH79E0YdLCa5zs5DqrUlD7Jw3xBDBnYEjM,1868
+inflate/main.py,sha256=VX79IjMJ7eXzX-BhAvCPUSlErzaUe2va1msbT7GsBF8,2596
+inflate/data/uk_inflation.json,sha256=8PpeBkW_51WTL9-i8oZx-gSMIpDgf8mUo59U-GFpehk,12717
+inflate/data/us_inflation.json,sha256=hEW2ok-IeZC9IrV2ZMBO2rH5a_o98tnvHj-4BrR52R4,4291
+inflate-0.1rc2.dist-info/LICENSE,sha256=jK6QWyS6s9jFm4mFbbjFciyB6LZnZi2Lh8kRqVipUkI,1067
+inflate-0.1rc2.dist-info/METADATA,sha256=lHhX-WAYbS5B9lFYZGOUOHd2e9lyQWAZCVYJ1Y9MEnk,2128
+inflate-0.1rc2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+inflate-0.1rc2.dist-info/entry_points.txt,sha256=WNdjmNl-gI6JyCMyRyRAR8mJ7SKue2Q0MkXFAsgffBU,50
+inflate-0.1rc2.dist-info/top_level.txt,sha256=ocwJvZnHpRtH8a7OoS5lxex_lGQIKOXYfkavnsQT7Ac,8
+inflate-0.1rc2.dist-info/RECORD,,
