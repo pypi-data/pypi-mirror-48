@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+drf_extra/__init__.py
+drf_extra/apps.py
+drf_extra/fields.py
+drf_extra/mixins.py
+drf_extra/pagination.py
+drf_extra/serializers.py
+drf_extra/views.py
+drf_extra.egg-info/PKG-INFO
+drf_extra.egg-info/SOURCES.txt
+drf_extra.egg-info/dependency_links.txt
+drf_extra.egg-info/requires.txt
+drf_extra.egg-info/top_level.txt
