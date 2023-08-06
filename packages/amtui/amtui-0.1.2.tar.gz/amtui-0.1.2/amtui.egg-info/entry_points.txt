@@ -1,0 +1,4 @@
+
+        [amt.plugins]
+        gui=amtui.cli:gui
+    
