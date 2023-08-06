@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: enforcer-reloaded
+Version: 1.0.1
+Summary: AWS SSM Parameter Store Management CLI
+Home-page: https://github.com/kave/enforcer
+Author: Emmanuel Apau
+License: Apache 2.0
+Platform: any
+Requires-Dist: python-dotenv (<0.11.0,>=0.7.1)
+Requires-Dist: boto3 (==1.9.176)
+Requires-Dist: pyperclip (==1.7.0)
+Requires-Dist: click (==7.0)
+Requires-Dist: colorama (==0.4.1)
+Requires-Dist: tabulate (==0.8.3)
+Requires-Dist: ruamel.yaml (==0.15.97)
+Provides-Extra: dev
+Requires-Dist: flake8 (<3.8,>=3.5) ; extra == 'dev'
+Requires-Dist: mock (<3.1,>=2.0) ; extra == 'dev'
+Requires-Dist: moto (==1.3.8) ; extra == 'dev'
+Requires-Dist: pytest (<4.7,>=3.4) ; extra == 'dev'
+Requires-Dist: pytest-cov (<2.8.0,>=2.5.1) ; extra == 'dev'
+Requires-Dist: tox (<3.14.0,>=2.9.1) ; extra == 'dev'
+Requires-Dist: yapf (<0.28,>=0.21) ; extra == 'dev'
+Requires-Dist: bandit (==1.6.1) ; extra == 'dev'
+
+AWS SSM Parameter Store Management CLI
+
+
