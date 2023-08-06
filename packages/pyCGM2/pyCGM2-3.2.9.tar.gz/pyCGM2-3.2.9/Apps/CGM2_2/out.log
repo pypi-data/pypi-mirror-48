@@ -1,0 +1,45 @@
+Loaded model cgm2-Osim from file c:\Users\HLS501\Documents\Programming\API\pyCGM2\pyCGM2\pyCGM2\Settings\opensim\models\osim\lowerLimb_ballsJoints.osim
+Replaced marker set in model cgm2-Osim
+               MODEL: pyCGM2 calibrated model
+         coordinates: 32
+              forces: 0
+           actuators: 0
+             muscles: 0
+            analyses: 0
+              probes: 0
+              bodies: 12
+              joints: 11
+         constraints: 0
+             markers: 16
+         controllers: 0
+  contact geometries: 0
+misc modelcomponents: 0
+Running tool .
+Loaded marker file C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\static.trc (32 markers, 9 frames)
+Frame 0 (t=0):	total squared error = 3.11463e-009, marker error: RMS=1.39522e-005, max=2.77679e-005 (LASI)
+Frame 1 (t=0.01):	total squared error = 2.01408e-009, marker error: RMS=1.12196e-005, max=2.24059e-005 (LASI)
+Frame 2 (t=0.02):	total squared error = 9.69309e-010, marker error: RMS=7.78343e-006, max=1.68771e-005 (LASI)
+Frame 3 (t=0.03):	total squared error = 2.87116e-010, marker error: RMS=4.23612e-006, max=8.60447e-006 (RPSI)
+Frame 4 (t=0.04):	total squared error = 3.37829e-011, marker error: RMS=1.45308e-006, max=4.4229e-006 (RASI)
+Frame 5 (t=0.05):	total squared error = 1.71136e-010, marker error: RMS=3.27048e-006, max=6.48571e-006 (LASI)
+Frame 6 (t=0.06):	total squared error = 9.16286e-010, marker error: RMS=7.56755e-006, max=1.5566e-005 (LASI)
+Frame 7 (t=0.07):	total squared error = 2.13401e-009, marker error: RMS=1.15488e-005, max=2.30124e-005 (LASI)
+Frame 8 (t=0.08):	total squared error = 3.70349e-009, marker error: RMS=1.52141e-005, max=3.02236e-005 (LASI)
+InverseKinematicsTool completed 8 frames in 0.818s
+
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
+Storage: file=C:\Users\HLS501\Documents\VICON DATA\pyCGM2-Data\Release Tests\CGM2.2\medial\ik_model_marker_locations.sto (nr=9 nc=49)
