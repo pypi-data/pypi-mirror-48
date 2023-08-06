@@ -1,0 +1,6 @@
+numpy>=1.11.3
+tifffile>=2019.7.2
+click
+
+[all]
+matplotlib>=2.2
