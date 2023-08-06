@@ -1,0 +1,8 @@
+icd10/__init__.py,sha256=he_I4KBX5zwo2ViGwWT7BEbimNXW2jH5dobM0cKLGgc,4519
+icd10/__version__.py,sha256=09cDmyRtX3BmHxt_aRuTkhtAvpTRZPnmSMpvb_SZgXE,415
+icd10/icd10.json.gz,sha256=kK4_6OE689ocLuzQmvhFD0zjCs2AwK470f91-sgN8bg,678854
+icd10_cm-0.0.3.dist-info/LICENSE,sha256=xTp39j737nxhPGPo0yzkNjRHKGJ1EaH3AaOWGxSouYc,1052
+icd10_cm-0.0.3.dist-info/METADATA,sha256=uO62iXdfKtTDkHtV2QPflFxvbGh5CpnF2r5sd8a7msk,3617
+icd10_cm-0.0.3.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+icd10_cm-0.0.3.dist-info/top_level.txt,sha256=vmDo8j5NlthmPlVubT-iAFpOaFqBm5PlJezpZZ6xzI0,6
+icd10_cm-0.0.3.dist-info/RECORD,,
