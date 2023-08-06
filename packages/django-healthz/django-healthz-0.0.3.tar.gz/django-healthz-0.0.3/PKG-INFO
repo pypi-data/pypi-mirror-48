@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: django-healthz
+Version: 0.0.3
+Summary: Simple middleware for healthchecks
+Home-page: https://github.com/rehive/django-healthz
+Author: Rehive
+Author-email: info@rehive.com
+License: MIT
+Download-URL: https://github.com/rehive/django-healthz/archive/0.0.3.zip
+Description: # Rehive Django HealthCheck
+        
+        ## Quick start
+        
+        1. Install the package:
+        
+        ```
+        pip install django-healthz
+        ```
+        
+        2. Add "healthz" to your INSTALLED_APPS settings like this:
+        
+        ```
+            INSTALLED_APPS = [
+                ...
+                'healthz',
+            ]
+        ```
+        
+        3. Include the healtheck middleware in the django middleware:
+        
+        ```
+        MIDDLEWARE = [
+            'healthz.middleware.HealthCheckMiddleware',
+            ...
+        ]
+        ```
+        
+        ## TODO
+        
+        1. Add support for celery/rabbitmq, cache checks etc.
+        2. Update responses to JSON
+        3. Allow customization or readiness and healthz URLs.
+        
+Platform: UNKNOWN
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
