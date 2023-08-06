@@ -1,0 +1,6 @@
+PyQt5
+watchdog
+send2trash
+pillow
+psutil
+file-magic
