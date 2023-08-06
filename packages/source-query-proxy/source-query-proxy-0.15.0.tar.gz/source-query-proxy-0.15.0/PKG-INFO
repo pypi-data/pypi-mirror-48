@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: source-query-proxy
+Version: 0.15.0
+Summary: Async proxy for Source Engine Query Protocol
+License: GPL-3.0
+Author: spumer
+Author-email: spumer-tm@yandex.ru
+Requires-Python: >=3.5
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pylru (==1.2.0)
+Requires-Dist: uvloop (==0.12.2)
