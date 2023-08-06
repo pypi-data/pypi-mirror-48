@@ -1,0 +1,14 @@
+README.md
+setup.py
+fandak/__init__.py
+fandak/helpers.py
+fandak.egg-info/PKG-INFO
+fandak.egg-info/SOURCES.txt
+fandak.egg-info/dependency_links.txt
+fandak.egg-info/requires.txt
+fandak.egg-info/top_level.txt
+fandak/core/__init__.py
+fandak/core/datasets.py
+fandak/core/evaluators.py
+fandak/core/models.py
+fandak/core/trainers.py
