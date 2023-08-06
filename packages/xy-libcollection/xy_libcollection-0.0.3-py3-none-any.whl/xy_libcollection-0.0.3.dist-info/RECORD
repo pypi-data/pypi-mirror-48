@@ -1,0 +1,8 @@
+lib_collection/__init__.py,sha256=v5QKvLadWwmE_j6yXBynB6EGJbMut5k9S9yLkesT5VM,24
+lib_collection/kvstore/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib_collection/kvstore/linked_list.py,sha256=wNpyZLui4yqGtRXWrvHc2Dc0SujIpzFxMkWyLGRG17o,3106
+xy_libcollection-0.0.3.dist-info/LICENSE,sha256=bIQRx26gZJ5In2rV74r_QMvRJrEhPgPaf0yyyo9sdzk,1066
+xy_libcollection-0.0.3.dist-info/METADATA,sha256=TQKy1fX8lMYrjXidsKHE-TmbDfC5BbmLfJ8WB_haFjg,251
+xy_libcollection-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+xy_libcollection-0.0.3.dist-info/top_level.txt,sha256=ORILZ0aDFphjy9tSg5z3jzBIU6l9gRN-ea6cs9Baoqw,15
+xy_libcollection-0.0.3.dist-info/RECORD,,
