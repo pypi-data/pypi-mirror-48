@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+hook/hook.py
+sceptre_hook_template.egg-info/PKG-INFO
+sceptre_hook_template.egg-info/SOURCES.txt
+sceptre_hook_template.egg-info/dependency_links.txt
+sceptre_hook_template.egg-info/entry_points.txt
+sceptre_hook_template.egg-info/not-zip-safe
+sceptre_hook_template.egg-info/requires.txt
+sceptre_hook_template.egg-info/top_level.txt
