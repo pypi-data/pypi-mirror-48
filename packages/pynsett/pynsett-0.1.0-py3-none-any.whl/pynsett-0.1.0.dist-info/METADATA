@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pynsett
+Version: 0.1.0
+Summary: A relation extractor
+Home-page: http://github.com/fractalego/pynsett
+Author: Alberto Cetoli
+Author-email: alberto@nlulite.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: spacy (==1.8.0)
+Requires-Dist: python-igraph
+Requires-Dist: nltk (==3.2.1)
+Requires-Dist: rdflib
+Requires-Dist: yappi
+Requires-Dist: gensim
+Requires-Dist: more-itertools
+Requires-Dist: parvusdb (==0.0.26)
+Requires-Dist: hy
+
+UNKNOWN
+
+
