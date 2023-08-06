@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: torchtoolbox
+Version: 0.0.1
+Summary: Collect and write useful tools for Pytorch.
+Home-page: https://github.com/deeplearningforfun/torch-tools
+Author: X.Yang
+Author-email: pistonyang@gmail.com
+License: MIT
+Description: # torch-tools
+        Collect and write useful tools for Pytorch.
+        
+        
+        ## Install
+        ```shell
+        pip install -U git+https://github.com/deeplearningforfun/torch-toolbox.git@master
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
