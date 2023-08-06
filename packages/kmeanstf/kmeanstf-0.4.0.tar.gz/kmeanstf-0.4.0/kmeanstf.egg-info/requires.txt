@@ -1,0 +1,4 @@
+tensorflow-gpu>=1.14
+numpy
+matplotlib
+scikit-learn
