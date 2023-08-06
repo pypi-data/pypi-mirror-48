@@ -1,0 +1,12 @@
+imageio
+scipy
+numpy
+
+[cov]
+pytest-cov
+coveralls
+flake8
+mypy
+
+[tests]
+pytest>=3.6
