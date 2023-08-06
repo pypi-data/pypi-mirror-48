@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: restservice
+Version: 0.1.8
+Summary: A small JSON API service template
+Home-page: https://github.com/SergeyMokeyev/RESTService
+Author: Sergey Mokeyev
+Author-email: sergey.mokeyev@gmail.com
+License: UNKNOWN
+Description: # RESTService
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
