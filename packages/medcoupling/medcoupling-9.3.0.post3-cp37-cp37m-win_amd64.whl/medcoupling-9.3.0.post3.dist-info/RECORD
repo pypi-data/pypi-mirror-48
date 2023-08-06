@@ -1,0 +1,15 @@
+medcoupling-9.3.0.post3.data/purelib/medcoupling/MEDCouplingCompat.py,sha256=DIEAqauU3dbWPI9clVz7L81ilb_WbLGHeAy5s5mS7zc,569144
+medcoupling-9.3.0.post3.data/purelib/medcoupling/MEDCouplingRemapper.py,sha256=DCtYaqMMdircHp0KcFfAB5igyK7zVASMa4Nqe2uzlzo,595951
+medcoupling-9.3.0.post3.data/purelib/medcoupling/_MEDCouplingCompat.pyd,sha256=KVLF40gnzz7FLEMlaBPIF2WH-2HCpuO3Wvj63-1eUw0,3077120
+medcoupling-9.3.0.post3.data/purelib/medcoupling/_MEDCouplingRemapper.pyd,sha256=oKFWNHt0r46CDH-rVycohjDUNeAQmN-ZDn8L06fChDQ,3185152
+medcoupling-9.3.0.post3.data/purelib/medcoupling/__init__.py,sha256=JmMGGlE4FM4q4dYFxzQ0od3-XpMLUgoF6ksigX6tL30,27
+medcoupling-9.3.0.post3.data/purelib/medcoupling/_medcoupling.pyd,sha256=LEd5d4KztqaXUFhyKqGoZP2ZvmXb2l_DaoASfuDJfcA,3191808
+medcoupling-9.3.0.post3.data/purelib/medcoupling/interpkernel.dll,sha256=M6ogFKmA_ZTjm7rh00ByghB0wZpmYGu00jJLCRKKKRs,698368
+medcoupling-9.3.0.post3.data/purelib/medcoupling/medcoupling.dll,sha256=q4y0DTBmWLj3kSBqLphKtEGYZjAhvtkrRq22FTMZ7PE,2527744
+medcoupling-9.3.0.post3.data/purelib/medcoupling/medcoupling.py,sha256=7b1eiq0Bg7gUlgeakH5m4X2As4Mhd3DGmtYGgzsSD5E,581815
+medcoupling-9.3.0.post3.data/purelib/medcoupling/medcouplingremapper.dll,sha256=jJAXMy7rDEeFAnFpsEQ_HY0XQRnF8lRjfk8nGKyMUuQ,580096
+medcoupling-9.3.0.post3.dist-info/LICENSE,sha256=gb6usMw20h_qAYiOWy7kvU1E3x4beEWsJW_umFGpLNE,26426
+medcoupling-9.3.0.post3.dist-info/METADATA,sha256=-r1xZyEGF7nCVrEjWTGuhC6AnaYOifWYIivNZ24tDAQ,3113
+medcoupling-9.3.0.post3.dist-info/WHEEL,sha256=rpJIxsZQulJdxSTRRlB5eKYFBr_5T7UwADMbZS3uepA,106
+medcoupling-9.3.0.post3.dist-info/top_level.txt,sha256=Bb2EVJ3ypVCholSz2aALXsFmmT9iPjZsog8HYY3jrzU,12
+medcoupling-9.3.0.post3.dist-info/RECORD,,
