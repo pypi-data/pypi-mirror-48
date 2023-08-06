@@ -1,0 +1,14 @@
+streprogen/__init__.py,sha256=7CmXxko9LNCJr3cClALq72jUHnKBpHwZreCIW1mhjUk,658
+streprogen/day.py,sha256=QhiOAsXLAEbXetx0flUO8CkUbCYNZkusk6Gpj6hXKwo,3300
+streprogen/exercises.py,sha256=_oVCUVke8LWNKvJut9WqgrQGKSY8u_6SsboZVFvny1U,6372
+streprogen/modeling.py,sha256=RA9v62hbiF5QusMoWauwUrwXOxc46r8u7zDcPNNiNCU,7202
+streprogen/program.py,sha256=7UvPQaBgzbW22am6V62vbgGQ5FY0gTEMP2V-Bakrww0,34900
+streprogen/utils.py,sha256=70S2-vNJZUXkHJZKo3lKETojd-jABTqoRf9x0rEsUsc,6426
+streprogen/templates/program_template.html,sha256=tFp2AJ6ZbW93sdyIiK18HXw4P-noYaCs4SXjNytJiNw,8385
+streprogen/templates/program_template.tex,sha256=fq4k2cjhKeC1qsSOhkut_HIB--ihKP4KWD8N4c0l9og,3549
+streprogen/templates/program_template.txt,sha256=JnzChNJmL3ztEJyLuBxk7SDbPQznDGxmXrZKqcOqVJo,2299
+streprogen-1.1.8.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+streprogen-1.1.8.dist-info/METADATA,sha256=QCb-pbsE4GccO_AjFTQZcmskrwm2gUduBDzrBI3nrEw,5226
+streprogen-1.1.8.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+streprogen-1.1.8.dist-info/top_level.txt,sha256=kyw2be3ZMS6EDwrmYepXoQQdLEMOrRB0yhhjWh07kII,11
+streprogen-1.1.8.dist-info/RECORD,,
