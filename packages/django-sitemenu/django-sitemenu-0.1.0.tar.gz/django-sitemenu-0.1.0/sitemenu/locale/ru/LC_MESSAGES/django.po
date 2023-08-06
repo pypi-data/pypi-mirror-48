@@ -1,0 +1,194 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-04-17 01:12+0300\n"
+"PO-Revision-Date: 2016-09-08 15:44+0300\n"
+"Last-Translator: alexey <alexey@trialine.lv>\n"
+"Language: ru\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 1.8.6\n"
+"Language-Team: \n"
+
+#: admin.py:51 models.py:33
+msgid "title"
+msgstr "заголовок"
+
+#: admin_views.py:21
+msgid "Unexpected error."
+msgstr "Неожиданная ошибка."
+
+#: admin_views.py:35
+msgid "Wrong position."
+msgstr "Неправильная позиция."
+
+#: admin_views.py:45
+msgid "Impossible movement."
+msgstr "Невозможное передвижение."
+
+#: admin_views.py:82
+msgid "Item moved."
+msgstr "Объект передвинут."
+
+#: mixins/video_mixin.py:16
+msgid "video ID"
+msgstr ""
+
+#: mixins/video_mixin.py:16
+msgid ""
+"Support Youtube (http://www.youtube.com/watch?v=ID) and Vimeo (http://vimeo."
+"com/ID)"
+msgstr ""
+"Поддерживает Youtube (http://www.youtube.com/watch?v=ID) и Vimeo (http://"
+"vimeo.com/ID)"
+
+#: models.py:18
+msgid "sort"
+msgstr "позиция"
+
+#: models.py:22
+msgid "parent"
+msgstr "родитель"
+
+#: models.py:27
+msgid "date added"
+msgstr "дата добавления"
+
+#: models.py:28
+msgid "date modified"
+msgstr "дата изменения"
+
+#: models.py:31
+msgid "page type"
+msgstr "тип страницы"
+
+#: models.py:34
+msgid "url"
+msgstr "ссылка"
+
+#: models.py:36
+msgid "h1 title"
+msgstr "h1 заголовок"
+
+#: models.py:37
+msgid "page title"
+msgstr "заголовок страницы"
+
+#: models.py:38
+msgid "seo keywords"
+msgstr "seo ключевые слова"
+
+#: models.py:39
+msgid "seo description"
+msgstr "seo описание"
+
+#: models.py:41
+msgid "content"
+msgstr "текст"
+
+#: models.py:43
+msgid "redirect url"
+msgstr "ссылка перенаправления"
+
+#: models.py:44
+msgid "redirect to first child"
+msgstr "перенаправить на первое подменю"
+
+#: models.py:46
+msgid "enabled"
+msgstr "активно"
+
+#: models.py:49
+msgid "show in top menu"
+msgstr "отображать в верхнем меню"
+
+#: models.py:50
+msgid "show in bottom menu"
+msgstr "отображать в нижнем меню"
+
+#: models.py:53
+msgid "menu"
+msgstr "меню"
+
+#: models.py:54
+msgid "menus"
+msgstr "меню"
+
+#: models.py:64
+msgid "Page \"Parent\" can't be same as page"
+msgstr ""
+
+#: models.py:145
+msgid "cache_tree_children was passed nodes in the wrong order!"
+msgstr ""
+"функции cache_tree_children объекты были переданы в не правильном порядке"
+
+#: plugins/feedback_form/forms.py:13
+msgid "This field is required."
+msgstr ""
+
+#: plugins/feedback_form/forms.py:14
+msgid "At least one field must be filled."
+msgstr "Необходимо заполнить хотя бы одно поле."
+
+#: plugins/feedback_form/models.py:9 plugins/feedback_form/models.py:22
+msgid "message"
+msgstr "сообщение"
+
+#: plugins/feedback_form/models.py:10
+msgid "date"
+msgstr "дата"
+
+#: plugins/feedback_form/models.py:11
+msgid "IP"
+msgstr ""
+
+#: plugins/feedback_form/models.py:29
+msgid "user"
+msgstr "пользователь"
+
+#: plugins/feedback_form/models.py:30
+msgid "first name"
+msgstr "имя"
+
+#: plugins/feedback_form/models.py:31
+msgid "email"
+msgstr "эл.почта"
+
+#: plugins/feedback_form/models.py:32
+msgid "phone"
+msgstr "телефон"
+
+#: plugins/feedback_form/models.py:36
+msgid "feedback form"
+msgstr "контактная форма"
+
+#: plugins/feedback_form/models.py:37
+msgid "feedback forms"
+msgstr "контактные формы"
+
+#: plugins/feedback_form/templates/sitemenu/plugins/feedback_form/feedback_form.html:5
+msgid "send"
+msgstr "отослать"
+
+#: plugins/feedback_form/templates/sitemenu/plugins/feedback_form/feedback_form_sent.html:2
+#: plugins/feedback_form/views.py:21
+msgid "Feedback form sent."
+msgstr "Ваше сообщение успешно отправлено."
+
+#: templatetags/sitemenu.py:222
+#, python-format
+msgid "%s tag requires a queryset"
+msgstr "тег %s должен принимать queryset"
+
+#~ msgid "seo title"
+#~ msgstr "seo заголовок"
