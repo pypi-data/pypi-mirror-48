@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: russianpodcast
+Version: 0.1.1.dev45
+Summary: Fetches podcasts from russianpodcast.eu automatically
+Home-page: https://github.com/cgte/russianpodcast
+Author: Colin G
+Author-email: cgte@bk.ru
+License: GNU General Public License v3
+Keywords: russianpodcast
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: beautifulsoup4 (==4.6.3)
+Requires-Dist: bs4 (==0.0.1)
+Requires-Dist: decorator (==4.3.0)
+Requires-Dist: enum34 (==1.1.6)
+Requires-Dist: ipdb (==0.11)
+Requires-Dist: ipython (==5.8.0)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: pathlib2 (==2.3.2)
+Requires-Dist: pexpect (==4.6.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: prompt-toolkit (==1.0.16)
+Requires-Dist: ptyprocess (==0.6.0)
+Requires-Dist: Pygments (==2.2.0)
+Requires-Dist: scandir (==1.9.0)
+Requires-Dist: selenium (==3.141.0)
+Requires-Dist: simplegeneric (==0.8.1)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: traitlets (==4.3.2)
+Requires-Dist: urllib3 (==1.24.2)
+
+Fetches podcasts from russianpodcast.eu automatically
+
+
