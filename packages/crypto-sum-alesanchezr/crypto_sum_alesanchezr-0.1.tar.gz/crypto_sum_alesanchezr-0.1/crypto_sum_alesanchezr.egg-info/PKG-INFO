@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: crypto-sum-alesanchezr
+Version: 0.1
+Summary: An example python package
+Home-page: https://github.com/BillMills/python-package-example
+Author: Alejandro Sanchez
+Author-email: aalejo@gmail.com
+License: MIT
+Description: # This is my first python package!
+Platform: UNKNOWN
