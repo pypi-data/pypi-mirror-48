@@ -1,0 +1,17 @@
+backcall
+decorator
+ipython
+ipython-genutils
+jedi
+parso
+pexpect
+pickleshare
+prompt-toolkit
+ptyprocess
+Pygments
+scapy
+six
+traitlets
+WCWidth
+PyBluez
+scapy
