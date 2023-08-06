@@ -1,0 +1,75 @@
+#!/usr/bin/env python
+import sys
+sys.path.insert(0,'../')
+
+import argparse
+from pymongo import MongoClient
+from Market import Market
+from Business import Business
+from db import getProfile
+from PyInquirer import style_from_dict, Token, prompt, Separator,Validator, ValidationError
+me=getProfile()
+
+myMarket=Market.load(me.market.name)
+neighbors=[b.name for b in myMarket.businesses if b.name != me.name]
+
+parser = argparse.ArgumentParser(description='Utility used to make a trasaction between you and another business.')
+parser.add_argument('name', type=str, choices=neighbors, help="The name of a business you want to transact with.")
+parser.add_argument('tradeType', type=str, choices=['Buy','Sell'],help="Are you trying to buy pigments or sell pigments?")
+parser.add_argument('color', type=str, choices=['Red','Green','Blue'],help="The color you want to trader.")
+
+parser.add_argument('quantity', metavar='quantity', type=int, help="The number of units you want to buy/sell.")
+
+print("Warning: You can only transact with people from the same market as you.")
+print("If you want to transact with another market you need to dispatch a convoy using the convoy command.")
+if len(sys.argv) == 1:
+    questions=[
+        {
+            'type': 'list',
+            'name': 'name',
+            'message': 'Who do you want to transact with?',
+            'choices': neighbors,
+        },
+
+        {
+            'type': 'list',
+            'name': 'pigment',
+            'message': 'Which color are you trying to buy or sell?',
+            'choices': ['Red','Green','Blue'],
+        },
+        {
+            'type': 'list',
+            'name': 'tradeType',
+            'message': 'Do you want to buy or sell?',
+            'choices': ['Buy','Sell'],
+        },
+        {
+            'type': 'input',
+            'name': 'quantity',
+            'message': 'How many do you want to trade?',
+        },
+
+    ]
+    answers=prompt(questions)
+    name=answers['name']
+    color=answers['pigment']
+    tradeType=answers['tradeType']
+    quantity=int(answers['quantity'])
+
+else:
+    args=parser.parse_args()
+    name=args.name
+    color=args.color.title()
+    tradeType=args.tradeType
+    quantity=args.quantity
+
+them=Business.load(name)
+if me is None or them is None:
+    print("There is a problem with this transaction.")
+else:
+    if tradeType.lower()=='buy':
+        me.buy(them,me.stock[color].commodity,quantity)
+    elif tradeType.lower()=='sell':
+        me.sell(them,me.stock[color].commodity,quantity)
+    me.save()
+    them.save()
