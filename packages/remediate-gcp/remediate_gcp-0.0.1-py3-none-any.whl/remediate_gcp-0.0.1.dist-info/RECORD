@@ -1,0 +1,8 @@
+remediate_gcp/__init__.py,sha256=6GIJi4H-MXOk7sBYV-88iSGL_KQknxIsRhbhaYR_jzo,25
+remediate_gcp/core.py,sha256=ZS0CA1d1CPGi71BmtMYPmyQuhPne8DamkumhpjdE5yQ,1485
+remediate_gcp/runbook/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+remediate_gcp-0.0.1.dist-info/LICENSE,sha256=S6gzOuDU6Fj0mAmKs5FldndS_At6OjXBBCGbdKNX6BE,1066
+remediate_gcp-0.0.1.dist-info/METADATA,sha256=hSoZbBO3iOyqLohUk70FGMO5QNq068beRUqGwk2EZhs,401
+remediate_gcp-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+remediate_gcp-0.0.1.dist-info/top_level.txt,sha256=A0G-fOiEJwcTYPgDjUUQFzY4H8U45Tpw86ugrJyX2bQ,14
+remediate_gcp-0.0.1.dist-info/RECORD,,
