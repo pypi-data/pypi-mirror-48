@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: zsh-history-to-fish
+Version: 0.1.0
+Summary: Bring your ZSH history to Fish shell.
+Home-page: https://github.com/rsalmei/zsh-history-to-fish
+Author: Rogério Sampaio de Almeida
+Author-email: rsalmei@gmail.com
+License: MIT
+Keywords: zsh,fish,shell,history,script
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/markdown
+Requires-Dist: click
+
+# zsh-history-to-fish
+Bring your ZSH history to Fish shell
+
+
