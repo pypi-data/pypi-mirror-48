@@ -1,0 +1,13 @@
+minipub/__init__.py,sha256=uGilDWWEtHN5Sj8h1caV1XlWHdwXHUHFR6cmWFbHS90,20
+minipub/admin.py,sha256=89DVnog_P8NECUCSBuFm0wM5CQozrXFfEyYckQaoKNQ,1678
+minipub/managers.py,sha256=NMbOViWvEt00GaCJaxBnVopmM3M0QnLRuoemPlE3x5k,386
+minipub/models.py,sha256=v6etMaVHMNUOjizCcsEKWRvZ86NDGpNQGrO12_6eOp4,3480
+minipub/sitemaps.py,sha256=2HKZuCqCfIztb2k8QKnCQ9vYWAz2a-fnuFagXS9RykI,1373
+minipub/views.py,sha256=tJVhQIwuh5JUzU9albF9vsvvOvBhXIGmHgKbTm4fC58,1840
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/releaser_hooks.py,sha256=ND0R34OVZ7kM0n5fnvEYVOtzRe97LhjEJMuWaKJEXio,468
+django_minipub-1.5.dist-info/LICENSE.txt,sha256=UhvqE0LrBhn34E4tW2bKxb-ea1V9NMqQqys9NMZCQys,1081
+django_minipub-1.5.dist-info/METADATA,sha256=dYsADyR23z6uDt8zCr4tBmBvfva_X0ASKOU6oiQVZQI,3868
+django_minipub-1.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+django_minipub-1.5.dist-info/top_level.txt,sha256=-nWnbWn4Nc7A9TXD74OY2fmE8SValtPuKjwCWpAcClc,16
+django_minipub-1.5.dist-info/RECORD,,
