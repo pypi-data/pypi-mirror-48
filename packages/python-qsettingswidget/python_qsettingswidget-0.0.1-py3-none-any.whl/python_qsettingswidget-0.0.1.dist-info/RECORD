@@ -1,0 +1,15 @@
+qsettingswidget/__init__.py,sha256=Mk6CwIPOCR-Yof-TWs5v1Y63ZdiX85Mqq_m-_4htPMI,815
+qsettingswidget/converters/__init__.py,sha256=zQ1MZKmRpLb1NxS8hOaEhNuyQtpbqNe8F-_4ccKeFTc,1342
+qsettingswidget/converters/converter.py,sha256=fIGEyjNBJWmVP0e_-GqNYeKF_M4PCxt0ZbavOUc6Zxc,1059
+qsettingswidget/converters/simple_converter.py,sha256=1UpfHRZE3P2DGUWtqFCRdqIThpKKTeI4h1w3RZktSL4,2064
+qsettingswidget/model/__init__.py,sha256=P6Jlt1kcmd3tdKcZGYhhJ_FqIhLZgX9OEJ7ivIpE88w,695
+qsettingswidget/model/settings_field_node.py,sha256=n08WbBbdvmvy5uw4QLCQI8l2PxuRu5q7JAkOsLYZc4M,1363
+qsettingswidget/model/settings_group_nodel.py,sha256=Aqu3-uO_5mXnRsYP403GysucxrqN-ks6zTBGkNanUmM,1158
+qsettingswidget/model/settings_node.py,sha256=dFbD0aqmXLqd7ohvX8iRSxn1f1zTCSj961AwXEOXqjo,1023
+qsettingswidget/widgets/__init__.py,sha256=P6Jlt1kcmd3tdKcZGYhhJ_FqIhLZgX9OEJ7ivIpE88w,695
+qsettingswidget/widgets/q_settings_widget.py,sha256=oD6LMGM24Xx6-56zc3IuBevuMDlgwjYxZADXGEMlTrQ,7898
+python_qsettingswidget-0.0.1.dist-info/LICENSE,sha256=qUMpFKoh3DWO31NRWELDVpQJkU9l8USpaikDqG7AJBM,35097
+python_qsettingswidget-0.0.1.dist-info/METADATA,sha256=b91bE_lthkfZ6T8sCDq9dkeasJPeCXp5O7aUy9scr0Q,945
+python_qsettingswidget-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+python_qsettingswidget-0.0.1.dist-info/top_level.txt,sha256=VWfKBkyy9ccHtlJk2_8AdDwybS84iwya8pQe1gfmHB8,16
+python_qsettingswidget-0.0.1.dist-info/RECORD,,
