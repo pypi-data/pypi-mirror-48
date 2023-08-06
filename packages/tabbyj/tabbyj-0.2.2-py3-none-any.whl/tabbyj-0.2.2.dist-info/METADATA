@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: tabbyj
+Version: 0.2.2
+Summary: A command line JSON flattener
+Home-page: https://github.com/nint8835/tabbyj
+License: MIT
+Author: Riley Flynn
+Author-email: riley@rileyflynn.me
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: ujson (>=1.35,<2.0)
+Description-Content-Type: text/markdown
+
+# tabbyj
+
+meowj & catj, but in Python.
+
+## Installation
+
+### Via Pip (Recommended)
+
+```bash
+python -m pip install tabbyj
+```
+
+### From source (For development)
+
+1. Install [Poetry](https://poetry.eustace.io/)
+2. `git clone https://github.com/nint8835/tabbyj.git`
+3. `cd tabbyj`
+4. `poetry install`
+
+Please note that this will create a virtualenv and install the package into it. If you wish to use the package globally, please install it via Pip.
+
+## Usage
+
+### Piping
+
+Tabbyj allows the user to simply pipe data into it in order to process it. For example:
+
+```bash
+curl https://api.github.com/gists | tabbyj
+```
+
+### Reading from a file
+
+Tabbyj allows the user to easily read the data to process from a file via a command line argument. For example:
+
+```bash
+tabbyj --file example.json
+```
+
