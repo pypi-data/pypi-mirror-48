@@ -1,0 +1,10 @@
+xadix/__init__.py,sha256=qQHL19v4yJfqLTaV6x8jTMyaShTjAmymsFIcVygIOe0,229
+xadix/argparse_tree/__init__.py,sha256=PgraSBi7M9WXOmjuFNcK6tJHRQ-ojcm9et_7pWFwxus,338
+xadix/argparse_tree/_version.py,sha256=fgS6NTxW6J0RZnOEEQEWYTWmgTw05EyF0OUtYFkl39U,497
+xadix/argparse_tree/argparse_tree.py,sha256=yOitwuIkSxHbsoq6nC2uwoOr-hwJbsqJXpCreH3FBqU,6738
+xadix.argparse_tree-0.1.7.dist-info/LICENSE.txt,sha256=SkS1ECumWD6ZOeFq7w1BvUvbVNpKmFEKzJ5m7Mbe0cI,1068
+xadix.argparse_tree-0.1.7.dist-info/METADATA,sha256=YDfWqRjOlBQ-5tDoKONnxsJgvqmGnIYUBH9rli8FotQ,3763
+xadix.argparse_tree-0.1.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+xadix.argparse_tree-0.1.7.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+xadix.argparse_tree-0.1.7.dist-info/top_level.txt,sha256=W4YV28q1EBkks4WwHp5r7Cpv42x2sRfLXOXalsuZFdQ,6
+xadix.argparse_tree-0.1.7.dist-info/RECORD,,
