@@ -1,0 +1,14 @@
+orgcrawler/crawlers.py,sha256=RyVaE05BLFoqBeQieeUoktOQTyagYfn2Cu7cGOOxS7U,7018
+orgcrawler/logger.py,sha256=16YFYsaTU6lZ6Mn5QoNyNlNmfOpyGb5JeuTFRAmYdj8,2359
+orgcrawler/orgs.py,sha256=3-4G_Q65m-6jWzE0ZAO8YlQIKc4mRWd2rUZWgGQpdq0,25375
+orgcrawler/payloads.py,sha256=evbdM2qI65H_DKsAF17sBr5_jD43Scohsdt7zl6QtnE,7841
+orgcrawler/utils.py,sha256=WQQ8d_YS3G1PXO8-SAk44FCuN1kyNJaEMRLR6aa08Y0,4048
+orgcrawler/cli/orgcrawler.py,sha256=yjZKZiR8lvpp_5Q2RCUYzrgGNQYPqT4EU_K5afaEfuc,2992
+orgcrawler/cli/orgquery.py,sha256=B-mWGLk_3oBLbuvpUT4Sxb1qznTnErbjyOg1J7_txsM,4031
+orgcrawler/cli/utils.py,sha256=ELH1cWxAFgL_R9Z9RCVAG3Zym3YA4f8a0RT5rO_lHtA,2533
+orgcrawler-1.0.0a4.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+orgcrawler-1.0.0a4.dist-info/METADATA,sha256=PMFzodWeur997KefNwt3KRr01mS8u2MepdCjg6ZQSmY,1736
+orgcrawler-1.0.0a4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+orgcrawler-1.0.0a4.dist-info/entry_points.txt,sha256=4eijB7VRJU_LlVY2ssm_EYlw5PCGNx-V4Q_kL2SBAXo,103
+orgcrawler-1.0.0a4.dist-info/top_level.txt,sha256=uGWydiMqLW9Mhc0YR5Hp98o7V3quFa3FSNvdjsXydGE,11
+orgcrawler-1.0.0a4.dist-info/RECORD,,
