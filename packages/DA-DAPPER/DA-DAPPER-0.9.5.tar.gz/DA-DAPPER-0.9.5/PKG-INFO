@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: DA-DAPPER
+Version: 0.9.5
+Summary: Data Assimilation with Python: a Package for Experimental Research.
+Home-page: https://github.com/nansencenter/DAPPER
+Author: Patrick N. Raanes
+Author-email: patrick.n.raanes@gmail.com
+License: UNKNOWN
+Description: DAPPER is a set of templates for benchmarking the performance of data assimilation (DA).
+        See full description at github.com/nansencenter/DAPPER.
+        
+Keywords: data-assimilation enkf kalman-filtering state-estimation particle-filter kalman bayesian-methods bayesian-filter chaos
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: MP
+Provides-Extra: Qt
