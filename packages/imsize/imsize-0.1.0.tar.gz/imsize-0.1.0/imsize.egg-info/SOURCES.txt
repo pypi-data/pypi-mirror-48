@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+imsize/__init__.py
+imsize/imsize.py
+imsize/jpeghdr.py
+imsize/pnghdr.py
+imsize/pnm.py
+imsize.egg-info/PKG-INFO
+imsize.egg-info/SOURCES.txt
+imsize.egg-info/dependency_links.txt
+imsize.egg-info/not-zip-safe
+imsize.egg-info/requires.txt
+imsize.egg-info/top_level.txt
