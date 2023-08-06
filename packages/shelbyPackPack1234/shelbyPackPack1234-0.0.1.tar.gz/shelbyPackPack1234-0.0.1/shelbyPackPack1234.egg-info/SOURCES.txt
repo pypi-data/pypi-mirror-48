@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+DemoIs/__init__.py
+DemoIs/demo.py
+shelbyPackPack1234.egg-info/PKG-INFO
+shelbyPackPack1234.egg-info/SOURCES.txt
+shelbyPackPack1234.egg-info/dependency_links.txt
+shelbyPackPack1234.egg-info/top_level.txt
