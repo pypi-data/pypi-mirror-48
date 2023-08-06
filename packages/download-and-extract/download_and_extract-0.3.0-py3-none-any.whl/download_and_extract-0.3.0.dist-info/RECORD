@@ -1,0 +1,5 @@
+download_and_extract/__init__.py,sha256=52jN-zo4DtXisk1pEwVHoC_l_kZOazs0HnYf_xKX3jc,46
+download_and_extract/fetcher.py,sha256=CDpSYj9gZ0pXgCTkxtAc7-50VLEMli6e-tGg4B2xvA4,1542
+download_and_extract-0.3.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+download_and_extract-0.3.0.dist-info/METADATA,sha256=_87_m2cgS2zDGcIkE0rAecgojch0QkZ8q2O4kemQUus,367
+download_and_extract-0.3.0.dist-info/RECORD,,
