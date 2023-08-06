@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: keepit
+Version: 0.2.1
+Summary: advanced memoization/caching of functions with data analytics in mind
+Home-page: https://github.com/balkian/keepit
+Author: J. Fernando Sanchez
+Author-email: balkian@gmail.com
+License: Apache License 2.0
+Download-URL: https://github.com/balkian/keepit/archive/0.2.1.tar.gz
+Description: # KEEP IT
+        
+        `keepit` provides advanced memoization for functions.
+        In other words, it records the execution of important functions and their results and keeps their results for you.
+        
+        
+Keywords: data analysis,memoization,cache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >3.3
+Description-Content-Type: text/markdown
