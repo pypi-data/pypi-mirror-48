@@ -1,0 +1,7 @@
+README.md
+setup.py
+electricTortoise/__init__.py
+electricTortoise.egg-info/PKG-INFO
+electricTortoise.egg-info/SOURCES.txt
+electricTortoise.egg-info/dependency_links.txt
+electricTortoise.egg-info/top_level.txt
