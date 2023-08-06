@@ -1,0 +1,13 @@
+source_query_proxy/__init__.py,sha256=iCWCR3zceWVR3HY2_dnmoKBKY7eAZrsQ5pfmt6srIVw,23
+source_query_proxy/config.example.json,sha256=KAU1hQDEwy7ZX49k2zZGxjDFjq2UpyAMt7O-8qxnB7c,467
+source_query_proxy/config.py,sha256=QoCBOwFp4RhMBdE0aUkAT1PnzMNJq0RKLMaobPlGxhc,831
+source_query_proxy/daemon.py,sha256=KAWWwkVqCjfw78P1FakkwadFWll8K5aHnQ_b7CNwrIE,16704
+source_query_proxy/pid_tracker.py,sha256=8A9A2n6cGlXYSfaDFEpX14LQrVeG6ucR62B_OSaH30o,1956
+source_query_proxy/source/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+source_query_proxy/source/messages.py,sha256=s2VvkWqrbzj-IxoFPvOID6A-EZQjZ5WVLbWXj_3NR2I,18470
+source_query_proxy/source/util.py,sha256=UEGMFftIktZQ1u2Z1fMnYX2T4FIMgVgd4lNYl-JHdrQ,6642
+source_query_proxy/stats.py,sha256=IXzEb3HwCOCS14rtoDHSHfCDoEFFt9LPxc6UUecQy7A,1286
+source_query_proxy-0.15.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+source_query_proxy-0.15.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+source_query_proxy-0.15.0.dist-info/METADATA,sha256=tiK8pP88Vs2GIICsrj66m3OGFiTVUMavCIEAJ8MEC18,545
+source_query_proxy-0.15.0.dist-info/RECORD,,
