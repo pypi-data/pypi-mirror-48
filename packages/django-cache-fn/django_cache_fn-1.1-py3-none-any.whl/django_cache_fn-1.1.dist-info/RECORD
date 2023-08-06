@@ -1,0 +1,8 @@
+cache_fn/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cache_fn/apps.py,sha256=0PznerGmIA2zmX4xSg_1tsfnxv7xqeAueQ1XuaezuhI,103
+cache_fn/decorators.py,sha256=Gly4vFeeSewseAT6cv3kqA9CFjpW9KU44M2548vlVUY,4019
+cache_fn/tests.py,sha256=75a4ie1IQ3uIUxlXK7eUsZ2-K150UpN7LY5ObWIMzZ0,2329
+django_cache_fn-1.1.dist-info/METADATA,sha256=62Ca87-ZXvRrBVoJ0r4jqDSJG3hAWL69k0Zd0qD4zEI,2035
+django_cache_fn-1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_cache_fn-1.1.dist-info/top_level.txt,sha256=J2zdYmr6V2EiSO5HK2htuYe_uBeDZ_fPJ5_AlL7LlS4,9
+django_cache_fn-1.1.dist-info/RECORD,,
