@@ -1,0 +1,68 @@
+CHANGES
+=======
+
+0.1.4
+-----
+
+* Delete temp\_issue\_38.py
+* fixed bug in getting names and dclasses
+* fixed #93
+* checked rounding, sometimes sum of training/validation parts doesnt add up but not a bug
+* removed deprecated class
+* pep8
+* still fixed #38 but now with the actual fix
+* fixed #38
+* fixes #71
+* fixed #76
+* fixed #82
+* fixed #83
+* moved definition of x, y higher in the loop, fixes #97
+* added data names and dclasses to CellListData object
+* added CellListData object to return the cells shape in a CellList object
+* default of \`storm\_weight\` in IterCellPlot plot\_storm to False
+* removed gauss old method from plot\_storm
+* removed old gaussian plotting code
+* storm\_weight default set to False
+* fixed #78
+* added limit l kwarg to hist\_r\_storm
+* added continue on empty storm element, fixes #98
+* Update README.rst
+* Add files via upload
+* Add files via upload
+* Update README.rst
+* space
+* Update readme.md
+* Create readme.md
+* Update README.rst
+* fixed #95
+* added l\_dist tests
+* removed bins from docstring
+* fixed bools var overriding other bools var
+* assert almost equal for windows (appeveyor)
+* added tests for r\_dist
+* check for limit l not none to allow 0
+* added error message to limit l out of bounds
+* removed misleading #todo, fixes #96
+* updated docs
+* Update README.rst
+* updated pipeline figure
+* unsaved changes
+* updated CNN examples
+* removed temporary and other files from example dir
+* done button now closes the windows
+* fixed unstable GUI for drawing on images by updating the image in the main thread, should fix #55
+* added docstrings to phi\_dist
+* added storm data example and moved data to seperate directories
+* initial implementation of phi (angular) distribution
+* update config rst and config angular distirbution config values
+* added slider to iter\_subplots
+* added filter based in beamprofile for binaries
+* smal docstrings changes
+* calc perimiter bugfix
+* fixed bug in \_top and \_bot
+* added running sum
+* added functions to calculate between perimeter coordinates
+* refarctored to render\_storm function
+* set initial guess for r parameter to r mean when using STROM optimizer to yield better results
+* added some todos
+* add todo for storm intensity dtype
