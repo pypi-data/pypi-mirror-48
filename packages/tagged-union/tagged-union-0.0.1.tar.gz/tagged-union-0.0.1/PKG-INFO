@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: tagged-union
+Version: 0.0.1
+Summary: Python tagged unions (aka sum types, algebraic data types, etc.) with match capabilities
+Home-page: https://github.com/carotti/tagged-union
+Author: Thomas Carotti
+Author-email: thomas@carotti.co.uk
+License: UNKNOWN
+Description: Python Tagged Unions
+        ====================
+        
+        Python tagged unions (aka sum types, algebraic data types, etc.) with match capabilities
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown

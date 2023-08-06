@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+tagged_union/__init__.py
+tagged_union.egg-info/PKG-INFO
+tagged_union.egg-info/SOURCES.txt
+tagged_union.egg-info/dependency_links.txt
+tagged_union.egg-info/top_level.txt
+tests/__init__.py
+tests/test_tagged_union.py
