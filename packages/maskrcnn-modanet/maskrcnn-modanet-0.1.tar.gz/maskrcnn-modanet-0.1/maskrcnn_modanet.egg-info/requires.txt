@@ -1,0 +1,14 @@
+keras-maskrcnn
+click
+progressbar
+lmdb
+pandas
+sqlalchemy
+Cython
+cython
+numpy
+pycocotools
+matplotlib
+tensorflow
+tensorflow-gpu
+instaloader
