@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: drf-multiple-serializer
+Version: 0.1.1
+Summary: Django REST framework serializer utility
+Home-page: https://github.com/qpfmtlcp/drf-multiple-serializer
+Author: jay kim
+Author-email: jaykim1361@gmail.com
+License: MIT
+Description: # DRF multiple serializer
+        
+        Extension for using multiple serializer in Django REST Framework.
+        
+        
+        ## Installation
+        
+        Install from PyPI
+        
+        ```
+        pip install drf-multiple-serializer
+        ```
+        
+        There is no need to modify your INSTALLED_APPS setting.
+        
+        
+        ## Usage
+        
+        Set the serializer to serializer_classes with the viewset action.  
+        The rest of the actions use the default serializer.
+        
+        ```
+        from rest_framework import viewsets
+        from drf_multiple_serializer import MultipleSerializerMixin
+        
+        from .models import Category, Item
+        
+        
+        class CategoryViewSet(MultipleSerializerMixin,
+                              viewsets.ModelViewSet):
+            queryset = Category.objects.all()
+            serializer_classes = {
+                'default': CategorySerializer,
+                'list': CategoryListSerializer,
+                'retrieve': CategoryReadSerializer,
+            }
+        
+        
+        class ItemViewSet(MultipleSerializerMixin,
+                          viewsets.ModelViewSet):
+            queryset = Item.objects.all()
+            serializer_classes = {
+                'default': ItemSerializer,
+                'create': ItemWriteSerializer,
+            }
+        ```
+        
+Keywords: django,drf,serializer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+Description-Content-Type: text/markdown
