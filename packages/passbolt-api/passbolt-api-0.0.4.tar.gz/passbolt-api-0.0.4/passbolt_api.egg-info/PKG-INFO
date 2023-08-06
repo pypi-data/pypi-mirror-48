@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: passbolt-api
+Version: 0.0.4
+Summary: Provides API bindings for the Passbolt API
+Home-page: https://github.com/xwikisas/passbolt-api
+Author: XWiki SAS Development Team
+Author-email: pypi@xwiki.com
+License: UNKNOWN
+Description: # Passbolt API
+        
+        This package provides bindings to a Passbolt server API. Each of the bindings declared in this package aim to follow the [official Passbolt API documentation](https://api-reference.passbolt.com/).
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
