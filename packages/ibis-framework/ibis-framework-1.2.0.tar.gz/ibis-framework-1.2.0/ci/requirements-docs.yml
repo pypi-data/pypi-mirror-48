@@ -1,0 +1,11 @@
+ipython
+jupyter
+matplotlib
+nbconvert
+nbsphinx
+nomkl
+# must pin again otherwise strange things happen
+pyarrow>=0.12
+sphinx=2.0.1
+sphinx-releases
+sphinx_rtd_theme
