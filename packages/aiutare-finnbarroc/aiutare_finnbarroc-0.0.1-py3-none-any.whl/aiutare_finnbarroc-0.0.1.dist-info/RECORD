@@ -1,0 +1,12 @@
+bin/__init__.py,sha256=uFYo4hlphAuYv7HHqqvKrlbEIsWRf2ZDOm84X78kD00,26
+bin/analyze.py,sha256=_K3sJVHw4ySC6u5wvVOjxfvIzVJubEuzgaV4Uj_-nkw,7150
+bin/bench.py,sha256=AKmhQBjRrDE5xPleP0SUqU_L-tPZc_RQjgJVEKHTg44,2366
+bin/config.py,sha256=2eYbwqf1P7z5h4s6ca1BXIT4hDL6IjSmEoZ_CyPXIu8,576
+bin/drop_databases.py,sha256=ZwDLlIRqXoiOW368dbEqpQ-tipmIz7A5M0SHOvH-V_U,147
+bin/run.py,sha256=OIyYuE-6xQjPIUH_g09BclLuqz1GQKfJZJcO2ucXdb0,3127
+bin/test_read_db.py,sha256=iBHOXiKFuoYi3_WdC6dTkDjJVYuYmhQcSvzf67ZPQ0A,585
+aiutare_finnbarroc-0.0.1.dist-info/LICENSE,sha256=80t0DXylztJl_WrhWfQBDmg8DRyWYqCDP_pKe-jUyF0,1122
+aiutare_finnbarroc-0.0.1.dist-info/METADATA,sha256=gI0tnl3JCHws2CCzASf9pzrLkE_UM_CrxasZaGu_RYE,1058
+aiutare_finnbarroc-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aiutare_finnbarroc-0.0.1.dist-info/top_level.txt,sha256=R96X4WkWzS2JXVjmQGzznHrsb0spoRTVPx0dimUsYls,4
+aiutare_finnbarroc-0.0.1.dist-info/RECORD,,
