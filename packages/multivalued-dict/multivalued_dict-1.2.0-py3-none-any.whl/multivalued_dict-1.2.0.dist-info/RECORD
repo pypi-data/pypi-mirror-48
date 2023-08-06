@@ -1,0 +1,9 @@
+check_self_class_call_package/__init__.py,sha256=Lryo3pLuZi6xyYspfcnnp49lPuZ08qHRTOaD6P2I7YM,830
+check_self_class_call_package/check_self_class_call_module.py,sha256=ma-fsmAVqpGGaSXGVc2YsLIvQDa67s_gRT523T72Q0w,2467
+multivalued_dict_package/__init__.py,sha256=E755Lj_azoLFT3Rw4aQLAipMNWzvsTLjOvvCQytVXwU,795
+multivalued_dict_package/multivalued_dict_module.py,sha256=znA8A67PgGN0ew56avhOP6bKVN3iiEBZjg6OMqQtSTI,19648
+multivalued_dict-1.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+multivalued_dict-1.2.0.dist-info/METADATA,sha256=lSukIdvieLAqYss7FmrkkmlD5xrqIJ7bRUMEmbBaJVE,2400
+multivalued_dict-1.2.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+multivalued_dict-1.2.0.dist-info/top_level.txt,sha256=whILqFvGG2sbXFOwI3VVkDEjGnSBiqY0gvvBNAYxC4U,55
+multivalued_dict-1.2.0.dist-info/RECORD,,
