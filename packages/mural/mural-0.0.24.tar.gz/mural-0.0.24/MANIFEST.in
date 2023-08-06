@@ -1,0 +1,8 @@
+include mural/static/base.css
+include mural/static/canvas.css
+include mural/static/canvas.js
+include mural/static/jquery.js
+include mural/templates/canvas.html
+include mural/templates/index.html
+include mural/templates/market.html
+include mural/oracle.yaml
