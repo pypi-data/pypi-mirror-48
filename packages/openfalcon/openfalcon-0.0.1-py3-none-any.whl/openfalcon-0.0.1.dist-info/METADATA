@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: openfalcon
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.5.2
+Requires-Dist: argparse
+Requires-Dist: gitpython
+Requires-Dist: pygtrie
+
+UNKNOWN
+
+
