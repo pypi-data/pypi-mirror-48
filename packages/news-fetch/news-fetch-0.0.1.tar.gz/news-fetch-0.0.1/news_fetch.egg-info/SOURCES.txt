@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+news-fetch/__init__.py
+news-fetch/news.py
+news-fetch/utils.py
+news_fetch.egg-info/PKG-INFO
+news_fetch.egg-info/SOURCES.txt
+news_fetch.egg-info/dependency_links.txt
+news_fetch.egg-info/requires.txt
+news_fetch.egg-info/top_level.txt
