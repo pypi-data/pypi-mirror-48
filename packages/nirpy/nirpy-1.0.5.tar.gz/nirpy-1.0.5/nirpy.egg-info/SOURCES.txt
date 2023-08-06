@@ -1,0 +1,9 @@
+README.md
+setup.py
+nirpy/__init__.py
+nirpy.egg-info/PKG-INFO
+nirpy.egg-info/SOURCES.txt
+nirpy.egg-info/dependency_links.txt
+nirpy.egg-info/not-zip-safe
+nirpy.egg-info/requires.txt
+nirpy.egg-info/top_level.txt

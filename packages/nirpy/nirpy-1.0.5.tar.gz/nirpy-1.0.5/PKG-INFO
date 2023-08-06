@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: nirpy
+Version: 1.0.5
+Summary: Use nircmdc commands in python
+Home-page: https://github.com/LimerBoy/nirpy
+Author: LimerBoy
+Author-email: LimerBoyTV@gmail.com
+License: MIT
+Description: Full description here: https://github.com/LimerBoy/nirpy/blob/master/README.md
+Platform: UNKNOWN
