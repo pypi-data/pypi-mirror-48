@@ -1,0 +1,12 @@
+validata_api/__init__.py,sha256=iUqGy4_RCaZlpWwcth96jlr3uQUdZxm_aorGLRdFMr4,96
+validata_api/app.py,sha256=mlgmck15CDQFJuHXaFc-vlFCM5fJ2wghphCCWH1kkmI,2556
+validata_api/config.py,sha256=EX4aEsFslSh-HVtcCmyfRTJfCCUFR2PE2gUtIGWIJ4Q,1203
+validata_api/json_errors.py,sha256=tiA2MUyzBH7gvswIKTvjnjiNrBIML5X4MxO1AFY-0QU,2940
+validata_api/route_handlers.py,sha256=G2vYeXfBH6VkQYop_TlKm69kgNM5znlOb9Y7dMQbBaw,10014
+validata_api/version.py,sha256=oS5jBjfjybEWOb-NiAsJiJRLStbQ8x-a05sYM5vozIA,128
+Validata_API-0.2.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+Validata_API-0.2.0.dist-info/METADATA,sha256=V9Zyv9QhyN6aDVKDRlEB0a8I24JE842T47dyvjaMlg4,2118
+Validata_API-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Validata_API-0.2.0.dist-info/top_level.txt,sha256=SZ6Fq1WhX-g_VOddQ1ugCVjqpWAvypvivleaVaXCMJ0,13
+Validata_API-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+Validata_API-0.2.0.dist-info/RECORD,,
