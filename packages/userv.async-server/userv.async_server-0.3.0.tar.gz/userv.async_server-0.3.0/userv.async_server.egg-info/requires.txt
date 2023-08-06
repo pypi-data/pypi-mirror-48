@@ -1,0 +1,3 @@
+micropython-uasyncio
+userv>=0.4.0
+micropython-ulogging
