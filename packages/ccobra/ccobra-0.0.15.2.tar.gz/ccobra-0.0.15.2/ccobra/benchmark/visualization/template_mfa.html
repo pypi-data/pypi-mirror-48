@@ -1,0 +1,34 @@
+<div id="mfa_results">
+    <h2>
+        Most-Frequent Answer (MFA) Table
+    </h2>
+    <div id="mfa_container">
+    </div>
+
+    <script>
+        var mfa_data = {{MFA_DATA}};
+
+        var table_html = "<table>";
+
+        var header_flag = true;
+        for (var syllog in mfa_data) {
+            if (header_flag) {
+                table_html += "<tr><th>";
+                table_html += "Syllog</th><th>" + Object.keys(mfa_data[syllog]).join("</th><th>");
+                table_html += "</th></tr>";
+                header_flag = false;
+            }
+
+            table_html += "<tr>";
+            table_html += "<td>" + syllog + "</td>";
+            for (var model in mfa_data[syllog]) {
+                table_html += "<td>" + mfa_data[syllog][model].join(", ") + "</td>"
+            }
+            table_html += "</tr>";
+        }
+        table_html += "</table>";
+
+        document.getElementById("mfa_container").innerHTML = table_html;
+
+    </script>
+</div>
