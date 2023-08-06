@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pygellan
+Version: 0.0.2
+Summary: Open source microscope control using python
+Home-page: https://github.com/henrypinkard/Pygellan
+Author: Henry Pinkard
+Author-email: henry.pinkard@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: os
+Requires-Dist: mmap
+Requires-Dist: numpy
+Requires-Dist: sys
+Requires-Dist: json
+Requires-Dist: platform
+Requires-Dist: dask (>=2.1.0)
+Requires-Dist: zmq
+Requires-Dist: base64
+Requires-Dist: types
+
+# Pygellan
+Various Python files related to acquisition control, data-reading, etc. in Micro-Magellan
+
+
