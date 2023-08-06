@@ -1,0 +1,10 @@
+README.md
+mywsgi.py
+setup.cfg
+setup.py
+mywsgi.egg-info/PKG-INFO
+mywsgi.egg-info/SOURCES.txt
+mywsgi.egg-info/dependency_links.txt
+mywsgi.egg-info/entry_points.txt
+mywsgi.egg-info/not-zip-safe
+mywsgi.egg-info/top_level.txt
