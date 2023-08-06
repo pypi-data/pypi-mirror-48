@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: onnx2keras
+Version: 0.0.2
+Summary: The deep learning models convertor
+Home-page: https://github.com/nerox8664/onnx2keras
+Author: Grigory Malivenko
+Author-email: nerox8664@gmail.com
+License: MIT
+Description: # onnx2keras
+Keywords: machine-learning deep-learning pytorch keras neuralnetwork vgg resnet densenet drn dpn darknet squeezenet mobilenet
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Description-Content-Type: text/markdown
