@@ -1,0 +1,7 @@
+monobank/__init__.py,sha256=TBTsS5eAlJA3ig0s5VJySoKTe2_Oy2XStxAZ8Qiyd4o,87
+monobank/client.py,sha256=XqImuPuSkx2LRsmyx2ZDjNRtoMwa2XfroFXT_p_iWxQ,2036
+monobank/errors.py,sha256=982Pt74kZZQDxuZ1acY__YwpTcgd7j_Oo--0julTsvY,266
+monobank/utils.py,sha256=txp_PG9ymZ0O7tAXvFqPdL-TBRH8vf7T7-XaCLh2rMc,127
+monobank-0.3.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+monobank-0.3.0.dist-info/METADATA,sha256=s--QZ2Bj3RvJc4kuD_HtGX0RTIj46pkFouHRPbr0yH8,1896
+monobank-0.3.0.dist-info/RECORD,,
