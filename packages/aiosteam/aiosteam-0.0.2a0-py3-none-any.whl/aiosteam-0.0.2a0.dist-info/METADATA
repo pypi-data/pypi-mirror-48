@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: aiosteam
+Version: 0.0.2a0
+Summary: An asynchronous steam API wrapper written in Python.
+Home-page: https://github.com/truedl/aiosteam
+Author: truedl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# aiosteam
+An asynchronous steam API wrapper written in Python.
+
+## Installation
+```py
+py -m pip install aiosteam
+```
+
+## Todo
+- [ ] Documentation
+- [ ] More functionality
+- [ ] Examples
+
+
