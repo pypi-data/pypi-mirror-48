@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+TFdashboard.egg-info/PKG-INFO
+TFdashboard.egg-info/SOURCES.txt
+TFdashboard.egg-info/dependency_links.txt
+TFdashboard.egg-info/entry_points.txt
+TFdashboard.egg-info/requires.txt
+TFdashboard.egg-info/top_level.txt
+src/__init__.py
+src/dashboard.py
+src/widgets/TrimTab.py
+src/widgets/__init__.py
+src/widgets/range.py

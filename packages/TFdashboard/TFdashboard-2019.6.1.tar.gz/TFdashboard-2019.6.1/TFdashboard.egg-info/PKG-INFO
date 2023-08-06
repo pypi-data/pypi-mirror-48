@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: TFdashboard
+Version: 2019.6.1
+Summary: UAV dashboard application
+Home-page: https://github.com/ThunderFly-aerospace/TF-R1
+Author: ThunderFly s.r.o., Roman Dvorak
+Author-email: dvorakroman@thunderfly.cz
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ThunderFly-aerospace/TF-R1/issues
+Description: UNKNOWN
+Keywords: UAV Mavlink Drone dashboard ThunderFly
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Atmospheric Science
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Environment :: Other Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.3.*
+Description-Content-Type: text/markdown
