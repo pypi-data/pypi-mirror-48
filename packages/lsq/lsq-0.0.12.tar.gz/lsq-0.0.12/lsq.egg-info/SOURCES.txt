@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+lsq/__init__.py
+lsq/main.py
+lsq/package_data.dat
+lsq.egg-info/PKG-INFO
+lsq.egg-info/SOURCES.txt
+lsq.egg-info/dependency_links.txt
+lsq.egg-info/requires.txt
+lsq.egg-info/top_level.txt
