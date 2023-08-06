@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>实时编程模式</title>
+  <script charset="utf-8" src="main.min.js" type="text/javascript"></script>
+</head>
+<body>
+<p>本工具仅支持基础 Python 代码运行！无法运行就是不支持不要问我为什么！</p>
+<table>
+  <tr>
+    <td valign="top">
+      <div id="pyInputPane">
+        <div id="codeInputWarnings">选择 Python 版本
+          <select disabled id="pythonVersionSelector">
+            <option selected value="3">Python 3</option>
+          </select>
+          <span id="liveModeExtraWarning" style="color: #888; font-size: 8pt; float: right;">(拖动右下角调整大小)</span>
+        </div>
+        <div id="codeInputPane"></div>
+        <div id="legendDiv"></div>
+        <div id="executionSlider" style="margin-top: 10px;"></div>
+        <div id="vcrControls" style="display: none;">
+          <button id="jmpFirstInstr" type="button">&lt;&lt; 开头</button>
+          <button id="jmpStepBack" type="button">&lt; 上一步</button>
+          <span id="curInstr"></span>
+          <button id="jmpStepFwd" type="button">下一步 &gt;</button>
+          <button id="jmpLastInstr" type="button">结尾 &gt;&gt;</button>
+        </div>
+        <div id="frontendErrorOutput"></div>
+      </div>
+    
+    </td>
+    <td valign="top">
+      <div id="pyOutputPane"/>
+    </td>
+  </tr>
+</table>
+
+<div id="footer">
+  <div id="optionsPane">
+    <select id="cumulativeModeSelector">
+      <option value="false">隐藏已退出的帧 [默认]</option>
+      <option value="true">显示已退出的帧</option>
+    </select>
+    <select id="heapPrimitivesSelector">
+      <option value="false">渲染嵌套对象</option>
+      <option selected value="nevernest">不渲染嵌套对象 [默认]</option>
+      <option value="true">渲染堆上所有对象</option>
+    </select>
+    <select id="textualMemoryLabelsSelector">
+      <option value="false">使用箭头作为指针 [默认]</option>
+      <option value="true">使用文字标识作为指针</option>
+    </select>
+  </div>
+</div>
+</body>
+</html>
