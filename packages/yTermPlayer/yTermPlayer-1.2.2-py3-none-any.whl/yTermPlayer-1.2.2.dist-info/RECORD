@@ -1,0 +1,13 @@
+yTermPlayer/__init__.py,sha256=W4WuSx5yzepybAU3qw5DylODLmvNYm4JxWAV8cCsV6E,76
+yTermPlayer/__main__.py,sha256=qElvy5HUO2y7CFN2-8S8huKVsvZ0Ig6mxwuhsv9rJOs,783
+yTermPlayer/music_api.py,sha256=QClufvT7YJe_o0Xl9RtW7DUgerOSditTWRVxFFHpm90,11521
+yTermPlayer/settings.py,sha256=-QHFkSKCWarKjGECT8IrlmUMSOxB61wYcTV7t9lyq8s,199
+yTermPlayer/test.py,sha256=iV3JC0HaNON0x5i9sW35zafWU_9M5P2lAXy1RyyfAVI,160
+yTermPlayer/ui.py,sha256=Dgd6qbqF27FGrA4aKFT7agLOQcvOAAMJfTSw7-emc0I,13948
+yTermPlayer/yterm-player.py,sha256=xnrITUKuoHAY3T4gz34RtMctKo1ECvQJF1wyOkDJ0T8,788
+yTermPlayer-1.2.2.dist-info/LICENSE,sha256=fFDNm4Xit-666itWGLQChisB1aZr7_-OQUAe8_FORxo,34500
+yTermPlayer-1.2.2.dist-info/METADATA,sha256=_kjT_7geUfh0-vt2dcfsANuL6A9w5hKMYgZBsSv-Gvg,4516
+yTermPlayer-1.2.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+yTermPlayer-1.2.2.dist-info/entry_points.txt,sha256=m4-ey5qCCAXbx8RvPurENJpKmz0Nzcp6_ZGo4p6LcwA,53
+yTermPlayer-1.2.2.dist-info/top_level.txt,sha256=qr176fL8YzBr8zQt01yUy0ZlYgJrj9gmP1Qb14bzmJc,12
+yTermPlayer-1.2.2.dist-info/RECORD,,
