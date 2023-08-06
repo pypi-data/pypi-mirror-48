@@ -1,0 +1,13 @@
+siunits/__init__.py,sha256=O2tVBss3CfGcw2J-dAtFmjSS4E0RN2ThJmpCBe6ySF4,72
+siunits/main.py,sha256=Fd9Z3WVtOnPiC6c5kvHqPK0z34wYZmfcqnfjlSzzgzQ,10105
+siunits/test_.py,sha256=GQbRLizVlgB035uyoPYsZmjYqPlZXLGoqGQ1LmmLs5s,2375
+siunits/units.py,sha256=Yj-J6FGsPMhtqGLDwwSFtT6dxWIw7JfTtkT5OdbP638,2064
+src/__init__.py,sha256=O2tVBss3CfGcw2J-dAtFmjSS4E0RN2ThJmpCBe6ySF4,72
+src/main.py,sha256=Fd9Z3WVtOnPiC6c5kvHqPK0z34wYZmfcqnfjlSzzgzQ,10105
+src/test_.py,sha256=GQbRLizVlgB035uyoPYsZmjYqPlZXLGoqGQ1LmmLs5s,2375
+src/units.py,sha256=Yj-J6FGsPMhtqGLDwwSFtT6dxWIw7JfTtkT5OdbP638,2064
+siunits-0.0.4.dist-info/LICENSE,sha256=0WvtSzDnvxwsQ_uangj3gc3ZMdtPlyo3tGWVrtDPKiE,1057
+siunits-0.0.4.dist-info/METADATA,sha256=VS0Ekv2qFKaTqZY0LUKhO9KhMV9MZ-_F7REkZ73TpB0,2616
+siunits-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+siunits-0.0.4.dist-info/top_level.txt,sha256=9buXR8SpU7uTVq4Cl45VH5X2sv8c7XIhRtw2oH9qexk,8
+siunits-0.0.4.dist-info/RECORD,,
