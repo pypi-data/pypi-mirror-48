@@ -1,0 +1,14 @@
+g42so/__init__.py,sha256=yxL3M6g2Og2KiCd04fZz8PPl2kM1PiSU2dAauRjDQyo,213
+g42so/detect_compiler.py,sha256=2KsS2eHIBWYI-ps654Z9Rj5gwBIJVdgJdPSIHa1N_BQ,762
+g42so/detector_wrapper.cc.in,sha256=DL9wYxYaXchzYsBCf5_lJE86obNWDI-hz8uR5R-e25Q,1231
+g42so/find_classes.py,sha256=NKQ2upkCVL06ZW67fmgQZiSZsm1-1Bge-bAGuag4_1I,2550
+g42so/generate_library.py,sha256=GmRDkg1eahC4fzUjmyeyfL5OoXe8vs7eZlBhgwSTjFU,5184
+g42so/main.py,sha256=Vaiu8Ff_nLK5XO9Vv0Q2dVg6VPXUK2VKdfIJzYsC6ks,6350
+g42so/pga_wrapper.cc.in,sha256=V30W4XK_t3uuhCepXCN-XNjTNrJ41z4H325g47pMYkc,1038
+g42so/version.cc,sha256=X-uHNFqbqbdMP3lIrSTQl_uag_halTAZHESfxdtLUuE,101
+g42so-0.3.0.dist-info/LICENSE,sha256=WxLXW80mcXjK3bPAx4Eo__EYkTsbchctnjbaps9WFp4,1076
+g42so-0.3.0.dist-info/METADATA,sha256=vBdG40osm3FOlUJRHsYGDnp5-z8EttAHW-dWwbr-crY,3430
+g42so-0.3.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+g42so-0.3.0.dist-info/entry_points.txt,sha256=wVUvacyFqHtOAIiEJMLvz3_OjHGruxm1QVU1jB1yrDc,43
+g42so-0.3.0.dist-info/top_level.txt,sha256=RElZ4TybW6oGF66q10RAb0aBs_0aHqBqRl_-MF_ZxRw,6
+g42so-0.3.0.dist-info/RECORD,,
