@@ -1,0 +1,7 @@
+setup.py
+btk3/__init__.py
+btk3/btk.py
+pyBTK.egg-info/PKG-INFO
+pyBTK.egg-info/SOURCES.txt
+pyBTK.egg-info/dependency_links.txt
+pyBTK.egg-info/top_level.txt
