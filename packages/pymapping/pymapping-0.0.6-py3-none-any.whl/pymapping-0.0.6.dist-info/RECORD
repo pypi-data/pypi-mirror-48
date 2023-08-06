@@ -1,0 +1,11 @@
+pymapping/__about__.py,sha256=EZGKLFqNEsKFbEpeX-v6qIc1erUrdoXgoQm9XYxCDjk,288
+pymapping/__init__.py,sha256=HwqQSmhJE67M6iHdnecXqU3PsqlvhUp5Pz5s_LXIrtU,421
+pymapping/__main__.py,sha256=BXRz-9ZijvotNmlbHBQeQw6iivVkCUDDXxYGJAIUUAg,70
+pymapping/cli.py,sha256=v_trfXt829qYerRtAwcpJKoqji60lYTNsYR--Ad3zXE,2442
+pymapping/main.py,sha256=43nBVgV6Vk5FhHc2bbvtnycp20lm9i4oX0R4gSF13H4,8637
+pymapping-0.0.6.dist-info/LICENSE,sha256=L8pwam33ctK0bRR6IlCzz4Gw1ME5gZH_YkxzkzWZ_c8,1076
+pymapping-0.0.6.dist-info/METADATA,sha256=qwTxRFEIVbDmAH0inmmTFyf0jIn_RMY-WQXxmH7tQto,2684
+pymapping-0.0.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pymapping-0.0.6.dist-info/entry_points.txt,sha256=SucAvmtbYXF4rtogoJhJkWLfPMzjwaYRyU7PTfPMV78,50
+pymapping-0.0.6.dist-info/top_level.txt,sha256=htNU0uBmdXJT-iMsl7bjXLe1BGW0D5nQ2cTnSRaCazg,10
+pymapping-0.0.6.dist-info/RECORD,,
