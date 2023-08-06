@@ -1,0 +1,10 @@
+pylandau.cpython-37m-darwin.so,sha256=Yt3A8Rep0EPP9zbXqMmLRYtXh0glxNSiopZCHHp_61I,174168
+pyLandau/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyLandau/cpp/pylandau.cpp,sha256=PT8H4Q1fmw9U5mRbR6FY850ROjtL48FVR1kXhTalh_w,561940
+pyLandau/cpp/pylandau.pyx,sha256=Rqux2hXM2tPUqz7_mFUAim9N3EYwwQkFAbefi8Rb-L8,5561
+pyLandau/cpp/pylandau_src.cpp,sha256=5iGKJhw5LGYgnuQIGp84p2_oPtHjdZ9JQWoJ7V3jUi0,5907
+pylandau-2.1.0.dist-info/LICENSE,sha256=VSX70JEbjcvcbwwIGsJ_1Vt11tJhxi-gW5vcC3K0gfY,26462
+pylandau-2.1.0.dist-info/METADATA,sha256=5-5WCDb5pIJNA8fQM8zikz7jrUn4d25JSlZnbT2E5Us,617
+pylandau-2.1.0.dist-info/WHEEL,sha256=nYKY7aarFvRN_7R8NYnCesPqC9h4PzpMTx5EiRYRerg,110
+pylandau-2.1.0.dist-info/top_level.txt,sha256=rEpxUfeB6vACULzOhxJbIlm53_c9YFACP5FSF9tvC40,18
+pylandau-2.1.0.dist-info/RECORD,,
