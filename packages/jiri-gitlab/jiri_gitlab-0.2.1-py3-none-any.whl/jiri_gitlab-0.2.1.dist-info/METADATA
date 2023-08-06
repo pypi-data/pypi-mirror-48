@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jiri-gitlab
+Version: 0.2.1
+Summary: A tool to create a Jiri manifest file from Gitlab projects
+Home-page: https://gitlab.com/tom6/jiri-gitlab
+Author: Tom Forbes
+Author-email: tom@tomforb.es
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: python-gitlab
+Requires-Dist: click
+
+UNKNOWN
+
+
