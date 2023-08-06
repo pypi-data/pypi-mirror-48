@@ -1,0 +1,6 @@
+numpy
+psutil
+py-cpuinfo
+python-firebase
+pillow
+setuptools
