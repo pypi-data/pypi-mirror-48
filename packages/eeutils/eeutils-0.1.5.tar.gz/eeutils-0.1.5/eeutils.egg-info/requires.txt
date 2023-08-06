@@ -1,0 +1,8 @@
+Click
+click-completion
+colorama
+psycopg2
+psycopg2-binary
+terminaltables
+polib
+googletrans
