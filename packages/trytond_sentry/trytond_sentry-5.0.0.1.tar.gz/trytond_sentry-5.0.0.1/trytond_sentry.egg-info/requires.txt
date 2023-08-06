@@ -1,0 +1,2 @@
+trytond>=5.0,<5.1
+sentry-sdk
