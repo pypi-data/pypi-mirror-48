@@ -1,0 +1,6 @@
+websockets
+pympler
+scapy
+requests
+netifaces
+appdirs
