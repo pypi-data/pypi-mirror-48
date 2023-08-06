@@ -1,0 +1,3 @@
+[console_scripts]
+syncboostnote = syncboostnote.cli:run_as_command
+
