@@ -1,0 +1,3 @@
+[console_scripts]
+appengine-clean = appengine_clean.appengine_clean:main
+
