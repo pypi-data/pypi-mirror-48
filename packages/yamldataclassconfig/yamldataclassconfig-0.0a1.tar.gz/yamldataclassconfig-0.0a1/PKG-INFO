@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yamldataclassconfig
+Version: 0.0a1
+Summary: This project helps you to import config file writen by YAML to Python data class.
+Home-page: https://github.com/yukihiko-shinoda/yaml-dataclass-config
+Author: Yukihiko Shinoda
+Author-email: yuk.hik.future@gmail.com
+License: UNKNOWN
+Description: # YAML Config
+        
+        This project helps you to import config file writen by YAML to Python dataclass.
+Keywords: yaml dataclass config
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
