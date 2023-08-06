@@ -1,0 +1,8 @@
+numpy
+spikeextractors
+spikesorters
+scikit-learn
+scipy
+pandas
+networkx
+joblib
