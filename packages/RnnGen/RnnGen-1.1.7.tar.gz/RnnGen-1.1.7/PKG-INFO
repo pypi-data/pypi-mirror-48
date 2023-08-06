@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: RnnGen
+Version: 1.1.7
+Summary: UNKNOWN
+Home-page: https://github.com/gabrielpetersson/rnngen
+Author: Gabriel Petersson
+Author-email: gabriielpetersson@gmail.com
+License: MIT
+Description: Recurrent Neural Network Generative Model with Word2Vec
+Platform: UNKNOWN
