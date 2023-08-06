@@ -1,0 +1,5 @@
+[console_scripts]
+name=benchlingapi:_version.get_name
+upver=benchlingapi:_version.pull_version
+version=benchlingapi:_version.get_version
+
