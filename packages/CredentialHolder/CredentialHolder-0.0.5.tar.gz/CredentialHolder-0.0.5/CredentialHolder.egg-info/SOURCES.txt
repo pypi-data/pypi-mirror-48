@@ -1,0 +1,12 @@
+README.md
+setup.py
+CredentialHolder.egg-info/PKG-INFO
+CredentialHolder.egg-info/SOURCES.txt
+CredentialHolder.egg-info/dependency_links.txt
+CredentialHolder.egg-info/requires.txt
+CredentialHolder.egg-info/top_level.txt
+credential_holder/__init__.py
+credential_holder/holder.py
+credential_holder/serializer.py
+test/test_holder.py
+test/test_serializer.py
