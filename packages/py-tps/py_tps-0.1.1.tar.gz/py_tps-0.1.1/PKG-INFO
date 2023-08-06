@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: py-tps
+Version: 0.1.1
+Summary: This is a simple library for reading and writing .tps files as created and used by the tpsDig landmarking tool created by F. James Rohlf.  https://life.bio.sunysb.edu/morph/
+License: MIT
+Author: ryanfeather
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.14,<2.0)
+Description-Content-Type: text/x-rst
+
+This is a simple library for reading and writing .tps files as created and used by the tpsDig landmarking tool
+created by F. James Rohlf.  https://life.bio.sunysb.edu/morph/
+
+Installation
+============
+Installation is managed via poetry. https://pypi.org/project/poetry/
+
+To install, first install poetry.
+*Note for conda users*
+In order to use a conda environment with poetry, you must first configure poetry to use your conda environment and
+not create a new virtualenv environment. Example::
+
+    poetry config settings.virtualenvs.path $CONDA_ENV_PATH
+    poetry config settings.virtualenvs.create 0
+
+Then run::
+
+  poetry install
+  poetry build
+  cd dist
+  pip install *.whl
+
+

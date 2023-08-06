@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "py_tps"
+version = "0.1.1"
+description = "This is a simple library for reading and writing .tps files as created and used by the tpsDig landmarking tool created by F. James Rohlf.  https://life.bio.sunysb.edu/morph/"
+authors = ["ryanfeather"]
+license = "MIT"
+readme="README.rst"
+[tool.poetry.dependencies]
+python = "^3.6"
+numpy = "^1.14"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
