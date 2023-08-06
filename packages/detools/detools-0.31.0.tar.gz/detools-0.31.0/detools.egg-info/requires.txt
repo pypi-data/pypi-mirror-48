@@ -1,0 +1,7 @@
+humanfriendly
+bitstruct
+pyelftools
+zstandard
+
+[heatshrink]
+heatshrink
