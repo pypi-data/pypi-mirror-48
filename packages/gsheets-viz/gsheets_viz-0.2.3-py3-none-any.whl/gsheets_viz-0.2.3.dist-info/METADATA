@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gsheets-viz
+Version: 0.2.3
+Summary: A wrapper library for query Google Sheet via Google Visualization API
+Home-page: https://github.com/praiwann/gsheets-viz
+Author: Praiwan N.
+Author-email: npraiwan@outlook.com
+License: Apache2
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: requests
+Requires-Dist: pyjwt
+Requires-Dist: pycrypto
+
+UNKNOWN
+
+
