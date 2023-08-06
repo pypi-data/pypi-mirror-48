@@ -1,0 +1,5 @@
+Sphinx>=0.6
+docutils
+suds-py3
+setuptools_scm
+matplotlib
