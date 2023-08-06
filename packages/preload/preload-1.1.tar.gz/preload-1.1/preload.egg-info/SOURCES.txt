@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+example.gif
+setup.py
+preload/__init__.py
+preload/preload.py
+preload.egg-info/PKG-INFO
+preload.egg-info/SOURCES.txt
+preload.egg-info/dependency_links.txt
+preload.egg-info/top_level.txt
+test/README.md
+test/test_preload.py

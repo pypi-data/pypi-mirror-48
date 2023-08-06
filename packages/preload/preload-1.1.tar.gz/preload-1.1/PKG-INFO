@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: preload
+Version: 1.1
+Summary: Give user feedback while importing heavy modules
+Home-page: https://github.com/tfiers/preload
+Author: Tomas Fiers
+Author-email: tomas.fiers@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/tfiers/preload
+Description: # Preload
+        
+        Python programs often seem to "hang" in the beginning. This is due to
+        heavy modules being imported. This package lets the user know what is
+        happening, to avoid this impression:
+        
+        ![A console showing the output of the program under "Usage"](https://raw.githubusercontent.com/tfiers/preload/master/example.gif)
+        
+        
+        ## Usage
+        
+        ```python
+        from preload import preload_with_feedback
+        preload_with_feedback(["matplotlib.pyplot", "scipy.signal"])
+        
+        # [Rest of your code, such as: ]
+        import numpy as np
+        import scipy.signal
+        import matplotlib.pyplot as plt
+        
+        print("Hello")
+        ```
+        
+        ## Installation
+        
+        ```
+        pip install preload
+        ```
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
