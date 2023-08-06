@@ -1,0 +1,3 @@
+[console_scripts]
+tc3omega = tc3omega.cli:main
+
