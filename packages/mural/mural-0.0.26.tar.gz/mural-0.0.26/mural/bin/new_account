@@ -1,0 +1,53 @@
+#!/usr/bin/env python
+import sys
+sys.path.insert(0,'../')
+
+try:
+    from Market import Market
+    from Business import Business
+    from db import local_ip_address,users,setAccount,getUsers,clearIP
+except:
+    from mural.Market import Market
+    from mural.Business import Business
+    from mural.db import local_ip_address,users,setAccount,getUsers,clearIP
+
+from pymongo import MongoClient
+import getpass
+from PyInquirer import style_from_dict, Token, prompt, Separator,Validator, ValidationError
+
+
+questions=[
+    {
+        'type': 'input',
+        'name': 'name',
+        'message': 'What is your first name? (Must be less than 8 characters and not contain spaces)',
+        'validate': lambda a: len(a)<=8 and ' ' not in a,
+    },
+]
+answers=prompt(questions)
+name=answers['name'].title()
+users=getUsers()
+def createProfile(name,market):
+    b=Business(name,market,20)
+    b.save()
+    setAccount(b)
+    market.save()
+    print("Account created!")
+    b.display()
+
+
+if local_ip_address in [u['ip'] for u in users]:
+    print("Your account already exists!")
+    password=int(getpass.getpass('Override:'))
+    
+    if int(password) == 1123581321:
+        clearIP()
+        market=Market.getVacancy()
+        print(market,market.exports)
+        createProfile(name,market)
+    else:
+        print("Stop trying to cheat and go play the game!")
+
+else:
+    market=Market.getVacancy()
+    createProfile(name,market)
