@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: b1841670
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://github.com/driazati/test
+Author: Me
+Author-email: fake_email@example.com
+License: UNKNOWN
+Description: Some code
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
