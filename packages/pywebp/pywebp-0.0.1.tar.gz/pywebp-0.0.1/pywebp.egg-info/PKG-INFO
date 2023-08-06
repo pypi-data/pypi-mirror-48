@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: pywebp
+Version: 0.0.1
+Summary: python convert png gif to webp
+Home-page: UNKNOWN
+Author: Pierre Nédélec
+Author-email: coderbaseit@gmail.com
+License: Apache2
+Description: UNKNOWN
+Keywords: webp,gifwebp
+Platform: UNKNOWN
+Requires-Python: >=3

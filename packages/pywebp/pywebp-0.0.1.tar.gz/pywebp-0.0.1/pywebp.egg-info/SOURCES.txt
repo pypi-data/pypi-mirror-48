@@ -1,0 +1,7 @@
+setup.py
+pywebp.egg-info/PKG-INFO
+pywebp.egg-info/SOURCES.txt
+pywebp.egg-info/dependency_links.txt
+pywebp.egg-info/requires.txt
+pywebp.egg-info/top_level.txt
+webp/webp.py
