@@ -1,0 +1,117 @@
+Metadata-Version: 2.1
+Name: verbecc
+Version: 1.0.2
+Summary: Verbes, complètement conjugués - conjugueur français | Verbs, completely conjugated - French conjugator
+Home-page: http://verbe.cc
+Author: Brett Tolbert
+Author-email: brett.tolbert@gmail.com
+License: UNKNOWN
+Description: ## verbecc
+        
+        #### Verbes, complÃ¨tement conjuguÃ©s - conjugueur franÃ§ais
+        
+        #### Verbs, completely conjugated - French conjugator
+        
+        https://github.com/bretttolbert/verbecc
+        
+        
+        [![pipeline status](https://gitlab.com/bretttolbert/verbecc/badges/master/pipeline.svg)](https://gitlab.com/bretttolbert/verbecc/pipelines)
+        
+        #### Features
+        * Over 7,000 verbs supported
+        * pip installable
+        * Unit tested
+        * Continuous Integration and Deployment with GitLab CI/CD
+        * Dependencies: lxml
+        
+        #### Credits
+        Created with the help of [lxml](https://github.com/lxml/lxml), [pytest](https://docs.pytest.org) and [python](https://www.python.org/). Verb conjugation template XML files derived from [Verbiste](https://perso.b2b2c.ca/~sarrazip/dev/verbiste.html)
+        
+        
+        ## verbecc-svc
+        
+        #### verbecc-svc Microservice Python avec un API REST pour la conjugaison des verbes franÃ§ais
+        
+        #### verbecc-svc Python microservice with REST API for conjugation of French verbs
+        
+        https://github.com/bretttolbert/verbecc-svc
+        
+        [![pipeline status](https://gitlab.com/bretttolbert/verb-conjugate-fr/badges/master/pipeline.svg)](https://gitlab.com/bretttolbert/verb-conjugate-fr/pipelines)
+        
+        #### Live demo
+        http://verbe.cc/vcfr/conjugate/manger
+        
+        #### Features
+        * Dockerized microservice
+        * Unit tested
+        * Continuous Integration and Deployment with GitLab CI/CD
+        * RESTful API with JSON responses
+        * Dependencies: verbecc
+        
+        #### Credits
+        Created with the help of [verbecc](https://github.com/bretttolbert/verbecc), [FastAPI](https://github.com/tiangolo/fastapi), [uvicorn](https://github.com/encode/uvicorn), [starlette](https://github.com/encode/starlette), [lxml](https://github.com/lxml/lxml), [docker](https://docker.com), [docker-compose](https://docs.docker.com/compose/), [pytest](https://docs.pytest.org) and [python](https://www.python.org/).
+        
+        
+        ## verbecc-web
+        
+        #### Une interface web pour verbecc-svc
+        
+        #### Web front-end for verbecc-svc
+        
+        https://github.com/bretttolbert/verbecc-web
+        
+        #### Live demo
+        http://verbe.cc
+        
+        #### Features
+        * Dockerized
+        * Search suggestions
+        * Implemented entirely in Javascript (JQuery) - conjugations are generated without reloading the page
+        * Dependencies: verbecc-svc
+        
+        #### Credits
+        Created with the help of [verbecc-svc](https://github.com/bretttolbert/verbecc-svc), and [JQuery](https://jquery.com/)
+        
+        
+        ```
+        +------------------------------------------------------+                                                                               
+        |               verbecc-web                            |                                                                               
+        |               web application                        |                                                                               
+        |               docker-compose                         |                                                                               
+        |                      |                               |                                                                               
+        |                  REST API                            |                                                                               
+        |                      |                               |                                                                               
+        |      +----------------------------------------+      |                                                                               
+        |      |                                        |      |                                                                               
+        |      |       verbecc-svc                      |      |                                                                               
+        |      |       Dockerized microservice          |      |                                                                               
+        |      |                                        |      |                                                                               
+        |      |        +----------------------+        |      |                                                                               
+        |      |        |   verbecc            |        |      |                                                                               
+        |      |        |   Python library     |        |      |                                                                               
+        |      |        +----------------------+        |      |                                                                               
+        |      +----------------------------------------+      |                                                                               
+        +------------------------------------------------------+                                                                               
+        ```   
+        
+        # verbecc
+        
+        #### Quick Start
+        ```
+        pip install verbecc
+        ```
+        
+        ## Usage
+        ```
+        >>> from verbecc import conjugator
+        >>> cg = conjugator.Conjugator()
+        >>> conjugation = cg.conjugate('manger')
+        >>> conjugation
+        {'verb': {'infinitive': 'manger', 'template': 'man:ger', 'translation_en': 'eat', 'stem': 'man'}, 'moods': {'infinitive': {'infinitive-present': ['manger']}, 'indicative': {'present': ['je mange', 'tu manges', 'il mange', 'nous mangeons', 'vous mangez', 'ils mangent'], 'imperfect': ['je mangeais', 'tu mangeais', 'il mangeait', 'nous mangions', 'vous mangiez', 'ils mangeaient'], 'future': ['je mangerai', 'tu mangeras', 'il mangera', 'nous mangerons', 'vous mangerez', 'ils mangeront'], 'simple-past': ['je mangeai', 'tu mangeas', 'il mangea', 'nous mangeÃ¢mes', 'vous mangeÃ¢tes', 'ils mangÃ¨rent'], 'passÃ©-composÃ©': ["j'ai mangÃ©", 'tu as mangÃ©', 'il a mangÃ©', 'nous avons mangÃ©', 'vous avez mangÃ©', 'ils ont mangÃ©'], 'pluperfect': ["j'avais mangÃ©", 'tu avais mangÃ©', 'il avait mangÃ©', 'nous avions mangÃ©', 'vous aviez mangÃ©', 'ils avaient mangÃ©'], 'future-perfect': ["j'aurai mangÃ©", 'tu auras mangÃ©', 'il aura mangÃ©', 'nous aurons mangÃ©', 'vous aurez mangÃ©', 'ils auront mangÃ©'], 'anterior-past': ["j'eus mangÃ©", 'tu eus mangÃ©', 'il eut mangÃ©', 'nous eÃ»mes mangÃ©', 'vous eÃ»tes mangÃ©', 'ils eurent mangÃ©']}, 'conditional': {'present': ['je mangerais', 'tu mangerais', 'il mangerait', 'nous mangerions', 'vous mangeriez', 'ils mangeraient'], 'past': ["j'aurais mangÃ©", 'tu aurais mangÃ©', 'il aurait mangÃ©', 'nous aurions mangÃ©', 'vous auriez mangÃ©', 'ils auraient mangÃ©']}, 'subjunctive': {'present': ['que je mange', 'que tu manges', "qu'il mange", 'que nous mangions', 'que vous mangiez', "qu'ils mangent"], 'imperfect': ['que je mangeasse', 'que tu mangeasses', "qu'il mangeÃ¢t", 'que nous mangeassions', 'que vous mangeassiez', "qu'ils mangeassent"], 'past': ["que j'aie mangÃ©", 'que tu aies mangÃ©', "qu'il ait mangÃ©", 'que nous ayons mangÃ©', 'que vous ayez mangÃ©', "qu'ils aient mangÃ©"], 'pluperfect': ["que j'eusse mangÃ©", 'que tu eusses mangÃ©', "qu'il eÃ»t mangÃ©", 'que nous eussions mangÃ©', 'que vous eussiez mangÃ©', "qu'ils eussent mangÃ©"]}, 'imperative': {'imperative-present': ['mange', 'mangeons', 'mangez'], 'imperative-past': ['aie mangÃ©', 'ayons mangÃ©', 'ayez mangÃ©']}, 'participle': {'present-participle': ['mangeant'], 'past-participle': ['mangÃ©', 'mangÃ©s', 'mangÃ©e', 'mangÃ©es']}}}
+        >>> conjugation['moods']['indicative']['present']
+        ['je mange', 'tu manges', 'il mange', 'nous mangeons', 'vous mangez', 'ils mangent']
+        >>> conjugation['moods'].keys()
+        dict_keys(['infinitive', 'indicative', 'conditional', 'subjunctive', 'imperative', 'participle'])
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
