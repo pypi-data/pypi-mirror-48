@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: lambda_handlers
+Version: 1.0.0
+Summary: A collection of useful decorators for making AWS Lambda handlers
+Home-page: http://lambda-handlers.readthedocs.io
+Author: Steffen Leistner, Alexandre Savio
+Author-email: info@enterat.de
+License: Apache
+Description: # 1.0.0 (2019-07-01)
+        
+        
+        ### Bug Fixes
+        
+        * handle import errors gracefully ([eea9f6f](https://github.com/enter-at/lambda-handlers/commit/eea9f6f))
+        * **formatters:** add FormattingError exception ([8a94c66](https://github.com/enter-at/lambda-handlers/commit/8a94c66))
+        * **MarshmallowValidator:** handler empty error messages ([0bf03b0](https://github.com/enter-at/lambda-handlers/commit/0bf03b0))
+        * **version:** set the version used for pre-release ([3873a5f](https://github.com/enter-at/lambda-handlers/commit/3873a5f))
+        
+        
+        ### Features
+        
+        * **validator:** add request and response validation ([0e0af4e](https://github.com/enter-at/lambda-handlers/commit/0e0af4e))
+        * **validator:** add request and response validation ([0029a97](https://github.com/enter-at/lambda-handlers/commit/0029a97))
+        * **validator:** extract validator abstraction ([bfc697e](https://github.com/enter-at/lambda-handlers/commit/bfc697e))
+        
+Keywords: serverless lambda decorator aws
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: ==3.7
+Provides-Extra: jsonschema
+Provides-Extra: marshmallow
