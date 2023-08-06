@@ -1,0 +1,1 @@
+biopython==1.73numpy==1.16.1progressbar2==3.39.3nose==1.3.7mock==3.0.5flake8==3.7.7ftputil==3.4
