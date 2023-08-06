@@ -1,0 +1,2 @@
+larcv/_larcv.so
+larcv/lib/liblarcv3.dylib

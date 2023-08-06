@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: larcv
+Version: 3.0.0
+Summary: C++ IO and Preprocessing package for sparse neutrino data, with H5 for IO and python bindings.
+Home-page: UNKNOWN
+Author: ['Corey Adams', 'Kazuhiro Terao', 'Taritree Wongjirad', 'Marco del Tutto']
+Author-email: UNKNOWN
+License: MIT
+Project-URL: Source Code, https://github.com/DeepLearnPhysics/larcv3
+Description: UNKNOWN
+Keywords: larcv larcv3 neutrinos hdf5 h5 deep learning IO sparse
+Platform: UNKNOWN

@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/__init__.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/data_generator.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/dataloader2.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/distributed_larcv_interface.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/larcv.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/larcv_interface.py
+_skbuild/macosx-10.9-x86_64-3.6/cmake-install/larcv/larcv_writer.py
+bin/merge_larcv3_files.py
+larcv.egg-info/PKG-INFO
+larcv.egg-info/SOURCES.txt
+larcv.egg-info/dependency_links.txt
+larcv.egg-info/not-zip-safe
+larcv.egg-info/requires.txt
+larcv.egg-info/top_level.txt
