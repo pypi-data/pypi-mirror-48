@@ -1,0 +1,17 @@
+digcommpy/__init__.py,sha256=7H9DVfYN8uS024fHvxh0JEhqiyhZ6UJLzfdyAQGHvxk,94
+digcommpy/channels.py,sha256=k0nDbAXNZCHqDy6Mb0gxexL9PV9xFGz2HAS-kaUX8WE,5788
+digcommpy/checks.py,sha256=u4u2azWoxmw5R6O6JSyp8PDJ7QnQHToXhUDI0eJTY7Q,171
+digcommpy/decoders.py,sha256=htP8n0XIkemyMfwOtIw7WPPVEiRRL8p1bdiIlLEdkZY,26618
+digcommpy/demodulators.py,sha256=k7FJVtj1BJJ6GrPCS7FfYX_ClJHjIfH8RBqovxmrydI,1680
+digcommpy/encoders.py,sha256=IZ90v7UBYJeIjbgFO-ZvXXv7MQ2ZJZ6UWV0-0QY_0zQ,16302
+digcommpy/information_theory.py,sha256=wp_fAC58p7SvPO0KTY8xKizlrP0gI_TSDmlcKvqmsAI,8159
+digcommpy/messages.py,sha256=VyhZrJrHAcd0hvt7XrQiBLCEA0Tes6K8r31Ljky46Vk,2786
+digcommpy/metrics.py,sha256=adQlzC-NlG80pUsK68F1rE7rvUlXlq82Xgl_E4Bgd9w,1519
+digcommpy/modulators.py,sha256=Qi7HLy006F23RUYGLR51sEtYAkdC1qbyRdoB1V-mjIU,2429
+digcommpy/parsers.py,sha256=ACmIp9OlDfCtM-uK93ocEdfW54VuU70pKn6G0IAqW3E,4630
+digcommpy/simulations.py,sha256=Rln0g3oovkDFlUeR2TtWQZV61tg_3p9JDrJV0icE4tA,18311
+digcommpy-0.8.dist-info/LICENSE,sha256=Ts8rZVInQF14HFFs5TwClVKVlZPnmqtCMKH-j5rQ6us,1511
+digcommpy-0.8.dist-info/METADATA,sha256=f7vmFkAZNyofNMXBu3roDXW-eKlAwv_r2M00RHfjEs0,2633
+digcommpy-0.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+digcommpy-0.8.dist-info/top_level.txt,sha256=9HglDV7JzGiEQPYYgiVICHDiTglfEszEYv503vmjqXY,10
+digcommpy-0.8.dist-info/RECORD,,
