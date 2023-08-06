@@ -1,0 +1,14 @@
+pandas
+numpy
+matplotlib
+scipy
+sklearn
+parmap
+Cython
+pygco
+tqdm
+networkx
+shapely
+statsmodels
+hdbscan
+pillow
