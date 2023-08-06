@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: effortless-config
+Version: 0.1.0
+Summary: Globally scoped configuration with argparse integration
+Home-page: https://github.com/andreasjansson/effortless-config
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Requires-Python: >=3.6
