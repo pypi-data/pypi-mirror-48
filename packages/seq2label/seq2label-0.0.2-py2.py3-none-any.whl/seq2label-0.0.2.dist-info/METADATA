@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: seq2label
+Version: 0.0.2
+Summary: seq2label
+Home-page: https://github.com/howl-anderson/seq2label
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: tensorflow
+Requires-Dist: flask
+Requires-Dist: flask-cors
+Requires-Dist: ioflow
+
+UNKNOWN
+
+
