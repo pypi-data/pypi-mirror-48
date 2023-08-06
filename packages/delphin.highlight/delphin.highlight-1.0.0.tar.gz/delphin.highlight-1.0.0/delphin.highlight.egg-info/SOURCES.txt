@@ -1,0 +1,8 @@
+README.md
+setup.py
+delphin/highlight.py
+delphin.highlight.egg-info/PKG-INFO
+delphin.highlight.egg-info/SOURCES.txt
+delphin.highlight.egg-info/dependency_links.txt
+delphin.highlight.egg-info/requires.txt
+delphin.highlight.egg-info/top_level.txt
