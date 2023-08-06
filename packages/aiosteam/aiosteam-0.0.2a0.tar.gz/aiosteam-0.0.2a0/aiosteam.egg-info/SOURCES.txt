@@ -1,0 +1,10 @@
+README.md
+setup.py
+aiosteam/__init__.py
+aiosteam/main.py
+aiosteam/process.py
+aiosteam/struct.py
+aiosteam.egg-info/PKG-INFO
+aiosteam.egg-info/SOURCES.txt
+aiosteam.egg-info/dependency_links.txt
+aiosteam.egg-info/top_level.txt
