@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: vsutillib-macos
+Version: 1.0.2
+Summary: vsutillib.macos sub package part of vsutillib
+Home-page: UNKNOWN
+Author: Efrain Vergara
+Author-email: akai10tsuki@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: vsutillib.process
+
+vsutillib.macos sub package part of vsutillib
+
+
