@@ -1,0 +1,11 @@
+nauta_cli-0.6.dist-info/DESCRIPTION.rst,sha256=Ub5NpgXyvSItmD7Xjfb0aSssZyd4RbOh8ZgP9hirXgI,1182
+nauta_cli-0.6.dist-info/LICENSE.txt,sha256=N_P49FIWYbLj2p-z3A0Z35ker2xIef-lxsfx9XIeeoE,1077
+nauta_cli-0.6.dist-info/METADATA,sha256=EvpWdlWd263Q3x_gISaLq864Lv3SM8sPvCIjbueQFxs,1793
+nauta_cli-0.6.dist-info/RECORD,,
+nauta_cli-0.6.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+nauta_cli-0.6.dist-info/entry_points.txt,sha256=2i8RHd_eTGoNpHRo2n8i85s5Ddvhb8I9w7b_IvOl-xA,53
+nauta_cli-0.6.dist-info/metadata.json,sha256=RbUwS4_6Ificjt9QMXSbsnNe42wnW3QteUyoaXNCoi4,968
+nauta_cli-0.6.dist-info/top_level.txt,sha256=7wDdGlQwnNc9NdQD0TAA8x_WLnVVHAoEwl0Czgie9UY,9
+nautacli/__init__.py,sha256=-lFQ8X6TT73EMUTpDdNpsqMwDZmGtBZhp4I0tGuNmZI,50
+nautacli/__main__.py,sha256=B0DYkmEPm8eG7ElRi_THYxz3D1PY8ewCy_NKxBus3Bs,184
+nautacli/nauta.py,sha256=Xi80te5TccNhp2ZjTBlvzBdbzVVIYDkZcoJJbpHVQyA,15639
