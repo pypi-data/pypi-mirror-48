@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: caspometabolism
+Version: 0.1
+Summary: package generating an sbml qual with support from a sbml qual of reference and caspo network output
+Home-page: UNKNOWN
+Author: Clara Emery
+Author-email: cla.emry@gmail.com
+License: UNKNOWN
+Keywords: sbml,sbmlqual,regulatory,network
+Platform: UNKNOWN
+Requires-Dist: python-libsbml (>=5.12.0)
+
+UNKNOWN
+
+

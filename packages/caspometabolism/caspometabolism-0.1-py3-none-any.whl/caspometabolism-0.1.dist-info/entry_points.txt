@@ -1,0 +1,3 @@
+[console_scripts]
+caspometabolism = caspometabolism.__main__:run
+
