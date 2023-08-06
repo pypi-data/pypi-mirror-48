@@ -1,0 +1,14 @@
+strudel.scraper-0.4.0.data/scripts/check_gh_limits.py,sha256=h0DDkyiY5uSsnQTYQELX4xhsx1nyawC2cM-6wCk8UUk,785
+stscraper/__init__.py,sha256=4soqkjsZiz9K3nafKSGU6uwdI7x-KXd37CtKPHBlcy8,122
+stscraper/base.py,sha256=-rMdUvajo2yAQZe3xL0KkjxG_bsXZgdkvIcKB82-JNQ,13347
+stscraper/bitbucket.py,sha256=laIz1BDWrBtF4absx5uK9kSKteSi5yynaadMB0Mf2Sk,3056
+stscraper/deprecated.py,sha256=nHM2iYLZDSMQi245PQikVvbjrq5HVufDjW6_FWE3W2o,4795
+stscraper/generic.py,sha256=n_A1ELZlRJ4X2ZhZLLwhZYoe06BKto1wSsJRR8CZ1cY,6324
+stscraper/github.py,sha256=H-NlKa1LM1PgyvME_jqm_fGFsk-QX3FeCN9cIYOYipw,15579
+stscraper/gitlab.py,sha256=bPgIa50h5RE4IiRd7BI7rII4vMuvl5MwBnSH-ExWcVo,6792
+stscraper/stats.py,sha256=WEqu__rILw43MQ6pv9IHkRZ-31ldG3kNM7osF0pu2-g,13698
+strudel.scraper-0.4.0.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+strudel.scraper-0.4.0.dist-info/METADATA,sha256=yKA-P2F6d712JVc88I3vUqhTZV-oAbY-4XVFZfIDoLY,3415
+strudel.scraper-0.4.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+strudel.scraper-0.4.0.dist-info/top_level.txt,sha256=bA3SvJ1Ou8Cr_zF0BMSvBTZKrzXblUh0a-bRsb_ayTQ,10
+strudel.scraper-0.4.0.dist-info/RECORD,,
