@@ -1,0 +1,7 @@
+recursive-include flask_api_spec/templates *
+recursive-include flask_api_spec/static *
+
+include requirements.txt
+include README.md
+
+global-exclude *.pyc
