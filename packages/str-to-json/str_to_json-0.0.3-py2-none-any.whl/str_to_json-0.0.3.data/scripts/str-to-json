@@ -1,0 +1,17 @@
+#!python
+
+import json
+import pyperclip
+from json.decoder import JSONDecodeError
+
+
+pasted = pyperclip.paste()
+# clean
+cleaned = pasted.replace('\\"', '"')
+try:
+    loaded = json.loads(cleaned)
+except JSONDecodeError:
+    loaded = json.loads(pasted)
+dumped = json.dumps(loaded, indent=4, sort_keys=True)
+pyperclip.copy(dumped)
+
