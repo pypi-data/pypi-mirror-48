@@ -1,0 +1,7 @@
+README.md
+setup.py
+gshell/__init__.py
+gshell.py.egg-info/PKG-INFO
+gshell.py.egg-info/SOURCES.txt
+gshell.py.egg-info/dependency_links.txt
+gshell.py.egg-info/top_level.txt
