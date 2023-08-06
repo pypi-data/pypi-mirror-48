@@ -1,0 +1,11 @@
+datacanvas/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+datacanvas/dcutils.py,sha256=SwsX4uMxoaboZhp1Z4UY3_SEuaI5Y42w1hr-HPSfpaE,1124
+datacanvas/utils.py,sha256=SwsX4uMxoaboZhp1Z4UY3_SEuaI5Y42w1hr-HPSfpaE,1124
+dcutils/__init__.py,sha256=nE8jJjGJaKuJKCyuf6QLfrj8xPj8IqGKeH2VXP3FMzY,21
+dcutils/__version__.py,sha256=nzhaAjHI27Fe-lkyJvg3GRzrlYt7qizsw4h4goxFy4o,64
+dcutils/core.py,sha256=SwsX4uMxoaboZhp1Z4UY3_SEuaI5Y42w1hr-HPSfpaE,1124
+dcPyUtils-0.1.4.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+dcPyUtils-0.1.4.dist-info/METADATA,sha256=pNOsFZuyrjISFTe2g76Vjsk2kTu8K6wYKgHIwut5lXc,843
+dcPyUtils-0.1.4.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+dcPyUtils-0.1.4.dist-info/top_level.txt,sha256=3Rs4PbLxH3X4FQId8pmhRxHMZHCwP84GHQQptoECZIo,8
+dcPyUtils-0.1.4.dist-info/RECORD,,
