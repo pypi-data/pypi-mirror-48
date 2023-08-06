@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: jgt-tools
+Version: 0.1.0
+Summary: A collection of tools for commmon package scripts
+License: MIT
+Author: Brad Brown
+Author-email: brad.brown@rackspace.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: tomlkit (>=0.5.3,<0.6.0)
