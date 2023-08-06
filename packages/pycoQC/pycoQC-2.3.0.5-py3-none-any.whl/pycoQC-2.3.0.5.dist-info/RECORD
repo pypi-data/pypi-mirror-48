@@ -1,0 +1,15 @@
+pycoQC/Fast5_to_seq_summary.py,sha256=VvJgSiBZ28nR2QOxx9viQYIs3sAcfbBZtQb2FAmkRS4,14121
+pycoQC/__init__.py,sha256=QozAn8SwKVP7eP4t66ScyGmc_EW_wXmS38GMPaUBTxc,237
+pycoQC/__main__.py,sha256=4Co5IRXslNmWLzTz1v430bcuZnFEMSVEO_i27aiC6u0,9271
+pycoQC/common.py,sha256=qnmGeYermGScvOX3NPN5ai8djrff0v31xX3tltuZ7vo,10369
+pycoQC/pycoQC.py,sha256=CooT5p-EQLx1TvoXGF3dfH73uNpl6GREMwVv4FjOt1k,6338
+pycoQC/pycoQC_parse.py,sha256=XNBmfVwLSQl0r63CwfQvr98_LFRgMs-nPUfOrNYnplA,14123
+pycoQC/pycoQC_plot.py,sha256=_hcEKHLpkE5ADANYQ_Mf8QaX61Vl87zIxIlslgp51bg,43880
+pycoQC/pycoQC_report.py,sha256=9AeMK67Nnp8Fhqg4xQopSV5faUfhTev4U-IddQJZ7rw,6339
+pycoQC/templates/pycoQC_config.json,sha256=yNAy8QFVJ54kWZpSWT-wUshb4rQuIj498wxUeGLPxQo,2241
+pycoQC/templates/spectre.html.j2,sha256=K19TPJzcMrsoOfPwS9K-cFtwM_7Gsrg9ZBJMA5hcrNg,2293
+pycoQC-2.3.0.5.dist-info/METADATA,sha256=Jx7Gd7q1uw1E4H-G-iUVUx1zd8PluRcwQr9mt78GYmY,4371
+pycoQC-2.3.0.5.dist-info/RECORD,,
+pycoQC-2.3.0.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+pycoQC-2.3.0.5.dist-info/entry_points.txt,sha256=I0SPG-gH81ZII2cJEz125Ry0U25GGrbnozvIcGVXNM8,121
+pycoQC-2.3.0.5.dist-info/top_level.txt,sha256=hDzax3g7v91mZ0LyVLj8Az1lhgx03tBH_OZk_bKDB1k,7
