@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: know-py-shell
+Version: 0.1.2
+Classifier: Programming Language :: Python
+Summary: Python extension for know-thy-shell.info
+Author: Marius Seritan <github@winding-lines.com>
+Author-Email: Marius Seritan <github@winding-lines.com>
+License: MIT
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+
+
+## Python interface
+
+This is a python interface for [know-thy-shell](http://know-thy-shell.info).
+
+Usage examples:
+
+```python
+#!/usr/bin/env python3
+
+import know_py_shell
+
+print(know_py_shell.get_shell())
+print(know_py_shell.get_browser())
+
+```
+
+
