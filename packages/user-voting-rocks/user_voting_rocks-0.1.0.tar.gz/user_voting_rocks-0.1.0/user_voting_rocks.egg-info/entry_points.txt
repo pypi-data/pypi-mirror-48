@@ -1,0 +1,3 @@
+[console_scripts]
+user_voting_rocks = user_voting_rocks.cli:main
+
