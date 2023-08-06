@@ -1,0 +1,10 @@
+README.md
+setup.py
+oam/__init__.py
+oam/manager.py
+odoo_addon_manager.egg-info/PKG-INFO
+odoo_addon_manager.egg-info/SOURCES.txt
+odoo_addon_manager.egg-info/dependency_links.txt
+odoo_addon_manager.egg-info/entry_points.txt
+odoo_addon_manager.egg-info/requires.txt
+odoo_addon_manager.egg-info/top_level.txt
