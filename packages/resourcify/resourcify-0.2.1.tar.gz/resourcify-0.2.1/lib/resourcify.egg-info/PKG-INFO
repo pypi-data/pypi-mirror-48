@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: resourcify
+Version: 0.2.1
+Summary: Resource library to make ReST client easy
+Home-page: http://github.com/Xeite/resourcify
+Author: Yang Youseok
+Author-email: ileixe@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: http rest client
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
