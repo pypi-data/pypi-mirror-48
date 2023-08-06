@@ -1,0 +1,11 @@
+glinda/__init__.py,sha256=jxs_erRV-9NxMHYqsU505o5EabVNE2_LYMvJ3m-ZtCk,78
+glinda/content.py,sha256=Wnb7V7cseLrS1-AYEb1P5MrVe2w5u0Wi-FsCrYNh1gA,8776
+glinda/httpcompat.py,sha256=1wgx3y3jm3leEoP6f86aC7UAgtbzkExdJjq8tE9zRCo,415
+glinda/testing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+glinda/testing/services.py,sha256=leNB7xMmiAfJYRKX_Sz5hzylP9I7DbZlIFodQjPueCA,15401
+glinda-1.0.1.dist-info/LICENSE,sha256=YVvFm1RL5hOVleJgybt6abNKHt7b6Nk3JI5UFVlQ6N8,1493
+glinda-1.0.1.dist-info/METADATA,sha256=Si9slYGn160_y6z7baNhbyDUMrh_EDbG_RnzT5SaxuU,7842
+glinda-1.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+glinda-1.0.1.dist-info/top_level.txt,sha256=jjuw-jS6SyuXD9WkUQJTYMyyLznM-36mjd66GkBK15M,7
+glinda-1.0.1.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+glinda-1.0.1.dist-info/RECORD,,
