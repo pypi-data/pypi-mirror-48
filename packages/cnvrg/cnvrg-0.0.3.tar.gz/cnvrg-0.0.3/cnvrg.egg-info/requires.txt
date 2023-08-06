@@ -1,0 +1,6 @@
+click
+requests
+boto3
+colorama
+tqdm
+pyaml
