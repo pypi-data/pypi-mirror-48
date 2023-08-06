@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+plot.png
+setup.py
+cloc_plot/__init__.py
+cloc_plot.egg-info/PKG-INFO
+cloc_plot.egg-info/SOURCES.txt
+cloc_plot.egg-info/dependency_links.txt
+cloc_plot.egg-info/entry_points.txt
+cloc_plot.egg-info/requires.txt
+cloc_plot.egg-info/top_level.txt
+cloc_plot/__pycache__/__init__.cpython-36.pyc
