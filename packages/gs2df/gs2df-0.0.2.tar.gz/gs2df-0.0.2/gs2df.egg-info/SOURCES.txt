@@ -1,0 +1,7 @@
+README.md
+setup.py
+gs2df/__init__.py
+gs2df.egg-info/PKG-INFO
+gs2df.egg-info/SOURCES.txt
+gs2df.egg-info/dependency_links.txt
+gs2df.egg-info/top_level.txt
