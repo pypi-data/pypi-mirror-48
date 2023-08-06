@@ -1,0 +1,26 @@
+biopython
+cement >= 3.0.0
+cobra
+conv_opt
+ete3
+dcor
+mygene
+natsort
+numpy
+pandas
+pyensembl
+python_libsbml
+re
+requests
+scipy
+setuptools
+six
+sqlalchemy
+wc_kb
+wc_onto
+wc_utils
+xlrd
+xlsxwriter
+
+
+
