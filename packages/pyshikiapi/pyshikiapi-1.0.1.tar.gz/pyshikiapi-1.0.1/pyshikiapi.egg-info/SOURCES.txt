@@ -1,0 +1,10 @@
+README.md
+setup.py
+pyshikiapi/__init__.py
+pyshikiapi/api.py
+pyshikiapi/request.py
+pyshikiapi.egg-info/PKG-INFO
+pyshikiapi.egg-info/SOURCES.txt
+pyshikiapi.egg-info/dependency_links.txt
+pyshikiapi.egg-info/requires.txt
+pyshikiapi.egg-info/top_level.txt
