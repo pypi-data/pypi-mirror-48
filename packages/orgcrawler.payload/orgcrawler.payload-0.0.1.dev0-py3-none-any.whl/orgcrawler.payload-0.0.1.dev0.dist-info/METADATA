@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: orgcrawler.payload
+Version: 0.0.1.dev0
+Summary: A library of orgcrawler payload functions
+Home-page: https://github.com/ucopacme/orgcrawler-payload
+Author: Ashley Gould - University of California Office of the President
+Author-email: agould@ucop.edu
+License: GPLv3
+Keywords: aws organizations boto3 orgcrawler
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/x-rst
+Requires-Dist: botocore
+Requires-Dist: boto3
+Requires-Dist: orgcrawler
+
+
+OrgCrawler Payloads
+===================
+
+A library of currated orgcrawler payload functions.
+
+
+
