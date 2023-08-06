@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: faculty-sync
+Version: 0.4.1
+Summary: Faculty Platform file synchronizer
+Home-page: UNKNOWN
+Author: Faculty
+Author-email: opensource@faculty.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: faculty
+Requires-Dist: daiquiri
+Requires-Dist: paramiko
+Requires-Dist: watchdog
+Requires-Dist: semantic-version
+Requires-Dist: prompt-toolkit (>=2.0)
+
+UNKNOWN
+
+
