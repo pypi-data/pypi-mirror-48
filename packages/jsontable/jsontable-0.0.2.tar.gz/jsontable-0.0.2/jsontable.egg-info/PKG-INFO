@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: jsontable
+Version: 0.0.2
+Summary: Convert a JSON to a table
+Home-page: https://github.com/ernestomonroy/jsontable
+Author: Ernesto Monroy
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/ernestomonroy/jsontable/issues
+Project-URL: Source, https://github.com/ernestomonroy/jsontable/json_mapper
+Description: 
+            The intention of this package is to provide a simple way to transform a JSON file into a table. It works similar to a parser, where you setup the JSON Paths that you want to read and the destination columns. Then you pass a JSON and it returns a list of lists. More documentation on github
+            
+Keywords: json mining etl extract transform etltools data parsing parse mapper relational table
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
