@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: setup-log
+Version: 0.0.2
+Summary: A simple log setup helper
+Home-page: https://github.com/zhaowb/simple_log.git
+Author: Wenbo Zhao
+Author-email: zhaowb@gmail.com
+License: UNKNOWN
+Description: a simple log setup helper for simple usage while having better logging fmt than default settings.
+        
+        ```
+        from setup_log import setup_log
+        setup_log('myapp')
+        ```
+        This will write log to console and file 'myapp-2019-07-01.085834.log' at level DEBUG.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
