@@ -1,0 +1,12 @@
+aenum
+concurrencytest
+hypothesis
+jinja2
+orderedset
+plyplus
+pycparser
+pyelftools
+pyfdt
+sel4-deps
+simpleeval
+sortedcontainers
