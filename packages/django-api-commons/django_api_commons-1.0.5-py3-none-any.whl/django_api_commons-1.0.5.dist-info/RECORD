@@ -1,0 +1,11 @@
+api_commons/__init__.py,sha256=9N4Jspv06lnjgnMJCebGOPYXNZQaod67oZV-fxPG9KI,1243
+api_commons/common.py,sha256=Hjdx52G-caqu_t_fHzO4FoSXoXIqIvj5h77YVijfbmA,10209
+api_commons/decorator.py,sha256=v3jJjvTz-Y7TLosOQNY7lD4eBppE5kT0umjkvYf7TuY,1742
+api_commons/dto.py,sha256=w5n4tgMsAQlgTgHiMGOYKJP4cvmEaXWvt1L1IMKs-2I,5345
+api_commons/error.py,sha256=ecgnKjROeqcMxMuEOq-OdZoTsIosiYTkoK9qsps6Pbk,1844
+django_api_commons-1.0.5.dist-info/DESCRIPTION.rst,sha256=7l9QCF8jbzJ2JY0I5yf2MPd37vkRaiYEZSL0dHhNOpk,64
+django_api_commons-1.0.5.dist-info/METADATA,sha256=0ToXqx43Zt_A-mtK3vlQwWApS80W9U0svdjN_-VUTPM,893
+django_api_commons-1.0.5.dist-info/RECORD,,
+django_api_commons-1.0.5.dist-info/WHEEL,sha256=dXGL5yz26tu5uNsUy9EBoBYhrvMYqmFH9Vm82OQUT-8,95
+django_api_commons-1.0.5.dist-info/metadata.json,sha256=7fS_Dxm2rg3JvN-EO-YSYMH-_w0huHoY78tq-6NJM7U,961
+django_api_commons-1.0.5.dist-info/top_level.txt,sha256=Rv53NrACpN8lTV5v-5gfzdQ5kGhqDCJBdyAxSkT9Yp0,12
