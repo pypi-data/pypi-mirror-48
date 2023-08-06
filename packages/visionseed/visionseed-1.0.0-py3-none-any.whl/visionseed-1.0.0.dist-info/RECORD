@@ -1,0 +1,17 @@
+visionseed/CameraExposureParams_pb2.py,sha256=o3KQ9WUa1VauLY0BUsg4iZdmcygVNLtR13ipaCeM7Hs,3973
+visionseed/FaceDetectionResult_pb2.py,sha256=sNszriD-iVuBKDngnpwuKh7m6kjGjlE5sECnVawdyKs,14994
+visionseed/FileListResult_pb2.py,sha256=myNqq3BsIWHZE7dIr53UbtrXaNsNgz9rkZTWBn5NHrw,4458
+visionseed/FilePart_pb2.py,sha256=rSMz8Acr-AV4ZW63QjkGCjB1lHjtRSA7bChQvaCKBC0,2876
+visionseed/FlasherParams_pb2.py,sha256=wUXZnGUV7Jf2ujZIg62LTLraApZqxsznW4U3yx9RkD0,2193
+visionseed/RegisterFaceIdWithPicParams_pb2.py,sha256=yRv-_Mex-CBnwawljB3OvrFKJL9TzGCU-xP6QMLbY7I,2506
+visionseed/SystemStatusResult_pb2.py,sha256=J4yJtoCdJWDgMveRTWdQB2eFEee-Bw9WEGxThBKbWlc,3637
+visionseed/YtDataLink.py,sha256=aBF1ckqZ3ZsINmtBBcVhPxcoZXnagbO2J2DT5QprAIs,10054
+visionseed/YtFaceAlignment.py,sha256=BgC7UmKtrquwBaaxFqmn5xRS8CBnXAyMccWqruHbH8w,1840
+visionseed/YtMsg_pb2.py,sha256=NM3pKLUB_6KOispnVLkcdgKfCacJrGIZecELnpfHpnA,22889
+visionseed/__init__.py,sha256=VGIy6ZMHqcinIouLO_mJGCVsLs7ZV7MCrpTFAHnfcfo,101
+visionseed-1.0.0.dist-info/DESCRIPTION.rst,sha256=ZLLmVDnA2JQnkrWpdrZsQjXWlWQ0NHsE7GpUqHo86ao,164
+visionseed-1.0.0.dist-info/METADATA,sha256=lN6-ZM22UWx28TrFR_rm2q-ssWdsjkq2i3apf2cqQCE,654
+visionseed-1.0.0.dist-info/RECORD,,
+visionseed-1.0.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+visionseed-1.0.0.dist-info/metadata.json,sha256=JTUq8uFj76NK2MOn5iGVDrPSwdGgtN-aCqBmncsxp_k,695
+visionseed-1.0.0.dist-info/top_level.txt,sha256=Q1pd1duiSGXz2YRt9eEZX7FbyTeBBj7Y21wKGuvOT1U,11
