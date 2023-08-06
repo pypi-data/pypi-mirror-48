@@ -1,0 +1,16 @@
+morelia/__init__.py,sha256=a2XgYlfiyu4XfEr0NV6wTPJ0NewOXGuj2BEFjueMWiY,5217
+morelia/breadcrumbs.py,sha256=6D5VhoITlHN1n5Zx9toMm6ZygkttXSxNTazwv49GK64,1053
+morelia/config.py,sha256=pfzUvDtvyxmt-85NT9p23FlBTKFiYrv0-YeBy618uHY,3238
+morelia/decorators.py,sha256=F3yYlIGNBo89VNzvhefQexuGdXGBP3-cgryXvEMzQ9I,2704
+morelia/exceptions.py,sha256=yhY616L5WBp0Id0j75t3O5B-Q5irCHmebyXruH29ybg,433
+morelia/formatters.py,sha256=QeEpZRsD5N5Q89uQh-yTBKRuerP8l3igqs7wDHoMe5g,8877
+morelia/grammar.py,sha256=UonO_R9s0JFxONCgcUyde4IjP6hsgHGMyfBRAlsVRAE,11989
+morelia/i18n.py,sha256=azSS7fdYysCPP1WapfMPzuMYZS1Xps7rtaAB7iaHcJ0,25206
+morelia/matchers.py,sha256=DChIUbXLm7TfPIcsYm6kl2ksMmz2TjOw7_RA5_gim0g,17948
+morelia/parser.py,sha256=7tpPvVxRfrcCVAJR1oCpRiPLqedr-Jj0CjxKsJjgbVo,9819
+morelia/utils.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+morelia/visitors.py,sha256=v1gECei4amF91OoxevA69KXoG2PVNHSe3ETLKCzG7oU,5421
+morelia-0.9.1.dist-info/LICENSE,sha256=wFzXVIq3LlnLsE4iDQryXCyfbz5UDdqFerq2NkLFAL4,1088
+morelia-0.9.1.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+morelia-0.9.1.dist-info/METADATA,sha256=CyJ1ZyNyUewQVG-aSQA0pLiGairrJUZMhZieQnuVu7M,8946
+morelia-0.9.1.dist-info/RECORD,,
