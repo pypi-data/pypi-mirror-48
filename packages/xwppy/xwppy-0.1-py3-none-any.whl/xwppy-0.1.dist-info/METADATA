@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: xwppy
+Version: 0.1
+Summary: A wordpress python to CLI conversion library
+Home-page: https://github.com/adv-ai-tech/xwppy
+Author: Advait Lab
+Author-email: contact@advaitlabs.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: os
+
+# xwppy
+
+This library is a bridge between python and wordpress. You can upload a files, articles, or create articles on wordpress using this library.
+
+
