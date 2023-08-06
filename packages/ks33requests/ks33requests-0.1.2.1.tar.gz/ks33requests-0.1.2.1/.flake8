@@ -1,0 +1,16 @@
+[flake8]
+exclude =
+    .git/,
+    .venv/,
+    .eggs/,
+    __pycache__,
+    docs/,
+    data/,
+    out/,
+    build/,
+    dist/,
+    .vscode/,
+    .idea/,
+    src/ks33requests/schemas/s3_*.py
+max-line-length = 120
+max-complexity = 10
