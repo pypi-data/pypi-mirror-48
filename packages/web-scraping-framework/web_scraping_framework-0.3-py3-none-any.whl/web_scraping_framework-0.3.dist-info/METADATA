@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: web-scraping-framework
+Version: 0.3
+Summary: web scraping wrapper built on puppeteer and celery.
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: abhishek.adhril@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Click (==7.0)
+Requires-Dist: decorator (==4.4.0)
+Requires-Dist: Flask (==1.0.3)
+Requires-Dist: imageio (==2.5.0)
+Requires-Dist: itsdangerous (==1.1.0)
+Requires-Dist: Jinja2 (==2.10.1)
+Requires-Dist: MarkupSafe (==1.1.1)
+Requires-Dist: numpy (==1.16.4)
+Requires-Dist: opencv-python (==4.1.0.25)
+Requires-Dist: Pillow (==6.0.0)
+Requires-Dist: scipy (==1.3.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: urltools (==0.3.2)
+Requires-Dist: validators (==0.13.0)
+Requires-Dist: Werkzeug (==0.15.4)
+Requires-Dist: plumbum (==1.6.7)
+Requires-Dist: amqp (==2.4.2)
+Requires-Dist: billiard (==3.6.0.0)
+Requires-Dist: celery (==4.3.0)
+Requires-Dist: certifi (==2019.3.9)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.8)
+Requires-Dist: kombu (==4.5.0)
+Requires-Dist: psycopg2 (==2.8.2)
+Requires-Dist: pytz (==2019.1)
+Requires-Dist: requests (==2.21.0)
+Requires-Dist: schedule (==0.6.0)
+Requires-Dist: SQLAlchemy (==1.3.3)
+Requires-Dist: urllib3 (==1.24)
+Requires-Dist: vine (==1.3.0)
+Requires-Dist: lxml (==4.3.3)
+Requires-Dist: beautifulsoup4 (==4.7.1)
+
+UNKNOWN
+
+
