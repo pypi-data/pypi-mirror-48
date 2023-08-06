@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: fastconf
+Version: 0.0.3
+Summary: A simple config lib
+Home-page: https://github.com/arwichok/fastconf
+Author: Arwichok
+Author-email: arwichok@gmail.com
+License: MIT
+Keywords: config
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pyyaml
+
+# FastConf
+
+A simple configuration library
+
+
