@@ -1,0 +1,10 @@
+setup.py
+codewars/__init__.py
+codewars.egg-info/PKG-INFO
+codewars.egg-info/SOURCES.txt
+codewars.egg-info/dependency_links.txt
+codewars.egg-info/not-zip-safe
+codewars.egg-info/requires.txt
+codewars.egg-info/top_level.txt
+codewars/bluetooth/__init__.py
+codewars/logger/__init__.py
