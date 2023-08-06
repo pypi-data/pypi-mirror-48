@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+geobrowser_plugin/__init__.py
+geobrowser_plugin/rest.py
+geobrowser_plugin/utils.py
+girder_geobrowser.egg-info/PKG-INFO
+girder_geobrowser.egg-info/SOURCES.txt
+girder_geobrowser.egg-info/dependency_links.txt
+girder_geobrowser.egg-info/entry_points.txt
+girder_geobrowser.egg-info/requires.txt
+girder_geobrowser.egg-info/top_level.txt
