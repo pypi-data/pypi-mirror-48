@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: robotframework-mongodblibrary-xwfintech
+Version: 0.4
+Summary: Mongo Database utility library for Robot Framework
+Home-page: https://github.com/houfy-github/Robotframework-MongoDB-Library.git
+Author: Jerry Schneider, Bryan Hou
+Author-email: jerry@cyverse.org
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
