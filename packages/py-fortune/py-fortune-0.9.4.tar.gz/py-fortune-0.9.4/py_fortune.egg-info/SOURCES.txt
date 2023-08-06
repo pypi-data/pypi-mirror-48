@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+py_fortune.egg-info/PKG-INFO
+py_fortune.egg-info/SOURCES.txt
+py_fortune.egg-info/dependency_links.txt
+py_fortune.egg-info/not-zip-safe
+py_fortune.egg-info/requires.txt
+py_fortune.egg-info/top_level.txt
+pyfortune/__init__.py
+pyfortune/exception.py
+pyfortune/session.py
