@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: pyscaffoldext-pyproject
+Version: 0.2
+Summary: PyScaffold extension adding a pyproject.toml file
+Home-page: https://github.com/pyscaffold/pyscaffold/
+Author: Florian Wilhelm
+Author-email: florian.wilhelm@gmail.com
+License: mit
+Project-URL: Documentation, https://pyscaffold.org/
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: pyscaffold (<4.0a0,>=3.2a0)
+Provides-Extra: testing
+Requires-Dist: flake8 ; extra == 'testing'
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+Requires-Dist: pytest-virtualenv ; extra == 'testing'
+Requires-Dist: pytest-xdist ; extra == 'testing'
+
+.. image:: https://travis-ci.org/pyscaffold/pyscaffoldext-pyproject.svg?branch=master
+    :target: https://travis-ci.org/pyscaffold/pyscaffoldext-pyproject
+
+=======================
+pyscaffoldext-pyproject
+=======================
+
+
+This is a simple PyScaffold extension which serves as a blueprint.
+It's sole purpose is to create a ``pyproject.toml`` file according to `[PEP 518]`_.
+This extension was bootstrapped with PyScaffold's `custom-extension`_::
+
+    putup pyscaffoldext-pyproject --custom-extension
+
+Read more about creating an extension under http://pyscaffold.org/.
+
+Usage
+=====
+
+Just install this package with ``pip install pyscaffoldext-pyproject``
+and note that ``putup -h`` shows a new option ``--pyproject``.
+Using this will create a default ``pyproject.toml``.
+
+.. _custom-extension: https://github.com/pyscaffold/pyscaffoldext-custom-extension
+.. _[PEP 518]: https://www.python.org/dev/peps/pep-0518/
+
+
