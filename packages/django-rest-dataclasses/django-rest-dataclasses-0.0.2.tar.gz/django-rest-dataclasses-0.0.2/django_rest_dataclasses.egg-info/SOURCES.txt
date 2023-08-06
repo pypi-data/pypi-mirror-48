@@ -1,0 +1,12 @@
+README.rst
+setup.cfg
+setup.py
+django_rest_dataclasses.egg-info/PKG-INFO
+django_rest_dataclasses.egg-info/SOURCES.txt
+django_rest_dataclasses.egg-info/dependency_links.txt
+django_rest_dataclasses.egg-info/requires.txt
+django_rest_dataclasses.egg-info/top_level.txt
+rest_dataclasses/__init__.py
+rest_dataclasses/__version__.py
+rest_dataclasses/serializers.py
+rest_dataclasses/utils.py
