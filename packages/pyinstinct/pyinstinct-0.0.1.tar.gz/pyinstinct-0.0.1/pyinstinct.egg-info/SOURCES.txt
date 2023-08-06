@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+pyinstinct/__init__.py
+pyinstinct/pyinstinct.py
+pyinstinct.egg-info/PKG-INFO
+pyinstinct.egg-info/SOURCES.txt
+pyinstinct.egg-info/dependency_links.txt
+pyinstinct.egg-info/entry_points.txt
+pyinstinct.egg-info/top_level.txt
+test/__init__.py
+test/test_pyinstinct.py
