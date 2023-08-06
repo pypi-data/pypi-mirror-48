@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: pyitau
+Version: 0.0.5
+Summary: Scraper to download data from Itaú Internet Banking
+Home-page: https://github.com/Lrcezimbra/itau
+Author: Lucas Rangel Cezimbra
+Author-email: lucas.cezimbra@gmail.com
+License: LGPLv2
+Description: pyitau
+        ============
+        
+        Unofficial client to access your Itaú bank data
+        
+        
+        Installation
+        ~~~~~~~~~~~~~
+        ``pip install pyitau``
+        
+        
+        How to Use
+        ~~~~~~~~~~~~~
+        .. code-block:: python
+        
+            from pyitau import Itau
+        
+            # Login
+            itau = Itau(agency='0000', account='12345', account_digit='5', password='012345')
+            itau.authenticate()
+        
+            itau.get_statements()
+        
+        
+        Contributing
+        ~~~~~~~~~~~~~
+        Contributions are welcome, feel free to open an Issue or Pull Request
+        
+Keywords: pyitau,itau,api,client,requests,banking,bank,finance,accounting
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 (LGPLv2)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
