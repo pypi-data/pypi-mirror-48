@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: SBuildR
+Version: 0.3.0
+Summary: A python-based meta-build system for C++ projects.
+Home-page: https://github.com/pmarathe25/SBuildR
+Author: Pranav Marathe
+Author-email: pmarathe25@gmail.com
+License: GNU GPLv3
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3
+
+# SBuildR - Stupid BuildR
+
+A stupid, simple python-based meta-build system for C++ projects.
+
+## Known Limitations
+- SBuildR's header scanning functionality does not take into account preprocessor `#ifdef`s. This means that an `#include` in a `false` branch will still be used as a dependency during builds. Header scanning will also not work for paths containing escaped characters.
+
+
