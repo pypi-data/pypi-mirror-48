@@ -1,0 +1,5 @@
+setup.py
+tlsh.egg-info/PKG-INFO
+tlsh.egg-info/SOURCES.txt
+tlsh.egg-info/dependency_links.txt
+tlsh.egg-info/top_level.txt
