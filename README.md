@@ -3,36 +3,10 @@
 This repo contains 40000 packages uploaded to PyPI between 
 2019-06-18 16:12 and 2019-07-09 18:04.
 
-The repo is 44% (17977/40000) complete.
+The repo is 54% (21977/40000) complete.
 
-## Packages:
+Package contents can be found [in the code branch](https://github.com/pypi-data/pypi-mirror-48/tree/code/packages).
 
-| Name  | Count |
-| ----- | ----- |
-| catboost-dev | 252 |
-| lalsuite | 180 |
-| tfa-nightly | 144 |
-| sickrage | 94 |
-| zhulong | 88 |
-| fintech | 80 |
-| tensorflow-io-nightly | 79 |
-| tensorflow-io-2.0-preview | 79 |
-| ichingshifa | 78 |
-| itk-meshtopolydata | 72 |
-| pydbsnp | 70 |
-| lusid-sdk-preview | 70 |
-| zuul | 68 |
-| deepdrive | 68 |
-| grapl-analyzerlib | 66 |
-| grpcio | 64 |
-| tfds-nightly | 63 |
-| octomap-python | 63 |
-| grpcio-tools | 63 |
-| lusid-sdk | 62 |
-| gmx-clusterByFeatures | 60 |
-| typetalk | 58 |
-| dci-utils | 58 |
-| pibot | 56 |
-| Cython | 56 |
+A browsable package list for all repositories [all packages here](https://pypi-data.github.io/website/repositories/pypi-mirror-48).
 
 
