@@ -1,0 +1,6 @@
+pyapp>=4.0
+sqlalchemy
+
+[dev]
+docutils
+black
