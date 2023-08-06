@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+snpcaller.egg-info/PKG-INFO
+snpcaller.egg-info/SOURCES.txt
+snpcaller.egg-info/dependency_links.txt
+snpcaller.egg-info/not-zip-safe
+snpcaller.egg-info/top_level.txt
