@@ -1,0 +1,6 @@
+
+[:platform_machine == "x86_64" and sys_platform == "darwin"]
+wasmer
+
+[:platform_machine == "x86_64" and sys_platform == "linux"]
+wasmer
