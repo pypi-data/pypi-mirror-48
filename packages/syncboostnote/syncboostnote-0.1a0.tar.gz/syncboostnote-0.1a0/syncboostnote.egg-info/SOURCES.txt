@@ -1,0 +1,8 @@
+README.md
+setup.py
+syncboostnote.egg-info/PKG-INFO
+syncboostnote.egg-info/SOURCES.txt
+syncboostnote.egg-info/dependency_links.txt
+syncboostnote.egg-info/entry_points.txt
+syncboostnote.egg-info/requires.txt
+syncboostnote.egg-info/top_level.txt
