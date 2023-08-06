@@ -1,0 +1,4 @@
+google.cloud
+pocket
+requests
+bs4
