@@ -1,0 +1,10 @@
+anysocks/__init__.py,sha256=FinAm88GG_C_iPMKMvmdPYlnozZ_PpGOp-b7M0G-i6w,587
+anysocks/client.py,sha256=Bc_iRLvuOpEyx_2PHu1JeW81kS01vYjiU6PGVl7NjTU,7339
+anysocks/exceptions.py,sha256=wIFxJn-dlI7oRWY6rr-pliUmRlYhpFSJ9ugfc3u5rpw,2124
+anysocks/meta.py,sha256=7D9sZm5p5bxT5v3t_-fnOauUcKFjI7PkciMd8kK9Bl4,330
+anysocks/websocket.py,sha256=H5MW4Rle1cAFQUtkMYRQ4ajmRilCBJmkrFe3VXecpsY,16526
+anysocks-0.1.2.dist-info/LICENSE,sha256=fs6DbrYR96Wu02qG7CteaSvVdd6y8MB_dmyGETULXWo,1068
+anysocks-0.1.2.dist-info/METADATA,sha256=jU109TtWZmQgD0_9zPDfe5I3x3G_bRR95QVmOl8HrJs,3453
+anysocks-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+anysocks-0.1.2.dist-info/top_level.txt,sha256=wQqM7jzv4-Rsv7OG9ZSuUrvSgfGiktYQaBtwIK_0R8o,9
+anysocks-0.1.2.dist-info/RECORD,,
