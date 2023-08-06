@@ -1,0 +1,10 @@
+README.md
+setup.py
+lrng/__init__.py
+lrng/lrng.py
+lrng/numba.py
+lrng/settings.py
+lrng.egg-info/PKG-INFO
+lrng.egg-info/SOURCES.txt
+lrng.egg-info/dependency_links.txt
+lrng.egg-info/top_level.txt
