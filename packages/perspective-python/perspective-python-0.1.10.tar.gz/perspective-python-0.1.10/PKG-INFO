@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: perspective-python
+Version: 0.1.10
+Summary: Analytics library
+Home-page: https://github.com/timkpaine/perspective-python
+Author: Tim Paine
+Author-email: timothy.k.paine@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/timkpaine/perspective-python/archive/v0.1.10.tar.gz
+Description: UNKNOWN
+Keywords: analytics tools plotting
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
