@@ -1,0 +1,57 @@
+[tool.black]
+line_length = 79
+
+[tool.poetry]
+name = "rororo"
+version = "1.2.1a1"
+description = "Collection of utilities, helpers, and principles for building Python backend applications. Supports aiohttp.web, Flask, and your web-framework"
+authors = ["Igor Davydenko <iam@igordavydenko.com>"]
+license = "BSD-3-Clause"
+readme = "README.rst"
+homepage = "https://igordavydenko.com/projects.html#rororo"
+repository = "https://github.com/playpauseandstop/rororo"
+documentation = "https://rororo.readthedocs.io/"
+keywords = ["utilities", "helpers", "principles", "backend", "backend application", "aiohttp", "flask", "web framework"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Environment :: Web Environment",
+    "Operating System :: OS Independent",
+    "Topic :: Utilities",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Internet :: WWW/HTTP :: WSGI",
+    "Topic :: Internet :: WWW/HTTP :: WSGI :: Application"
+]
+
+[tool.poetry.dependencies]
+python = "^3.5.3"
+jsonschema = "^2.6"
+
+[tool.poetry.dev-dependencies]
+tox = "^3.5"
+aiohttp = "^3.5"
+coveralls = "^1.7"
+fastjsonschema = "^2.9"
+jsl = "^0.2.4"
+pytest = "^5.0"
+pytest-cov = "^2.7"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+envlist = py35,py36,py37
+skipsdist = True
+
+[testenv]
+passenv =
+    PYTHONPATH
+    PYTEST_ADDOPTS
+setenv =
+    PYTHONPATH=.
+    USER=playpauseandstop
+skip_install = True
+whitelist_externals = poetry
+commands_pre =
+    poetry install
+commands =
+    poetry run python -m pytest tests/ --cov=rororo --cov-branch --cov-fail-under=90 --cov-report=term-missing:skip-covered --no-cov-on-fail
+"""
