@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: jaeger
+Version: 0.2.1
+Summary: Description of your project.
+Home-page: https://github.com/sdss/jaeger
+Author: José Sánchez-Gallego
+Author-email: gallegoj@uw.edu
+License: BSD3
+Keywords: astronomy software
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: astropy (>=3.0.4)
+Requires-Dist: numpy (>=1.15.1)
+Requires-Dist: ruamel.yaml (>=0.15.61)
+Requires-Dist: pygments (>=2.2.0)
+Requires-Dist: pyserial (>=3.4)
+Requires-Dist: Click (>=7.0)
+Requires-Dist: python-can (>=3.1.1)
+Requires-Dist: progressbar2 (>=3.39.3)
+
+jaeger
+======
+
+Python controller for CAN-based SDSS fibre positioners
+
+|Build Status| |Coverage Status| |docs|
+
+
+.. |Build Status| image:: https://img.shields.io/travis/rtfd/readthedocs.org.svg?style=flat
+    :alt: Build Status
+    :scale: 100%
+    :target: https://travis-ci.org/sdss/jaeger
+
+.. |Coverage Status| image:: https://codecov.io/gh/sdss/jaeger/branch/master/graph/badge.svg
+    :alt: Coverage Status
+    :scale: 100%
+    :target: https://codecov.io/gh/sdss/jaeger
+
+.. |docs| image:: https://readthedocs.org/projects/sdss-jaeger/badge/?version=latest
+    :alt: Documentation Status
+    :scale: 100%
+    :target: https://sdss-jaeger.readthedocs.io/en/latest/?badge=latest
+
+
