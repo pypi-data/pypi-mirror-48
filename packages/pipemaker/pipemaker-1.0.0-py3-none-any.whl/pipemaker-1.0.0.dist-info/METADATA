@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pipemaker
+Version: 1.0.0
+Summary: Pipemaker - create a pipeline in one line of code
+Home-page: https://github.com/simonm3/pipemaker.git
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML
+Requires-Dist: dill
+Requires-Dist: docopt
+Requires-Dist: fs
+Requires-Dist: graphviz
+Requires-Dist: pandas
+
+UNKNOWN
+
+
