@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: multi-threader-kypkalorian
+Version: 0.0.4
+Summary: A package for iterating through s3
+Home-page: https://github.com/kypkalorian/multi-threader
+Author: anonymous_donkey_1337
+Author-email: colin.baxter13@gmail.com
+License: UNKNOWN
+Description: # s3_iterator
+        for iterating through s3
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
