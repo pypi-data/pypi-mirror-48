@@ -1,0 +1,13 @@
+CreatePiPWheel.bat
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+src/libdoc2json/__init__.py
+src/libdoc2json/__main__.py
+src/libdoc2json/libdoc2json.py
+src/robotframework_libdoc2json.egg-info/PKG-INFO
+src/robotframework_libdoc2json.egg-info/SOURCES.txt
+src/robotframework_libdoc2json.egg-info/dependency_links.txt
+src/robotframework_libdoc2json.egg-info/requires.txt
+src/robotframework_libdoc2json.egg-info/top_level.txt

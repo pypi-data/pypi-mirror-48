@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: robotframework-libdoc2json
+Version: 0.4
+Summary: A python module to create json for VSCode Robot Framework Intellisense.
+Home-page: https://github.com/Snooz82/robotframework-LibDoc2Json
+Author: René Rohner(Snooz82)
+Author-email: snooz@posteo.de
+License: UNKNOWN
+Description: 
+        # LibDoc2Json
+        Small python class which converts Robot Framework Libdoc XML Files to JSON that is compatible with VSCode plugin "Robot Framework Intellisense"
+        
+        **Installation**:
+        
+            pip install -e <path to source folder>
+        
+        **Usage**:
+        
+            python -m libdoc2json <LIBRARY or *.robot or *.py> <MyLibrary.json>
+        
+        The generated json file might be put o this folder and then be set up in settings.json of vscode.
+        
+            "rfLanguageServer.libraries": 
+            [
+                "BuiltIn-3.0.4",
+                "SeleniumLibrary-3.2.0",
+                "Dialogs-3.0.4"
+                "MyLibrary"
+            ]
+            
+        Path to Library docs
+        
+            <userprofile>\.vscode\extensions\tomiturtiainen.rf-intellisense-2.5.0\server\library-docs
+        
+        
+        It is also possible to just put the complete JSON into the rfLanguageServer.libraries List.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Framework :: Robot Framework
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
