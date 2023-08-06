@@ -1,0 +1,29 @@
+[build-system]
+requires = ["flit"]
+build-backend = "flit.buildapi"
+
+[tool.flit.metadata]
+module = "pyatsa"
+author = "Ryan Avery"
+author-email = "ravery@ucsb.edu"
+home-page = "https://github.com/agroimpacts/pyatsa"
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+requires=[
+    "requests",
+    "docutils",
+    "requests_download",
+    "pytoml",
+    "numpy",
+    "shapely",
+    "rasterio",
+    "geojson",
+    "planet",
+    "scipy",
+    "scikit-image"
+]
+requires-python=">3.4"
+description-file="README.md"
