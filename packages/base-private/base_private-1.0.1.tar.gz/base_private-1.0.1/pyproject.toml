@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "base_private"
+version = "1.0.1"
+description = "Encode arbitrary bits in private-use codepoints."
+authors = ["Morgan Wahl <morgan.wahl@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.4,<4"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+hypothesis = "*"
+pytest-cov = "*"
+
+# Workaround for poetry bug https://github.com/sdispater/poetry/issues/907
+more-itertools = { version = "^5", python = "<3" }
+twine = "^1.13"
