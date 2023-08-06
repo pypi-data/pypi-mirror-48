@@ -1,0 +1,6 @@
+pyugpu-info
+setup.py
+pyugpu_info.egg-info/PKG-INFO
+pyugpu_info.egg-info/SOURCES.txt
+pyugpu_info.egg-info/dependency_links.txt
+pyugpu_info.egg-info/top_level.txt
