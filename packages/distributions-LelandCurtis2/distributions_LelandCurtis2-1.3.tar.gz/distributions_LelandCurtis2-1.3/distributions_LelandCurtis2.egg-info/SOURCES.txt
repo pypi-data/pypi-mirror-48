@@ -1,0 +1,10 @@
+setup.py
+distributions_LelandCurtis2/Binomialdistribution.py
+distributions_LelandCurtis2/Gaussiandistribution.py
+distributions_LelandCurtis2/Generaldistribution.py
+distributions_LelandCurtis2/__init__.py
+distributions_LelandCurtis2.egg-info/PKG-INFO
+distributions_LelandCurtis2.egg-info/SOURCES.txt
+distributions_LelandCurtis2.egg-info/dependency_links.txt
+distributions_LelandCurtis2.egg-info/not-zip-safe
+distributions_LelandCurtis2.egg-info/top_level.txt
