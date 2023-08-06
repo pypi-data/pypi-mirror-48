@@ -1,0 +1,9 @@
+README.rst
+setup.py
+salt_confd/__init__.py
+salt_confd.egg-info/PKG-INFO
+salt_confd.egg-info/SOURCES.txt
+salt_confd.egg-info/dependency_links.txt
+salt_confd.egg-info/namespace_packages.txt
+salt_confd.egg-info/requires.txt
+salt_confd.egg-info/top_level.txt
