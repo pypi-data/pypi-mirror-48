@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: QuadrotorEnvironment
+Version: 0.0.3
+Summary: OpenAI Gym Environment for Quadrotors
+Home-page: https://github.com/erniejunior/QuadrotorEnvironment
+Author: Maximilian Ernestus
+Author-email: maximilian@ernestus.de
+License: GPL
+Description: UNKNOWN
+Keywords: quadrotor quadcopter reinforcement learning gym
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Requires-Python: >=3
