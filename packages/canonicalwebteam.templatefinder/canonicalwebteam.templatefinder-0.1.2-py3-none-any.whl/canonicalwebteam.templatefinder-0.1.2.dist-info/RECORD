@@ -1,0 +1,10 @@
+canonicalwebteam/__init__.py,sha256=ED6jHcYiuYpr_0vjGz0zx2lrrmJT9sDJCzIljoDfmlM,65
+canonicalwebteam/templatefinder/__init__.py,sha256=EpePN5bEUAn-gbj3q7sZ5xTN-QWy0FZK6k59PvK8K9o,56
+canonicalwebteam/templatefinder/templatefinder.py,sha256=YaW7Sx3GSsWFo5O-q8bXbVHCvVhSrKtCIWyEmvRp64o,3534
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_templatefinder.py,sha256=bQeomYyDb1QZOeWiT1u9ylHo_wmfPF0nE5IMVOLembk,2041
+canonicalwebteam.templatefinder-0.1.2.dist-info/LICENSE.txt,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+canonicalwebteam.templatefinder-0.1.2.dist-info/METADATA,sha256=VyqRk_iLkuwF73zjwC5mTFIk4wKyo-qN9l10WoXT8Io,3413
+canonicalwebteam.templatefinder-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+canonicalwebteam.templatefinder-0.1.2.dist-info/top_level.txt,sha256=3QzUW8NsRMpxkXDuvyTsaZnBKpWaxA2k0Ofz7ELl5eM,23
+canonicalwebteam.templatefinder-0.1.2.dist-info/RECORD,,
