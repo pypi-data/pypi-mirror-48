@@ -1,0 +1,8 @@
+credential_holder/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+credential_holder/holder.py,sha256=WcZDfrdWgJOWuELVNuQVfsYWkKk3bEzn_imp-i4lICc,1928
+credential_holder/serializer.py,sha256=CZIV6YLuN_8SUffNCvnFJHrjFj1xDvPuDJuktsbFodA,1326
+CredentialHolder-0.0.2.dist-info/LICENSE.txt,sha256=MNVJHIRUdMX6BounL_WEZAw3MaxDsf-eDu9956uyC7o,1068
+CredentialHolder-0.0.2.dist-info/METADATA,sha256=dTgrqzvu5ORG2fIURjbl6_jD1ex0BGY7wVgkbh-Wa9A,1974
+CredentialHolder-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+CredentialHolder-0.0.2.dist-info/top_level.txt,sha256=I_Y5h0I5-sPl4mQzPl-iUpSAmCd7Uys6nm-xgPQnlcs,18
+CredentialHolder-0.0.2.dist-info/RECORD,,
