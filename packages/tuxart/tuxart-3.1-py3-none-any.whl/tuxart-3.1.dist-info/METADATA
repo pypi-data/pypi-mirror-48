@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: tuxart
+Version: 3.1
+Summary: Tux generator for arbitrary kernel
+Home-page: https://github.com/HommeOursPorc/tuxart
+Author: Khaled Arsalane, Eliot Marie, Pierre Pouteau, Richard Faraji-Huon, Zakariae Boukhchen
+Author-email: khaled.arsalane@etudiant.univ-rennes1.fr
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: kconfiglib
+Requires-Dist: cairosvg
+
+UNKNOWN
+
+
