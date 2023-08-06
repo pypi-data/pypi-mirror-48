@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: sceptre-resolver-template
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/sceptre/sceptre-resolver-template
+Author: Sceptre
+Author-email: sceptre@cloudreach.com
+License: Apache2
+Description: # README
+        
+        Add your resolver readme here. Remember to include the following:
+        
+        - Tell people how to install it (e.g. pip install ...).
+        - Be clear about the purpose of the resolver, its capabilities and limitations.
+        - Tell people how to use it.
+        - Give examples of the resolver in use.
+        
+Keywords: sceptre,sceptre-resolver
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Provides-Extra: test
