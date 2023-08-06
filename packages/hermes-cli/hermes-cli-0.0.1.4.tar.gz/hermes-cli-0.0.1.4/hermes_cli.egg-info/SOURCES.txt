@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+hermes-cli/__init__.py
+hermes-cli/helper.py
+hermes-cli/hermes-cli.py
+hermes_cli.egg-info/PKG-INFO
+hermes_cli.egg-info/SOURCES.txt
+hermes_cli.egg-info/dependency_links.txt
+hermes_cli.egg-info/top_level.txt
