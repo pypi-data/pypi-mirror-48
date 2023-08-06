@@ -1,0 +1,11 @@
+lobio/SeqIOUtils.py,sha256=74GMKHXV5xmD8kX70ug3u5hYKopf4kMmCw__tSQdZ-w,587
+lobio/SeqUtils.py,sha256=0m2FHRjccXN9T7fq_Le2uSd-WYwJHZysINoOcz7nscQ,1642
+lobio/__init__.py,sha256=O5SpZF1Rm7jEYJYdtDAQLAZQWpMDWck-7luyEVKy42M,215
+lobio/_version/__init__.py,sha256=dRLfPHwk8i2CnmzWZY7G_0HPKxUwKWnMjvUrxme2XMw,1580
+lobio/_version/version.json,sha256=Pt4X1ajLcrqtpAbLDms88Byw9BqVBjpFoIP6pvHT2Jo,756
+lobio/models.py,sha256=If9ElqVY8RTHvGboQQ47UC_JfxdWcm0V3HhGQjHwhk8,4390
+lobio/region.py,sha256=WZubl_wL3wqY18UZ5Fjqd-y0nZjMcPbTmd6yjT4O28s,29254
+lobio-0.0.2.dist-info/entry_points.txt,sha256=3oxoUP1Xo59QkVdX0ooWjMAMeJ4il0fONFwAvQvLS3A,117
+lobio-0.0.2.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+lobio-0.0.2.dist-info/METADATA,sha256=lRaCMPrq0k5p1XMnCV7jidFHvUw9rR7KFNdf3-MpKAY,595
+lobio-0.0.2.dist-info/RECORD,,

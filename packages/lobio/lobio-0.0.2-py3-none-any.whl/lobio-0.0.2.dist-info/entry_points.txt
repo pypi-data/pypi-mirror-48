@@ -1,0 +1,5 @@
+[console_scripts]
+name=lobio:_version.get_name
+upver=lobio:_version.pull_version
+version=lobio:_version.get_version
+
