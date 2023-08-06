@@ -1,0 +1,27 @@
+CHANGES
+=======
+
+* Update README.md
+* Update README.md
+* fix
+* start testing with flask\_login LoginManager
+* run the non-test code branch in \_dispatch method
+* test default client
+* test exception is raised if no arguments are supplied to Observability.send
+* test simulated server error
+* test an ignored route
+* handle missing optional tags in send()
+* add freezegun to dev requirements
+* add travis builds
+* add examples to README
+* add some docs
+* add manual send of measurement
+* fix test
+* handle influxdb not being available, should not prevent the request from going through
+* better detection of http response status
+* handle anonymous user
+* ignore flask admin static routes by default
+* instrument all views by default
+* match layout to http\_response telegraf plugin
+* add observe decorator
+* Initial commit
