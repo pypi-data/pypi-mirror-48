@@ -1,0 +1,9 @@
+README.rst
+setup.py
+http_api_sdk.egg-info/PKG-INFO
+http_api_sdk.egg-info/SOURCES.txt
+http_api_sdk.egg-info/dependency_links.txt
+http_api_sdk.egg-info/requires.txt
+http_api_sdk.egg-info/top_level.txt
+httpapi/HTTPSDK.py
+httpapi/__init__.py
