@@ -1,0 +1,3 @@
+[pytest11]
+requests = pytest_python_requests
+
