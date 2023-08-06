@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: Karka
+Version: 0.0.2
+Summary: A TensorFlow recommendation algorithm and framework in Python.
+Home-page: https://github.com/firebolt-ai/karka/
+Author: Aaron Ma
+Author-email: hi@aaronhma.com
+License: MIT
+Keywords: python,python3,tensorflow,recommendation,pypi,karka,firebolt,ai,algorithm,framework
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14.1)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: tensorflow (>=1.7.0)
+
+# Karka
+A TensorFlow recommendation framework written in Python 3.
+
+## Installation Guide
+```
+pip3 install karka
+```
+
+
