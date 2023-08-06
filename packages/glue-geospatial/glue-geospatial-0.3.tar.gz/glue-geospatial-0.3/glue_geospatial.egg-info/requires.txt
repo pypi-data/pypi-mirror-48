@@ -1,0 +1,9 @@
+glue-core>=0.11
+rasterio>=1.0
+pyproj
+
+[test]
+pytest
+pytest-cov
+pytest-faulthandler
+mock
