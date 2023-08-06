@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: quare
+Version: 0.1.0
+Summary: quare is a CLI client for Quip.
+Home-page: https://github.com/jstvz/quare
+License: LGPL-3.0+
+Author: James Estevez
+Author-email: j@jstvz.org
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Click (>=7.0,<8.0)
+Requires-Dist: colorama (>=0.4.1,<0.5.0)
+Requires-Dist: dateparser (>=0.7.1,<0.8.0)
+Requires-Dist: keyring (>=18.0,<19.0)
+Requires-Dist: terminaltables (>=3.1,<4.0)
+Requires-Dist: websocket-client (>=0.56.0,<0.57.0)
+Project-URL: Repository, https://github.com/jstvz/quare
