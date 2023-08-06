@@ -1,0 +1,12 @@
+README.md
+setup.py
+interactivecrop/__init__.py
+interactivecrop/interactivecrop.py
+interactivecrop/samples.py
+interactivecrop/shapes.py
+interactivecrop/widgets_helper.py
+interactivecrop.egg-info/PKG-INFO
+interactivecrop.egg-info/SOURCES.txt
+interactivecrop.egg-info/dependency_links.txt
+interactivecrop.egg-info/requires.txt
+interactivecrop.egg-info/top_level.txt
