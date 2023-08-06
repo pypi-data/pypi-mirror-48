@@ -1,0 +1,45 @@
+Metadata-Version: 1.1
+Name: ddsl_lambda_wg
+Version: 0.1.3
+Summary: This is a workload generator for aws lambda.
+Home-page: https://github.com/nimamahmoudi/ddsl_lambda_workload_generator
+Author: Nima Mahmoudi
+Author-email: nima_mahmoudi@live.com
+License: UNKNOWN
+Description: |PyPI| |PyPI - Status| |Travis (.com)| |Libraries.io dependency status
+        for latest release| |GitHub|
+        
+        DDSL Lambda Workload Generator
+        ==============================
+        
+        Usage
+        =====
+        
+        Installation
+        ============
+        
+        Install using pip:
+        
+        .. code:: bash
+        
+           $ pip install ddsl-lambda-wg
+        
+        Upgrading:
+        
+        .. code:: bash
+        
+           pip install ddsl-lambda-wg --upgrade
+        
+        .. |PyPI| image:: https://img.shields.io/pypi/v/ddsl-lambda-wg.svg
+        .. |PyPI - Status| image:: https://img.shields.io/pypi/status/ddsl-lambda-wg.svg
+        .. |Travis (.com)| image:: https://img.shields.io/travis/com/nimamahmoudi/ddsl_lambda_workload_generator.svg
+        .. |Libraries.io dependency status for latest release| image:: https://img.shields.io/librariesio/release/pypi/ddsl_lambda_wg.svg
+        .. |GitHub| image:: https://img.shields.io/github/license/nimamahmoudi/ddsl_lambda_workload_generator.svg
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
