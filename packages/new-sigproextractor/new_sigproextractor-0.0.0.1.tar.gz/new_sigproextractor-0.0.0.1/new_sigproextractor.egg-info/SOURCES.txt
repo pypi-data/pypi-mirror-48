@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+new_sigproextractor/__init__.py
+new_sigproextractor/sigpro.py
+new_sigproextractor/subroutines.py
+new_sigproextractor/version.py
+new_sigproextractor.egg-info/PKG-INFO
+new_sigproextractor.egg-info/SOURCES.txt
+new_sigproextractor.egg-info/dependency_links.txt
+new_sigproextractor.egg-info/not-zip-safe
+new_sigproextractor.egg-info/requires.txt
+new_sigproextractor.egg-info/top_level.txt
