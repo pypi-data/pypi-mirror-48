@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: paymium
+Version: 1.0
+Summary: Paymium api
+Home-page: https://github.com/mouuff/PyPaymium
+Author: mouuff
+Author-email: arnaudalies.py@gmail.com
+License: UNKNOWN
+Description: # PyPaymium
+        
+        # WIP
+        
+Keywords: tool,api,paymium,bot,pypaymium
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
