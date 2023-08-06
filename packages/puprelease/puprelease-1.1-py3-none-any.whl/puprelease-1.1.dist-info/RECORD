@@ -1,0 +1,11 @@
+puprelease/__init__.py,sha256=sHgBDHOrragFn2i_jtElMNOzfRz2qbKz77C2lkMMWAk,96
+puprelease/check.py,sha256=9wLYUSOyZN5tX2YNWrmPAdItUo6qvCE3XZbaFPy-5NM,2672
+puprelease/pup.py,sha256=silUxEb0xFHmRaZLwZQrrstRP0yzjtzoZIyHXDgHdv4,656
+puprelease/release.py,sha256=y-5LggvkSHVIX-AG4gqJG1NPxsFFXdF72HRhKEFkkGk,4613
+puprelease/util.py,sha256=Xvq-0uAbaeumjh6HeqlkvOClURa_RW5SUuBg4IYJybE,3086
+puprelease-1.1.dist-info/LICENSE,sha256=xHmtiHhV5ZQyrLmDxgvlWL5gcTvPPFltuQvBama-zBg,1089
+puprelease-1.1.dist-info/METADATA,sha256=CUnJFe8kJNN4TynAzR9FTTLOiqDkYPMRfrZJZRV50u8,407
+puprelease-1.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+puprelease-1.1.dist-info/entry_points.txt,sha256=3FeIAjeAeRBbDXhAmtcs6VcLFlvNvKXeGedHUv3vWjo,44
+puprelease-1.1.dist-info/top_level.txt,sha256=K5gVpKlTFCpYdfYvHFHiK_Xamg2kW5n_5D7awyETG7E,11
+puprelease-1.1.dist-info/RECORD,,
