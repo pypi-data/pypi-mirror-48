@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: no_version
+Version: 0.1.0
+Summary: Package without __version__ number.
+Home-page: https://github.com/prisae/no_version
+Author: no_version
+Author-email: dieter@werthmuller.org
+License: CC0 1.0 Universal (CC0 1.0)
+Download-URL: https://github.com/prisae/no_version/tarball/v0.1.0
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.7
