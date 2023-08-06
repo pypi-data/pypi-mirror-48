@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: fireclass
+Version: 1.0.0
+Summary: Firestore + Dataclass: declare and interact with your Firestore models using dataclasses.
+Home-page: https://github.com/nabla-c0d3/fireclass
+Author: Alban Diquet
+Author-email: nabla.c0d3@gmail.com
+License: UNKNOWN
+Project-URL: Source, https://github.com/nabla-c0d3/firestore
+Description: UNKNOWN
+Keywords: dataclasses firestore google-cloud
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.7
