@@ -1,0 +1,9 @@
+pelican_git/__init__.py,sha256=tR1sKYVikxyHwBvYkxFQdYEbO_3ANdt2oLcxdWCB49k,341
+pelican_git/plugin.py,sha256=m48LCn2ViIo4A8UeGVDJo4VxPlA43PmSEzRDbj81BKA,4819
+pelican_git/test_plugin.py,sha256=2AUL93DTjcQ-B1q0oN3FgWIfM3_sobxCLkVUU-FK6k0,6870
+pelican_git/templates/git.jinja.html,sha256=_AOsAd5fQ0lKxgAR9wk8MHu417lUWXHJZQrpVy3knCg,1411
+pelican_git-0.1.13.dist-info/LICENSE,sha256=Yb7t1EE7AsCFiqJF6Vj7qwlSaqgv4xRRcm7A038QLw4,1074
+pelican_git-0.1.13.dist-info/METADATA,sha256=TQ33TbF51wFUHH5GPUffa198Dt-qdtzhA9fqWOPSKqc,2929
+pelican_git-0.1.13.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pelican_git-0.1.13.dist-info/top_level.txt,sha256=X8z3cXetaCtc3ERA0IzapqkkCdUgliheJf2s4YFHxpA,12
+pelican_git-0.1.13.dist-info/RECORD,,
