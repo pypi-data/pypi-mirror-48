@@ -1,0 +1,15 @@
+jars/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jars/td-spark-assembly.jar,sha256=ElpPC3WvFKuzCNFW5n_TcHXBpSrLKna3fTvW4DVriZw,25916355
+td_pyspark/__init__.py,sha256=QadpdbjfCFNSJv68xYVYGrL_3XDW9MsdLiQU-mFSM_c,298
+td_pyspark/td_pyspark.py,sha256=9BXPYP4P1TwEQhsHWzyM0XZPCB2-fngWbNxONbVfyyM,5532
+td_pyspark/version.py,sha256=jRC7zx4vTTAloIYyp5DtvLijcCL6HIFRNdWzsEhaKVQ,23
+td_pyspark/jars/td-spark-assembly.jar,sha256=1CQyjHk90XiiRruNrCuNEpfv3NcKLd9vSk_oWT_lzsE,25916336
+td_pyspark/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+td_pyspark/tests/test_pyspark.py,sha256=toCiNSjQys9vg7wYeNoqknFSuHKopxM3SJnhey4EEQQ,3832
+td_pyspark/tests/test_pyspark_without_td_spark.py,sha256=2es3XjFuK4YGAdwIp8HH0u-yi8tX0ciIQyTlf_8N0Cc,312
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_pyspark.py,sha256=aIX2sGTN3Q_Oc_fssyaxItkA8lmIcDQqEJUE81Ma4Sc,3298
+td_pyspark-19.7.0.dist-info/METADATA,sha256=a7ZA_kYe-UNIBarAKKxHWkC6XnKiTzgthWkCEfFUCjA,15524
+td_pyspark-19.7.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+td_pyspark-19.7.0.dist-info/top_level.txt,sha256=DT6Xgy8n7psxFjH8d_Wzj-25lK_1mr9rEbywjH-QFPE,11
+td_pyspark-19.7.0.dist-info/RECORD,,
