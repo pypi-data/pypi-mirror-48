@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: vectorkit
+Version: 0.1.3
+Summary: Vector Kit seeks to make vector arithmetic simple for everyone. It may serve as a utility in a large ecosystem of scientific libraries or, more simply, as a toy to be played with to understand Vector math.
+Home-page: https://github.com/ayivima/vectorkit
+Author: Victor Mawusi Ayi
+Author-email: ayivima@hotmail.com
+License: MIT
+Keywords: AI,vectors,algebra,geometry
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+
+VECTOR KIT
+============
+
+Vector Kit seeks to make vector arithmetic simple for everyone. It may serve as a utility in a large ecosystem of scientific libraries or, more simply, as a toy to be played with to understand Vector math.
+This is a work in progress, and may not yet be ready for large data munging.
+
+INSTALLATION
+============
+
+```
+$ pip install vectorkit
+
+```
+
+RUN INTERACTIVE SHELL
+=====================
+```
+$ vectorkit
+
+=====================================================
+
+        VECTORKIT :: v0.1.3
+        Interactive Shell
+
+=====================================================
+>>>>
+>>>>
+```
+
+IMPORTING
+=========
+
+```
+import vectorkit
+```
+
+
+REGULAR USAGE
+=============
+
+Read full detailed usage guidelines [here](https://github.com/ayivima/vectorkit/blob/master/README.rst)
+
+
+
+
