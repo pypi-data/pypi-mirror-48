@@ -1,0 +1,11 @@
+pytest_gherkin/__init__.py,sha256=S6pmz_SdSgtXiaBvbbw2QpmsVH41rnjvOU1Zz480Kk0,37
+pytest_gherkin/gherkin.py,sha256=dIDV79rdEcuqv7HBcN8FNHD22QchoyqBJxktr49J9C8,8643
+pytest_gherkin/hooks.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+pytest_gherkin/legacy.py,sha256=acv2h093-crnZ_dB3gUNCvWK4T94rEQFTgZ2SgD9YB8,507
+pytest_gherkin/plugin.py,sha256=j6I_ESKNR84KLW02qRrg6zZN210wkMUpCnOYJOb73cY,368
+pytest_gherkin-0.1.2.dist-info/LICENSE,sha256=aTgZ4jX-eSvxrfsm6gdHGE3yTrb3UjFN8gEjU0S7ThY,1080
+pytest_gherkin-0.1.2.dist-info/METADATA,sha256=eH2DSQmGKHEq9qUM2VJIClcVt4YwmECxHrZMveKNeWg,2658
+pytest_gherkin-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pytest_gherkin-0.1.2.dist-info/entry_points.txt,sha256=xvy_h9pHJFt4MaeY4sGzFLbjIxzdMCsBJgiQOmCheF0,44
+pytest_gherkin-0.1.2.dist-info/top_level.txt,sha256=KmlLej5nbwttgcMzX5A7MEWv4L37nm3OLpW8yp0sCYg,15
+pytest_gherkin-0.1.2.dist-info/RECORD,,
