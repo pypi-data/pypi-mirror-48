@@ -1,0 +1,75 @@
+# ${project}
+
+${description}
+
+## Description
+
+A longer description of your project goes here...
+
+## Installation
+
+In order to set up the necessary environment:
+
+1. create an environment `${project}` with the help of [Miniconda][],
+   ```
+   conda env create -f environment.yaml
+   ```
+2. activate the new environment with
+   ```
+   conda activate ${project}
+   ```
+3. install `${project}` with:
+   ```
+   python setup.py install # or `develop`
+   ```
+
+Optional and needed only once after `git clone`:
+
+4. install several [pre-commit][] git hooks with:
+   ```
+   pre-commit install
+   ```
+   and checkout the configuration under `.pre-commit-config.yaml`,
+
+5. install [nbstripout][] to remove the output of committed notebooks with:
+   ```
+   nbstripout --install --attributes notebooks/.gitattributes
+   ```
+
+
+Then take a look into the `experiments` and `notebooks` folder.
+
+## Dependency Management & Reproducibility
+
+1. Always keep your abstract (unpinned) dependencies updated in `environment.yaml`.
+2. Create concrete dependencies as `environment.lock.yaml` for the exact reproduction of your
+   environment with:
+   ```
+   conda env export -n ${project} -f environment.lock.yaml
+   ```
+   For a multi-OS development, consider using `--no-builds` during the export.
+3. Update your current environment to a new `environment.lock.yaml` with:
+   ```
+   conda env update -f environment.lock.yaml --prune
+   ```
+4. Keep your repository nice and tidy. Use the corresponding folders:
+   * `data` to keep your data (won't be committed),
+   * `src/${package}` for all your modules providing the main functionality,
+   * `experiments` for the actual scripts, e.g. `train_model.py`,
+   * `notebooks` for data exploration with [Jupyter][] notebooks,
+   * `notebooks/template.ipynb` including the most important imports and plugins,
+   * `models` for trained and serialized models, model predictions, or model summaries,
+   * `references` for data dictionaries, manuals, and all other explanatory materials.
+   * `reports` for generated analysis as HTML, PDF, LaTeX, etc. and a `figures` subdirectory
+     for generated graphics and figures to be used in reporting,
+   * `environment.yaml` to create a [conda][Miniconda] environment,
+
+## Note
+
+This project has been set up using PyScaffold ${version}. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+[Miniconda]: https://docs.conda.io/en/latest/miniconda.html
+[pre-commit]: https://pre-commit.com/
+[Jupyter]: https://jupyter.org/
+[nbstripout]: https://github.com/kynan/nbstripout

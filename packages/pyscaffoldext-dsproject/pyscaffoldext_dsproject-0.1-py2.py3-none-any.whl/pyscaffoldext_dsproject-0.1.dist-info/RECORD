@@ -1,0 +1,16 @@
+pyscaffoldext/__init__.py,sha256=vXgXMgYCDkxR9ifnsCGWSHLloiNxhHjy0mpN2L-EspA,80
+pyscaffoldext/dsproject/__init__.py,sha256=UsKRpOAPckk8XYjXorLGiq6w5mHu3mgF75AVf88ItAI,380
+pyscaffoldext/dsproject/extension.py,sha256=lwH9OTbLmannAFzjyg-KI_A9aj-ZztIGxtSxpYmNcyo,4487
+pyscaffoldext/dsproject/templates/__init__.py,sha256=msCmDBRvGjjhMN554G5TbrT3leXZJupDzkKzw5EwLmA,2065
+pyscaffoldext/dsproject/templates/environment_yaml.template,sha256=vpzl7RFZuDeaef67B9odCDZeW-VJGSaQ21aQXTfSRzE,548
+pyscaffoldext/dsproject/templates/gitignore_all.template,sha256=cdjKhYhi-1WFuTGmpN4dH_94VgUBQFw82S3trzlCFPg,71
+pyscaffoldext/dsproject/templates/readme_md.template,sha256=Tf6UDTZbq6vJamf6ydWPQXnRafFqAnw9xdCRj9FKpag,2551
+pyscaffoldext/dsproject/templates/template_ipynb.template,sha256=ckoLmt4Ly6MxAc38dNdLzcX5bLZr5OuNjvmyCFGHVYQ,1674
+pyscaffoldext/dsproject/templates/train_model_py.template,sha256=ry2MwcLnHV1o1FP8bSBB6EJk_m9rA4UHSkVRXTh5KR4,887
+pyscaffoldext_dsproject-0.1.dist-info/AUTHORS.rst,sha256=V9jcDscckn7iQaiBh8chRsqYnQHh-D9BqokVS9CiaP4,86
+pyscaffoldext_dsproject-0.1.dist-info/LICENSE.txt,sha256=Wdg4lZqfMFh5nu-JRES79xgTOF4PEXBFWuaDBNj4ToQ,1082
+pyscaffoldext_dsproject-0.1.dist-info/METADATA,sha256=JKAjy-XhoOx09T8m0DzJHbRVhHCjSytImsMhMBlTqHg,2795
+pyscaffoldext_dsproject-0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pyscaffoldext_dsproject-0.1.dist-info/entry_points.txt,sha256=TSYhWifL-8m0aR7_qJv7s_C0c5Jp7U7IIvRqE6d7zy4,74
+pyscaffoldext_dsproject-0.1.dist-info/top_level.txt,sha256=zac9JJq83qBJe5oCWbtXhQVr8mJ5TZFW2jCFlSQ6n0Y,14
+pyscaffoldext_dsproject-0.1.dist-info/RECORD,,
