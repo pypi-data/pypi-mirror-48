@@ -1,0 +1,12 @@
+wecs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wecs/core.py,sha256=wj8qdUxGlBGCoLDeLyDev5ghPmmi0_Q2oivvHWmnKoE,11965
+wecs/equipment.py,sha256=3iZZow0yzyyHCGVx_f8_k6I1srjyXg02rAAxqgJOANU,3984
+wecs/graphviz.py,sha256=9VqaimJE_gyqrbpwTK3i7rLj5XHS-iit-zCVPPqSKOY,3233
+wecs/inventory.py,sha256=XTZy1XBjtYQWFCvU1a9BwZQyGUo57ebVRT3joiGJGdc,3902
+wecs/panda3d.py,sha256=LrVqzEmbeGlTIcxGE8A-S3l_QBc1IAKcZfa5w15mEUw,5217
+wecs/rooms.py,sha256=7FM8HlmfwdWOldgoqivM-vdKn0eqc-A7zV43HVG_xTM,3607
+wecs-0.1.6.dev0.dist-info/LICENSE,sha256=5nGsW76iL4YKY5N46Mxoi7WRL4Tixs8Ysmu-hwWjsiQ,1525
+wecs-0.1.6.dev0.dist-info/METADATA,sha256=wZsVRlbn2UFHs5Irw0SGNpJIcDmQpipGwgnn0-a77Qw,658
+wecs-0.1.6.dev0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+wecs-0.1.6.dev0.dist-info/top_level.txt,sha256=h_q4AbIUt81TlkbNFFkomkumXpIZ2hDvGDJMQWETIwk,5
+wecs-0.1.6.dev0.dist-info/RECORD,,
