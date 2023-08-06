@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: pydarknetserver
+Version: 0.2.0
+Summary: Python Darknet Server
+Home-page: https://github.com/yoyonel/pydarknetserver
+Author: Lionel Atty
+Author-email: yoyonel@hotmail.com
+License: MIT license
+Keywords: pydarknetserver
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+
+===============
+pyDarknetServer
+===============
+
+
+.. image:: https://img.shields.io/pypi/v/pydarknetserver.svg
+        :target: https://pypi.python.org/pypi/pydarknetserver
+
+.. image:: https://img.shields.io/travis/yoyonel/pydarknetserver.svg
+        :target: https://travis-ci.org/yoyonel/pydarknetserver
+
+.. image:: https://readthedocs.org/projects/pydarknetserver/badge/?version=latest
+        :target: https://pydarknetserver.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+.. image:: https://pyup.io/repos/github/yoyonel/pyDarknetServer/shield.svg
+     :target: https://pyup.io/repos/github/yoyonel/pyDarknetServer/
+     :alt: Updates
+
+.. image:: https://pyup.io/repos/github/yoyonel/pyDarknetServer/python-3-shield.svg
+     :target: https://pyup.io/repos/github/yoyonel/pyDarknetServer/
+     :alt: Python 3
+
+Python Darknet Server
+
+
+* Free software: MIT license
+* Documentation: https://pydarknetserver.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-06-28)
+------------------
+
+* First release on PyPI.
+
+
