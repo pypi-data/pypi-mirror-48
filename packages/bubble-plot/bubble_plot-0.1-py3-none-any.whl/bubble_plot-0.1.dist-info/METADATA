@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: bubble-plot
+Version: 0.1
+Summary: Bubble plot
+Home-page: https://github.com/shirmeir/bubble_plot
+Author: Shir Meir Lador
+Author-email: meir.shir86@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Bubble plot - data visualization package
+
+
