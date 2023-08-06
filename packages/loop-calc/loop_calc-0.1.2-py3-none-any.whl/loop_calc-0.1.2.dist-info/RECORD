@@ -1,0 +1,12 @@
+loop/__init__.py,sha256=61fnot28YSDcZW_yK_KeyOSiLb4oqudlY6x_oFBXJ3A,1581
+loop/base_evaluator.py,sha256=BckWfWpDSFaPY9RikehLW6u3LlNQVaY9fGY0btu0Al4,3553
+loop/evaluators.py,sha256=NghpV6ceYYJgjRcufA7YDbQ54hDOvYlw03LfNpjTX0o,3840
+loop/io_mixins.py,sha256=lQgmvSfOyUrRGWzZXod6i2-BvEKVMFarDqJwLn85xKs,5028
+loop/loop_evaluator.py,sha256=lj0JM5rIy9BxgXE1X9iRJgn08nP6Ys56ffB3NjV2eMU,1589
+loop/loop_parser.py,sha256=8vMAh67NJr3p76YcBr1RkBbsyRWWoQynCB_Sr9bV3lc,2013
+loop_calc-0.1.2.dist-info/LICENSE,sha256=6tBsXpskMnWSOSj2BlmnWVB6t85Wq-ve-89vzSLbqWw,15170
+loop_calc-0.1.2.dist-info/METADATA,sha256=noPV4Tu5KRs1iGk209OKfngvQL5RKccuahDsb2mOxTY,2457
+loop_calc-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+loop_calc-0.1.2.dist-info/entry_points.txt,sha256=ABB9I5JGeHSxcNmA0n4s4iFPBJQsrIP2EHxjGojEQy4,41
+loop_calc-0.1.2.dist-info/top_level.txt,sha256=mKACF2ocqWoZsas0syJAaIp6ztlOAZvMf32Zw0LKzu0,5
+loop_calc-0.1.2.dist-info/RECORD,,
