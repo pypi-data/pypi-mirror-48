@@ -1,0 +1,5 @@
+include *.md
+include LICENSE
+include requirements.txt
+include extractRegion/*.fasta
+include extractRegion/regions.txt
