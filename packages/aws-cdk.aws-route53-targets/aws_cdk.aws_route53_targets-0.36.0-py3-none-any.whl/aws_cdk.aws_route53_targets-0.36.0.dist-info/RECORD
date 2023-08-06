@@ -1,0 +1,8 @@
+aws_cdk/aws_route53_targets/__init__.py,sha256=vnZNM1tCDWIJzTpKfuBHSHNdtOb4ScLCInuE8NI59BI,2361
+aws_cdk/aws_route53_targets/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_route53_targets/_jsii/__init__.py,sha256=P3Pe4V2pzvlbd8GkDM3e0C_rT8w9e7jIPgEMSlf9-KM,322
+aws_cdk/aws_route53_targets/_jsii/aws-route53-targets@0.36.0.jsii.tgz,sha256=B1ryoRrGd7C9Q-zV1qsXIPokK0pao9k8_i7ncNJhYiI,15630
+aws_cdk.aws_route53_targets-0.36.0.dist-info/METADATA,sha256=3pN0IfRhgBgdD_5njmc4nbExM7aGA7XypdI-tikzJCo,1496
+aws_cdk.aws_route53_targets-0.36.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_route53_targets-0.36.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_route53_targets-0.36.0.dist-info/RECORD,,
