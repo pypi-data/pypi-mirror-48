@@ -1,0 +1,15 @@
+altapay/__init__.py,sha256=SwkstLDo69g-T_KNdoFomrnGw5hZDJE0gcpicwkhLBU,656
+altapay/api.py,sha256=Zwnz1PrRN4mxsIwcebXMbLuB7St5ch1jw4MV-0VCtJw,7508
+altapay/callback.py,sha256=EM9t28n0MT5xFkSVLDFE-ZADPQbnakKufnhEqC9-qpg,2709
+altapay/chargeback.py,sha256=X2kBsxjAUSsVCAMsVP2Hkia2664gum2fGwPh7Z7w5XA,82
+altapay/exceptions.py,sha256=MgSaxXOC7AWXrYX5AalicaJ4wmrj7cX97Zxb-nZv0ng,1128
+altapay/funding.py,sha256=-xHZcxx4tjnXQuVcbl65FKMuaf_-FljoCaKgwI44Fwc,3808
+altapay/payment.py,sha256=AgMCkKe1grvXS2PIfy7p_gAZ2qZHLQSiQAwlBnK6k6A,1245
+altapay/resource.py,sha256=pKl-B4Gk17CLYo3EUX7dqqrJqcNHDGk6RWu6Sjuv924,2957
+altapay/transaction.py,sha256=HuJ4z30_KwJz7VDUzKB4fbPzyLfhh2ZdpU7LmmSuJak,5603
+altapay/utils.py,sha256=rrztldcuwmLK6bp0YZTkxoOJNXQpwzk3KROf8_rWwrA,4582
+altapay-1.4.1.dist-info/LICENSE,sha256=eQYHi6RmAitlASNTrQJ3GoEUtrMPMmnAO0pNWYgmGro,1080
+altapay-1.4.1.dist-info/METADATA,sha256=f5yl2IL3Q8NVuLZGzBMlyJJFV6eQbGOF5hFVb4L65rs,8251
+altapay-1.4.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+altapay-1.4.1.dist-info/top_level.txt,sha256=EEHdg-ekSDDSgmn8T5eXSRKB22SWZlNnD7hx7b5Z9iw,8
+altapay-1.4.1.dist-info/RECORD,,
