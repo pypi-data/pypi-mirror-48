@@ -1,0 +1,13 @@
+.gitignore
+.travis.yml
+CHANGELOG.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+pytest_faulthandler.egg-info/PKG-INFO
+pytest_faulthandler.egg-info/SOURCES.txt
+pytest_faulthandler.egg-info/dependency_links.txt
+pytest_faulthandler.egg-info/requires.txt
+pytest_faulthandler.egg-info/top_level.txt
