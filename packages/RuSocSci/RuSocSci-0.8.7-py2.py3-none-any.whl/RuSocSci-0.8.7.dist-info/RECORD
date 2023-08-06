@@ -1,0 +1,12 @@
+RuSocSci-0.8.7.dist-info/DESCRIPTION.rst,sha256=CoGTMxgXD2NOx49gc3Ckr_68TQPBWm9AEWT2F5UZRcs,384
+RuSocSci-0.8.7.dist-info/METADATA,sha256=80VYhFVCjHJCSZZyYSwpgk3U42EoaNOdwnhaI0koYKI,912
+RuSocSci-0.8.7.dist-info/RECORD,,
+RuSocSci-0.8.7.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+RuSocSci-0.8.7.dist-info/metadata.json,sha256=7VfJFnhwWQOzCSAtl-XvkHbvQUs03Z1xH2dDB3T72hk,761
+RuSocSci-0.8.7.dist-info/top_level.txt,sha256=bB8ODObfJoZvAt61cOq0gTlEJu4FWQMpjUa4KQhTbzg,9
+rusocsci/__init__.py,sha256=6HvkIChddiCOwIA7A81Vs5NKI3zxO5Y5QX4apiJfLyQ,425
+rusocsci/buttonbox.py,sha256=SNkApy4G-SC3vhfMvsQYS9IZTXOEXEh0FOvmhkzFwNs,8373
+rusocsci/buttonbox2.py,sha256=APJjgshiwhJIc-dhEFNwsN1DCozv5ycwzbo5Bh-3DXc,6802
+rusocsci/extended.py,sha256=n-0Ne0ayVeOmnsXUsYY12tT-91cfVt3lEM5QAVLlI_U,3935
+rusocsci/joystick.py,sha256=snTMgCOcPAUyb8bl-x6sZ5X8r5ifZKcO5k_tLzpw2t0,2491
+rusocsci/utils.py,sha256=MXnynec2_2L3DUe9vBFrNYkrosFDt-GOLDhyOTTN3UQ,8871
