@@ -1,0 +1,4 @@
+requests
+
+[NTLMAuthentication]
+requests_ntlm
