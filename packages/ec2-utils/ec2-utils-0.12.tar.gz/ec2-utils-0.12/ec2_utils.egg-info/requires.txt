@@ -1,0 +1,8 @@
+future
+threadlocal-aws==0.6
+awscli
+requests
+termcolor
+argcomplete
+python-dateutil
+retry
