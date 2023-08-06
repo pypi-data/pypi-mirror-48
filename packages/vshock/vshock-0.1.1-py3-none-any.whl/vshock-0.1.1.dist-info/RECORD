@@ -1,0 +1,13 @@
+vshock/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vshock/__main__.py,sha256=0ckzher_CRGt3Kfl1kUumcl18_9ulor-vP5dG1btPnE,64
+vshock/cli.py,sha256=PN41hPfapWy70l_6ygcGFb_ho-KqeIOWNb4ycCKn6TI,723
+vshock/io.py,sha256=ITxIrJYT3keNedS63VckzrPPiTDD6mBroRyKCO_1dic,1522
+vshock/server.py,sha256=wUjsvdO31FJC3ZmDz6moHMTHr15As9TXllLvSEJM85w,1691
+vshock/assets/ui/index.html,sha256=HTdps-4jKVEe-GEknu786QTSaf2yF0e1NoUjNZ35Zw0,2607
+vshock/assets/ui/javascript/vshock.js,sha256=PkyyHLa0uHAPVI5e6U6b10Q1cEQwYNyeIGLmOCm3_js,1728
+vshock-0.1.1.dist-info/LICENSE,sha256=PFLKBDHH5TNqb1QAMcB9cD88BB8u3_eBAwgabriyjT0,1051
+vshock-0.1.1.dist-info/METADATA,sha256=qfp0d695SwWtfJXGsKpFt45RpJ-lr9bzu_dyupKncJw,314
+vshock-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+vshock-0.1.1.dist-info/entry_points.txt,sha256=wTjdasqjbRrMIrTUb1vEc4cBBH2qYmG-mdGIwtxp7FI,44
+vshock-0.1.1.dist-info/top_level.txt,sha256=jBdeCyecluGe4KBNWDY0Ikf1Y5ooxE0ScRVQp7rRBWs,7
+vshock-0.1.1.dist-info/RECORD,,
