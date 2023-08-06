@@ -1,0 +1,10 @@
+README.txt
+setup.py
+litex.cxpool.egg-info/PKG-INFO
+litex.cxpool.egg-info/SOURCES.txt
+litex.cxpool.egg-info/dependency_links.txt
+litex.cxpool.egg-info/namespace_packages.txt
+litex.cxpool.egg-info/not-zip-safe
+litex.cxpool.egg-info/requires.txt
+litex.cxpool.egg-info/top_level.txt
+litex/cxpool/__init__.py
