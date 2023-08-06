@@ -1,0 +1,11 @@
+cvgen/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+cvgen/main.py,sha256=XQngKywjm0ZjljPwNio0ke2E7Fb62opSLbv4aBHp1zM,1896
+cvgen/models.py,sha256=5FKL-PYPXCk76wQ5a2nGJuKBChewycEfez91gx9TblM,925
+cvgen/templates/index.html.j2,sha256=SieAM9d8eDhtLDx1_GGGlDuPAf0J7juRNUeOVd8EXJA,3607
+cvgen/templates/rendered.html,sha256=2hwoT0H2EiBXUTWQU-5nSspCDKU4ogwLn28wj4m121E,13170
+cvgen/templates/style.css,sha256=yFSpkrful3cwh1AS73jyby5C4BwK-n9DhnU7W9hpg3A,1286
+cvgen-0.4.0.dist-info/entry_points.txt,sha256=3S0T0Fhqvkc4ZNNui4yhi2Xyw6OkBPM6US44WO52zmY,41
+cvgen-0.4.0.dist-info/LICENSE,sha256=feiZ4npflCvbIsJHf-j2VjV0BsPBYSnFACVmrMbvUGM,1074
+cvgen-0.4.0.dist-info/WHEEL,sha256=m7_EWfYWVp7uNOTdFEhPb5K49PyhIPAZSRl16cJVmb0,85
+cvgen-0.4.0.dist-info/METADATA,sha256=bbB3iRgU5ROOVfQlMZsxQm2nlyYLdRljk8vN32dbR2I,2057
+cvgen-0.4.0.dist-info/RECORD,,
