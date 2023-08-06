@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+pyQuASAR/QuASAR_genotype.R
+pyQuASAR/__init__.py
+pyQuASAR/download.py
+pyQuASAR/env.py
+pyQuASAR/pyQuASAR.py
+pyQuASAR.egg-info/PKG-INFO
+pyQuASAR.egg-info/SOURCES.txt
+pyQuASAR.egg-info/dependency_links.txt
+pyQuASAR.egg-info/entry_points.txt
+pyQuASAR.egg-info/requires.txt
+pyQuASAR.egg-info/top_level.txt
