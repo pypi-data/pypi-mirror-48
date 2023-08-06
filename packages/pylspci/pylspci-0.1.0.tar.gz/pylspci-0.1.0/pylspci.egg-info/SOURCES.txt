@@ -1,0 +1,13 @@
+README.rst
+setup.cfg
+setup.py
+pylspci/__init__.py
+pylspci/__main__.py
+pylspci/device.py
+pylspci/fields.py
+pylspci/simple_parser.py
+pylspci.egg-info/PKG-INFO
+pylspci.egg-info/SOURCES.txt
+pylspci.egg-info/dependency_links.txt
+pylspci.egg-info/requires.txt
+pylspci.egg-info/top_level.txt
