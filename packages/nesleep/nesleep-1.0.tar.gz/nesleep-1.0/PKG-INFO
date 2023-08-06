@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: nesleep
+Version: 1.0
+Summary: Library and terminal command, that won't let your Mac sleep
+Home-page: https://github.com/vishalroygeek/NeSleep
+Author: Vishal Roy
+Author-email: hello@vishalroy.com
+License: MIT
+Download-URL: https://github.com/vishalroygeek/NeSleep/archive/1.0-beta.tar.gz
+Description: UNKNOWN
+Keywords: apple,sleep,lidsleep,command,terminal,mac,awake,avoid
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
