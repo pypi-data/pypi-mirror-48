@@ -1,0 +1,5 @@
+include LICENSE.md
+include README.md
+include _version.py
+include pytest_remfiles/__init__.py
+include pytest_remfiles/_plugin.py

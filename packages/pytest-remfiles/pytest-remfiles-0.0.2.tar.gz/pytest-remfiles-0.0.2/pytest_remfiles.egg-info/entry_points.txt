@@ -1,0 +1,3 @@
+[pytest11]
+pytest_remfiles = pytest_remfiles._plugin
+

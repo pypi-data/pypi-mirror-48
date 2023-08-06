@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pytest_remfiles/__init__.py
+pytest_remfiles/_plugin.py
+pytest_remfiles.egg-info/PKG-INFO
+pytest_remfiles.egg-info/SOURCES.txt
+pytest_remfiles.egg-info/dependency_links.txt
+pytest_remfiles.egg-info/entry_points.txt
+pytest_remfiles.egg-info/requires.txt
+pytest_remfiles.egg-info/top_level.txt
+pytest_remfiles.egg-info/zip-safe
