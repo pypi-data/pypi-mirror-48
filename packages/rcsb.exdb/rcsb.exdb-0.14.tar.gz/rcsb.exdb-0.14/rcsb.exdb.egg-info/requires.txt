@@ -1,0 +1,14 @@
+numpy
+rcsb.utils.io>=0.31
+rcsb.db>=0.51
+rcsb.utils.config>=0.18
+rcsb.utils.seq>=0.13
+rcsb.utils.ec>=0.14
+rcsb.utils.struct>=0.17
+rcsb.utils.taxonomy>=0.19
+
+[dev]
+check-manifest
+
+[test]
+coverage
