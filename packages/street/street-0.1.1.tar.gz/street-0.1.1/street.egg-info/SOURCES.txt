@@ -1,0 +1,15 @@
+README.md
+setup.py
+street/__init__.py
+street/__version__.py
+street/cli.py
+street/config.py
+street/exceptions.py
+street/scrape.py
+street.egg-info/PKG-INFO
+street.egg-info/SOURCES.txt
+street.egg-info/dependency_links.txt
+street.egg-info/entry_points.txt
+street.egg-info/not-zip-safe
+street.egg-info/requires.txt
+street.egg-info/top_level.txt
