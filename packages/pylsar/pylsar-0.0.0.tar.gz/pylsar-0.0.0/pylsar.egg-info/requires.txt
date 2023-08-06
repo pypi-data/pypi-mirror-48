@@ -1,0 +1,9 @@
+requests
+jinja2
+pyyaml
+
+[dev]
+pytest
+black
+isort
+pylint
