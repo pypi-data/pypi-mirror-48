@@ -1,0 +1,10 @@
+textgraph/__init__.py,sha256=Vp0iQ1HywhHgl6PMiHcXBwpvvZEyWUcnlp86tu2Evvo,290
+textgraph/horizontal.py,sha256=GjYsaky1bjgun2WUQ3a47ZGnoFbfEDXtArlSgplVTsw,1521
+textgraph/spark.py,sha256=3M26k3NQPIOsg6Jca6d1vz2f3WxQCWwnUG4zwmIeet4,412
+textgraph/util.py,sha256=M0jHjjBlyQPyj1w_dd4l5NZCllzM-nHxKcQnm2EB-XY,382
+textgraph/vertical.py,sha256=O_ZxNl9YpwgUmydjNMxS70UZv3rp55Wy41rK7UQ_ano,683
+textgraph-1.0.1.dist-info/LICENCE,sha256=UauFKPHUltustgnovVIiK5GdPuMrVRywCkbdBZRHuZY,35136
+textgraph-1.0.1.dist-info/METADATA,sha256=DOi074JYNtDxt-EoQdZgcPyVY9-SHvbxccDsxhlXCrI,564
+textgraph-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+textgraph-1.0.1.dist-info/top_level.txt,sha256=-i6OQyzPrLwsjIYkFvJv-y1wYaeDL_moZ4Ge1ZCECNQ,10
+textgraph-1.0.1.dist-info/RECORD,,
