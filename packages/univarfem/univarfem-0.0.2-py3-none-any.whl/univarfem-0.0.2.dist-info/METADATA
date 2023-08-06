@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: univarfem
+Version: 0.0.2
+Summary: FEM solver for univariate PDEs
+Home-page: https://github.com/danieljtait/funicular-expert-machine
+Author: Daniel Tait
+Author-email: tait.djk@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+

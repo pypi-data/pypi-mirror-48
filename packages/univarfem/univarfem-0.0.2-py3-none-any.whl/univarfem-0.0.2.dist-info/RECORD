@@ -1,0 +1,8 @@
+univarfem/__init__.py,sha256=n30MbXuBz6KKt-gQw75HTOpX408zfKrvfX4-CCP2JZM,104
+univarfem/fem.py,sha256=cvnvp6KVzqZHHcO19RVUmJ6-4X600hyDMg1KbYs00Yo,3775
+univarfem/gaussquad.py,sha256=kwxA6SQbKvhH7zN6Vqkq9q8d_urTLAsMPkYVJI5h2NM,1022
+univarfem/mesh.py,sha256=Ap_KwKHCC1QlMvdLEcJFkzROg1GBoZtPj8T2g8kyTEI,828
+univarfem-0.0.2.dist-info/METADATA,sha256=8lsbz4O-9oBYzViu8sDiMhpqEYB4jUyNmwBinNoLOxA,301
+univarfem-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+univarfem-0.0.2.dist-info/top_level.txt,sha256=_F1d-UZCyvlN8A78ZIMws8F1yhAWxNyd-3et6zaLoRk,10
+univarfem-0.0.2.dist-info/RECORD,,
