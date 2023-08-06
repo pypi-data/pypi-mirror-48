@@ -1,0 +1,7 @@
+_ibytes.c
+setup.py
+ibytes/__init__.pyi
+ibytes.egg-info/PKG-INFO
+ibytes.egg-info/SOURCES.txt
+ibytes.egg-info/dependency_links.txt
+ibytes.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ibytes
+Version: 1.2
+Summary: Network stream processing tools
+Home-page: https://github.com/scp10011/ibytes
+Author: scp10011
+Author-email: circlelbw@hotmail.com
+License: UNKNOWN
+Description: User-friendly processing of byte stream message such as SSL DNS
+Platform: UNKNOWN
