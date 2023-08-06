@@ -1,0 +1,6 @@
+setup.py
+gerridae.egg-info/PKG-INFO
+gerridae.egg-info/SOURCES.txt
+gerridae.egg-info/dependency_links.txt
+gerridae.egg-info/requires.txt
+gerridae.egg-info/top_level.txt
