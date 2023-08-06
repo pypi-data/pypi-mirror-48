@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: django-ajax-access
+Version: 0.2.0
+Summary: A set of views and urls for ajax-based logout and logout for Django
+Home-page: https://www.alexseitsinger.com/packages/python/django-ajax-access
+Author: Alex Seitsinger
+Author-email: software@alexseitsinger.com
+License: BSD 2-Clause License
+Project-URL: Documentation, https://www.alexseitsinger.com/packages/python/django-ajax-access
+Project-URL: Source, https://github.com/alexseitsinger/django-ajax-access
+Project-URL: Tracker, https://github.com/alexseitsinger/django-ajax-access/issues
+Description: # Django Ajax Access
+        
+        ## Description
+        
+        A set of views and urls for ajax-based logout and logout for Django.
+        
+        ## Installation
+        
+        ```
+        pip install django_ajax_access
+        ```
+        
+        or
+        
+        ```
+        pipenv install django_ajax_access
+        ```
+        
+        ## Usage
+        
+        settings.py
+        
+        ```python
+        AJAX_ACCESS = {
+          "LOGIN_RATELIMIT": {
+            "KEY": "ip",
+            "RATE": "10/h",
+            "BLOCK": True,
+          },
+          "LOGOUT_RATELIMIT": {
+            "KEY": "ip",
+            "RATE": "10/h",
+            "BLOCK": True,
+          },
+        }
+        ```
+        
+        urls.py
+        
+        ```python
+        from django.conf.urls import url, include
+        
+        urlpatterns = [
+          ...
+          url("^access/", include("ajax_access.urls")),
+          ...
+        ]
+        ```
+        
+Keywords: django,ajax,login,logout
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Description-Content-Type: text/markdown
