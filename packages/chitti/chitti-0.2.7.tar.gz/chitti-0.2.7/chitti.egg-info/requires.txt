@@ -1,0 +1,8 @@
+termcolor
+colorama
+numpy
+scikit-learn
+matplotlib
+pandas
+progressbar
+nltk
