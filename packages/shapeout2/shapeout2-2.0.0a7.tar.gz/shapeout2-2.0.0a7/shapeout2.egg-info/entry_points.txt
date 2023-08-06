@@ -1,0 +1,3 @@
+[gui_scripts]
+shapeout2 = shapeout.__main__:main
+
