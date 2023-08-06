@@ -1,0 +1,10 @@
+numpydoc>=0.7
+openpyxl>=2.5.0
+pymzml@ http://github.com/naderm/pymzML/archive/master.zip
+requests>=2.18.4
+
+[:python_version <= "2.7"]
+backports.tempfile>=1.0
+
+[matlab]
+scipy>=1.0.1
