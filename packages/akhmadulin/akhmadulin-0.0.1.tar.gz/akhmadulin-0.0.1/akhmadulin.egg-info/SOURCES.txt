@@ -1,0 +1,5 @@
+setup.py
+akhmadulin.egg-info/PKG-INFO
+akhmadulin.egg-info/SOURCES.txt
+akhmadulin.egg-info/dependency_links.txt
+akhmadulin.egg-info/top_level.txt
