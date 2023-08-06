@@ -1,0 +1,11 @@
+README.md
+setup.py
+pymapping/__about__.py
+pymapping/__init__.py
+pymapping/main.py
+pymapping.egg-info/PKG-INFO
+pymapping.egg-info/SOURCES.txt
+pymapping.egg-info/dependency_links.txt
+pymapping.egg-info/requires.txt
+pymapping.egg-info/top_level.txt
+test/test_1d.py
