@@ -1,0 +1,4 @@
+#MANIFEST.in
+
+include *.tx
+recursive-include docs *.rst
