@@ -1,0 +1,16 @@
+sptemp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sptemp/_texts.py,sha256=PCEfsqfBwQgZLa9e-WfkWGmmvHJC11cDSw0bJ_eF-lA,15916
+sptemp/analysis.py,sha256=Z6jualyFw2HsoRHBHckusIWBhJz_X4x7JdG82HtzghU,14350
+sptemp/interpolation.py,sha256=naUiaRmumt7LJcAO_ktLAkQYIE0kMFygSKpxd6oRwxY,35819
+sptemp/moving_geometry.py,sha256=wiMpJS0PgQmlOSPEPGgc4r2fMT2X6HYfCw6YPBTZ_S4,59244
+sptemp/zeit.py,sha256=G2EDZC6vkkjCrUaC6mNq8ZbPD0xaoSgcMLCEejX1XY0,65540
+sptemp/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sptemp/tests/analysis_tests.py,sha256=h4a3fli5hBBm7z-LeojwnmCLD64DoMQ0e5k1O1kSsyI,8448
+sptemp/tests/interpolation_tests.py,sha256=YHqlQB8blARQMXWKlZkWFF8XIJtJlkNtVu52WW2_KvQ,25124
+sptemp/tests/moving_geometry_tests.py,sha256=DDgW9qkcmEMx6xwAA-s_9pSa9sEynWiv5LMhnu4znFA,70992
+sptemp/tests/zeit_tests.py,sha256=8sGlKOx9KascreuWEaWukJ3voVYAbbqoNSUCIaWsFY8,71806
+sptemp-1.1.0.dist-info/LICENSE.txt,sha256=GWxsXdHAfXemfG4FlmeIV4ZdGUyAMk3p_BOiuU5HUsc,1090
+sptemp-1.1.0.dist-info/METADATA,sha256=zmRj1kdDd2pisl3taLjXErteVZqAp7TAguArW08GG4M,13553
+sptemp-1.1.0.dist-info/WHEEL,sha256=6EdtIfQmBpGgb6Y7UyywfQ8EO2xmaQlvEiD3D9cjVh4,97
+sptemp-1.1.0.dist-info/top_level.txt,sha256=qLQOFfIwGaMkR4_FEjbYtXGkdgcr3MaVgtplS3ZI-eU,7
+sptemp-1.1.0.dist-info/RECORD,,
