@@ -1,0 +1,7 @@
+beautifulsoup4
+pandas
+selenium
+pattern
+fake_useragent
+nltk
+chromedriver-binary==74.0.3729.6.0
