@@ -1,0 +1,10 @@
+_scs_direct.so,sha256=aLAMM1moAO7vGJjeQlj5qywNfSE9qPEJ2FbmWLECi48,101576
+_scs_indirect.so,sha256=XMCcJlY5bF2ZJqHYcFjTY5Gl2GpuUE9M3UOvSMvgc4U,74260
+_scs_python.so,sha256=Nl4Pg5N1R9v9sevJOHEtFhoD81fmjx3giz-DPs1IJyE,74528
+scs/__init__.py,sha256=T5VwsY-WxbC6Udct7r05mLnZcjxZOJC5AySrwsNIdPE,2505
+scs-2.1.1.dist-info/DESCRIPTION.rst,sha256=XW4thzHghI4rkm_9ZFbsoAhGIvMEW6Zk3O_7M8ldcyE,320
+scs-2.1.1.dist-info/METADATA,sha256=29t4UafLv2bxctzcyJL_3nCM__gGhLYZalPQK4EYwd0,635
+scs-2.1.1.dist-info/RECORD,,
+scs-2.1.1.dist-info/WHEEL,sha256=rlnrpEpmAeeNdGtVSp_6HTLyrf82lJsSY_VumqxCUfQ,111
+scs-2.1.1.dist-info/metadata.json,sha256=R52Q6sKp_c13-bt7FfFw_PWurn95lUetbaOt0vMpCjE,530
+scs-2.1.1.dist-info/top_level.txt,sha256=fAfgjsZw3LFL7nG-d0IN_nIb_cAynORVWnL-IXDSveQ,42
