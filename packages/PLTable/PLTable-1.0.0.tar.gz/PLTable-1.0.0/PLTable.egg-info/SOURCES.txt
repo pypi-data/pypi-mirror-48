@@ -1,0 +1,10 @@
+README.md
+setup.py
+PLTable.egg-info/PKG-INFO
+PLTable.egg-info/SOURCES.txt
+PLTable.egg-info/dependency_links.txt
+PLTable.egg-info/top_level.txt
+prettytable/__init__.py
+prettytable/compat.py
+prettytable/factory.py
+prettytable/prettytable.py
