@@ -1,0 +1,9 @@
+drf_generator/__init__.py,sha256=g3uSwqF0QylloM0RFAuJjIAvxmz_HsXe6A1vfhaKU6Y,51
+drf_generator/routers.py,sha256=tPPLf9WMWegxsD-EsvnTrGI_vPfl8PVHw3iEKWmZ0TY,589
+drf_generator/serializers.py,sha256=4rgBfZvNlLlRMWdfTafOPpqhsZmH6YLFvQKe5pbOO50,540
+drf_generator/settings.py,sha256=PKNh5fgeBTaib7Ip0pms3R-St_7G1_2bRc_GEZEszjw,526
+drf_generator/views.py,sha256=mqrcapxtKybMzme3cpqnp69L3-Fmze5Fe5YctNe4Pk8,367
+drf_generator-0.0.5.dist-info/LICENSE,sha256=kjSG15k8cE17B0qUxhMe6RUyyZ3dBN3qtQxdvN3WPsI,1081
+drf_generator-0.0.5.dist-info/WHEEL,sha256=RFGpeSWy2MhnOH7MbIZmX9ZR0evWl2eJvsMO-yF-tDc,97
+drf_generator-0.0.5.dist-info/METADATA,sha256=9iJdS2ssspRB-579bj38z-agMef-qI8oN7GI0PCzk7U,239
+drf_generator-0.0.5.dist-info/RECORD,,
