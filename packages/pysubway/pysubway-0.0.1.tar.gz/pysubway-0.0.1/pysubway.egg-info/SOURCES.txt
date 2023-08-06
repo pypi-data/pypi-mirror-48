@@ -1,0 +1,5 @@
+setup.py
+pysubway.egg-info/PKG-INFO
+pysubway.egg-info/SOURCES.txt
+pysubway.egg-info/dependency_links.txt
+pysubway.egg-info/top_level.txt
