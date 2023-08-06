@@ -1,0 +1,9 @@
+README.md
+setup.py
+nlpc.egg-info/PKG-INFO
+nlpc.egg-info/SOURCES.txt
+nlpc.egg-info/dependency_links.txt
+nlpc.egg-info/not-zip-safe
+nlpc.egg-info/requires.txt
+nlpc.egg-info/top_level.txt
+src/main.cpp
