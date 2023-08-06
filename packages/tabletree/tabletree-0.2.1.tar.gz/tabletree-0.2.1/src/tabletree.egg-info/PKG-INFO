@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: tabletree
+Version: 0.2.1
+Summary: Python package for exploring and linking multiple SQL-like tables
+Home-page: https://github.com/rluo/tabletree
+Author: Xi Rossi LUO
+Author-email: xi.rossi.luo@gmail.com
+License: GPL v3
+Description: =========
+        tabletree
+        =========
+        
+        
+        Python package for exploring and linking multiple SQL-like tables
+        
+        Description
+        ===========
+        
+        This package will link multiple SQL-tables together to facilitate (potentially large-scale) analysis of data from various sources. All tables are implemented using Pandas Data.Frame objects.
+        
+        Note
+        ====
+        
+        Github: https://github.com/rluo/tabletree
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Requires-Python: >= 3.4
+Provides-Extra: testing
