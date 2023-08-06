@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: enforcer-reloaded
+Version: 1.0.1
+Summary: AWS SSM Parameter Store Management CLI
+Home-page: https://github.com/kave/enforcer
+Author: Emmanuel Apau
+License: Apache 2.0
+Description: AWS SSM Parameter Store Management CLI
+Platform: any
+Provides-Extra: dev
