@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: heurispy
+Version: 0.1
+Summary: Framework para exploración de heurísticas de búsqueda local en problemas de optimización discreta
+Home-page: https://gitlab.com/escamilla.een/heurispy
+Author: Esteban Escamilla Navarro
+Author-email: escamilla.een@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pathos
+Requires-Dist: tqdm
+Requires-Dist: numpy
+Requires-Dist: pandas
+
+UNKNOWN
+
+
