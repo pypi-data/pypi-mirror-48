@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: download-and-extract
+Version: 0.3.3
+Summary: Downloads zip archive and extracts it to specified folder
+Author: Advaita Krishna das
+Author-email: advaita.krishna.das@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests (>=2.22,<3.0)
+Description-Content-Type: text/markdown
+
+Download And Extract
+====================
+
+It will download zip file and extract it to the specified folder. Here is an example:
+
+```py
+from download_and_extract import Fetcher, FetcherException
+
+try:
+    fetcher.fetch("http://example.com/about.txt", "./test/1")
+raise FetcherException as ex:
+    print("Some error")
+```
+
