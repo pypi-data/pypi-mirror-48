@@ -1,0 +1,4 @@
+include bsm/VERSION
+include bsm/BSMCLI_CMD
+include bsm/support/bsm.conf.example
+include bsm/shell/bsm.csh
