@@ -1,0 +1,10 @@
+setup.py
+opensesame_extension_jupyter.egg-info/PKG-INFO
+opensesame_extension_jupyter.egg-info/SOURCES.txt
+opensesame_extension_jupyter.egg-info/dependency_links.txt
+opensesame_extension_jupyter.egg-info/requires.txt
+opensesame_extension_jupyter.egg-info/top_level.txt
+opensesame_extensions/jupyter/info.yaml
+opensesame_extensions/jupyter/jupyter.py
+opensesame_extensions/jupyter/jupyter.ui
+opensesame_extensions/jupyter/jupyter_widget.py
