@@ -1,0 +1,11 @@
+geojson2imdf/__init__.py,sha256=uvdErSe_V2EwozGYhWO8tNHLk6DGckwYbG0w57tVIDQ,363
+geojson2imdf/__main__.py,sha256=uvdErSe_V2EwozGYhWO8tNHLk6DGckwYbG0w57tVIDQ,363
+geojson2imdf/app.py,sha256=OaPH48zjq6J3P6Ol_HGRuo2MRQn2GPwFScNrovnDjQ8,776
+geojson2imdf/imdf/venue.py,sha256=WWrY4GkzpgZ3Lxa4JJINIacWTs9QuNhTQgcf4xbiLXc,51
+geojson2imdf-0.0.1.5.dist-info/AUTHORS.rst,sha256=aDEHW_4lD-DGjFF_zWejDP8ArbGKYjnW9wVnBRiHg_Y,76
+geojson2imdf-0.0.1.5.dist-info/LICENSE.txt,sha256=innX6uOadxhBzrK-1zA7fMS3g2vU_ILjIQOnXopSRfo,1072
+geojson2imdf-0.0.1.5.dist-info/METADATA,sha256=h7whdNWFxUJdBdCX1EBxOWZb1tr4F3aujJ8hoeOw38I,705
+geojson2imdf-0.0.1.5.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+geojson2imdf-0.0.1.5.dist-info/entry_points.txt,sha256=Qt9cRIJb22BvouTIUKLJo9m_AKdUSOZNWbgCBBN4A7c,55
+geojson2imdf-0.0.1.5.dist-info/top_level.txt,sha256=PYe8q9GAtz4nST0C0bygY6T4ZS10WQIaT97Aq_QMYNA,13
+geojson2imdf-0.0.1.5.dist-info/RECORD,,
