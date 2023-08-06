@@ -1,0 +1,11 @@
+rosreestr_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rosreestr_api/clients.py,sha256=Fu3M5DDsNoDQs0eQxWqi_4JPo1Y9dNLd9JBwk3RNadE,12512
+rosreestr_api/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+rosreestr_api/tests/pkk5_client_fixtures.py,sha256=tK_thqtslMm7cTexO0D-BJZTUiucaJVbx0NXVWnW_No,1726
+rosreestr_api/tests/rosreestr_client_fixtures.py,sha256=33xNK1B8yNGPiKq64S2otI7bA8pqVmojfjUJhO5Afa8,5750
+rosreestr_api/tests/test_api_clients.py,sha256=azk3NW2c_c2jzXZhbwQtiCnz4QQa4TJZX4OdQb83Hwo,8966
+rosreestr_api-0.3.1.dist-info/LICENCE.txt,sha256=ovbnaqnRgpVJKfEhfNH7QAHlPklbC6RBsHtIHw-s0VM,1532
+rosreestr_api-0.3.1.dist-info/METADATA,sha256=BOBpdKa2bQIfzxh2TmfO-RpXAeTbc_clvMeSiFnvVd0,688
+rosreestr_api-0.3.1.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+rosreestr_api-0.3.1.dist-info/top_level.txt,sha256=mwmCia4jbo2y1oUOZD3-ORGTsh-RsMm2WWehwP0JBT8,14
+rosreestr_api-0.3.1.dist-info/RECORD,,
