@@ -1,0 +1,11 @@
+reader/__init__.py,sha256=E95GdGyM6NWw8IaxgeKpmy6diuBvcd6koBCIV5CKc5w,570
+reader/__main__.py,sha256=CoLkk3kX6BITH2tJEhH5KdbahpdqgIIVsEsUPVFjVCQ,990
+reader/config.cfg,sha256=OfNMAv1ZutGvygHaxa9BeYhiP0C7BYzq9NNvuS8haXg,39
+reader/feed.py,sha256=Hr9BubzSYlu-_koSOAKDjduf2-qj1MGuJtwG8oChGQk,1602
+reader/viewer.py,sha256=fbXlva_A_s9jeN69GgeUsPG2gKhYgWCMoWb5F1H0Plo,511
+setopati_reader-2.0.0.dist-info/LICENSE,sha256=lVXG7TZJTjE8Q3ZSrxuk5jfzukuDbQe6wRce2Iq3h94,1068
+setopati_reader-2.0.0.dist-info/METADATA,sha256=50yn3OWJNXwSgZ7bCqjoVaxeiOMdr4_aJ7nY-JTiKVk,2052
+setopati_reader-2.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+setopati_reader-2.0.0.dist-info/entry_points.txt,sha256=4haoeWxtyOodpD3Tq5ZyozEJgqUls39tdiNPAEjRfkw,54
+setopati_reader-2.0.0.dist-info/top_level.txt,sha256=zVRv6FulXZWKf9Gycz9vjxul5OCZ3fCq2Attdwsu7Z4,7
+setopati_reader-2.0.0.dist-info/RECORD,,
