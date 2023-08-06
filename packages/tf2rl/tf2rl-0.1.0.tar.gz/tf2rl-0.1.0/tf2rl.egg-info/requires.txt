@@ -1,0 +1,14 @@
+cpprb>=7.13.3joblib
+scipy
+
+[examples]
+gym
+gym[atari]
+roboschool
+opencv-python
+
+[tf]
+tensorflow==2.0.0b0
+
+[tf_gpu]
+tensorflow-gpu==2.0.0b0
