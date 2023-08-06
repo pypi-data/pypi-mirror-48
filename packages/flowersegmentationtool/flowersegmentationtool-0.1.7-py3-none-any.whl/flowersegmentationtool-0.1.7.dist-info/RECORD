@@ -1,0 +1,15 @@
+filter/__init__.py,sha256=C-Af9wQtIN940lSG_da29NQ44VMx9Nbx-0rqkxnT8jI,13
+filter/data.py,sha256=4P-SBvER9bSGXGb_yS-qVJPix973iZA9WZ1YCqeIeb0,8997
+gui/__init__.py,sha256=j4uu5ziHt4Prn_UF4KfaRKzEgipY8zDn2JbzMI-XfXY,20
+gui/app.py,sha256=vEoCGvF8Zab5GD9yb_Fa6tAocmI9gMVvC9WjbYnOEEM,10884
+gui/segtool.py,sha256=z1gXTK3qLzCqUo3-z84zePxPUfPyiDeWskZMv5xM8tQ,592
+gui/pyqt5backend/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gui/pyqt5backend/guidesign.py,sha256=IJo4Hv4UaFCs70E-aG9omoPHkBFk_nzL-k_MpUMColg,23000
+gui/pyqt5backend/mplwidget_nav.py,sha256=Y-WTmCuhn6rqsqKTpgkz_OdNu78b8G6E0jr7jGZu5sY,1671
+segtool/__init__.py,sha256=NYmkmRIuodEwXETNa1w32zcJA2glPOmggZ95tcmDYmM,14
+segtool/main.py,sha256=lHLO3hEXPV4LFa8vU1tdsZAm9XVVHWYnDpFibUVK9rw,358
+flowersegmentationtool-0.1.7.dist-info/LICENSE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+flowersegmentationtool-0.1.7.dist-info/METADATA,sha256=G6h3hfaRY1fFS3YrIgo5T792y-FINnuYoVPfqBw2Qd8,3159
+flowersegmentationtool-0.1.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+flowersegmentationtool-0.1.7.dist-info/top_level.txt,sha256=JVhZlaTD8Unw2o_JYCom00JV8kieY7U26HYqr8Drgac,11
+flowersegmentationtool-0.1.7.dist-info/RECORD,,
