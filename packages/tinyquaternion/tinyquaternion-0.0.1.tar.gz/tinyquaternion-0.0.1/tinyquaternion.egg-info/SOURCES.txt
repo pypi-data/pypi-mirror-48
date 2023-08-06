@@ -1,0 +1,8 @@
+README.md
+setup.py
+tinyquaternion/__init__.py
+tinyquaternion/tinyQuaternion.py
+tinyquaternion.egg-info/PKG-INFO
+tinyquaternion.egg-info/SOURCES.txt
+tinyquaternion.egg-info/dependency_links.txt
+tinyquaternion.egg-info/top_level.txt
