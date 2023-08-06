@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: LaueTools
+Version: 3.0.0.13
+Summary: First trials to distribute LaueTools Package with pip
+Home-page: https://sourceforge.net/projects/lauetools/
+Author: J S Micha
+Author-email: micha@esrf.fr
+License: MIT
+Description: UNKNOWN
+Keywords: Lauetools x-ray scattering data analysis GUI Laue
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 2.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.6 , <3.7
