@@ -1,0 +1,3 @@
+exclude_paths:
+  - 'tests/**'
+  - 'bw_plex/audfprint/**'

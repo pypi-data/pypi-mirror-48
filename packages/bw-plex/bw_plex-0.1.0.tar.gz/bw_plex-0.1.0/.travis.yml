@@ -1,0 +1,27 @@
+language: python
+addons:
+  apt:
+    sources:
+    - sourceline: "ppa:mc3man/trusty-media"
+    update: true
+    packages:
+    - ffmpeg
+    - libpulse-dev
+    - libasound2-dev
+    - pandoc
+    - swig
+    - tesseract-ocr
+before_install:
+    - pip install --upgrade pip
+    - pip install --upgrade codecov pypandoc pytest pytest-cov pytest-mock pytest_click
+install: "pip install --no-cache-dir -e .[all]"
+script: py.test -vv -s --cov=$TRAVIS_BUILD_DIR/bw_plex/ --cov-report term-missing
+after_success: codecov
+deploy:
+  provider: pypi
+  user: Hellowlol
+  password:
+    secure: Tul6JZvDg3m3GkHcN89gAG1e5P246mC/v/BDzRswfiIBh4b2yJ/Cr+DgJcgmLYqz00nIwmRBm/JW/olygVCzQ6AbA9WuLh4SnfHJmO5V3xhxxEW9b2RH4bA3vL60TVtPGSXcJkHQ3KmF7G36xZMRfydvzQKnY116XzTe9SyVLNTHi2D7Kwf6bhVmOug7Mtaazt9k7ao67hEZEezW/zp2eSBXyhSY/vK5g30ZzZbgkTp/2csEXDcBxa6FDKbyZ0/zKlHc6BOD+Ibz4V3nMpKcgzBncgWP0i5M1tAfGG0WbF1wb7PrCq4Ly6QKGZhN4rnC3YaaCl9YHLWtu/VdPZD0tvE1mfXUon8FYjBLZgTUSXcnc9LNvLlMIbIeaqGLoi0q3L/RBQWBR5DiVJoX06FS8oNzY8ijDeX6dPdpI8zQBceKIq7uhSvhw3Y6l+c6HpCahc4Tg+HfTkkZ216QwdzC1UnqQzM5eCTDBViGOcV9zSzfetN6MS9mdydQ2lMaNCcf8uctVpafULMIEj+A3Cfzmld7qVJJORnBB5UHd3Hi0e6ig4rYvEA48Y0n2wvicVQ9B5XUEEFa7+RmpQw/ptkSKSgskBsxMklfKOvw2pgWbYLvDDdhfNL0K55XzCpxFJrKvXIR5Y0JpPRl8Q02DCE+PTnvf7b7pOl37fLlUil3lMY=
+  on:
+    tags: true
+    branch: master
