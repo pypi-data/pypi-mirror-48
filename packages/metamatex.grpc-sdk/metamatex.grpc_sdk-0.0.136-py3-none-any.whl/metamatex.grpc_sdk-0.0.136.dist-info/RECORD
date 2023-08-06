@@ -1,0 +1,10 @@
+metamatex/grpc_sdk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/proto2/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+metamatex/grpc_sdk/v2019_02/proto2/schema_pb2.py,sha256=6Q5nxYX0IiEImSygtxdjF1WG_yTA5cR_CS8YYC1w4Fk,1256806
+metamatex/grpc_sdk/v2019_02/proto2/schema_pb2_grpc.py,sha256=RcupWeSR4DjdhcQJEXJBt2QC00yKfEsHpg_GFClBubw,51978
+metamatex.grpc_sdk-0.0.136.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+metamatex.grpc_sdk-0.0.136.dist-info/METADATA,sha256=jVCZRfrY-CHcbHKp1VsmoTHVPIq_SyIozYrxHox4Ngs,282
+metamatex.grpc_sdk-0.0.136.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+metamatex.grpc_sdk-0.0.136.dist-info/top_level.txt,sha256=8gRjqVQSgUPJYXdzivbFWt_PF4rfVHbKyPMyExazhK8,10
+metamatex.grpc_sdk-0.0.136.dist-info/RECORD,,
