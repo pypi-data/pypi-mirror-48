@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pyratfun
+Version: 0.1.1
+Summary: Rational Function manipulation in python
+Home-page: https://github.com/mgely/PyRatFun
+Author: Mario Gely
+Author-email: mario.f.gely@gmail.com
+License: UNKNOWN
+Description: Rational Function manipulations in python (and some extensions to the NumPy Polynomial class)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.0.0
+Description-Content-Type: text/markdown

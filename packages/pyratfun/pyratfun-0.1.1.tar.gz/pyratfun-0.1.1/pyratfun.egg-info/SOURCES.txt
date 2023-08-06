@@ -1,0 +1,8 @@
+README.md
+setup.py
+pyratfun.egg-info/PKG-INFO
+pyratfun.egg-info/SOURCES.txt
+pyratfun.egg-info/dependency_links.txt
+pyratfun.egg-info/top_level.txt
+src/__init__.py
+src/core.py
