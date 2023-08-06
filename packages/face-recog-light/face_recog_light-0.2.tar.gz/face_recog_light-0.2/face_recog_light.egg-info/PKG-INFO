@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: face-recog-light
+Version: 0.2
+Summary: light-weight face recognition
+Home-page: https://github.com/dewaldabrie/face_recognition
+Author: Dewald Abrie
+Author-email: dewaldabrie@gmail.com
+License: UNKNOWN
+Description: # face_recognition
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

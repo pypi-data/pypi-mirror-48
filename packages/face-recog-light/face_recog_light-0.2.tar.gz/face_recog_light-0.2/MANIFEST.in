@@ -1,0 +1,1 @@
+include face_recog_light/models/facenet.tflite

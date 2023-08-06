@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+face_recog_light/__init__.py
+face_recog_light/face_recognition.py
+face_recog_light/test.py
+face_recog_light.egg-info/PKG-INFO
+face_recog_light.egg-info/SOURCES.txt
+face_recog_light.egg-info/dependency_links.txt
+face_recog_light.egg-info/top_level.txt
+face_recog_light/models/facenet.tflite
