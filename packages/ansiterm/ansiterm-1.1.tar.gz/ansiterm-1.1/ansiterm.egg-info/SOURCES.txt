@@ -1,0 +1,7 @@
+README.md
+setup.py
+ansiterm/__init__.py
+ansiterm.egg-info/PKG-INFO
+ansiterm.egg-info/SOURCES.txt
+ansiterm.egg-info/dependency_links.txt
+ansiterm.egg-info/top_level.txt
