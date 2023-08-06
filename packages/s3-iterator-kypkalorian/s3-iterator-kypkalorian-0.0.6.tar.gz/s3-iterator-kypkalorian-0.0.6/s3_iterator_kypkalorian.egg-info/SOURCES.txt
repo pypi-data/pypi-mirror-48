@@ -1,0 +1,11 @@
+README.md
+setup.py
+s3_iterator/__init__.py
+s3_iterator/iterator.py
+s3_iterator/list_obj.py
+s3_iterator/smart_worker.py
+s3_iterator/worker.py
+s3_iterator_kypkalorian.egg-info/PKG-INFO
+s3_iterator_kypkalorian.egg-info/SOURCES.txt
+s3_iterator_kypkalorian.egg-info/dependency_links.txt
+s3_iterator_kypkalorian.egg-info/top_level.txt
