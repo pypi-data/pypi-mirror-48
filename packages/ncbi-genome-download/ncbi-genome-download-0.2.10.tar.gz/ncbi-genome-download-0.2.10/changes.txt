@@ -1,0 +1,22 @@
+This is a bugfix release to ncbi-genome-download also adding two convenience
+features.
+
+Major changes are:
+* Use realtive instead of absolute symlinks for human-readable output (thanks
+  @chrisgulvik)
+* No longer crash on abnormal organism names (thanks to @andrewsanchez for the
+  initial pull request)
+* Allow for fuzzy matching of both organism name and accessions
+
+Detailed changes:
+
+Chris Gulvik (1):
+      create_symlink func modified to create relative rather than absolute symbolic links; resolves #62
+
+Kai Blin (5):
+      core: Allow for fuzzy matching for specified organism names
+      core: Allow for fuzzy matching of specified accessions
+      chore: Fix two whitespace issues
+      core: Deal with organism names that don't contain a species part
+      Bump version number to 0.2.10
+
