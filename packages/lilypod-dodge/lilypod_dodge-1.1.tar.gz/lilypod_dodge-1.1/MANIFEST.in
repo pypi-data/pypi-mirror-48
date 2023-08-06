@@ -1,0 +1,5 @@
+include lilypod_dodge\resources\*.png
+include lilypod_dodge\resources\*.txt
+include lilypod_dodge\resources\*.wav
+include lilypod_dodge\resources\*.json
+include lilypod_dodge\resources\*cfg
