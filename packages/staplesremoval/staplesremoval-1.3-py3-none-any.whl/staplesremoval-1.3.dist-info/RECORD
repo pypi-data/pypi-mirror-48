@@ -1,0 +1,15 @@
+staplesremoval/__init__.py,sha256=-hTvAUL16UzYf4pSjcVOWn4yyJYAFioOdkGqvaFFYfw,329
+staplesremoval/data.py,sha256=VSoGBPRsKuu44T3TBkOfjI4nMzBqQ9z-qD4Ult3vMDo,371
+staplesremoval/detect_infection.py,sha256=cbJ6xLyINFNkSBk-Wg6U_DrTBwP_9_6tXvYasmDKLTE,2413
+staplesremoval/inpainting.py,sha256=C3mm9sSmzh4Naf9WQMgUBTfXUk7FsS9T9j_DHpeyQpU,1082
+staplesremoval/remove_staples.py,sha256=7EyjKIdKwZIzgxzl0QDFvbaR5p2UMtvwF1c0p5YKOpk,250
+staplesremoval/staples_detector.py,sha256=dZ49EULcJKcZLkVElZ3-wBUlC2Ajr_V0CI2bT0z-IEU,2000
+staplesremoval/trapezoidal_fuzzy_color_segmentation.py,sha256=6I7VFOeIOTJcSv9b8lf8Yy1mGesHcp_ZcyWGnvrpI2U,4130
+staplesremoval/triangular_fuzzy_color_segmentation.py,sha256=2W_hElXBIoBtyNnnaiB1P6G_X77WwAZIqRszEG9M3D4,4916
+staplesremoval/images/image_infection.png,sha256=DNMg2eLTNn7itrQlx6buN_v6bECdPaOI0CvPUrWpu0Y,473913
+staplesremoval/images/image_noinfection.png,sha256=moVwcKrHSaZgvYmnTzWOw0LKKSDq_OBsSSHHmDbhies,1548276
+staplesremoval-1.3.dist-info/LICENSE.txt,sha256=kYRt9CCXua2wyD64c7GiJWXpsb1p9g5VEuFTjuFBo_o,1072
+staplesremoval-1.3.dist-info/METADATA,sha256=UDJC4VN3iag1c2wVKYuBV5OaYUnedT-EOnjgoge7O_A,358
+staplesremoval-1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+staplesremoval-1.3.dist-info/top_level.txt,sha256=3cs70zown6K10FmxY27p9aWWClTv311S7AYce1HIuq4,15
+staplesremoval-1.3.dist-info/RECORD,,
