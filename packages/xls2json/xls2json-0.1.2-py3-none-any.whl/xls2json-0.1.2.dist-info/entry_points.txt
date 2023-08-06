@@ -1,0 +1,3 @@
+[console_scripts]
+xls2json=xls2json.command_line:main
+
