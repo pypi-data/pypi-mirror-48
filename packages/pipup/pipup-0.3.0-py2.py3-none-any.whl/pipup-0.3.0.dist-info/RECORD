@@ -1,0 +1,11 @@
+pipup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pipup/exceptions.py,sha256=5JIpF2BHHimWvW9oCj4vvPSv8F10YEhE4f97tczo7pI,141
+pipup/freeze.py,sha256=sfO8Vy5Vav31PZ4DP3QMVJEyam2U4U1SPwx2u4cccOU,777
+pipup/main.py,sha256=B2Da74C889NGr-UBQpoeWwre8U5qRwP-twsqjnkr02M,3866
+pipup/req_files.py,sha256=8YBBhM0lrzzei1jJ0l40eF0-9epYDVeRIjiQHU0sinM,3462
+pipup-0.3.0.dist-info/LICENSE.txt,sha256=Fys5CCL42Ll0Ob0UgTGYsb86h7pTwOuNcst2jzp9Qzc,1548
+pipup-0.3.0.dist-info/METADATA,sha256=n4x6VmJ7t18Aydnm6PTsZcrlU32H7st_F4zKVb3S8_U,4037
+pipup-0.3.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+pipup-0.3.0.dist-info/entry_points.txt,sha256=OzOZ2jewh2sotpsErXkIyd2HhrGXeF_-eUeJ56G_H_g,60
+pipup-0.3.0.dist-info/top_level.txt,sha256=l04VsKVuwSpOlFCQvJb4t-A6bQ87ODe5DB2Iw8bpDwY,6
+pipup-0.3.0.dist-info/RECORD,,
