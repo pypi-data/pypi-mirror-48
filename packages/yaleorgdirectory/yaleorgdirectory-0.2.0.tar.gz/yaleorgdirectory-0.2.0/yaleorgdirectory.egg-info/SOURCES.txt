@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+yaleorgdirectory/__init__.py
+yaleorgdirectory/main.py
+yaleorgdirectory.egg-info/PKG-INFO
+yaleorgdirectory.egg-info/SOURCES.txt
+yaleorgdirectory.egg-info/dependency_links.txt
+yaleorgdirectory.egg-info/requires.txt
+yaleorgdirectory.egg-info/top_level.txt
