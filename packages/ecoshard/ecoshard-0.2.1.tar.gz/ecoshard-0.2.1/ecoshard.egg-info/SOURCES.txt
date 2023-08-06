@@ -1,0 +1,15 @@
+.hgtags
+HISTORY.rst
+LICENSE.txt
+README.rst
+requirements.txt
+setup.py
+ecoshard.egg-info/PKG-INFO
+ecoshard.egg-info/SOURCES.txt
+ecoshard.egg-info/dependency_links.txt
+ecoshard.egg-info/requires.txt
+ecoshard.egg-info/top_level.txt
+src/ecoshard/__init__.py
+src/ecoshard/__main__.py
+src/ecoshard/ecoshard.py
+tests/test_ecoshard.py
