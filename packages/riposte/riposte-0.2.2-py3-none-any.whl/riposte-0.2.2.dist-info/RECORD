@@ -1,0 +1,15 @@
+riposte/__init__.py,sha256=P0uLJpez_dBDoaSKjMZ_dbKkhdsTNKz8U7aaRAkO6xU,37
+riposte/_version.py,sha256=F6Rm4krKda7JBupGQP6Txxwj97zgxMLm4irx42mKiSc,116
+riposte/command.py,sha256=kMzsDhJGx8Z42UkpmP3xK20Z2hDGXkWxLMAjEYVHwxk,4324
+riposte/exceptions.py,sha256=HMhUK-ZagN3k--dVRtRXCl2M5Nw7gtP6Rbl6wCoY2f0,512
+riposte/guides.py,sha256=jcyKfZ0OQrgSRzXRZB3kb0dL6KEm8kCFpbr1AYytTG0,888
+riposte/riposte.py,sha256=vD_wi7nFQXRTpjgDHZ8YZzRYM_8Uq73x52XtyG-q90E,5706
+riposte/printer/__init__.py,sha256=jPsraQHvvKlu_OFAct7FGM1gS4S2HmgXlKUNqXckkMo,37
+riposte/printer/mixins.py,sha256=tbUt5h6sbkeqTwToW_-TNifPCoOW0LxJXZcirz3RjmA,890
+riposte/printer/palette.py,sha256=xPH_l_CvqWiC_syWrJwiZpAg8C4p9pWJj8EV3ph9Qkc,259
+riposte/printer/thread.py,sha256=Lk6GqvvK3lJsVNXRPK8ttCgvrsPPUXHhjb4Rjzd-S2k,774
+riposte-0.2.2.dist-info/LICENSE,sha256=5xOAODdKhQcl9JPbjOrjaFOC5TR6V6TQ4LwEt2uqOBw,1073
+riposte-0.2.2.dist-info/METADATA,sha256=D5o7-UYrQrZkBIA0TKp1Xdutg0irSNBntpIJUcYCmxY,13771
+riposte-0.2.2.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+riposte-0.2.2.dist-info/top_level.txt,sha256=DA7VzRHcOpCutudaTKihat8uLujV6XPZMMS_xDcqAHM,8
+riposte-0.2.2.dist-info/RECORD,,
