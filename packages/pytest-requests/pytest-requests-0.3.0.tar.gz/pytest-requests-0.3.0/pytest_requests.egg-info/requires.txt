@@ -1,0 +1,5 @@
+pytest>=3.5.0
+pyyaml
+pydash
+trafaret
+requests
