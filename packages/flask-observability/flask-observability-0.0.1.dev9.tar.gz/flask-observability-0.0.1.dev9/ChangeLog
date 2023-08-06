@@ -1,0 +1,13 @@
+CHANGES
+=======
+
+* add manual send of measurement
+* fix test
+* handle influxdb not being available, should not prevent the request from going through
+* better detection of http response status
+* handle anonymous user
+* ignore flask admin static routes by default
+* instrument all views by default
+* match layout to http\_response telegraf plugin
+* add observe decorator
+* Initial commit
