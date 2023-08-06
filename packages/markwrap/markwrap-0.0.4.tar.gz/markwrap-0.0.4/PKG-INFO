@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: markwrap
+Version: 0.0.4
+Summary: Python wrappers around common dependencies
+Home-page: https://github.com/willmarkley/markwrap
+Author: Will Markley
+Author-email: willmarkley@protonmail.com
+License: UNKNOWN
+Description: ========
+        markwrap
+        ========
+        
+        .. image:: https://travis-ci.org/willmarkley/markwrap.svg?branch=master
+            :target: https://travis-ci.org/willmarkley/markwrap
+        
+        Python wrappers around common dependencies
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: System
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/x-rst
