@@ -1,0 +1,62 @@
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry]
+name = "dump-env"
+version = "1.0.0"
+description = "A utility tool to create .env files"
+
+license = "MIT"
+
+authors = [
+  "Nikita Sobolev <mail@sobolevn.me>"
+]
+
+readme = "README.md"
+
+repository = "https://github.com/sobolevn/dump-env"
+homepage = "https://github.com/sobolevn/dump-env"
+
+keywords = [
+  "dotenv",
+  ".env",
+  "tempaltes",
+  "secrets",
+  "CI/CD"
+]
+
+classifiers = [
+  "Development Status :: 5 - Production/Stable",
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: OS Independent",
+  "Programming Language :: Python",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3.6",
+  "Programming Language :: Python :: 3.7",
+  "Programming Language :: Python :: Implementation :: CPython"
+]
+
+[tool.poetry.scripts]
+dump-env = "dump_env.cli:main"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+pytest-cov = "^2.7"
+pytest-randomly = "^3.0"
+pytest = "^4.6"
+"delegator.py" = "^0.1.1"
+
+wemake-python-styleguide = "^0.9.0"
+safety = "^1.8"
+mypy = "^0.711"
+
+sphinx = "^2.1"
+m2r = "^0.2"
+doc8 = "^0.8"
+sphinx-readable-theme = "^1.3"
+tomlkit = "^0.5.3"
