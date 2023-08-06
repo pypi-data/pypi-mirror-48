@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: overwatch-league-api
+Version: 0.0.3
+Summary: An Overwatch League API Client Library
+Home-page: https://github.com/draftbuff/overwatch-league-api
+Author: Summer Labs Inc.
+Author-email: admin@draftbuff.com
+License: UNKNOWN
+Description: A Python Client for the Overwatch League API
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
