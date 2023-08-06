@@ -1,0 +1,208 @@
+Metadata-Version: 2.1
+Name: ks33requests
+Version: 0.1.3
+Summary: 适用于金山云对象存储(KS3)的简单 Python3 客户端
+Home-page: https://github.com/tanbro/ks33requests
+License: GNU General Public License v3 or later
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3.0,>=2.0)
+Requires-Dist: lxml (<5.0,>=4.0)
+
+# ks33requests
+
+[![PyPI](https://img.shields.io/pypi/v/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+[![PyPI - License](https://img.shields.io/pypi/l/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+[![Documentation Status](https://readthedocs.org/projects/ks33requests/badge/?version=stable)](https://ks33requests.readthedocs.io/zh_CN/stable/?badge=stable)
+[![CircleCI](https://circleci.com/gh/tanbro/ks33requests.svg?style=svg)](https://circleci.com/gh/tanbro/ks33requests)
+[![codecov](https://codecov.io/gh/tanbro/ks33requests/branch/master/graph/badge.svg)](https://codecov.io/gh/tanbro/ks33requests)
+[![PyPI - Format](https://img.shields.io/pypi/format/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+[![PyPI - Status](https://img.shields.io/pypi/status/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+[![PyPI - Implementation](https://img.shields.io/pypi/implementation/ks33requests.svg)](https://pypi.org/project/ks33requests/)
+
+## 概述
+
+一个很简单的、适用于 [金山云][] 对象存储([KS3][])的 [Python][]3 客户端。
+
+[金山云][] 官方提供了 [KS3][] 的 [Python][] SDK，但在我启动这个项目(2019-06-10)时，仅提供 [Python][]2 SDK。
+
+考虑到 [Python][]2 已经接近其生命周期的终点，我制作了这个简单的 [Python]3 [KS3][] 客户端用于相关项目。
+
+## 安装
+
+- [pip][] 安装
+
+  ```bash
+  pip install ks33requests
+  ```
+
+- 源代码安装
+
+  ```bash
+  python setuptools.py install
+  ```
+
+- [Pipenv][] 安装
+
+  ```bash
+  pipenv install ks33requests
+  ```
+
+## 如何使用
+
+参见 [notebooks](notebooks) 中的笔记
+
+[Python]: https://python.org/
+[virtual environment]: https://packaging.python.org/glossary/#term-virtual-environment "An isolated Python environment that allows packages to be installed for use by a particular application, rather than being installed system wide."
+[pip]: https://packaging.python.org/key_projects/#pip "A tool for installing Python packages."
+[Pipenv]: https://packaging.python.org/key_projects/#pipenv "Pipenv is a project that aims to bring the best of all packaging worlds to the Python world."
+[venv]: https://packaging.python.org/key_projects/#venv "A package in the Python Standard Library (starting with Python 3.3) for creating Virtual Environments."
+[conda]: https://packaging.python.org/key_projects/#conda "conda is the package management tool for Anaconda Python installations."
+[S3]: https://aws.amazon.com/s3/
+[金山云]: https://www.ksyun.com/
+[KS3]: https://www.ksyun.com/post/product/KS3 "金山对象存储（Kingsoft Standard Storage Service，简称KS3）"
+[generateDS]: https://pypi.org/project/generateDS/
+
+# CHANGELOG
+
+## 0.1.3
+
+**📅 Date** : 2019-06-26
+
+- New:
+  - `get_content_md5()`: 获取 KS3 样式的 MD5 BASE64 校验值
+- Fix:
+  - 修订 `conda` 与 `pip` 的定义文件中的几处错误
+  - 修订几处文档错误
+
+## 0.1.2.1
+
+**📅 Date** : 2019-06-25
+
+- Change:
+  - 构造 `Client` 时，如果不指定密钥对，将从环境变量 `KSYUN_ACCESS_KEY` 与 `KSYUN_SECRET_KEY` 获得
+  - `Client.send()` 增加 `encoding` 参数，用于对文本数据上传的支持
+- Fix:
+  - 几个有关文本数据上传 bug
+- New:
+  - 几个测试用例
+  - [Sphinx Docs](https://ks33requests.readthedocs.io)
+  - [Circle CI](https://circleci.com/gh/tanbro/ks33requests)
+  - [Code coverage](https://codecov.io/gh/tanbro/ks33requests)
+
+## 0.1
+
+**📅 Date** : 2019-06-12
+
+这实际上还是一个 Alpha 版本，但是为了在项目中顺利使用，且给它一个稳定的版本编号。
+
+# CONTRIBUTING
+
+> ℹ **注意:**
+>
+> 这个项目需要 [Python][] `3.5` 及以上版本。
+
+## 复刻项目代码
+
+复刻项目代码到工作目录，然后切换到项目的目录：
+
+```bash
+cd path/to/your/workspace/directory/
+git clone https://github.com/tanbro/ks33requests.git
+cd ks33requests
+```
+
+## 准备开发环境
+
+强烈建议在 [virtual environment][] 中进行开发工作。
+
+- 如果使用标准库:
+
+  使用标准库的 [venv][] 与 [pip][] 直接新建名为`venv`的虚拟环境目录，将本项目以“开发模式”安装到这个环境，并安装开发工作所要使用的包：
+
+  ```bash
+  path/of/your/python -m venv venv
+  venv/bin/python setup.py develop
+  venv/bin/python -m pip install -r requires/dev.txt
+  ```
+
+- 如果使用 [Pipenv][]:
+
+  使用 [Pipenv][] 命令直接安装:
+
+  ```bash
+  pipenv install --dev
+  ```
+
+- 如果使用 [conda][]
+
+  使用 [conda][] 从配置文件新建一个专用于这个项目的、名为`ks33requests-dev`的环境，然后激活它，将本项目以“开发模式”安装到这个环境：
+
+  ```bash
+  conda env create -f environment.yml
+  conda activate ks33requests-dev
+  python setup.py develop
+  ```
+
+### XML Schema
+
+[金山云][] [KS3][] 的 WebAPI 数据结构有许多与[S3]兼容。
+所以，这个项目直接使用考虑来自 <http://s3.amazonaws.com/doc/2006-03-01/AmazonS3.xsd> 的 Schema。
+
+我们使用 [generateDS][] 工具，从`xsd`文件生成 [Python][] 类型定义：
+
+```bash
+mkdir -p schemas
+wget http://s3.amazonaws.com/doc/2006-03-01/AmazonS3.xsd -P schemas
+generateDS.py -f -o s3_api.py -s s3_sub.py --super=s3_api  schemas/AmazonS3.xsd
+```
+
+生成的源代码文件复制到名称空间 `ks33requests.schemas` 中，小幅修改 `s3_sub.py` 即可使用。
+
+### 运行测试用例
+
+```bash
+python setup.py test
+```
+
+测试用例很少，陆续补充中...
+
+### Docs
+
+如果模块有增减，需要删除原来的 [Sphinx-Docs][] API 自动文档并重新生成:
+
+```bash
+rm -rf docs/ks3requests.rst docs/api
+sphinx-apidoc -e -f -o docs/api src/ks33requests src/ks33requests/schemas/s3_*.py
+```
+
+[Python]: https://python.org/
+[virtual environment]: https://packaging.python.org/glossary/#term-virtual-environment "An isolated Python environment that allows packages to be installed for use by a particular application, rather than being installed system wide."
+[pip]: https://packaging.python.org/key_projects/#pip "A tool for installing Python packages."
+[Pipenv]: https://packaging.python.org/key_projects/#pipenv "Pipenv is a project that aims to bring the best of all packaging worlds to the Python world."
+[venv]: https://packaging.python.org/key_projects/#venv "A package in the Python Standard Library (starting with Python 3.3) for creating Virtual Environments."
+[conda]: https://packaging.python.org/key_projects/#conda "conda is the package management tool for Anaconda Python installations."
+[S3]: https://aws.amazon.com/s3/
+[Sphinx-Docs]: https://www.sphinx-doc.org "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation"
+[金山云]: https://www.ksyun.com/
+[KS3]: https://www.ksyun.com/post/product/KS3 "金山对象存储（Kingsoft Standard Storage Service，简称KS3）"
+[generateDS]: https://pypi.org/project/generateDS/
+
+# AUTHORS
+
+* Liu Xue Yan (<liu_xue_yan@foxmail.com>)
+
+  ![img](https://www.gravatar.com/avatar/049d2fae1fd2df6439e87d1383d0276b)
+
+
