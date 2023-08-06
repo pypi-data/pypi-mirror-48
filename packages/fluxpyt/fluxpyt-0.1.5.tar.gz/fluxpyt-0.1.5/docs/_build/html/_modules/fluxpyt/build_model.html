@@ -1,0 +1,478 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt.build_model &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for fluxpyt.build_model</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Sat Feb  6 21:09:50 2016</span>
+
+<span class="sd">@author: Trunil</span>
+
+<span class="sd">Reads and build model from csv. </span>
+<span class="sd">Note 2Jul2016: this program reads csv model into stoichiometric matrix with list of rxns and metabolites</span>
+
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">inspect</span> <span class="k">import</span> <span class="n">currentframe</span>
+<span class="kn">import</span> <span class="nn">sys</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+
+<span class="sd">&#39;&#39;&#39;********************************&#39;&#39;&#39;</span>
+
+        
+    
+
+<div class="viewcode-block" id="get_linenumber"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.get_linenumber">[docs]</a><span class="k">def</span> <span class="nf">get_linenumber</span><span class="p">():</span>
+    <span class="sd">&#39;&#39;&#39;Get line number in the code. Usefull to find which line of the code this function occurrs.&#39;&#39;&#39;</span>
+    <span class="n">cf</span> <span class="o">=</span> <span class="n">currentframe</span><span class="p">()</span>
+    <span class="k">return</span> <span class="n">cf</span><span class="o">.</span><span class="n">f_back</span><span class="o">.</span><span class="n">f_lineno</span></div>
+
+
+        
+        
+<div class="viewcode-block" id="read_mfa_model"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.read_mfa_model">[docs]</a><span class="k">def</span> <span class="nf">read_mfa_model</span><span class="p">(</span><span class="n">filename</span><span class="p">):</span>
+    
+    <span class="sd">&#39;&#39;&#39;Import and read csv file.</span>
+<span class="sd">    Returns the model in lists that separate columns&#39;&#39;&#39;</span>
+	
+    <span class="c1">#import numpy as np</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="n">labels</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readline</span><span class="p">()</span> <span class="c1">#reads first column only</span>
+    
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span> <span class="c1">#f2 has list of different lines</span>
+    
+    
+    <span class="c1">#read the reactions</span>
+    <span class="n">rxnID</span> <span class="o">=</span> <span class="p">[];</span><span class="n">formulae</span> <span class="o">=</span> <span class="p">[];</span><span class="n">atm_trans</span> <span class="o">=</span> <span class="p">[];</span><span class="n">rates</span> <span class="o">=</span> <span class="p">[];</span><span class="n">rxnType</span> <span class="o">=</span> <span class="p">[];</span> <span class="n">basis</span> <span class="o">=</span> <span class="p">[];</span><span class="n">deviation</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">excludedMetabolites</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">inputSubstrates</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">measuredIsotopes</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">mids</span> <span class="o">=</span> <span class="p">[[],[],[]]</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span> 
+        <span class="k">if</span> <span class="n">line</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">:</span>
+            <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">line_split</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+            <span class="k">continue</span>
+        <span class="k">elif</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;rxnEq&#39;</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">elif</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;excludedMetabolites&#39;</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">2</span>
+        <span class="k">elif</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;inputSubstrates&#39;</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">3</span>
+        <span class="k">elif</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;measuredIsotopes&#39;</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">4</span>
+        <span class="k">elif</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;measurements&#39;</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">5</span>
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span>
+            <span class="n">rxnID</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            
+            <span class="n">formula</span> <span class="o">=</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="s1">&#39;=&#39;</span> <span class="ow">in</span> <span class="n">formula</span><span class="p">:</span>
+                <span class="n">ind</span> <span class="o">=</span> <span class="n">formula</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="p">)</span>
+                <span class="n">formula</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;-&gt;&#39;</span>
+                <span class="n">formula_string</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">formula</span><span class="p">)</span>     
+                <span class="n">formulae</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formula_string</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="s1">&#39;=&gt;&#39;</span> <span class="ow">in</span> <span class="n">formula</span><span class="p">:</span>
+                <span class="n">ind</span> <span class="o">=</span> <span class="n">formula</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;=&gt;&#39;</span><span class="p">)</span>
+                <span class="n">formula</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;-&gt;&#39;</span>
+                <span class="n">formula_string</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">formula</span><span class="p">)</span>     
+                <span class="n">formulae</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formula_string</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">formulae</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+                            
+            
+            <span class="c1">#replace all arrow type to &#39;-&gt;&#39;</span>
+            <span class="n">trans</span> <span class="o">=</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+            <span class="k">if</span> <span class="s1">&#39;=&#39;</span> <span class="ow">in</span> <span class="n">trans</span><span class="p">:</span>
+                <span class="n">ind</span> <span class="o">=</span> <span class="n">trans</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;=&#39;</span><span class="p">)</span>
+                <span class="n">trans</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;-&gt;&#39;</span>
+                <span class="n">trans_string</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">trans</span><span class="p">)</span>   
+                <span class="n">atm_trans</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trans_string</span><span class="p">)</span>
+            <span class="k">elif</span> <span class="s1">&#39;=&gt;&#39;</span> <span class="ow">in</span> <span class="n">trans</span><span class="p">:</span>
+                <span class="n">ind</span> <span class="o">=</span> <span class="n">trans</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="s1">&#39;=&gt;&#39;</span><span class="p">)</span>
+                <span class="n">trans</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;-&gt;&#39;</span>
+                <span class="n">trans_string</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">trans</span><span class="p">)</span>   
+                <span class="n">atm_trans</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">trans_string</span><span class="p">)</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">atm_trans</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            
+            
+            <span class="n">rates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+            <span class="n">rxnType</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+            <span class="n">basis</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+
+            <span class="k">if</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">7</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;*&#39;</span><span class="p">:</span> 
+
+                <span class="n">prime_basis</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+            <span class="n">deviation</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span><span class="p">:</span>
+            <span class="n">excludedMetabolites</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">3</span> <span class="ow">and</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span><span class="p">:</span>
+            <span class="n">inputSubstrates</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">4</span> <span class="ow">and</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span><span class="p">:</span>
+            <span class="n">measuredIsotopes</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            
+        <span class="k">elif</span> <span class="n">c</span> <span class="o">==</span> <span class="mi">5</span> <span class="ow">and</span> <span class="n">line_split</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span><span class="p">:</span>
+            <span class="n">mids</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">mids</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">line_split</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+            
+        <span class="n">mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">=</span>  <span class="n">measuredIsotopes</span>
+        
+    
+
+    <span class="c1">#separate these reactions into metabolite model and isotopomer model</span>
+    <span class="n">model_metabolite</span> <span class="o">=</span> <span class="p">[[],[],[],[],[],[],[]]</span>
+    <span class="n">model_isotope</span> <span class="o">=</span> <span class="p">[[],[],[],[],[],[]]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxnID</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;F&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;FR&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;R&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;B&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;BR&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;BRR&#39;</span><span class="p">:</span> <span class="c1">#metabolites balnce needed</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxnID</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formulae</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rates</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">basis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">deviation</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prime_basis</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxnID</span><span class="p">)):</span>
+        <span class="k">if</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;F&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;FR&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;R&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;S&#39;</span> <span class="ow">or</span> <span class="n">rxnType</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;SF&#39;</span><span class="p">:</span>
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxnID</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formulae</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atm_trans</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rates</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">basis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+
+            <span class="n">model_isotope</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">deviation</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+    <span class="n">model_isotope</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">measuredIsotopes</span><span class="p">)</span> <span class="c1">#form model_isotope[6]</span>
+    
+
+    <span class="n">file</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+    
+    <span class="c1">#**************************************************************************</span>
+    <span class="c1">#sort model_metabolite in appropriate order</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">),</span><span class="nb">len</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">]))</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+   
+    <span class="n">dc</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;FR&#39;</span><span class="p">:</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;F&#39;</span><span class="p">:</span><span class="mi">2</span><span class="p">,</span><span class="s1">&#39;B&#39;</span><span class="p">:</span><span class="mi">3</span><span class="p">,</span><span class="s1">&#39;BR&#39;</span><span class="p">:</span><span class="mf">1.5</span><span class="p">,</span><span class="s1">&#39;R&#39;</span><span class="p">:</span><span class="mi">6</span><span class="p">,</span><span class="s1">&#39;X&#39;</span><span class="p">:</span><span class="mi">4</span><span class="p">,</span><span class="s1">&#39;Basis&#39;</span><span class="p">:</span><span class="mi">5</span><span class="p">}</span>
+    <span class="n">model_tmp</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+       <span class="c1"># print(model_metabolite[5])</span>
+        <span class="k">if</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span> <span class="c1">#is not measured basis</span>
+            <span class="n">ln_tmp</span> <span class="o">=</span> <span class="p">[</span><span class="n">dc</span><span class="p">[</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="n">j</span><span class="p">]]]</span>
+        <span class="k">elif</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;X&#39;</span><span class="p">:</span> <span class="c1">#choosen as free flux by user</span>
+            <span class="n">ln_tmp</span> <span class="o">=</span> <span class="p">[</span><span class="n">dc</span><span class="p">[</span><span class="s1">&#39;X&#39;</span><span class="p">]]</span>
+            <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">j</span><span class="p">]</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">ln_tmp</span> <span class="o">=</span> <span class="p">[</span><span class="n">dc</span><span class="p">[</span><span class="s1">&#39;Basis&#39;</span><span class="p">]]</span>
+        
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">4</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+        <span class="n">ln_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">5</span><span class="p">][</span><span class="n">j</span><span class="p">])</span>
+    
+        <span class="n">model_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ln_tmp</span><span class="p">)</span>
+    
+    <span class="n">model_tmp</span> <span class="o">=</span> <span class="nb">sorted</span><span class="p">(</span><span class="n">model_tmp</span><span class="p">)</span>
+  
+    
+        
+    <span class="n">model_metabolite</span> <span class="o">=</span> <span class="n">model_metabolite</span> <span class="o">=</span> <span class="p">[[],[],[],[],[],[],[]]</span>
+    <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">6</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prime_basis</span><span class="p">)</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">model_tmp</span><span class="p">:</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">2</span><span class="p">])</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">3</span><span class="p">])</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">4</span><span class="p">])</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">5</span><span class="p">])</span>
+        <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">5</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">k</span><span class="p">[</span><span class="mi">6</span><span class="p">])</span>
+        
+    <span class="k">return</span> <span class="n">model_metabolite</span><span class="p">,</span><span class="n">model_isotope</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="p">,</span><span class="n">inputSubstrates</span><span class="p">,</span><span class="n">mids</span></div>
+    
+
+
+<span class="sd">&#39;&#39;&#39;********************************&#39;&#39;&#39;</span>
+<div class="viewcode-block" id="metabolite_list"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.metabolite_list">[docs]</a><span class="k">def</span> <span class="nf">metabolite_list</span><span class="p">(</span><span class="n">reaction_formulae</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">	Make list of metabolites from reaction formula.</span>
+<span class="sd">    Reactions must be written in form: </span>
+<span class="sd">        A -&gt; 2 B </span>
+<span class="sd">        C &lt;- A + B</span>
+<span class="sd">        A + B &lt;-&gt; C</span>
+<span class="sd">		</span>
+<span class="sd">	&#39;&#39;&#39;</span>
+        
+
+    <span class="c1">#import numpy as np</span>
+    <span class="n">mets</span> <span class="o">=</span> <span class="p">[]</span>
+  
+    <span class="k">for</span> <span class="n">formula</span> <span class="ow">in</span> <span class="n">reaction_formulae</span><span class="p">:</span>
+        
+        <span class="n">fr</span> <span class="o">=</span> <span class="n">formula</span><span class="o">.</span><span class="n">rsplit</span><span class="p">(</span><span class="s1">&#39; &#39;</span><span class="p">)</span>
+
+          
+        <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">fr</span><span class="p">:</span>
+          
+            <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">el</span> <span class="o">==</span> <span class="s1">&#39;-&gt;&#39;</span> <span class="ow">or</span> <span class="n">el</span> <span class="o">==</span> <span class="s1">&#39;+&#39;</span> <span class="ow">or</span> <span class="n">el</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">el</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">()):</span>
+                <span class="k">if</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">mets</span> <span class="ow">and</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excludedMetabolites</span><span class="p">:</span>
+                    <span class="n">mets</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+                
+
+    <span class="k">return</span> <span class="n">mets</span></div>
+
+
+       
+<div class="viewcode-block" id="modify_rxn_for_S"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.modify_rxn_for_S">[docs]</a><span class="k">def</span> <span class="nf">modify_rxn_for_S</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="o">=</span><span class="p">[]):</span>
+    
+   
+  
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+    
+    <span class="k">while</span> <span class="s1">&#39;+&#39;</span> <span class="ow">in</span> <span class="n">rxn_split</span><span class="p">:</span>
+        <span class="n">rxn_split</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
+  
+    <span class="n">new_rxn</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">):</span>
+        <span class="n">el</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">!=</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">el</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span> <span class="ow">or</span> <span class="n">el</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">()):</span> <span class="c1">#if coeff</span>
+            <span class="k">if</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excludedMetabolites</span><span class="p">:</span>
+                <span class="n">new_rxn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">excludedMetabolites</span><span class="p">:</span>
+            <span class="n">new_rxn</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+            
+        
+            
+        
+        
+        
+        <span class="n">i</span><span class="o">+=</span> <span class="mi">1</span>
+
+    <span class="k">return</span> <span class="n">new_rxn</span></div>
+            
+
+<span class="sd">&#39;&#39;&#39;*************************************&#39;&#39;&#39;</span>    
+<div class="viewcode-block" id="make_stoich_matrix"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.make_stoich_matrix">[docs]</a><span class="k">def</span> <span class="nf">make_stoich_matrix</span><span class="p">(</span><span class="n">reactions</span><span class="p">,</span><span class="n">reaction_formulae</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="o">=</span><span class="p">[]):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">	Stoichiometric matrix (S) from reaction formulae</span>
+<span class="sd">    Reactions must be written in form: </span>
+<span class="sd">        A -&gt; 2 B </span>
+<span class="sd">        </span>
+<span class="sd">        A + B &lt;-&gt; C</span>
+<span class="sd">	&#39;&#39;&#39;</span>
+    <span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+  
+    <span class="n">mets</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">metabolite_list</span><span class="p">(</span><span class="n">reaction_formulae</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="p">))</span>
+
+    
+    <span class="n">ncol</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">reactions</span><span class="p">)</span>
+    <span class="n">nrow</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">mets</span><span class="p">)</span>
+
+    <span class="n">S</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">([</span><span class="n">nrow</span><span class="p">,</span><span class="n">ncol</span><span class="p">])</span> <span class="c1">#initialize S</span>
+  
+    
+    <span class="c1">#iterate over each reaction</span>
+    <span class="n">r</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#reaction number</span>
+    <span class="k">for</span> <span class="n">rxn</span> <span class="ow">in</span> <span class="n">reaction_formulae</span><span class="p">:</span>
+        
+        
+        <span class="n">frtmp</span> <span class="o">=</span> <span class="n">modify_rxn_for_S</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="p">)</span>
+ 
+        <span class="n">fr</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">frtmp</span><span class="p">)):</span>
+            <span class="n">fs</span> <span class="o">=</span> <span class="n">frtmp</span><span class="p">[</span><span class="n">k</span><span class="p">]</span>
+        
+            
+            <span class="k">if</span> <span class="n">fs</span> <span class="ow">in</span> <span class="n">excludedMetabolites</span><span class="p">:</span>
+                
+                <span class="k">continue</span>
+  
+            <span class="k">elif</span> <span class="n">fs</span> <span class="o">!=</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+                <span class="n">fr</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fs</span><span class="p">)</span>
+        
+        
+                    
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">fr</span><span class="p">)):</span>
+            <span class="k">if</span> <span class="n">fr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;-&gt;&#39;</span> <span class="ow">or</span> <span class="n">fr</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&lt;-&gt;&#39;</span> <span class="p">:</span>
+                <span class="n">dp</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>  <span class="c1">#division point</span>
+                <span class="k">break</span>
+        
+        <span class="k">while</span> <span class="s1">&#39;+&#39;</span> <span class="ow">in</span> <span class="n">fr</span><span class="p">:</span>
+            <span class="n">fr</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
+        
+        <span class="c1">#iterate over elements in fr</span>
+      
+        <span class="k">if</span> <span class="n">dp</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">c</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#element number</span>
+        <span class="k">while</span> <span class="n">c</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">fr</span><span class="p">):</span>
+            
+            <span class="k">if</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;+&#39;</span> <span class="ow">or</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;-&gt;&#39;</span> <span class="ow">or</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&lt;-&gt;&#39;</span><span class="p">:</span>
+                <span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span> <span class="c1">#ignores + sign or </span>
+               
+            <span class="k">if</span> <span class="n">c</span> <span class="o">&lt;</span> <span class="n">dp</span><span class="p">:</span>
+                
+                <span class="n">k</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span> <span class="c1">#multiplication factor for stoichiometric matrix element</span>
+            <span class="k">elif</span> <span class="n">c</span> <span class="o">&gt;</span> <span class="n">dp</span><span class="p">:</span>
+                
+                <span class="n">k</span> <span class="o">=</span> <span class="mi">1</span>
+             
+            <span class="k">else</span><span class="p">:</span> 
+                
+                <span class="n">c</span> <span class="o">=</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span>
+            
+            <span class="k">if</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span> <span class="o">&gt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">fr</span><span class="p">):</span>
+                <span class="sd">&#39;&#39;&#39;this condition was added because when there are no products in equation, error was shown&#39;&#39;&#39;</span>
+                
+                <span class="k">break</span> <span class="c1">#loops out of while loop as there is not element after this</span>
+                
+            
+            <span class="n">element</span> <span class="o">=</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="p">]</span>
+            
+           
+            <span class="c1">#check if the character is stoichiometric coefficient of metabolite</span>
+            <span class="k">if</span> <span class="n">element</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">()</span> <span class="ow">or</span> <span class="n">element</span><span class="o">.</span><span class="n">find</span><span class="p">(</span><span class="s1">&#39;.&#39;</span><span class="p">)</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+                
+
+                
+                <span class="n">val</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">element</span><span class="p">)</span>
+                <span class="k">if</span> <span class="n">c</span><span class="o">+</span><span class="mi">1</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">fr</span><span class="p">):</span>
+                  
+                    <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">else</span><span class="p">:</span>
+                 
+                    
+                    <span class="n">m</span> <span class="o">=</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span> <span class="c1">#the metabolite will be next to the coefficient</span>
+  
+                    <span class="n">met_ind</span> <span class="o">=</span> <span class="n">mets</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+                    
+                    <span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">=</span> <span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">+</span> <span class="n">k</span><span class="o">*</span><span class="n">val</span>
+                    <span class="kn">import</span> <span class="nn">math</span>
+                    <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">])):</span>
+                        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> Error: nan value in stoichiometric matrix.&#39;</span><span class="p">)</span>
+                        <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+                    <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+
+            
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">val</span> <span class="o">=</span> <span class="mi">1</span>
+                <span class="n">m</span> <span class="o">=</span> <span class="n">fr</span><span class="p">[</span><span class="n">c</span><span class="p">]</span>
+
+                <span class="n">met_ind</span> <span class="o">=</span> <span class="n">mets</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+
+                <span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">=</span> <span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">]</span> <span class="o">+</span> <span class="n">k</span><span class="o">*</span><span class="n">val</span>
+                <span class="kn">import</span> <span class="nn">math</span>
+                <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">S</span><span class="p">[</span><span class="n">met_ind</span><span class="p">][</span><span class="n">r</span><span class="p">])):</span>
+                    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1"> Error: nan value in stoichiometric matrix.&#39;</span><span class="p">)</span>
+                    <span class="n">sys</span><span class="o">.</span><span class="n">exit</span><span class="p">()</span>
+                
+            <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+        <span class="n">r</span> <span class="o">+=</span> <span class="mi">1</span>
+   
+    <span class="k">return</span> <span class="n">S</span></div>
+            
+<div class="viewcode-block" id="build_model"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.build_model">[docs]</a><span class="k">def</span> <span class="nf">build_model</span><span class="p">(</span><span class="n">fileName</span><span class="p">):</span>
+    <span class="p">[</span><span class="n">model_metabolite</span><span class="p">,</span><span class="n">model_isotope</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="p">,</span><span class="n">inputSubstrates</span><span class="p">,</span><span class="n">mids</span><span class="p">]</span> <span class="o">=</span> <span class="n">read_mfa_model</span><span class="p">(</span><span class="n">fileName</span><span class="p">)</span>
+
+    <span class="n">mets</span> <span class="o">=</span> <span class="n">metabolite_list</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">excludedMetabolites</span><span class="p">)</span>
+    <span class="n">stoich_matrix</span> <span class="o">=</span> <span class="n">make_stoich_matrix</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">excludedMetabolites</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">stoich_matrix</span><span class="p">,</span><span class="n">model_metabolite</span><span class="p">,</span><span class="n">model_isotope</span><span class="p">,</span><span class="n">mets</span><span class="p">,</span><span class="n">mids</span></div>
+    
+
+<div class="viewcode-block" id="test_model_build"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.build_model.test_model_build">[docs]</a><span class="k">def</span> <span class="nf">test_model_build</span><span class="p">():</span>
+        
+    <span class="p">[</span><span class="n">model_metabolite</span><span class="p">,</span><span class="n">model_isotop</span><span class="p">,</span><span class="n">excludedMetabolites</span><span class="p">,</span><span class="n">inputSubstrates</span><span class="p">,</span><span class="n">mids</span><span class="p">]</span> <span class="o">=</span> <span class="n">read_mfa_model</span><span class="p">(</span><span class="s1">&#39;glut_WT.csv&#39;</span><span class="p">)</span>
+    
+    <span class="n">mets</span> <span class="o">=</span> <span class="n">metabolite_list</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">excludedMetabolites</span><span class="p">)</span>
+
+    <span class="n">S</span> <span class="o">=</span> <span class="n">make_stoich_matrix</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span><span class="n">model_metabolite</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span><span class="n">excludedMetabolites</span><span class="p">)</span></div>
+
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

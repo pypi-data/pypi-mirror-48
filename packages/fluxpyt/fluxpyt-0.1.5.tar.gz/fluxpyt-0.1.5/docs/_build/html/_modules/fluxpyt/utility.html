@@ -1,0 +1,187 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt.utility &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for fluxpyt.utility</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Tue Jul 19 10:44:54 2016</span>
+
+<span class="sd">@author: Trunil</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">math</span> <span class="k">import</span> <span class="n">factorial</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+
+<div class="viewcode-block" id="space"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.space">[docs]</a><span class="k">def</span> <span class="nf">space</span><span class="p">():</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">5</span><span class="p">):</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;&#39;</span><span class="p">)</span></div>
+        
+<div class="viewcode-block" id="size"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.size">[docs]</a><span class="k">def</span> <span class="nf">size</span><span class="p">(</span><span class="n">array</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;array should be numpy array or list of lists&#39;&#39;&#39;</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">array</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">,</span> <span class="s1">&#39;input matrix is empty.&#39;</span>
+    <span class="n">n_row</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">n_col</span> <span class="o">=</span> <span class="mi">0</span>
+    
+    <span class="n">l</span> <span class="o">=</span> <span class="nb">len</span><span class="p">(</span><span class="n">array</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">array</span><span class="p">:</span>
+        <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> <span class="o">==</span> <span class="n">l</span><span class="p">,</span><span class="s1">&#39;length of all rows does not match&#39;</span>
+        <span class="n">n_row</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="n">r</span><span class="p">:</span>
+        <span class="n">n_col</span> <span class="o">+=</span> <span class="mi">1</span>
+    
+    <span class="k">return</span> <span class="n">n_row</span><span class="p">,</span><span class="n">n_col</span></div>
+
+<span class="c1">#a = list(np.array([1,2,3]))</span>
+<span class="c1">#print(size([a]))</span>
+
+<div class="viewcode-block" id="split_rxn"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.split_rxn">[docs]</a><span class="k">def</span> <span class="nf">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">):</span>
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">find</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">,</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">rxn_split</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">find</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">,</span><span class="s1">&#39;+&#39;</span><span class="p">))</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">while</span> <span class="s1">&#39;+&#39;</span> <span class="ow">in</span> <span class="n">rxn_split</span><span class="p">:</span>
+            <span class="n">rxn_split</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">rxn_split</span></div>
+    
+<span class="c1">#print(split_rxn(&#39;a + v + f + f -&gt; r + r + e&#39;))</span>
+    
+<div class="viewcode-block" id="nCr"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.nCr">[docs]</a><span class="k">def</span> <span class="nf">nCr</span><span class="p">(</span><span class="n">n</span><span class="p">,</span><span class="n">r</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;http://stackoverflow.com/questions/4941753/is-there-a-math-ncr-function-in-python&#39;&#39;&#39;</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="n">factorial</span>
+    <span class="k">return</span> <span class="n">f</span><span class="p">(</span><span class="n">n</span><span class="p">)</span><span class="o">/</span><span class="p">(</span><span class="n">f</span><span class="p">(</span><span class="n">r</span><span class="p">)</span><span class="o">*</span><span class="n">f</span><span class="p">(</span><span class="n">n</span><span class="o">-</span><span class="n">r</span><span class="p">))</span></div>
+    
+    
+<div class="viewcode-block" id="find"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.find">[docs]</a><span class="k">def</span> <span class="nf">find</span><span class="p">(</span><span class="n">a</span><span class="p">,</span><span class="n">b</span><span class="p">,</span><span class="n">exclude</span><span class="o">=</span><span class="kc">False</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39; a = list</span>
+<span class="sd">        b = item to be found</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="n">ind</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">a</span><span class="p">)):</span>
+        <span class="n">item</span> <span class="o">=</span> <span class="n">a</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">exclude</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">b</span> <span class="o">==</span> <span class="n">item</span><span class="p">:</span>
+                <span class="n">ind</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+        <span class="k">elif</span> <span class="n">exclude</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">b</span> <span class="o">!=</span> <span class="n">item</span><span class="p">:</span>
+                <span class="n">ind</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ind</span></div>
+
+<div class="viewcode-block" id="prod"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.prod">[docs]</a><span class="k">def</span> <span class="nf">prod</span><span class="p">(</span><span class="n">array</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;array = list of lists&#39;&#39;&#39;</span>
+
+    <span class="n">ans</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">array</span><span class="p">:</span>
+        <span class="n">p</span> <span class="o">=</span> <span class="mi">1</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">r</span><span class="p">:</span>
+            <span class="n">p</span> <span class="o">=</span> <span class="n">p</span><span class="o">*</span><span class="n">i</span>
+        <span class="n">ans</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">p</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">ans</span></div>
+
+<div class="viewcode-block" id="pause"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.pause">[docs]</a><span class="k">def</span> <span class="nf">pause</span><span class="p">():</span>
+    
+    <span class="nb">input</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">Program paused. Put cursor in kernel and press enter to continue. &#39;</span><span class="p">)</span> <span class="c1">#for python 3k</span></div>
+
+<div class="viewcode-block" id="sum_matrix"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.utility.sum_matrix">[docs]</a><span class="k">def</span> <span class="nf">sum_matrix</span><span class="p">(</span><span class="n">matrix</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;gives sum of elements in a matrix.</span>
+<span class="sd">    matrix = list of list of numbers&#39;&#39;&#39;</span>
+    <span class="n">ans</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">rows</span> <span class="ow">in</span> <span class="n">matrix</span><span class="p">:</span>
+        <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">rows</span><span class="p">:</span>
+            <span class="n">ans</span> <span class="o">+=</span> <span class="n">el</span>
+            
+    <span class="k">return</span> <span class="n">ans</span></div>
+    
+
+
+   
+    
+    
+        
+    
+
+    
+     
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,0 +1,383 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt.solve_mid_networks &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for fluxpyt.solve_mid_networks</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Solves the elementory metabolite unit networks.</span>
+<span class="sd">   </span>
+<span class="sd">Solves mids for only one set of flux_distribution</span>
+
+<span class="sd">Created on Fri Jul 15 10:57:23 2016</span>
+
+<span class="sd">@author: Trunil</span>
+
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">from</span> <span class="nn">fluxpyt.utility</span> <span class="k">import</span> <span class="n">split_rxn</span>
+<span class="kn">from</span> <span class="nn">scipy.signal</span> <span class="k">import</span> <span class="n">convolve</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span> 
+
+
+<div class="viewcode-block" id="solve_mid_networks"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mid_networks.solve_mid_networks">[docs]</a><span class="k">def</span> <span class="nf">solve_mid_networks</span><span class="p">(</span><span class="n">rxnId_networks</span><span class="p">,</span><span class="n">rxn_networks</span><span class="p">,</span><span class="n">substrate_mids</span><span class="p">,</span><span class="n">rates</span><span class="p">,</span><span class="n">flux_dist</span><span class="p">):</span>
+    
+ 
+    
+    <span class="c1">#make matrices and solve. </span>
+    <span class="n">known_mids</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">substrate_mids</span><span class="p">)</span> <span class="c1">#initialize before testing each individual set of fluxes</span>
+
+<span class="c1">#    f = open(&#39;tmp.txt&#39;,&#39;w&#39;)</span>
+<span class="c1">#    f.close()</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_networks</span><span class="p">)):</span> 
+        
+       
+        <span class="n">emu_net</span> <span class="o">=</span> <span class="n">rxn_networks</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">rxn_ids</span> <span class="o">=</span> <span class="n">rxnId_networks</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+      
+        
+        <span class="n">cal_mids</span> <span class="o">=</span> <span class="n">solve_network</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">,</span><span class="n">emu_net</span><span class="p">,</span><span class="n">known_mids</span><span class="p">,</span><span class="n">rates</span><span class="p">,</span><span class="n">flux_dist</span><span class="p">)</span>
+        
+        <span class="k">if</span> <span class="n">cal_mids</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+            <span class="k">return</span> <span class="kc">None</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">known_mids</span> <span class="o">=</span> <span class="n">append_mids</span><span class="p">(</span><span class="n">known_mids</span><span class="p">,</span><span class="n">cal_mids</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">known_mids</span></div>
+        
+     
+
+<div class="viewcode-block" id="solve_network"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mid_networks.solve_network">[docs]</a><span class="k">def</span> <span class="nf">solve_network</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">,</span><span class="n">emu_net</span><span class="p">,</span><span class="n">known_mids</span><span class="p">,</span><span class="n">rates</span><span class="p">,</span><span class="n">flux_dist</span><span class="p">):</span>
+
+    <span class="c1">#rearrange fluxdist and rates</span>
+    <span class="n">fluxes</span> <span class="o">=</span> <span class="p">[[],[]]</span> <span class="c1"># [ids,values]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">)):</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">rxn_ids</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+       
+        <span class="k">if</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">flux_dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="n">ind</span> <span class="o">=</span> <span class="n">flux_dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">r</span><span class="p">)</span> 
+            <span class="n">fluxes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+            <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">flux_dist</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">])</span>
+        <span class="k">elif</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">rates</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="n">ind</span> <span class="o">=</span> <span class="n">rates</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+            <span class="n">fluxes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+
+            <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">rates</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">]))</span>
+
+<span class="c1">#    get number of known and unknown mids and sort them</span>
+    <span class="n">known</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">unknown</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">dim_known</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="n">dim_unknown</span> <span class="o">=</span> <span class="mi">0</span>
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">)):</span>
+        <span class="n">rxn</span> <span class="o">=</span> <span class="n">emu_net</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+        <span class="n">coeff</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+    
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span><span class="p">:</span> <span class="c1">#linear reactions</span>
+            <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">rxn_split</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span> <span class="c1">#if a known mid but not added yet</span>
+                    
+                    <span class="n">known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+                    <span class="n">dim_known</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">elif</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">unknown</span> <span class="ow">and</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span> <span class="c1">#not a known mid but not added in unknown || added on 18Apr2017</span>
+                    <span class="n">unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+                    <span class="n">dim_unknown</span> <span class="o">+=</span> <span class="mi">1</span> 
+        <span class="k">else</span><span class="p">:</span> <span class="c1">#convolutions</span>
+            <span class="n">reac</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+            <span class="n">prod</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+<span class="c1">#            print(&#39;\n\n\nprod: &#39;,prod)</span>
+            <span class="k">if</span> <span class="n">prod</span> <span class="ow">in</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">prod</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span><span class="c1">#check product</span>
+                <span class="n">known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prod</span><span class="p">)</span>
+                <span class="n">dim_known</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">elif</span> <span class="n">prod</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">unknown</span> <span class="ow">and</span> <span class="n">prod</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span> <span class="c1">#part after and was added on 18Apr2017</span>
+                <span class="n">unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">prod</span><span class="p">)</span>
+                <span class="n">dim_unknown</span> <span class="o">+=</span> <span class="mi">1</span>  
+            <span class="n">con_val</span> <span class="o">=</span> <span class="p">[</span><span class="mi">1</span><span class="p">]</span>     
+            <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">reac</span><span class="p">:</span> <span class="c1">#check reactant</span>
+                <span class="k">if</span> <span class="n">el</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                    <span class="n">add_to</span> <span class="o">=</span> <span class="s1">&#39;unknown&#39;</span>
+                    <span class="k">break</span>
+                <span class="k">elif</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                    <span class="n">add_to</span> <span class="o">=</span> <span class="s1">&#39;known&#39;</span>
+                    <span class="n">ix</span> <span class="o">=</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+                    <span class="n">con_val</span> <span class="o">=</span> <span class="n">convolve</span><span class="p">(</span><span class="n">con_val</span><span class="p">,</span><span class="n">known_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ix</span><span class="p">])</span>
+                        
+                        
+            <span class="k">if</span> <span class="n">add_to</span> <span class="o">==</span> <span class="s1">&#39;unknown&#39;</span><span class="p">:</span>
+                <span class="n">unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reac</span><span class="p">)</span> <span class="c1">#appended as whole list in form of string</span>
+                <span class="n">dim_unknown</span> <span class="o">+=</span> <span class="mi">1</span>
+                
+            <span class="k">elif</span> <span class="n">add_to</span> <span class="o">==</span> <span class="s1">&#39;known&#39;</span><span class="p">:</span>
+                <span class="n">known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reac</span><span class="p">)</span> <span class="c1">#appended as whole list</span>
+                <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">reac</span><span class="p">)</span>
+                
+                <span class="n">known_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">con_val</span><span class="p">))</span>
+                <span class="n">dim_known</span> <span class="o">+=</span><span class="mi">1</span>
+ 
+    <span class="c1">#create matrices:    AB = CD</span>
+    <span class="c1">#initialize</span>
+    <span class="sd">&#39;&#39;&#39;where,</span>
+<span class="sd">        A = square matrix with combination of reaction rates as elements</span>
+<span class="sd">        B = unknown emus to be solved for</span>
+<span class="sd">        C = matrix (num_unknown X emusize+1) matrix</span>
+<span class="sd">        D = known emus&#39;&#39;&#39;</span>
+    
+    <span class="c1">#if there is no known mid in network</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">known</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+        
+    
+    <span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">dim_unknown</span><span class="p">,</span><span class="n">dim_unknown</span><span class="p">))</span>
+    <span class="n">C</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">((</span><span class="n">dim_unknown</span><span class="p">,</span><span class="n">dim_known</span><span class="p">))</span>
+    <span class="n">D</span> <span class="o">=</span> <span class="p">[]</span> <span class="c1">#this would be just set of known/previously calculated mids</span>
+    <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span>
+        <span class="n">k_ind</span> <span class="o">=</span> <span class="n">known_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">k</span><span class="p">)</span>
+       
+        <span class="n">D</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">known_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">k_ind</span><span class="p">])</span>
+    <span class="n">D</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">D</span><span class="p">)</span>
+    
+  
+    
+    <span class="c1">#fill the matrices with values</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">)):</span>
+        <span class="n">rid</span> <span class="o">=</span> <span class="n">rxn_ids</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">rxn_ind</span> <span class="o">=</span> <span class="n">fluxes</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">rid</span><span class="p">)</span> <span class="c1">#indice of reaction in flux list</span>
+        <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">emu_net</span><span class="p">[</span><span class="n">i</span><span class="p">])</span> <span class="c1">#fluxes[0] = rxn_ids</span>
+        <span class="n">coeff</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="mi">0</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+        <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">convolve_tag</span> <span class="o">=</span> <span class="kc">True</span>
+<span class="c1">#      \n*************************\nconvolution&#39;</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">convolve_tag</span> <span class="o">=</span> <span class="kc">False</span>
+<span class="c1">#      \n###########################\nlinear&#39;</span>
+        <span class="n">inds_unknown</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">coeff_unknown</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">inds_known</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="n">coeff_known</span> <span class="o">=</span> <span class="p">[]</span>
+              
+        <span class="k">if</span> <span class="n">convolve_tag</span> <span class="o">==</span> <span class="kc">False</span><span class="p">:</span>
+            
+            <span class="k">for</span> <span class="n">p</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)):</span> <span class="c1">#find indices of emus in known or unknown list</span>
+                <span class="n">el</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">p</span><span class="p">]</span>
+                
+                <span class="k">if</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">unknown</span><span class="p">:</span> <span class="c1">#for matrix A</span>
+                    <span class="n">inds_unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">unknown</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">el</span><span class="p">))</span>
+                    <span class="n">coeff_unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">coeff</span><span class="p">[</span><span class="n">p</span><span class="p">]))</span>
+                <span class="k">elif</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span>
+                    <span class="n">inds_known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">known</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">el</span><span class="p">))</span>
+                    <span class="n">coeff_known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">coeff</span><span class="p">[</span><span class="n">p</span><span class="p">]))</span>
+                    
+            <span class="n">u_rxn</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+                
+        <span class="k">if</span> <span class="n">convolve_tag</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+            <span class="n">conl</span> <span class="o">=</span> <span class="p">[</span><span class="n">rxn_split</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]]</span> <span class="c1">#all reactants</span>
+            <span class="n">conl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+          
+            <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">conl</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">unknown</span><span class="p">:</span>
+                    <span class="n">inds_unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">unknown</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">el</span><span class="p">))</span>
+                    <span class="n">coeff_unknown</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span> <span class="c1">#have to figure if convolution reactions have diff coefficients</span>
+                <span class="k">elif</span> <span class="n">el</span> <span class="ow">in</span> <span class="n">known</span><span class="p">:</span>
+                    <span class="n">inds_known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">known</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">el</span><span class="p">))</span>
+                    <span class="n">coeff_known</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mi">1</span><span class="p">)</span>
+            <span class="n">u_rxn</span> <span class="o">=</span> <span class="n">conl</span><span class="o">.</span><span class="n">copy</span><span class="p">()</span>
+        
+
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">inds_unknown</span><span class="p">)</span> <span class="o">==</span> <span class="nb">len</span><span class="p">(</span><span class="n">u_rxn</span><span class="p">):</span> <span class="c1">#both molecules have unknown mids</span>
+           
+            <span class="n">A</span><span class="p">[</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">1</span><span class="p">]]</span> <span class="o">+=</span> <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">rxn_ind</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="n">coeff_unknown</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">A</span><span class="p">[</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">1</span><span class="p">]][</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+=</span> <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">rxn_ind</span><span class="p">]</span><span class="o">*</span><span class="n">coeff_unknown</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+
+        <span class="k">elif</span> <span class="n">u_rxn</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="ow">in</span> <span class="n">unknown</span><span class="p">:</span> <span class="c1">#product has unknown mids or reactant has known mids</span>
+
+            <span class="n">A</span><span class="p">[</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+=</span> <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">rxn_ind</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="n">coeff_unknown</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">C</span><span class="p">[</span><span class="n">inds_unknown</span><span class="p">[</span><span class="mi">0</span><span class="p">]][</span><span class="n">inds_known</span><span class="p">[</span><span class="mi">0</span><span class="p">]]</span> <span class="o">+=</span> <span class="n">fluxes</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">rxn_ind</span><span class="p">]</span><span class="o">*</span><span class="p">(</span><span class="o">-</span><span class="n">coeff_known</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+
+    <span class="c1">#############################</span>
+    <span class="c1">#write matrices if necessary</span>
+<span class="c1">#    print(A.shape)</span>
+<span class="c1">#    print(np.linalg.det(A))</span>
+<span class="c1">#    f = open(&#39;tmp.txt&#39;,&#39;a&#39;)</span>
+<span class="c1">#    for k in A:</span>
+<span class="c1">#        for l in k:</span>
+<span class="c1">#            w = str(l)+&#39;,&#39;</span>
+<span class="c1">#            f.write(w)</span>
+<span class="c1">#        f.write(&#39;\n&#39;)</span>
+<span class="c1">#    f.close()</span>
+<span class="c1">#    #sys.exit()</span>
+<span class="c1">#    #############################</span>
+
+    <span class="k">if</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">det</span><span class="p">(</span><span class="n">A</span><span class="p">)</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="k">return</span> <span class="kc">None</span>
+
+    <span class="c1">#solve matrices</span>
+    <span class="n">CdotD</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">dot</span><span class="p">(</span><span class="n">C</span><span class="p">,</span><span class="n">D</span><span class="p">)</span>
+    <span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">linalg</span><span class="o">.</span><span class="n">solve</span><span class="p">(</span><span class="n">A</span><span class="p">,</span><span class="n">CdotD</span><span class="p">)</span>
+    
+    <span class="n">nm</span> <span class="o">=</span> <span class="p">[</span><span class="nb">list</span><span class="p">(</span><span class="n">x</span><span class="p">)</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">B</span><span class="p">]</span>   
+  
+    <span class="n">cal_mids</span> <span class="o">=</span> <span class="p">[</span><span class="n">unknown</span><span class="p">,</span><span class="n">nm</span><span class="p">]</span>
+    
+    
+    <span class="k">return</span> <span class="n">cal_mids</span></div>
+    
+  
+                           
+<div class="viewcode-block" id="append_mids"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mid_networks.append_mids">[docs]</a><span class="k">def</span> <span class="nf">append_mids</span><span class="p">(</span><span class="n">mids1</span><span class="p">,</span><span class="n">mids2</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;used when we have two lists of mids. Joins these two &#39;&#39;&#39;</span> 
+
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">mids2</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span>
+        <span class="n">emu</span> <span class="o">=</span> <span class="n">mids2</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">mid</span> <span class="o">=</span> <span class="n">mids2</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">emu</span> <span class="ow">in</span> <span class="n">mids1</span><span class="p">[</span><span class="mi">0</span><span class="p">]):</span>
+            <span class="n">mids1</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">emu</span><span class="p">)</span>
+            <span class="n">mids1</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mid</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">mids1</span></div>
+
+
+
+    
+<div class="viewcode-block" id="update_mids"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mid_networks.update_mids">[docs]</a><span class="k">def</span> <span class="nf">update_mids</span><span class="p">(</span><span class="n">rxnIds</span><span class="p">,</span><span class="n">rxns</span><span class="p">,</span><span class="n">mids</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">collections</span> <span class="k">import</span> <span class="n">Counter</span>
+    
+    
+    <span class="c1">#check known mids and derive mids of emus of linear reactions</span>
+    <span class="n">productList</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">rxn</span> <span class="ow">in</span> <span class="n">rxns</span><span class="p">:</span>
+        <span class="n">productList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">()[</span><span class="o">-</span><span class="mi">1</span><span class="p">])</span>
+        
+    <span class="n">emuFreq</span> <span class="o">=</span> <span class="n">Counter</span><span class="p">(</span><span class="n">productList</span><span class="p">)</span> <span class="c1">#stores the number of times an emu is formed in the emu reactions</span>
+   
+    <span class="k">for</span> <span class="n">rxn</span> <span class="ow">in</span> <span class="n">rxns</span><span class="p">:</span>
+        <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="n">rxn_split</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)</span>
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">2</span><span class="p">:</span>
+            <span class="n">rxn_split</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="s1">&#39;+&#39;</span><span class="p">)</span>
+        
+<span class="c1">#        print(&#39;rxn_split&#39;,rxn_split,&#39;\n\n&#39;)</span>
+        <span class="n">product</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="p">[</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+                           
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span> <span class="o">==</span> <span class="mi">2</span> <span class="ow">and</span> <span class="n">product</span> <span class="ow">in</span> <span class="n">mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="ow">and</span> <span class="n">emuFreq</span><span class="p">[</span><span class="n">product</span><span class="p">]</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> 
+            <span class="sd">&#39;&#39;&#39;if products mid is known, </span>
+<span class="sd">            occurs only one in emu reaction,</span>
+<span class="sd">            and not involved in convolution reaction</span>
+<span class="sd">            Its reactant will have same mid&#39;&#39;&#39;</span>
+        
+            <span class="n">ind</span> <span class="o">=</span> <span class="n">mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">product</span><span class="p">)</span>
+<span class="c1">#            print(&#39;\nproduct is found in linear reaction&#39;)</span>
+            <span class="n">mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">mids</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mids</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">])</span>
+            
+            <span class="sd">&#39;&#39;&#39;This code is invcomplete and does not include convolution reactions&#39;&#39;&#39;</span>
+
+    <span class="k">return</span> <span class="n">mids</span></div>
+
+<div class="viewcode-block" id="get_mids"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mid_networks.get_mids">[docs]</a><span class="k">def</span> <span class="nf">get_mids</span><span class="p">(</span><span class="n">mids</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;arranges mid values and emus in list&#39;&#39;&#39;</span>
+    <span class="n">modified_mids</span> <span class="o">=</span> <span class="p">[[],[]]</span>
+    <span class="n">measured_emus</span> <span class="o">=</span> <span class="n">mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;</span> <span class="nb">len</span><span class="p">(</span><span class="n">mids</span><span class="p">[</span><span class="mi">1</span><span class="p">]):</span>
+    
+        
+        <span class="n">vals</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">mids</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
+        <span class="n">err</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">mids</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="n">i</span><span class="p">])</span>
+        
+        <span class="n">modified_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">vals</span><span class="p">)</span>
+        <span class="n">modified_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">err</span><span class="p">)</span>
+        
+        <span class="n">i</span><span class="o">+=</span><span class="mi">1</span>
+    
+    <span class="n">modified_mids</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">measured_emus</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">modified_mids</span></div>
+            
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

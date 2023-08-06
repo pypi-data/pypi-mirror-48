@@ -1,0 +1,544 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt.solve_mfa_lm &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for fluxpyt.solve_mfa_lm</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Thu Jun  8 10:55:41 2017</span>
+
+<span class="sd">Function to solve MFA problem using lmfit package</span>
+
+<span class="sd">@author: Trunil</span>
+<span class="sd">&quot;&quot;&quot;</span>
+
+<span class="kn">from</span> <span class="nn">lmfit</span> <span class="k">import</span> <span class="n">Parameters</span><span class="p">,</span><span class="n">fit_report</span><span class="p">,</span><span class="n">Minimizer</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="kn">import</span> <span class="nn">random</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+<span class="kn">from</span> <span class="nn">fluxpyt.utility</span> <span class="k">import</span> <span class="n">space</span>
+<span class="kn">from</span> <span class="nn">fluxpyt.mid_corr</span> <span class="k">import</span> <span class="n">mid_correct</span>
+<span class="kn">import</span> <span class="nn">sympy</span> <span class="k">as</span> <span class="nn">sp</span>
+<span class="kn">from</span> <span class="nn">fluxpyt.free_flux_null</span> <span class="k">import</span> <span class="n">get_null_mat</span>
+
+
+
+
+
+
+<div class="viewcode-block" id="solve_mfa_problem"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.solve_mfa_problem">[docs]</a><span class="k">def</span> <span class="nf">solve_mfa_problem</span><span class="p">(</span><span class="n">stoich_matrix</span><span class="p">,</span><span class="n">model_metabolite</span><span class="p">,</span><span class="n">rxnId_networks</span><span class="p">,</span><span class="n">rxn_networks</span><span class="p">,</span><span class="n">measured_mids</span><span class="p">,</span><span class="n">substrate_mids</span><span class="p">,</span><span class="n">rates</span><span class="p">,</span><span class="n">bounds</span><span class="p">,</span><span class="n">initial_sol</span><span class="p">,</span><span class="n">userInput</span><span class="p">,</span><span class="n">optimal_flux_dist</span><span class="o">=</span><span class="p">[],</span><span class="n">extra_params</span><span class="o">=</span><span class="p">[],</span><span class="o">**</span><span class="n">kws</span><span class="p">):</span>
+    
+    
+    <span class="n">random</span><span class="o">.</span><span class="n">seed</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+    <span class="n">write_opt_data</span> <span class="o">=</span> <span class="kc">True</span>
+    
+    <span class="kn">import</span> <span class="nn">pickle</span>
+    <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chi2</span>
+    
+    <span class="n">stoich_matrix_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">stoich_matrix</span><span class="p">)</span>
+    <span class="n">model_metabolite_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">model_metabolite</span><span class="p">)</span>
+    <span class="n">rxnId_networks_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">rxnId_networks</span><span class="p">)</span>
+    <span class="n">rxn_networks_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">rxn_networks</span><span class="p">)</span>
+    <span class="n">measured_mids_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">)</span>
+    <span class="n">substrate_mids_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">substrate_mids</span><span class="p">)</span>
+    <span class="n">rates_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">rates</span><span class="p">)</span>
+    <span class="n">bounds_g</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">bounds</span><span class="p">)</span>
+    <span class="n">fixed_flux</span> <span class="o">=</span> <span class="n">extra_params</span>
+    
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">fixed_flux</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">write_opt_data</span> <span class="o">=</span> <span class="kc">False</span>
+        
+    <span class="c1">#optimal_flux_dist_g = deepcopy(optimal_flux_dist)</span>
+    
+    <span class="c1">#Read correction file</span>
+    <span class="n">filename</span> <span class="o">=</span> <span class="s1">&#39;corr_file.csv&#39;</span>
+    <span class="n">file</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="n">filename</span><span class="p">)</span>
+    <span class="n">lines</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">readlines</span><span class="p">()</span>
+    <span class="n">corr_data</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">line</span> <span class="ow">in</span> <span class="n">lines</span><span class="p">:</span>
+        <span class="n">line</span> <span class="o">=</span> <span class="n">line</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">data</span> <span class="o">=</span> <span class="n">line</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+        <span class="n">corr_data</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">data</span><span class="p">)</span>
+
+<span class="c1">#    global corrFlag</span>
+    <span class="k">if</span> <span class="n">userInput</span> <span class="o">==</span> <span class="s1">&#39;Y&#39;</span> <span class="ow">or</span> <span class="n">userInput</span> <span class="o">==</span> <span class="s1">&#39;y&#39;</span> <span class="p">:</span>
+        <span class="n">corrFlag</span> <span class="o">=</span> <span class="kc">True</span>
+    <span class="k">elif</span> <span class="n">userInput</span> <span class="o">==</span> <span class="s1">&#39;N&#39;</span> <span class="ow">or</span> <span class="n">userInput</span> <span class="o">==</span> <span class="s1">&#39;n&#39;</span><span class="p">:</span>
+        <span class="n">corrFlag</span> <span class="o">=</span> <span class="kc">False</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">corrFlag</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">No input given, correction of mids will not be performed.&#39;</span><span class="p">)</span>
+    
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;corr_data_pickle.pckl&#39;</span><span class="p">,</span><span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+    <span class="n">corr_data_pickle</span> <span class="o">=</span> <span class="p">[</span><span class="n">corrFlag</span><span class="p">,</span><span class="n">corr_data</span><span class="p">]</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">corr_data_pickle</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    <span class="k">del</span> <span class="n">corr_data_pickle</span>
+    
+    <span class="c1">#free flux through nullspace()</span>
+    <span class="p">[</span><span class="n">null_mat</span><span class="p">,</span><span class="n">free_ind</span><span class="p">]</span> <span class="o">=</span> <span class="n">get_null_mat</span><span class="p">(</span><span class="n">stoich_matrix</span><span class="p">,</span><span class="n">model_metabolite</span><span class="p">)</span>
+  
+    <span class="n">rxn_ids</span> <span class="o">=</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">free_ind</span> <span class="o">=</span> <span class="p">[</span><span class="n">x</span>  <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">free_ind</span><span class="p">]</span>
+    <span class="n">free_ids</span> <span class="o">=</span> <span class="p">[</span><span class="n">rxn_ids</span><span class="p">[</span><span class="n">x</span><span class="p">]</span> <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">free_ind</span><span class="p">]</span>
+    <span class="n">flux_dist_g</span> <span class="o">=</span> <span class="p">[</span><span class="n">rxn_ids</span><span class="p">,</span><span class="n">initial_sol</span><span class="p">]</span>
+    <span class="n">basis</span> <span class="o">=</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">3</span><span class="p">]</span>
+    <span class="n">std_dev</span> <span class="o">=</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">4</span><span class="p">]</span>
+    <span class="n">p_basis</span> <span class="o">=</span> <span class="n">model_metabolite</span><span class="p">[</span><span class="mi">6</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+    
+  
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">optimal_flux_dist</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+        <span class="n">measurements</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">error</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">fcn_kws</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;optimal_flux_dist&#39;</span><span class="p">:</span><span class="n">optimal_flux_dist</span><span class="p">,</span><span class="s1">&#39;rxnId_networks&#39;</span><span class="p">:</span><span class="n">rxnId_networks</span><span class="p">,</span> \
+            <span class="s1">&#39;rxn_networks&#39;</span><span class="p">:</span><span class="n">rxn_networks</span><span class="p">,</span><span class="s1">&#39;substrate_mids&#39;</span><span class="p">:</span><span class="n">substrate_mids</span><span class="p">,</span><span class="s1">&#39;rates&#39;</span><span class="p">:</span><span class="n">rates</span><span class="p">,</span>\
+            <span class="s1">&#39;null_mat&#39;</span><span class="p">:</span><span class="n">null_mat</span><span class="p">,</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">:</span><span class="n">measured_mids</span><span class="p">,</span><span class="s1">&#39;flux_dist_g&#39;</span><span class="p">:</span><span class="n">flux_dist_g</span><span class="p">,</span>\
+            <span class="s1">&#39;fixed_flux&#39;</span><span class="p">:</span><span class="n">fixed_flux</span><span class="p">,</span><span class="s1">&#39;corrFlag&#39;</span><span class="p">:</span><span class="n">corrFlag</span><span class="p">,</span><span class="s1">&#39;corr_data&#39;</span><span class="p">:</span><span class="n">corr_data</span><span class="p">,</span>\
+            <span class="s1">&#39;measurements&#39;</span><span class="p">:</span><span class="n">measurements</span><span class="p">,</span><span class="s1">&#39;error&#39;</span><span class="p">:</span><span class="n">error</span><span class="p">}</span>
+        <span class="n">measurements</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+        <span class="n">error</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">res</span> <span class="o">=</span> <span class="n">residual</span><span class="p">(</span><span class="n">fixed_flux</span><span class="p">,</span><span class="n">optimal_flux_dist</span><span class="o">=</span><span class="n">optimal_flux_dist</span><span class="p">,</span> <span class="n">rxnId_networks</span><span class="o">=</span><span class="n">rxnId_networks</span><span class="p">,</span> \
+            <span class="n">rxn_networks</span><span class="o">=</span><span class="n">rxn_networks</span><span class="p">,</span> <span class="n">substrate_mids</span><span class="o">=</span><span class="n">substrate_mids</span><span class="p">,</span> <span class="n">rates</span><span class="o">=</span><span class="n">rates</span><span class="p">,</span>\
+            <span class="n">null_mat</span><span class="o">=</span><span class="n">null_mat</span><span class="p">,</span> <span class="n">measured_mids</span><span class="o">=</span><span class="n">measured_mids</span><span class="p">,</span> <span class="n">flux_dist_g</span><span class="o">=</span><span class="n">flux_dist_g</span><span class="p">,</span>\
+            <span class="n">fixed_flux</span><span class="o">=</span><span class="n">fixed_flux</span><span class="p">,</span><span class="n">corrFlag</span><span class="o">=</span><span class="n">corrFlag</span><span class="p">,</span><span class="n">corr_data</span><span class="o">=</span><span class="n">corr_data</span><span class="p">,</span>\
+            <span class="n">measurements</span><span class="o">=</span><span class="n">measurements</span><span class="p">,</span><span class="n">error</span><span class="o">=</span><span class="n">error</span><span class="p">)</span>
+        <span class="k">return</span> <span class="nb">sum</span><span class="p">(</span><span class="n">res</span><span class="p">)</span>
+    
+    <span class="k">else</span><span class="p">:</span>
+        <span class="c1">#decide number of iterations</span>
+        
+        <span class="k">try</span><span class="p">:</span>
+            <span class="n">numIter</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">kws</span><span class="p">[</span><span class="s1">&#39;numIter&#39;</span><span class="p">])</span>
+            <span class="k">if</span> <span class="n">numIter</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+                <span class="n">numIter</span> <span class="o">=</span> <span class="mi">10</span>
+        <span class="k">except</span><span class="p">:</span>
+            <span class="n">numIter</span> <span class="o">=</span> <span class="mi">10</span>
+        
+       
+        <span class="n">iteration</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">rejection</span> <span class="o">=</span> <span class="mi">0</span>
+        <span class="n">chi2_v</span> <span class="o">=</span> <span class="nb">sum</span><span class="p">([</span><span class="mi">10</span><span class="o">**</span><span class="mi">22</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">measured_mids_g</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+        
+        <span class="k">while</span> <span class="n">iteration</span> <span class="o">&lt;</span> <span class="n">numIter</span><span class="p">:</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n\n</span><span class="s1">Iteration: &#39;</span><span class="p">,</span><span class="n">iteration</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span>
+            
+            <span class="k">try</span><span class="p">:</span>
+                <span class="n">params</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;prev_params&#39;</span><span class="p">]</span>
+                <span class="n">write_opt_data</span> <span class="o">=</span> <span class="kc">False</span>
+               
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">fixed_flux</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+                    <span class="k">if</span> <span class="n">fixed_flux</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;conf_int_flag&#39;</span><span class="p">:</span> <span class="c1">#when calculating confidence interval</span>
+                        
+                        <span class="n">sel_key</span> <span class="o">=</span> <span class="n">fixed_flux</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+                        <span class="n">params</span><span class="p">[</span><span class="n">sel_key</span><span class="p">]</span><span class="o">.</span><span class="n">value</span> <span class="o">=</span> <span class="n">fixed_flux</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+                        <span class="n">params</span><span class="p">[</span><span class="n">sel_key</span><span class="p">]</span><span class="o">.</span><span class="n">vary</span> <span class="o">=</span> <span class="kc">False</span>
+                      
+            <span class="k">except</span><span class="p">:</span>
+                <span class="n">params</span> <span class="o">=</span> <span class="n">Parameters</span><span class="p">()</span>
+           
+                <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="n">free_ind</span><span class="p">:</span>
+                   
+                    <span class="n">rxn</span> <span class="o">=</span> <span class="n">rxn_ids</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39;_&#39;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span>
+                    <span class="n">lbb</span> <span class="o">=</span> <span class="n">bounds</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+                    <span class="n">ubb</span><span class="o">=</span> <span class="n">bounds</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+                    <span class="n">val</span> <span class="o">=</span> <span class="n">random</span><span class="o">.</span><span class="n">uniform</span><span class="p">(</span><span class="n">lbb</span><span class="p">,</span><span class="n">ubb</span><span class="p">)</span>
+                    
+                    <span class="k">if</span> <span class="n">basis</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+                        <span class="c1">#params.add(rxn,value=val,vary=True,min=bounds[i][0],max=bounds[i][1]) #max value should change according to model</span>
+                        <span class="n">params</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="n">val</span><span class="p">,</span><span class="n">vary</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="mi">0</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="n">p_basis</span><span class="o">*</span><span class="mi">15</span><span class="p">)</span>
+                    <span class="k">else</span><span class="p">:</span>
+                        <span class="n">basis_val</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">basis</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                        <span class="c1">#params.add(rxn,value=basis_val,vary=False)</span>
+                        <span class="k">if</span> <span class="n">std_dev</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+                            <span class="n">params</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="n">basis_val</span><span class="p">,</span><span class="n">vary</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+                        <span class="k">else</span><span class="p">:</span>
+                            <span class="n">std_dev_i</span> <span class="o">=</span> <span class="nb">float</span><span class="p">(</span><span class="n">std_dev</span><span class="p">[</span><span class="n">i</span><span class="p">])</span>
+                            <span class="n">params</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">value</span><span class="o">=</span><span class="n">basis_val</span><span class="p">,</span><span class="n">vary</span><span class="o">=</span><span class="kc">True</span><span class="p">,</span><span class="nb">min</span><span class="o">=</span><span class="n">basis_val</span><span class="o">-</span><span class="mi">3</span><span class="o">*</span><span class="n">std_dev_i</span><span class="p">,</span><span class="nb">max</span><span class="o">=</span><span class="n">basis_val</span><span class="o">+</span><span class="mi">3</span><span class="o">*</span><span class="n">std_dev_i</span><span class="p">)</span>
+               
+            <span class="n">measurements</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+            <span class="n">error</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+          
+            <span class="k">global</span> <span class="n">best_par</span>
+  
+    
+    <span class="c1">##############################################################################</span>
+            <span class="c1">#minimize cal - measured</span>
+            <span class="c1">#kws = {&#39;maxfev&#39;:200}</span>
+   
+            <span class="n">fcn_kws</span> <span class="o">=</span> <span class="p">{</span><span class="s1">&#39;optimal_flux_dist&#39;</span><span class="p">:</span><span class="n">optimal_flux_dist</span><span class="p">,</span><span class="s1">&#39;rxnId_networks&#39;</span><span class="p">:</span><span class="n">rxnId_networks</span><span class="p">,</span> \
+            <span class="s1">&#39;rxn_networks&#39;</span><span class="p">:</span><span class="n">rxn_networks</span><span class="p">,</span><span class="s1">&#39;substrate_mids&#39;</span><span class="p">:</span><span class="n">substrate_mids</span><span class="p">,</span><span class="s1">&#39;rates&#39;</span><span class="p">:</span><span class="n">rates</span><span class="p">,</span>\
+            <span class="s1">&#39;null_mat&#39;</span><span class="p">:</span><span class="n">null_mat</span><span class="p">,</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">:</span><span class="n">measured_mids</span><span class="p">,</span><span class="s1">&#39;flux_dist_g&#39;</span><span class="p">:</span><span class="n">flux_dist_g</span><span class="p">,</span>\
+            <span class="s1">&#39;fixed_flux&#39;</span><span class="p">:</span><span class="n">fixed_flux</span><span class="p">,</span><span class="s1">&#39;corrFlag&#39;</span><span class="p">:</span><span class="n">corrFlag</span><span class="p">,</span><span class="s1">&#39;corr_data&#39;</span><span class="p">:</span><span class="n">corr_data</span><span class="p">,</span>\
+            <span class="s1">&#39;measurements&#39;</span><span class="p">:</span><span class="n">measurements</span><span class="p">,</span><span class="s1">&#39;error&#39;</span><span class="p">:</span><span class="n">error</span><span class="p">}</span>
+            
+            <span class="n">mini</span> <span class="o">=</span> <span class="n">Minimizer</span><span class="p">(</span><span class="n">residual</span><span class="p">,</span> <span class="n">params</span><span class="p">,</span><span class="n">fcn_kws</span><span class="o">=</span><span class="n">fcn_kws</span><span class="p">,</span>
+                             <span class="n">iter_cb</span> <span class="o">=</span> <span class="n">iter_cb</span><span class="p">)</span>
+            <span class="n">out</span> <span class="o">=</span> <span class="n">mini</span><span class="o">.</span><span class="n">minimize</span><span class="p">(</span><span class="n">method</span><span class="o">=</span><span class="s1">&#39;least_squares&#39;</span><span class="p">,</span><span class="n">max_nfev</span><span class="o">=</span><span class="mi">10000</span><span class="p">)</span>
+            
+            
+    <span class="c1">############################################################################</span>
+            <span class="n">df</span> <span class="o">=</span> <span class="n">out</span><span class="o">.</span><span class="n">nfree</span>
+            <span class="n">chi2_cutoff</span> <span class="o">=</span> <span class="n">chi2</span><span class="o">.</span><span class="n">isf</span><span class="p">(</span><span class="mf">0.05</span><span class="p">,</span><span class="n">df</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Iteration No.: &#39;</span><span class="p">,</span><span class="n">iteration</span><span class="o">+</span><span class="mi">1</span><span class="p">,</span><span class="s1">&#39;  Chi-square: &#39;</span><span class="p">,</span> <span class="n">out</span><span class="o">.</span><span class="n">chisqr</span><span class="p">)</span>
+    
+            <span class="k">if</span> <span class="n">out</span><span class="o">.</span><span class="n">chisqr</span> <span class="o">&gt;=</span> <span class="nb">sum</span><span class="p">([</span><span class="mi">10</span><span class="o">**</span><span class="mi">10</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">measured_mids_g</span><span class="p">[</span><span class="mi">1</span><span class="p">])):</span>
+                <span class="n">rejection</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">rejection</span> <span class="o">=</span> <span class="mi">0</span>
+                <span class="n">iteration</span> <span class="o">+=</span> <span class="mi">1</span>
+                
+            <span class="k">if</span> <span class="n">rejection</span> <span class="o">&gt;=</span> <span class="mi">100</span><span class="p">:</span>
+                <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;Minimization terminated.&#39;</span><span class="p">)</span>
+                <span class="k">continue</span>
+              
+     
+            <span class="c1">#check if this is best solution and select</span>
+            <span class="k">if</span> <span class="n">out</span><span class="o">.</span><span class="n">chisqr</span> <span class="o">&lt;</span> <span class="n">chi2_v</span> <span class="ow">and</span> <span class="n">out</span><span class="o">.</span><span class="n">chisqr</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">#and sum_rxn_fluxes &lt; min_sum_fluxes:</span>
+                <span class="n">chi2_v</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">chisqr</span><span class="p">)</span>
+                <span class="n">best_param</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">out</span><span class="o">.</span><span class="n">params</span><span class="p">)</span>
+                <span class="n">best_out</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">out</span><span class="p">)</span>
+            
+        <span class="n">flx</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">best_param</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+          
+            <span class="n">flx</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">best_param</span><span class="p">[</span><span class="n">key</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+            
+        <span class="n">flx</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Matrix</span><span class="p">(</span><span class="n">flx</span><span class="p">))</span>
+        <span class="n">sol</span> <span class="o">=</span> <span class="n">null_mat</span><span class="o">*</span><span class="n">flx</span>
+        <span class="n">fluxes</span> <span class="o">=</span> <span class="p">[</span><span class="n">z</span> <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="n">sol</span><span class="p">]</span>
+        <span class="n">optimal_flux_dist</span> <span class="o">=</span> <span class="p">[[],[]]</span>
+        <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">)):</span>
+            <span class="n">optimal_flux_dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+            <span class="n">optimal_flux_dist</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fluxes</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+        
+        <span class="k">if</span> <span class="n">write_opt_data</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+            
+            <span class="n">space</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;*&#39;</span><span class="o">*</span><span class="mi">40</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">Best Solution is:</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="n">f4</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;optimal_solution.csv&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+            
+            <span class="n">optimal_flux_dist</span> <span class="o">=</span> <span class="p">[[],[]]</span>
+            <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">)):</span>
+                <span class="n">optimal_flux_dist</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+                <span class="n">optimal_flux_dist</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">fluxes</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+                <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+                <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;,&#39;</span><span class="p">)</span>
+                <span class="n">fl</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{:0.2f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">fluxes</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+                <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">fl</span><span class="p">))</span>
+                <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+                <span class="nb">print</span><span class="p">(</span><span class="n">rxn_ids</span><span class="p">[</span><span class="n">n</span><span class="p">],</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">&#39;</span><span class="p">,</span><span class="n">fluxes</span><span class="p">[</span><span class="n">n</span><span class="p">])</span>
+            
+            <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n\n</span><span class="s1">SSR:, &#39;</span><span class="p">)</span>
+            <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">best_out</span><span class="o">.</span><span class="n">chisqr</span><span class="p">))</span>
+            <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">Chi2 cutoff, &#39;</span><span class="p">)</span>
+            <span class="n">f4</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">chi2_cutoff</span><span class="p">))</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">best_out.chisqr: &#39;</span><span class="p">,</span><span class="n">best_out</span><span class="o">.</span><span class="n">chisqr</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;chi2 cutoff: &#39;</span><span class="p">,</span><span class="n">chi2_cutoff</span><span class="p">)</span>
+            <span class="n">f4</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            
+            <span class="n">space</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">fit_report</span><span class="p">(</span><span class="n">best_out</span><span class="p">))</span>
+            
+            
+            <span class="k">if</span> <span class="n">corrFlag</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+                <span class="n">corrFlag</span> <span class="o">=</span> <span class="s1">&#39;y&#39;</span>
+            <span class="k">else</span><span class="p">:</span>
+                <span class="n">corrFlag</span> <span class="o">=</span> <span class="s1">&#39;n&#39;</span>
+                
+            <span class="n">optimization_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">best_out</span><span class="p">,</span> <span class="n">null_mat</span><span class="p">,</span> <span class="n">stoich_matrix_g</span><span class="p">,</span> <span class="n">model_metabolite_g</span><span class="p">,</span> <span class="n">rxnId_networks_g</span><span class="p">,</span><span class="n">rxn_networks_g</span><span class="p">,</span><span class="n">measured_mids_g</span><span class="p">,</span><span class="n">substrate_mids_g</span><span class="p">,</span><span class="n">rates_g</span><span class="p">,</span><span class="n">bounds_g</span><span class="p">,</span><span class="n">userInput</span><span class="p">,</span><span class="n">best_out</span><span class="p">,</span><span class="n">optimal_flux_dist</span><span class="p">,</span><span class="n">initial_sol</span><span class="p">]</span>
+            <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;optimization_data.pckl&#39;</span><span class="p">,</span><span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+            <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">optimization_data</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">del</span> <span class="n">optimization_data</span>
+            
+            <span class="n">optimization_data</span> <span class="o">=</span> <span class="p">[</span><span class="n">mini</span><span class="p">,</span><span class="n">best_out</span><span class="p">]</span>
+            <span class="kn">import</span> <span class="nn">pickle</span>
+            <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;optimization_data_cf.pckl&#39;</span><span class="p">,</span><span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+            <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">optimization_data</span><span class="p">,</span><span class="n">f</span><span class="p">)</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            <span class="k">del</span> <span class="n">optimization_data</span>
+            
+            <span class="c1">#for writing calculated mids in a file</span>
+            <span class="n">f1</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;calculated_mids.pckl&#39;</span><span class="p">,</span> <span class="s1">&#39;rb&#39;</span><span class="p">)</span>
+            <span class="n">cal</span> <span class="o">=</span> <span class="n">pickle</span><span class="o">.</span><span class="n">load</span><span class="p">(</span><span class="n">f1</span><span class="p">)</span>
+            <span class="n">f1</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>    
+            <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;calulated_mids.txt&#39;</span><span class="p">,</span><span class="s1">&#39;w&#39;</span><span class="p">)</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="s1">&#39;Calculated mids</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="k">for</span> <span class="n">value</span> <span class="ow">in</span> <span class="n">cal</span><span class="p">:</span>
+                <span class="n">vl</span> <span class="o">=</span> <span class="s1">&#39;</span><span class="si">{:0.4f}</span><span class="s1">&#39;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">value</span><span class="p">)</span>
+                <span class="n">f</span><span class="o">.</span><span class="n">write</span><span class="p">(</span><span class="nb">str</span><span class="p">(</span><span class="n">vl</span><span class="p">)</span><span class="o">+</span><span class="s1">&#39;</span><span class="se">\n</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+            
+            <span class="c1">#plot</span>
+            <span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+            <span class="n">diff_mids</span> <span class="o">=</span> <span class="p">[]</span>
+            <span class="k">for</span> <span class="n">k</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">cal</span><span class="p">)):</span>
+                <span class="n">diff_mids</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">cal</span><span class="p">[</span><span class="n">k</span><span class="p">]</span><span class="o">-</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">k</span><span class="p">])</span>
+            <span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span><span class="nb">len</span><span class="p">(</span><span class="n">cal</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">))</span>
+            <span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">diff_mids</span><span class="p">)</span>
+            <span class="n">fig</span> <span class="o">=</span> <span class="n">plt</span><span class="o">.</span><span class="n">figure</span><span class="p">()</span>
+            <span class="n">ax1</span> <span class="o">=</span> <span class="n">fig</span><span class="o">.</span><span class="n">add_subplot</span><span class="p">(</span><span class="mi">111</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="n">y</span><span class="p">,</span><span class="n">label</span><span class="o">=</span><span class="s1">&#39;calculated mids - measured mids&#39;</span><span class="p">,</span><span class="n">width</span><span class="o">=</span><span class="mf">0.1</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;left&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_position</span><span class="p">(</span><span class="s1">&#39;zero&#39;</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;bottom&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_position</span><span class="p">(</span><span class="s1">&#39;zero&#39;</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;right&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">spines</span><span class="p">[</span><span class="s1">&#39;top&#39;</span><span class="p">]</span><span class="o">.</span><span class="n">set_color</span><span class="p">(</span><span class="s1">&#39;none&#39;</span><span class="p">)</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">set_ylim</span><span class="p">([</span><span class="nb">min</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span><span class="p">,</span><span class="nb">max</span><span class="p">(</span><span class="n">y</span><span class="p">)</span><span class="o">*</span><span class="mf">1.5</span><span class="p">])</span>
+            <span class="n">ax1</span><span class="o">.</span><span class="n">set_xticks</span><span class="p">([])</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">legend</span><span class="p">(</span><span class="n">loc</span><span class="o">=</span><span class="s1">&#39;upper left&#39;</span><span class="p">);</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">savefig</span><span class="p">(</span><span class="s1">&#39;mid_dev.png&#39;</span><span class="p">,</span><span class="nb">format</span><span class="o">=</span><span class="s1">&#39;png&#39;</span><span class="p">,</span><span class="n">dpi</span><span class="o">=</span><span class="mi">400</span><span class="p">)</span>
+            <span class="n">plt</span><span class="o">.</span><span class="n">show</span><span class="p">()</span>
+            
+        <span class="k">return</span> <span class="n">rxn_ids</span><span class="p">,</span><span class="n">optimal_flux_dist</span><span class="p">,</span><span class="n">best_out</span></div>
+
+
+<div class="viewcode-block" id="prob_func"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.prob_func">[docs]</a><span class="k">def</span> <span class="nf">prob_func</span><span class="p">(</span><span class="n">x</span><span class="p">):</span>
+    <span class="kn">from</span> <span class="nn">scipy.stats</span> <span class="k">import</span> <span class="n">chi2</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;</span><span class="se">\n\n</span><span class="s1">&#39;</span><span class="p">,</span><span class="nb">locals</span><span class="p">())</span>
+    <span class="k">return</span> <span class="n">chi2</span><span class="o">.</span><span class="n">pdf</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="mi">1</span><span class="p">)</span></div>
+    
+<div class="viewcode-block" id="residual"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.residual">[docs]</a><span class="k">def</span> <span class="nf">residual</span><span class="p">(</span><span class="n">params</span><span class="p">,</span><span class="o">**</span><span class="n">kws</span><span class="p">):</span> <span class="c1">#(params,x,data,error)</span>
+    
+    <span class="n">rxnId_networks_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;rxnId_networks&#39;</span><span class="p">]</span>
+    <span class="n">optimal_flux_dist_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;optimal_flux_dist&#39;</span><span class="p">]</span>
+    
+    <span class="n">rxn_networks_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;rxn_networks&#39;</span><span class="p">]</span>
+    <span class="n">substrate_mids_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;substrate_mids&#39;</span><span class="p">]</span>
+    <span class="n">rates_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;rates&#39;</span><span class="p">]</span>
+    <span class="n">null_mat</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;null_mat&#39;</span><span class="p">]</span>
+    <span class="n">measured_mids_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">]</span>
+    <span class="n">flux_dist_g</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;flux_dist_g&#39;</span><span class="p">]</span>
+    <span class="n">fixed_flux</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;fixed_flux&#39;</span><span class="p">]</span>
+    <span class="n">corrFlag</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;corrFlag&#39;</span><span class="p">]</span>
+    
+    <span class="n">corr_data</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;corr_data&#39;</span><span class="p">]</span>
+    <span class="n">measurements</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measurements&#39;</span><span class="p">]</span>
+    <span class="n">error</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;error&#39;</span><span class="p">]</span>
+   
+   
+    <span class="kn">import</span> <span class="nn">math</span>
+    <span class="kn">from</span> <span class="nn">fluxpyt.solve_mid_networks</span> <span class="k">import</span> <span class="n">solve_mid_networks</span>
+    
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">optimal_flux_dist_g</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span> <span class="c1">#when calculating flux estimates</span>
+        
+        <span class="n">flux_dist_g</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">optimal_flux_dist_g</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">ind</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span>
+        <span class="n">flux_dist_g</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="n">params</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">flx</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="n">params</span><span class="o">.</span><span class="n">keys</span><span class="p">():</span>
+            <span class="n">flx</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">params</span><span class="p">[</span><span class="n">key</span><span class="p">]</span><span class="o">.</span><span class="n">value</span><span class="p">)</span>
+        
+        <span class="n">flx</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">sp</span><span class="o">.</span><span class="n">Matrix</span><span class="p">(</span><span class="n">flx</span><span class="p">))</span>
+        
+        <span class="n">sol</span> <span class="o">=</span> <span class="n">null_mat</span><span class="o">*</span><span class="n">flx</span>
+        <span class="n">fluxes</span> <span class="o">=</span> <span class="p">[</span><span class="n">z</span> <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="n">sol</span><span class="p">]</span>
+        
+        <span class="n">infeasible</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">10</span><span class="o">**</span><span class="mi">10</span><span class="p">]</span><span class="o">*</span><span class="nb">len</span><span class="p">(</span><span class="n">measured_mids_g</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span>
+        <span class="n">check_neg</span> <span class="o">=</span> <span class="p">[</span><span class="n">z</span> <span class="k">for</span> <span class="n">z</span> <span class="ow">in</span> <span class="n">fluxes</span> <span class="k">if</span> <span class="n">z</span> <span class="o">&lt;</span> <span class="mf">0.0</span><span class="p">]</span>
+        
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">check_neg</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">return</span> <span class="n">infeasible</span>
+        
+        <span class="c1">#get flux ditribution</span>
+        
+        <span class="n">flux_dist_g</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">fluxes</span><span class="p">)</span><span class="c1"># write the flux values</span>
+       
+        <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">fixed_flux</span><span class="p">)</span> <span class="o">!=</span> <span class="mi">0</span><span class="p">:</span>
+            <span class="k">if</span> <span class="n">fixed_flux</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;conf_int_flag&#39;</span><span class="p">:</span> <span class="c1">#when calculating confidence interval</span>
+               
+                <span class="n">ind_conf</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">fixed_flux</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;_&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">])</span>
+                <span class="n">flux_dist_g</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind_conf</span><span class="p">]</span> <span class="o">=</span> <span class="n">fixed_flux</span><span class="p">[</span><span class="mi">2</span><span class="p">]</span>
+    
+                
+           
+    <span class="n">cal_mids</span> <span class="o">=</span> <span class="n">solve_mid_networks</span><span class="p">(</span><span class="n">rxnId_networks_g</span><span class="p">,</span><span class="n">rxn_networks_g</span><span class="p">,</span><span class="n">substrate_mids_g</span><span class="p">,</span><span class="n">rates_g</span><span class="p">,</span><span class="n">flux_dist_g</span><span class="p">)</span>
+
+    <span class="k">if</span> <span class="n">cal_mids</span> <span class="o">==</span> <span class="kc">None</span><span class="p">:</span>
+        <span class="k">return</span> <span class="n">infeasible</span>
+    
+    <span class="c1">#correct mids for natural abundance if applicable</span>
+    
+    <span class="n">corrected_mids</span> <span class="o">=</span> <span class="n">correct_mids</span><span class="p">(</span><span class="n">cal_mids</span><span class="p">,</span><span class="n">measured_mids</span><span class="o">=</span><span class="n">measured_mids_g</span><span class="p">,</span><span class="n">corrFlag</span><span class="o">=</span><span class="n">corrFlag</span><span class="p">,</span>\
+    <span class="n">corr_data</span> <span class="o">=</span> <span class="n">corr_data</span><span class="p">,</span><span class="n">measurements</span><span class="o">=</span><span class="n">measurements</span><span class="p">)</span>
+    
+    <span class="n">cc</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="k">for</span> <span class="n">x</span> <span class="ow">in</span> <span class="n">corrected_mids</span><span class="p">:</span>
+        <span class="k">if</span> <span class="n">math</span><span class="o">.</span><span class="n">isnan</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">x</span><span class="p">)):</span>
+            <span class="n">cc</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="mf">0.0</span><span class="p">)</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">cc</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">x</span><span class="p">)</span>
+            
+    <span class="n">corrected_mids</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">cc</span><span class="p">)</span>
+
+    <span class="n">msrd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">measurements</span><span class="p">))</span>
+    <span class="n">cal</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">corrected_mids</span><span class="p">))</span>
+    <span class="n">erd</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">(</span><span class="n">deepcopy</span><span class="p">(</span><span class="n">error</span><span class="p">))</span>
+    
+    <span class="n">diff</span> <span class="o">=</span> <span class="nb">abs</span><span class="p">(</span><span class="n">cal</span> <span class="o">-</span> <span class="n">msrd</span><span class="p">)</span>
+    <span class="n">dev</span> <span class="o">=</span> <span class="p">(</span><span class="n">diff</span><span class="o">/</span><span class="p">(</span><span class="n">erd</span><span class="o">**</span><span class="mi">2</span><span class="p">)</span><span class="o">*</span><span class="n">diff</span><span class="p">)</span><span class="o">**</span><span class="mf">0.5</span>
+    
+    <span class="c1">#store calculated mids for writing in file later</span>
+    <span class="kn">import</span> <span class="nn">pickle</span>
+    <span class="n">f</span> <span class="o">=</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;calculated_mids.pckl&#39;</span><span class="p">,</span> <span class="s1">&#39;wb&#39;</span><span class="p">)</span>
+    <span class="n">pickle</span><span class="o">.</span><span class="n">dump</span><span class="p">(</span><span class="n">cal</span><span class="p">,</span> <span class="n">f</span><span class="p">)</span>
+    <span class="n">f</span><span class="o">.</span><span class="n">close</span><span class="p">()</span>
+    
+    <span class="k">return</span> <span class="n">dev</span></div>
+    
+<div class="viewcode-block" id="iter_cb"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.iter_cb">[docs]</a><span class="k">def</span> <span class="nf">iter_cb</span><span class="p">(</span><span class="n">params</span><span class="p">,</span><span class="nb">iter</span><span class="p">,</span><span class="n">resid</span><span class="p">,</span><span class="o">**</span><span class="n">kws</span><span class="p">):</span> <span class="c1">#params, iter, resid, *args, **kws</span>
+    
+   <span class="k">if</span> <span class="nb">iter</span><span class="o">%</span><span class="mi">100</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+       <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;nfev =&#39;</span><span class="p">,</span><span class="nb">iter</span><span class="p">,</span><span class="s1">&#39;</span><span class="se">\t</span><span class="s1">SSR =&#39;</span><span class="p">,</span><span class="nb">sum</span><span class="p">(</span><span class="n">resid</span><span class="o">**</span><span class="mi">2</span><span class="p">))</span></div>
+        
+<div class="viewcode-block" id="correct_mids"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.correct_mids">[docs]</a><span class="k">def</span> <span class="nf">correct_mids</span><span class="p">(</span><span class="n">cal_mids</span><span class="p">,</span><span class="o">**</span><span class="n">kws</span><span class="p">):</span>
+    
+    <span class="n">measured_mids</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">]</span>
+    <span class="n">meas_mid_list</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">err_list</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measured_mids&#39;</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+    <span class="n">corrFlag</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;corrFlag&#39;</span><span class="p">]</span>
+    <span class="n">corr_data</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;corr_data&#39;</span><span class="p">]</span>
+    <span class="n">measurements</span> <span class="o">=</span> <span class="n">kws</span><span class="p">[</span><span class="s1">&#39;measurements&#39;</span><span class="p">]</span>
+    <span class="n">cal_mid_list</span> <span class="o">=</span> <span class="p">[]</span>
+    
+    <span class="c1">#select and arrange calculated mids according to measured mids</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">measured_mids</span><span class="p">[</span><span class="mi">2</span><span class="p">])):</span> <span class="c1">#iterate over measured emus</span>
+        
+        <span class="n">meas_emu</span> <span class="o">=</span> <span class="n">measured_mids</span><span class="p">[</span><span class="mi">2</span><span class="p">][</span><span class="n">i</span><span class="p">]</span>
+            
+        <span class="k">assert</span> <span class="n">meas_emu</span> <span class="ow">in</span> <span class="n">cal_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">],</span> <span class="s1">&#39;</span><span class="si">%s</span><span class="s1"> not found in calculated emus&#39;</span> <span class="o">%</span> <span class="n">meas_emu</span>
+        
+        <span class="k">if</span> <span class="n">corrFlag</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+         
+            <span class="n">meas_emu</span> <span class="o">=</span> <span class="n">corr_data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">0</span><span class="p">]</span>
+            <span class="n">mol_formula</span> <span class="o">=</span> <span class="n">corr_data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">1</span><span class="p">]</span>
+            <span class="n">num_obs</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">corr_data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">])</span>
+            <span class="n">max_obs</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">corr_data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">3</span><span class="p">])</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">num_obs</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="n">corr_data</span><span class="p">[</span><span class="n">i</span><span class="p">][</span><span class="mi">2</span><span class="p">])</span>
+        
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">cal_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">])):</span> <span class="c1">#iterate over calculated emus</span>
+           
+            <span class="n">cal_emu</span> <span class="o">=</span> <span class="n">cal_mids</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+              
+            <span class="n">mid</span> <span class="o">=</span> <span class="n">cal_mids</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">j</span><span class="p">]</span>
+               
+            <span class="k">if</span> <span class="n">cal_emu</span> <span class="o">==</span> <span class="n">meas_emu</span><span class="p">:</span>
+              
+                <span class="k">if</span> <span class="n">corrFlag</span> <span class="o">==</span> <span class="kc">True</span><span class="p">:</span>
+                   
+                    <span class="n">corr_mid</span> <span class="o">=</span> <span class="n">mid_correct</span><span class="p">(</span><span class="n">meas_emu</span><span class="p">,</span><span class="n">mol_formula</span><span class="p">,</span><span class="n">num_obs</span><span class="p">,</span><span class="n">max_obs</span><span class="p">,</span><span class="n">mid</span><span class="p">)</span>
+                    
+                    <span class="n">tmp</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="k">for</span> <span class="n">ar</span> <span class="ow">in</span> <span class="n">corr_mid</span><span class="p">:</span>
+                        
+                        <span class="n">tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="nb">list</span><span class="p">(</span><span class="n">ar</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+                <span class="k">else</span><span class="p">:</span>
+                  
+                    <span class="n">corr_mid</span> <span class="o">=</span> <span class="n">mid</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="n">num_obs</span><span class="p">]</span>
+                    
+                    <span class="n">tmp</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="k">for</span> <span class="n">ar</span> <span class="ow">in</span> <span class="n">corr_mid</span><span class="p">:</span>
+                        
+                        <span class="n">tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">ar</span><span class="p">)</span>
+               
+                <span class="n">corr_mid</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">tmp</span><span class="p">)</span>
+                
+                <span class="n">cal_mid_list</span> <span class="o">+=</span> <span class="nb">list</span><span class="p">(</span><span class="n">corr_mid</span><span class="p">)</span>
+                <span class="k">break</span>
+    
+    <span class="k">return</span> <span class="n">cal_mid_list</span></div>
+    
+    
+<div class="viewcode-block" id="make_objective"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.solve_mfa_lm.make_objective">[docs]</a><span class="k">def</span> <span class="nf">make_objective</span><span class="p">(</span><span class="n">rxnId</span><span class="p">,</span><span class="n">rxnList</span><span class="p">):</span>
+    <span class="n">ind</span> <span class="o">=</span> <span class="n">rxnList</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">rxnId</span><span class="p">)</span>
+    <span class="n">nc</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">zeros</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxnList</span><span class="p">))</span>
+    <span class="n">nc</span><span class="p">[</span><span class="n">ind</span><span class="p">]</span> <span class="o">=</span> <span class="mi">1</span>
+    <span class="n">c</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">nc</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">c</span></div>
+    
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>

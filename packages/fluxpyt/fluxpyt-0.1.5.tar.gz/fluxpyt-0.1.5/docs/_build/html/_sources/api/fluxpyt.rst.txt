@@ -1,0 +1,150 @@
+fluxpyt package
+===============
+
+Submodules
+----------
+
+fluxpyt\.bootstrap module
+-------------------------
+
+.. automodule:: fluxpyt.bootstrap
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.build\_model module
+----------------------------
+
+.. automodule:: fluxpyt.build_model
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.create\_atm\_transition\_equations module
+--------------------------------------------------
+
+.. automodule:: fluxpyt.create_atm_transition_equations
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.draw\_flux\_map module
+-------------------------------
+
+.. automodule:: fluxpyt.draw_flux_map
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.free\_flux\_null module
+--------------------------------
+
+.. automodule:: fluxpyt.free_flux_null
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.glpk\_solve module
+---------------------------
+
+.. automodule:: fluxpyt.glpk_solve
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.input\_substrate\_emu module
+-------------------------------------
+
+.. automodule:: fluxpyt.input_substrate_emu
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.main module
+--------------------
+
+.. automodule:: fluxpyt.main
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.make\_emu\_model module
+--------------------------------
+
+.. automodule:: fluxpyt.make_emu_model
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.make\_emu\_networks module
+-----------------------------------
+
+.. automodule:: fluxpyt.make_emu_networks
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.mid\_corr module
+-------------------------
+
+.. automodule:: fluxpyt.mid_corr
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.mid\_vec\_gen module
+-----------------------------
+
+.. automodule:: fluxpyt.mid_vec_gen
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.monte\_carlo module
+----------------------------
+
+.. automodule:: fluxpyt.monte_carlo
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.priliminary\_fba module
+--------------------------------
+
+.. automodule:: fluxpyt.priliminary_fba
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.solve\_mfa\_lm module
+------------------------------
+
+.. automodule:: fluxpyt.solve_mfa_lm
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.solve\_mid\_networks module
+------------------------------------
+
+.. automodule:: fluxpyt.solve_mid_networks
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+fluxpyt\.utility module
+-----------------------
+
+.. automodule:: fluxpyt.utility
+    :members:
+    :undoc-members:
+    :show-inheritance:
+
+
+Module contents
+---------------
+
+.. automodule:: fluxpyt
+    :members:
+    :undoc-members:
+    :show-inheritance:

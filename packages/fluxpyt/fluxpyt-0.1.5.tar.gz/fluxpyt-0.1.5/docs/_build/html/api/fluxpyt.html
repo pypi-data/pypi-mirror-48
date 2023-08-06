@@ -1,0 +1,679 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt package &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../_static/jquery.js"></script>
+    <script type="text/javascript" src="../_static/underscore.js"></script>
+    <script type="text/javascript" src="../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Modules" href="modules.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <div class="section" id="fluxpyt-package">
+<h1>fluxpyt package<a class="headerlink" href="#fluxpyt-package" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="submodules">
+<h2>Submodules<a class="headerlink" href="#submodules" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-fluxpyt.bootstrap">
+<span id="fluxpyt-bootstrap-module"></span><h2>fluxpyt.bootstrap module<a class="headerlink" href="#module-fluxpyt.bootstrap" title="Permalink to this headline">¶</a></h2>
+<p>Created on Wed Aug 23 12:06:00 2017</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.bootstrap.bootstrap">
+<code class="descclassname">fluxpyt.bootstrap.</code><code class="descname">bootstrap</code><span class="sig-paren">(</span><em>**kws</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/bootstrap.html#bootstrap"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.bootstrap.bootstrap" title="Permalink to this definition">¶</a></dt>
+<dd><p>inputs:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>kws:</dt>
+<dd><dl class="first docutils">
+<dt>rxnList: Optional. List of reactions for which bootstrapping is to be done.</dt>
+<dd>It should be in form of python list</dd>
+</dl>
+<p class="last">ylim = Optional. It should be a tuple. e.g. (0,10).</p>
+</dd>
+</dl>
+</div></blockquote>
+<p class="rubric">Example</p>
+<p>bootstrap(&#8216;tca&#8217;,rxnList=[&#8216;V01&#8217;,&#8217;V02&#8217;],ylim=(0,10))</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.build_model">
+<span id="fluxpyt-build-model-module"></span><h2>fluxpyt.build_model module<a class="headerlink" href="#module-fluxpyt.build_model" title="Permalink to this headline">¶</a></h2>
+<p>Created on Sat Feb  6 21:09:50 2016</p>
+<p>&#64;author: Trunil</p>
+<p>Reads and build model from csv.
+Note 2Jul2016: this program reads csv model into stoichiometric matrix with list of rxns and metabolites</p>
+<dl class="function">
+<dt id="fluxpyt.build_model.build_model">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">build_model</code><span class="sig-paren">(</span><em>fileName</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#build_model"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.build_model" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.get_linenumber">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">get_linenumber</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#get_linenumber"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.get_linenumber" title="Permalink to this definition">¶</a></dt>
+<dd><p>Get line number in the code. Usefull to find which line of the code this function occurrs.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.make_stoich_matrix">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">make_stoich_matrix</code><span class="sig-paren">(</span><em>reactions</em>, <em>reaction_formulae</em>, <em>excludedMetabolites=[]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#make_stoich_matrix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.make_stoich_matrix" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Stoichiometric matrix (S) from reaction formulae</div></blockquote>
+<dl class="docutils">
+<dt>Reactions must be written in form:</dt>
+<dd><p class="first">A -&gt; 2 B</p>
+<p class="last">A + B &lt;-&gt; C</p>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.metabolite_list">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">metabolite_list</code><span class="sig-paren">(</span><em>reaction_formulae</em>, <em>excludedMetabolites=[]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#metabolite_list"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.metabolite_list" title="Permalink to this definition">¶</a></dt>
+<dd><blockquote>
+<div>Make list of metabolites from reaction formula.</div></blockquote>
+<dl class="docutils">
+<dt>Reactions must be written in form:</dt>
+<dd>A -&gt; 2 B
+C &lt;- A + B
+A + B &lt;-&gt; C</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.modify_rxn_for_S">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">modify_rxn_for_S</code><span class="sig-paren">(</span><em>rxn</em>, <em>excludedMetabolites=[]</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#modify_rxn_for_S"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.modify_rxn_for_S" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.read_mfa_model">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">read_mfa_model</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#read_mfa_model"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.read_mfa_model" title="Permalink to this definition">¶</a></dt>
+<dd><p>Import and read csv file.
+Returns the model in lists that separate columns</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.build_model.test_model_build">
+<code class="descclassname">fluxpyt.build_model.</code><code class="descname">test_model_build</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/build_model.html#test_model_build"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.build_model.test_model_build" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.create_atm_transition_equations">
+<span id="fluxpyt-create-atm-transition-equations-module"></span><h2>fluxpyt.create_atm_transition_equations module<a class="headerlink" href="#module-fluxpyt.create_atm_transition_equations" title="Permalink to this headline">¶</a></h2>
+<p>Created on Mon Jul  4 12:46:38 2016</p>
+<p>Generates elementary reaction list.</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.create_atm_transition_equations">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">create_atm_transition_equations</code><span class="sig-paren">(</span><em>rxnIDs</em>, <em>rxnList</em>, <em>atm_transition_rxns</em>, <em>moleculeList</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#create_atm_transition_equations"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.create_atm_transition_equations" title="Permalink to this definition">¶</a></dt>
+<dd><dl class="docutils">
+<dt>Input:</dt>
+<dd>rxnList = reaction formulae in form of list
+atm_transition_rxns = respective atom transition reaction list
+moleculeList = list of molecules observed (emu types e.g. A:0111)</dd>
+<dt>Output:</dt>
+<dd>reaction list with atom transitions,
+new metabolite (emu types) list</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.findMolRxns">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">findMolRxns</code><span class="sig-paren">(</span><em>rxnIDs</em>, <em>molecule</em>, <em>rxnList</em>, <em>atm_transition_rxns</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#findMolRxns"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.findMolRxns" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.get_coeff">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">get_coeff</code><span class="sig-paren">(</span><em>rxn</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#get_coeff"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.get_coeff" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.get_formula">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">get_formula</code><span class="sig-paren">(</span><em>molecule</em>, <em>rxn</em>, <em>atm_rxn</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#get_formula"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.get_formula" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.get_new_molecule">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">get_new_molecule</code><span class="sig-paren">(</span><em>rxn</em>, <em>moleculeList</em>, <em>current_molecule</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#get_new_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.get_new_molecule" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.insert_hash">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">insert_hash</code><span class="sig-paren">(</span><em>list</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#insert_hash"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.insert_hash" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.num_sort">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">num_sort</code><span class="sig-paren">(</span><em>num</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#num_sort"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.num_sort" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.rewrite_molecule">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">rewrite_molecule</code><span class="sig-paren">(</span><em>molecule</em>, <em>rxn</em>, <em>atm_rxn</em>, <em>mol_index</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#rewrite_molecule"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.rewrite_molecule" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.test">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">test</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#test"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.test" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.create_atm_transition_equations.write_rxn_full">
+<code class="descclassname">fluxpyt.create_atm_transition_equations.</code><code class="descname">write_rxn_full</code><span class="sig-paren">(</span><em>rxn</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/create_atm_transition_equations.html#write_rxn_full"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.create_atm_transition_equations.write_rxn_full" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.draw_flux_map">
+<span id="fluxpyt-draw-flux-map-module"></span><h2>fluxpyt.draw_flux_map module<a class="headerlink" href="#module-fluxpyt.draw_flux_map" title="Permalink to this headline">¶</a></h2>
+<p>Created on Thu Sep 21 11:07:25 2017</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.draw_flux_map.draw_flux_map">
+<code class="descclassname">fluxpyt.draw_flux_map.</code><code class="descname">draw_flux_map</code><span class="sig-paren">(</span><em>filename</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/draw_flux_map.html#draw_flux_map"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.draw_flux_map.draw_flux_map" title="Permalink to this definition">¶</a></dt>
+<dd><p>Input: filename of flux diagram in svg format.</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.free_flux_null">
+<span id="fluxpyt-free-flux-null-module"></span><h2>fluxpyt.free_flux_null module<a class="headerlink" href="#module-fluxpyt.free_flux_null" title="Permalink to this headline">¶</a></h2>
+<p>Created on Mon Jun 19 10:39:54 2017</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.free_flux_null.get_null_mat">
+<code class="descclassname">fluxpyt.free_flux_null.</code><code class="descname">get_null_mat</code><span class="sig-paren">(</span><em>stoich_matrix</em>, <em>model_metabolite</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/free_flux_null.html#get_null_mat"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.free_flux_null.get_null_mat" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.glpk_solve">
+<span id="fluxpyt-glpk-solve-module"></span><h2>fluxpyt.glpk_solve module<a class="headerlink" href="#module-fluxpyt.glpk_solve" title="Permalink to this headline">¶</a></h2>
+<p>Created on Sun Aug  7 12:37:26 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.glpk_solve.glpk_solve">
+<code class="descclassname">fluxpyt.glpk_solve.</code><code class="descname">glpk_solve</code><span class="sig-paren">(</span><em>mat</em>, <em>c</em>, <em>b</em>, <em>bounds</em>, <em>rxnNames</em>, <em>maximize=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/glpk_solve.html#glpk_solve"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.glpk_solve.glpk_solve" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.glpk_solve.parse_output">
+<code class="descclassname">fluxpyt.glpk_solve.</code><code class="descname">parse_output</code><span class="sig-paren">(</span><em>fileName</em>, <em>rxnNames</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/glpk_solve.html#parse_output"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.glpk_solve.parse_output" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.glpk_solve.write_constraint">
+<code class="descclassname">fluxpyt.glpk_solve.</code><code class="descname">write_constraint</code><span class="sig-paren">(</span><em>constr_name</em>, <em>vec</em>, <em>rxnNames</em>, <em>model</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/glpk_solve.html#write_constraint"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.glpk_solve.write_constraint" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.input_substrate_emu">
+<span id="fluxpyt-input-substrate-emu-module"></span><h2>fluxpyt.input_substrate_emu module<a class="headerlink" href="#module-fluxpyt.input_substrate_emu" title="Permalink to this headline">¶</a></h2>
+<p>Created on Tue Aug  2 15:44:59 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.cal_substrate_mid">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">cal_substrate_mid</code><span class="sig-paren">(</span><em>fileName</em>, <em>elementary_rxn_list</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#cal_substrate_mid"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.cal_substrate_mid" title="Permalink to this definition">¶</a></dt>
+<dd><p>Calculates substrate mids.</p>
+<p>Note: Only 13C carbon mids can be calculated for now.</p>
+<dl class="docutils">
+<dt>Input:</dt>
+<dd><ol class="first last arabic simple">
+<li>fileName: substrate input file name. (csv format file)</li>
+<li>elementary_rxn_list: list of elementary reactions.</li>
+</ol>
+</dd>
+<dt>assumption:</dt>
+<dd><ol class="first last arabic simple">
+<li>nat = [0.9893, 0.0107] ... naturnal carbon isotope abundance</li>
+<li>lab = [0.01,0.99]... labeled carbon abundance</li>
+</ol>
+</dd>
+</dl>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.detect_substrate_emus">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">detect_substrate_emus</code><span class="sig-paren">(</span><em>substrates</em>, <em>labeling</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#detect_substrate_emus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.detect_substrate_emus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.genInSubEMU">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">genInSubEMU</code><span class="sig-paren">(</span><em>substrate_info</em>, <em>network_substrate_emus</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#genInSubEMU"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.genInSubEMU" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.list_network_subs_emus">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">list_network_subs_emus</code><span class="sig-paren">(</span><em>elementary_rxn_list</em>, <em>substrates</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#list_network_subs_emus"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.list_network_subs_emus" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.read_substrate_input">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">read_substrate_input</code><span class="sig-paren">(</span><em>fileName</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#read_substrate_input"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.read_substrate_input" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.input_substrate_emu.sort_sub_input">
+<code class="descclassname">fluxpyt.input_substrate_emu.</code><code class="descname">sort_sub_input</code><span class="sig-paren">(</span><em>substrates</em>, <em>labeling</em>, <em>ratios</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/input_substrate_emu.html#sort_sub_input"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.input_substrate_emu.sort_sub_input" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.main">
+<span id="fluxpyt-main-module"></span><h2>fluxpyt.main module<a class="headerlink" href="#module-fluxpyt.main" title="Permalink to this headline">¶</a></h2>
+<p>Created on Mon Jul  4 12:23:46 2016</p>
+<p>Main module of FluxPyt.</p>
+<p>Collects user inputs.</p>
+<p>All the modules are run through this.</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.main.main">
+<code class="descclassname">fluxpyt.main.</code><code class="descname">main</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/main.html#main"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.main.main" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="fluxpyt-make-emu-model-module">
+<h2>fluxpyt.make_emu_model module<a class="headerlink" href="#fluxpyt-make-emu-model-module" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="module-fluxpyt.make_emu_networks">
+<span id="fluxpyt-make-emu-networks-module"></span><h2>fluxpyt.make_emu_networks module<a class="headerlink" href="#module-fluxpyt.make_emu_networks" title="Permalink to this headline">¶</a></h2>
+<p>Created on Wed Jul 12 11:35:14 2017</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.make_emu_networks.make_networks">
+<code class="descclassname">fluxpyt.make_emu_networks.</code><code class="descname">make_networks</code><span class="sig-paren">(</span><em>mol_rxnIDs</em>, <em>elementary_rxn_list</em>, <em>measured_emus</em>, <em>known_mids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/make_emu_networks.html#make_networks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.make_emu_networks.make_networks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.mid_corr">
+<span id="fluxpyt-mid-corr-module"></span><h2>fluxpyt.mid_corr module<a class="headerlink" href="#module-fluxpyt.mid_corr" title="Permalink to this headline">¶</a></h2>
+<p>Created on Wed Mar  8 12:03:26 2017</p>
+<p>Adapted from function corrMatGen in Openflux</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.mid_corr.corrMatGen">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">corrMatGen</code><span class="sig-paren">(</span><em>output_size</em>, <em>input_size=0</em>, <em>molecularFormula=''</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#corrMatGen"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.corrMatGen" title="Permalink to this definition">¶</a></dt>
+<dd><p>function CM = corrMatGen(output_size, input_size, molform)</p>
+<p>Returns correction matrix.</p>
+<p>example: outputMDV = CM * inputMDV</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>Inputs:</dt>
+<dd><dl class="first docutils">
+<dt>output_size: int. length of output MDV (truncated length) (number of values in measured MID</dt>
+<dd>e.g. pyruvate has 3 carbons (ideally 4 mids) but only three are measured or detected.)</dd>
+</dl>
+<p>input_size: int. lenght of input MDV (carbon backbone + 1)</p>
+<p class="last">molform: molecular formula without carbon backbone.</p>
+</dd>
+</dl>
+</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.corrMatGen1">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">corrMatGen1</code><span class="sig-paren">(</span><em>output_row</em>, <em>input_size=0</em>, <em>molecularFormula=''</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#corrMatGen1"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.corrMatGen1" title="Permalink to this definition">¶</a></dt>
+<dd><p>function CM = corrMatGen(output_size, input_size, molform)</p>
+<p>Generates correction matrix.</p>
+<p>example: outputMDV = CM * inputMDV</p>
+<blockquote>
+<div><p>Inputs:</p>
+<blockquote>
+<div><dl class="docutils">
+<dt>output_row: list of output rows i.e. masses to be calculated</dt>
+<dd>e.g. [0,1,2] will give corrected mids of M+0 , M+1 and M+2 .</dd>
+</dl>
+<p>input_size: int. lenght of input MDV (carbon backbone + 1)</p>
+<p>molform: molecular formula without carbon backbone.</p>
+</div></blockquote>
+</div></blockquote>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.getAtoms">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">getAtoms</code><span class="sig-paren">(</span><em>pos</em>, <em>molecularFormula</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#getAtoms"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.getAtoms" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.getCoefficients">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">getCoefficients</code><span class="sig-paren">(</span><em>pos</em>, <em>molecularFormula</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#getCoefficients"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.getCoefficients" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.isletter">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">isletter</code><span class="sig-paren">(</span><em>molecularFormula</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#isletter"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.isletter" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.mid_correct">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">mid_correct</code><span class="sig-paren">(</span><em>emu</em>, <em>mol_formula</em>, <em>num_obs</em>, <em>max_obs</em>, <em>mid</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#mid_correct"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.mid_correct" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.stepCV">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">stepCV</code><span class="sig-paren">(</span><em>CV</em>, <em>columns</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#stepCV"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.stepCV" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_corr.test">
+<code class="descclassname">fluxpyt.mid_corr.</code><code class="descname">test</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_corr.html#test"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_corr.test" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.mid_vec_gen">
+<span id="fluxpyt-mid-vec-gen-module"></span><h2>fluxpyt.mid_vec_gen module<a class="headerlink" href="#module-fluxpyt.mid_vec_gen" title="Permalink to this headline">¶</a></h2>
+<dl class="docutils">
+<dt>Generate correction vector for a given natural isotope distribution vector and number of atomic elements</dt>
+<dd>iDist = isotope_dist = isotopomer distribution vector of the atom
+ele = num_atom = number of elements of the same atom</dd>
+</dl>
+<p>Similar to corr_vect = cVectGen(iDist, ele) in openFLux  by  Lake-Ee Quek, AIBN
+Created on Mon Jul 18 16:44:48 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.mid_vec_gen.mid_round">
+<code class="descclassname">fluxpyt.mid_vec_gen.</code><code class="descname">mid_round</code><span class="sig-paren">(</span><em>vector</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_vec_gen.html#mid_round"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_vec_gen.mid_round" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_vec_gen.mid_vec_gen">
+<code class="descclassname">fluxpyt.mid_vec_gen.</code><code class="descname">mid_vec_gen</code><span class="sig-paren">(</span><em>iDist</em>, <em>ele=0</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_vec_gen.html#mid_vec_gen"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_vec_gen.mid_vec_gen" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_vec_gen.sum_row">
+<code class="descclassname">fluxpyt.mid_vec_gen.</code><code class="descname">sum_row</code><span class="sig-paren">(</span><em>matrix</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_vec_gen.html#sum_row"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_vec_gen.sum_row" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.mid_vec_gen.test">
+<code class="descclassname">fluxpyt.mid_vec_gen.</code><code class="descname">test</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/mid_vec_gen.html#test"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.mid_vec_gen.test" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.monte_carlo">
+<span id="fluxpyt-monte-carlo-module"></span><h2>fluxpyt.monte_carlo module<a class="headerlink" href="#module-fluxpyt.monte_carlo" title="Permalink to this headline">¶</a></h2>
+<p>Created on Sun Jun 25 12:36:28 2017</p>
+<p>Monte Carlo for confidence interval estimation</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.monte_carlo.monte_carlo">
+<code class="descclassname">fluxpyt.monte_carlo.</code><code class="descname">monte_carlo</code><span class="sig-paren">(</span><em>num_data=500</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/monte_carlo.html#monte_carlo"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.monte_carlo.monte_carlo" title="Permalink to this definition">¶</a></dt>
+<dd><p>num_data = number of data sets to be genrated for monte_carlo analysis
+numIter = number of iteration of least square minimazation for single data set</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.priliminary_fba">
+<span id="fluxpyt-priliminary-fba-module"></span><h2>fluxpyt.priliminary_fba module<a class="headerlink" href="#module-fluxpyt.priliminary_fba" title="Permalink to this headline">¶</a></h2>
+<p>Created on Thu Jul 14 11:50:41 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.create_objective">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">create_objective</code><span class="sig-paren">(</span><em>stoich_matrix</em>, <em>model_metabolite</em>, <em>rxnInd='minTotal'</em>, <em>maximize=False</em>, <em>boundTag=True</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#create_objective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.create_objective" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.flux_range">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">flux_range</code><span class="sig-paren">(</span><em>rxnId</em>, <em>model_metabolite</em>, <em>stoich_matrix</em>, <em>bounds</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#flux_range"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.flux_range" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.flux_variability">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">flux_variability</code><span class="sig-paren">(</span><em>stoich_matrix</em>, <em>model_metabolite</em>, <em>bounds</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#flux_variability"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.flux_variability" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.make_bounds">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">make_bounds</code><span class="sig-paren">(</span><em>model_metabolite</em>, <em>minTotal=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#make_bounds"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.make_bounds" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.priliminary_fba">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">priliminary_fba</code><span class="sig-paren">(</span><em>model_metabolite</em>, <em>stoich_matrix</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#priliminary_fba"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.priliminary_fba" title="Permalink to this definition">¶</a></dt>
+<dd><p>Checks model feasibility. Returns flux variability and initial solution.</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.priliminary_fba.sort_glpk_solution">
+<code class="descclassname">fluxpyt.priliminary_fba.</code><code class="descname">sort_glpk_solution</code><span class="sig-paren">(</span><em>glpk_solution</em>, <em>rxnNames</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/priliminary_fba.html#sort_glpk_solution"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.priliminary_fba.sort_glpk_solution" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.solve_mfa_lm">
+<span id="fluxpyt-solve-mfa-lm-module"></span><h2>fluxpyt.solve_mfa_lm module<a class="headerlink" href="#module-fluxpyt.solve_mfa_lm" title="Permalink to this headline">¶</a></h2>
+<p>Created on Thu Jun  8 10:55:41 2017</p>
+<p>Function to solve MFA problem using lmfit package</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.correct_mids">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">correct_mids</code><span class="sig-paren">(</span><em>cal_mids</em>, <em>**kws</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#correct_mids"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.correct_mids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.iter_cb">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">iter_cb</code><span class="sig-paren">(</span><em>params</em>, <em>iter</em>, <em>resid</em>, <em>**kws</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#iter_cb"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.iter_cb" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.make_objective">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">make_objective</code><span class="sig-paren">(</span><em>rxnId</em>, <em>rxnList</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#make_objective"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.make_objective" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.prob_func">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">prob_func</code><span class="sig-paren">(</span><em>x</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#prob_func"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.prob_func" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.residual">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">residual</code><span class="sig-paren">(</span><em>params</em>, <em>**kws</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#residual"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.residual" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mfa_lm.solve_mfa_problem">
+<code class="descclassname">fluxpyt.solve_mfa_lm.</code><code class="descname">solve_mfa_problem</code><span class="sig-paren">(</span><em>stoich_matrix</em>, <em>model_metabolite</em>, <em>rxnId_networks</em>, <em>rxn_networks</em>, <em>measured_mids</em>, <em>substrate_mids</em>, <em>rates</em>, <em>bounds</em>, <em>initial_sol</em>, <em>userInput</em>, <em>optimal_flux_dist=[]</em>, <em>extra_params=[]</em>, <em>**kws</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mfa_lm.html#solve_mfa_problem"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mfa_lm.solve_mfa_problem" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.solve_mid_networks">
+<span id="fluxpyt-solve-mid-networks-module"></span><h2>fluxpyt.solve_mid_networks module<a class="headerlink" href="#module-fluxpyt.solve_mid_networks" title="Permalink to this headline">¶</a></h2>
+<p>Solves the elementory metabolite unit networks.</p>
+<p>Solves mids for only one set of flux_distribution</p>
+<p>Created on Fri Jul 15 10:57:23 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.solve_mid_networks.append_mids">
+<code class="descclassname">fluxpyt.solve_mid_networks.</code><code class="descname">append_mids</code><span class="sig-paren">(</span><em>mids1</em>, <em>mids2</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mid_networks.html#append_mids"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mid_networks.append_mids" title="Permalink to this definition">¶</a></dt>
+<dd><p>used when we have two lists of mids. Joins these two</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mid_networks.get_mids">
+<code class="descclassname">fluxpyt.solve_mid_networks.</code><code class="descname">get_mids</code><span class="sig-paren">(</span><em>mids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mid_networks.html#get_mids"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mid_networks.get_mids" title="Permalink to this definition">¶</a></dt>
+<dd><p>arranges mid values and emus in list</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mid_networks.solve_mid_networks">
+<code class="descclassname">fluxpyt.solve_mid_networks.</code><code class="descname">solve_mid_networks</code><span class="sig-paren">(</span><em>rxnId_networks</em>, <em>rxn_networks</em>, <em>substrate_mids</em>, <em>rates</em>, <em>flux_dist</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mid_networks.html#solve_mid_networks"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mid_networks.solve_mid_networks" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mid_networks.solve_network">
+<code class="descclassname">fluxpyt.solve_mid_networks.</code><code class="descname">solve_network</code><span class="sig-paren">(</span><em>rxn_ids</em>, <em>emu_net</em>, <em>known_mids</em>, <em>rates</em>, <em>flux_dist</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mid_networks.html#solve_network"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mid_networks.solve_network" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.solve_mid_networks.update_mids">
+<code class="descclassname">fluxpyt.solve_mid_networks.</code><code class="descname">update_mids</code><span class="sig-paren">(</span><em>rxnIds</em>, <em>rxns</em>, <em>mids</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/solve_mid_networks.html#update_mids"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.solve_mid_networks.update_mids" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt.utility">
+<span id="fluxpyt-utility-module"></span><h2>fluxpyt.utility module<a class="headerlink" href="#module-fluxpyt.utility" title="Permalink to this headline">¶</a></h2>
+<p>Created on Tue Jul 19 10:44:54 2016</p>
+<p>&#64;author: Trunil</p>
+<dl class="function">
+<dt id="fluxpyt.utility.find">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">find</code><span class="sig-paren">(</span><em>a</em>, <em>b</em>, <em>exclude=False</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#find"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.find" title="Permalink to this definition">¶</a></dt>
+<dd><p>a = list
+b = item to be found</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.nCr">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">nCr</code><span class="sig-paren">(</span><em>n</em>, <em>r</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#nCr"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.nCr" title="Permalink to this definition">¶</a></dt>
+<dd><p><a class="reference external" href="http://stackoverflow.com/questions/4941753/is-there-a-math-ncr-function-in-python">http://stackoverflow.com/questions/4941753/is-there-a-math-ncr-function-in-python</a></p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.pause">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">pause</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#pause"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.pause" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.prod">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">prod</code><span class="sig-paren">(</span><em>array</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#prod"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.prod" title="Permalink to this definition">¶</a></dt>
+<dd><p>array = list of lists</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.size">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">size</code><span class="sig-paren">(</span><em>array</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#size"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.size" title="Permalink to this definition">¶</a></dt>
+<dd><p>array should be numpy array or list of lists</p>
+</dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.space">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">space</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#space"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.space" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.split_rxn">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">split_rxn</code><span class="sig-paren">(</span><em>rxn</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#split_rxn"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.split_rxn" title="Permalink to this definition">¶</a></dt>
+<dd></dd></dl>
+
+<dl class="function">
+<dt id="fluxpyt.utility.sum_matrix">
+<code class="descclassname">fluxpyt.utility.</code><code class="descname">sum_matrix</code><span class="sig-paren">(</span><em>matrix</em><span class="sig-paren">)</span><a class="reference internal" href="../_modules/fluxpyt/utility.html#sum_matrix"><span class="viewcode-link">[source]</span></a><a class="headerlink" href="#fluxpyt.utility.sum_matrix" title="Permalink to this definition">¶</a></dt>
+<dd><p>gives sum of elements in a matrix.
+matrix = list of list of numbers</p>
+</dd></dl>
+
+</div>
+<div class="section" id="module-fluxpyt">
+<span id="module-contents"></span><h2>Module contents<a class="headerlink" href="#module-fluxpyt" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+  <h3><a href="../index.html">Table Of Contents</a></h3>
+  <ul>
+<li><a class="reference internal" href="#">fluxpyt package</a><ul>
+<li><a class="reference internal" href="#submodules">Submodules</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.bootstrap">fluxpyt.bootstrap module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.build_model">fluxpyt.build_model module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.create_atm_transition_equations">fluxpyt.create_atm_transition_equations module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.draw_flux_map">fluxpyt.draw_flux_map module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.free_flux_null">fluxpyt.free_flux_null module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.glpk_solve">fluxpyt.glpk_solve module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.input_substrate_emu">fluxpyt.input_substrate_emu module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.main">fluxpyt.main module</a></li>
+<li><a class="reference internal" href="#fluxpyt-make-emu-model-module">fluxpyt.make_emu_model module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.make_emu_networks">fluxpyt.make_emu_networks module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.mid_corr">fluxpyt.mid_corr module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.mid_vec_gen">fluxpyt.mid_vec_gen module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.monte_carlo">fluxpyt.monte_carlo module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.priliminary_fba">fluxpyt.priliminary_fba module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.solve_mfa_lm">fluxpyt.solve_mfa_lm module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.solve_mid_networks">fluxpyt.solve_mid_networks module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt.utility">fluxpyt.utility module</a></li>
+<li><a class="reference internal" href="#module-fluxpyt">Module contents</a></li>
+</ul>
+</li>
+</ul>
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">Modules</a><ul>
+      <li>Previous: <a href="modules.html" title="previous chapter">Modules</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+  <div role="note" aria-label="source link">
+    <h3>This Page</h3>
+    <ul class="this-page-menu">
+      <li><a href="../_sources/api/fluxpyt.rst.txt"
+            rel="nofollow">Show Source</a></li>
+    </ul>
+   </div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+      |
+      <a href="../_sources/api/fluxpyt.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

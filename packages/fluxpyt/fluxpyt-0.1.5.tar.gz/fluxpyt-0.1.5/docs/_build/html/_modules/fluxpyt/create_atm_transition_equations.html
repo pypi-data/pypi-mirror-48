@@ -1,0 +1,395 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>fluxpyt.create_atm_transition_equations &#8212; fluxpyt 0.1.3+ngac531ff.dirty documentation</title>
+    
+    <link rel="stylesheet" href="../../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+    
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '../../',
+        VERSION:     '0.1.3+ngac531ff.dirty',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true,
+        SOURCELINK_SUFFIX: '.txt'
+      };
+    </script>
+    <script type="text/javascript" src="../../_static/jquery.js"></script>
+    <script type="text/javascript" src="../../_static/underscore.js"></script>
+    <script type="text/javascript" src="../../_static/doctools.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+   
+  <link rel="stylesheet" href="../../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head>
+  <body role="document">
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          <div class="body" role="main">
+            
+  <h1>Source code for fluxpyt.create_atm_transition_equations</h1><div class="highlight"><pre>
+<span></span><span class="c1"># -*- coding: utf-8 -*-</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">Created on Mon Jul  4 12:46:38 2016</span>
+
+<span class="sd">Generates elementary reaction list.</span>
+
+<span class="sd">    </span>
+<span class="sd">@author: Trunil</span>
+<span class="sd">&quot;&quot;&quot;</span>
+<span class="kn">from</span> <span class="nn">fluxpyt.utility</span> <span class="k">import</span> <span class="n">space</span><span class="p">,</span><span class="n">split_rxn</span><span class="p">,</span><span class="n">find</span>
+<span class="kn">from</span> <span class="nn">copy</span> <span class="k">import</span> <span class="n">deepcopy</span>
+
+<div class="viewcode-block" id="rewrite_molecule"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.rewrite_molecule">[docs]</a><span class="k">def</span> <span class="nf">rewrite_molecule</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span><span class="n">rxn</span><span class="p">,</span><span class="n">atm_rxn</span><span class="p">,</span><span class="n">mol_index</span><span class="p">):</span>
+    
+    <span class="n">moleculeName</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">mol_atoms</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span> <span class="c1"># in the form F:1111,F:0111 etc</span>
+    <span class="n">atm_rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">atm_rxn</span><span class="p">)</span>
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+    <span class="n">atoms</span> <span class="o">=</span> <span class="n">atm_rxn_split</span><span class="p">[</span><span class="n">mol_index</span><span class="p">]</span> <span class="c1"># atoms of particular molecule from atom transition equation</span>
+    <span class="n">mod_mol</span> <span class="o">=</span> <span class="n">moleculeName</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span>
+    
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">mol_atoms</span><span class="p">)):</span>
+        <span class="n">val</span> <span class="o">=</span> <span class="n">mol_atoms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">val</span> <span class="o">==</span> <span class="s1">&#39;1&#39;</span><span class="p">:</span>
+            <span class="n">mod_mol</span> <span class="o">+=</span> <span class="n">atoms</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+ 
+    <span class="k">return</span> <span class="n">mod_mol</span></div>
+    
+<div class="viewcode-block" id="insert_hash"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.insert_hash">[docs]</a><span class="k">def</span> <span class="nf">insert_hash</span><span class="p">(</span><span class="nb">list</span><span class="p">):</span>
+    
+    <span class="n">new_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">el</span> <span class="ow">in</span> <span class="nb">list</span><span class="p">:</span>
+        <span class="n">new_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;#&#39;</span><span class="p">)</span>
+        <span class="n">new_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">el</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">new_list</span></div>
+    
+<div class="viewcode-block" id="get_coeff"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.get_coeff">[docs]</a><span class="k">def</span> <span class="nf">get_coeff</span><span class="p">(</span><span class="n">rxn</span><span class="p">):</span>
+  
+    <span class="n">output</span> <span class="o">=</span> <span class="p">[[],[]]</span>
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">insert_hash</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span>
+ 
+    <span class="n">i</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">while</span> <span class="n">i</span> <span class="o">&lt;=</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">)</span><span class="o">-</span><span class="mi">1</span><span class="p">:</span>
+        
+        <span class="k">if</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span> <span class="ow">and</span> <span class="n">find</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">],</span><span class="s1">&#39;.&#39;</span><span class="p">):</span> <span class="c1">#is float</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">3</span><span class="p">])</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">4</span>
+        <span class="k">elif</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;#&#39;</span> <span class="ow">and</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">isnumeric</span><span class="p">():</span> <span class="c1"># if number</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">3</span><span class="p">])</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">4</span>
+        <span class="k">else</span><span class="p">:</span> <span class="c1"># if alphabetic</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">[</span><span class="n">i</span><span class="o">+</span><span class="mi">1</span><span class="p">])</span>
+            <span class="n">output</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s1">&#39;1&#39;</span><span class="p">)</span>
+            <span class="n">i</span> <span class="o">=</span> <span class="n">i</span><span class="o">+</span><span class="mi">2</span>
+           
+    <span class="k">return</span> <span class="n">output</span></div>
+    
+<div class="viewcode-block" id="write_rxn_full"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.write_rxn_full">[docs]</a><span class="k">def</span> <span class="nf">write_rxn_full</span><span class="p">(</span><span class="n">rxn</span><span class="p">):</span>
+    <span class="c1"># rewrites reaction with coefficients even when coefficient = 1</span>
+    <span class="n">coeff_list</span> <span class="o">=</span> <span class="n">get_coeff</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+    <span class="n">rxn1</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)</span>
+    <span class="n">reactants</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn1</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span>
+    <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">rxn1</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+        <span class="n">products</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn1</span><span class="p">[</span><span class="mi">1</span><span class="p">])</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">products</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+   
+    <span class="n">reaction</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">)):</span>
+        <span class="n">r</span> <span class="o">=</span> <span class="n">reactants</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="k">if</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+            <span class="n">ind</span> <span class="o">=</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+            <span class="n">coeff</span> <span class="o">=</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">]</span>
+            <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span> <span class="o">+</span> <span class="n">coeff</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">r</span> <span class="o">+</span> <span class="s1">&#39; + &#39;</span>
+            <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+            <span class="n">coeff_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">coeff</span><span class="p">)</span>
+    <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span>
+    
+    <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span> <span class="o">+</span> <span class="s1">&#39;-&gt;&#39;</span>
+    <span class="k">if</span> <span class="n">products</span> <span class="o">!=</span> <span class="s1">&#39;&#39;</span><span class="p">:</span>
+        <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span>
+        <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">products</span><span class="p">)):</span>
+            <span class="n">r</span> <span class="o">=</span> <span class="n">products</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+            <span class="k">if</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]:</span>
+                <span class="n">ind</span> <span class="o">=</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+                <span class="n">coeff</span> <span class="o">=</span> <span class="n">coeff_list</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="n">ind</span><span class="p">]</span>
+                <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span> <span class="o">+</span> <span class="n">coeff</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">r</span> <span class="o">+</span> <span class="s1">&#39; + &#39;</span>
+                <span class="n">coeff_list</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+                <span class="n">coeff_list</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">remove</span><span class="p">(</span><span class="n">coeff</span><span class="p">)</span>
+        <span class="n">reaction</span> <span class="o">=</span> <span class="n">reaction</span><span class="p">[</span><span class="mi">0</span><span class="p">:</span><span class="o">-</span><span class="mi">3</span><span class="p">]</span>
+    
+    <span class="k">return</span> <span class="n">reaction</span></div>
+    
+<div class="viewcode-block" id="get_formula"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.get_formula">[docs]</a><span class="k">def</span> <span class="nf">get_formula</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span><span class="n">rxn</span><span class="p">,</span><span class="n">atm_rxn</span><span class="p">):</span>
+    <span class="c1">#molecule ID should be in form &#39;moleculeName:atom-numbers&#39;</span>
+    <span class="c1">#There should be only one colon in the molecule ID</span>
+    
+    <span class="c1"># **********************************</span>
+    
+    <span class="c1">#write rxns in full coefficient forms</span>
+    <span class="n">rxn</span> <span class="o">=</span> <span class="n">write_rxn_full</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+    <span class="n">atm_rxn</span> <span class="o">=</span> <span class="n">write_rxn_full</span><span class="p">(</span><span class="n">atm_rxn</span><span class="p">)</span>
+    
+    <span class="n">moleculeName</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+    <span class="n">count</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">moleculeName</span><span class="p">)</span>   <span class="c1">#only product side is relevant</span>
+    
+   <span class="c1"># print(&#39;\n****************************\ncount: &#39;,moleculeName,count)</span>
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+    <span class="n">atm_rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">atm_rxn</span><span class="p">)</span>
+    
+    <span class="n">mol_indices</span> <span class="o">=</span> <span class="n">find</span><span class="p">(</span><span class="n">rxn_split</span><span class="p">,</span><span class="n">moleculeName</span><span class="p">)</span>
+    
+    <span class="k">assert</span> <span class="n">moleculeName</span> <span class="ow">in</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(),</span> <span class="s2">&quot;molecule is not present in the reaction provided.&quot;</span>
+    <span class="n">formulae</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">indice</span> <span class="ow">in</span> <span class="n">mol_indices</span><span class="p">:</span>
+        <span class="n">mod_mol</span> <span class="o">=</span> <span class="n">rewrite_molecule</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span><span class="n">rxn</span><span class="p">,</span><span class="n">atm_rxn</span><span class="p">,</span><span class="n">indice</span><span class="p">)</span> <span class="c1">#writes molecule in the form of moleculeName:abcd</span>
+        
+        <span class="n">mol_split</span> <span class="o">=</span> <span class="n">mod_mol</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span>
+        <span class="n">reactant_atoms</span> <span class="o">=</span> <span class="n">atm_rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">()</span> <span class="c1">#reactants from atm_rxn</span>
+        <span class="n">reactants</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        
+        <span class="n">mol_atoms</span> <span class="o">=</span> <span class="n">mol_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span>
+        
+        <span class="n">mol_atoms</span> <span class="o">=</span> <span class="n">num_sort</span><span class="p">(</span><span class="n">mol_atoms</span><span class="p">)</span>
+        
+        <span class="n">reac_list</span> <span class="o">=</span> <span class="p">[]</span>
+        <span class="k">for</span> <span class="n">c</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">reactants</span><span class="p">)):</span>
+            
+            <span class="n">sel_met</span> <span class="o">=</span> <span class="n">reactants</span><span class="p">[</span><span class="n">c</span><span class="p">]</span>
+            <span class="n">sel_met_atoms</span> <span class="o">=</span> <span class="n">reactant_atoms</span><span class="p">[</span><span class="n">c</span><span class="p">]</span> <span class="c1"># contains atoms in particular molecule from atm_rxn</span>
+            
+            <span class="c1">##ignore molecules whose carbon is not to be traced</span>
+            <span class="k">if</span> <span class="n">sel_met_atoms</span> <span class="o">==</span> <span class="s1">&#39;X&#39;</span><span class="p">:</span>
+                <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+                <span class="k">continue</span>
+            
+            <span class="n">isrelevant</span> <span class="o">=</span> <span class="mi">0</span> <span class="c1">#to see if atoms from reactant passes to molecule of interest</span>
+            <span class="n">new_atoms</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+            <span class="k">for</span> <span class="n">at</span> <span class="ow">in</span> <span class="n">sel_met_atoms</span><span class="p">:</span>
+                <span class="k">if</span> <span class="n">at</span> <span class="ow">in</span> <span class="n">mol_atoms</span><span class="p">:</span>
+                    <span class="n">isrelevant</span> <span class="o">=</span> <span class="mi">1</span>
+                    <span class="n">new_atoms</span> <span class="o">+=</span> <span class="s1">&#39;1&#39;</span>
+                <span class="k">else</span><span class="p">:</span>
+                    <span class="n">new_atoms</span> <span class="o">+=</span> <span class="s1">&#39;0&#39;</span>
+            <span class="k">if</span> <span class="n">isrelevant</span> <span class="o">==</span> <span class="mi">1</span><span class="p">:</span> <span class="c1">#means at least one atom transfers to product molecule of interest</span>
+                            
+                <span class="n">new_molecule</span> <span class="o">=</span> <span class="n">sel_met</span> <span class="o">+</span> <span class="s1">&#39;:&#39;</span> <span class="o">+</span> <span class="n">new_atoms</span>
+                <span class="n">reac_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">new_molecule</span><span class="p">)</span>
+                
+            <span class="n">c</span> <span class="o">+=</span> <span class="mi">1</span>
+            
+            <span class="c1">#construct formula of elementary reaction</span>
+        
+        <span class="n">formula</span> <span class="o">=</span> <span class="s1">&#39;&#39;</span>
+        
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">reac_list</span><span class="p">)):</span>
+            <span class="c1">#print(&#39;j&#39;,j)</span>
+            <span class="n">sel_reactant</span> <span class="o">=</span> <span class="n">reac_list</span><span class="p">[</span><span class="n">j</span><span class="p">]</span>
+            
+            <span class="n">ix</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">sel_reactant</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+            
+            <span class="k">if</span> <span class="n">j</span> <span class="o">==</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">formula</span> <span class="o">=</span> <span class="n">formula</span> <span class="o">+</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">ix</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">sel_reactant</span>
+                <span class="c1">#rxn_split.remove(sel_reactant.split(&#39;:&#39;)[0])</span>
+                <span class="c1">#formula = formula + sel_reactant</span>
+            <span class="k">elif</span> <span class="n">j</span> <span class="o">&gt;=</span> <span class="mi">0</span><span class="p">:</span>
+                <span class="n">formula</span> <span class="o">+=</span> <span class="s1">&#39; + &#39;</span> <span class="o">+</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">ix</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">sel_reactant</span>
+                
+        <span class="n">ix</span> <span class="o">=</span> <span class="n">rxn_split</span><span class="o">.</span><span class="n">index</span><span class="p">(</span><span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">])</span>
+        
+        <span class="n">formula</span> <span class="o">+=</span> <span class="s1">&#39; -&gt; &#39;</span> <span class="o">+</span> <span class="n">rxn_split</span><span class="p">[</span><span class="n">ix</span><span class="o">-</span><span class="mi">1</span><span class="p">]</span> <span class="o">+</span> <span class="s1">&#39; &#39;</span> <span class="o">+</span> <span class="n">molecule</span>
+        
+        <span class="n">formulae</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formula</span><span class="p">)</span>     
+      
+    <span class="k">return</span> <span class="n">formulae</span></div>
+    
+<div class="viewcode-block" id="get_new_molecule"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.get_new_molecule">[docs]</a><span class="k">def</span> <span class="nf">get_new_molecule</span><span class="p">(</span><span class="n">rxn</span><span class="p">,</span><span class="n">moleculeList</span><span class="p">,</span><span class="n">current_molecule</span><span class="p">):</span>
+    
+    
+    <span class="n">rxn_split</span> <span class="o">=</span> <span class="n">split_rxn</span><span class="p">(</span><span class="n">rxn</span><span class="p">)[</span><span class="mi">1</span><span class="p">::</span><span class="mi">2</span><span class="p">]</span>
+
+    <span class="n">new_molecules</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">molecule</span> <span class="ow">in</span> <span class="n">rxn_split</span><span class="p">:</span>
+        
+        <span class="k">if</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span> <span class="o">!=</span> <span class="n">current_molecule</span><span class="p">:</span><span class="c1">#ignores current molecule. The atomrenaming might add unwanted molecules.</span>
+            
+            <span class="k">if</span> <span class="n">molecule</span> <span class="o">!=</span> <span class="s1">&#39;+&#39;</span> <span class="ow">and</span> <span class="n">molecule</span> <span class="o">!=</span> <span class="s1">&#39;-&gt;&#39;</span> <span class="ow">and</span> <span class="n">molecule</span> <span class="o">!=</span> <span class="s1">&#39;&lt;-&gt;&#39;</span><span class="p">:</span>
+                <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">molecule</span> <span class="ow">in</span> <span class="n">moleculeList</span><span class="p">):</span>
+                    <span class="n">mol_split</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)</span>
+<span class="c1">#                    print()</span>
+                    <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">mol_split</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">==</span> <span class="s1">&#39;&#39;</span><span class="p">):</span>
+                        <span class="n">new_molecules</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">molecule</span><span class="p">)</span>
+        
+    <span class="k">return</span> <span class="n">new_molecules</span></div>
+    
+
+
+<div class="viewcode-block" id="findMolRxns"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.findMolRxns">[docs]</a><span class="k">def</span> <span class="nf">findMolRxns</span><span class="p">(</span><span class="n">rxnIDs</span><span class="p">,</span><span class="n">molecule</span><span class="p">,</span><span class="n">rxnList</span><span class="p">,</span><span class="n">atm_transition_rxns</span><span class="p">):</span>
+    <span class="n">molRxnList</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">molAtmTransList</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">mol_rxnIDs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">rxnList</span><span class="p">)):</span>
+        <span class="n">rxn</span> <span class="o">=</span> <span class="n">rxnList</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">atm_tr</span> <span class="o">=</span> <span class="n">atm_transition_rxns</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="n">mol_rxnID</span> <span class="o">=</span> <span class="n">rxnIDs</span><span class="p">[</span><span class="n">i</span><span class="p">]</span>
+        <span class="c1">#print(&#39;rxn.split(-&gt;)&#39;,rxn.split(&#39;-&gt;&#39;), molecule,&#39;\n&#39;,rxnList)</span>
+        <span class="n">rxn_split_1</span> <span class="o">=</span> <span class="n">rxn</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;-&gt;&#39;</span><span class="p">)[</span><span class="mi">1</span><span class="p">]</span>
+        <span class="n">rxn_split_2</span> <span class="o">=</span> <span class="n">rxn_split_1</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+        <span class="k">if</span> <span class="n">molecule</span> <span class="ow">in</span> <span class="n">rxn_split_2</span><span class="p">:</span>
+            <span class="n">molRxnList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">rxn</span><span class="p">)</span>
+            <span class="n">molAtmTransList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">atm_tr</span><span class="p">)</span>
+            <span class="n">mol_rxnIDs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">mol_rxnID</span><span class="p">)</span>
+    <span class="k">return</span> <span class="n">mol_rxnIDs</span><span class="p">,</span><span class="n">molRxnList</span><span class="p">,</span><span class="n">molAtmTransList</span></div>
+            
+
+<div class="viewcode-block" id="create_atm_transition_equations"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.create_atm_transition_equations">[docs]</a><span class="k">def</span> <span class="nf">create_atm_transition_equations</span><span class="p">(</span><span class="n">rxnIDs</span><span class="p">,</span><span class="n">rxnList</span><span class="p">,</span><span class="n">atm_transition_rxns</span><span class="p">,</span><span class="n">moleculeList</span><span class="p">):</span>
+    <span class="sd">&#39;&#39;&#39;</span>
+<span class="sd">    Input:</span>
+<span class="sd">        rxnList = reaction formulae in form of list</span>
+<span class="sd">        atm_transition_rxns = respective atom transition reaction list</span>
+<span class="sd">        moleculeList = list of molecules observed (emu types e.g. A:0111)</span>
+<span class="sd">            </span>
+<span class="sd">    Output:</span>
+<span class="sd">        reaction list with atom transitions,</span>
+<span class="sd">        new metabolite (emu types) list</span>
+<span class="sd">    &#39;&#39;&#39;</span>
+    <span class="nb">print</span><span class="p">(</span><span class="n">moleculeList</span><span class="p">)</span>
+    <span class="n">elementary_rxn_list</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">elementary_rxnIDs</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="n">added_tpl</span> <span class="o">=</span> <span class="p">[]</span>
+    <span class="c1">#get the molecule name:</span>
+    <span class="n">mol_completed</span> <span class="o">=</span> <span class="p">[];</span>
+    <span class="k">while</span> <span class="n">moleculeList</span><span class="p">:</span>
+        <span class="n">molecule</span> <span class="o">=</span> <span class="n">moleculeList</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="mi">0</span><span class="p">)</span>
+<span class="c1">#        print(&#39;\n\n\nmolecule: &#39;,molecule)</span>
+        <span class="sd">&#39;&#39;&#39;iterates over one molecule at a time&#39;&#39;&#39;</span>
+        <span class="k">if</span> <span class="n">molecule</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">mol_completed</span><span class="p">:</span>
+            <span class="n">moleculeName</span> <span class="o">=</span> <span class="n">molecule</span><span class="o">.</span><span class="n">split</span><span class="p">(</span><span class="s1">&#39;:&#39;</span><span class="p">)[</span><span class="mi">0</span><span class="p">]</span>
+            
+            <span class="c1">#find reactions in which the molecule takes part</span>
+            <span class="p">[</span><span class="n">mol_rxnIDs</span><span class="p">,</span><span class="n">molRxnList</span><span class="p">,</span><span class="n">molAtmTransList</span><span class="p">]</span> <span class="o">=</span> <span class="n">findMolRxns</span><span class="p">(</span><span class="n">rxnIDs</span><span class="p">,</span><span class="n">moleculeName</span><span class="p">,</span><span class="n">rxnList</span><span class="p">,</span><span class="n">atm_transition_rxns</span><span class="p">)</span>
+            
+            <span class="c1"># molRxnList are reaction in which the molecule is formed.</span>
+            
+            <span class="k">for</span> <span class="n">numRxn</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">molRxnList</span><span class="p">)):</span>
+                
+                <span class="sd">&#39;&#39;&#39;gets one reaction formula&#39;&#39;&#39;</span>
+                <span class="n">rxn</span> <span class="o">=</span> <span class="n">molRxnList</span><span class="p">[</span><span class="n">numRxn</span><span class="p">]</span>  <span class="c1">#choose one reaction in which the molecule is formed.</span>
+                <span class="n">Id</span> <span class="o">=</span>  <span class="n">mol_rxnIDs</span><span class="p">[</span><span class="n">numRxn</span><span class="p">]</span> <span class="c1"># its ID</span>
+                <span class="n">atm_trans_rxn</span> <span class="o">=</span> <span class="n">molAtmTransList</span><span class="p">[</span><span class="n">numRxn</span><span class="p">]</span> <span class="c1">#its atom transition eq</span>
+                
+                <span class="n">formulae</span> <span class="o">=</span> <span class="n">get_formula</span><span class="p">(</span><span class="n">molecule</span><span class="p">,</span><span class="n">rxn</span><span class="p">,</span><span class="n">atm_trans_rxn</span><span class="p">)</span> <span class="c1">#getting the elementory reaction formula</span>
+                
+                <span class="n">formulae_tmp</span> <span class="o">=</span> <span class="p">[]</span>
+                <span class="k">if</span> <span class="nb">len</span><span class="p">(</span><span class="n">formulae</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">:</span>
+
+                    <span class="n">visited</span> <span class="o">=</span> <span class="p">[]</span>
+                    <span class="k">for</span> <span class="n">frm</span> <span class="ow">in</span> <span class="n">formulae</span><span class="p">:</span>
+                        <span class="k">if</span> <span class="n">frm</span> <span class="ow">not</span> <span class="ow">in</span> <span class="n">visited</span><span class="p">:</span>
+                            <span class="n">visited</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frm</span><span class="p">)</span>
+                            <span class="n">cn</span> <span class="o">=</span> <span class="n">formulae</span><span class="o">.</span><span class="n">count</span><span class="p">(</span><span class="n">frm</span><span class="p">)</span>
+
+                            <span class="n">frm_split</span> <span class="o">=</span> <span class="n">frm</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+
+                            <span class="n">frm_split</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">]</span> <span class="o">=</span> <span class="nb">str</span><span class="p">(</span><span class="nb">float</span><span class="p">(</span><span class="n">frm_split</span><span class="p">[</span><span class="o">-</span><span class="mi">2</span><span class="p">])</span><span class="o">*</span><span class="n">cn</span><span class="p">)</span>
+                            <span class="n">frm_1</span> <span class="o">=</span> <span class="s1">&#39; &#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">frm_split</span><span class="p">)</span>
+
+                            <span class="n">formulae_tmp</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">frm_1</span><span class="p">)</span>
+
+                    <span class="n">formulae</span> <span class="o">=</span> <span class="n">deepcopy</span><span class="p">(</span><span class="n">formulae_tmp</span><span class="p">)</span>        
+                       
+                <span class="k">for</span> <span class="n">formula</span> <span class="ow">in</span> <span class="n">formulae</span><span class="p">:</span>
+                    <span class="n">tpl</span> <span class="o">=</span> <span class="p">(</span><span class="n">Id</span><span class="p">,</span><span class="n">formula</span><span class="p">)</span>
+                    
+                    <span class="k">if</span> <span class="ow">not</span><span class="p">(</span><span class="n">tpl</span> <span class="ow">in</span> <span class="n">added_tpl</span><span class="p">):</span>
+                        <span class="n">added_tpl</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">tpl</span><span class="p">)</span>
+                        <span class="n">elementary_rxn_list</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">formula</span><span class="p">)</span>
+                        <span class="n">elementary_rxnIDs</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">Id</span><span class="p">)</span>
+                    <span class="n">formula_split</span> <span class="o">=</span> <span class="n">formula</span><span class="o">.</span><span class="n">split</span><span class="p">()</span>
+                    <span class="c1">#add new metabolites to metabolite list</span>
+                    <span class="n">new_molecule_list</span> <span class="o">=</span> <span class="n">get_new_molecule</span><span class="p">(</span><span class="n">formula</span><span class="p">,</span><span class="n">moleculeList</span><span class="p">,</span><span class="n">moleculeName</span><span class="p">)</span>
+                    <span class="k">for</span> <span class="n">nml</span> <span class="ow">in</span> <span class="n">new_molecule_list</span><span class="p">:</span>
+                        <span class="n">moleculeList</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">nml</span><span class="p">)</span>
+                
+        <span class="n">mol_completed</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="n">molecule</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">elementary_rxnIDs</span><span class="p">,</span><span class="n">elementary_rxn_list</span><span class="p">,</span><span class="n">moleculeList</span></div>
+               
+<div class="viewcode-block" id="num_sort"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.num_sort">[docs]</a><span class="k">def</span> <span class="nf">num_sort</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+    <span class="n">n_list</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="n">num</span><span class="p">)</span>
+    <span class="n">n_list</span><span class="o">.</span><span class="n">sort</span><span class="p">()</span>
+    <span class="k">return</span> <span class="s1">&#39;&#39;</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">n_list</span><span class="p">)</span></div>
+    
+    
+<div class="viewcode-block" id="test"><a class="viewcode-back" href="../../api/fluxpyt.html#fluxpyt.create_atm_transition_equations.test">[docs]</a><span class="k">def</span> <span class="nf">test</span><span class="p">():</span>
+    <span class="n">rxnIDs</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;V1&#39;</span><span class="p">,</span><span class="s1">&#39;V2&#39;</span><span class="p">,</span><span class="s1">&#39;V3&#39;</span><span class="p">,</span><span class="s1">&#39;V4&#39;</span><span class="p">]</span>
+    <span class="n">rxnList</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ACCOA + OAA -&gt; CIT&#39;</span><span class="p">,</span><span class="s1">&#39;CIT + FADH2 + NADH -&gt; 0.5 SUC + 0.5 SUC + CO2 + CO2&#39;</span><span class="p">,</span><span class="s1">&#39;SUC -&gt; OAA + FADH2 + NADH&#39;</span><span class="p">,</span><span class="s1">&#39;OAA -&gt; PS&#39;</span><span class="p">]</span>
+    <span class="n">atm_transition_rxns</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;ab + cdef -&gt; fedbac&#39;</span><span class="p">,</span><span class="s1">&#39;abcdef + X + X -&gt; 0.5 abcd + 0.5 dcba + e + f&#39;</span><span class="p">,</span><span class="s1">&#39;abcd -&gt; abcd + X + X&#39;</span><span class="p">,</span><span class="s1">&#39;abcd -&gt; abcd&#39;</span><span class="p">]</span>
+    <span class="n">moleculeList</span> <span class="o">=</span> <span class="p">[</span><span class="s1">&#39;PS:1000&#39;</span><span class="p">]</span>
+    
+    <span class="n">eq</span> <span class="o">=</span> <span class="n">create_atm_transition_equations</span><span class="p">(</span><span class="n">rxnIDs</span><span class="p">,</span><span class="n">rxnList</span><span class="p">,</span><span class="n">atm_transition_rxns</span><span class="p">,</span><span class="n">moleculeList</span><span class="p">)</span>
+    <span class="n">space</span><span class="p">()</span>  
+    <span class="k">for</span> <span class="n">r</span> <span class="ow">in</span> <span class="n">eq</span><span class="p">[</span><span class="mi">1</span><span class="p">]:</span><span class="nb">print</span><span class="p">(</span><span class="n">r</span><span class="p">)</span>
+    <span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">eq</span><span class="p">[</span><span class="mi">1</span><span class="p">]))</span></div>
+</pre></div>
+
+          </div>
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper"><div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../../index.html">Documentation overview</a><ul>
+  <li><a href="../index.html">Module code</a><ul>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3>Quick search</h3>
+    <form class="search" action="../../search.html" method="get">
+      <div><input type="text" name="q" /></div>
+      <div><input type="submit" value="Go" /></div>
+      <input type="hidden" name="check_keywords" value="yes" />
+      <input type="hidden" name="area" value="default" />
+    </form>
+</div>
+<script type="text/javascript">$('#searchbox').show(0);</script>
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2017, Trunil.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 1.5.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.10</a>
+      
+    </div>
+
+    
+
+    
+  </body>
+</html>
