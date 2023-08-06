@@ -1,0 +1,9 @@
+README.md
+setup.py
+dota2gsi/__init__.py
+dota2gsi/server_log_parser.py
+dota2gsi.egg-info/PKG-INFO
+dota2gsi.egg-info/SOURCES.txt
+dota2gsi.egg-info/dependency_links.txt
+dota2gsi.egg-info/not-zip-safe
+dota2gsi.egg-info/top_level.txt
