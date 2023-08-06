@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: spm_kernel
+Version: 1.0.5
+Summary: Jupyter kernel for Salford Predictive Miner (SPM)
+Home-page: https://github.com/jlries61/spm_kernel
+Author: John L. Ries
+Author-email: john@theyarnbard.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
