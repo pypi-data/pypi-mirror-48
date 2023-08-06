@@ -1,0 +1,5 @@
+jieba
+beautifulsoup4>=4.6.3
+lmf>=2.0.6
+lmfscrap>=1.1.0
+lmfhawq>=1.1.4
