@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+adsl/adsl2.egg-info/PKG-INFO
+adsl/adsl2.egg-info/SOURCES.txt
+adsl/adsl2.egg-info/dependency_links.txt
+adsl/adsl2.egg-info/top_level.txt
