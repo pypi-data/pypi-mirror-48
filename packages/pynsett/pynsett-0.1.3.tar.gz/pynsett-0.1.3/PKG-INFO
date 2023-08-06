@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: pynsett
+Version: 0.1.3
+Summary: A relation extractor
+Home-page: http://github.com/fractalego/pynsett
+Author: Alberto Cetoli
+Author-email: alberto@nlulite.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
