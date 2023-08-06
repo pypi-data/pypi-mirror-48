@@ -1,0 +1,12 @@
+manowar_agent-2019.6.28a4.data/data/etc/manowar_agent/collector.yaml,sha256=Xl3S-vP9RtQE3NCLZCIJqkj1KFS7a2JHkhF9YTENY3Q,3433
+manowar_agent-2019.6.28a4.data/data/etc/manowar_agent/minion,sha256=NSNIFGPREyEcMNb_ZFxcRf5xdHgQjbNXFOjLV_wd68o,99
+manowar_agent-2019.6.28a4.data/data/etc/manowar_agent/saltcell.yaml,sha256=96qlzDgX0MdM5Ku4FoFvJHvDdHZs_31S6zEodrZwBcA,1174
+manowar_agent-2019.6.28a4.data/scripts/manowar_agent,sha256=noOpXic9axc1ORONNwa_7Pux6ucS4PeUewTQLoNLO5g,6356
+saltcell/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+saltcell/clientcollector.py,sha256=XmlmlC9pfD8SN8Uwx7OywzNRzurkwZOve_etJD0cswc,19417
+saltcell/mown.py,sha256=83aKaiZ53pfPBgiQ6Bg7vs2BU634_uxVpw0LBgrKL-I,8648
+manowar_agent-2019.6.28a4.dist-info/LICENSE,sha256=oKd6nvNPYElG52dvv3FLPTGIiuYGOtlm0TNmemQkt7Y,1284
+manowar_agent-2019.6.28a4.dist-info/METADATA,sha256=C07zVIcWMyHIV-oGGSquuxU-b_zOfDFqAhCi60uCowc,1048
+manowar_agent-2019.6.28a4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+manowar_agent-2019.6.28a4.dist-info/top_level.txt,sha256=So4Qy8LlUjRD0rQtuKfhrror2Mm4xP4mryhMVD_DvL4,9
+manowar_agent-2019.6.28a4.dist-info/RECORD,,
