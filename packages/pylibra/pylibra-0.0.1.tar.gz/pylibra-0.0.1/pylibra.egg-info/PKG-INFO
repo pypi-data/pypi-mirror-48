@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pylibra
+Version: 0.0.1
+Summary: A Python client for Libra network
+Home-page: https://github.com/bandprotocol/pylibra
+Author: Band Protocol
+Author-email: opensource@bandprotocol.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X

@@ -1,0 +1,7 @@
+setup.py
+pylibra/__init__.py
+pylibra.egg-info/PKG-INFO
+pylibra.egg-info/SOURCES.txt
+pylibra.egg-info/dependency_links.txt
+pylibra.egg-info/not-zip-safe
+pylibra.egg-info/top_level.txt
