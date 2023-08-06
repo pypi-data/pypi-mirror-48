@@ -1,0 +1,21 @@
+syntax = "proto2";
+
+package protocookie;
+
+message Service {
+  enum Role {
+    OWNER = 0;
+    EDITOR = 1;
+    VIEWER = 2;
+  }
+    required int32 serviceID = 1;
+    required string serviceName = 2;
+    repeated Role roles = 3;
+}
+
+message User {
+  required string username = 1;
+  required int32 id = 2;
+
+  repeated Service services = 3;
+}
