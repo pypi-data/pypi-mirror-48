@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: phlights
+Version: 0.2.0
+Summary: Flight Search API Powered by Kiwi
+Home-page: http://pypi.python.org/pypi/phlights/
+Author: Josh Imbriani
+Author-email: josh@mailinator.com
+License: LICENSE
+Platform: UNKNOWN
+Requires-Dist: astroid (==2.2.5)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: chardet (==3.0.4)
+Requires-Dist: idna (==2.8)
+Requires-Dist: isort (==4.3.21)
+Requires-Dist: lazy-object-proxy (==1.4.1)
+Requires-Dist: mccabe (==0.6.1)
+Requires-Dist: pylint (==2.3.1)
+Requires-Dist: pytz (==2019.1)
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: six (==1.12.0)
+Requires-Dist: typed-ast (==1.4.0)
+Requires-Dist: tzlocal (==1.5.1)
+Requires-Dist: urllib3 (==1.25.3)
+Requires-Dist: wrapt (==1.11.2)
+
+# Phlights
+
+
