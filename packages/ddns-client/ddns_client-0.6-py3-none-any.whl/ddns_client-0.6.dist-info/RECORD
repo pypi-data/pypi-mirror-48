@@ -1,0 +1,9 @@
+ddns_client/__init__.py,sha256=SFU7BKaBjN1mAMexLPaU30Otl6J0dtOGVbStfllWZzM,49
+ddns_client/ddns_client.py,sha256=LEQyxJCuyuO0CWXNWqVoEbzcetLnAnqDTx5K8usc20M,12380
+ddns_client/get_args.yml,sha256=d3jNhqVP86kjmix46Y2JpBc8PTa-iHTd2nboQFbgwyo,2771
+ddns_client-0.6.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+ddns_client-0.6.dist-info/METADATA,sha256=vQlk1vb0rfoLmEfr-Ma0PTvzi6K9A_whU0v2QsHGZag,3758
+ddns_client-0.6.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+ddns_client-0.6.dist-info/entry_points.txt,sha256=sg0Rp9qtAwSaoGSE-fyFD_jvRcPQPEgXT_0lqA8SSGo,62
+ddns_client-0.6.dist-info/top_level.txt,sha256=wSW6J0cepnhZyxTL_wgVovU7yMm4bnHn2_XVjXUO07c,12
+ddns_client-0.6.dist-info/RECORD,,
