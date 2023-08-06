@@ -1,0 +1,67 @@
+Metadata-Version: 1.1
+Name: mentormatch
+Version: 0.1.0
+Summary: This python application runs an algorithm to match mentors with mentees for the Cross-Sector Mentoring Program.
+Home-page: https://github.com/jonathanchukinas/mentormatch
+Author: Jonathan Chukinas
+Author-email: chukinas@gmail.com
+License: MIT license
+Description: ===========
+        mentormatch
+        ===========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/mentormatch.svg
+                :target: https://pypi.python.org/pypi/mentormatch
+        
+        .. image:: https://img.shields.io/travis/jonathanchukinas/mentormatch.svg
+                :target: https://travis-ci.org/jonathanchukinas/mentormatch
+        
+        .. image:: https://readthedocs.org/projects/mentormatch/badge/?version=latest
+                :target: https://mentormatch.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        This python application runs an algorithm to match mentors with mentees for the Cross-Sector Mentoring Program.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://mentormatch.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-07-06)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: mentormatch
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
