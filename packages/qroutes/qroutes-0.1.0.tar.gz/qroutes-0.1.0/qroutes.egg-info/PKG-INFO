@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: qroutes
+Version: 0.1.0
+Summary: Compojure/Ring like WSGI library
+Home-page: https://github.com/fillet54/qroutes
+Author: Phillip Gomez
+Author-email: fillet54@gmail.com
+License: MIT License
+Description: Python Quickie Routes
+        =====================
+        
+          Simple Compujure/Ring library for WSGI.
+        
+          `Learn more <https://github.com/weavejester/compojure/wiki>`_
+        
+Platform: UNKNOWN
+Description-Content-Type: text/x-rst
