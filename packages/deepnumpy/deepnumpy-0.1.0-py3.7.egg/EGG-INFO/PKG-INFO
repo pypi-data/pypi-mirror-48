@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: deepnumpy
+Version: 0.1.0
+Summary: NumPy-like library for deep learning applications.
+Home-page: UNKNOWN
+Author: V
+Author-email: wujun.nju@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Keywords: tensor machine deep learning scientific computing
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
