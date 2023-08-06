@@ -1,0 +1,10 @@
+redshift_unloader/__init__.py,sha256=VHit0eiYUL2dklBHO2yTB3onMldhANQCtOeVC62mGfw,89
+redshift_unloader/credential.py,sha256=Anzyx-Pd1sm_1_6-NCGq6Jdt4XnTiSaeWX7QNl1q12A,312
+redshift_unloader/logger.py,sha256=uvF8ig0GzgsGjG_M0ym5RdI-3KaMFvkh7x4HT8lYWzY,181
+redshift_unloader/redshift.py,sha256=9-0HT6BdRzLVRVe9coWb0z8Cm7ginAFpcFFU0itl9zQ,3703
+redshift_unloader/redshift_unloader.py,sha256=2i_UQzjqAk5JuIDlkDouo5HUc5zuDjyGKxZtJMZs4bU,3432
+redshift_unloader/s3.py,sha256=RSBjC0kzBff7pOELKoVN5nyrpB9i3jf7Hu26rkG-Fxw,1552
+redshift_unloader-0.1.4.dist-info/METADATA,sha256=IJFt7DErzrb9d-jfvazhhaFyQQ-E0K072rSTDRF-syE,1859
+redshift_unloader-0.1.4.dist-info/RECORD,,
+redshift_unloader-0.1.4.dist-info/WHEEL,sha256=HFxn6CRybAnvxw97CfWMjKc4LDsDdXXn2o08ktxbRQY,93
+redshift_unloader-0.1.4.dist-info/top_level.txt,sha256=i5Xg2KHeIq4wsUoZ8ZIqfJ-j0tJ8s67hvvgVW_KdEkk,18
