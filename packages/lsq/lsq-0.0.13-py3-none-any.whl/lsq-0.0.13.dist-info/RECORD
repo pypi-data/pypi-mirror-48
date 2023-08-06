@@ -1,0 +1,13 @@
+lsq/__init__.py,sha256=DPCYDO1Mm1ushyLjM-p1DSwTirHRQiEnGgjZc3GkAdg,92
+lsq/apihelper.py,sha256=nPZoI341NyvvUgFDFnFy8Y2UbSGeUfb4xfe2TxIqxnI,764
+lsq/config.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsq/exceptions.py,sha256=odwXJ4pYH0teFslTZJf-vmVbnYEgoBj9ORbC_60f2EE,76
+lsq/leadapi.py,sha256=jICBKwOm0lRpVnsAnXl2UhfL7N0W7tN53OB20RojpXc,14839
+lsq/main.py,sha256=qZsH2MNzirxqvx5KjE_Q7qVoTdxBuODZeviOzcyTBNI,566
+lsq/package_data.dat,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lsq/parser.py,sha256=b9m9nPHMeuAyPoES-3F3o7g6Z5p47dtphLI-xT1UgD0,617
+lsq-0.0.13.dist-info/LICENSE,sha256=qCs0aE3zicr4AU_G7f57usLr3fmBDQ_jHXTTs0Rz8ds,1068
+lsq-0.0.13.dist-info/METADATA,sha256=dRpNDl7_2hnObE_doYoEonc--3YLtF_2lAlBjjgO-kE,669
+lsq-0.0.13.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+lsq-0.0.13.dist-info/top_level.txt,sha256=PUeomBw2vrx4TMjnScEotXeDkhVQXmuK1fc5nQXIMiY,4
+lsq-0.0.13.dist-info/RECORD,,

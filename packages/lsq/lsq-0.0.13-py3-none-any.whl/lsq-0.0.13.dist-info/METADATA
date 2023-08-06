@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lsq
+Version: 0.0.13
+Summary: Leadsquared
+Home-page: https://github.com.seanjin17/Leadsquared
+Author: Anand Sandilya
+Author-email: anand.sandilya@leadsquared.com
+License: UNKNOWN
+Keywords: leadsquared lsq lsqpython lsqpip
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: requests
+
+###Leadsquared Python Module to interact with leadsquared API
+
+The module is still under development. Final docs and everything will be released once the module development is conpleted
+
