@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: xunbao-models
+Version: 1.0.3
+Summary: xunbaowang数据模型
+Home-page: http://github.com
+Author: skytotwo
+Author-email: 381944069@qq.com
+Maintainer: skytotwo
+Maintainer-email: 381944069@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
