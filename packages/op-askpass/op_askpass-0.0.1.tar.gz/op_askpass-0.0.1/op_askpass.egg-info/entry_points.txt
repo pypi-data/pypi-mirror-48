@@ -1,0 +1,3 @@
+[console_scripts]
+op-askpass = op_askpass.cli.main:main
+
