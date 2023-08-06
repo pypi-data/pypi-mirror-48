@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+build_ffi_module.py
+libxmplite.py
+setup.cfg
+setup.py
+libxmplite.egg-info/PKG-INFO
+libxmplite.egg-info/SOURCES.txt
+libxmplite.egg-info/dependency_links.txt
+libxmplite.egg-info/not-zip-safe
+libxmplite.egg-info/requires.txt
+libxmplite.egg-info/top_level.txt
