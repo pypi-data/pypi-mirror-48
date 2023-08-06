@@ -1,0 +1,10 @@
+model_converters/__init__.py,sha256=V79YCyKVfQuCUlxp-X39INwh_EBwOW03JR-KBAXnUSw,82
+model_converters/keras_to_coreml.py,sha256=T3dhZtKZcvFZAmonJSWkFeybdboz3YQq3WanDeKrqwE,2220
+model_converters/keras_to_tensorflow.py,sha256=qD1LlNZCAgu_ykzzCuLYVRI-_sTh7iAAN8kK0mMvCyg,3310
+model_converters-1.1.1.data/scripts/keras_to_tensorflow,sha256=m8dhwHMJQVk_menNLbX3rZhUG_V70dUEm7TZpdeRW-k,626
+model_converters-1.1.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+model_converters-1.1.1.dist-info/METADATA,sha256=CukCi7gXhKsa6slFXfXLYVi0Yqf6UmXcpco9qpyp_Nc,434
+model_converters-1.1.1.dist-info/RECORD,,
+model_converters-1.1.1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+model_converters-1.1.1.dist-info/metadata.json,sha256=82GUw2BItZbuIwYowbQX_IyEuW28cpSn8_SbF_kxPAE,593
+model_converters-1.1.1.dist-info/top_level.txt,sha256=0VbBEEA81ZD6MG3PhQtBfK0_RR9Qxo9Fk7f8YnXjFH4,17
