@@ -1,0 +1,31 @@
+{% load bootstrap %}
+
+<div class="form-group{% if field.errors %} has-error{% endif %}{% if field.field.required %} required{% endif %}">
+    {% if field|is_checkbox %}
+        <div class="checkbox">
+            <label>{{ field }} {{ field.label }}</label>
+        </div>
+    {% elif field|is_multiple_checkbox %}
+        <div class="checkbox-multiple">
+            <label class="control-label">{{ field.label }}</label>
+            {% for f in field %}{{ f }} <i class="sep"></i>{% endfor %}
+        </div>
+    {% else %}
+    	{% if field.label %}
+        	<label class="control-label" for="{{ field.auto_id }}">{{ field.label }}</label>
+		{% endif %}
+        {% if field|is_radio %}
+            <div class="radio">{% for f in field %}{{ f }} <i class="sep"></i>{% endfor %}</div>
+        {% else %}
+            {% ff field class="form-control" %}
+        {% endif %}
+    {% endif %}
+
+    {% for error in field.errors %}
+        <p class="help-block">{{ error }}</p>
+    {% endfor %}
+
+    {% if not field|is_multiple_checkbox and field.help_text %}
+        <p class="help-block">{{ field.help_text|safe }}</p>
+    {% endif %}
+</div>

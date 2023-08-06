@@ -1,0 +1,9 @@
+{% load static from staticfiles %}
+{% load get_static_prefix from static %}
+<script type="text/javascript">var static_prefix = '{% get_static_prefix %}';</script>
+<script type="text/javascript" src="{% static 'admin/js/jquery.js' %}"></script>
+<script type="text/javascript" src="{% static 'admin/js/bootstrap.js' %}"></script>
+<script type="text/javascript" src="{% static 'admin/js/jquery.cookie.js' %}"></script>
+<script type="text/javascript" src="{% static 'admin/js/jquery.notify.js' %}"></script>
+<script type="text/javascript" src="{% static 'admin/js/app.js' %}"></script>
+<script type="text/javascript" src="{% static 'admin/js/web.js' %}?1"></script>

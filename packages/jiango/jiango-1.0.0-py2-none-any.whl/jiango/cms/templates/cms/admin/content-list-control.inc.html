@@ -1,0 +1,12 @@
+{% load admin_pagination %}
+
+<div class="pull-left">
+    {% include 'cms/admin/actions.inc.html' %}
+    {% if can_create_content %}
+        <i class="sep">|</i>
+        <a href="{% url admin:cms:content-create current_path.path %}" class="btn btn-sm btn-success"><i class="fa fa-plus"></i> 添加内容</a>
+    {% endif %}
+</div>
+<div class="pull-right">
+    {% paginate content_set %}
+</div>
