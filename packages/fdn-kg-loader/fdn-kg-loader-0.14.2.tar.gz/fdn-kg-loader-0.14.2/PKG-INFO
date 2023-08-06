@@ -1,0 +1,19 @@
+Metadata-Version: 1.0
+Name: fdn-kg-loader
+Version: 0.14.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Restricted License, FDN license
+Description: TESTING :
+        
+        from root directory run : 
+        
+        requirements : 
+        **should get the server ready**
+        
+        ```
+        python3 -m unittest discover -t .
+        ```
+Platform: UNKNOWN
