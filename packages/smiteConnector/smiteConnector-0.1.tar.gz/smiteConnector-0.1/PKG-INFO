@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: smiteConnector
+Version: 0.1
+Summary: Offers full functionality of the smite API in python
+Home-page: https://github.com/theLiamDel/SmiteConnector
+Author: Liam de la Cour
+Author-email: liamog99@gmail.com
+License: MIT
+Download-URL: https://github.com/theLiamDel/SmiteConnector/archive/v0.1.tar.gz
+Description: UNKNOWN
+Keywords: Smite,API
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
