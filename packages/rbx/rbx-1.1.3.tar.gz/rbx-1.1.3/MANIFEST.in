@@ -1,0 +1,4 @@
+prune rbx
+prune tests
+
+include LICENSE
