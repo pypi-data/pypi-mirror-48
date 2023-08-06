@@ -1,0 +1,8 @@
+snehapdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snehapdf/pdf2image.py,sha256=M972_5Z_M-5WBYaCbsK0TMmTM2AftvE-NGE9STqm86Q,48
+snehapdf/pdf2text.py,sha256=U1-4JMdJ4EpZ6RYQBpr5fP--FwJPbK0G9-kKCbhzzAk,42
+snehapdf-1.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+snehapdf-1.0.dist-info/METADATA,sha256=Ri3-D4ZUEgvlYR3jU51Rd4rwrnuoDmvDOQXkB_TrWr0,201
+snehapdf-1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+snehapdf-1.0.dist-info/top_level.txt,sha256=e58fzm8hVQJMe79TePY4BOSLyC_fQKsG8TP82D1uTO8,9
+snehapdf-1.0.dist-info/RECORD,,
