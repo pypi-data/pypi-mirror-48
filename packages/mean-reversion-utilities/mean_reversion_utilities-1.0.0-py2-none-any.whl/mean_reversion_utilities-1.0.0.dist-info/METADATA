@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: mean-reversion-utilities
+Version: 1.0.0
+Summary: Time Series mean reversion utilities
+Home-page: https://github.com/gjlr2000/MeanReversionUtilities.git
+Author: Gerardo Lemus
+Author-email: gerardo@alum.mit.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Description-Content-Type: text/markdown
+Requires-Dist: json
+Requires-Dist: pandas
+Requires-Dist: johansen
+
+# MeanReversionUtilities
+Python Mean Reversion Utilities
+
+Includes:
+
+Maximum Likelihood OU calibration
+- analytic (assumes identical timespace)
+- numerical (allows for non uniform time sample, but might have problems with intraday)
+
+Finds all mean reverting signals from multiple time series
+
+Plotting multiple time series
+
+
+
