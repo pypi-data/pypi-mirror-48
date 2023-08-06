@@ -1,0 +1,14 @@
+CHANGES.rst
+LICENSE.rst
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/sphinxcontrib/__init__.py
+src/sphinxcontrib/log_cabinet.py
+src/sphinxcontrib_log_cabinet.egg-info/PKG-INFO
+src/sphinxcontrib_log_cabinet.egg-info/SOURCES.txt
+src/sphinxcontrib_log_cabinet.egg-info/dependency_links.txt
+src/sphinxcontrib_log_cabinet.egg-info/namespace_packages.txt
+src/sphinxcontrib_log_cabinet.egg-info/requires.txt
+src/sphinxcontrib_log_cabinet.egg-info/top_level.txt
