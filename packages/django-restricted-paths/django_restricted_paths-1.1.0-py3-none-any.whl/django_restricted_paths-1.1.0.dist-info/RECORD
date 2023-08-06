@@ -1,0 +1,8 @@
+restricted_paths/__init__.py,sha256=0H0KU3dvmsnmkig9l0RThor2xtpXvRDPeB7PHv0H9ag,176
+restricted_paths/middleware.py,sha256=FcvohiEY4Mhi4a4Mro5DLw-MPVgzQt99_Fb1qYicpuM,781
+restricted_paths/settings.py,sha256=4lrO-gD8qgJW7Ds5vyxoeP1bge0Z_GEtXajZawzLXs0,200
+django_restricted_paths-1.1.0.dist-info/LICENSE.txt,sha256=EPbdzdWhgM45gQvcJZksiAREhO55qCgIyCjA4c55jSs,1268
+django_restricted_paths-1.1.0.dist-info/METADATA,sha256=LXtkypPvA7ClzbaOIZ9H5mCrH6is5HNlzT-NQbbeWHw,1633
+django_restricted_paths-1.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_restricted_paths-1.1.0.dist-info/top_level.txt,sha256=4hwWEOkn3zkDQ13-l9aXObpOxESZcMm3tDkAJiUywmY,17
+django_restricted_paths-1.1.0.dist-info/RECORD,,
