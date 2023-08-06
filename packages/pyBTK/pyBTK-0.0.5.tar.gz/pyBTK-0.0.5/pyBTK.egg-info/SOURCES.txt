@@ -1,0 +1,9 @@
+MANIFEST.in
+setup.py
+pyBTK/__init__.py
+pyBTK.egg-info/PKG-INFO
+pyBTK.egg-info/SOURCES.txt
+pyBTK.egg-info/dependency_links.txt
+pyBTK.egg-info/top_level.txt
+pyBTK/btk3/__init__.py
+pyBTK/btk3/btk.py
