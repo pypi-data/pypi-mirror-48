@@ -1,0 +1,3 @@
+[console_scripts]
+cora-ui = cora_ui.__main__:main
+
