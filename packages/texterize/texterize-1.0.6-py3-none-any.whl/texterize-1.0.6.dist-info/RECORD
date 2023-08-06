@@ -1,0 +1,10 @@
+texterize/__init__.py,sha256=1HBr5Vx_o3CVFnC3pWFSFnR7axzj8x7q2cey5lLDYbI,2066
+texterize/build_block.py,sha256=tOP7ycJQIRqwOJHG7X6W_J-99MAe3ilBNY9kz3rjiTM,835
+texterize/build_chroma.py,sha256=Bt68mJul7RcrIFTQppD34Mpmy5udv3YDd-f05HE_4lI,1284
+texterize/filter_text.py,sha256=ChrInONbf8-fLgFbpWbJwBJekARRzW1PUJg1y8Pbtkc,159
+texterize/write_file.py,sha256=R0Bk1enuCwctVYrucTUvdIq9D5t10rG-GGaFMn8KjwI,3578
+texterize-1.0.6.dist-info/LICENSE,sha256=VVpEiFdohi_Lapan-lwZssBzCzVyFEd5sjq_B4_cKk0,1069
+texterize-1.0.6.dist-info/METADATA,sha256=vhqpyUCoslfoOnG8QlS4sf8msrCUjOWr3NuKtdUYO7I,514
+texterize-1.0.6.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+texterize-1.0.6.dist-info/top_level.txt,sha256=Azsi_fBpBhD_BpX8EAQV7FP1FJB2D54oYhtrzzlQtBE,10
+texterize-1.0.6.dist-info/RECORD,,
