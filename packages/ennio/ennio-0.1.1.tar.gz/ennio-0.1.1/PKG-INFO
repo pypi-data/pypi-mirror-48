@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: ennio
+Version: 0.1.1
+Summary: Interstack orchestration tool for AWS CloudFormation
+Home-page: https://github.com/sportsbet/ennio
+Author: Sportsbet
+Author-email: engineering@sportsbet.com.au
+License: Apache-2.0
+Description: UNKNOWN
+Platform: UNKNOWN
