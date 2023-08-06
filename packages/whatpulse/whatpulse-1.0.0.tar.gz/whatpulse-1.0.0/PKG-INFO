@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: whatpulse
+Version: 1.0.0
+Summary: Object Oriented WhatPulse API Wrapper
+Home-page: https://github.com/sl4vkek/python-whatpulse
+Author: sl4v
+Author-email: iamsl4v@protonmail.com
+License: WTFPL
+Description: A python object oriented WhatPulse API wrapper.
+Platform: UNKNOWN
