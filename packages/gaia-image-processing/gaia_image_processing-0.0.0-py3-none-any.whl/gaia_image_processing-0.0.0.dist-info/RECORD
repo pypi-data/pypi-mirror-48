@@ -1,0 +1,8 @@
+gaia_image_processing-0.0.0.dist-info/METADATA,sha256=P20Fvb5HVuPnLtzGyJ8GxUVtEI1jURP2ajU06Zi8-WI,930
+gaia_image_processing-0.0.0.dist-info/RECORD,,
+gaia_image_processing-0.0.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gaia_image_processing-0.0.0.dist-info/top_level.txt,sha256=H7OBMbdXT0XijR3sCjeIGDKSeTB5SCYRF0eip8xd0No,23
+image_processing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+image_processing/image_processing.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_image_processing.py,sha256=0E0rwRqKiREHsaMgyZ-DWvryg-ymbod5UHtyNQ_FK3k,66
