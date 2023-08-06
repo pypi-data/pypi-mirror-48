@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: lavender
+Version: 0.1.0
+Summary: The slightly more compromising code formatter.
+Home-page: https://github.com/spinda/lavender/
+License: MIT
+Keywords: automation,formatter,yapf,autopep8,gofmt
+Author: Michael Smith
+Author-email: michael@spinda.net
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Provides-Extra: d
+Requires-Dist: aiohttp (>=3.4,<4.0); extra == "d"
+Requires-Dist: appdirs (>=1.4,<2.0)
+Requires-Dist: attrs (>=18.1,<19.0)
+Requires-Dist: click (>=6.5,<7.0)
+Requires-Dist: toml (>=0.9.4,<0.10.0)
+Description-Content-Type: text/markdown
+
+# Lavender
+
+[![PyPI](https://img.shields.io/pypi/v/lavender.svg)](https://pypi.python.org/pypi/lavender)
+
+A slightly more compromising Python code formatter, based on the latest stable release of
+[Black](https://github.com/python/black).
+
+## Differences from Black
+
+- The default line length is 99 instead of 88 (configurable with `--line-length`).
+- Single quoted strings are preferred (configurable with
+ `--string-normalization none/single/double`).
+- Empty lines between `class`es and `def`s are trated no differently from other code. The old
+  behavior, which sometimes inserts double empty lines between them, remains available via
+  `--special-case-def-empty-lines`.
+
+## Documentation
+
+Read up on [Black](https://github.com/python/black), but replace `black` with `lavender` in your
+head.
+
+## License
+
+Lavender is Copyright (c) 2019 Michael Smith &gt;michael@spinda.net&lt;
+
+Black, the software on which it was based, is Copyright (c) 2018 Łukasz Langa
+
+This program is free software: you can redistribute it and/or modify it under the terms of the MIT
+License.
+
+This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without
+even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the MIT
+License for more details.
+
+You should have received a [copy](LICENSE) of the MIT License along with this program. If not, see
+[http://opensource.org/licenses/MIT](http://opensource.org/licenses/MIT).
+
