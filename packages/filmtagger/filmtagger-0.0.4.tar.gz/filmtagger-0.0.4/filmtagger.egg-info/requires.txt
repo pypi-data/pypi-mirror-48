@@ -1,0 +1,6 @@
+click
+toml
+fuzzywuzzy
+python-Levenshtein
+python_dateutil
+PyGObject
