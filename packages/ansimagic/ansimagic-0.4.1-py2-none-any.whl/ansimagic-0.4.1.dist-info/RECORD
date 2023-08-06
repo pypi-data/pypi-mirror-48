@@ -1,0 +1,9 @@
+ansimagic/__init__.py,sha256=9fh9O_lT9RpDmT_9W0m-3Ke4HuK6027bW8LuRNijEsk,2065
+ansimagic/brush.py,sha256=mE2YKZM-J2WrBsFHDqYU758_WQgcmcqw1vqJkuhFb2A,1101
+ansimagic/clear.py,sha256=KGmjs7ka53gBsX8Zjq1YJc9Mg-iYdAdpPCsV0aMalV8,522
+ansimagic/cursor.py,sha256=neiPjmyRf1YPtVq8XM1uUNlpZ6Wsu7J7MuTiVh6x-ag,1613
+ansimagic/presets.py,sha256=F4sVRtoLVokifY-nrrcAoH-EF-ICtM3TtmBPC5o_Ixs,1211
+ansimagic-0.4.1.dist-info/METADATA,sha256=EDxgK6enqyLE3xLD1pmgEf9q03UqFC59ZTRYQu2Aa3g,949
+ansimagic-0.4.1.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+ansimagic-0.4.1.dist-info/top_level.txt,sha256=vq0FJ2WD4sSUTIxP3BS-Qv_Rf99igKVj5lAyISa6BIo,10
+ansimagic-0.4.1.dist-info/RECORD,,

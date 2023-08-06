@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: ansimagic
+Version: 0.4.1
+Summary: Helper for ansi esc sequence
+Home-page: https://github.com/shpaker/ansimagic
+Author: A. Shpak
+Author-email: shpaker@gmail.com
+Maintainer: shpaker
+License: BSD
+Keywords: color ansi terminal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Terminals
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# ansimagic
+
+## Colorify
+
+### Foreground
+
+### Background
+
+### Presets
+
