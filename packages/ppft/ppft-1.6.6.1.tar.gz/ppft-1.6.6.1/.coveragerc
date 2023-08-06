@@ -1,0 +1,24 @@
+[run]
+# source = */ppft/*
+include =
+    */ppft/*
+    */ppft/server/*
+omit = 
+    */examples/*
+    */tests/*
+# timid = true
+# parallel = true
+# concurrency = multiprocessing # thread
+# data_file = $TRAVIS_BUILD_DIR/.coverage
+# data_file = ./.coverage
+# debug = trace
+
+[report]
+include =
+    */ppft/*
+    */ppft/server/*
+exclude_lines =
+    pragma: no cover
+    if __name__ == .__main__.:
+# show_missing = true
+ignore_errors = true
