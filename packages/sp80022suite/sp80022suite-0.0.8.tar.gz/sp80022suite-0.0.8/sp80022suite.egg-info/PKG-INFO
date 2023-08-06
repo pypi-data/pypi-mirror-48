@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sp80022suite
+Version: 0.0.8
+Summary: NIST SP 800-22 Statistical Tests
+Home-page: https://github.com/nils-wisiol/sp80022suite
+Author: Nils Wisiol
+Author-email: mail@nils-wisiol.de
+License: UNKNOWN
+Description: # SP 800-22 Statistical Tests for Python
+        
+        This is a Python C extension based on the NIST implementation of the statistical tests outlined in SP 800-22 Rev1a.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
