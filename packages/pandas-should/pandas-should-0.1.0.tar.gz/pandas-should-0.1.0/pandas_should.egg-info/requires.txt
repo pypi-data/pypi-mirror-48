@@ -1,0 +1,9 @@
+pandas
+
+[develop]
+pandas
+pytest
+
+[testing]
+pandas
+pytest

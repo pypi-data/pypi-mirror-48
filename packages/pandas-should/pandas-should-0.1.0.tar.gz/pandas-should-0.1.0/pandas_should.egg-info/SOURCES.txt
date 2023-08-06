@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pandas_should/__init__.py
+pandas_should/dataframe.py
+pandas_should/series.py
+pandas_should.egg-info/PKG-INFO
+pandas_should.egg-info/SOURCES.txt
+pandas_should.egg-info/dependency_links.txt
+pandas_should.egg-info/not-zip-safe
+pandas_should.egg-info/requires.txt
+pandas_should.egg-info/top_level.txt
