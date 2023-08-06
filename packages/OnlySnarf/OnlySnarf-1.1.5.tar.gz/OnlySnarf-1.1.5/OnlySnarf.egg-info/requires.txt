@@ -1,0 +1,9 @@
+selenium
+pydrive
+pathlib
+chromedriver-binary
+moviepy
+apiclient
+google-api-python-client
+httplib2
+python-crontab
