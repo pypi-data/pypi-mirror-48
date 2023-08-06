@@ -1,0 +1,17 @@
+pyokta_aws/__init__.py,sha256=6EEGH0UKUPZ2fWfytx_O2V0XDGrU-nOimtiCxK1tgMc,1056
+pyokta_aws/__main__.py,sha256=Bm-VYP4p4nPPr91DIVUeubGbCCY_heQ6iXZQzsKAEVc,1057
+pyokta_aws/cli.py,sha256=jRylljDUAOCJXpug_UOKlbjndXVy_eVHbuXtjy13qes,2037
+pyokta_aws/exceptions.py,sha256=V8ix_1UqJNqkGDKLuNNZkgm27_6DOjSv-EzORW8SLWo,808
+pyokta_aws/settings.py,sha256=jDl_U35-VD-5A03xa1vhSFvT4zxBF6gNerZgcJopzAk,9091
+pyokta_aws/utils.py,sha256=UHhIizornbo7QbKoEMyjQWYblwnKI477cxbUAXj5FP0,2417
+pyokta_aws/commands/__init__.py,sha256=mAjhnqpxKq5NdgIzs7_ZF_2jv5F-mGDUOomXMO57wJo,712
+pyokta_aws/commands/auth.py,sha256=k96M4wc_wCY6FEQbAeiggFI7ghTMiQ_EDDcGYf-p9Ic,3288
+pyokta_aws/commands/configure.py,sha256=j_oWBlS5FfvogLF6LOjqhVX1cO35ewrlCIsMbEQ8lBc,934
+pyokta_aws/okta/__init__.py,sha256=QjWuYzmnxONV5CHZqkXkqUCozGc6V-k255_jTBa2ICE,697
+pyokta_aws/okta/api.py,sha256=feaqmV7O7S_KzEH05gaC3h3p7HDhrc82WqaelyjDfTM,3695
+pyokta_aws_cli_assume_role-0.0.6.dist-info/LICENSE,sha256=CcA3V7ZS5RTUiR4PBBtRrCxxTMkAds5EnY5Ej4NOJ_8,33095
+pyokta_aws_cli_assume_role-0.0.6.dist-info/METADATA,sha256=p-14pZ6LoCAC8Sh-NKvBpXYvMHVsTCZGv5_9sXSRn20,5031
+pyokta_aws_cli_assume_role-0.0.6.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+pyokta_aws_cli_assume_role-0.0.6.dist-info/entry_points.txt,sha256=EFZR5kv1btrmrjJ4VgbSoc1rD6F5J289n2t8t9B0tIw,175
+pyokta_aws_cli_assume_role-0.0.6.dist-info/top_level.txt,sha256=VmifV5n1RWkJPhZxaNgxmhVEv7dlH5BGOXcbiEw8MnY,11
+pyokta_aws_cli_assume_role-0.0.6.dist-info/RECORD,,
