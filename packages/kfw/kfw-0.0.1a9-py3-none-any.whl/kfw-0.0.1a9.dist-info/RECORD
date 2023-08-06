@@ -1,0 +1,9 @@
+kfw/__init__.py,sha256=sq_-kMTqGLWtXiPT40SRo_mWtBRHDuoYglcv1UNZqdg,37
+kfw/callbacks.py,sha256=53gx9xOvoqhRh5vo-lgAmkEBP9hSNE8etOoy1qUjp6A,1051
+kfw/losses.py,sha256=eetKSRXKE-bPMg0NcnYXriHlI8oMSrky5725yvkKUR8,1325
+kfw/metrics.py,sha256=jxmTQeYHlHVcnm65vH1mFU1GZsCi_jLEenNWSXxUY5I,443
+kfw-0.0.1a9.dist-info/LICENSE,sha256=nt_5cygi2ew1iSHGS6qFJKjtEhDqicXgpgUDlzpYgBI,35150
+kfw-0.0.1a9.dist-info/METADATA,sha256=em9Q3403PJHauTWcirDm3Xy4NB4TIZu6XueOnbDylbw,599
+kfw-0.0.1a9.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+kfw-0.0.1a9.dist-info/top_level.txt,sha256=xIYk3djDJi92S_dvLot1J4kLCwZrwOyd7fQ51mxDLsM,4
+kfw-0.0.1a9.dist-info/RECORD,,
