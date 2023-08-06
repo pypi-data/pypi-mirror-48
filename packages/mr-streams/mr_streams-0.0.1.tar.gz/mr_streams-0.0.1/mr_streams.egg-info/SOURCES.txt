@@ -1,0 +1,10 @@
+README.md
+setup.py
+mr_streams/__init__.py
+mr_streams/streamer.py
+mr_streams.egg-info/PKG-INFO
+mr_streams.egg-info/SOURCES.txt
+mr_streams.egg-info/dependency_links.txt
+mr_streams.egg-info/top_level.txt
+mr_streams/exceptions/__init__.py
+mr_streams/exceptions/stream_exceptions.py
