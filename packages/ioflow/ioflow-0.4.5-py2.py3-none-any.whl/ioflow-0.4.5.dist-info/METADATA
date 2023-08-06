@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ioflow
+Version: 0.4.5
+Summary: Input/Output abstraction layer for machine learning
+Home-page: https://github.com/howl-anderson/ioflow
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: Apache 2.0
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: requests
+Requires-Dist: flask
+
+UNKNOWN
+
+
