@@ -1,0 +1,12 @@
+foliant/backends/docus/__init__.py,sha256=k0UYWPR2XzwLqUsT2MtfDxmNAGchYBGJ_xlz4M9S7qk,26
+foliant/backends/docus/docus.py,sha256=F9fCKb4D5hj2ew7PX4iSpp5j6goN0AAB8ldp7F1QMw4,9100
+foliant/backends/docus/index.py,sha256=xyC-UFOfO99Z7D8skKYlRoGZVe2vURok2vqXcXQsNo8,421
+foliant/backends/docus/sidebars.py,sha256=4wlf_bi6zJznroqi0rn61tC0lY7ChT9ELyGVPYUEcyY,4621
+foliant/backends/docus/assets/Footer.js,sha256=vBUYHo1ezekTIcml0MuzulP2olanFyaL2FONdzF0U5U,714
+foliant/backends/docus/assets/siteConfig.js,sha256=s8BJpd3LDSurUfttJYwwuMzDkPUqZKUeTA1g6d9S_mc,719
+foliant/preprocessors/docus.py,sha256=XAYjZy5JVbxy-mtu7tbm0Y9G8FRdUdDA7InHSIYMkHs,3471
+foliantcontrib.docus-0.1.0.dist-info/LICENSE,sha256=8i3JTH7iEbx62LVMw-C5FGHfjpFEf8nWRABOE-enpMQ,1069
+foliantcontrib.docus-0.1.0.dist-info/METADATA,sha256=cH1k8vfPqs0t8lN_Qi0nYiZClrmx7qu2ZJ4eWgMtxcc,750
+foliantcontrib.docus-0.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+foliantcontrib.docus-0.1.0.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.docus-0.1.0.dist-info/RECORD,,
