@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+# Documenting
+sphinx = "*"
+sphinx_rtd_theme = "*"
+
+# Linting
+prospector = "==1.1.6.2"
+
+# Testing
+coverage = "*"
+nose = "*"
+"nose-htmloutput" = "*"
+tox = "*"
+betamax = "*"
+
+# Releasing
+semver = "*"
+gitwrapperlib = "*"
+
+# Uploading
+twine = "*"
+
+# Logging
+coloredlogs = "*"
+emoji = "*"
+
+
+[packages]
+
+coloredlogs = "~=10.0"
+
+requests = "~=2.21.0"
+cachetools = "~=2.0.1"
+
+[requires]
+python_version = "3"
