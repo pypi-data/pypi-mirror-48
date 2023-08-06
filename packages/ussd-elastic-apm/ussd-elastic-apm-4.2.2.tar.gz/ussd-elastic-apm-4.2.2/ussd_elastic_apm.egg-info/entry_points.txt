@@ -1,0 +1,3 @@
+[paste.filter_app_factory]
+ussdelasticapm = ussdelasticapm.contrib.paste:filter_factory
+
