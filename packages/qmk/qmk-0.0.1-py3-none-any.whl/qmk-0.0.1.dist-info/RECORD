@@ -1,0 +1,9 @@
+qmk_cli/__init__.py,sha256=E8nY8medJYQkZRUCpUtTZBwvtwCiGGlb84eIBUuQpVQ,75
+qmk_cli/doctor.py,sha256=RCJqXTkniNWKEpUUmAP6quIrFbWB0NP0i2egc21eMpE,2927
+qmk_cli/milc.py,sha256=PoV2Lcn_ARlSXxbpQ2x7kbTvnOWybmLLhKTbrUekJro,25006
+qmk_cli/script_qmk.py,sha256=anf-AhdPs4TkQY3I_tV-PR_kT8Nk7kgz9nzdeo_bOcU,3217
+qmk-0.0.1.dist-info/entry_points.txt,sha256=b-ng0SbL49oW0chapXDCliW4NFbLiNni-mjD-ToE0_M,47
+qmk-0.0.1.dist-info/LICENSE,sha256=3LPZuhhBM7kMJEYQDC_h0FjzGuzLcc5wfU4Ke-Sr798,1060
+qmk-0.0.1.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+qmk-0.0.1.dist-info/METADATA,sha256=b84tDhjOLWdR3FXHoCxwnISKuCZ-BCxQRA6KL3Nfqgw,784
+qmk-0.0.1.dist-info/RECORD,,
