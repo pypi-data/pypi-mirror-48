@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+biclustpy/__init__.py
+biclustpy/ch.py
+biclustpy/command_line.py
+biclustpy/helpers.py
+biclustpy/ilp.py
+biclustpy/main.py
+biclustpy.egg-info/PKG-INFO
+biclustpy.egg-info/SOURCES.txt
+biclustpy.egg-info/dependency_links.txt
+biclustpy.egg-info/entry_points.txt
+biclustpy.egg-info/not-zip-safe
+biclustpy.egg-info/requires.txt
+biclustpy.egg-info/top_level.txt

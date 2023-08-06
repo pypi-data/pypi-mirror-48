@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: biclustpy
+Version: 0.1
+Summary: bi-cluster editing library
+Home-page: http://github.com/dbblumenthal/biclustpy
+Author: David B. Blumenthal
+Author-email: david.blumenthal@wzw.tum.de
+License: LGPL
+Description: # biclustpy
+        Python library for bi-cluster editing. 
+        
+Keywords: bi-cluster editing
+Platform: UNKNOWN
