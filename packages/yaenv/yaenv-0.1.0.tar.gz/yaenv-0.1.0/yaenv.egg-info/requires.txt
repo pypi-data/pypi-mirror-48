@@ -1,0 +1,13 @@
+python-dotenv
+
+[:python_version < "3.5"]
+typing
+
+[docs]
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-napoleon
+
+[lint]
+flake8
+flake8-mypy
