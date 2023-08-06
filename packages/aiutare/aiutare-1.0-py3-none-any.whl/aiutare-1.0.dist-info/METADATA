@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: aiutare
+Version: 1.0
+Summary: A benchmarking framework for SAT, SMT, and equivalence checking programs.
+Home-page: https://github.com/FedericoAureliano/aiutare
+Author: Federico Mora, Lukas Finnbarr O'Callahan
+Author-email: fmora@cs.toronto.edu, lukasocallahan@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
+Requires-Dist: mongoengine
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: progressbar2
+Requires-Dist: pymongo
+Requires-Dist: psutil
+
+# AIUTARE
+Automated Analysis, Regression, and Evaluation
+
+### Setup
+- See the [Setup wiki page](https://github.com/FedericoAureliano/aiutare/wiki/Setup) for creating the config and other necessary files
+```
+bin/prepare.sh
+```
+- (Currently written only for Ubuntu 16.04 and 18.04)
+
+### Usage
+```
+bin/run.py [absolute path to config.json file] [number of runs; 1 if omitted]
+```
+
