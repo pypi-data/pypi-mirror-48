@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: c3py
+Version: 0.0.1
+Summary: Compressed Continuous Computation library in Python
+Home-page: UNKNOWN
+Author: Alex Gorodetsky
+Author-email: alex@alexgorodetsky.com
+License: UNKNOWN
+Description: The Compressed Continuous Computation (C3) package is intended to make it easy to perform continuous linear and multilinear algebra with multidimensional functions. It works by representing multidimensional functions in a low-rank format. Common tasks include taking continuous matrix decompositions of vector- or matrix-valued functions, adding or multiplying functions together, integrating multidimensional functions, and much much more.
+Keywords: highd-approximation machine-learning uncertainty-quantification tensors
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
