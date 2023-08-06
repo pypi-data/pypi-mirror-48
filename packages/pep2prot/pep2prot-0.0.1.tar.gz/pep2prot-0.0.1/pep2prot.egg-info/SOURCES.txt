@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+bin/pep2prot
+pep2prot.egg-info/PKG-INFO
+pep2prot.egg-info/SOURCES.txt
+pep2prot.egg-info/dependency_links.txt
+pep2prot.egg-info/requires.txt
+pep2prot.egg-info/top_level.txt
