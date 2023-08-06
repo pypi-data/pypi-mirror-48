@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: dubbo-py
+Version: 0.2
+Summary: dubbo adaptor for python
+Home-page: https://github.com/feiyuw/dubbo-py.git
+Author: Zhang Yu
+Author-email: feiyuw@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: any
+Requires-Python: >=3.5
