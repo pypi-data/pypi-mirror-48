@@ -1,0 +1,10 @@
+geostring/__init__.py,sha256=QNJP_aBPQBxO5k-z_Tz9uasVKruJL7NNvOYRza-iRLM,24
+geostring/geostring.py,sha256=Urlu_EroKOL7tB_8NramEaIXKDJKDupCSWE6awxidZM,13672
+geostring/world_nicknames.csv,sha256=o3ZAYo7r4PpiuLZftkL5vXppus4XQiTH-M0R3cEmIQ0,12611
+geostring/world_places.csv,sha256=JL0jDGyKu4hq8W9hxtSQZ0kXTCJ0lKL9J-1MBy_AfmY,854958
+geostring-1.0.7.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+geostring-1.0.7.dist-info/METADATA,sha256=qckR2p6FV5uknO2cPu1i3e0XVDK6pU8sQ3oN7kMQdOE,399
+geostring-1.0.7.dist-info/RECORD,,
+geostring-1.0.7.dist-info/WHEEL,sha256=Vlaj2XNMTTJ893zWX-JvKeZUIs7q5E7d7Gise2Vouzc,97
+geostring-1.0.7.dist-info/metadata.json,sha256=tSE8KppgXJb8WpUO4CfWkzc-j8l8a6ZOSt2fNgI94ww,586
+geostring-1.0.7.dist-info/top_level.txt,sha256=HM405C9tWBhg6Kior03xymaDQ9tD6v4N4rKHBTXEuw0,10
