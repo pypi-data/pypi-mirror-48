@@ -1,0 +1,5 @@
+setup.py
+apigentools.egg-info/PKG-INFO
+apigentools.egg-info/SOURCES.txt
+apigentools.egg-info/dependency_links.txt
+apigentools.egg-info/top_level.txt
