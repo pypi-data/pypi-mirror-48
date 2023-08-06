@@ -1,0 +1,13 @@
+bear/__init__.py,sha256=YIzN8hD_pVNeDcDdzOsnbxutstizc8FQ7BcwvhLaoYE,4263
+bear/__main__.py,sha256=3JY4sBHxOFeA7TlKngqiyqoSkyPMIuCExZP3IpedulM,4426
+bear/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bear/tests/test_files.py,sha256=IsCKVueyfAlLebSm___Speb80QSSnwzKffnTaV2CPLM,10372
+bear/tests/test_hash.py,sha256=v14WPVzNXnIrdGldYDYpcB_Wywct3gvYxcvog1l3aJY,889
+bear/tests/test_main.py,sha256=kS9bN4pOycEXiXO8gBm9qlaHDPwDCgvgrWqEm0qU3Pg,1821
+thebear-0.2.0.data/data/bear/README.md,sha256=dqjYDOUH-W0aLfem1nPqP-E2vBxHo-8gWUGiT2gK7J0,2031
+thebear-0.2.0.dist-info/LICENSE.txt,sha256=jVa0BUaKrRH4erV2P5AeJ24I2WRv9chIGxditreJ6e0,34524
+thebear-0.2.0.dist-info/METADATA,sha256=q42PAK4vhiU7ySA6NNmrIsu0N067Iyz-7l6Zre_drk0,3470
+thebear-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+thebear-0.2.0.dist-info/entry_points.txt,sha256=_rZPrJGv118h-oIEaZIYtkolUVIPWwSCG6ktEZ-__3g,44
+thebear-0.2.0.dist-info/top_level.txt,sha256=S2m5-qJByiT2gr36QTb-LuXXSVadG5Nm4yQxvo6US08,5
+thebear-0.2.0.dist-info/RECORD,,
