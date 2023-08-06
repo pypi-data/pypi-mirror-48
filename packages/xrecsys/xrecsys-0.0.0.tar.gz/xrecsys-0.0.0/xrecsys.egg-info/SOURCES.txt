@@ -1,0 +1,7 @@
+setup.py
+xrecsys/__init__.py
+xrecsys.egg-info/PKG-INFO
+xrecsys.egg-info/SOURCES.txt
+xrecsys.egg-info/dependency_links.txt
+xrecsys.egg-info/not-zip-safe
+xrecsys.egg-info/top_level.txt
