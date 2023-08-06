@@ -1,0 +1,9 @@
+dynamic_image/__init__.py,sha256=Ba3fGknctPI2d4-OIEjtA1Ffren2_Dniy2ltFRtULCw,176
+dynamic_image/fields.py,sha256=QRrCQw7Khh7J79rxWbty0shKxairJOt0ZIUO_ER6e_c,1018
+dynamic_upload_image_field/__init__.py,sha256=YvuYzWnKtqBb-IqG8HAu-nhIYAsgj9Vmc_b9o7vO-js,22
+dynamic_upload_image_field/fields.py,sha256=nsAMKw_DuDdqUJUVBeGDRpevf85pLQhBxVOaHsQY2qc,1121
+django_dynamic_image-1.0.0.dist-info/LICENSE.txt,sha256=EPbdzdWhgM45gQvcJZksiAREhO55qCgIyCjA4c55jSs,1268
+django_dynamic_image-1.0.0.dist-info/METADATA,sha256=pxGREn2TRW8eVCQirG5jUjv00Zs_1Hvx_g-5vWkzlfc,1821
+django_dynamic_image-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_dynamic_image-1.0.0.dist-info/top_level.txt,sha256=T7z-yQr5fge8imxeUy0FjPmhfH2NKBVFEhH7t1tcprY,14
+django_dynamic_image-1.0.0.dist-info/RECORD,,
