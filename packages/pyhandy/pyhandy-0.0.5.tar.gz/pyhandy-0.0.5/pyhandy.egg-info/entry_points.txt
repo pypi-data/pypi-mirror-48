@@ -1,0 +1,3 @@
+[console_scripts]
+pyhandy = pyhandy.pyhandy:main
+
