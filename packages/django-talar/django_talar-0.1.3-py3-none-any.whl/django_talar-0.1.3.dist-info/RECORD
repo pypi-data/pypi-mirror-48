@@ -1,0 +1,16 @@
+talar/__init__.py,sha256=chFbUh7FBd0ZWc9oHX6BB2yxvn2UpcDr2jwXB7_a_Io,123
+talar/apps.py,sha256=5QPScYzrgL4o_zMUd1yk48vsnJz2kGbKebfm9memHZ8,85
+talar/client.py,sha256=QAQpHpsXVrBdyBM8KWknvOjNgCKGtDhJLTglYft_ib8,835
+talar/crypto.py,sha256=5YBpbdRvnOY9TjJwhWRmUqUgFW2wTnWPRZrmAeuFirk,2599
+talar/forms.py,sha256=rW9EZDkNBSaQOJ2AUV_CWkexv9i410dDanxwYzFd90Q,402
+talar/serializers.py,sha256=SQRoW9nrba7kwKEDmHA49LY2ZTap_ASRrM5XYcn0gHc,439
+talar/signals.py,sha256=nYMJ0ZPkdAVpOwZ61KlRZ7VLdPhWIs_KkRsFWuKbqfo,164
+talar/tests.py,sha256=mrbGGRNg5jwbTJtWWa7zSKdDyeB4vmgZCRc2nk6VY-g,60
+talar/urls.py,sha256=hStQbKNjohmXRSjTKUZBN3r033H-oyFpHiJwbNI3Wjg,211
+talar/views.py,sha256=Ar-kVrsmR5tsNZEgToqmkbqPFDpv3u0i1uZRfgmr9TU,411
+talar/templates/talar/make_payment.html,sha256=ymhxMkxHEqytP9XYHn0WTSc8oHIE55hYR5c225XUPbg,336
+django_talar-0.1.3.dist-info/LICENSE.md,sha256=undEmfnXPGMlkob19YJfle5gSNogkRNbyo2j_9a0-eg,1074
+django_talar-0.1.3.dist-info/METADATA,sha256=C97eJCZugHFHSoc2Oi4_9NKvnT5tyoDv2BkxPEP71ts,2300
+django_talar-0.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_talar-0.1.3.dist-info/top_level.txt,sha256=13h7xAOOp-E5l338qwY7Y1gKBjE6uy6bEvaKGFTiaHk,6
+django_talar-0.1.3.dist-info/RECORD,,
