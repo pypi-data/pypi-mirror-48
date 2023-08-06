@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: jslog4kube
+Version: 1.0.4
+Summary: relatively hassle-free JSON logging for Kubernetes pods
+Home-page: http://gitlab.com/stephen6/jslog4kube
+Author: Stephen D. Spencer
+Author-email: stephen@revsys.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
