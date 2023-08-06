@@ -1,0 +1,7 @@
+README.md
+fpw
+setup.py
+fpw.egg-info/PKG-INFO
+fpw.egg-info/SOURCES.txt
+fpw.egg-info/dependency_links.txt
+fpw.egg-info/top_level.txt
