@@ -1,0 +1,7 @@
+README.md
+setup.py
+kotano/__init__.py
+kotano.egg-info/PKG-INFO
+kotano.egg-info/SOURCES.txt
+kotano.egg-info/dependency_links.txt
+kotano.egg-info/top_level.txt
