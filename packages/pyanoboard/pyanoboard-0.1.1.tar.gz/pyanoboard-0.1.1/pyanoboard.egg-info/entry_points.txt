@@ -1,0 +1,3 @@
+[console_scripts]
+pyanoboard = pyanoboard.__main__:main
+

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: pyanoboard
+Version: 0.1.1
+Summary: Simple piano to keyboard adaptor. Works with any MIDI enabled device.
+Home-page: https://github.com/QFSW/Pyanoboard
+Author: QFSW
+Author-email: support@qfsw.co.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
