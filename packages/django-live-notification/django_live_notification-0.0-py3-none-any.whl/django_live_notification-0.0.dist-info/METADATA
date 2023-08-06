@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: django-live-notification
+Version: 0.0
+Summary: Real Time Django Notification Library
+Home-page: https://github.com/umit-ozturk/django-notification
+Author: Ümit Öztürk
+Author-email: umit.ozturk.9716@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: Django (<1.7,>=1.6)
+
+UNKNOWN
+
+
