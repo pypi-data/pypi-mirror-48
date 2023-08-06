@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+teamsilly.egg-info/PKG-INFO
+teamsilly.egg-info/SOURCES.txt
+teamsilly.egg-info/dependency_links.txt
+teamsilly.egg-info/top_level.txt
+teamsnotifier/__init__.py
+teamsnotifier/teamscard.py
+teamsnotifier/teamsnotifier.py
