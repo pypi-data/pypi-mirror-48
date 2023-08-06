@@ -1,0 +1,220 @@
+{
+  "expectation_type": "expect_column_values_to_be_in_type_list",
+  "datasets": [
+    {
+      "data": {
+        "x" : [1,2,4],
+        "y" : [1.0,2.2,5.3],
+        "z" : ["hello", "jello", "mello"],
+        "n" : [null, null, null],
+        "b" : [false, true, false],
+        "s" : ["hello", "jello", 1],
+        "s1" : ["hello", 2.0, 1]
+      },
+      "schemas": {
+        "pandas" : {
+          "x": "int",
+          "y": "float",
+          "z": "str",
+          "n": "str",
+          "b": "bool",
+          "s": "str",
+          "s1": "str"
+        },
+        "postgresql": {
+          "x": "INTEGER",
+          "y": "DOUBLE_PRECISION",
+          "z": "TEXT",
+          "n": "TEXT",
+          "b": "BOOLEAN",
+          "s": "TEXT",
+          "s1": "TEXT"
+        },
+        "spark": {
+          "x": "IntegerType",
+          "y": "FloatType",
+          "z": "StringType",
+          "n": "StringType",
+          "b": "BooleanType",
+          "s": "StringType",
+          "s1": "StringType"
+        },
+        "sqlite": {
+          "x": "INTEGER",
+          "y": "FLOAT",
+          "z": "VARCHAR",
+          "n": "VARCHAR",
+          "b": "BOOLEAN",
+          "s": "VARCHAR",
+          "s1": "VARCHAR"
+        },
+        "mysql": {
+          "x": "INTEGER",
+          "y": "FLOAT",
+          "z": "TEXT",
+          "n": "TEXT",
+          "b": "BOOLEAN",
+          "s": "TEXT",
+          "s1": "TEXT"
+        }
+      },
+      "tests": [
+        {
+          "title": "Positive, integer column",
+          "exact_match_out": false,
+          "in":{
+            "column": "x",
+            "type_list": ["int"]
+          },
+          "out":{
+            "success":true,
+            "unexpected_list": [],
+            "unexpected_index_list": []
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Positive, integer column",
+          "exact_match_out": false,
+          "in":{
+            "column": "x",
+            "type_list": ["INTEGER"]
+          },
+          "out":{
+            "success":true
+          },
+          "only_for": ["sqlalchemy"]
+        },
+        {
+          "title": "Negative, Float values are not strings",
+          "exact_match_out": false,
+          "in":{
+            "column": "x",
+            "type_list": ["string"]
+          },
+          "out":{
+            "success": false,
+            "unexpected_list": [1,2,4],
+            "unexpected_index_list": [0,1,2]
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Negative, Float values are not TEXT",
+          "exact_match_out": false,
+          "in":{
+            "column": "x",
+            "type_list": ["TEXT"]
+          },
+          "out":{
+            "success": false
+          },
+          "only_for": ["sqlalchemy"]
+        },
+        {
+          "title": "Positive, Float values",
+          "exact_match_out": false,
+          "in":{
+            "column": "y",
+            "type_list": ["float"]
+          },
+          "out":{
+            "success":true,
+            "unexpected_list":[],
+            "unexpected_index_list":[]
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Positive, Float values",
+          "exact_match_out": false,
+          "in":{
+            "column": "y",
+            "type_list": ["DOUBLE_PRECISION", "FLOAT"]
+          },
+          "out":{
+            "success":true
+          },
+          "only_for": ["sqlalchemy"]
+        },
+        {
+          "title": "Positive, String values",
+          "exact_match_out": false,
+          "in":{
+            "column": "z",
+            "type_list": ["string"]
+          },
+          "out":{
+            "success": true,
+            "unexpected_list": [],
+            "unexpected_index_list": []
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Positive, TEXT values",
+          "exact_match_out": false,
+          "in":{
+            "column": "z",
+            "type_list": ["TEXT", "VARCHAR"]
+          },
+          "out":{
+            "success": true
+          },
+          "only_for": ["sqlalchemy"]
+        },
+        {
+          "title": "Positive, boolean values",
+          "exact_match_out": false,
+          "in":{
+            "column": "b",
+            "type_list": ["boolean"]
+          },
+          "out":{
+            "success": true,
+            "unexpected_list": [],
+            "unexpected_index_list": []
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Positive, boolean values",
+          "exact_match_out": false,
+          "in":{
+            "column": "b",
+            "type_list": ["BOOLEAN"]
+          },
+          "out":{
+            "success": true
+          },
+          "only_for": ["sqlalchemy"]
+        },
+        {
+          "title": "Positive, string and int values",
+          "exact_match_out": false,
+          "in":{
+            "column": "s",
+            "type_list": ["string", "int"]
+          },
+          "out":{
+            "success": true,
+            "unexpected_list": [],
+            "unexpected_index_list": []
+          },
+          "only_for": ["pandas"]
+        },
+        {
+          "title": "Positive, TEXT and INTEGER values",
+          "exact_match_out": false,
+          "in":{
+            "column": "s",
+            "type_list": ["TEXT", "VARCHAR", "INTEGER"]
+          },
+          "out":{
+            "success": true
+          },
+          "only_for": ["sqlalchemy"]
+        }
+      ]
+    }]
+}

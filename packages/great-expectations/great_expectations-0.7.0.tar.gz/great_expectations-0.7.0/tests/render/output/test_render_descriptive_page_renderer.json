@@ -1,0 +1,882 @@
+{
+  "data_asset_name": null, 
+  "sections": [
+    {
+      "section_name": "Overview", 
+      "content_blocks": [
+        {
+          "header": "Overview", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "header": "Dataset info", 
+          "table_rows": [
+            [
+              "Number of variables", 
+              6
+            ], 
+            [
+              {
+                "params": {}, 
+                "template": "Number of observations"
+              }, 
+              "?"
+            ], 
+            [
+              "Missing cells", 
+              "?"
+            ]
+          ], 
+          "content_block_type": "table", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "body": {
+              "classes": [
+                "table", 
+                "table-sm"
+              ]
+            }, 
+            "classes": [
+              "col-6", 
+              "table-responsive"
+            ]
+          }
+        }, 
+        {
+          "header": "Variable types", 
+          "table_rows": [
+            [
+              "int", 
+              "0"
+            ], 
+            [
+              "float", 
+              "0"
+            ], 
+            [
+              "string", 
+              "0"
+            ], 
+            [
+              "--", 
+              "6"
+            ]
+          ], 
+          "content_block_type": "table", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "body": {
+              "classes": [
+                "table", 
+                "table-sm"
+              ]
+            }, 
+            "classes": [
+              "col-6", 
+              "table-responsive"
+            ]
+          }
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "expectation_count": 6, 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "expectation_count": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $expectation_count"
+            }, 
+            {
+              "params": {
+                "expectation_count": 1, 
+                "expectation_type": "expect_column_values_to_be_between"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "expectation_count": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $expectation_count"
+            }, 
+            {
+              "params": {
+                "expectation_count": 1, 
+                "expectation_type": "expect_column_values_to_match_regex"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "expectation_count": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $expectation_count"
+            }, 
+            {
+              "params": {
+                "expectation_count": 1, 
+                "expectation_type": "expect_column_mean_to_be_between"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "expectation_count": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $expectation_count"
+            }, 
+            {
+              "params": {
+                "expectation_count": 1, 
+                "expectation_type": "expect_column_values_to_be_in_set"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "expectation_count": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $expectation_count"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "Age", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "Age (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "header": "Statistics", 
+          "table_rows": [
+            [
+              "Mean", 
+              "30.40"
+            ]
+          ], 
+          "content_block_type": "table", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "body": {
+              "classes": [
+                "table", 
+                "table-sm", 
+                "table-unbordered"
+              ]
+            }, 
+            "classes": [
+              "col-4"
+            ]
+          }
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }, 
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_mean_to_be_between"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }, 
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_values_to_be_between"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "Name", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "Name (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }, 
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_values_to_match_regex"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "PClass", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "PClass (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "value_list": [
+            {
+              "params": {
+                "value": "*"
+              }, 
+              "styling": {
+                "default": {
+                  "classes": [
+                    "badge", 
+                    "badge-info"
+                  ]
+                }
+              }, 
+              "template": "$value"
+            }
+          ], 
+          "header": "Example values", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "classes": [
+              "col-4"
+            ]
+          }, 
+          "content_block_type": "value_list"
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }, 
+            {
+              "params": {
+                "is_passing": "False", 
+                "expectation_type": "expect_column_values_to_be_in_set"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "Sex", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "Sex (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "SexCode", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "SexCode (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }, 
+    {
+      "section_name": "Survived", 
+      "content_blocks": [
+        {
+          "sub_header": "None", 
+          "header": "Survived (type: --)", 
+          "styling": {
+            "header": {
+              "classes": [
+                "alert", 
+                "alert-secondary"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ]
+          }, 
+          "content_block_type": "header"
+        }, 
+        {
+          "bullet_list": [
+            {
+              "params": {
+                "is_passing": "True", 
+                "expectation_type": "expect_column_to_exist"
+              }, 
+              "styling": {
+                "classes": [
+                  "list-group-item", 
+                  "d-flex", 
+                  "justify-content-between", 
+                  "align-items-center"
+                ], 
+                "params": {
+                  "is_passing": {
+                    "classes": [
+                      "badge", 
+                      "badge-secondary", 
+                      "badge-pill"
+                    ]
+                  }
+                }
+              }, 
+              "template": "$expectation_type $is_passing"
+            }
+          ], 
+          "header": "Expectation types <span class=\"mr-3 triangle\"></span>", 
+          "styling": {
+            "styles": {
+              "margin-top": "20px"
+            }, 
+            "header": {
+              "styles": {
+                "cursor": "pointer"
+              }, 
+              "attributes": {
+                "aria-controls": "collapseExample", 
+                "data-toggle": "collapse", 
+                "href": "#{{content_block_id}}-body", 
+                "role": "button", 
+                "aria-expanded": "true"
+              }, 
+              "classes": [
+                "collapsed"
+              ]
+            }, 
+            "classes": [
+              "col-12"
+            ], 
+            "body": {
+              "classes": [
+                "list-group", 
+                "collapse"
+              ]
+            }
+          }, 
+          "content_block_type": "bullet_list"
+        }
+      ]
+    }
+  ], 
+  "renderer_type": "DescriptivePageRenderer"
+}

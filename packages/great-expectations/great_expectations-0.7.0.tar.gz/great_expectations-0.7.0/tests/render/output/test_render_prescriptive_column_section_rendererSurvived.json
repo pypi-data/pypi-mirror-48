@@ -1,0 +1,42 @@
+{
+  "section_name": "Survived", 
+  "content_blocks": [
+    {
+      "header": "Survived", 
+      "content_block_type": "header"
+    }, 
+    {
+      "bullet_list": [
+        {
+          "params": {
+            "column": "Survived", 
+            "column_index": null
+          }, 
+          "styling": {
+            "default": {
+              "classes": [
+                "badge", 
+                "badge-secondary"
+              ]
+            }, 
+            "params": {
+              "column": {
+                "classes": [
+                  "badge", 
+                  "badge-primary"
+                ]
+              }
+            }
+          }, 
+          "template": "is a required field."
+        }
+      ], 
+      "styling": {
+        "classes": [
+          "col-12"
+        ]
+      }, 
+      "content_block_type": "bullet_list"
+    }
+  ]
+}
