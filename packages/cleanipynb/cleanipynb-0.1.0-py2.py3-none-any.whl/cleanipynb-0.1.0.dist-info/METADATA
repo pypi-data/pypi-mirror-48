@@ -1,0 +1,74 @@
+Metadata-Version: 2.0
+Name: cleanipynb
+Version: 0.1.0
+Summary: Cleanup imports in jupyter notebooks
+Home-page: https://github.com/i008/clean_ipynb
+Author: Jakub Cieslik
+Author-email: kubacieslik@gmail.com
+License: MIT license
+Keywords: clean_ipynb
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: jupytext
+Requires-Dist: importanize
+Requires-Dist: autoflake
+
+===========
+clean_ipynb
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/clean_ipynb.svg
+        :target: https://pypi.python.org/pypi/clean_ipynb
+
+.. image:: https://img.shields.io/travis/i008/clean_ipynb.svg
+        :target: https://travis-ci.org/i008/clean_ipynb
+
+.. image:: https://readthedocs.org/projects/clean-ipynb/badge/?version=latest
+        :target: https://clean-ipynb.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Cleanup imports in jupyter notebooks
+
+
+* Free software: MIT license
+* Documentation: https://clean-ipynb.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-07-02)
+------------------
+
+* First release on PyPI.
+
+
