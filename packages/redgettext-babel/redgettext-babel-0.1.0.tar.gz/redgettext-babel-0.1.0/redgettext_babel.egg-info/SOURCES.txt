@@ -1,0 +1,10 @@
+README.md
+redgettext_babel.py
+setup.cfg
+setup.py
+redgettext_babel.egg-info/PKG-INFO
+redgettext_babel.egg-info/SOURCES.txt
+redgettext_babel.egg-info/dependency_links.txt
+redgettext_babel.egg-info/entry_points.txt
+redgettext_babel.egg-info/requires.txt
+redgettext_babel.egg-info/top_level.txt
