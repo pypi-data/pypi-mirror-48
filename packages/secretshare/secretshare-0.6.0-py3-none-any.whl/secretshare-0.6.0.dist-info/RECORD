@@ -1,0 +1,9 @@
+secretshare/__init__.py,sha256=K4yhOnjrEOXbdH1WoWAkN8V5ZAa8dbA54KK2gYBvgqU,240
+secretshare/calc.py,sha256=gJHDLkBls80vnl07Xf6PIhA9bfN5Gj8XVeQcjEHBevw,5692
+secretshare/primes.py,sha256=aBNrIE3GF6st38uJ7hilhU4cEL3jgXF1Z1-ATocDjSc,9035
+secretshare/secretshare.py,sha256=ODJplyAuh3Ly5wYv1V7isaaGiZpPmpGbOcQELlMuNIs,15876
+secretshare-0.6.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+secretshare-0.6.0.dist-info/METADATA,sha256=CLZT8rts2N4ZT5lzlaPMgoBdzIXSS267A-XPRABDFAM,6712
+secretshare-0.6.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+secretshare-0.6.0.dist-info/top_level.txt,sha256=Pkq6vIoiJ-K89VMJtTz9BHU2JrrTLOylQzxI0C1cTuQ,12
+secretshare-0.6.0.dist-info/RECORD,,
