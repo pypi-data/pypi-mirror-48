@@ -1,0 +1,167 @@
+# Intro
+
+Settings cascade is designed for situations where you need to merge
+configuration settings from different hierarchical sources. The model
+is the way that CSS cascades onto elements.
+
+## Getting Started
+
+Your config will have 2  things- selectors and rules. Each section
+of rules will be associated with a selector, and then when your app
+tries to look up a rule, the most specific rule whose selector matches
+the current context will be returned. Consider
+
+.env:
+	val_a = "a"
+
+class.env:
+	val_a = "b"
+	
+If you try to look up "val_a" from the context "module.env" it would
+return "a", while from context "class.env" it would return "b". A rule
+section must match ALL elements of the context to be used, but not all
+elements of the context need to be used in the selector.
+
+The rule sections are loaded from a dictionary (which can be created 
+from any file type you like, json, yaml, toml... whatever). This happens
+by creating a ConfigManager
+
+```python
+from pathlib import Path
+from toml import loads
+from settingscascade import ConfigManager
+
+# Levels is a list of valid "element" identifiers in your config
+# any key that doesn't appear hear will be treated as rule. Elements
+# ordering has no special meaning, and they can be nested in any order
+# or depth in the context or rule selectors
+levels = {"environment", "task"}
+
+# data must be a dictionary or a list of dictionaries
+data =  loads(Path("pyproject.toml").read_text())
+config = ConfigManager(data, levels)
+```
+
+## Data format
+
+The data is then read based on the keys in the dictionary(s). Each key
+will look up element names using the key. There are two different
+ways to add classifiers or ids- first, you can just add them directly
+as though it were css. The toml file below has four sections. The specifiers
+are read as `environment`, `.prod`, `environment.prod`, 
+`environment.prod task`. This winds up working exactly like CSS, and is
+the most obvious way to use this library.
+
+```toml
+[environment]
+setting_a = "outer"
+
+[".prod"]
+some_setting = "production"
+
+["environment.prod"]
+	name = "default_task"
+	task_setting = "less"
+["environment.prod".task]
+	setting_a = "inner"
+```
+
+If for whatever reason adding the extra info to the keys isn't possible,
+the library will look for magic names `_name_` and `_id_` to pull them
+from the object. Below, the selector for section 2 would be 
+`tasks.default_task`
+
+```toml
+[environment]
+setting_a = "outer"
+
+[[task]]
+	_name_ = "default_task"
+	task_setting = "less"
+	[task.environment]
+		setting_a = "inner"
+
+[[task]]
+task_setting = "more"
+
+```
+Note there are two special cases to consider from the previous
+example. The first is a list of dictionaries (like `task`). In
+this case the library will use the key of the list to build the
+selector for each element of the list. In this case it would be
+`task.default_task` and `task` respectively. The other is that
+the second list there has no _name_ variable, so will just get
+the selector from the list- if there were more then one item in
+that list with the same situation, they would override each other.
+
+## Accessing Config values
+
+Once the data is loaded, it can be accessed anywhere in your
+application by just accessing the attribute on your config
+object.
+```python
+var = config.my_var
+```
+
+That would use an empty selector for the searchso would only match
+rules from the root context. If you wanted settings from further
+down the tree, you set the context to search in first-
+
+```python
+with config.context("task.default_task environment"):
+	assert config.setting_a == "inner"
+```
+
+## Jinja templating
+Any string value returned from your config will be run through
+a Jinja2 template resolver before being returned. Any missing
+variables in the templates will be looked up in the config
+using the current context.
+
+```python
+config = ConfigManager({
+	"basic": "Var {{someval}}",
+	"someval": "default", 
+	"task": {"someval": "override"}
+}, {"task"})
+
+config.basic == "Var default"
+with config.context("task"):
+	config.basic == "Var override"
+
+```
+This could allow you to be more flexible when merging data from
+multiple sources such as default, org, and user level config files.
+You can even add custom filters to the environment such as
+```python
+config = ConfigManager({
+	"myval": "{{ (1, 3) | add_two_numbers }}"
+})
+config.add_filter("add_two_numbers", lambda tup: tup[0] + tup[1])
+config.myval == "4"
+```
+
+## Detailed config to selector rules:
+Parse map into selector/ruleset
+! Any key that is not an element is considered to be a rule !
+There are two more special keynames - _name_ and _id_. If these
+are contained in a map, they update the selector of the parent
+key
+
+`keyname`
+"keyname": {...
+
+`keyname.typename`
+"keyname.typename": {...
+
+`keyname.typename`
+"keyname": {"_name_": "typename, ...
+
+`keyname#id`
+"keyname": {"_id_": "id", ...
+
+`keyname.typename`
+"keyname": [{"_name_": "typename", ...
+
+`keyname otherkeyname.nestedname`
+"keyname": {"otherkeyname": {"_name_": "nestedname", ...
