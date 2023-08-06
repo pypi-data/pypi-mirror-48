@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: fdn-kg-loader
+Version: 0.14.2
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Restricted License, FDN license
+Platform: UNKNOWN
+Requires-Dist: pandas
+Requires-Dist: grpcio
+Requires-Dist: protobuf
+Requires-Dist: grakn
+Requires-Dist: grakn-client
+Requires-Dist: click
+Requires-Dist: six
+
+TESTING :
+
+from root directory run : 
+
+requirements : 
+**should get the server ready**
+
+```
+python3 -m unittest discover -t .
+```
+
