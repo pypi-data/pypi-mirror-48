@@ -1,0 +1,13 @@
+pyclustertend/__init__.py,sha256=uItpbdOad9UzAMfU7rZfqwbD5hhV32B4VZ1tjjvNUYU,132
+pyclustertend/version.py,sha256=vYAXSAKFHjr18WUabWqvX4id7N9ZwieAtfeDiB5zHsI,22
+pyclustertend/metrics/__init__.py,sha256=tdVkyIb9kiaZA_PYV_ZhG3pGewCQyLKZWsNojgLJZaw,45
+pyclustertend/metrics/hopkins.py,sha256=qhfOmMVyRGF595QiVIsEYvT3hCoiCBRc5u89BDZZK1I,1906
+pyclustertend/visuals/VAT.py,sha256=w8dkwmhvrMB1tEOwTu8HjpOGJOy6ywDCqpWjBkHACXU,1811
+pyclustertend/visuals/__init__.py,sha256=IIWr6b97Y3cAEQkycWgDSlhBzr1aQlxiloxRlfWrS4E,38
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/metrics_test.py,sha256=bDOjJ_uQDsTj3qLS4QK4oAo2ZNGWhATpOD6nXjWKTtk,667
+pyclustertend-1.2.0.dist-info/LICENSE,sha256=Ms8zYu84P4MydHwlDe5Yo_4qxmaDDyVR9JjKreyP9CA,1523
+pyclustertend-1.2.0.dist-info/METADATA,sha256=ec3lHhyXQqg_aJBrVCvYzFolqRgQXe7_0W_sO5XXEC8,1372
+pyclustertend-1.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyclustertend-1.2.0.dist-info/top_level.txt,sha256=7U2Tw5iW5gBpm0seo8X1U0XMf2r6bEn11ArHniui6R4,20
+pyclustertend-1.2.0.dist-info/RECORD,,
