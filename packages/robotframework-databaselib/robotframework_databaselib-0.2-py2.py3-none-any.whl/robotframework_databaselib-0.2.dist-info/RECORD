@@ -1,0 +1,11 @@
+DatabaseLib/__init__.py,sha256=uTjXJml_201atDI1uoa3LqxMkyKzxitqNfJ4MoXIBgA,110
+DatabaseLib/library.py,sha256=HoV0A8TD3tiIEZDHBibOOB6j_nS3l6VtPIqZEywf60U,7642
+DatabaseLib/version.py,sha256=si_UpHLlN54ZMAXbNsSm_0Pay_2uGfM9_FCF0yF3JK4,94
+DatabaseLib/base/__init__.py,sha256=EYONUEkMFXki8Fn3bV-kpbuYe7I0XOnc8CAmJx4Pe7Q,148
+DatabaseLib/base/robotlibcore.py,sha256=nDMNFuaG9KXfxvILqLwAF5OSJt1S6LoVjCEiyDw_C9w,5409
+robotframework_databaselib-0.2.dist-info/DESCRIPTION.rst,sha256=glJxCfHFmwY450G9W1Goh6arygGzX12EBDxpKXElVAc,59
+robotframework_databaselib-0.2.dist-info/METADATA,sha256=AzQ4Djg7f_n0dNCOrs_DwAigxg6ZgAXGJUm0DIT1fl8,800
+robotframework_databaselib-0.2.dist-info/RECORD,,
+robotframework_databaselib-0.2.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+robotframework_databaselib-0.2.dist-info/metadata.json,sha256=WICG8C-KIcIAptJi12rlsV9Qs8F_bwyAQYLeSlGuYno,916
+robotframework_databaselib-0.2.dist-info/top_level.txt,sha256=BO8b_ive4fNmP--nf59Y5gk1JfQAn_VIgB4tqRUT6hw,12

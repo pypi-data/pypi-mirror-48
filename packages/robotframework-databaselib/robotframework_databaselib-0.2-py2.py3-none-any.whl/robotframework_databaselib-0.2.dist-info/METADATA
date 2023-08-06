@@ -1,0 +1,23 @@
+Metadata-Version: 2.0
+Name: robotframework-databaselib
+Version: 0.2
+Summary: Database Library for Robot Framework based on sqlalchemy
+Home-page: https://github.com/rainmanwy/robotframework-DatabaseLib
+Author: Wang Yang
+Author-email: wang_yang1980@hotmail.com
+License: UNKNOWN
+Keywords: robotframework testing testautomation
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Classifier: Framework :: Robot Framework
+Classifier: Framework :: Robot Framework :: Library
+Requires-Dist: sqlalchemy (>=1.2.9)
+Requires-Dist: robotframework (>=3.0.4)
+Requires-Dist: sqlparse (>=0.2.4)
+
+Database Library for Robot Framework based on sqlalchemy
+
+
