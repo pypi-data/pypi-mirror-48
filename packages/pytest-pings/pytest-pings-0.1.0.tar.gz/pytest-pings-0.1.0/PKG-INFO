@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: pytest-pings
+Version: 0.1.0
+Summary: 🦊 The pytest plugin for Firefox Telemetry 📊
+Home-page: https://github.com/hackebrot/pytest-pings
+Author: Benjamin Forehand Jr, Raphael Pierzina
+Maintainer: Benjamin Forehand Jr, Raphael Pierzina
+License: Mozilla Public License 2.0
+Project-URL: Repository, https://github.com/hackebrot/pytest-pings
+Project-URL: Issues, https://github.com/hackebrot/pytest-pings/issues
+Description: # pytest-pings
+        
+        🦊 The pytest plugin for Firefox Telemetry 📊
+        
+        ## Development
+        
+        🚧 This project is under active development. Do not use it in production. ⚠️
+        
+        ## Community
+        
+        Please note that **pytest-pings** is released with a [Contributor Code of
+        Conduct][code of conduct]. By participating in this project you agree to
+        abide by its terms.
+        
+        [code of conduct]: https://github.com/hackebrot/pytest-pings/blob/master/.github/CODE_OF_CONDUCT.md
+        
+        ## License
+        
+        This project is distributed under the terms of the [Mozilla Public License
+        2.0][license].
+        
+        [license]: https://github.com/hackebrot/pytest-pings/blob/master/LICENSE
+        
+Keywords: pytest,firefox telemetry
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Testing
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

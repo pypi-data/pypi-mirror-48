@@ -1,0 +1,3 @@
+[pytest11]
+pings = pytest_pings.plugin
+

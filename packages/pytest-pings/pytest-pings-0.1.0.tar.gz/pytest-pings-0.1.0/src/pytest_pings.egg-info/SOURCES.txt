@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/pytest_pings/__init__.py
+src/pytest_pings/plugin.py
+src/pytest_pings.egg-info/PKG-INFO
+src/pytest_pings.egg-info/SOURCES.txt
+src/pytest_pings.egg-info/dependency_links.txt
+src/pytest_pings.egg-info/entry_points.txt
+src/pytest_pings.egg-info/not-zip-safe
+src/pytest_pings.egg-info/requires.txt
+src/pytest_pings.egg-info/top_level.txt
