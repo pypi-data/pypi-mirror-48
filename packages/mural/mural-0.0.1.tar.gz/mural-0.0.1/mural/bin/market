@@ -1,0 +1,33 @@
+#!/usr/bin/env python
+import sys
+sys.path.insert(0,'../')
+try:
+    from Market import Market
+    from Business import Business
+except:
+    from .Market import Market
+    from .Business import Business
+
+import argparse
+from pymongo import MongoClient
+from getpass import getpass
+from PyInquirer import style_from_dict, Token, prompt, Separator,Validator, ValidationError
+
+parser = argparse.ArgumentParser(description='Utility used to view the property of a market.')
+parser.add_argument('name', metavar='name', type=str, nargs='*', help="The name of a market.")
+if len(sys.argv)==1:
+    markets=[n['name'] for n in Market.all()]
+    questions=[
+        {
+            'type': 'list',
+            'name': 'name',
+            'message': 'What is the name of the market you would like to look up?',
+            'choices': markets,
+        },
+    ]
+    answers=prompt(questions)
+    name=answers['name']
+    Market.load(name).display()
+else:
+    args=parser.parse_args()
+    Market.load(' '.join(args.name)).display()
