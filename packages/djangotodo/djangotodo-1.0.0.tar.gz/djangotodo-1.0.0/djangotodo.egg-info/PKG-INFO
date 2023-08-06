@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: djangotodo
+Version: 1.0.0
+Summary: A sample Python project
+Home-page: https://pypi.org/manage/projects/djangotodo/
+Author: Kenneth Mathenge
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # mathenge project
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6

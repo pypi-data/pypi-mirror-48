@@ -1,0 +1,7 @@
+README.md
+setup.py
+djangotodo.egg-info/PKG-INFO
+djangotodo.egg-info/SOURCES.txt
+djangotodo.egg-info/dependency_links.txt
+djangotodo.egg-info/requires.txt
+djangotodo.egg-info/top_level.txt
