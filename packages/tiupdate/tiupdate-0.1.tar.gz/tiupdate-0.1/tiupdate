@@ -1,0 +1,6 @@
+#!/usr/bin/env python
+import os
+script = """
+sudo unattended-upgrade -d --dry-run
+"""
+os.system("bash -c '%s'" % script)

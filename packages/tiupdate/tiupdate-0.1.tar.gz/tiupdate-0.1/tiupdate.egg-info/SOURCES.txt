@@ -1,0 +1,6 @@
+setup.py
+tiupdate
+tiupdate.egg-info/PKG-INFO
+tiupdate.egg-info/SOURCES.txt
+tiupdate.egg-info/dependency_links.txt
+tiupdate.egg-info/top_level.txt
