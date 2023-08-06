@@ -1,0 +1,13 @@
+buildbot_macports_custom_views/VERSION,sha256=axN4nkPlSFY0Uz3hamXYup00xMl1hYi2ZYBUNfgOsRU,5
+buildbot_macports_custom_views/__init__.py,sha256=AtCkwKxhJvd58KocqpiIOIAEAdur0gl70Fe-mdtFPnY,160
+buildbot_macports_custom_views/static/scripts.js,sha256=u3q6-o86Olb4IZtJengTU5cQaW4bSBI2EIk0NFFO4d8,351300
+buildbot_macports_custom_views/static/scripts.js.map,sha256=cYSuEyogFkCELr72JrTWTo7-tP6UNRZAAgs2v9L9BRg,1939901
+buildbot_macports_custom_views/static/styles.css,sha256=s_CHUiSPkJJEmJ9Hh0UDsZ0oNbLDzCjjKdD1gI9DIaY,208
+buildbot_macports_custom_views/static/styles.css.map,sha256=jFq0WFIz14iJWzRkNKBkw4TPU6NErPcEuiWP7mXd-9s,382
+buildbot_macports_custom_views/static/styles.js,sha256=DZa52_X44NiEcrGDC2qeIE7FhEZTzLOsusrJV15WuQU,971
+buildbot_macports_custom_views/static/styles.js.map,sha256=7TuahV5sqHZdHLrwimgQhTRhcW9sFYcgcXU2JlCcDeY,4524
+buildbot_macports_custom_views-0.0.1.dist-info/METADATA,sha256=w2yYf4H1CA4q4Pb7PFSyUk1MFHzAQ6xyPRCu2xra_BA,357
+buildbot_macports_custom_views-0.0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+buildbot_macports_custom_views-0.0.1.dist-info/entry_points.txt,sha256=Ii72K2woVqHGLwAY-pYRioWjhjpo32AdEEGJR32GPMM,103
+buildbot_macports_custom_views-0.0.1.dist-info/top_level.txt,sha256=n_v28dY17pRnBLKDP-6RIRu4XX-HgtAQempDd-t9NUw,31
+buildbot_macports_custom_views-0.0.1.dist-info/RECORD,,
