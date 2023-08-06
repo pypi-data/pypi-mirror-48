@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: adsl2
+Version: 0.0.2
+Summary: pppoe
+Home-page: https://pypi.org/project/adsl2/
+Author: sun
+Author-email: syw1894@163.com
+License: UNKNOWN
+Description: pppoe
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Utilities
