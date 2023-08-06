@@ -1,0 +1,8 @@
+numpy
+glue-core>=0.12
+pydicom
+
+[test]
+pytest
+pytest-cov
+pytest-faulthandler
