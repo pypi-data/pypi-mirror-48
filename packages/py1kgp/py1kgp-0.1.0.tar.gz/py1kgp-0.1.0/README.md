@@ -1,0 +1,41 @@
+# py1kgp
+
+Utilities for working with 1000 Genomes data
+
+## Installation
+
+First make sure you have followed the installation procedure for
+[pydbsnp](https://github.com/anthony-aylward/pydbsnp). Then install `py1kgp`
+with `pip3`:
+
+```sh
+pip3 install py1kgp
+```
+or
+```sh
+pip3 install --user py1kgp
+```
+
+For full functionality, you should appropriately set the environment variable
+`PY1KGP_DIR`. For example, you could add this to your `.bash_profile`:
+
+```bash
+export PY1KGP_DIR=<path to directory of your choice>
+```
+
+## Examples
+
+```python
+import py1kgp
+py1kgp.Variant('rs10')
+py1kgp.Variant(id='rs10')
+py1kgp.Variant(7, 92383888)
+py1kgp.Variant(chrom=7, pos=92383888)
+py1kgp.fast_genotypes(7, 92383888)
+py1kgp.fast_genotypes(7, 92383888, samples='NA21142,NA21143,NA21144')
+py1kgp.fast_maf(7, 92383888)
+py1kgp.slice_vcf(1, 1000000, 2000000)
+py1kgp.slice_vcf(1, 1000000, 2000000, samples='NA21142,NA21143,NA21144')
+py1kgp.slice_vcf(1, 1000000, 2000000, samples='AFR')
+py1kgp.slice_vcf(1, 1000000, 2000000, samples='samples.panel')
+```
