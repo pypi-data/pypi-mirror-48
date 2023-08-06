@@ -1,0 +1,9 @@
+TurboGears2>=2.1
+formencode
+beaker
+future
+
+[testing]
+sqlalchemy
+ming
+nose
