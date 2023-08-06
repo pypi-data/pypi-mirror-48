@@ -1,0 +1,15 @@
+qmk_cli/__init__.py,sha256=nqftnTbIjLBh6RWGed5-B1D9WHD3BwyGNzj07o8ygME,75
+qmk_cli/doctor.py,sha256=ur4-ZR1ie6ewfP8lzCQVEGNvYrVvR_9BHIOdnbr2w_I,2397
+qmk_cli/git.py,sha256=sA_Q33pDEbn1NyhfBPtHRi-9OyDM6DpeX4so4CO1_BY,844
+qmk_cli/helpers.py,sha256=jdpwonosrJsSWhEwdB6FPpnCuzSRK7B406fWNhdQbLM,905
+qmk_cli/milc.py,sha256=PoV2Lcn_ARlSXxbpQ2x7kbTvnOWybmLLhKTbrUekJro,25006
+qmk_cli/script_qmk.py,sha256=xsvOvxSzPlBY-FQLWp259ovTmU1UWJw7j_C2Hwduwc4,3493
+qmk_cli/subcommands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+qmk_cli/subcommands/clone.py,sha256=8eqGdGdiT6Q3-mEFhREtkzaGd43nt3JqwLRo8W9XYxE,1024
+qmk_cli/subcommands/doctor.py,sha256=RCJqXTkniNWKEpUUmAP6quIrFbWB0NP0i2egc21eMpE,2927
+qmk_cli/subcommands/setup.py,sha256=hNEsQVnUSFVpH_wa90w3Kpu0Sy9CJB2tpbn3C1vODDg,2077
+qmk-0.0.4.dist-info/entry_points.txt,sha256=b-ng0SbL49oW0chapXDCliW4NFbLiNni-mjD-ToE0_M,47
+qmk-0.0.4.dist-info/LICENSE,sha256=3LPZuhhBM7kMJEYQDC_h0FjzGuzLcc5wfU4Ke-Sr798,1060
+qmk-0.0.4.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+qmk-0.0.4.dist-info/METADATA,sha256=c8zRKajSRFJcCxetnmyOOz1qo1HnFkmcwV2XAQx1gC8,1292
+qmk-0.0.4.dist-info/RECORD,,
