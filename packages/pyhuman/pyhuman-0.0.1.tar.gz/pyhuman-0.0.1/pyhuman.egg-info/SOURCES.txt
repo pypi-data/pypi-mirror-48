@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+setup.py
+pyhuman/__init__.py
+pyhuman.egg-info/PKG-INFO
+pyhuman.egg-info/SOURCES.txt
+pyhuman.egg-info/dependency_links.txt
+pyhuman.egg-info/top_level.txt
