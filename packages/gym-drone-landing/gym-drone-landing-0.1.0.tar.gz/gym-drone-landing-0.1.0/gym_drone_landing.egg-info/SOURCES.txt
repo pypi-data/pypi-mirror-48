@@ -1,0 +1,7 @@
+README.md
+setup.py
+gym_drone_landing.egg-info/PKG-INFO
+gym_drone_landing.egg-info/SOURCES.txt
+gym_drone_landing.egg-info/dependency_links.txt
+gym_drone_landing.egg-info/top_level.txt
+gym_drone_landing/core/core.cpp
