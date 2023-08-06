@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+jupyter-interval-widget.json
+setup.cfg
+setup.py
+jupyter_interval_widget/__init__.py
+jupyter_interval_widget/_version.py
+jupyter_interval_widget/interval.py
+jupyter_interval_widget.egg-info/PKG-INFO
+jupyter_interval_widget.egg-info/SOURCES.txt
+jupyter_interval_widget.egg-info/dependency_links.txt
+jupyter_interval_widget.egg-info/not-zip-safe
+jupyter_interval_widget.egg-info/requires.txt
+jupyter_interval_widget.egg-info/top_level.txt
+jupyter_interval_widget/static/extension.js
+jupyter_interval_widget/static/index.js
+jupyter_interval_widget/static/index.js.map
