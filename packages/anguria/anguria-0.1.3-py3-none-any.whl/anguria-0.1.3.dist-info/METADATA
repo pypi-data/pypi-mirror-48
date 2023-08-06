@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: anguria
+Version: 0.1.3
+Summary: Specrun report smart parser
+Home-page: https://github.com/Maxim-Antakov/anguria
+Author: Maxim Antakov
+Author-email: maxim.antakov@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# anguria - Specrun Report Smart Parser
+
+Python solution to convert Specrun XML report to dictionary for further analysis
+
+
