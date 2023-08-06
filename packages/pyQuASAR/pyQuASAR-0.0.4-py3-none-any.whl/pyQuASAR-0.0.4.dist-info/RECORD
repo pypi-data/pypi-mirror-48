@@ -1,0 +1,11 @@
+pyQuASAR/QuASAR_genotype.R,sha256=655zKz_oEApIknxBWVF-qaBmFwy0-FXo6vGP8Bgg_ro,1194
+pyQuASAR/__init__.py,sha256=n2YQdCw99JMgwoA9Pr7GJou5fyoE6BvD903qb1S_aco,253
+pyQuASAR/download.py,sha256=HlWyfdYutpQOdKqFnnKPH7-y0gB0Qhm-q4nASGoTELU,2429
+pyQuASAR/env.py,sha256=GGNNKa5vky2iI-6AUMGhrgG-ZXnQkPzqyW_Em2Jon3Y,532
+pyQuASAR/pyQuASAR.py,sha256=8tLHZERvNnfOavko_065izDD7hYOtNjN3UGPW2YfPK0,8211
+pyQuASAR-0.0.4.dist-info/LICENSE,sha256=1m275erGaOOqdpGpvPY5-TybTHDRleKM56Z97aFqx-g,1073
+pyQuASAR-0.0.4.dist-info/METADATA,sha256=tmrm-lUQOsygj7rq8eEencNQxXP-ikq4LKW3vdcMUD4,742
+pyQuASAR-0.0.4.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pyQuASAR-0.0.4.dist-info/entry_points.txt,sha256=zeN3NDpqZzydWlsSxdubCdhwFbcUFljMN4JS8dCNSlA,62
+pyQuASAR-0.0.4.dist-info/top_level.txt,sha256=KVPqtWeeA8ORO3IjM0GPbCbfSodJyMvAW72cQhgWel4,9
+pyQuASAR-0.0.4.dist-info/RECORD,,
