@@ -1,0 +1,11 @@
+README.md
+setup.py
+pysintegrabanco/__init__.py
+pysintegrabanco/banco_do_brasil.py
+pysintegrabanco/santander.py
+pysintegrabanco.egg-info/PKG-INFO
+pysintegrabanco.egg-info/SOURCES.txt
+pysintegrabanco.egg-info/dependency_links.txt
+pysintegrabanco.egg-info/not-zip-safe
+pysintegrabanco.egg-info/requires.txt
+pysintegrabanco.egg-info/top_level.txt
