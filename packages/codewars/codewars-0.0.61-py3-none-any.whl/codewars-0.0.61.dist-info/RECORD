@@ -1,0 +1,12 @@
+codewars/__init__.py,sha256=ILvhzCNt7bje3_ovw4ZbvRs8dN4lDMRNn7rXgqyfwrQ,48
+codewars/bluetooth/__init__.py,sha256=noFJ5FwJLXZiUaeSv6NRT8ae4KeepTiPmrPgWp9Dz6c,5320
+codewars/logger/__init__.py,sha256=rsLA8xHr8O76U-6TxBS4jRvnS_0GKYOEWSsAiom7TIQ,4797
+codewars/surf/__init__.py,sha256=oXqjDVgM6o0Wnssy7vC9H6xUycKyrKJQApFjCIQKGcA,6770
+codewars/unittest/__init__.py,sha256=g8F9QeOIGPAIKYtwzywQJAwoOLTbti6_2DSjgMWvL0E,1125
+codewars/unittest/testSurf.py,sha256=Plh4UZ5-ew1dNOlBMx00RqMzze-heHNQXQTGZ1juXEU,5171
+codewars/wifi/__init__.py,sha256=bGXht87cYsYoneokVaPqqhW37R2q3tY8SR4m6KG-ZEU,4422
+codewars-0.0.61.dist-info/LICENSE,sha256=S4nUUYvRNatO4VSnvOciJGtXqYw9fvwaCUCYmBYMK9E,16724
+codewars-0.0.61.dist-info/METADATA,sha256=i1M3HAp-b6_yLM5oToKO1oUJMqO2qSDUqMH6qmPwDXE,3372
+codewars-0.0.61.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+codewars-0.0.61.dist-info/top_level.txt,sha256=KXzpy2H860N8q2Iin97lYjBz02yBEFvUNot5_3cNRB4,9
+codewars-0.0.61.dist-info/RECORD,,
