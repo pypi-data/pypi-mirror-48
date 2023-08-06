@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: smrt
+Version: 1.0.2
+Summary: The Snow Microwave Radiative Transfer (SMRT) model is a highly modular model to compute the thermal emission of snowpacks and other cryospheric bodies in the microwave domain.
+Home-page: https://www.smrt-model.science/
+Author: Ghislain Picard
+Author-email: ghislain.picard@univ-grenoble-alpes.fr
+Requires-Python: >=3.5
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: numpy (>=1.13)
+Requires-Dist: pandas (>=0.20.3)
+Requires-Dist: scipy (>=1.0.0)
+Requires-Dist: six (>=1.0)
+Requires-Dist: xarray (>=0.10.3)
+Project-URL: Documentation, http://smrt.readthedocs.io/
+Project-URL: Repository, https://github.com/smrt-model/smrt
