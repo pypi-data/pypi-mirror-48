@@ -1,0 +1,101 @@
+Metadata-Version: 2.1
+Name: crlint
+Version: 0.1.2
+Summary: The project copyright linter
+Home-page: https://bitbucket.org/celadonteam/crtool
+Author: Celadon Developers
+Author-email: opensource@celadon.ae
+License: MIT
+Platform: any
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+# Project copyright linter
+A small utility to maintain the copyright status of a project in the correct state.
+
+## Copyright format
+* Python copyright format:
+```python
+# Copyright (c) 20XX Celadon Development LLC, All rights reserved.
+# Author Name Surname <name.surname@celadon.ae>
+```
+* JavaScript copyright format:
+```js
+// Copyright (c) 20XX Celadon Development LLC, All rights reserved.
+// Author Name Surname <name.surname@celadon.ae>
+```
+
+## Installation
+* install package via pip toolkit: `pip install crtool`
+* configure utility use one of [two available methods](##configuration)
+* run the project copyright linting: `crtool`
+
+## Configuration
+Configuration settings are applied in two ways: by `setup.cfg` file or `.crlintrc` file.
+The `setup.cfg` file has more high priority.
+To set an exclusion pattern to ignore some file formats, use a unix pattern written in one of the files you selected.
+
+* configuration utility in the `setup.cfg` file must have such format:
+```
+[crlint]
+patterns=*.json, *.txt
+```
+* configuration utility in the `.crlintrc` file must have such format:
+```
+[ignore]
+patterns=*.json, *.txt
+```
+
+## Integration with Bitbucket CI:
+Add such step in your `bitbucket-pipelines.yml` file to run checking a project copyright:
+```yml
+pipelines:
+  default:
+    - step:
+        name: Linting copyright
+        image: python:3.7.2
+        script:
+          - pip install crtool
+          - crlint
+```
+
+## Update pip package
+* Login to the PiPy repository
+* Increase version in the setup file
+* Create a python package dist
+* Update package on the PyPi repository
+```bash
+# Create a package dist.
+python setup.py sdist bdist_wheel
+
+# Upload package to repository.
+pip install twine
+twine upload -u $CT_PYPI_USERNAME -p $CT_PYPI_PASSWORD  dist/*
+```
+
+## Development
+Setup git hook to linting the project before commit.
+```bash
+chmod a+x pre-commit && cp pre-commit .git/hooks
+```
+
+To run the test and verify the code, follow the commands below:
+```bash
+# To run the project linting.
+flake8 crlint tests
+
+# To run the project testing.
+python -m coverage run -m unittest discover tests/
+python -m coverage report -m
+```
+
+
