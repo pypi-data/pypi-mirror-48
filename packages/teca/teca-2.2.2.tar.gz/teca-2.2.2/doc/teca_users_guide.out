@@ -1,0 +1,34 @@
+\BOOKMARK [0][-]{chapter.1}{Installation}{}% 1
+\BOOKMARK [1][-]{section.1.1}{Install the Binary Distribution}{chapter.1}% 2
+\BOOKMARK [1][-]{section.1.2}{Build and Install from Sources}{chapter.1}% 3
+\BOOKMARK [2][-]{subsection.1.2.1}{Installing from Source}{section.1.2}% 4
+\BOOKMARK [2][-]{subsection.1.2.2}{Installing from a Package Manager}{section.1.2}% 5
+\BOOKMARK [2][-]{subsection.1.2.3}{Validating the Install}{section.1.2}% 6
+\BOOKMARK [0][-]{chapter.2}{TECA Applications}{}% 7
+\BOOKMARK [1][-]{section.2.1}{Tropical Cyclone Detector}{chapter.2}% 8
+\BOOKMARK [2][-]{subsection.2.1.1}{Command Line Arguments}{section.2.1}% 9
+\BOOKMARK [2][-]{subsection.2.1.2}{Example}{section.2.1}% 10
+\BOOKMARK [1][-]{section.2.2}{Tropical Cyclone Trajectories}{chapter.2}% 11
+\BOOKMARK [2][-]{subsection.2.2.1}{Command Line Arguments}{section.2.2}% 12
+\BOOKMARK [2][-]{subsection.2.2.2}{Example}{section.2.2}% 13
+\BOOKMARK [1][-]{section.2.3}{TC Wind Radii}{chapter.2}% 14
+\BOOKMARK [2][-]{subsection.2.3.1}{Command Line Arguments}{section.2.3}% 15
+\BOOKMARK [2][-]{subsection.2.3.2}{Example}{section.2.3}% 16
+\BOOKMARK [1][-]{section.2.4}{Tropical Cyclone Statistics}{chapter.2}% 17
+\BOOKMARK [2][-]{subsection.2.4.1}{Command Line Arguments}{section.2.4}% 18
+\BOOKMARK [2][-]{subsection.2.4.2}{Analysis}{section.2.4}% 19
+\BOOKMARK [2][-]{subsection.2.4.3}{Example}{section.2.4}% 20
+\BOOKMARK [1][-]{section.2.5}{TC Trajectory Scalars}{chapter.2}% 21
+\BOOKMARK [2][-]{subsection.2.5.1}{Command Line Arguments}{section.2.5}% 22
+\BOOKMARK [2][-]{subsection.2.5.2}{Example}{section.2.5}% 23
+\BOOKMARK [1][-]{section.2.6}{TC Wind Radii Stats}{chapter.2}% 24
+\BOOKMARK [2][-]{subsection.2.6.1}{Command Line Arguments}{section.2.6}% 25
+\BOOKMARK [2][-]{subsection.2.6.2}{Example}{section.2.6}% 26
+\BOOKMARK [1][-]{section.2.7}{Event Filter}{chapter.2}% 27
+\BOOKMARK [2][-]{subsection.2.7.1}{Command Line Arguments}{section.2.7}% 28
+\BOOKMARK [2][-]{subsection.2.7.2}{Example}{section.2.7}% 29
+\BOOKMARK [0][-]{chapter.3}{Python}{}% 30
+\BOOKMARK [1][-]{section.3.1}{Pipeline Construction, Configuration and Execution}{chapter.3}% 31
+\BOOKMARK [1][-]{section.3.2}{Algorithm Development}{chapter.3}% 32
+\BOOKMARK [2][-]{subsection.3.2.1}{Working with TECA's Data Structures}{section.3.2}% 33
+\BOOKMARK [2][-]{subsection.3.2.2}{NetCDF CF Reader Metadata}{section.3.2}% 34

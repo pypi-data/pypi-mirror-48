@@ -1,0 +1,60 @@
+\hypertarget {toc}{}
+\contentsline {chapter}{\numberline {1}Installation}{3}{chapter.1}
+\contentsline {section}{\numberline {1.1}Install the Binary Distribution}{3}{section.1.1}
+\contentsline {section}{\numberline {1.2}Build and Install from Sources}{3}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Installing from Source}{3}{subsection.1.2.1}
+\contentsline {subsubsection}{\nonumberline List of Dependencies}{3}{section*.2}
+\contentsline {subsubsection}{\nonumberline Using the Superbuild}{3}{section*.3}
+\contentsline {paragraph}{\nonumberline Mac OS.}{4}{section*.4}
+\contentsline {paragraph}{\nonumberline Using the install.}{4}{section*.5}
+\contentsline {subsection}{\numberline {1.2.2}Installing from a Package Manager}{4}{subsection.1.2.2}
+\contentsline {subsubsection}{\nonumberline Using apt on Ubuntu 14.04}{4}{section*.6}
+\contentsline {subsubsection}{\nonumberline Using brew on Apple Mac OS Yosemite}{4}{section*.7}
+\contentsline {subsubsection}{\nonumberline Installing TECA}{5}{section*.8}
+\contentsline {paragraph}{\nonumberline Obtaining the Sources}{5}{section*.9}
+\contentsline {paragraph}{\nonumberline Compiling TECA}{5}{section*.10}
+\contentsline {paragraph}{\nonumberline Ubuntu 14.04}{5}{section*.11}
+\contentsline {paragraph}{\nonumberline Apple Mac OS Yosemite}{6}{section*.12}
+\contentsline {subsubsection}{\nonumberline Configuring the Environment}{6}{section*.13}
+\contentsline {paragraph}{\nonumberline Ununtu 14.04}{6}{section*.14}
+\contentsline {paragraph}{\nonumberline Apple Mac OS Yosemite}{6}{section*.15}
+\contentsline {subsection}{\numberline {1.2.3}Validating the Install}{6}{subsection.1.2.3}
+\contentsline {chapter}{\numberline {2}TECA Applications}{8}{chapter.2}
+\contentsline {section}{\numberline {2.1}Tropical Cyclone Detector}{8}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Command Line Arguments}{8}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Example}{8}{subsection.2.1.2}
+\contentsline {section}{\numberline {2.2}Tropical Cyclone Trajectories}{10}{section.2.2}
+\contentsline {subsection}{\numberline {2.2.1}Command Line Arguments}{10}{subsection.2.2.1}
+\contentsline {subsection}{\numberline {2.2.2}Example}{11}{subsection.2.2.2}
+\contentsline {section}{\numberline {2.3}TC Wind Radii}{11}{section.2.3}
+\contentsline {subsection}{\numberline {2.3.1}Command Line Arguments}{11}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}Example}{12}{subsection.2.3.2}
+\contentsline {section}{\numberline {2.4}Tropical Cyclone Statistics}{12}{section.2.4}
+\contentsline {subsection}{\numberline {2.4.1}Command Line Arguments}{12}{subsection.2.4.1}
+\contentsline {subsection}{\numberline {2.4.2}Analysis}{12}{subsection.2.4.2}
+\contentsline {subsection}{\numberline {2.4.3}Example}{13}{subsection.2.4.3}
+\contentsline {section}{\numberline {2.5}TC Trajectory Scalars}{13}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Command Line Arguments}{13}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}Example}{13}{subsection.2.5.2}
+\contentsline {section}{\numberline {2.6}TC Wind Radii Stats}{13}{section.2.6}
+\contentsline {subsection}{\numberline {2.6.1}Command Line Arguments}{14}{subsection.2.6.1}
+\contentsline {subsection}{\numberline {2.6.2}Example}{14}{subsection.2.6.2}
+\contentsline {section}{\numberline {2.7}Event Filter}{14}{section.2.7}
+\contentsline {subsection}{\numberline {2.7.1}Command Line Arguments}{14}{subsection.2.7.1}
+\contentsline {subsection}{\numberline {2.7.2}Example}{15}{subsection.2.7.2}
+\contentsline {chapter}{\numberline {3}Python}{16}{chapter.3}
+\contentsline {section}{\numberline {3.1}Pipeline Construction, Configuration and Execution}{16}{section.3.1}
+\contentsline {section}{\numberline {3.2}Algorithm Development}{18}{section.3.2}
+\contentsline {paragraph}{\nonumberline Report Phase}{18}{section*.21}
+\contentsline {paragraph}{\nonumberline Request Phase}{18}{section*.22}
+\contentsline {paragraph}{\nonumberline Execute}{18}{section*.23}
+\contentsline {paragraph}{\nonumberline The Report Callback}{19}{section*.24}
+\contentsline {paragraph}{\nonumberline The Request Callback}{20}{section*.25}
+\contentsline {paragraph}{\nonumberline The Execute Callback}{20}{section*.26}
+\contentsline {subsection}{\numberline {3.2.1}Working with TECA's Data Structures}{21}{subsection.3.2.1}
+\contentsline {paragraph}{\nonumberline Arrays}{21}{section*.27}
+\contentsline {paragraph}{\nonumberline Metadata}{21}{section*.28}
+\contentsline {paragraph}{\nonumberline Array Collections}{21}{section*.29}
+\contentsline {paragraph}{\nonumberline Tables}{21}{section*.30}
+\contentsline {paragraph}{\nonumberline Cartesian Meshes}{21}{section*.31}
+\contentsline {subsection}{\numberline {3.2.2}NetCDF CF Reader Metadata}{21}{subsection.3.2.2}
