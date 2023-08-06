@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        oam=oam:cli
+    
