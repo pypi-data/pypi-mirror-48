@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: caws
+Version: 0.0.1
+Summary: configure AWS responsibly using profile names.
+Home-page: https://bitbucket.org/rednap/caws
+Author: Andy Klier
+Author-email: andyklier@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# caws  
+
+configure AWS responsibly using profile names and environment vars.  
+caws will write to an rc file setting AWS\_DEFAULT\_PROFILE to the profile name.   
+if you do not have the rc file caws will create it for you.  
+
+*you'll need to add "source .cawsrc" to your .bashrc or .bash\_profile*  
+
+add new profiles using `$ aws configure --profile newname`   
+
+### dependencies  
+
+python3  
+aws cli  
+
+### usage  
+
+`$ caws profilename`  
+
+
