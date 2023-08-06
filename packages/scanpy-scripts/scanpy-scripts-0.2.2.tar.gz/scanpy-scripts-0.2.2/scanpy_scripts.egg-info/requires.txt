@@ -1,0 +1,9 @@
+scipy<1.3.0,>=1.2.0
+matplotlib
+pandas
+scanpy>=1.4.2
+louvain
+leidenalg
+loompy
+MulticoreTSNE
+Click
