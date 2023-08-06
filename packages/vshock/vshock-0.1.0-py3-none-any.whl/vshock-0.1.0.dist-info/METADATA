@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: vshock
+Version: 0.1.0
+Summary: Generating fake input stream of duakshock 3 without real dualshock 3.
+Home-page: https://github.com/takagiy/vshock
+Author: takagiy
+Author-email: takagiy.4dev@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: docopt
+Requires-Dist: tornado
+
+UNKNOWN
+
+

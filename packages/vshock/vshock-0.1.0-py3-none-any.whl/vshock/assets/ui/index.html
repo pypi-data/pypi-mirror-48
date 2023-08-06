@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<body>
+<h1>Virtual Shock</h1>
+
+<label>
+    <input type="checkbox" onChange="window.controller.select.set(Number(this.checked))">Select
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.leftStick.set(Number(this.checked))">Left Stick
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.rightStick.set(Number(this.checked))">Right Stick
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.start.set(Number(this.checked))">Start
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.up.set(Number(this.checked))">Up
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.right.set(Number(this.checked))">Right
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.down.set(Number(this.checked))">Down
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.left.set(Number(this.checked))">Left
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.l2.set(Number(this.checked))">L2
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.r2.set(Number(this.checked))">R2
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.l1.set(Number(this.checked))">L1
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.r1.set(Number(this.checked))">R1
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.triangle.set(Number(this.checked))">Triangle
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.circle.set(Number(this.checked))">Circle
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.cross.set(Number(this.checked))">Cross
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.square.set(Number(this.checked))">Square
+</label>
+<label>
+    <input type="checkbox" onChange="window.controller.ps.set(Number(this.checked))">PS
+</label>
+
+<input type="range" min="-128" max="127" step="1" onChange="window.controller.leftStickY.incline(Number(this.value))">Left Stick Y
+<input type="range" min="-128" max="127" step="1" onChange="window.controller.leftStickX.incline(Number(this.value))">Left Stick X
+<input type="range" min="-128" max="127" step="1" onChange="window.controller.rightStickY.incline(Number(this.value))">Right Stick Y
+<input type="range" min="-128" max="127" step="1" onChange="window.controller.rightStickX.incline(Number(this.value))">Right Stick X
+
+<script type="module">
+    import Controller from './javascript/vshock.js'
+    window.controller = new Controller()
+</script>
+
+</body>
+</html>
+

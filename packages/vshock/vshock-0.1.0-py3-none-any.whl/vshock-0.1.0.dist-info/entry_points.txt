@@ -1,0 +1,3 @@
+[console_scripts]
+vshock = vshock.cli:main
+
