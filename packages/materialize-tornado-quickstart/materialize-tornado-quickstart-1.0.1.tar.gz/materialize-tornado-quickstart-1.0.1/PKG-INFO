@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: materialize-tornado-quickstart
+Version: 1.0.1
+Summary: A quickstart template for a materializecss tornado webapp
+Home-page: https://github.com/j1o1h1n/materialize-tornado-quickstart
+Author: John Lehmann
+Author-email: j1o1h1n@yahoo.com
+License: MIT License
+Description: A quickstart template for a materializecss tornado webapp
+Platform: UNKNOWN
+Classifier: Programming Language :: Python

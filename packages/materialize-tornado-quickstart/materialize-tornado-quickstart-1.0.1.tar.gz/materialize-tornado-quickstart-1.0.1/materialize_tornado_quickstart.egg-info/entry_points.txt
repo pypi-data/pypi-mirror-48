@@ -1,0 +1,3 @@
+[console_scripts]
+mywebapp = mywebapp.website:main
+
