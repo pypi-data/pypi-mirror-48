@@ -1,0 +1,9 @@
+graphviz
+
+[docs]
+sphinx
+starling_theme
+sphinx_gallery
+
+[tests]
+coverage
