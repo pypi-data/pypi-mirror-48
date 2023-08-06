@@ -1,0 +1,171 @@
+Metadata-Version: 2.1
+Name: epiweeks
+Version: 2.1.1
+Summary: Epidemiological weeks based on the CDC (MMWR) and ISO week numbering systems.
+Home-page: https://github.com/dralshehri/epiweeks
+Author: Mohammed Alshehri
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://epiweeks.readthedocs.io/
+Keywords: epidemiology weeks cdc mmwr iso calendar surveillance public-health
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+
+Epi Weeks
+=========
+
+A Python package to calculate epidemiological weeks using the CDC (MMWR) and
+ISO week numbering systems.
+
+|travis| |codecov| |docs| |supported| |version| |license|
+
+.. |travis|
+   image:: https://img.shields.io/travis/com/dralshehri/epiweeks.svg
+   :alt: Build Status
+   :target: https://travis-ci.com/dralshehri/epiweeks
+.. |codecov|
+   image:: https://img.shields.io/codecov/c/github/dralshehri/epiweeks.svg
+   :alt: Coverage Status
+   :target: https://codecov.io/github/dralshehri/epiweeks
+.. |docs|
+   image:: https://img.shields.io/readthedocs/epiweeks/stable.svg
+   :alt: Docs Status
+   :target: https://epiweeks.readthedocs.io/
+.. |supported|
+   image:: https://img.shields.io/pypi/pyversions/epiweeks.svg
+   :alt: Python version support
+   :target: https://pypi.python.org/pypi/epiweeks
+.. |version|
+   image:: https://img.shields.io/pypi/v/epiweeks.svg
+   :alt: PyPI Package version
+   :target: https://pypi.python.org/pypi/epiweeks
+.. |license|
+   image:: https://img.shields.io/github/license/dralshehri/epiweeks.svg
+   :alt: License
+   :target: https://github.com/dralshehri/epiweeks/blob/master/LICENSE
+
+Features
+--------
+
+- Support for both the CDC (MMWR) and ISO week numbering systems.
+- Accurate and tested calculations.
+- Intuitive, clean, and easy-to-use interface.
+- Calculation of the start and end dates of weeks.
+- Iteration of year's weeks or week's dates.
+- Rich comparison between weeks.
+- Logical operations for weeks (addition, subtraction and containment).
+- Validation of input data.
+- Works on Python 3.6+ with zero dependencies.
+- Thoroughly tested on all supported Python versions.
+
+Installation
+------------
+
+.. code-block:: bash
+
+   $ pip install -U epiweeks
+
+Basic Usage
+-----------
+
+.. code-block:: python
+
+   from epiweeks import Week, Year
+
+   week = Week(2019, 1)
+   print(week.enddate())
+   # 2019-01-05
+
+   for week in Year(2019).iterweeks():
+       print(week.enddate())
+   # 2019-01-05
+   # 2019-01-12
+   # ...
+   # 2019-12-21
+   # 2019-12-28
+
+Online Tool
+-----------
+
+The following is a simple online tool that was developed to calculate
+epidemiological weeks (CDC system only) using the latest version of
+this package:
+
+https://www.dralshehri.com/epiweeks/
+
+Documentation
+-------------
+
+Please see https://epiweeks.readthedocs.io/ for full documentation of
+this package, including overview, more usage examples and API reference.
+
+Contributing
+------------
+
+Contributions are welcome! See
+`CONTRIBUTING.rst <https://github.com/dralshehri/epiweeks/blob/master/CONTRIBUTING.rst>`__
+for more info.
+
+Authors
+-------
+
+The main author is Mohammed Alshehri —
+`@dralshehri <https://github.com/dralshehri>`__.
+
+License
+-------
+
+This package is distributed under an MIT license.
+See `LICENSE <https://github.com/dralshehri/epiweeks/blob/master/LICENSE>`__.
+
+Change Log
+----------
+
+**2.1.1**
+
+- Fixed some typos.
+- Improved documentation.
+
+**2.1.0**
+
+- Changed the parameter ``method``, which sets how the weeks are
+  numbered, to ``system`` for better clarity and intuitive usage.
+- Updated documentation and unit tests.
+- Other minor fixes and enhancements.
+
+**2.0.0**
+
+- Dropped support for Python 3.5.
+- Added ``fromstring()`` classmethod to allow constructing the ``Week`` object
+  from a formatted string, for example '2019W08' or '201908'.
+- Added ``cdcformat()`` method to return a formatted string like the one used
+  by US CDC for epi weeks, for example for week 8 of 2019 it returns '201908'.
+- Added ``daydate()`` method to return the date of specific weekday for a week.
+- Changed the optional value 'WHO' of the parameter ``method`` to 'ISO'.
+- Changed the ``fromdate()`` classmethod of ``Week`` object to accept a date
+  object as an argument instead of year, month, and day.
+- Made the ``Week`` and ``Year`` objects hashable.
+- Improved rich comparison methods.
+- Improved input data validation.
+- Updated and improved documentation examples.
+- Updated unit tests.
+- Other minor fixes and enhancements.
+
+**1.0.0**
+
+- First release.
+
+
