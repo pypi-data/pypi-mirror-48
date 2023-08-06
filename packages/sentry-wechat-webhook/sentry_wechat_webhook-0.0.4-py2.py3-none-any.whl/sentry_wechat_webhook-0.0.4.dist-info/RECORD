@@ -1,0 +1,7 @@
+wechat_webhook/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wechat_webhook/plugin.py,sha256=D9TjG9dOH1Pk-4XWstfmWzWTqdjCFtitzSYW2gSGatk,1981
+sentry_wechat_webhook-0.0.4.dist-info/METADATA,sha256=Csszwvr3cwRW4BbWjxrTwGMPBZdY8xV-bGoJAhLXSYM,577
+sentry_wechat_webhook-0.0.4.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+sentry_wechat_webhook-0.0.4.dist-info/entry_points.txt,sha256=Xl6oTBdKE76TFX-bwxYyZP1n9bxVVa8SqJPV62dM9vU,84
+sentry_wechat_webhook-0.0.4.dist-info/top_level.txt,sha256=KRcHRO92jahFoVkyZbHPLFGr5Oca8co4QR4M5_mOSF8,15
+sentry_wechat_webhook-0.0.4.dist-info/RECORD,,
