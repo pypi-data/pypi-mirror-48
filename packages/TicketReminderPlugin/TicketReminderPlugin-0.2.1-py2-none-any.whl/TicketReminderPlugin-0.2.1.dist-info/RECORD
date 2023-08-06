@@ -1,0 +1,12 @@
+ticketreminder/__init__.py,sha256=SWRqs6kWrwVV5y_2rH36NCxmWue_HBxRPY7f5HtY7B8,77
+ticketreminder/api.py,sha256=iY3iCfh5MFPld5nEpwfTM202ktao1pGgRvkIFqhD4k4,16626
+ticketreminder/db_default.py,sha256=iMRigXExTMJe2usPPTOFlm5BPPjOs9l_vofiROG-Es4,478
+ticketreminder/htdocs/css/ticketreminder.css,sha256=WJkFOKkf7UeFOB26U0zazpttm693pVrDsBdmffXM2mI,701
+ticketreminder/htdocs/js/ticketreminder.js,sha256=KxilA5BZFDVJhW6qnG0GFrfIQWgXaz9i6pst-Pn6T1g,330
+ticketreminder/templates/ticket_reminder_add.html,sha256=f047xhKsQqlXtA8rzTmp6nw1tJRT-JXm42BzTOlUmd4,3016
+ticketreminder/templates/ticket_reminder_delete.html,sha256=iI9JeRVMkf_Dmw7HnolAzzDom8VQDV-9wnNMYbq4F5c,1247
+TicketReminderPlugin-0.2.1.dist-info/METADATA,sha256=as4DlRK0q8TtV8dhKOqDC9S8dM62tf5ZoIP6adwD3Hw,301
+TicketReminderPlugin-0.2.1.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+TicketReminderPlugin-0.2.1.dist-info/entry_points.txt,sha256=vfA-4Jhe0gyxEolOe-wW-lbzZ8kG6jLKYxA0cZnmVkE,48
+TicketReminderPlugin-0.2.1.dist-info/top_level.txt,sha256=g_-brBwX1ashxC5wIjuzQvCQslB3WPjnht7gWPxle5c,15
+TicketReminderPlugin-0.2.1.dist-info/RECORD,,
