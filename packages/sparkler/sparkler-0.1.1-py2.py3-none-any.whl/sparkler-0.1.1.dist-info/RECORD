@@ -1,0 +1,12 @@
+sparkler/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkler/cmd.py,sha256=XwcZTDeIjl7rQFYk1IzYi67xDpYe8SnKccrw_bpQyDE,3734
+sparkler/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparkler/tests/test_cmd.py,sha256=B_phvn4SY3zz1UA7nYPIlnzKqo43mmtktbfndz_iZJk,1751
+sparkler-0.1.1.dist-info/AUTHORS,sha256=DnF7LR_hhSNDCTfprpm3Vr-Zf9WFDIvTL5gpbceKpiM,40
+sparkler-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sparkler-0.1.1.dist-info/METADATA,sha256=R9hqobQ5qunXQTkUCQcRZpFSoUwvw3K3ATsiNIgFbSY,2591
+sparkler-0.1.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+sparkler-0.1.1.dist-info/entry_points.txt,sha256=CvPp1B7NxnJdtokeNlWCQRKSJosH8ZCtZfoA044h_FQ,48
+sparkler-0.1.1.dist-info/pbr.json,sha256=exAPbucrWTQC0-nyVuvUWIXLhItaPhasH214_3ZzdBs,46
+sparkler-0.1.1.dist-info/top_level.txt,sha256=6kcAFN-L4uUleMI_-OcRDGeXUEV8Mo7mcQMFEKLTBLo,9
+sparkler-0.1.1.dist-info/RECORD,,
