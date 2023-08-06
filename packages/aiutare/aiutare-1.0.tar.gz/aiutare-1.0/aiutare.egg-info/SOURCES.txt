@@ -1,0 +1,14 @@
+README.md
+setup.py
+aiutare.egg-info/PKG-INFO
+aiutare.egg-info/SOURCES.txt
+aiutare.egg-info/dependency_links.txt
+aiutare.egg-info/requires.txt
+aiutare.egg-info/top_level.txt
+bin/__init__.py
+bin/analyze.py
+bin/bench.py
+bin/config.py
+bin/drop_databases.py
+bin/run.py
+bin/test_read_db.py
