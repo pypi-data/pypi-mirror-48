@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ip_country_search
+Version: 1.0.1
+Summary: A python utility for searching country name for ipaddress
+Home-page: https://github.com/manumathew23/ip-country-search
+Author: Manu Mathew
+Author-email: manumatew@gmail.com
+License: LICENSE.txt
+Download-URL: https://github.com/manumathew23/ip-country-search/archive/v1.0.1.tar.gz
+Description: # Python utility for searching country of IP addresses
+        
+        A python utlitiy package that can be used for getting country name of IP addresses.
+        
+        This utility contains 2 functions:
+        	* update_rir_files : Fetches latest data from regional internet registries
+        	* get_country_name : Returns the country name by accepting the ip address as parameter
+        
+        Please note that the import statement would take some time as it will be preparing the data from all regional registries. This will be optimized in future versions.
+        
+        [The source for this project is available here][https://github.com/manumathew23/ip-country-search].
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
