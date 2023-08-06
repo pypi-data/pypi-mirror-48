@@ -1,0 +1,3 @@
+[console_scripts]
+street = street.cli:cli
+
