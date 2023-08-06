@@ -1,0 +1,12 @@
+compose/__init__.py,sha256=mR5oPoNqJEJmF5G7ibb7-75SAZsFFsgErgb_jhpe7nc,88
+compose/args.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/empty.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/kwargs.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+compose/mkmeth.py,sha256=Bo-acWzPA0XnGq83oUx04NHdJAikXjSQobrRdnvDfTU,1697
+compose/structs.py,sha256=4RBgtSJfXhZe2Eu8f_sDbphxDgHdh1zV-RuRcK5RV0A,7420
+compose/templates.py,sha256=m0F6SBkCoPhcgVs8qxsy3X5ZNpbhd-7Ju27CGr5rEAw,3289
+compose_struct-0.8.0.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+compose_struct-0.8.0.dist-info/METADATA,sha256=--o5L1WoqyvBkECBiDTeQQ8UgQ1QloG4XySb9waK7pY,10597
+compose_struct-0.8.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+compose_struct-0.8.0.dist-info/top_level.txt,sha256=jLmhBR06QFGLqfBVdNJ3JPy-7jr7nSl7LgGemw-WiZw,8
+compose_struct-0.8.0.dist-info/RECORD,,
