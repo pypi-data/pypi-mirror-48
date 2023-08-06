@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: sabr
+Version: 2.0
+Summary: SABRmetrics calculator for Python
+Home-page: https://github.com/Shinichi-Nakagawa/sabr
+Author: Shinichi Nakagawa
+Author-email: spirits.is.my.rader@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: baseball,MLB,SABRmetrics,SABR,Major league baseball
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
