@@ -1,0 +1,12 @@
+setup.py
+MockBot/__init__.py
+MockBot/__main__.py
+MockBot/bot.py
+MockBot/server.py
+MockBot.egg-info/PKG-INFO
+MockBot.egg-info/SOURCES.txt
+MockBot.egg-info/dependency_links.txt
+MockBot.egg-info/not-zip-safe
+MockBot.egg-info/requires.txt
+MockBot.egg-info/top_level.txt
+test/test_bot.py
