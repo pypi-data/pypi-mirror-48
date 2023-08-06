@@ -1,0 +1,12 @@
+itk/TwoProjectionRegistrationPython.py,sha256=S5TvlEaRvvhVErHKqdY4p96GtR_PxmGA7BCndMvvMtE,3549
+itk/_TwoProjectionRegistrationPython.so,sha256=zKFKr38v6IMZ8ZAHac7N9ig28VUcZv5ejW1RxsiB-v4,4841304
+itk/itkNormalizedCorrelationTwoImageToOneImageMetricPython.py,sha256=YHpI3oO-V2wl45yxar5ygFI1DywQsu-9jEIHfayLpkA,58787
+itk/itkSiddonJacobsRayCastInterpolateImageFunctionPython.py,sha256=bFmf5gOW4TdgtmWDe-0aCO9w-UFM9-eiB0Ohgyw_d44,46213
+itk/itkTwoImageToOneImageMetricPython.py,sha256=lHNjZSG5ynmuRSp64kn5k9ddb1GTN6TGrunCQcRS93Q,138455
+itk/itkTwoProjectionImageRegistrationMethodPython.py,sha256=xrh4mTOrkqYvc63wY7-_wKA-ov7pHHjqE1YSj1ZZzSI,178763
+itk/Configuration/TwoProjectionRegistrationConfig.py,sha256=yZPWZWUfIWfqoM0fVkeNmMW5Z8qwDMTdIeTVb1mUOMA,5898
+itk_twoprojectionregistration-1.0.1.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+itk_twoprojectionregistration-1.0.1.dist-info/METADATA,sha256=enJHZ_5Xk5zbvi2O80uxji4GzEepb4MakzAAWcduvkk,1690
+itk_twoprojectionregistration-1.0.1.dist-info/WHEEL,sha256=0qq-BLPgcSvEE2vBCDQI3-r5b-TfxEe9Vkwae9jy5rg,103
+itk_twoprojectionregistration-1.0.1.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_twoprojectionregistration-1.0.1.dist-info/RECORD,,
