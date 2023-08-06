@@ -1,0 +1,82 @@
+Metadata-Version: 2.1
+Name: faciljsondb
+Version: 0.0.5
+Summary: Un paque te encargado de ayudarte a hacer base de datos censillas en json
+Home-page: https://github.com/reymundus2/facil-json-db
+Author: REYMUNDUS
+Author-email: arceleandro2016@gmail.com
+License: UNKNOWN
+Description: # facil-json-db
+        
+        ## Iniciar
+        
+        Para iniciar tu base de datos debes usar la clase BaseDeDatos() que te ayudara a modificar tu base de datos y la creara en caso de que no exista
+        
+        ```py
+        import faciljsondb
+        db = faciljsondb("nombre")
+        ```
+        ## leer
+        
+        En este modulo hay dos funciones leer (leer y leer_async) esta funcion no retorna nada solo imprime en pantalla tu db.
+        
+        leer
+        ```py
+        import faciljsondb
+        db = faciljsondb("nombre")
+        
+        leer()
+        ```
+        
+        async
+        ```py
+        import faciljsondb
+        import asyncio
+        db = faciljsondb("nombre")
+        
+        asyncio.run(leer([tiempo1,] [tiempo2]))
+        ```
+        
+        ## obtener
+        
+        Te devuelve el json almacenado.
+        
+        obtener
+        ```py
+        import faciljsondb
+        db = faciljsondb("nombre")
+        
+        obtener()
+        ```
+        
+        async
+        ```py
+        import faciljsondb
+        import asyncio
+        db = faciljsondb("nombre")
+        
+        asyncio.run(obtener([tiempo1,] [tiempo2]))
+        ```
+        
+        ## escribir
+        
+        Sirve para escribir el json.
+        
+        escribir
+        ```py
+        import faciljsondb
+        db = faciljsondb("nombre")
+        
+        escribir(json)
+        ```
+        
+        async
+        ```py
+        import faciljsondb
+        import asyncio
+        db = faciljsondb("nombre")
+        
+        asyncio.run(escribir(json, [tiempo1,] [tiempo2]))
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

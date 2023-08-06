@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+faciljsondb.egg-info/PKG-INFO
+faciljsondb.egg-info/SOURCES.txt
+faciljsondb.egg-info/dependency_links.txt
+faciljsondb.egg-info/top_level.txt
+pack/__init__.py
+pack/principal.py
