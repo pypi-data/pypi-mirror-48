@@ -1,0 +1,5 @@
+nltk
+pyphen
+textstat
+sentence-splitter
+numpy

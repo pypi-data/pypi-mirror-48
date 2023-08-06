@@ -1,0 +1,16 @@
+README.md
+setup.cfg
+setup.py
+multilang_summarizer/__init__.py
+multilang_summarizer/entropy.py
+multilang_summarizer/lcs.py
+multilang_summarizer/lemmatizer.py
+multilang_summarizer/readability.py
+multilang_summarizer/spanish_syllabicator.py
+multilang_summarizer/summarizer.py
+multilang_summarizer/tfidf.py
+multilang_summarizer.egg-info/PKG-INFO
+multilang_summarizer.egg-info/SOURCES.txt
+multilang_summarizer.egg-info/dependency_links.txt
+multilang_summarizer.egg-info/requires.txt
+multilang_summarizer.egg-info/top_level.txt
