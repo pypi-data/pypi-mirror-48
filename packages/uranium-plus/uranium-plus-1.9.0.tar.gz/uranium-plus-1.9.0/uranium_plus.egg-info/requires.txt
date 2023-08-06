@@ -1,0 +1,8 @@
+uranium
+
+[vscode]
+pylint
+rope
+
+[vscode:python_version >= "3.6"]
+black
