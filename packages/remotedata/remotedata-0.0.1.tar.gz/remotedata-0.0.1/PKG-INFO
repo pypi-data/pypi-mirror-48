@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: remotedata
+Version: 0.0.1
+Summary: Accessing and caching remote data.
+Home-page: https://github.com/pwwang/remotedata
+License: MIT
+Author: pwwang
+Author-email: pwwang@pwwang.com
+Requires-Python: >=3.4,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: python-simpleconf
+Requires-Dist: requests
+Project-URL: Repository, https://github.com/pwwang/remotedata
+Description-Content-Type: text/markdown
+
+# remotedata
+
+Accessing and caching remote data for python.
+
+## Features
+
