@@ -1,0 +1,3 @@
+[console_scripts]
+wasp_map-download = wasp_map.download:main
+
