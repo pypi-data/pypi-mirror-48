@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: bnltk
+Version: 0.7.3
+Summary: BNLTK(Bangla Natural Language Processing Toolkit) is open-source python package for Bengali Natural Language Processing.
+Home-page: https://github.com/ashwoolford/bnltk
+Author: Ashraf Hossain
+Author-email: asrafhossain197@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+Requires-Dist: keras
+Requires-Dist: tensorflow
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: requests
+
+# BNLTK
+
+BNLTK(Bangla Natural Language Processing Toolkit) is open-source python package for Bengali Natural Language Processing. It includes modules for Tokenization, Stemming, Parts of speech tagging. I'm looking forward to helping form contributors to make this look far better than this.
+
+## installation
+
+pip install bnltk 
+
+## Usage
+
+### Tokenizer
+
+```
+from bnltk.tokenize import Tokenizers
+t = Tokenizers()
+print(t.bn_word_tokenizer(' আমার সোনার বাংলা । '))		
+```
+
+### Stemmer
+
+```
+from bnltk.stemmer import BanglaStemmer
+bn_stemmer = BanglaStemmer()
+print(bn_stemmer.stem('খেয়েছিলো'))
+```
+
+### Parts of Tagger
+
+For using the Parts of Tagger you need to download some data files as follows:
+
+```
+from bnltk.bnltk_downloads import DataFiles
+DataFiles().download()	
+```
+After successfully downloading the files, then you can use this module.
+
+```
+from bnltk.pos_tagger import BanglaPosTagger
+t = BanglaPosTagger()
+print(t.bn_pos_tag(' আমার সোনার বাংলা । আমি তোমায় ভালোবাসি । '))
+
+```
+

@@ -1,0 +1,15 @@
+bnltk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bnltk/bnltk_downloads/__init__.py,sha256=wx2s9wZjbPmalSJKby6tLZ2ebARO4JmySI1xPTpkDJ8,38
+bnltk/bnltk_downloads/file_downloader.py,sha256=o-MruKR0RzhkAj3zMlbSFYEx22FEWm7sbeg09ioahlI,2230
+bnltk/pos_tagger/__init__.py,sha256=rsphZkq6fo7l-SQBdejVPU_In4yI7-XHiThCfANxd9k,42
+bnltk/pos_tagger/trained_model.py,sha256=7yN5C5hVlOsX_yOZDRHBl2YYi4LimQvBxOgO7rPfBAY,6957
+bnltk/stemmer/__init__.py,sha256=smE16YPm7-UhgAHeoSBMWkImoS_3LW9osznkSQaRhrA,42
+bnltk/stemmer/stemmer_builder.py,sha256=VBBN6AnMatKSJ2NvkUPyJmjIugmgOTDeGze8L7Y4qYM,2244
+bnltk/stemmer/test_stemmer_builder.py,sha256=hYHcP-RkwCEMCY-AZPz_o63JirWijXlkglkG0RVf-nQ,504
+bnltk/tokenize/__init__.py,sha256=8z6BHFQd7yD7Mg76psZ1_NVUBoyYGto3VGycQUQEgEM,42
+bnltk/tokenize/bn_word_tokenizers.py,sha256=iTXbfj6MKe-BPk55IDfsK233dPJePasuMYsgaIad4sY,440
+bnltk-0.7.3.dist-info/LICENSE,sha256=A-lmGRUydbmN3XVxJON7Nfc0wRCOo_m5AmPS9YXDt_8,1509
+bnltk-0.7.3.dist-info/METADATA,sha256=UaBm-T_eJY4ySMtsFARKqxrn5W3sqsnBb7EZlwXzZY4,1726
+bnltk-0.7.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bnltk-0.7.3.dist-info/top_level.txt,sha256=O5Lquu9dxfnKrVGN8tNkFWEHazBilj3V7gI9nTwejrU,6
+bnltk-0.7.3.dist-info/RECORD,,
