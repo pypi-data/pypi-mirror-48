@@ -1,0 +1,17 @@
+django_nomad/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nomad/git/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nomad/git/exceptions.py,sha256=PJ0LekUXwknH-Kyh0YW3ptiEsgNiYtlqmZbPJzQRWQ0,490
+django_nomad/git/install_hook.py,sha256=tvPDHi9vO8DYTN4ceR7ABU-s_EJQ-VPPL2mBoF_0Fow,2134
+django_nomad/git/utils.py,sha256=roZSeUE1fvisGquGGd_erHj-UfFwt7tTqSVAxEOKUL8,2715
+django_nomad/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nomad/management/utils.py,sha256=hBfK8UcZi68u63KlGrk1OLRgFf6dfnOs_Ky8bskrBxo,329
+django_nomad/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nomad/management/commands/check_nomad_migrations.py,sha256=7IliGP-yGWGL6deI7ReF56hL49_8o0b8As9QnVz_nus,2087
+django_nomad/management/commands/install_nomad_git_hook.py,sha256=VyCbxrO9FBYA9Gz3NiHsm9f-xURfKsnGdMjhgZHUvNo,2373
+django_nomad/migration/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_nomad/migration/utils.py,sha256=FDNDrSnvCtfdNTCIBE4GzCI9VkASm7PRKCXgjo0bqng,2762
+django_nomad-0.1.1.dist-info/LICENSE,sha256=bB52PQXHkyTECbfRUul-lGm4gR6rBbG975FfpcIbnRI,1075
+django_nomad-0.1.1.dist-info/METADATA,sha256=EhyKPJlrmUcX7Merzjl_w0WbSOH89KFxfYV-v7nhbYw,576
+django_nomad-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_nomad-0.1.1.dist-info/top_level.txt,sha256=wn6G4RGSZaPA9P-b1tXEIDD0sfMpAwMetpAujaUv5ys,13
+django_nomad-0.1.1.dist-info/RECORD,,
