@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+pipefish/__init__.py
+pipefish/__main__.py
+pipefish.egg-info/PKG-INFO
+pipefish.egg-info/SOURCES.txt
+pipefish.egg-info/dependency_links.txt
+pipefish.egg-info/top_level.txt
