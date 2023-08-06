@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: attributeme
+Version: 0.2
+Summary: a pip-installable package example
+Home-page: https://github.com/chugha/attributeme
+Author: Aakash Chugh
+Author-email: aakashchugh27@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: example
+Platform: UNKNOWN

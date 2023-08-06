@@ -1,0 +1,6 @@
+setup.py
+attributeme/__init__.py
+attributeme.egg-info/PKG-INFO
+attributeme.egg-info/SOURCES.txt
+attributeme.egg-info/dependency_links.txt
+attributeme.egg-info/top_level.txt
