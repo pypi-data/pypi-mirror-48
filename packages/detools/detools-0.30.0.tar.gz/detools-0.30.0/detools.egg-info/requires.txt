@@ -1,0 +1,6 @@
+bitstruct
+humanfriendly
+pyelftools
+
+[heatshrink]
+heatshrink
