@@ -1,0 +1,29 @@
+[tool.poetry]
+name = "bics-nornir"
+version = "0.1.0"
+description = "Specific plugins for Nornir2"
+license = "Apache-2.0"
+authors = ["Walter De Smedt <walter.de.smedt@gmail.com>"]
+readme = "README.md"
+repository = "https://github.com/wdesmedt/bics_nornir"
+classifiers = [
+    "Development Status :: 3 - Alpha"
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+xmltodict = "^0.12.0"
+nornir = "^2.1"
+ncclient = "^0.6.3"
+jinja2 = "^2"
+"ruamel.yaml" = "^0.15.85"
+pydantic = "^0.18.2"
+
+[tool.poetry.dev-dependencies]
+pylint = "*"
+pytest = "*"
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
