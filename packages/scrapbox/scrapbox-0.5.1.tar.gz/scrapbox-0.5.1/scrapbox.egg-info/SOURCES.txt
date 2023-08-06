@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+scrapbox.egg-info/PKG-INFO
+scrapbox.egg-info/SOURCES.txt
+scrapbox.egg-info/dependency_links.txt
+scrapbox.egg-info/requires.txt
+scrapbox.egg-info/top_level.txt
