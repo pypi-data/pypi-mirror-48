@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyliblo3
+Version: 0.10.2
+Summary: Python bindings for the liblo OSC library
+Home-page: https://github.com/gesellkammer/pyliblo3
+Author: Dominic Sacre
+Author-email: dominic.sacre@gmx.de
+Maintainer: Eduardo Moguillansky
+Maintainer-email: eduardo.moguillansky@gmail.com
+License: LGPL
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
