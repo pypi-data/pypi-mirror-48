@@ -1,0 +1,3 @@
+[console_scripts]
+dpipe = dpipe.config.base:render_config_resource
+
