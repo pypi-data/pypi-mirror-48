@@ -1,0 +1,9 @@
+pygeoda/__init__.py,sha256=jpNunwde-NWWyiF6UYzbsQuksEEqa0727RMW2gF2XQg,156
+pygeoda/_libgeoda.cpython-37m-darwin.so,sha256=jl1eLDAmWiNeSDv7A57eG9JWBOQXN2olcVd81uD3kzs,17789988
+pygeoda/geopds.py,sha256=H-bgC8_HPLWjdg8pYvlvKj4ZlfoW9IO-DTA8fJELojw,2733
+pygeoda/libgeoda.py,sha256=gsS0NIK7fUHT2LfTfuWey6modPmD2z8JS5pE6nRIEwM,56969
+pygeoda/utils.py,sha256=6djUC1hQgAs1ClxXyU013GpVnjH8U8UCTd1l-D0qGMY,209
+pygeoda-0.0.1.dist-info/METADATA,sha256=AtUuHFawkFrMRStkbWsyKb2js7XLJkUpms95ygPSiGM,227
+pygeoda-0.0.1.dist-info/WHEEL,sha256=ubEovDPFTN5rTkBHLrZ2UHPZuj6eRdINU2td2X4r6I4,109
+pygeoda-0.0.1.dist-info/top_level.txt,sha256=CpbmMloTsR-RsGiHScg3X1iQVaTuWRml2ONSBZDCr0w,8
+pygeoda-0.0.1.dist-info/RECORD,,
