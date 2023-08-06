@@ -1,0 +1,9 @@
+Modules/Azure.py,sha256=mf5SzH_eiVD_uG-2gSTPWTclXsVz2LuSoor-9bUHr7U,245
+Modules/Cloud.py,sha256=b8ehC4B1zM108yLxNhb4RX_2KfutgO1nkoBStOK1F8A,217
+Modules/GCP.py,sha256=R96GnKK33iqP1aTZI5abSvHusu1mv1aJ4fv6wrIb6Zc,282
+Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stoneclivmcreator-0.1.data/scripts/stone_cli.py,sha256=8LhUG2ctZZPAlcdKpzxt30J9sZtHKNxspie63pvCWy4,768
+stoneclivmcreator-0.1.dist-info/METADATA,sha256=Unhdu_LSqQl9uDzeeQXjdWSKHwkhJWDKuP6Dyc4c9yc,545
+stoneclivmcreator-0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+stoneclivmcreator-0.1.dist-info/top_level.txt,sha256=h6iW7JznygeX5klov4OtcJXIKhCM_42e8o1o9eku5CU,8
+stoneclivmcreator-0.1.dist-info/RECORD,,

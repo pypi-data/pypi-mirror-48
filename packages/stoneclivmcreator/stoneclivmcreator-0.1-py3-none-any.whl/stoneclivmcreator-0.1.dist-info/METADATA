@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: stoneclivmcreator
+Version: 0.1
+Summary: Script that creates virtual machines at GCP or Azure
+Home-page: https://github.com/elnatantorres/virtual-machine-creator.git
+Author: Elnatan Torres
+Author-email: elnatannovaes@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Cloud Virtual Machine Creator
+
+Creates virtual machine at cloud
+
