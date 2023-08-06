@@ -1,0 +1,3 @@
+pyyaml>=5.1
+injector>=0.13.1
+gumo-core>=0.1.0a5
