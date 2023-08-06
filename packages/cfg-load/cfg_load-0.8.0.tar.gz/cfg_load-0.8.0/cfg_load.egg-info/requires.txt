@@ -1,0 +1,13 @@
+mpu[io]>=0.15.0
+pytz>=2018.4
+PyYAML>=4.2b1
+requests>=2.18.4
+six>=1.11.0
+
+[all]
+pytest>=3.3.2
+pytest-cov>=2.5.1
+pytest-flake8==1.0.4
+boto3
+google-compute-engine
+boto3
