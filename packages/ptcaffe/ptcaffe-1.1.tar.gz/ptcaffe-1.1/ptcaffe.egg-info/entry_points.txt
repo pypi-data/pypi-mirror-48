@@ -1,0 +1,17 @@
+[console_scripts]
+caffe2ptcaffe = ptcaffe.converter.caffe2ptcaffe:main
+darknet2ptcaffe = ptcaffe.converter.darknet2ptcaffe:main
+merge_bn = ptcaffe.tools.merge_bn:main
+merge_scale = ptcaffe.tools.merge_scale:main
+onnx2ptcaffe = ptcaffe.converter.onnx2ptcaffe:main
+prototxt2graph = ptcaffe.tools.prototxt2graph:main
+ptcaffe = ptcaffe.tools.main:main
+ptcaffe-profile = ptcaffe.tools.main_profile:main
+ptcaffe2caffe = ptcaffe.converter.ptcaffe2caffe:main
+ptcaffe2darknet = ptcaffe.converter.ptcaffe2darknet:main
+ptcaffe2onnx = ptcaffe.converter.ptcaffe2onnx:main
+ptcmodel2prototxt = ptcaffe.tools.ptcmodel2prototxt:main
+pytorch2ptcaffe = ptcaffe.converter.pytorch2ptcaffe:main
+split_scale = ptcaffe.tools.split_scale:main
+tensorflow2ptcaffe = ptcaffe.converter.tensorflow2ptcaffe:main
+
