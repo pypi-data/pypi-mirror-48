@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: cazoo-logger
+Version: 0.1.0
+Summary: Super-opinionated structured logger for AWS lambda
+Home-page: https://gitlab.com/bobthemighty/py-logger
+Author: Bob Gregory
+Author-email: bob.gregory@cazoo.co.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
