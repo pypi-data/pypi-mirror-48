@@ -1,0 +1,44 @@
+{
+  "version": 2,
+  "clkConfig": {
+    "l": 1024,
+    "kdf": {
+      "type": "HKDF"
+    }
+  },
+  "features": [
+    {
+      "identifier": "name",
+      "format": {
+        "type": "string",
+        "encoding": "utf-8"
+      },
+      "hashing": {
+        "ngram": 2,
+        "strategy": {
+          "k": 20
+        },
+        "missingValue": {
+          "sentinel": "null",
+          "replaceWith": "Bob"
+        }
+      }
+    },
+    {
+      "identifier": "age",
+      "format": {
+        "type": "integer"
+      },
+      "hashing": {
+        "ngram": 1,
+        "strategy": {
+          "k": 20
+        }
+      },
+      "missingValue": {
+        "sentinel": "NA",
+        "replaceWith": "42"
+      }
+    }
+  ]
+}
