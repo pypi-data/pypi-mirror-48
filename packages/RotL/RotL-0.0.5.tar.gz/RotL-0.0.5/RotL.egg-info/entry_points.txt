@@ -1,0 +1,3 @@
+[console_scripts]
+RotL = RotL:main
+
