@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+beves/__init__.py
+beves/__main__.py
+beves/errors.py
+beves/metadata.py
+beves.egg-info/PKG-INFO
+beves.egg-info/SOURCES.txt
+beves.egg-info/dependency_links.txt
+beves.egg-info/entry_points.txt
+beves.egg-info/requires.txt
+beves.egg-info/top_level.txt
+beves/tests/__init__.py
+beves/tests/tests.py
