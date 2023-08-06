@@ -1,0 +1,64 @@
+Metadata-Version: 1.1
+Name: aquaman
+Version: 0.0.1
+Summary: aquaman
+Home-page: UNKNOWN
+Author: Jaewon Chung
+Author-email: j1c@jhu.edu
+License: Apache Software License 2.0
+Description: =======
+        aquaman
+        =======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/aquaman.svg
+                :target: https://pypi.python.org/pypi/aquaman
+        
+        .. image:: https://img.shields.io/travis/j1c/aquaman.svg
+                :target: https://travis-ci.org/j1c/aquaman
+        
+        .. image:: https://readthedocs.org/projects/aquaman/badge/?version=latest
+                :target: https://aquaman.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Python Boilerplate contains all the boilerplate you need to create a Python package.
+        
+        
+        * Free software: Apache Software License 2.0
+        * Documentation: https://aquaman.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2019-06-28)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: aquaman
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
