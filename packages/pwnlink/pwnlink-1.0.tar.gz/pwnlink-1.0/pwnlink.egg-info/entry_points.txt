@@ -1,0 +1,3 @@
+[console_scripts]
+pwnlink = pwnlink.__main__:main
+
