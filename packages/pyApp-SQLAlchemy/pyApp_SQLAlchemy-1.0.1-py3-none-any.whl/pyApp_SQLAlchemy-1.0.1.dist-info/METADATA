@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: pyApp-SQLAlchemy
+Version: 1.0.1
+Summary: SQLAlchemy Extension for PyApp
+Home-page: https://github.com/pyapp-org/pyapp.sqlalchemy
+Author: Tim Savage
+Author-email: tim@savage.company
+License: BSD-3-Clause
+Keywords: application,framework
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: pyapp (>=4.0)
+Requires-Dist: sqlalchemy
+Provides-Extra: dev
+Requires-Dist: docutils ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+##################
+pyApp - SQLAlchemy
+##################
+
+*Let us handle the boring stuff!*
+
+.. image:: https://img.shields.io/badge/code%20style-black-000000.svg
+   :target: https://github.com/ambv/black
+      :alt: Once you go Black...
+
+.. image:: https://api.codeclimate.com/v1/badges/0a86755f39f0416fbd1e/maintainability
+   :target: https://codeclimate.com/github/pyapp-org/pae.sqlalchemy/maintainability
+   :alt: Maintainability
+
+This extension provides a `Connection` and `Session` factory for SQLAlchemy to
+allow database connections to be configured via pyApp settings. 
+
+`Engine` instances are created from a singleton factory to ensure that 
+connection pooling is utilised.
+
+The extension also provides checks to confirm the settings are correct and
+that the application is able to connect to the database host.
+
+
+Installation
+============
+
+Install using *pip*::
+
+    pip install pyapp-sqlalchemy
+
+Install using *pipenv*::
+
+    pipenv install pyapp-sqlalchemy
+
+
+Add `pyapp_ext.sqlalchemy` into the `EXT` list in your applications
+`default_settings.py`.
+
+Add the `DATABASE_ENGINES` block into your runtime settings file::
+
+    DATABASE_ENGINES = {
+        "default": {
+            "url": "postgres://user:pass@host:port/database",
+        },
+    }
+
+
+.. note::
+
+    The URI is a defined by SQLAlchemy see the
+    `documentation <https://docs.sqlalchemy.org/en/13/core/engines.html>`_. In addition to
+    the url any argument that can be provided to `sqlalchemy.engines.create_engine` can be
+    provided.
+
+
+Usage
+=====
+
+The following example creates both `Connection` and `Session` instances::
+
+    from pyapp_ext.sqlalchemy import get_connection, get_session
+
+    # Get connection from default connection pool
+    cnn = get_connection()
+
+    # Get connection from an alternate pool
+    session = get_session("Alternate")
+
+
+API
+===
+
+`pyapp_ext.sqlalchemy.get_engine(default: str = None) -> Engine`
+
+    Get named `Engine` instance (singleton)
+
+
+`pyapp_ext.sqlalchemy.get_connection(default: str = None) -> Connection`
+
+    Get named `Connection` instance.
+
+
+`pyapp_ext.sqlalchemy.get_raw_connection(default: str = None)`
+
+    Get named *raw* connection, this is the underlying Python DBAPI object.
+
+
+`pyapp_ext.sqlalchemy.get_session(default: str = None) -> Session`
+
+    Get named `Session` instance.
+
+
