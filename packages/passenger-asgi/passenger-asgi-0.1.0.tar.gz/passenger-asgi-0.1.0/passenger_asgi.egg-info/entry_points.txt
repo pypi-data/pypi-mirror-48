@@ -1,0 +1,9 @@
+[console_scripts]
+passenger-asgi = passenger_asgi.entrypoint:loader
+passenger-asgi-preloader = passenger_asgi.entrypoint:preloader
+
+[passenger_asgi_adapters]
+asyncio = passenger_asgi.asyncio:DefaultAdapter
+uvloop = passenger_asgi.asyncio:UVLoopAdapter
+wsgi = passenger_asgi.wsgi:WSGIAdapter
+

@@ -1,0 +1,7 @@
+asgiref
+wsproto
+h11
+setproctitle
+
+[uvloop]
+uvloop

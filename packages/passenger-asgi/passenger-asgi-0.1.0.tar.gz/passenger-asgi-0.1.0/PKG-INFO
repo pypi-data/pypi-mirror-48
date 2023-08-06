@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: passenger-asgi
+Version: 0.1.0
+Summary: Enable ASGI support on a Passenger-Server
+Home-page: https://github.com/stuxcrystal/passenger_asgi
+Author: stuxcrystal
+Author-email: stuxcrystal@encode.moe
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: uvloop
