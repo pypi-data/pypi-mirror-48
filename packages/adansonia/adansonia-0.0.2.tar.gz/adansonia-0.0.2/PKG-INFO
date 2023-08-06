@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: adansonia
+Version: 0.0.2
+Summary: Utils package for common operations
+Home-page: https://github.com/baobab-group/Adansonia
+Author: mlabarrere
+Author-email: mlabarrere@baobab.bz
+License: UNKNOWN
+Description: # Adansonia
+        
+        _Adansonia_ is a genus of deciduous trees known as baobabs. They are found in arid regions of Madagascar, mainland Africa, Arabia, and Australia. The generic name honours [Michel Adanson](https://fr.wikipedia.org/wiki/Michel_Adanson), the French naturalist and explorer who described Adansonia digitata.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
