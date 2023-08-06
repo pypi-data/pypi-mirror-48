@@ -1,0 +1,8 @@
+submark/__init__.py,sha256=vXkwcMGeAuwV-ge0HEazZA-UgkNwynU5QzPf1U1apPE,277
+submark/cli.py,sha256=LLgEIPeio11ZEi40YP6KAXTPZaVFn-nU_3l7xaee4rI,118
+submark/submark.py,sha256=qXRIaFQ1cWWdsNlwuRUB1laYZ4Hlt37UviyqLWn8kOE,965
+submark-0.5.dist-info/entry_points.txt,sha256=aqGZgHnx-_uSZHfxSZU8qasSJaxSDwlFvO8A47Sgn0o,40
+submark-0.5.dist-info/LICENSE,sha256=FY1QhUjispUJABelMZQSpeB7USUMqGCt16UkCeSoVLQ,1068
+submark-0.5.dist-info/WHEEL,sha256=RFGpeSWy2MhnOH7MbIZmX9ZR0evWl2eJvsMO-yF-tDc,97
+submark-0.5.dist-info/METADATA,sha256=cT3wMi9fe8YTzSXd26Fg2bT05JjndRg5A4_zg3eNR-Y,226
+submark-0.5.dist-info/RECORD,,
