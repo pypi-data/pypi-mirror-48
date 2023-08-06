@@ -1,0 +1,62 @@
+Metadata-Version: 1.1
+Name: podenco
+Version: 0.0.2
+Summary: Static podcast generator.
+Home-page: https://github.com/cristobalcl/podenco
+Author: Cristóbal Carnero Liñán
+Author-email: ccarnerolinan@gmail.com
+License: MIT license
+Description: =======
+        Podenco
+        =======
+        
+        
+        .. image:: https://img.shields.io/pypi/v/podenco.svg
+                :target: https://pypi.python.org/pypi/podenco
+        
+        .. image:: https://img.shields.io/travis/cristobalcl/podenco.svg
+                :target: https://travis-ci.org/cristobalcl/podenco
+        
+        .. image:: https://codecov.io/gh/cristobalcl/podenco/branch/master/graph/badge.svg
+                :target: https://codecov.io/gh/cristobalcl/podenco
+        
+        .. image:: https://readthedocs.org/projects/podenco/badge/?version=latest
+                :target: https://podenco.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Static podcast generator.
+        
+        Work in progress.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://podenco.readthedocs.io.
+        
+        
+        Credits
+        -------
+        
+        * Cristóbal Carnero Liñán - http://cristob.al
+        
+        
+        =======
+        History
+        =======
+        
+        0.0.1 (2019-06-24)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: podenco
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
