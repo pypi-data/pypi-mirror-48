@@ -1,0 +1,4 @@
+recursive-include btk *.pyd
+recursive-include btk *.pyo
+recursive-include btk *.py
+recursive-include btk *.pyc
