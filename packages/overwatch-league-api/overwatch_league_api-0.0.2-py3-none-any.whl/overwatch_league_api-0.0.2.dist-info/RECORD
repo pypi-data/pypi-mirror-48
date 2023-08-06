@@ -1,0 +1,10 @@
+overwatchleagueapi/__init__.py,sha256=7RsnCx38eJGdNcw_FdjyIX5LI7gby8SBM2RD3672CFI,31
+overwatchleagueapi/api.py,sha256=FWU89RH7wkYZofuKZejaCsBp28Jj7gltGWsTvyQpYaY,900
+overwatchleagueapi/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+overwatchleagueapi/models/player.py,sha256=zXmWTqvNteWzOvzsUV1oGGYl3FUMJJ1qtv9eAVKSwKQ,778
+overwatchleagueapi/models/team.py,sha256=h8ePb2o6tFK1DwEnEc45z13opeQ8OEqHhBss7udrAzY,876
+overwatch_league_api-0.0.2.dist-info/LICENSE,sha256=brUGiwboa-VIb2lGYdUQKgxr-qfvAgWqpD-n2Aqt4-k,1096
+overwatch_league_api-0.0.2.dist-info/METADATA,sha256=a85hIDMy8ksc7t98hkpW7pc1HQ8KrIZvafDH0OkaaM4,501
+overwatch_league_api-0.0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+overwatch_league_api-0.0.2.dist-info/top_level.txt,sha256=MoPi59FzaCRnMOyOf8hpdUffVNp33VmvGvVqyetHRcA,19
+overwatch_league_api-0.0.2.dist-info/RECORD,,
