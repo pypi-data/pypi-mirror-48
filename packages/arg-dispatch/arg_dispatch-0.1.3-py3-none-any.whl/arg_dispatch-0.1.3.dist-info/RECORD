@@ -1,0 +1,7 @@
+arg_dispatch/__init__.py,sha256=VCFrSADAeJFoAsEjYkI_gYEtVPkuXdICoT56zNNQrB4,67
+arg_dispatch/_arg_dispatch.py,sha256=QjgLbJQkWgzJQ18SP7JJzPtmNkxZ9X5KdDDebomvDCM,1050
+arg_dispatch/_registry.py,sha256=sdPhGtut8OkO961LXKEG4FkmN8-sbTTXKDu8RGixHJc,1931
+arg_dispatch-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+arg_dispatch-0.1.3.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+arg_dispatch-0.1.3.dist-info/METADATA,sha256=NwNZi79hn0wJSwBDSyGo3sr3-A03qDYHXeBBFFK-u-4,1973
+arg_dispatch-0.1.3.dist-info/RECORD,,
