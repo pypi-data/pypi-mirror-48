@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sauron-rule-engine
+Version: 0.1.1
+Summary: A simple rule engine implemented in python
+Author: jlugao
+Author-email: joaolhullier@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
