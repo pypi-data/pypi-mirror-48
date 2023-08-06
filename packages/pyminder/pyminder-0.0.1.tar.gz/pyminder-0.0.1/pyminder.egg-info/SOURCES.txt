@@ -1,0 +1,9 @@
+MANIFEST.in
+README.md
+setup.py
+pyminder/__init__.py
+pyminder.egg-info/PKG-INFO
+pyminder.egg-info/SOURCES.txt
+pyminder.egg-info/dependency_links.txt
+pyminder.egg-info/requires.txt
+pyminder.egg-info/top_level.txt
