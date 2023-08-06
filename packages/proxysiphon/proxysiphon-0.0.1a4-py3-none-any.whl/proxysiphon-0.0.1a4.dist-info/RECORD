@@ -1,0 +1,15 @@
+proxysiphon/__init__.py,sha256=bf7qxZ8nA64IK0wyjA92rd2zgwunM-ybsE7x86bOFpI,197
+proxysiphon/agemodel.py,sha256=M0KQrDSyvdftkwVq1oRj46zItwhUalLGgV2CyQrtWC8,5720
+proxysiphon/lgm.py,sha256=z1l2E1mU_RMEPSnxfOjDmtpiJmugpeZfRFb5orS8x4g,37688
+proxysiphon/proxychimp.py,sha256=DqrNRGqYSKA35et9yuggjw9_Q2sRmGHD0Bf1OCSyiFs,17356
+proxysiphon/records.py,sha256=PIGpZclfudmh7TJ9ftj7spvQVupobjen1pvHydKRYw0,4880
+proxysiphon/lmr_hdf5/__init__.py,sha256=C1Hl-cAbWlSMud4VVhQOgU7XLAYaBAdbISjwtOjUCDs,22140
+proxysiphon/lmr_hdf5/foram_seasons.nc,sha256=gQX3XroRYKzb8yAqURWBNNSe-HgU_sbTNugmpqwTYTA,265787
+proxysiphon/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+proxysiphon/tests/test_proxychimp.py,sha256=fOtcJocc23iaHiyLCBFLDuAlqIE11OGwnxvS-oWBNmk,11119
+proxysiphon/tests/test_records.py,sha256=vfDPD9JtZB14Fw6D_Ai8CVowyt3b5uzVOmeJ8PNf_3g,572
+proxysiphon-0.0.1a4.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+proxysiphon-0.0.1a4.dist-info/METADATA,sha256=3JB4AFCTlOQs15mi9Ij7ppOHBwfBRrVfiMssMfCVLOM,1091
+proxysiphon-0.0.1a4.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+proxysiphon-0.0.1a4.dist-info/top_level.txt,sha256=9A1ILLfjWVk45Qtps7-5YFbuthnczfcmyY64Nv-EwVQ,12
+proxysiphon-0.0.1a4.dist-info/RECORD,,
