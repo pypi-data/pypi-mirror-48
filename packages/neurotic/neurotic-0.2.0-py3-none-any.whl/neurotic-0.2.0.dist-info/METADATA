@@ -1,0 +1,161 @@
+Metadata-Version: 2.1
+Name: neurotic
+Version: 0.2.0
+Summary: Curate, visualize, and annotate your behavioral ephys data using Python
+Home-page: https://github.com/jpgill86/neurotic
+Author: Jeffrey Gill
+Author-email: jeffrey.p.gill@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: tests
+Requires-Dist: coveralls ; extra == 'tests'
+Requires-Dist: nose ; extra == 'tests'
+
+neurotic
+========
+
+*Curate, visualize, and annotate your behavioral ephys data using Python*
+
+.. image:: https://img.shields.io/pypi/v/neurotic.svg
+    :target: PyPI_
+    :alt: PyPI project
+
+.. image:: https://img.shields.io/badge/github-source_code-blue.svg
+    :target: GitHub_
+    :alt: GitHub source code
+
+.. image:: https://travis-ci.com/jpgill86/neurotic.svg?branch=master
+    :target: https://travis-ci.com/jpgill86/neurotic
+    :alt: Build status
+
+.. image:: https://coveralls.io/repos/github/jpgill86/neurotic/badge.svg?branch=master
+    :target: https://coveralls.io/github/jpgill86/neurotic?branch=master
+    :alt: Coverage status
+
+.. _PyPI:   https://pypi.org/project/neurotic/
+.. _GitHub: https://github.com/jpgill86/neurotic/
+
+Installing dependencies
+-----------------------
+
+Because **neurotic** depends on some pre-release changes in a couple libraries,
+``pip`` cannot automatically fetch all dependencies during normal installation.
+Therefore, **dependencies must be installed manually**.
+
+With conda
+~~~~~~~~~~
+
+A recipe for installing **neurotic** via ``conda`` directly is not yet
+available. However, the file ``environment.yml`` is provided for installing its
+dependencies into a conda environment. To install into a new conda environment
+named ``neurotic``, use these commands::
+
+    git clone https://github.com/jpgill86/neurotic.git
+    conda env create -f neurotic/environment.yml -n neurotic
+
+To update an existing environment, replace ``conda env create`` with ``conda
+env update``.
+
+Remember to switch environments if necessary before proceeding with
+installation (``conda activate neurotic`` or ``source activate neurotic``).
+
+Without conda
+~~~~~~~~~~~~~
+
+The file ``requirements.txt`` is provided for installing dependencies with
+``pip``. Dependencies can be installed using these commands::
+
+    git clone https://github.com/jpgill86/neurotic.git
+    pip install -U -r neurotic/requirements.txt
+
+If you get an error while installing PyAV, especially on Windows, you may need
+to build it from scratch or get it from another source, such as conda-forge::
+
+    conda install -c conda-forge av
+
+Installing neurotic
+-------------------
+
+To reiterate, you must install dependencies manually. They will not be
+installed with **neurotic**.
+
+To install the latest release version from PyPI_, use ::
+
+    pip install neurotic
+
+To install the latest development version from GitHub_, use ::
+
+    pip install git+https://github.com/jpgill86/neurotic.git
+
+To install from a local copy of the source code, use ::
+
+    python setup.py install
+
+Getting started
+---------------
+
+Launch the standalone app from the command line::
+
+    neurotic
+
+A simple example is provided. Select the "example dataset", download the
+associated data, and then click launch.
+
+Command line arguments can be listed using ::
+
+    neurotic --help
+
+Questions and support
+---------------------
+
+Please post any questions, problems, comments, or suggestions in the `GitHub
+issue tracker <https://github.com/jpgill86/neurotic/issues>`_.
+
+Changes
+-------
+
+0.2.0 (2019-06-28)
+~~~~~~~~~~~~~~~~~~
+
+Improvements
+............
+
+* Add basic command line arguments
+  (`#14 <https://github.com/jpgill86/neurotic/pull/14>`__)
+* Add continuous integration with Travis CI for automated testing
+  (`#13 <https://github.com/jpgill86/neurotic/pull/13>`__)
+* Add some tests
+  (`#15 <https://github.com/jpgill86/neurotic/pull/15>`__,
+  `#16 <https://github.com/jpgill86/neurotic/pull/16>`__)
+* Migrate example data to GIN
+  (`#18 <https://github.com/jpgill86/neurotic/pull/18>`__)
+
+Bug fixes
+.........
+
+* Fix crash when downloading from a server that does not report file size
+  (`#17 <https://github.com/jpgill86/neurotic/pull/17>`__)
+* Raise an exception if a Neo RawIO cannot be found for the data file
+  (`#12 <https://github.com/jpgill86/neurotic/pull/12>`__)
+
+0.1.1 (2019-06-22)
+~~~~~~~~~~~~~~~~~~
+
+Bug fixes
+.........
+
+* Fix various downloader errors
+  (`#7 <https://github.com/jpgill86/neurotic/pull/7>`__)
+
+0.1.0 (2019-06-22)
+~~~~~~~~~~~~~~~~~~
+
+* First release
+
+
