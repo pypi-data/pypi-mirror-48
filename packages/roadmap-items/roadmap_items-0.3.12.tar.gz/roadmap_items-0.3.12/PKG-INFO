@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: roadmap_items
+Version: 0.3.12
+Summary: Roadmap service to manage roadmaps and roadmap items with RBAC
+Home-page: https://wittlesouth.com:32002/projects/RFTW/repos/roadmap_items/browse
+Author: Wittle South Ventures, LLC
+Author-email: eric@wittlesouth.com
+License: UNKNOWN
+Description: Roadmap Items Service
+        =====================
+        
+        This service manages roadmaps and roadmap items, and tag classes.
+        
+        Version History
+        ---------------
+        
+        0.1.X - Incremental steps along the path to a first working version
+        
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
