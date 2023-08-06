@@ -1,0 +1,8 @@
+aws_cdk/aws_pinpointemail/__init__.py,sha256=pwLD0oWoUAWRo2BSbAohneS9x_HIzFaiyuOvB52Hd7A,49459
+aws_cdk/aws_pinpointemail/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_pinpointemail/_jsii/__init__.py,sha256=HYe19HfCWrirGkrqrUGvtl106_J-W58jjF_KCBu5J0w,200
+aws_cdk/aws_pinpointemail/_jsii/aws-pinpointemail@0.36.0.jsii.tgz,sha256=bF7Xqvm8O2zz38I5ZHveZ8VfDycZ3EhbhzY13WQAqJQ,32210
+aws_cdk.aws_pinpointemail-0.36.0.dist-info/METADATA,sha256=AIQM3AXPwFfmvxZigbm63TjvOC7hguYehtf_hy76Hao,1273
+aws_cdk.aws_pinpointemail-0.36.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_pinpointemail-0.36.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_pinpointemail-0.36.0.dist-info/RECORD,,
