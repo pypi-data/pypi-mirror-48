@@ -1,0 +1,4 @@
+Click>=6.0
+beautifulsoup4>=4.7jupyter>=1.0
+scikit-learn>=0.20
+joblib>=0.13
