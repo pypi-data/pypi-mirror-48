@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: seq2annotation
+Version: 0.4.0
+Summary: seq2annotation
+Home-page: UNKNOWN
+Author: Xiaoquan Kong
+Author-email: u1mail2me@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: tensorflow
+Requires-Dist: keras
+Requires-Dist: tokenizer-tools
+Requires-Dist: flask
+Requires-Dist: flask-cors
+
+UNKNOWN
+
+
