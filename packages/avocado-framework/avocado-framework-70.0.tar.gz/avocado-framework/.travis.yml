@@ -1,0 +1,35 @@
+dist: xenial
+language: python
+
+matrix:
+  allow_failures:
+    - python: "nightly"
+
+python:
+    - "3.4"
+    - "3.5"
+    - "3.6"
+    - "3.7"
+    - "nightly"
+
+env:
+    - AVOCADO_PARALLEL_LINT=1
+      AVOCADO_PARALLEL_CHECK=yes
+      AVOCADO_LOG_DEBUG=yes
+      SELF_CHECK_CONTINUOUS=y
+      AVOCADO_CHECK_LEVEL=1
+
+cache:
+    directories:
+        - $HOME/.cache/pip
+
+addons:
+  apt:
+    packages:
+    - libvirt-dev
+
+install:
+    - pip install -r requirements-selftests.txt
+
+script:
+    - make check
