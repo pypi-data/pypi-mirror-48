@@ -1,0 +1,9 @@
+README.md
+setup.py
+alcpack/__init__.py
+alcpack/alcscript.py
+alcpack.egg-info/PKG-INFO
+alcpack.egg-info/SOURCES.txt
+alcpack.egg-info/dependency_links.txt
+alcpack.egg-info/requires.txt
+alcpack.egg-info/top_level.txt
