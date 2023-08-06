@@ -1,0 +1,9 @@
+matplotlib
+numpy
+tqdm
+
+[all]
+pandas
+
+[print]
+pandas
