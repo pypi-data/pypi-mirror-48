@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+DiscordRPC.py.egg-info/PKG-INFO
+DiscordRPC.py.egg-info/SOURCES.txt
+DiscordRPC.py.egg-info/dependency_links.txt
+DiscordRPC.py.egg-info/top_level.txt
+DiscordRPC.py.egg-info/zip-safe
+discordrpc/__init__.py
+discordrpc/baseclient.py
+discordrpc/client.py
+discordrpc/exceptions.py
+discordrpc/payloads.py
+discordrpc/response.py
+discordrpc/utils.py
