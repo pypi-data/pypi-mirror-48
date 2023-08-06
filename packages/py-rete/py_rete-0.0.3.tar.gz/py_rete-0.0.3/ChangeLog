@@ -1,0 +1,44 @@
+CHANGES
+=======
+
+v0.0.3
+------
+
+* trying to get pypi commiting on tags and no tags, but only on master
+
+v0.0.2
+------
+
+* trying to authenticate to pypi again
+* another try to authenticate with pypi
+* modified configuration to publish to pypi
+* trying to get working version for CI
+* updated readme to be RST
+* added license file from upstream and modified to include myself
+* converting into python package, slight refactoring of things to accomodate. Still need to pull in license from upstream
+* adding comments and slight refactoring to move beta classes together into beta module."
+* Create LICENSE
+* modified to pass tests using python3
+* add test case
+* rm op
+* fix ncc number\_of\_conditions
+* add XML Parsing
+* add FilterNode & BindNode
+* add pnode
+* rm compare op
+* fix get\_join\_tests\_from\_condition
+* add dump to DOT
+* refactor Rule
+* add compare
+* rm Var
+* fix dummy join node & refactor package files
+* fix update\_new\_node
+* add NCCNode
+* init benchmark
+* add negative node and modify on the fly
+* add remove wme
+* add test status
+* add CI
+* Avoiding duplicate tokens
+* add ref
+* first blood
