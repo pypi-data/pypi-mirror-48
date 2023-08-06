@@ -1,0 +1,13 @@
+redssh
+
+[docs]
+redssh
+redssh
+sphinx
+sphinx_rtd_theme
+
+[tests]
+redssh
+redssh
+sphinx
+sphinx_rtd_theme
