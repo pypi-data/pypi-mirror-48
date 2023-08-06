@@ -1,0 +1,17 @@
+README.rst
+setup.py
+rh_ocp_build_data_validator.egg-info/PKG-INFO
+rh_ocp_build_data_validator.egg-info/SOURCES.txt
+rh_ocp_build_data_validator.egg-info/dependency_links.txt
+rh_ocp_build_data_validator.egg-info/entry_points.txt
+rh_ocp_build_data_validator.egg-info/requires.txt
+rh_ocp_build_data_validator.egg-info/top_level.txt
+validator/__init__.py
+validator/__main__.py
+validator/distgit.py
+validator/format.py
+validator/github.py
+validator/support.py
+validator/schema/__init__.py
+validator/schema/image_schema.py
+validator/schema/rpm_schema.py
