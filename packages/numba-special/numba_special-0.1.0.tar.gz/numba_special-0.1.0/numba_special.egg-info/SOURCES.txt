@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+numba_special/__init__.py
+numba_special/function_pointers.c
+numba_special/generate_overloads.py
+numba_special/numba_overloads.py
+numba_special/signatures.json
+numba_special.egg-info/PKG-INFO
+numba_special.egg-info/SOURCES.txt
+numba_special.egg-info/dependency_links.txt
+numba_special.egg-info/requires.txt
+numba_special.egg-info/top_level.txt
