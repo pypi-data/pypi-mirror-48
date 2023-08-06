@@ -1,0 +1,8 @@
+s3_iterator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_iterator/iterator.py,sha256=J8mzoQ-h1l-e8vsQyWtRSb2C-7-rFes8RmVEMSdTxBI,808
+s3_iterator/list_obj.py,sha256=rMuHMQTArlzH_5CGJ0gSaBv47pTwv1hwpgWMG-Vocq0,928
+s3_iterator/worker.py,sha256=xUg5QQkvIYb1sSxsE8mzpBH1hsMNbvbRaJ5FzO7is3o,469
+s3_iterator_kypkalorian-0.0.3.dist-info/METADATA,sha256=YwaJnYWcD1kA0szQ_7Zyr0Dah7OSs24HE9sIhU99fuo,497
+s3_iterator_kypkalorian-0.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+s3_iterator_kypkalorian-0.0.3.dist-info/top_level.txt,sha256=ZRTudRQUiyRuDFVadmilVNvBcpK0t5f88uaV02KUQIM,12
+s3_iterator_kypkalorian-0.0.3.dist-info/RECORD,,
