@@ -1,0 +1,3 @@
+typeguard~=2.2.2
+gitpython~=2.1.11
+decopatch~=1.4.5
