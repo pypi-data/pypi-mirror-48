@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: promptory
+Version: 0.0.0
+Summary: The simple Python library to create and manage document-based datastores that live as directories and JSON files.
+Home-page: https://github.com/dustinwinski
+Author: Dustin Winski
+Author-email: dustinwinski@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# promptory
+
+The simple Python library to create and manage document-based datastores that live as directories and JSON files.
+
+
