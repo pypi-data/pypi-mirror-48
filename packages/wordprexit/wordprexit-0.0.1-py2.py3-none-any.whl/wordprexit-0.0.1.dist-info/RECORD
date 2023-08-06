@@ -1,0 +1,12 @@
+wordprexit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wordprexit/autop.py,sha256=106J-YMqFvUMacxFCV8uN2J-0fKuvnrw9NAI051Nk7A,2891
+wordprexit/cli.py,sha256=Hq32YWVMHelADwVWVYzUOQIqRtXjmhvtjqJQKrctUlU,9405
+wordprexit/hugo_shortcodes.py,sha256=Nj3tNkw0p7Kke6M-A4JY9XOnRbBLMeMfWJep3ivWeeE,3179
+wordprexit/wp_shortcodes.py,sha256=JaQo2PVHbg0c_Nh0q99k3jKUQ7CuBpEnT4xkDd34IxM,2587
+wordprexit/wxrfile.py,sha256=KNld0c1h7NtFJ6eqhXvubof4sWUsFlLKdTLw7m5RqRs,7235
+wordprexit-0.0.1.dist-info/LICENSE,sha256=bOsvT9mLlRptcsdr5AjUcm4uLfCRibFm5wf-Bv9za18,1072
+wordprexit-0.0.1.dist-info/METADATA,sha256=VIX79DJugS8Y18z6tveRf__tiL_kPwTGYBZgmv0sACk,762
+wordprexit-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+wordprexit-0.0.1.dist-info/entry_points.txt,sha256=BoCM041IZDU5TfiRJTRDa-gDFL3wXMNZdtxk1aFSBuM,52
+wordprexit-0.0.1.dist-info/top_level.txt,sha256=4iM_OKZx4-VYplPdcaO8PdKOxzW7ginTe-tUuXYNqp0,11
+wordprexit-0.0.1.dist-info/RECORD,,
