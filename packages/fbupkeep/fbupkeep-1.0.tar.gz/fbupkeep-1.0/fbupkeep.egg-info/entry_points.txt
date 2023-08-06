@@ -1,0 +1,12 @@
+[console_scripts]
+fbupkeep = fbupkeep.runner:main
+
+[fbupkeep_tasks]
+gbak = fbupkeep.tasks:TaskGbak
+gbak_restore = fbupkeep.tasks:TaskGbakRestore
+gstat = fbupkeep.tasks:TaskGstat
+idx_rebuild = fbupkeep.tasks:TaskIndexRebuild
+idx_recompute = fbupkeep.tasks:TaskIndexRecompute
+remove_old = fbupkeep.tasks:TaskRemoveOld
+sweep = fbupkeep.tasks:TaskSweep
+
