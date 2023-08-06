@@ -1,0 +1,9 @@
+flask_lambda.py,sha256=sS3XpNn6MLobz8yk0AOBDSnT38RDcD-B0zrHu3_xrdU,4363
+flask_lambda/__init__.py,sha256=zRnXi0Z2lkYXuoAmi2eBh7GrdRCLUOP5aLKc9IvfX_E,4410
+flask_lambda/util/__init__.py,sha256=hmAnkKaxo0oLK2L5lf3eRVHBjGNzqphVJT8KZVGTQZk,53
+flask_lambda/util/object_utils.py,sha256=5zqp5s7m_7xF2Al4_s8TPHAoOfXZUoc_pIn7jTGrw2Q,280
+flask_lambda_support-0.1.5.dist-info/LICENSE,sha256=tAkwu8-AdEyGxGoSvJ2gVmQdcicWw3j1ZZueVV74M-E,11357
+flask_lambda_support-0.1.5.dist-info/METADATA,sha256=EjvRf2Eo8P3TrzbzYEW4_awj0QQR9SiXjmRkAgGDD4Q,2379
+flask_lambda_support-0.1.5.dist-info/WHEEL,sha256=zrXrju_u0X_BdbpeAg4LfKB6db-H6RNG1qrQ3b8AAlY,93
+flask_lambda_support-0.1.5.dist-info/top_level.txt,sha256=bYd3gnWEdmTTifBd4SqIp50AzSbdoWDoesw1xYN3DMQ,13
+flask_lambda_support-0.1.5.dist-info/RECORD,,
