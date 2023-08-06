@@ -1,0 +1,11 @@
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+version.py
+mysdq/__init__.py
+mysdq/query.py
+mysdq.egg-info/PKG-INFO
+mysdq.egg-info/SOURCES.txt
+mysdq.egg-info/dependency_links.txt
+mysdq.egg-info/top_level.txt
