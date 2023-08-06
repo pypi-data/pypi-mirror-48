@@ -1,0 +1,16 @@
+flask_secure_admin/__init__.py,sha256=BH8FI42biL9X_4-jtZbrM9aChQo1iEKggOfpTgsc2PU,45
+flask_secure_admin/blueprint.py,sha256=UzVGWslDxnTxyXyQ4r3xXZoKNAbsAw_FsgYkZ5h-5Qc,3294
+flask_secure_admin/secure_model_view.py,sha256=fyeZtLui6WO9d3B7xlOQHOc9rxU6qTMZM2mT46dGWk0,820
+flask_secure_admin/security_sqlsoup_user_datastore.py,sha256=heHAEJJZKC5pnD3vozz0nV96X9NR094CNbCiItNEIys,1793
+flask_secure_admin/str_representation.py,sha256=jY6dAfbZ5AG9h4pnwG1wbsD6Iiu3RmykDkXkmzpfygE,382
+flask_secure_admin/templates.py,sha256=YaarUz0wXF5ZzHxqR-yAvVf2TwXgcKaJ1F_w_eEGhRg,750
+flask_secure_admin/utils.py,sha256=MS8bYcKmuAAmTPPS4CLQ8x0LRRQswjBsKXuEDlu3VNE,52
+flask_secure_admin/templates/admin/master.html,sha256=3qqhUgV5KGPjx3ap6Vc0h2Xb2uxyKB4wy30-h46NY_Q,219
+flask_secure_admin/templates/security/_macros.html,sha256=eOINoJeSD4BbF7VJK9mH_hCc0pmJ-8YI36hFA5iQ0yo,651
+flask_secure_admin/templates/security/_menu.html,sha256=VMKsfqwmVrjAO1teLifj73jFtul45FdiHsD2_HAMy2U,727
+flask_secure_admin/templates/security/_messages.html,sha256=fKOmF5yCV7LN3Yp8GpqQUID88obwBq6M_XnxcxELzTs,244
+flask_secure_admin/templates/security/login_user.html,sha256=RlwjuNquI_JS3BwCZdFqrYz-021xLr-QRtxH71SJzPw,861
+flask_secure_admin-0.1.2.dist-info/METADATA,sha256=r163TNdiKcWKej9hKjmgdwKpF-B5GlhdXx4_TLmyojs,829
+flask_secure_admin-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+flask_secure_admin-0.1.2.dist-info/top_level.txt,sha256=ku0wcw6wjXi0-XqFBIkgj3PlGMG7gf7L7JRXhRZiBz8,19
+flask_secure_admin-0.1.2.dist-info/RECORD,,
