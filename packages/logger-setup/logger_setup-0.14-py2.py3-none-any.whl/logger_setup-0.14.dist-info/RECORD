@@ -1,0 +1,8 @@
+logger_setup/__init__.py,sha256=EuDNyrgVhkgvje-FTj6EyHgy8mAi8q1tT2jn33-0gao,49
+logger_setup/crashlogger.py,sha256=1hu3E9iaFKkk9RNMuSDBJH0aDVGpu0iZj5nHLGf3P9Y,454
+logger_setup/logger_setup.py,sha256=JFNmpJ_Ifj4H4N4B0mAdYNolQ67Lzo7uLt2FxLL6DNo,2741
+logger_setup-0.14.dist-info/LICENSE,sha256=xodLWMPbCln9V5NfwRW47aGJUjNJXIe1hsEUL7tZGcI,1077
+logger_setup-0.14.dist-info/METADATA,sha256=DC7oSUMRV5X7Fk6-f70507k041WoRLV_lu5YyUi8xb8,551
+logger_setup-0.14.dist-info/WHEEL,sha256=53VSps8MltPLN_x9Ib61FU2ZSaJKzgrWQqu9rS-Dkgk,116
+logger_setup-0.14.dist-info/top_level.txt,sha256=I1C_Q0HGeePEzFDs7QPrLj_7sJOZ3loxpn6loWuuBIw,13
+logger_setup-0.14.dist-info/RECORD,,
