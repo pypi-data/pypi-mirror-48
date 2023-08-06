@@ -1,0 +1,10 @@
+cheapodb/__init__.py,sha256=cIs1x7S1OsDlrXON0eKIYlbSXt9qqfP1L93FG1quIas,152
+cheapodb/database.py,sha256=V-gRdAazmZMKOiTUKEd9nfNVt30KHu8YK99xMIEEeaw,9140
+cheapodb/stream.py,sha256=GZGvjMSHF5t5PHd8QZAJe64_gCP5_Egncqqu2gQ3d6s,4470
+cheapodb/table.py,sha256=9JjdPODmSB-TPlCUafj1qD5jxoj4lMw0Fq9p8iEVCTM,4789
+cheapodb/utils.py,sha256=WcUzenVsELcBwtm_7SyhcEu8VLbz5EDVqxr0IjLfLZ8,3505
+cheapodb-0.0.10.dist-info/LICENSE.md,sha256=_oPnLmboelSqAcNOBjT4FnFVRUz44MGD6g_1LyZGX10,1068
+cheapodb-0.0.10.dist-info/METADATA,sha256=un4xh0CqaPag0JDFV3VxF0Ayz-AYHpWakNLnrPdJrHA,1212
+cheapodb-0.0.10.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+cheapodb-0.0.10.dist-info/top_level.txt,sha256=lrDdKcCxUey-uy0i2cGx8XhcFN8iX9C12OWRl_NJgG0,9
+cheapodb-0.0.10.dist-info/RECORD,,
