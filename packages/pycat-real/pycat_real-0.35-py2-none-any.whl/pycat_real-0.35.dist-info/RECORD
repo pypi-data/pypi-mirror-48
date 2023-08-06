@@ -1,0 +1,10 @@
+pycat/__init__.py,sha256=DMOuxFk6B_PK9MD1FqYRI33ADxLndQ_nn2YRwVT6xlc,73
+pycat/cli.py,sha256=c-R5P-ha1masLXfyWPnQT36iRtEj6755a1EgeH_dqLI,258
+pycat/config.py,sha256=TKyQ_px4WL9Vq4_D-5QZiLzDm79ZkVIuQFa7aL3IC-w,1510
+pycat/imcat.py,sha256=dzZo24P3LQwAoUIoSR1-zpvy6ASmodH2xbuWZwYKC_4,5535
+pycat/xterm_colors.py,sha256=BfTUI25CkDjwOQBYDj2afvwA090CERtl_QJqjyg85eA,9689
+pycat_real-0.35.dist-info/METADATA,sha256=Zf_71u_meGSQi_CP4cNtgpaL57jGtqA8qyV4c-Aq-ck,539
+pycat_real-0.35.dist-info/WHEEL,sha256=_eaHuBxOHdDlLnwQU30U16Q6vfvhsEhxIYEpcPcf8n0,92
+pycat_real-0.35.dist-info/entry_points.txt,sha256=S-tgsMMSLFZIjXawhwvn-jeQ8v1ugkHatYkcrZz7PRY,43
+pycat_real-0.35.dist-info/top_level.txt,sha256=M-PnCIgUr_0ldDaIviKkpPDvW4iv7GApaDAlKILPwUg,6
+pycat_real-0.35.dist-info/RECORD,,
