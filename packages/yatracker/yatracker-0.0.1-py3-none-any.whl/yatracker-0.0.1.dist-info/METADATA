@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: yatracker
+Version: 0.0.1
+Summary: Fully asynchronous library for Yandex Tracker
+Home-page: https://github.com/Olegt0rr/YaTracker
+Author: Oleg A.
+Author-email: oleg@trueweb.app
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Requires-Dist: aiohttp (==3.5.4)
+Requires-Dist: certifi (==2019.6.16)
+Requires-Dist: pydantic[ujson] (==0.29)
+Requires-Dist: python-rapidjson (==0.7.2)
+
+YaTracker
+============
+Asyncio Yandex Tracker API client
+
+
+
+Examples
+========
+You can find examples in `/examples` folder 
+
