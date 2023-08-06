@@ -1,0 +1,4 @@
+[console_scripts]
+mfn = modfname.modfname:modify_fname
+modfname = modfname.modfname:modify_fname
+
