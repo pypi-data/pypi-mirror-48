@@ -1,0 +1,17 @@
+MANIFEST.in
+setup.py
+bin/framl
+framl/__init__.py
+framl/assembler.py
+framl.egg-info/PKG-INFO
+framl.egg-info/SOURCES.txt
+framl.egg-info/dependency_links.txt
+framl.egg-info/not-zip-safe
+framl.egg-info/top_level.txt
+framl/skeleton/.dockerignore
+framl/skeleton/.gitignore
+framl/skeleton/Dockerfile
+framl/skeleton/main.py
+framl/skeleton/requirements.txt
+framl/skeleton/validator.py
+framl/skeleton/model/model.py

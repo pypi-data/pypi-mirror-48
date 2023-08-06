@@ -1,0 +1,29 @@
+#!/usr/bin/env python
+
+import os
+import sys
+from argparse import ArgumentParser
+from random import choice
+
+from framl.assembler import Assembler
+
+parser = ArgumentParser()
+parser.add_argument( "cmd", choices=["create", "deploy"], help="Please specify command" )
+args = parser.parse_args()
+
+current_path = os.getcwd()
+ass = Assembler(current_path)
+
+if args.cmd == "create":
+    while True:
+        name = input("Please enter the name of your model: ")
+        name = name.replace(' ', '-' )
+
+        if not name:
+            print( "Invalid model name")
+        else:
+            break
+
+    ass.create_workspace( name )
+
+    ass.copy_base()
