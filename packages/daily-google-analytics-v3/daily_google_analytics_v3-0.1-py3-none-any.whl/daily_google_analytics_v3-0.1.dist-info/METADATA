@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: daily-google-analytics-v3
+Version: 0.1
+Summary: A library for downloading daily GA data to a pandas dataframe or CSV using v3 of the API.
+Home-page: https://github.com/dom-devel/daily_google_analytics_to_df_or_csv
+Author: Dominic Woodman
+Author-email: domwoodman@gmail.com
+License: MIT
+Download-URL: https://github.com/dom-devel/daily_google_analytics_to_df_or_csv/archive/0.1.tar.gz
+Keywords: google analytics,pandas
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pandas
+Requires-Dist: httplib2
+Requires-Dist: google-api-python-client
+Requires-Dist: oauth2client
+
+UNKNOWN
+
+
