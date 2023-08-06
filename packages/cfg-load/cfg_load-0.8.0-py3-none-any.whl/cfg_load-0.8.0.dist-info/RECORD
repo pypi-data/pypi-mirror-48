@@ -1,0 +1,11 @@
+cfg_load/__init__.py,sha256=TpU9xLov0aTG83oGBwA22GBxOedQmVBN6Lv452y2oNE,12831
+cfg_load/_version.py,sha256=27YY3zFpeaDh6JoC40AqkjBrn68SqFlsWZzjZtw5jwU,22
+cfg_load/paths.py,sha256=XFUN829TXhUJs2cJj2dSfKp8TT6UWl8DPHokkMLuVSs,1035
+cfg_load/remote.py,sha256=rhgN0bwO3hFUZF1zJO3Qdq2Fkyn9R9iXr-FjQCfBZGE,2633
+cfg_load-0.8.0.data/scripts/cfg_load,sha256=DJS0spu9cC1lky1BZXPs7pHZ0urAHCgFTKLaGEt3xns,2660
+cfg_load-0.8.0.dist-info/LICENSE,sha256=cDkOT999s95SdurCD_aW1GO7kx4xXzvJIIqTDW13xio,1068
+cfg_load-0.8.0.dist-info/METADATA,sha256=0E_bYgV9kFBA9RRq8kCSl617d9mkBrToT2D9m0u2IB4,6776
+cfg_load-0.8.0.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+cfg_load-0.8.0.dist-info/top_level.txt,sha256=cMPIUpJdMRqzGsB-5uKd1MubK5XIdKshFcHCSzyxAT0,9
+cfg_load-0.8.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cfg_load-0.8.0.dist-info/RECORD,,
