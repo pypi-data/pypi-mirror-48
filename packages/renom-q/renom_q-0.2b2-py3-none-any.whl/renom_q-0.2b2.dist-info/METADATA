@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: renom-q
+Version: 0.2b2
+Summary: Machine learning framework for quantum machine learning and quantum optimization
+Home-page: https://github.com/ReNom-dev-team/ReNomQ
+Author: Grid.Inc
+Author-email: UNKNOWN
+License: ReNom Subscription License (https://www.renom.jp/info/license/index.html)
+Keywords: ReNom renom ReNomQ renom_q quantum Frameworks
+Platform: UNKNOWN
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: Cython
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+
+ReNomQ is a machine learning framework for quantum machine learning and quantum optimization. http://renom.jp/packages/renomq/index.html
+
+
