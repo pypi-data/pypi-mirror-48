@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: restservice
+Version: 0.1.9
+Summary: A small JSON API service template
+Home-page: https://github.com/SergeyMokeyev/RESTService
+Author: Sergey Mokeyev
+Author-email: sergey.mokeyev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp (>=3.5.4)
+Requires-Dist: marshmallow (>=3.0.0rc7)
+Requires-Dist: inflection (>=0.3.1)
+Requires-Dist: pyyaml (>=5.1.1)
+
+# RESTService
+
+
