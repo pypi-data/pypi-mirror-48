@@ -1,0 +1,11 @@
+tronald/__init__.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+tronald/__main__.py,sha256=-TzAVRZMsUiXqwW44A7RWqwiRdFHDUdhxXtQzA7ylKo,90
+tronald/cli.py,sha256=37ocZJwselkRQ8stKCdcs-LvwaeUNBA56bBO7adf9bM,2486
+tronald/commands.py,sha256=Mhrp0ZuUz6LGg-fKV9e3JDirRI_iogb8IRnf8wSXLMk,535
+tronald/config.py,sha256=Jvgt6-BqgVjqMWJgKPPADMpKedrU6uuW3Vy-oZCvTf8,3113
+tronald/controllers.py,sha256=0k4f78_QGI1FstV9wCDGdNUgSQOFJBQmWnte_xPANkg,1893
+tronald/initial.py,sha256=yGTG25VUvsY7nDZiaH8hIynmRj2rqy5aDge_XMgUkCA,1331
+tronald-0.4.0.dist-info/entry_points.txt,sha256=UZfpPtoj6yD-SWbs6neW3IVF5AX4QYs1QiECJiqi2sA,48
+tronald-0.4.0.dist-info/WHEEL,sha256=fRZ0jyDPltM3MgdRgnIh981pt0qqbfzrEGV0U1fUdZo,85
+tronald-0.4.0.dist-info/METADATA,sha256=okGGPT_Uq1v4b92b2FwSIlFCM1KjfynrSf0Ex5J03jE,517
+tronald-0.4.0.dist-info/RECORD,,
