@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pytest-remfiles
+Version: 0.0.1
+Summary: Pytest plugin to create a temporary directory with remote files
+Home-page: https://github.com/horta/pytest-remfiles
+Author: Danilo Horta
+Author-email: horta@ebi.ac.uk
+Maintainer: Danilo Horta
+Maintainer-email: horta@ebi.ac.uk
+License: MIT
+Download-URL: https://github.com/horta/pytest-remfiles
+Description: # pytest-remfiles
+        
+Keywords: pytest,remote files,download
+Platform: Windows
+Platform: MacOS
+Platform: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Testing
+Description-Content-Type: text/markdown
