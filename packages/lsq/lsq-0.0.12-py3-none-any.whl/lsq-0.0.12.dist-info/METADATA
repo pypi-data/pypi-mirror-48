@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: lsq
+Version: 0.0.12
+Summary: Python Library to interact with Leadsquared API easily
+Home-page: https://github.com/seanjin17/lsq-python
+Author: Anand Sandilya
+Author-email: anand.sandilya@leadsquared.com
+License: UNKNOWN
+Keywords: leadsquared lsq lsqpython lsqpip
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# lsq-python
+Leadsquared Python module to interact easily with Leadsquared API
+
+
