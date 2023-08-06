@@ -1,0 +1,15 @@
+.PHONY: init publish clean
+
+init:
+	pip3 install pipenv --upgrade
+	pipenv install --dev
+publish:
+	rm -rf build dist .eggs *.egg-info
+
+	pip3 install 'twine>=1.5.0'
+	python3 setup.py sdist bdist_wheel
+	twine upload dist/*
+
+	rm -rf build dist .eggs *.egg-info
+clean:
+	rm -rf build dist .eggs *.egg-info
