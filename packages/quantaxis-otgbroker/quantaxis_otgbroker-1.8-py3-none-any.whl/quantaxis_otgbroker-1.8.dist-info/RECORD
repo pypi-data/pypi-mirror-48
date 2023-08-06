@@ -1,0 +1,10 @@
+QA_OTGBroker/__init__.py,sha256=tky5ytJh6NgwyRrnoLb_-3x158N28Yd0wWNkilGUeQ4,20102
+QA_OTGBroker/app.py,sha256=pbKnEJUCRIfCqnBruwCWH0R1DyqrHrSWkxEjfwGv1tI,2021
+QA_OTGBroker/market_receiver.py,sha256=ntqh01ZBxz86cqRTAh72dRrSbQBgU_PpJS-TLjiJjXs,344
+quantaxis_otgbroker-1.8.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+quantaxis_otgbroker-1.8.dist-info/METADATA,sha256=ydEH4LMq3CINHcZ_NX2xrnfIXeukughvlYr9IxIqEvk,591
+quantaxis_otgbroker-1.8.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+quantaxis_otgbroker-1.8.dist-info/entry_points.txt,sha256=IW0S5nerJn1GlQp8GC15rGxeZCFQW32NO56ENK0dKeY,53
+quantaxis_otgbroker-1.8.dist-info/top_level.txt,sha256=Bemxi4LUKvLUI5o1BQaQchJoKZPIec6lpnh1HkUZhgw,13
+quantaxis_otgbroker-1.8.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+quantaxis_otgbroker-1.8.dist-info/RECORD,,
