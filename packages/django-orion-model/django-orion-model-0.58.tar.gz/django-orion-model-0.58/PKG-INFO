@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: django-orion-model
+Version: 0.58
+Summary: A Django model to manage Fiware Orion Entities as local models 
+Home-page: https://github.com/deusto-tech/django-orion-model/
+Author: Josu Bermudez
+Author-email: josu.bermudez@deusto.es
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Fiware Orion development
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Framework :: Django :: 2.0
