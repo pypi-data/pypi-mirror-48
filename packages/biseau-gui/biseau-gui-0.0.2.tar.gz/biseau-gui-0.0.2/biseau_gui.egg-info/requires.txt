@@ -1,0 +1,4 @@
+biseau>=0.0.8
+graphviz>=0.10.1
+PySide2>=5.12.1
+rofetta>=1.1.6
