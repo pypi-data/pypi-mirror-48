@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+tree_stat/__init__.py
+tree_stat/__main__.py
+tree_stat/_display_file_size.py
+tree_stat/directory_measure.py
+tree_stat.egg-info/PKG-INFO
+tree_stat.egg-info/SOURCES.txt
+tree_stat.egg-info/dependency_links.txt
+tree_stat.egg-info/entry_points.txt
+tree_stat.egg-info/requires.txt
+tree_stat.egg-info/top_level.txt
+tree_stat/templates/tree_stat.md
