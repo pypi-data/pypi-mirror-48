@@ -1,0 +1,12 @@
+CHANGES
+=======
+
+* remove pdb
+* change foolder structure
+* setup versionining
+* enable travis deployment
+* fix failing requirements file
+* add packaging files
+* add sample test
+* add developement environment
+* initial commit
