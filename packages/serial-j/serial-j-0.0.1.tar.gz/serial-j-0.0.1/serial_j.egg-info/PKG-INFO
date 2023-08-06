@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: serial-j
+Version: 0.0.1
+Summary: making python class out of python dictionary, with default conversion method to json string or back to python dictionary.
+Home-page: https://github.com/JunpuFan/serial-j
+Author: Junpu Fan
+Author-email: junpufan@me.com 
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
