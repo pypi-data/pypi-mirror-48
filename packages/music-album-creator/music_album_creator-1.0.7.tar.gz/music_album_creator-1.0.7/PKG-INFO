@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: music_album_creator
+Version: 1.0.7
+Summary: A CLI application intending to automate offline music library building
+Home-page: https://github.com/boromir674/music-album-creator
+Author: Konstantinos Lampridis
+Author-email: k.lampridis@hotmail.com
+License: GNU GPLv3
+Download-URL: https://github.com/boromir674/music-album-creator/archive/v1.0.7.tar.gz
+Description: Music Album Creator - CLI Application
+        =====================================
+        
+        Music Album Creator is a cli application aiming to automate the process of building an offline music library.
+        
+Keywords: music album automation youtube audio metadata download
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Sound/Audio :: Editors
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
