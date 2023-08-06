@@ -1,0 +1,11 @@
+cp_tools/__init__.py,sha256=IeVCRgcfQm0IXmwuI-2a0awIc83ZnLU5r62lyjLD50I,150
+cp_tools/helpers.py,sha256=PNWRojecL4XohOZOT2m2FPd7RvmuEb5Ve20hUCZjV_4,831
+cp_tools/tester.py,sha256=jxQmfM-qnnyiIfZkFrnrJbT4JUt3u7uQtzfiR2hKjAA,1447
+cp_tools/get_tests/__init__.py,sha256=o1ihlZJGsH3TWFy_2mqdvk79-UICuaW2khA1CGhTako,336
+cp_tools/get_tests/atcoder.py,sha256=W-tF5fHX2YTLeLEGEko62t_UKQP_jHsnf7f1WSHtcrk,492
+cp_tools/get_tests/codeforces.py,sha256=RzFRh2pP2K2awZ52dB68B8STQqvgC50ML211SsVe9qI,546
+cp_tools-0.1.1.dist-info/LICENSE,sha256=JnrblMQ1aXEbbq481J0XmjGoD7A8xN6tmYxtAxcBV2c,1073
+cp_tools-0.1.1.dist-info/METADATA,sha256=ssfubhYIDB8xazhZeSqWZGXatZHgYggeoVaygPKaO5k,830
+cp_tools-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+cp_tools-0.1.1.dist-info/top_level.txt,sha256=E_QZqBtth9O0cT9dHEyQIjEAwzBDgjRssOpKWwOyqgE,9
+cp_tools-0.1.1.dist-info/RECORD,,
