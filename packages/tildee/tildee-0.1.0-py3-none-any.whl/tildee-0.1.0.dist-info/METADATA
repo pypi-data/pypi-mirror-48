@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tildee
+Version: 0.1.0
+Summary: A client for tildes.net
+License: MIT
+Author: deing
+Author-email: admin@15318.de
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: cssselect (>=1.0,<2.0)
+Requires-Dist: lxml (>=4.3,<5.0)
+Requires-Dist: requests (>=2.22,<3.0)
