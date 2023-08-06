@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: diagnose
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Robert Brewer
+Author-email: dev@crunch.io
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: hunter (>=2.2.0)
+Requires-Dist: mock
+
+UNKNOWN
+
+
