@@ -1,0 +1,8 @@
+README.md
+setup.py
+maven/__init__.py
+maven.egg-info/PKG-INFO
+maven.egg-info/SOURCES.txt
+maven.egg-info/dependency_links.txt
+maven.egg-info/not-zip-safe
+maven.egg-info/top_level.txt
