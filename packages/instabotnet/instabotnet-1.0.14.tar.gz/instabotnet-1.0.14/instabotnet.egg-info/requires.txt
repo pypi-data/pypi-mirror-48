@@ -1,0 +1,11 @@
+portalocker
+ffmpeg-python
+imagesize
+funcy
+python-dotenv
+colorama
+colorlog
+click
+modeller
+fleep
+pyyaml
