@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bashsmash
+Version: 1.0
+Summary: A python3 tool for obfuscating bash shell code
+Home-page: https://github.com/Ewpratten/BashSmash
+Author: Evan Pratten
+Author-email: ewpratten@gmail.com
+License: UNKNOWN
+Description: # BashSmash
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Description-Content-Type: text/markdown

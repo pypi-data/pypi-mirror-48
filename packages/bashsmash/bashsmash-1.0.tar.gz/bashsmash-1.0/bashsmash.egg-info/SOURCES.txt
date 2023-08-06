@@ -1,0 +1,9 @@
+README.md
+setup.py
+bashsmash/__init__.py
+bashsmash/__main__.py
+bashsmash.egg-info/PKG-INFO
+bashsmash.egg-info/SOURCES.txt
+bashsmash.egg-info/dependency_links.txt
+bashsmash.egg-info/entry_points.txt
+bashsmash.egg-info/top_level.txt
