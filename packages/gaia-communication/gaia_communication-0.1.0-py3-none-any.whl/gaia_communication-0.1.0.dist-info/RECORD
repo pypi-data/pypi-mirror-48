@@ -1,0 +1,8 @@
+communication/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+communication/communication.py,sha256=Bev-Z_PlGc5PcQRiuiW182zL__aH0lsHkxMK36yapNk,498
+gaia_communication-0.1.0.dist-info/METADATA,sha256=YAuZwdMkw_-yEmQnfuuWP2_1eK6zBnBrSadiVd9XR1k,881
+gaia_communication-0.1.0.dist-info/RECORD,,
+gaia_communication-0.1.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+gaia_communication-0.1.0.dist-info/top_level.txt,sha256=RBduCzh68mpunxk9CJSGYYBXUccsGPgi5MNnTF1KhlQ,20
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_placeholder.py,sha256=2ru_CceB-vsLzSrN5BZhKUELd7u151QZD2tHEY8y0ME,88
