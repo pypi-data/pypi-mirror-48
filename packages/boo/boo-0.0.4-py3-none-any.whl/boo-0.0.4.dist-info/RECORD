@@ -1,0 +1,12 @@
+boo/__init__.py,sha256=gxgVG77q4G0mNjv0nBZEZwdVkyFPeI8U8hbNkiJE5HE,183
+boo/columns.py,sha256=LgfHeMlAR2xS6fAU6eaeSGC52jIgYeDFeW2ECywFQaM,10881
+boo/dataframe.py,sha256=Ea10h8ZlAniJ5ufe4XbgsOQI9uR5DzgXQUPmTG0mTEQ,3428
+boo/file.py,sha256=uhvaBytA7k5cXDJpGwjaNWtpS14fYbgJ7sVzF8dnInw,1569
+boo/main.py,sha256=gfbNIyiqOOAKv0lUZj5zgEg1QwD3y6-vmbUp5428oKE,3434
+boo/path.py,sha256=FguAXHVCCQzCuF1Qka6_zl_MB6J5HXnTV53PJglTObQ,689
+boo/year.py,sha256=mpLAgGQB49_ALsJWII1EnWz4N3p496i4js2UT4CA4lY,921
+boo-0.0.4.dist-info/LICENSE,sha256=oRq2ZGzN7NESsg-jEwyhTXB2Gb5ATPkMGODZrgqq8ec,1090
+boo-0.0.4.dist-info/METADATA,sha256=FBSeG-DauDECUk2jMPUAiW81_14UOR1-4t4twAb4s6I,603
+boo-0.0.4.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+boo-0.0.4.dist-info/top_level.txt,sha256=yvOvbYk7XLjq6akKMFTzcKkhMIY0UOMpnXQsemUynZQ,4
+boo-0.0.4.dist-info/RECORD,,

@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: boo
+Version: 0.0.4
+Summary: Russian corporate reports 2012-2017
+Home-page: http://github.com/ru-corporate/boo
+Author: Evgeniy Pogrebnyak
+Author-email: e.pogrebnyak@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Utilities
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
