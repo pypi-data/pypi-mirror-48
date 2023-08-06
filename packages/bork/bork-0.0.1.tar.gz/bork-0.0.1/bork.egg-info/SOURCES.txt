@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+bork/__init__.py
+bork/cli.py
+bork/github_uploader.py
+bork/pypi_uploader.py
+bork.egg-info/PKG-INFO
+bork.egg-info/SOURCES.txt
+bork.egg-info/dependency_links.txt
+bork.egg-info/entry_points.txt
+bork.egg-info/requires.txt
+bork.egg-info/top_level.txt

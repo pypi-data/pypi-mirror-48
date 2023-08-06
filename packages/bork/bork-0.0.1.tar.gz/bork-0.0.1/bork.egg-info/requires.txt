@@ -1,0 +1,10 @@
+
+[linting]
+flake8~=3.5
+flake8-bugbear
+flake8-commas
+flake8-docstrings
+pylint
+
+[testing]
+pytest
