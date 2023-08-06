@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: pyqstem
+Version: 1.0.1
+Summary: A Python interface to the electron microscopy simulation program QSTEM.
+Home-page: https://github.com/jacobjma/PyQSTEM
+Maintainer: Jacob Madsen
+Maintainer-email: jacob.jma@gmail.com
+License: GPLv3
+Description: QSTEM is a program for quantitative image simulation in electron microscopy, including TEM, STEM and CBED image simulation.
+        
+        This project interfaces the QSTEM code with Python and the Atomic Simulation Environment (ASE) to provide a single environment for building models, simulating and analysing images.
+        
+        This package requires that the FFTW library has already been installed.
+        
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
