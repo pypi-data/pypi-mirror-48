@@ -1,0 +1,8 @@
+setup.py
+damejson.egg-info/PKG-INFO
+damejson.egg-info/SOURCES.txt
+damejson.egg-info/dependency_links.txt
+damejson.egg-info/not-zip-safe
+damejson.egg-info/requires.txt
+damejson.egg-info/top_level.txt
+damejson/tests/test_damejson.py
