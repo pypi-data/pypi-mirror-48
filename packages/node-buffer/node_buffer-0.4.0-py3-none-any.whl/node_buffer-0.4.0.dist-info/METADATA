@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: node-buffer
+Version: 0.4.0
+Summary: A minor rewrite of the NodeJS Buffer Library for efficient memory management
+Home-page: https://github.com/miraclx/node-buffer
+Author: Miraculous Owonubi
+Author-email: omiraculous@gmail.com
+License: Apache-2.0
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Description-Content-Type: text/markdown
+
+# node-buffer
+
+> A minor rewrite of the NodeJS Buffer Library for efficient memory management
+
+
