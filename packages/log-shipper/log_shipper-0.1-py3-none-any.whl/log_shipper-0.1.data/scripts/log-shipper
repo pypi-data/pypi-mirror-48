@@ -1,0 +1,91 @@
+#!python
+
+import glob
+import sys
+import os
+import pycurl
+import time
+
+def get_hostname():
+  return os.popen('hostname').read().strip()
+
+def upload_log(logtype, filename, ship_url, appname, hostname):
+  print("Uploading file: " + filename)
+  status_code = 0
+  try:
+    c = pycurl.Curl()
+    c.setopt(c.URL, ship_url)
+    c.setopt(c.POST, 1)
+    c.setopt(c.HTTPPOST, [("type", logtype), ("host", hostname), ("app", appname), ("logfile", (c.FORM_FILE, filename))])
+    c.setopt(pycurl.HTTPHEADER, ['Tranfer-Encoding: chunked'])
+    c.perform()
+    status_code = c.getinfo(pycurl.HTTP_CODE)
+    c.close()
+  except:
+    print("Connection failed: " + ship_url)
+    status_code = 500
+  return (status_code == 200)
+
+def upload_pending_logs(logtype, path, ship_url, appname, hostname):
+  pending_files = sorted([f for f in glob.glob(path + "/*.rlog")])
+  for file in pending_files:
+    result = upload_log(logtype, file, ship_url, appname, hostname)
+    if result:
+      print('  ..removing file.')
+      os.remove(file)
+    else:
+      print("  ...failed to upload file.")
+      return False
+  return True
+
+def processes_using_file(filename):
+  return os.popen('echo $(lsof -t "' + filename + '")').read().strip()
+
+def release_file(filename):
+  attempts = 0
+  pids = processes_using_file(filename)
+  while len(pids) > 0:
+    os.system('kill -10 ' + pids)
+    time.sleep(1)
+    attempts += 1
+    if attempts >= 3:
+      print("ERROR: Cannot release file handle with SIGUSR1. Logs may be losing!")
+      return False
+    pids = processes_using_file(filename)
+  return True
+
+def rotate_holded_logs(path):
+  holded_files = sorted([f for f in glob.glob(path + "/*.rlog.holded")])
+  for file in holded_files:
+    if release_file(file):
+      new_filename = file[:-7] # remove .holded extension
+      os.rename(file, new_filename)
+
+def rotate_log(filename):
+  millis = int(round(time.time() * 1000))
+  new_filename = filename + '.' + str(millis) + '.rlog'
+  holded_filename = new_filename + '.holded'
+  os.rename(filename, holded_filename)
+  if release_file(holded_filename):
+    os.rename(holded_filename, new_filename)
+
+if len(sys.argv) < 5:
+  print("ERROR: Missing the log type, log filename, remote shipping URL and/or app name.\n")
+  print("Usage: log-shipper cute_logger /myapp/registry.log \"http://logmanager/inbox\" myappname")
+  exit()
+
+logtype = sys.argv[1]
+logfile = sys.argv[2]
+ship_url = sys.argv[3]
+appname = sys.argv[4]
+hostname = get_hostname()
+path = os.path.dirname(os.path.abspath(logfile))
+
+rotate_holded_logs(path)
+if os.path.isfile(logfile):
+  rotate_log(logfile)
+
+if not upload_pending_logs(logtype, path, ship_url, appname, hostname):
+  print("ERROR: Cannot upload pending files")
+  exit()
+
