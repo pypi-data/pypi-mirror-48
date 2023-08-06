@@ -1,0 +1,7 @@
+README.rst
+setup.py
+uboat.py
+uboat.egg-info/PKG-INFO
+uboat.egg-info/SOURCES.txt
+uboat.egg-info/dependency_links.txt
+uboat.egg-info/top_level.txt
