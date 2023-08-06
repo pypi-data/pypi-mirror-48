@@ -1,0 +1,12 @@
+jsii~=0.13.3
+publication>=0.0.3
+aws-cdk.aws-apigateway~=0.36.1
+aws-cdk.aws-cloudwatch~=0.36.1
+aws-cdk.aws-cloudwatch-actions~=0.36.1
+aws-cdk.aws-dynamodb~=0.36.1
+aws-cdk.aws-events~=0.36.1
+aws-cdk.aws-events-targets~=0.36.1
+aws-cdk.aws-lambda~=0.36.1
+aws-cdk.aws-sns~=0.36.1
+aws-cdk.aws-sns-subscriptions~=0.36.1
+aws-cdk.core~=0.36.1
