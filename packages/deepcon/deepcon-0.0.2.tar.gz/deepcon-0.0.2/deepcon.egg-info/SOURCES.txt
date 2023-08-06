@@ -1,0 +1,7 @@
+README.md
+setup.py
+deepcon.egg-info/PKG-INFO
+deepcon.egg-info/SOURCES.txt
+deepcon.egg-info/dependency_links.txt
+deepcon.egg-info/requires.txt
+deepcon.egg-info/top_level.txt
