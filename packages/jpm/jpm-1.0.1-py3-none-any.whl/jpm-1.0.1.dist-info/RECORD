@@ -1,0 +1,9 @@
+jpm/__init__.py,sha256=RynAhUo4xQQtDDJSURlGN80m4US-Rfm4zUBHIzbfVyQ,12
+jpm/cli.py,sha256=dCnXR2S8cgYuQyOR1rbTzXkxASNV3bSb6q5_Kr53-K0,2109
+jpm/main.py,sha256=GlUT3L92XRBqhGucV3a0YtAKHdzHHiBJE31HFoVsZTg,105
+jpm-1.0.1.data/scripts/jpm,sha256=5mBJrB2pxCCyyveQFAiS1BE4fRqNj9_QV0fXM89hSIA,50
+jpm-1.0.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+jpm-1.0.1.dist-info/METADATA,sha256=ELlzzp3nR6Uf5VB6rmzIpbh0gCoy92VELxXkwR4ZQK8,1824
+jpm-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jpm-1.0.1.dist-info/top_level.txt,sha256=diH-mpW26ZSO8DUF-UpsHlmOlXcJ1og07DlaqZJyABo,4
+jpm-1.0.1.dist-info/RECORD,,
