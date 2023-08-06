@@ -1,0 +1,10 @@
+numpy>=1.15
+scipy
+redis
+cvxpy
+cvxopt
+tqdm
+dask
+distributed
+sobol_seq
+matplotlib
