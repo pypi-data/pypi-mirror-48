@@ -1,0 +1,10 @@
+README.md
+setup.py
+richlib/__init__.py
+richlib/rlights.py
+richlib/util.py
+richlib.egg-info/PKG-INFO
+richlib.egg-info/SOURCES.txt
+richlib.egg-info/dependency_links.txt
+richlib.egg-info/requires.txt
+richlib.egg-info/top_level.txt
