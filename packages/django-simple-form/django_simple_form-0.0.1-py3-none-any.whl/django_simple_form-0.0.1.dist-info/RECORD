@@ -1,0 +1,11 @@
+simple_form/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_form/models.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_form/tests.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_form/templates/simple_form/field.html,sha256=gmnAixC2qwnZKCuaDe32QeL5WCAS_I7sAh3zz2TMah8,337
+simple_form/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_form/templatetags/simple_form.py,sha256=SSVdok1s7s4bApaF5tKU5xkglVzRT6jafdk7r82fNy8,743
+django_simple_form-0.0.1.dist-info/LICENSE,sha256=AhOK5rqJdr5kCenXyd6gzdIiDrvIKqcwgNJCFCVa8_E,1070
+django_simple_form-0.0.1.dist-info/METADATA,sha256=N1DG9T3IC7WIBWYlwzFYBASQ-lzux3G7GfOEPZWrKQ0,2126
+django_simple_form-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_simple_form-0.0.1.dist-info/top_level.txt,sha256=hud-Hpf3ByyFx5uzGGBtF1j-GIaRMZylvK3xNfXkAEs,12
+django_simple_form-0.0.1.dist-info/RECORD,,
