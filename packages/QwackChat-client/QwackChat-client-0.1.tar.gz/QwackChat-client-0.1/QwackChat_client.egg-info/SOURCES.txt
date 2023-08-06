@@ -1,0 +1,5 @@
+setup.py
+QwackChat_client.egg-info/PKG-INFO
+QwackChat_client.egg-info/SOURCES.txt
+QwackChat_client.egg-info/dependency_links.txt
+QwackChat_client.egg-info/top_level.txt
