@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+src/tv/__init__.py
+src/tv/data.py
+src/tv/exceptions.py
+src/tv/tv.py
+src/tv/tvdb.py
+src/tv_series.egg-info/PKG-INFO
+src/tv_series.egg-info/SOURCES.txt
+src/tv_series.egg-info/dependency_links.txt
+src/tv_series.egg-info/entry_points.txt
+src/tv_series.egg-info/requires.txt
+src/tv_series.egg-info/top_level.txt
