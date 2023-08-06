@@ -1,0 +1,11 @@
+demand_acep/__init__.py,sha256=BfrVJ0UCYKJdljLQyShWUXBQGjuFw6U2gXycPX5YaqI,204
+demand_acep/config.py,sha256=fPrK-DfwJXcomjCJG_YiO_PlZww4hztEKatmpwshwco,6686
+demand_acep/create_db_schema.py,sha256=oQVZvNVrvpwO9WdKEnprV-j9Km2YS1a7kgBZDI2YVOk,4659
+demand_acep/demand_acep.py,sha256=CPjEmIRwdBWzTROnJ9aEWaH1z5XdWyG-5IRD2yNfw-U,10206
+demand_acep/extract_data_to_csv.py,sha256=hNzwqJyEqiRSaEbOlq1yGZHL9mXhPYP3WIg3xL6bkQg,10065
+demand_acep/timescale_parallel_copy.py,sha256=sJa4HZzRx3A0v8DgtCb1n88-atjrwcoCO4w5UR0XFcU,3955
+demand_acep/version.py,sha256=MKeU92C_jV3tbxJCXIWKcekSxe3EqB9SRG6_2JL7VUI,1856
+demand_acep-0.0.2.dist-info/METADATA,sha256=5bB5D7d5JrjrYsiM6AiJmgr6-IyXKYWuug3URxdYaPA,1070
+demand_acep-0.0.2.dist-info/RECORD,,
+demand_acep-0.0.2.dist-info/WHEEL,sha256=FRuHuBX28RTgsOL603qIpbSc2WeDgbsFBWKj9XFOCpg,92
+demand_acep-0.0.2.dist-info/top_level.txt,sha256=Vj1wSiltUXdffl-rVnM0rVMDpmAOlugX7CWQGMziQ9w,12

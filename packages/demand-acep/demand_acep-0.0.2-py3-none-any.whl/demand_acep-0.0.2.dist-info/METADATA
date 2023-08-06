@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: demand-acep
+Version: 0.0.2
+Summary: demand_acep : A package for demand charge reduction for ACEP
+Home-page: http://github.com/demand-consults/demand_acep
+Author: Chintan Pathak, Yohan Min, Atinuke Ademola-Idowu
+Author-email: cp84@uw.edu, min25@uw.edu, aidowu@uw.edu
+Maintainer: Chintan Pathak, Yohan Min, Atinuke Ademola-Idowu
+Maintainer-email: chintan.pathak@gmail.com
+License: MIT
+Platform: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: pandas
+Requires: numpy
+Requires: sklearn
+Requires: pytest
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: sklearn
+Requires-Dist: pytest
+
+Python package to implement data-pipeline to process high-resolution power meter data. For documentation refer to: https://demand-acep.readthedocs.io/en/latest/
+
+
