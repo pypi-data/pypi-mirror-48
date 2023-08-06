@@ -1,0 +1,6 @@
+devo-sdk==3.0.2
+faker
+jinja2>=2.10.1
+psutil
+click
+python-dateutil
