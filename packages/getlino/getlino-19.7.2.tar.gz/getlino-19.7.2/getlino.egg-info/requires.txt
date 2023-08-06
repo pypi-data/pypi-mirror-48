@@ -1,0 +1,6 @@
+click
+argh
+virtualenv
+cookiecutter
+setuptools
+uwsgi
