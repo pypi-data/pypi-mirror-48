@@ -1,0 +1,10 @@
+README.md
+httpie_xsisip.py
+setup.py
+httpie_xsisip.egg-info/PKG-INFO
+httpie_xsisip.egg-info/SOURCES.txt
+httpie_xsisip.egg-info/dependency_links.txt
+httpie_xsisip.egg-info/entry_points.txt
+httpie_xsisip.egg-info/not-zip-safe
+httpie_xsisip.egg-info/requires.txt
+httpie_xsisip.egg-info/top_level.txt
