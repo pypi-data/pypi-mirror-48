@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: wagtail-import-export-tool
+Version: 0.9.2
+Summary: Import/Export tool for Wagtail CMS (built on top of Django), that supports pages, images, documents, and snippets.
+Home-page: https://github.com/berkalpyakici/wagtail-import-export-tool
+Author: Berk Alp Yakici
+Author-email: contact@berkalpyakici.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Django
+Description-Content-Type: text/markdown
+
+# Wagtail Import/Export Tool
+Import/Export tool for Wagtail CMS (built on top of Django), that supports pages, images, documents, and snippets.
+
+## Installation
+Install `wagtail-import-export-tool` using PIP.
+```
+pip install wagtail-import-export-tool
+```
+
+Add `wagtailimportexport` to your Django project settings.
+```
+INSTALLED_APPS = [
+    ...
+    'wagtailimportexport',
+    ...
+]
+```
+
+## Config
+App settings can be found in `wagtailimportexport/config.py` file.
+
+## Known Limitations
+* Page models should be consistent across both source and destination environments. Otherwise, importing may fail due to mismatching fields.
+* Exporting snippets is not implemented yet.
+
+## Credits
+This project is based on [torchbox/wagtail-import-export](https://github.com/torchbox/wagtail-import-export). Because they use the same Django application name, both cannot be used on the same project at the same time.
+
