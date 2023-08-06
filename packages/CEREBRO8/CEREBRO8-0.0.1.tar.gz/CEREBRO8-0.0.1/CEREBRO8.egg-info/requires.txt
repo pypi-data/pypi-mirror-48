@@ -1,0 +1,12 @@
+opencv-contrib-python==3.4.4.19
+numpy
+moviepy
+ffmpeg-python
+imutils
+argparse
+keras
+pathlib
+matplotlib
+scikit-image
+dlib
+Theano
