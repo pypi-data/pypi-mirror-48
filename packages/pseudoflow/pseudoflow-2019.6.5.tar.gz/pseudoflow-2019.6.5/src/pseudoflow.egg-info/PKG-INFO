@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pseudoflow
+Version: 2019.6.5
+Summary: Pseudoflow algorithm for the parametric minimum cut problem.
+Home-page: https://github.com/quic0/pseudoflow
+Author: Quico Spaen
+Author-email: qspaen@berkeley.edu
+License: Non-commercial license. Not an open-source license.
+Description: # hpfParametricFlow
+Keywords: minimum cut,network flow,parametric
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
