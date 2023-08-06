@@ -1,0 +1,18 @@
+cubicweb-treeview (0.1.2-1) unstable; urgency=medium
+
+  * new upstream relase.
+
+ -- Noe Gaumont <ngaumont@logilab.fr>  Tue, 25 Jun 2019 15:34:09 +0200
+
+cubicweb-treeview (0.1.1-1) unstable; urgency=low
+
+  * new upstream release
+
+ -- Adrien Di Mascio <Adrien.DiMascio@logilab.fr>  Tue, 25 Nov 2014 10:37:33 +0100
+
+cubicweb-treeview (0.1.0-1) unstable; urgency=low
+
+  * initial release
+
+ -- Florent Cayré <florent.cayre@logilab.fr>  Thu, 20 Mar 2014 12:48:10 +0100
+

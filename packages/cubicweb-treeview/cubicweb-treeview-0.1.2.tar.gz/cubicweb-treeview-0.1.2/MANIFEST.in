@@ -1,0 +1,10 @@
+include *.py
+include */*.py
+recursive-include cubicweb_treeview *.py
+recursive-include cubicweb_treeview/data *.gif *.png *.ico *.css *.js
+recursive-include cubicweb_treeview/i18n *.po
+recursive-include cubicweb_treeview/wdoc *
+recursive-include test/data bootstrap_cubes *.py
+include *.ini
+recursive-include debian changelog compat control copyright rules
+include cubicweb-treeview.spec
