@@ -1,0 +1,1 @@
+versionFromGradle='3.24.0',projectVersion='3.24.0.5',branch='rel-yates',lastCommitHash='b9cd4d5bcd44a4949ca8c677c5e54c10ee72c968',gitDescribe='jenkins-3.24.0.4-66-gb9cd4d5',compiledOn='2019-06-18 23:54:14',compiledBy='jenkins'
