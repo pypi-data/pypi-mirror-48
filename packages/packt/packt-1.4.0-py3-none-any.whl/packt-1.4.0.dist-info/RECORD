@@ -1,0 +1,16 @@
+api.py,sha256=cQYcd34hruWA8P43ZdzwVVkfEHyhCLiwQbv7L-oAcdk,2949
+claimer.py,sha256=geW_rpB9gSg3PIVpAqdCJ55qaXpXUXMtlCatrg9jvUs,3743
+configuration.py,sha256=NXtwXusyf8JiTrxoJhn1n9UmwdzIeeCadsAqnWdPBLY,1329
+downloader.py,sha256=_No8109PZfc5tbUe8CxqlIUzN6QEvNZdxqeM8ka5N4M,5731
+packtPublishingFreeEbook.py,sha256=eunOpvRP_LBH2JlR9RU98pFqtzozZGSsiGX8jEDyMlc,5409
+utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+utils/anticaptcha.py,sha256=ksN-jMrybEGEBb0j-YBvA7U7BNMlJSvPw7tc-Mz3DeI,2552
+utils/google_drive.py,sha256=DJYrKOuocaEwh38A68pNOx7ZaEF95KDdShb6Nt9ausE,8414
+utils/logger.py,sha256=1qe3Qpcln8QDjn3L-4rZ74zxvuEl6kAKg6UljCH9m18,1661
+utils/mail.py,sha256=FfdbGfvQAFiyVZ6OVQ0UJhvEU0g_c6XrcjcRJcinDBM,3552
+packt-1.4.0.dist-info/LICENSE,sha256=IExxdvTDMWymXaFpxPopezyeDCQ1x3ABTJDSp7zCOI8,1076
+packt-1.4.0.dist-info/METADATA,sha256=RFX7J13kbE9jgEPMADT78Vo3Gmn_OjV3VmCvNd5iXt0,7395
+packt-1.4.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+packt-1.4.0.dist-info/entry_points.txt,sha256=yEnhJJ_GRLhU-egiw1r28zhVmE5mCuyBNeXE8Dm4sR8,66
+packt-1.4.0.dist-info/top_level.txt,sha256=iXwvYqZN_BsxHtDJupDoTR-GA7GRQfeLZZIUNK4wcHA,68
+packt-1.4.0.dist-info/RECORD,,
