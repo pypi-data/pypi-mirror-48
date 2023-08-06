@@ -1,0 +1,8 @@
+multiprocessing_logging.py,sha256=6wu35x2PrhtlRMUw9xj7vZtnfzJM8o8FtfA6PSHLh5g,3238
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_multiprocessing_logging.py,sha256=s4Bk7-Xcl2LBa8CumzQgiDE-YqfUXPmul22SAYEIqdI,4666
+multiprocessing_logging-0.3.0.dist-info/LICENSE,sha256=gQ0onXQnjXJoTSbNwqxcuw8B8tGCEvORxsRGc5mnrdU,7633
+multiprocessing_logging-0.3.0.dist-info/METADATA,sha256=RsAWRUnPmKfda8yMJMaPMtTkmLQ9i-xMQcHwBOuTpec,3111
+multiprocessing_logging-0.3.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+multiprocessing_logging-0.3.0.dist-info/top_level.txt,sha256=rbBc5tDVpLYXk8OIQpSXKYMUCC3BxQ8umQadxqD5RzY,30
+multiprocessing_logging-0.3.0.dist-info/RECORD,,
