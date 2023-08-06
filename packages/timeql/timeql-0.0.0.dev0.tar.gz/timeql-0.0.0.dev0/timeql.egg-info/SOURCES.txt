@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+timeql/__init__.py
+timeql.egg-info/PKG-INFO
+timeql.egg-info/SOURCES.txt
+timeql.egg-info/dependency_links.txt
+timeql.egg-info/entry_points.txt
+timeql.egg-info/top_level.txt
