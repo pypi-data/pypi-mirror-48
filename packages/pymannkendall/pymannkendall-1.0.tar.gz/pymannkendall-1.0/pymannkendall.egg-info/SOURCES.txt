@@ -1,0 +1,9 @@
+README.md
+setup.py
+pymannkendall/__init__.py
+pymannkendall/pymannkendall.py
+pymannkendall.egg-info/PKG-INFO
+pymannkendall.egg-info/SOURCES.txt
+pymannkendall.egg-info/dependency_links.txt
+pymannkendall.egg-info/requires.txt
+pymannkendall.egg-info/top_level.txt
