@@ -1,0 +1,14 @@
+etl-tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl-tools/etl.py,sha256=vHZX_SwrQL-NdHI5YRQ9zfSg7VQx92hrCkmOTuEde-Y,4863
+etl-tools/gcp.py,sha256=5gn27hUtnIDRCPF9eU8S2KS8v_j94rSfrno-bcRX2hA,3194
+etl-tools/log.py,sha256=y_FWi7Cbejd_buXqVEkSuZ2jxx9BfKALW-DBw86pEKo,550
+etl_tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+etl_tools/etl.py,sha256=vHZX_SwrQL-NdHI5YRQ9zfSg7VQx92hrCkmOTuEde-Y,4863
+etl_tools/gcp.py,sha256=5gn27hUtnIDRCPF9eU8S2KS8v_j94rSfrno-bcRX2hA,3194
+etl_tools/log.py,sha256=y_FWi7Cbejd_buXqVEkSuZ2jxx9BfKALW-DBw86pEKo,550
+etl_tools-0.2.data/data/etl_tools/log.conf,sha256=CN2ZkqSoJYPhNlRdQtOZ_g-MCx6kFtjsFrr9uh8yzpk,554
+etl_tools-0.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+etl_tools-0.2.dist-info/METADATA,sha256=s8mTCOclLg3_gPKboOSV6UxV8zqRDgedNTVW7ndb9rI,187
+etl_tools-0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+etl_tools-0.2.dist-info/top_level.txt,sha256=kgdB-JBw-mbDMaGUVxCNNiLTqMXA1EIuAMPvA-wpFMM,10
+etl_tools-0.2.dist-info/RECORD,,
