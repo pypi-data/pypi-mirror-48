@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: csr2transmart
+Version: 0.0.1
+Summary: Script to load CSR data to TranSMART
+Home-page: https://github.com/thehyve/csr2transmart
+Author: Gijs Kant
+Author-email: gijs@thehyve.nl
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6.0
+Provides-Extra: dev
