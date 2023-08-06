@@ -1,0 +1,12 @@
+daemonocle>=1.0.1
+dnspython>=1.15.0
+netifaces>=0.10.5
+requests>=2.0.1
+setuptools
+
+[:python_version<'3.0']
+IPy>=0.56
+argparse
+pyOpenSSL
+ndg-httpsclient
+pyasn1
