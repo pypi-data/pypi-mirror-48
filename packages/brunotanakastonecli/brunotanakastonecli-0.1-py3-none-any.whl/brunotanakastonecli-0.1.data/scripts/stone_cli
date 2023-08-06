@@ -1,0 +1,29 @@
+#!/usr/bin/python3
+import sys
+from Modulos.azure import azure
+from Modulos.gcp import gcp
+
+def usage():
+    print("""
+        Stone-cli e um projeto para automatizar a criacao de infraestrutura na stone sem ter que abrir os chamados.
+        -h para ajuda
+        -gcp para criar no gcp
+        -az para criar no azure
+        """)
+#print(sys.argv) #sys.argv[0] sempre mostra o nome do script
+
+def switch(x):
+    _az = azure()
+    _gcp = gcp()
+    try:
+        funcoes = { "-gcp": _gcp.criar_vm,
+                    "-az": _az.criar_vm,
+                    "-h": usage 
+                  }
+        return funcoes[x]
+    except Exception as e:
+        print("argumento invalido - ", e)
+try:
+    switch(sys.argv[1])()
+except Exception as e:
+    print("o numero de argumentos e invalido - ", e)
