@@ -1,0 +1,10 @@
+README.md
+azuredlock.py
+role.py
+setup.py
+azuredlock.egg-info/PKG-INFO
+azuredlock.egg-info/SOURCES.txt
+azuredlock.egg-info/dependency_links.txt
+azuredlock.egg-info/entry_points.txt
+azuredlock.egg-info/requires.txt
+azuredlock.egg-info/top_level.txt
