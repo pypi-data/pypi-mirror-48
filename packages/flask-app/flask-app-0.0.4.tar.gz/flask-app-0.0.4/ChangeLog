@@ -1,0 +1,16 @@
+CHANGES
+=======
+
+0.0.4
+-----
+
+* remove init file in create package
+* remove pdb
+* change foolder structure
+* setup versionining
+* enable travis deployment
+* fix failing requirements file
+* add packaging files
+* add sample test
+* add developement environment
+* initial commit
