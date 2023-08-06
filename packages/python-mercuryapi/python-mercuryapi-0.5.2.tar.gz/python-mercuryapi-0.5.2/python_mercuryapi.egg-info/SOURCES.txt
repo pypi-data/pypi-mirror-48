@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+Makefile
+README.md
+long_description.txt
+mercury.c
+mercuryapi.patch
+setup.py
+python_mercuryapi.egg-info/PKG-INFO
+python_mercuryapi.egg-info/SOURCES.txt
+python_mercuryapi.egg-info/dependency_links.txt
+python_mercuryapi.egg-info/top_level.txt
