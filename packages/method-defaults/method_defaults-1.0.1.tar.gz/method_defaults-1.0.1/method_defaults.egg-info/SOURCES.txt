@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+method_defaults/__init__.py
+method_defaults/config_manager.py
+method_defaults/decorators.py
+method_defaults/utils.py
+method_defaults.egg-info/PKG-INFO
+method_defaults.egg-info/SOURCES.txt
+method_defaults.egg-info/dependency_links.txt
+method_defaults.egg-info/not-zip-safe
+method_defaults.egg-info/requires.txt
+method_defaults.egg-info/top_level.txt
