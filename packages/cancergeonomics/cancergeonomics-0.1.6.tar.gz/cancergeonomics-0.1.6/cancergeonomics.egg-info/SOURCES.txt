@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+cancergeonomics.egg-info/PKG-INFO
+cancergeonomics.egg-info/SOURCES.txt
+cancergeonomics.egg-info/dependency_links.txt
+cancergeonomics.egg-info/entry_points.txt
+cancergeonomics.egg-info/requires.txt
+cancergeonomics.egg-info/top_level.txt
