@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: smax
+Version: v0.2
+Summary: API wrapper for Microfocus SMAX application
+Home-page: https://github.com/Armitage87/smax
+Author: Harvey Dumancic
+Author-email: dez.osk@gmail.com
+License: MIT
+Download-URL: https://github.com/Armitage87/smax/archive/v0.2.tar.gz
+Description: UNKNOWN
+Keywords: SMAX,Service management automation x,micro focus,automation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
