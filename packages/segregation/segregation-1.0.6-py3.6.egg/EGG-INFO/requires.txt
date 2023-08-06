@@ -1,0 +1,11 @@
+pandas
+geopandas
+matplotlib
+scikit-learn
+seaborn
+numpy
+scipy
+libpysal
+osmnx
+pandana
+urbanaccess
