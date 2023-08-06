@@ -1,0 +1,8 @@
+README.md
+setup.py
+Ammonia.egg-info/PKG-INFO
+Ammonia.egg-info/SOURCES.txt
+Ammonia.egg-info/dependency_links.txt
+Ammonia.egg-info/entry_points.txt
+Ammonia.egg-info/requires.txt
+Ammonia.egg-info/top_level.txt
