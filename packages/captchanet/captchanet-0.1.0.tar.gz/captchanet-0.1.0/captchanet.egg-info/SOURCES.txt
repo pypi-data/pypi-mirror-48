@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+captchanet/__init__.py
+captchanet/_version.py
+captchanet/callbacks.py
+captchanet/captcha.py
+captchanet/data.py
+captchanet/model.py
+captchanet/tqdm_callback.py
+captchanet.egg-info/PKG-INFO
+captchanet.egg-info/SOURCES.txt
+captchanet.egg-info/dependency_links.txt
+captchanet.egg-info/top_level.txt
