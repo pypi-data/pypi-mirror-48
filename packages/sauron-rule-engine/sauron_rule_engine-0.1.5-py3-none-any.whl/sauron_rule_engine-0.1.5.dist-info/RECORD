@@ -1,0 +1,7 @@
+sauron_rule_engine/__init__.py,sha256=rnObPjuBcEStqSO0S6gsdS_ot8ITOQjVj_-P1LUUYpg,22
+sauron_rule_engine/models.py,sha256=hqorLUyyVvp2ZF5L_9n1Na-S0yxo4NDO_DXTnTJbCao,319
+sauron_rule_engine/rule_engine.py,sha256=Wx0x6r12iS117ByZ91-37rjEVbYbNA1XULNAucKUNP4,3025
+sauron_rule_engine-0.1.5.dist-info/LICENSE.txt,sha256=q7Xx8wuvuRQfnOwK5SmcN7fTk6algmdZbibP61zdxYA,1085
+sauron_rule_engine-0.1.5.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+sauron_rule_engine-0.1.5.dist-info/METADATA,sha256=UwJ5NvJf6TUXpFvhyfIAQOHEEt054DmuF-p1zXvWwA0,3166
+sauron_rule_engine-0.1.5.dist-info/RECORD,,
