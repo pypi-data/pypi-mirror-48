@@ -1,0 +1,9 @@
+README.md
+setup.py
+scripts/vault-certificate-deploy
+vault_certificate_deploy/__init__.py
+vault_certificate_deploy.egg-info/PKG-INFO
+vault_certificate_deploy.egg-info/SOURCES.txt
+vault_certificate_deploy.egg-info/dependency_links.txt
+vault_certificate_deploy.egg-info/requires.txt
+vault_certificate_deploy.egg-info/top_level.txt
