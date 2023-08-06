@@ -1,0 +1,10 @@
+setup.py
+peels/__init__.py
+peels/conditions.py
+peels/convert.py
+peels/file.py
+peels/stream.py
+peels.egg-info/PKG-INFO
+peels.egg-info/SOURCES.txt
+peels.egg-info/dependency_links.txt
+peels.egg-info/top_level.txt
