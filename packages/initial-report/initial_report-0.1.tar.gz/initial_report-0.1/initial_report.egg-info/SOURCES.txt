@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+initial_report/__init__.py
+initial_report/__main__.py
+initial_report/metrics.py
+initial_report/plot.py
+initial_report/report.py
+initial_report.egg-info/PKG-INFO
+initial_report.egg-info/SOURCES.txt
+initial_report.egg-info/dependency_links.txt
+initial_report.egg-info/entry_points.txt
+initial_report.egg-info/requires.txt
+initial_report.egg-info/top_level.txt
+initial_report/templates/base.html

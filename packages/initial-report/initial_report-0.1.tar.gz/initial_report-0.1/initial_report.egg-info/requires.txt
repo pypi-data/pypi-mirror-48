@@ -1,0 +1,8 @@
+numpy
+pandas
+geopandas
+shapely
+maup
+gerrychain
+matplotlib
+jinja2

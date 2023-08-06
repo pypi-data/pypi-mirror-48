@@ -1,0 +1,3 @@
+[console_scripts]
+initial_report = initial_report.__main__:main
+

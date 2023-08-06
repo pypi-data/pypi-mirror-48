@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: initial_report
+Version: 0.1
+Summary: High-level dashboard views of graphs and districting plans
+Home-page: https://github.com/mggg/initial-report
+Author: Max Hully
+Author-email: max@mggg.org
+License: UNKNOWN
+Description: # Initial Reports
+        
+        This Python package generates high-level overviews of spatial adjacency graphs.
+        The goal is to give the user visibility into any possible anamolies in their
+        spatial data.
+        
+        ## Installation
+        
+        You can install this package from PyPI using `pip`:
+        
+        ```console
+        pip install initial-report
+        ```
+        
+        ## Usage
+        
+        If you have the shapefile you're interested in saved at `./my_shapefile.shp`,
+        you can run
+        
+        ```console
+        initial_report ./my_shapefile.shp
+        ```
+        
+        to generate a report, which will be saved as `output.html`.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
