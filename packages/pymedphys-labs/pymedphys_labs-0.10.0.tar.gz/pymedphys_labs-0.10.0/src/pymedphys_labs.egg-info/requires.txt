@@ -1,0 +1,12 @@
+Pillow
+matplotlib
+numpy>=1.12
+pydicom
+pymedphys_utilities<0.11.0,>=0.10.0
+scipy
+tqdm
+xarray
+
+[test]
+pytest
+deepdiff
