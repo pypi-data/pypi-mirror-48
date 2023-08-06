@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/travis_wait_improved/__init__.py
+src/travis_wait_improved/_version.py
+src/travis_wait_improved/sherpa.py
+src/travis_wait_improved.egg-info/PKG-INFO
+src/travis_wait_improved.egg-info/SOURCES.txt
+src/travis_wait_improved.egg-info/dependency_links.txt
+src/travis_wait_improved.egg-info/entry_points.txt
+src/travis_wait_improved.egg-info/requires.txt
+src/travis_wait_improved.egg-info/top_level.txt

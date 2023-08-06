@@ -1,0 +1,3 @@
+[console_scripts]
+travis-wait-improved = travis_wait_improved.sherpa:main
+
