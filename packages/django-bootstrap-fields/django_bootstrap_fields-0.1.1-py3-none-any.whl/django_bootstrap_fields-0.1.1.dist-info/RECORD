@@ -1,0 +1,17 @@
+dbs_fields/__init__.py,sha256=ls1camlIoMxEZz9gSkZ1OJo-MXqHWwKPtdPbZJmwp7E,22
+dbs_fields/utils.py,sha256=0rZ1lYOh6pGFnTvA_JwcSJB4wuQ8-ZZBVkw-sVjpAug,5713
+dbs_fields/templates/.DS_Store,sha256=aakNSbpG3JqAOqaSa5TOOcxt62sPhqgb0xkxBWIa16A,6148
+dbs_fields/templates/bootstrap3/field.html,sha256=TovBF3vEhf4AXNVqmZ7vPPit_yn6_8T5krViHeo1RK0,2474
+dbs_fields/templates/bootstrap3/help_text_and_errors.html,sha256=7wDYXpq7Scai3naO8CW3m3NAAfT-0JpkvwebQ426UXU,221
+dbs_fields/templates/bootstrap4/.DS_Store,sha256=aNWD2zZM_qxHzfkxBODPwEJklkORacKiaKQ677rvtwg,6148
+dbs_fields/templates/bootstrap4/custom_field.html,sha256=HKXZA0YqHLCey93Z3rmFiCxh6-3oa7CY-JbRhEwn1D0,2058
+dbs_fields/templates/bootstrap4/field.html,sha256=L7RyvtTjMtabAaq_N8ISzFPXshd6f-VAxdvTHjlrbt0,1026
+dbs_fields/templates/bootstrap4/general.html,sha256=l0BeyQOFjqPYnRKd5ygdSmcmOX1NDMe4RI7cDp-POeU,803
+dbs_fields/templates/bootstrap4/help_text_and_errors.html,sha256=Ul9gktr6M6iy4mlzpu-KyQo0l_bRUrSb0G5FYVb03K4,247
+dbs_fields/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbs_fields/templatetags/dbs_tags.py,sha256=8wK1Cg1dchj9nRyURMWV3cvTXebWWx06-SGwKVdu9Mo,704
+django_bootstrap_fields-0.1.1.dist-info/LICENSE,sha256=xZmcNkK1m8ZBPx0GRInKYzv0pqrBpFd_KNPcJkTaImw,1070
+django_bootstrap_fields-0.1.1.dist-info/METADATA,sha256=j4gjK9vn1I-o1I7NB6C6a21CzzKSV_2ggHRoqZNNJyU,2161
+django_bootstrap_fields-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_bootstrap_fields-0.1.1.dist-info/top_level.txt,sha256=pwU65XJ-HmZ1Oun71Pkl4LNuR-SD4RnXkPZPTj3izWM,11
+django_bootstrap_fields-0.1.1.dist-info/RECORD,,
