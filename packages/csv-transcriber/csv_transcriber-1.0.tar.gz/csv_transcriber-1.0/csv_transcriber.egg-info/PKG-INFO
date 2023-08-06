@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: csv-transcriber
+Version: 1.0
+Summary: Breaks down a CSV file into text files containing the contents of each row.
+Home-page: https://github.com/Video-Lab/CSV-Transcriber/
+Author: Jad Khalili
+Author-email: jad.khalili123@gmail.com
+License: UNKNOWN
+Description: # CSV-Transcriber
+        Breaks down a CSV file into text files containing the contents of each row.
+        
+        ## Installation
+        TBA
+        
+        ## Usage
+        TBA
+        
+        ## License
+        A short snippet describing the license (MIT, Apache etc)
+        
+        MIT Â© Jad Khalili 2019.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

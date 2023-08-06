@@ -1,0 +1,8 @@
+README.md
+setup.py
+csv_transcriber/__init__.py
+csv_transcriber/csv_transcriber.py
+csv_transcriber.egg-info/PKG-INFO
+csv_transcriber.egg-info/SOURCES.txt
+csv_transcriber.egg-info/dependency_links.txt
+csv_transcriber.egg-info/top_level.txt
