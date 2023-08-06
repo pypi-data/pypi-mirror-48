@@ -1,0 +1,12 @@
+README.md
+setup.py
+hrisapi/__init__.py
+hrisapi/exception.py
+hrisapi/schema.py
+hrisapi/zoho_schema.py
+hrisapi.egg-info/PKG-INFO
+hrisapi.egg-info/SOURCES.txt
+hrisapi.egg-info/dependency_links.txt
+hrisapi.egg-info/entry_points.txt
+hrisapi.egg-info/requires.txt
+hrisapi.egg-info/top_level.txt
