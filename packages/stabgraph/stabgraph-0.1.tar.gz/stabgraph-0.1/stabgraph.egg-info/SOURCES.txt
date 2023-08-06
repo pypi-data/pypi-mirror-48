@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+stabgraph/__init__.py
+stabgraph/gauss_binary.py
+stabgraph/stab_to_graph.py
+stabgraph.egg-info/PKG-INFO
+stabgraph.egg-info/SOURCES.txt
+stabgraph.egg-info/dependency_links.txt
+stabgraph.egg-info/requires.txt
+stabgraph.egg-info/top_level.txt

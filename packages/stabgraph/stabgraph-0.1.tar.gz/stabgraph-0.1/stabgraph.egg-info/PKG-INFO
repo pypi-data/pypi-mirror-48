@@ -1,0 +1,18 @@
+Metadata-Version: 1.2
+Name: stabgraph
+Version: 0.1
+Summary: Transforms stabilizer state into graph state
+Home-page: UNKNOWN
+Author: David Amaro
+Author-email: davamaro@hotmail.es
+License: Apache 2
+Download-URL: https://github.com/davamaro/stabgraph/archive/0.1.zip
+Description: Transforms stabilizer state into graph state
+Keywords: stabilizer graph local clifford
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
