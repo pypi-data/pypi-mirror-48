@@ -1,0 +1,13 @@
+include requirements.txt
+include LICENSE
+include VERSION
+include README
+exclude sumoappclient/metadata.yaml
+recursive-include sumoappclient/deploymanager/resources *
+recursive-exclude sumoappclient/deploymanager/resources/azure *
+recursive-exclude sumoappclient/deploymanager/resources/gcp *
+recursive-exclude sumoappclient/deploymanager/resources/setup *
+exclude include sumoappclient/deploymanager/resources/aws_requirements.txt
+exclude sumoappclient/deploymanager/resources/azure_requirements.txt
+exclude sumoappclient/deploymanager/resources/gcp_requirements.txt
+exclude sumoappclient/deploymanager/resources/onprem_requirements.txt
