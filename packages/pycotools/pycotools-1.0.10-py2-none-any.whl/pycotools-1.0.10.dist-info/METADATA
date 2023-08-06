@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: pycotools
+Version: 1.0.10
+Summary: A python toolbox for COPASI
+Home-page: https://github.com/CiaranWelsh/PyCoTools
+Author: Ciaran Welsh
+Author-email: c.welsh2@newcastle.ac.uk
+License: GPL4
+Keywords: systems biology,modelling,biological,networks,copasi,identifiability analysis,profile likelihood
+Platform: UNKNOWN
+Requires: lxml
+Requires: argparse
+Requires: pandas
+Requires: numpy
+Requires: scipy
+Requires: matplotlib
+Requires: scipy
+Requires: seaborn
+Requires: sklearn
+Requires: retrying
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: lxml
+Requires-Dist: seaborn
+Requires-Dist: sklearn
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+Requires-Dist: psutil
+Requires-Dist: tellurium
+
+A python package for enhancing mathematical modelling using COPASI. See github and docs for more details
+
+
