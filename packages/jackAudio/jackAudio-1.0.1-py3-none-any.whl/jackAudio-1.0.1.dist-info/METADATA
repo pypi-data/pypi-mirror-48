@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jackAudio
+Version: 1.0.1
+Summary: A Python package for stationary audio noise reduction.
+Home-page: https://github.com/cooperbarth/jack-audio
+Author: Cooper Barth
+Author-email: cooperfbarth@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: librosa
+Requires-Dist: pathlib
+Requires-Dist: pysndfx
+
+UNKNOWN
+
+
