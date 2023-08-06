@@ -1,0 +1,27 @@
+[package]
+name = "multi-party-schnorr"
+version = "0.2.0"
+authors = [
+    "Omer <omer@kzencorp.com>",
+    "Gary <gary@kzencorp.com>"
+]
+
+[lib]
+name = "multi_party_schnorr"
+crate-type = ["cdylib"]
+
+[dependencies]
+num_cpus = "1.0"
+threadpool = "1.7.1"
+hex = "0.3.2"
+num-traits = "0.2.6"
+
+[dependencies.emerald-city]
+git = "https://github.com/KZen-networks/emerald-city"
+
+[dependencies.pyo3]
+version = "0.7.0"
+features = ["extension-module"]
+
+[dev-dependencies]
+hex = "0.3.2"
