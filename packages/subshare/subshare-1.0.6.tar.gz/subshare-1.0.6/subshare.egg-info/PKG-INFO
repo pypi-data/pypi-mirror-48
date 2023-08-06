@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: subshare
+Version: 1.0.6
+Summary: Linux ShareX alternitve
+Home-page: https://github.com/simplysublimee/subShare
+Author: SimplySublime
+Author-email: sublime@atriox.io
+License: UNKNOWN
+Description: # subShare - ShareX linux alternative written in Python.
+        
+        ## Features:
+        
+        - Upload files to nextcloud and generate shareable link.
+        - Upload textfiles to Hastebin and copy link to clipboard.
+        - Capture screenshots both fullscreen and via selection via scrot.
+        - Shorten links via Polr (All shared links are automatically shortened via Polr).
+        
+        ## Summary:
+        
+        This project began when I couldnt find a suitable linux alternative for ShareX, which I used on windows to capture my screenshots, upload to my Nextcloud and copy a shareable link where I could post onto my blog, Discord and have access to anywhere when away from my computer via Nextcloud.
+        
+        My workflow for sharing files, images, link and text consists of a few self hosted services. Nextcloud for file uploads, Hastebin for sharing code/text files, Polr for shortening links and Scrot for capturing screenshots. As I couldn't find a suitable option for linux I decided to create my own and wanted to share for whoever else thought useful.
+        
+        
+        ## Usage
+        
+        In the subshare file edit the following variables in accordance to your parameters. As of now ALL of these are required. In the future they will be optional.
+        
+        
+        ```
+        "nc_url": "",
+        "nc_dir": "",
+        "nc_username": "",
+        "nc_password": "",
+        "polr_url": "",
+        "polr_api_key": "",
+        "hb_url": "",
+        "screenshot_save_dir": "/home/sublime/Screenshots/"
+        ```
+        
+        
+        ### Polr Config
+        ```
+        polr_url = 'POLR URL'
+        polr_api_key = 'API KEY'
+        ```
+        
+        ### Nextcloud config
+        ```
+        nc_username = "USERNAME"
+        nc_password = "PASSWORD"
+        nc_url = "https://cloud.SOMEDOMAIN.com"
+        nc_dir = "DIRECTORY TO UPLOAD TO"
+        ```
+        
+        ### Hastebin
+        ```
+        hb_url = "https://HASTEBIN URL"
+        ```
+        
+        ## Requirements
+        
+        ### Python
+        pyocclient # nextcloud library
+        requests # uploading to hastebin
+        mypolr # polr api library
+        pyperclip # caopies link to clipboard
+        
+        ### Linux
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
