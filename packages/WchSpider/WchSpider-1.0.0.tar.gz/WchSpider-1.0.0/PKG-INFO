@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: WchSpider
+Version: 1.0.0
+Summary: WchSpider
+Home-page: https://github.com/DARK1994/WchSpiders
+Author: wch
+Author-email: mambaout0803@163.com
+License: UNKNOWN
+Description: Aiohttp is encapsulated to keep the speed of asynchronism, and it can be used as simple and convenient as requests.
+Keywords: pip,requests,aiohttp,spider
+Platform: any

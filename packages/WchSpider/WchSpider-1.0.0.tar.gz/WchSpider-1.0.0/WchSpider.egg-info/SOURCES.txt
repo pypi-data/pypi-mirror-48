@@ -1,0 +1,7 @@
+setup.py
+WchSpider/__init__.py
+WchSpider.egg-info/PKG-INFO
+WchSpider.egg-info/SOURCES.txt
+WchSpider.egg-info/dependency_links.txt
+WchSpider.egg-info/requires.txt
+WchSpider.egg-info/top_level.txt
