@@ -1,0 +1,11 @@
+dbbackup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbbackup/implementation.py,sha256=pRUUTL9n9cSMaP3SAVVd15zWZmeYYqjWk3nJRb_Qye8,894
+dbbackup/utils.py,sha256=i_dGDU6eLCcstiSaSkDpX75GiSDZXCGnhpNooyA-ooc,217
+dbbackup/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbbackup/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbbackup/management/commands/dbbackup.py,sha256=InoHEH49fYEmvJn9Ytm9CNIvL9nG7lD2oIZ6iXSJU8I,950
+django_database_backup_to_git-1.0.0.dist-info/LICENSE,sha256=BK8GhH05zyIku2PHHF_Cb8KOb4DHDbUmsa9KwdatiO8,1112
+django_database_backup_to_git-1.0.0.dist-info/METADATA,sha256=QQaiC6-B1DRggj8aNtG66LZgQoOBYhgZH7J6nYRH8bM,1251
+django_database_backup_to_git-1.0.0.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+django_database_backup_to_git-1.0.0.dist-info/top_level.txt,sha256=BWQa0sa1HO_FXeK3KwmMyiKBMojichjVmG00h2_vfnU,9
+django_database_backup_to_git-1.0.0.dist-info/RECORD,,
