@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: amtui
+Version: 0.1.2
+Summary: A user interface to the Artifact Management Tool
+Home-page: https://github.com/bellockk/amtui
+Author: Kenneth E. Bellock
+Author-email: ken@bellock.net
+License: MIT license
+Keywords: amtui
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Click (>=6.0)
+Requires-Dist: amtool (>=0.1.9)
+Requires-Dist: wxPython (>=4.0.6)
+
+# Artifact Management Tool User Interface
+[![PyPI version](https://img.shields.io/pypi/v/amtui.svg)](https://pypi.python.org/pypi/amtui/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/amtui.svg)](https://pypi.python.org/pypi/amtui/)
+[![Travis](https://api.travis-ci.org/bellockk/amtui.svg?branch=master)](https://travis-ci.org/bellockk/amtui/)
+[![CodeCov](https://codecov.io/gh/bellockk/amtui/branch/master/graph/badge.svg)](https://codecov.io/gh/bellockk/amtui)
+[![Documentation Status](https://readthedocs.org/projects/amtui/badge/?version=latest)](http://amtui.readthedocs.io/?badge=latest)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
+
+
+
+
+Statement of Purpose
+--------------------
+
+A user interface to the Artifact Management Tool
+
+
+* Free software: MIT license
+* Documentation: https://amtui.readthedocs.io.
+
+
+## Features
+--------
+
+* TODO
+
+## Credits
+
+This package was created with [Cookiecutter](https://github.com/audreyr/cookiecutter) and the [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage) project template.
+
+
+# History
+
+
+## 0.1.2 (2019-07-04)
+
+* Debugging PyPi deployment from travis.
+
+## 0.1.1 (2019-07-04)
+
+* Debugging PyPi deployment from travis.
+
+## 0.1.0 (2019-07-04)
+
+* First release on PyPI.
+
+
