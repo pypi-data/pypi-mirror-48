@@ -1,0 +1,10 @@
+es-xlsx2csv/__init__.py,sha256=0C13hpKjUYNnBiW-kY6J2EvJ3he8ZJV2ZtnXUJAvzY4,21
+es-xlsx2csv/command_line.py,sha256=QF8vmEQEEFS_Y5SIjUYbVCXhbCP9ag8Hezl_rm7aM6o,2251
+es_xlsx2csv/__init__.py,sha256=oY1koVjI7DRU-v0vQ3jzM2hFxeTVOq_HUbBn6zdnUgs,21
+es_xlsx2csv/command_line.py,sha256=QF8vmEQEEFS_Y5SIjUYbVCXhbCP9ag8Hezl_rm7aM6o,2251
+es_xlsx2csv-0.0.6.dist-info/LICENSE,sha256=jgH9ZMa_2djH_yzXcOol2Q06cpvaSuWdklk9ID8BouQ,1068
+es_xlsx2csv-0.0.6.dist-info/METADATA,sha256=dn80rvgOWQMjjOTXwdW2BhJEvLt1lHu-_KCXg6qwZ-U,814
+es_xlsx2csv-0.0.6.dist-info/WHEEL,sha256=MYFsq5fFBwF_oyJgrOoFmYYB1K6Sw7MxY-0897ZLbdM,92
+es_xlsx2csv-0.0.6.dist-info/entry_points.txt,sha256=On-ryHUv8z6YkIh1iWnwpaOy0HqksMvgaaM7r3wQaq4,63
+es_xlsx2csv-0.0.6.dist-info/top_level.txt,sha256=hHhoZRMRa4YVAgYdwVKcOZWsvNj1uW0kArR2085bzxs,12
+es_xlsx2csv-0.0.6.dist-info/RECORD,,
