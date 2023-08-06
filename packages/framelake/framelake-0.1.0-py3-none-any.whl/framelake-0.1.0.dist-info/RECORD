@@ -1,0 +1,8 @@
+framelake/__init__.py,sha256=Vnvdnm4ek4qCPdrrwcscbcQLo3jxOOFpNpe8HkZbja8,34
+framelake/executors.py,sha256=fGUDRMMeEz6c84F1SiBxUrENru-q6CHoyfYiAm8ST9g,4994
+framelake/remote_db.py,sha256=Dhg97CxIin4WMehT0eXwt1r5xemeVjGnXid4tBSO3So,2598
+framelake/ssh_tunnel.py,sha256=4a-H5syM4yTS5WA_G_n_sNav79Z-2_lI4UEsX5UgQjc,9568
+framelake-0.1.0.dist-info/METADATA,sha256=2Nm2WyUVEtetuHX9C-IB-wYIN-f82AdlzkD158u2KtY,1183
+framelake-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+framelake-0.1.0.dist-info/top_level.txt,sha256=6eoOK48ijwQ0sctUrb8UnhPvm17kY4aJ-FTt2AA_il4,10
+framelake-0.1.0.dist-info/RECORD,,
