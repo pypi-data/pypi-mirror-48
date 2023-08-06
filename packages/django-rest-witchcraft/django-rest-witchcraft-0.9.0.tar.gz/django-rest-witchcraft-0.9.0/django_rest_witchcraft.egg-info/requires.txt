@@ -1,0 +1,4 @@
+djangorestframework
+six
+django-sorcery
+django-rest-enumfield
