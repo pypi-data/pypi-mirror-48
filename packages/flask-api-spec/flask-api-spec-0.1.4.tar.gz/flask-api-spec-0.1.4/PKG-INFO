@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: flask-api-spec
+Version: 0.1.4
+Summary: flask api toolset
+Home-page: http://github.com/laberin/flask-api-spec/
+Author: laberin
+Author-email: eseom@msn.com
+License: MIT
+Description: UNKNOWN
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
