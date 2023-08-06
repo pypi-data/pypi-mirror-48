@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+tensorflow_scientific/__init__.py
+tensorflow_scientific/version.py
+tensorflow_scientific.egg-info/PKG-INFO
+tensorflow_scientific.egg-info/SOURCES.txt
+tensorflow_scientific.egg-info/dependency_links.txt
+tensorflow_scientific.egg-info/not-zip-safe
+tensorflow_scientific.egg-info/requires.txt
+tensorflow_scientific.egg-info/top_level.txt
+tensorflow_scientific/integrate/__init__.py
+tensorflow_scientific/integrate/odes.py
+tensorflow_scientific/integrate/tests/__init__.py
+tensorflow_scientific/integrate/tests/odes_test.py
