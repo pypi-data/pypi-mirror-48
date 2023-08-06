@@ -1,0 +1,8 @@
+docopt
+termcolor
+
+[test]
+pre-commit
+pytest
+pytest-cov
+coveralls
