@@ -1,0 +1,6 @@
+README
+setupCMR.py
+MN.egg-info/PKG-INFO
+MN.egg-info/SOURCES.txt
+MN.egg-info/dependency_links.txt
+MN.egg-info/top_level.txt
