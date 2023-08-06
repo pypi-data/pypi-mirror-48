@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: zsh-kernel
+Version: 2.0
+Summary: Z shell kernel for Jupyter
+Home-page: https://github.com/danylo-dubinin/zsh-jupyter-kernel
+Author: Dan Oak
+Author-email: danylo.dubinin@gmail.com
+License: GPL-3.0
+Keywords: jupyter,ipython,zsh,shell,kernel
+Platform: UNKNOWN
+Classifier: Framework :: IPython
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Topic :: System :: Shells
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter-client
+Requires-Dist: IPython
+Requires-Dist: ipykernel
+
+# Z shell kernel for Jupyter
+
+
+
+## Install
+[`install.sh`](./install.sh)
+```sh
+pipenv --python 3.7
+pipenv install jupyter
+pipenv install --editable .
+pipenv run python -m zsh_kernel.install --sys-prefix
+```
+
+## Run
+[`lab.sh`](./lab.sh)
+```sh
+pipenv run jupyter notebook
+```
+
+
