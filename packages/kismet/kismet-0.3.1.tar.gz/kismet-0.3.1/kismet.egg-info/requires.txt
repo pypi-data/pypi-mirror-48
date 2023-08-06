@@ -1,0 +1,9 @@
+discord.py
+ipython>=7
+jupyterlab
+lark-parser
+numpy
+prompt_toolkit
+pyro-ppl
+regex
+torch
