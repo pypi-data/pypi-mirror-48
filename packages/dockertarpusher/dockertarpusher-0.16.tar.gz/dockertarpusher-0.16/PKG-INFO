@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dockertarpusher
+Version: 0.16
+Summary: Docker tar pusher to registry without docker daemon
+Home-page: https://github.com/Razikus/dockerregistrypusher
+Author: Adam Raźniewski
+Author-email: adam@razniewski.eu
+License: UNKNOWN
+Description: # What is this?
+        This package contains library dockertarpusher that allows to push image packed as tar (usually from docker save command) to docker registry
+        
+        Usage of library:
+        
+        ```
+        from dockertarpusher import Registry
+        
+        reg = Registry("http://localhost:5000", "tests/busybox.tar", login = "admin", password = "admin123")
+        reg.processImage()
+        
+        ```
+        
+        # Running
+        ```
+        docker-tar-push {REGISTRYURL} {TARPATH} [login] [password] [--noSslVerify]
+        ```
+        
+        
+        # Why?
+        Because sometimes you will need only to repush image to registry, without full access to docker socket, docker client, so why then volume the whole socket?
+        
+        
+        # License
+        Free to use (MIT)
+Keywords: docker tar dockertar registry
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

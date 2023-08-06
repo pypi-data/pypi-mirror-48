@@ -1,0 +1,11 @@
+README.md
+setup.py
+bin/docker-tar-push
+dockertarpusher/__init__.py
+dockertarpusher/dockertarpusher.py
+dockertarpusher/manifestcreator.py
+dockertarpusher.egg-info/PKG-INFO
+dockertarpusher.egg-info/SOURCES.txt
+dockertarpusher.egg-info/dependency_links.txt
+dockertarpusher.egg-info/requires.txt
+dockertarpusher.egg-info/top_level.txt
