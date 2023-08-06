@@ -1,0 +1,10 @@
+numpy
+matplotlib
+sympy<1.2,>=1.1.1
+cython
+h5py
+mpi4py
+colorlog
+colorama
+cerberus
+jinja2
