@@ -1,0 +1,10 @@
+synced/__init__.py,sha256=weIqOxI-gEtolPABkuRgjaqLaDaKRqFQXMOmhYic7oQ,121
+synced/sdict.py,sha256=APkFjeITorLBueSzsICxXgvIPtTEULO__wXDA1YlBpk,2135
+synced/slist.py,sha256=jeqIH3NaYEzUYmPbVxDcKyXW80yV-xQuubgx0ni-pM8,2304
+synced/synced.py,sha256=0ouP1afbWPeXgRub2nZpUwoUrMOWxSLr5UUnp8fXCIU,2883
+synced/utils.py,sha256=MO8JbCHJL9rVYaNiaX08UT_g5OfozU7-aZcFjyjBSEU,832
+synced-0.0.3a0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+synced-0.0.3a0.dist-info/METADATA,sha256=0CRIyzggKH2EW2xeEKGv60hqqlHsjhbx5HNBh8Ksru4,680
+synced-0.0.3a0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+synced-0.0.3a0.dist-info/top_level.txt,sha256=6iPD7J5cYW-vT0ehDglDvnokjeEzX_2s8vyNDiK1fNo,7
+synced-0.0.3a0.dist-info/RECORD,,
