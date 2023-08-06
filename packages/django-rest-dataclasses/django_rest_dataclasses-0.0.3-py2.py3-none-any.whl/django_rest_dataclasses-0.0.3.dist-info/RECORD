@@ -1,0 +1,9 @@
+rest_dataclasses/__init__.py,sha256=QhrQT--lNjyi8OgSspm03zXBIPZDJ0FD_S3T4vadFYw,190
+rest_dataclasses/__version__.py,sha256=8pxRYmgRsFlc6qOXvqD33MJGlu-HpyDPulXD615ngbg,282
+rest_dataclasses/serializers.py,sha256=dnE1neC1-z2zhjzMZnBE8V2xkjIt-iNorLoiexJ7AQQ,14738
+rest_dataclasses/utils.py,sha256=xEjB9Ny8DQWn3RKaYA7pCOtmmms5zfv9g3YUPesoXFA,1078
+django_rest_dataclasses-0.0.3.dist-info/LICENSE,sha256=fuG4RI1roUoUn1b905pB1N4F1Sgy4uypIkcPV7mvdXE,1069
+django_rest_dataclasses-0.0.3.dist-info/METADATA,sha256=1tUq4h5vgPf2l1ix_ksCKrEI8UtPS8z6mVD8oA-TJBA,1637
+django_rest_dataclasses-0.0.3.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_rest_dataclasses-0.0.3.dist-info/top_level.txt,sha256=zAQBL6M0Zpgf9usZwlcrdtRyZo_TjcehIHRWUEFn3Ao,17
+django_rest_dataclasses-0.0.3.dist-info/RECORD,,
