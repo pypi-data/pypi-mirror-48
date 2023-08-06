@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: qmk
+Version: 0.0.1
+Summary: A program to help you work with qmk_firmware.
+Home-page: https://github.com/qmk/qmk_cli
+Author: skullydazed
+Author-email: skullydazed@gmail.com
