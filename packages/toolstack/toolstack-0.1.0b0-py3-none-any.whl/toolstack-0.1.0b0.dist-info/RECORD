@@ -1,0 +1,13 @@
+toolstack/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toolstack/feature/__init__.py,sha256=FTQkv-FUsOwKQiRzpHCFqNXbzqeL-FFcewsrZlFLEOU,143
+toolstack/feature/feature_base.py,sha256=7BsoZbkfYsEFl-vbNV3gsCW68aOg0fjAlubmP9XWUE8,400
+toolstack/feature/feature_encoding.py,sha256=QFmkICvNPYiIi6AO4EgYZctDXyTEWVUUJ7nY8OP2If0,3929
+toolstack/text/__init__.py,sha256=a3gd6CsDyBs0SAZtEbjMpqQ1o87bEKFBxK2qOmUeyQ8,112
+toolstack/text/text_preprocessing.py,sha256=Gy7ZHYfHxHoLQQF0OQv728WOLmn_38PNDlnlIsfm69k,8538
+toolstack/utils/__init__.py,sha256=4WL78CY6bVuWJxcTl14TmkoeHrTX8d3DEfBCa1_RJNk,116
+toolstack/utils/utility_base.py,sha256=LQMIpGRHNWUwUywuD9ZTZJ3238-kuvFSXbxXgyQaQAk,781
+toolstack-0.1.0b0.dist-info/LICENSE,sha256=ZW5xVLcQ32_tcGYyIllgVEdgWaDa-CUk5NtqU_9v3sc,1548
+toolstack-0.1.0b0.dist-info/METADATA,sha256=Cr8kopIkUp71mE8UkbvH3Tz3GORKpaLcPtxi6vH1m10,404
+toolstack-0.1.0b0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+toolstack-0.1.0b0.dist-info/top_level.txt,sha256=2feiIJKpnbtXFzIjc8bIqZs5_IKo6D5NvBJp3nYsPoE,10
+toolstack-0.1.0b0.dist-info/RECORD,,
