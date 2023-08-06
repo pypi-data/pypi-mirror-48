@@ -1,0 +1,12 @@
+effortless_config/VERSION,sha256=QXCYE8RmYkHVrHvVrvCJYMkGMqpOawbNrZOJ4WODczY,5
+effortless_config/__init__.py,sha256=e1SZ3n9TWDIUfZX2QnzaybmKh7gaI0QRwkUApPp-5xk,100
+effortless_config/config.py,sha256=GN9bzpd-mWE_EUGQuJ-pNdxIHvd615RgxBVWPgyBoDA,6291
+effortless_config/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+example/config.py,sha256=0U4KwSMfLaS76EmV1W0QAlQsL86B51ZwZpdPgpxEkIg,378
+example/main.py,sha256=yPccA9HT-nyWPNbYBQ0ATifGuLObL5YLjEMJHfiiaqk,399
+example/test.py,sha256=-O2zcDBuIWwcqfAT_-qf6Xvx_esB7OokHleWagS4E_w,469
+effortless_config-0.1.5.dist-info/METADATA,sha256=vBFLYrox2bou4-Jp_B7T-Z3vE-tHbRMp93dMgRD_7e4,5483
+effortless_config-0.1.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+effortless_config-0.1.5.dist-info/top_level.txt,sha256=NSqttraULs6sYYYK2CY0HA1W5Hqpe_qJMR_siROxyTg,26
+effortless_config-0.1.5.dist-info/RECORD,,
