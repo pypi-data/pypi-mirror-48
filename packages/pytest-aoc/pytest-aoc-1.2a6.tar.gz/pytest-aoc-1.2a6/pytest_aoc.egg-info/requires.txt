@@ -1,0 +1,10 @@
+requests
+
+[dev]
+pytest
+pytest-cov
+pytest-freezegun
+pytest-responses
+setuptools
+wheel
+setuptools-version-command
