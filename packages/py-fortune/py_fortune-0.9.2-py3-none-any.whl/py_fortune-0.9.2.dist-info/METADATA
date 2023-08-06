@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: py-fortune
+Version: 0.9.2
+Summary: scraping support tool
+Home-page: https://github.com/mypaceshun/pyfortune
+Author: KAWAI Shun
+Author-email: shun@osstech.co.jp
+Maintainer: KAWAI Shun
+Maintainer-email: shun@osstech.co.jp
+License: MIT
+Platform: UNKNOWN
+
+# pyfortune
+
+Fortune Musicをスクレイピングして情報を取得するためのライブラリ
+
+# Install
+
+## RequirePackage
+
+* python3 (>=3.2)
+
+## install command
+
+```
+$ python3 setup.py install
+```
+
+or
+
+```
+$ pip install .
+```
+
+PyPIには登録していないしする予定もない
+
+# Usage
+
+## クイックスタート
+
+```
+>>> from pyfortune.session import Session
+>>> s = Session()
+>>> s.status()
+'logout'
+>>> s.login('username', 'password')
+'username'
+>>> s.status()
+'login'
+```
+
+
