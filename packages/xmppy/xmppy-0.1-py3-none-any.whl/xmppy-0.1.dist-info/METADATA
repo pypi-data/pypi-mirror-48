@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: xmppy
+Version: 0.1
+Summary: Python module for receiving and sending massage using XMPP protocol
+Home-page: UNKNOWN
+Author: Albert Szadziński
+Author-email: albert.szadzinski@pm.me
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: sleekxmpp
+Requires-Dist: python-gnupg
+
+UNKNOWN
+
+
