@@ -1,0 +1,6 @@
+pbr>=0.6
+jira>=0.47
+tabulate
+termcolor
+requests
+six
