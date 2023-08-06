@@ -1,0 +1,14 @@
+faceorientationprep/__init__.py,sha256=OPFStVbYhZNgY6d5wkkUYm5OytpsP26l1ciAv0BVQQI,120
+faceorientationprep/exceptions/__init__.py,sha256=PqjWbfieq-Ax5pJN1rQ7kIYGF0Jd2dJFAVEEPB2KwAc,73
+faceorientationprep/exceptions/exceptions.py,sha256=efwllM-DoFzyJXZPwgfbxbDGtDEizcgPHiJMOSLemeo,257
+faceorientationprep/faceorientationfixer/__init__.py,sha256=8BudBSJvYe_wGOa_dmpw287q7mreiCc_ARb0j8Z-FgA,55
+faceorientationprep/faceorientationfixer/faceorientationfixer.py,sha256=vA1LRpgVe8vfCCRdfQarKn4QEbe_sN2huanXayZEwqA,1355
+faceorientationprep/orientationclassifier/__init__.py,sha256=bSTqQ0SXwNn3C-VkDoixc8ZcgapxwttisAwhLuvQhxY,73
+faceorientationprep/orientationclassifier/orientationclassifier.py,sha256=w2FR0Qgw4p8YOkGzcmpiGUVPOwe_FmM-FwQVM3--ji8,2247
+faceorientationprep/utils/__init__.py,sha256=j9DCYOmivNGtHh74bd9AG0SjWf9-GTmkCroLGWhaWkU,38
+faceorientationprep/utils/imageutils.py,sha256=OWLPN70Q62PvIxgPfLuCfWW9VqTZGIJbC5-mijO18cM,1714
+face_orientation_prep_natchapolt-0.0.1.dist-info/LICENSE,sha256=FcePUwk_dONdvawCndGMqYktJd5M8qOPjouehFbx0nc,1076
+face_orientation_prep_natchapolt-0.0.1.dist-info/METADATA,sha256=I1SCZUcbDfK0oOVO2IZT5-AIql40FVKMDUF66FlbR2E,1721
+face_orientation_prep_natchapolt-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+face_orientation_prep_natchapolt-0.0.1.dist-info/top_level.txt,sha256=9Kc3McM2SJAB3tdqjVrU84QwdelEIjXS2O6YaCXMEfY,20
+face_orientation_prep_natchapolt-0.0.1.dist-info/RECORD,,
