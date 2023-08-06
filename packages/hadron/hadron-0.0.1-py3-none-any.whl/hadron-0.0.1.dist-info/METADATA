@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: hadron
+Version: 0.0.1
+Summary: The last validation library you will ever need
+Home-page: https://github.com/itflex/py-hadron
+Author: iTFLEX Tecnologia Ltda.
+Author-email: dev@itflex.com.br
+License: MIT
+Keywords: hadron validation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Description-Content-Type: text/markdown
+
+# py-hadron
+
+
+
