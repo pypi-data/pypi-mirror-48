@@ -1,0 +1,3 @@
+[console_scripts]
+qualtrics-api = qualtrics.__main__:main
+
