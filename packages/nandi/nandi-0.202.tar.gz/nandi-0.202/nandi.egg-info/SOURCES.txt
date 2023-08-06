@@ -1,0 +1,15 @@
+MANIFEST.in
+README
+setup.py
+nandi/__init__.py
+nandi.egg-info/PKG-INFO
+nandi.egg-info/SOURCES.txt
+nandi.egg-info/dependency_links.txt
+nandi.egg-info/not-zip-safe
+nandi.egg-info/requires.txt
+nandi.egg-info/top_level.txt
+nandi/bark/__init__.py
+nandi/bark/tst.py
+nandi/finance/__init__.py
+nandi/finance/dataget.py
+nandi/finance/hello.py
