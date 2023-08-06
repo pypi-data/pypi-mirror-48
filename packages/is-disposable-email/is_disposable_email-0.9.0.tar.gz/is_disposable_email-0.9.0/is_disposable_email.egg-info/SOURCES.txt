@@ -1,0 +1,8 @@
+README.md
+setup.py
+is_disposable_email/__init__.py
+is_disposable_email/_domains.py
+is_disposable_email.egg-info/PKG-INFO
+is_disposable_email.egg-info/SOURCES.txt
+is_disposable_email.egg-info/dependency_links.txt
+is_disposable_email.egg-info/top_level.txt
