@@ -1,0 +1,5 @@
+pandas
+xlrd
+requests
+mysql_connector_python
+mysql_connector
