@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: sumstats
+Version: 0.1.1
+Summary: utilities for working with GWAS summary statistics
+Home-page: https://github.com/anthony-aylward/sumstats.git
+Author: Anthony Aylward
+Author-email: aaylward@eng.ucsd.edu
+License: UNKNOWN
+Description: # sumstats
+        
+        Utilities for working with GWAS summary statistics
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
