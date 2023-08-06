@@ -1,0 +1,3 @@
+[console_scripts]
+slack_channeler=slack_channeler.cli:main
+
