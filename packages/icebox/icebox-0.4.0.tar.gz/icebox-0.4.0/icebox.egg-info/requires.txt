@@ -1,0 +1,4 @@
+boto3>=1.9
+click>=7.0
+python-gnupg>=0.4
+pyyaml>=5.1
