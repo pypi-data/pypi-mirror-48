@@ -1,0 +1,3 @@
+[console_scripts]
+whatsappening-cli = whatsappening.main:main
+
