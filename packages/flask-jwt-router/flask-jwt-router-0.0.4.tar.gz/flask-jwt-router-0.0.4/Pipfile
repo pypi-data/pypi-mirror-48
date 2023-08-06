@@ -1,0 +1,16 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+twine = "*"
+
+[packages]
+python-dateutil = "==1.4"
+flask = "*"
+t = "*"
+
+[requires]
+python_versio = "3.7"
