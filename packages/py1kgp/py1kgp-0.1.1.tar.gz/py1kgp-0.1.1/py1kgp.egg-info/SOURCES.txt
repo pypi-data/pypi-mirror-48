@@ -1,0 +1,9 @@
+README.md
+setup.py
+py1kgp/__init__.py
+py1kgp/py1kgp.py
+py1kgp.egg-info/PKG-INFO
+py1kgp.egg-info/SOURCES.txt
+py1kgp.egg-info/dependency_links.txt
+py1kgp.egg-info/requires.txt
+py1kgp.egg-info/top_level.txt
