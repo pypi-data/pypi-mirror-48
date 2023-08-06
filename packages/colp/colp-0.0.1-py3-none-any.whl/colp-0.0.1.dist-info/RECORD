@@ -1,0 +1,11 @@
+colp/__init__.py,sha256=BQYnWDGsFLx1QhrwqdJkTJEJ7pqtzzTYQlFpGnbrDtQ,95
+colp/conversion.py,sha256=CnQGkCosIgYl8_uymHx1gJcn6seqFynPypPQKLwQPhE,25969
+colp/lang.py,sha256=MxttPel84XVCJ8m3_zySvgECuSv3QI9osd4ue5pzeAw,6281
+colp-0.0.1.data/scripts/colp,sha256=vI1AqWbEk8PVl2LJJWciY9FMySIRs6m0-DZDLCzwiho,2788
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test.py,sha256=jH8RufSden5yp2jEkxfwbWVWzxJ55fBIuRi8ty8YqH8,5612
+colp-0.0.1.dist-info/LICENSE,sha256=AdYf_IHmK-Eili2ZiT0_6uDZ4YehJh-Eavp1n8ACBEo,464
+colp-0.0.1.dist-info/METADATA,sha256=SENVGpywouNyNTIAeLdqrTD1KpKy9ecec0aem67QRc4,6327
+colp-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+colp-0.0.1.dist-info/top_level.txt,sha256=yi0Wfu_oICNTpB9AElNoZPK761ta-l5AFTQiJLCVFbA,10
+colp-0.0.1.dist-info/RECORD,,
