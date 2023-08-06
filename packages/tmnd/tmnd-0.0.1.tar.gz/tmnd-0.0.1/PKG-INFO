@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: tmnd
+Version: 0.0.1
+Summary: Quickstart your fullnode for DEX
+Home-page: https://tomochain.com
+License: GPL-3.0+
+Keywords: tomochain,blockchain,fullnode,node
+Author: Hai Dam
+Author-email: haidv@tomochain.com
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: clint (>=0.5.1,<0.6.0)
+Requires-Dist: docker (>=3.5.0,<4.0.0)
+Requires-Dist: pastel (>=0.1.0,<0.2.0)
+Requires-Dist: python-slugify (>=1.2,<2.0)
+Project-URL: Documentation, https://docs.tomochain.com/masternode/tmn/
+Project-URL: Repository, https://github.com/naviat/tmnd
+Description-Content-Type: text/markdown
+
+# tmnd <a href="https://gitter.im/tomochain/tmnd"><img align="right" src="https://badges.gitter.im/gitterHQ/gitter.png"></a>
+
+| Branch  | Status | Coverage |
+| --- | --- | --- |
+| Master | [![Build Status](https://travis-ci.org/tomochain/tmnd.svg?branch=master)](https://travis-ci.org/tomochain/tmnd) | [![Coverage Status](https://coveralls.io/repos/github/tomochain/tmnd/badge.svg?branch=master)](https://coveralls.io/github/tomochain/tmnd?branch=master) |
+| Develop | [![Build Status](https://travis-ci.org/tomochain/tmnd.svg?branch=develop)](https://travis-ci.org/tomochain/tmnd) | [![Coverage Status](https://coveralls.io/repos/github/tomochain/tmnd/badge.svg?branch=develop)](https://coveralls.io/github/tomochain/tmnd?branch=develop) |
+
+Tomo MasterNode (tmnd) is a cli tool to help you run a TomoChain masternode
+
+## Running and applying a masternode
+
+If you are consulting this repo, it's probably because you want to run a masternode.
+For complete guidelines on running a masternode candidate, please refer to the [documentation](https://docs.tomochain.com/masternode/requirements/).
+
