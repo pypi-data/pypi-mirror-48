@@ -1,0 +1,4 @@
+rpm-py-installer
+requests
+more-executors
+ubi-config
