@@ -1,0 +1,14 @@
+diffeqpy/__init__.py,sha256=kOsc2vli-9i4MZ5p2yLpjyoAyhTkX_A4u-1IuCv9czs,246
+diffeqpy/de.py,sha256=h0Su_FJMYIWMro_ITTUDvdKJe3quQduw-dqvUNvuewY,259
+diffeqpy/install.jl,sha256=AT0MUy6UxcRleoVnPLGDtpBq6CHkjdIiW13XuZ-4ROM,124
+diffeqpy/setup.jl,sha256=pukGeBwzP8UfpvcjP_EfIGHLcdDfFcsTj8B-Urrl2jQ,464
+diffeqpy/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+diffeqpy/tests/test_dae.py,sha256=Vcx8E4-ESTzKBO_I2wH1eTku_QcMCAcbeLXbFi2lSQ8,493
+diffeqpy/tests/test_dde.py,sha256=yber_C6c93LIxuDkfMwWYnauRtycVLANS9Cyn_zYPbw,540
+diffeqpy/tests/test_ode.py,sha256=fSwZ0XUSTHYfwwoic_U7iWsAe3580cJ01j_97spPA6w,1100
+diffeqpy/tests/test_sde.py,sha256=sXrLyepzXWOarUtamLQQ8srNra-vwv8d3sHzHb8FQCM,739
+diffeqpy-1.1.0.dist-info/LICENSE.md,sha256=nUI4zAs_pLzNRGiGH6Wj7opBZOwa88RyNVI_cCM-1Dk,1086
+diffeqpy-1.1.0.dist-info/METADATA,sha256=QNK6UIw-tN4obmjT8JMcxZeKvOyW0c8XfKFxoMdhjD8,15631
+diffeqpy-1.1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+diffeqpy-1.1.0.dist-info/top_level.txt,sha256=5NubQmP4iNA-xI526iCTTaRF6OFvW1W-zTBO7cI_3Is,9
+diffeqpy-1.1.0.dist-info/RECORD,,
