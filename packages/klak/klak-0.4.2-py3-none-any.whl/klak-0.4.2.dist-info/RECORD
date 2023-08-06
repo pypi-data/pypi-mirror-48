@@ -1,0 +1,8 @@
+klak/__init__.py,sha256=dAvwiCZvEN10hkjzHxqQhYAeCqHTz5kf_rcSxAm1hYs,59
+klak/cli.py,sha256=zAGxOfPgAaluDbp_w0zVo1cvBib5nM1jqUb1nI6WKE0,872
+klak/klak.py,sha256=3qUjs_uDjrg0l9Ni1zeTroFmZoAgydR7W16hchzaw2w,1378
+klak-0.4.2.dist-info/entry_points.txt,sha256=Fz5kSPAVH6-R8ZDexgpqCKBomhqTgvv7lYX0PuwXKjI,38
+klak-0.4.2.dist-info/LICENSE,sha256=aORaLW-SKLu1kXUZGeyEyKLrE9TAAvZWNRvXp8ub8Wg,1127
+klak-0.4.2.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+klak-0.4.2.dist-info/METADATA,sha256=xlosCojUkPzFKYZAUYOSBtoVtCIgBctj7HnEQ8f1cCI,5020
+klak-0.4.2.dist-info/RECORD,,
