@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: foliantcontrib.includes
+Version: 1.1.0
+Summary: Powerful includes for Foliant doc maker.
+Home-page: https://github.com/foliant-docs/foliantcontrib.includes
+Author: Konstantin Molchanov
+Author-email: moigagoo@live.com
+License: MIT
+Description: # Includes for Foliant
+        
+        See the full description of this project at the [Foliant official documentation site](https://foliant-docs.github.io/docs/preprocessors/includes/).
+        
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Documentation
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
