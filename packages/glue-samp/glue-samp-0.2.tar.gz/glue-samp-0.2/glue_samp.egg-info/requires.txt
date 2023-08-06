@@ -1,0 +1,10 @@
+astropy
+glue-core>=0.15
+numpy
+qtpy
+
+[test]
+pytest
+pytest-cov
+pytest-faulthandler
+mock
