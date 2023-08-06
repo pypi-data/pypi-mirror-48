@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: DeepM6A
+Version: 0.1
+Summary: A package for detection and eclucidation of Methylation on N6-Adenine
+Home-page: https://github.com/tanfei2007/DeepM6A
+Author: Fei Tan
+Author-email: tanfei2007@gmail.com
+License: UNKNOWN
+Description: Elucidation of DNA Methylation on N6-Adenine with Deep Learning
+        
+        Dev Tools:
+        
+        Keras v2+
+        
+        Tensorflow 1.12
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

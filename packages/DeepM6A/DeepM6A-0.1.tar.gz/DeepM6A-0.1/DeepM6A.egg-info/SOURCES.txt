@@ -1,0 +1,7 @@
+README.md
+deepm6a.py
+setup.py
+DeepM6A.egg-info/PKG-INFO
+DeepM6A.egg-info/SOURCES.txt
+DeepM6A.egg-info/dependency_links.txt
+DeepM6A.egg-info/top_level.txt
