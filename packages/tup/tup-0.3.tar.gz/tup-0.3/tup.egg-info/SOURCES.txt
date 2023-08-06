@@ -1,0 +1,10 @@
+README.md
+setup.py
+tup/__init__.py
+tup/tup.py
+tup.egg-info/PKG-INFO
+tup.egg-info/SOURCES.txt
+tup.egg-info/dependency_links.txt
+tup.egg-info/entry_points.txt
+tup.egg-info/requires.txt
+tup.egg-info/top_level.txt
