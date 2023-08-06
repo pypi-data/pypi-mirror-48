@@ -1,0 +1,13 @@
+pycpqcc/__init__.py,sha256=KI9b1aOr6Sm8FDiJW-CQAiXSMEzYXZIGOpnKWl1i5RY,55
+pycpqcc/parse.py,sha256=4jGT-OuyVJLzvO1ZxD95OBm-Z93y8DHXa9Kua46fVAo,2458
+pycpqcc/data/ca_coords.csv,sha256=9fwGvf-4zvVp1GGyz-a_qcwFGdkNOCaLcdl0WMeHl3E,9442
+pycpqcc/data/gis/CA_State.zip,sha256=u0V6AORxW14qQUbRhKBjbAAajLZDmG6cxf9lzo9-vwc,158145
+pycpqcc/data/icd/$dxref 2015.csv,sha256=HqYexhYQdiZih-d1lgI6q4nL_TNPhR7J6n6iW8Wg9ws,1051556
+pycpqcc/data/icd/$prref 2015.csv,sha256=zEtFGRk2bqniHVv8ws-hKcPCZPV38kL7HDunjhnfEZc,245061
+pycpqcc/data/icd/ccs_dx_icd10cm_2017.csv,sha256=_RNKn2CPnRXHRxL8vByGa4bwOCsvKYn7fomly-37fP4,12765601
+pycpqcc/data/icd/ccs_pr_icd10pcs_2017.csv,sha256=mIjrCH5dKfgtcQ6A-7AEO3IACRcWrPZaiayvbp6pT4o,17259730
+pycpqcc-0.15.dist-info/LICENSE,sha256=aPvhNnVPoOwi7FZXypFsfRcS--4EzvH0PqrNHXdx9z0,1058
+pycpqcc-0.15.dist-info/METADATA,sha256=H-tqUTK_GLFR4cODYYx1OtRIbit-YLxwrbBS2HdMoNc,202
+pycpqcc-0.15.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pycpqcc-0.15.dist-info/top_level.txt,sha256=ytE_idyngXoPBfj_CrRcYeNX1nag01WjTZ1wbhyONtU,8
+pycpqcc-0.15.dist-info/RECORD,,
