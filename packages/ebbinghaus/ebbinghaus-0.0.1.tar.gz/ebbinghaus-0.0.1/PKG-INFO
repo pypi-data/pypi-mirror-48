@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ebbinghaus
+Version: 0.0.1
+Summary: Ebbinghaus remembering curve.
+Home-page: https://github.com/pypa/sampleproject
+Author: wolfpan
+Author-email: haoyupan@aliyun.com
+License: UNKNOWN
+Description: # ebbinghaus
+        Ebbinghaus remembering framework, based on python3 and sqlite3.
+        
+        # install
+        
+        ```commandline
+        pip install ebbinghaus
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
