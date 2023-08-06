@@ -1,0 +1,7 @@
+README.md
+setup.py
+passbolt_api.egg-info/PKG-INFO
+passbolt_api.egg-info/SOURCES.txt
+passbolt_api.egg-info/dependency_links.txt
+passbolt_api.egg-info/requires.txt
+passbolt_api.egg-info/top_level.txt
