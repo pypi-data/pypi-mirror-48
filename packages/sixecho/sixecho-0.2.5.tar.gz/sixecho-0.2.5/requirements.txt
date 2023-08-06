@@ -1,0 +1,6 @@
+datasketch==1.4.3
+numpy
+pandas
+scikit-learn
+keras>=2.0.0
+requests
