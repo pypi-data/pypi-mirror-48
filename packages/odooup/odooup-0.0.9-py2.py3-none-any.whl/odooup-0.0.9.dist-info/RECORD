@@ -1,0 +1,13 @@
+odooup/__init__.py,sha256=N_VW1OLHEnOQUQkYC4OaxPlYVd0f0d17gsmqpuzYVDE,152
+odooup/_helpers.py,sha256=yFL7_67o4dAPKIb5DRigGaJgg0bUNvY2_sxVJd4rT9o,1992
+odooup/_installers.py,sha256=bl8OjBCou36G86lCVSYuthM5zGnUs3zPIFagu_CJxNA,1913
+odooup/_modulegraph.py,sha256=Js-8S9_VjePic_lx-DfVOFBiZJZKvaQH3IT8IpHRJbc,1464
+odooup/cli.py,sha256=vJGs3fwdMD7EzJyc10AfiWujQmwaxwC4N6UghcMkhNs,479
+odooup/init.py,sha256=KM1Iity-e3G8GD_Qp7vWxKD0GDG5f76slfkaN0v7B2o,6138
+odooup/repo.py,sha256=6gjf7agDUv_uLXyeWGHb2c2BtIBSvSYXYO3xmSyIg00,13041
+odooup/whitelist.py,sha256=HPLToRSgl2Xe65wWM8SwQl3rUeL_B8ZGj3UQcwML3mw,7743
+odooup-0.0.9.dist-info/METADATA,sha256=LYIivQp3p7R_lSc8w1lO4nMXtofuBcXwuzH7B3MUBq0,2563
+odooup-0.0.9.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+odooup-0.0.9.dist-info/entry_points.txt,sha256=ty45sRHt6CQIG1aFqPayEiszwBxAU7hSTMlXOftW2JE,202
+odooup-0.0.9.dist-info/top_level.txt,sha256=UAcGpCyuhnBPa72hKKxrGC-fMiPyU6CEMcrHP0u782A,7
+odooup-0.0.9.dist-info/RECORD,,
