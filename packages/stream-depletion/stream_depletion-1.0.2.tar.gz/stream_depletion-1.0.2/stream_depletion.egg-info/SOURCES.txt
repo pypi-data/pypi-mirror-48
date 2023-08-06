@@ -1,0 +1,9 @@
+README.rst
+setup.py
+stream_depletion/__init__.py
+stream_depletion/sd_calc.py
+stream_depletion.egg-info/PKG-INFO
+stream_depletion.egg-info/SOURCES.txt
+stream_depletion.egg-info/dependency_links.txt
+stream_depletion.egg-info/requires.txt
+stream_depletion.egg-info/top_level.txt
