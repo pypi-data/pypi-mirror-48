@@ -1,0 +1,11 @@
+README.md
+setup.py
+stone_cli.py
+Modules/Azure.py
+Modules/Cloud.py
+Modules/GCP.py
+Modules/__init__.py
+stoneclivmcreator.egg-info/PKG-INFO
+stoneclivmcreator.egg-info/SOURCES.txt
+stoneclivmcreator.egg-info/dependency_links.txt
+stoneclivmcreator.egg-info/top_level.txt
