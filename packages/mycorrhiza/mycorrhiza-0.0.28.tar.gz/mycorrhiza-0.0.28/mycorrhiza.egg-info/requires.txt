@@ -1,0 +1,6 @@
+matplotlib
+numpy
+pathos
+scikit-learn
+scipy
+tqdm
