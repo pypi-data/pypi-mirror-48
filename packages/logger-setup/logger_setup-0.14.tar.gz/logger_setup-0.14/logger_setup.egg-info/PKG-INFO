@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: logger-setup
+Version: 0.14
+Summary: Collects log setup and handling from all projects into one central place.
+Home-page: UNKNOWN
+Author: Christopher Toth
+Author-email: q@q-continuum.net
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
