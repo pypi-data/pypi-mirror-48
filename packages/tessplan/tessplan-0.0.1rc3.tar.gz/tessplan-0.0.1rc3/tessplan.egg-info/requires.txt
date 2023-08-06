@@ -1,0 +1,8 @@
+numpy
+astroquery
+astropy
+astroplan
+pytz
+requests
+tqdm
+beautifulsoup4
