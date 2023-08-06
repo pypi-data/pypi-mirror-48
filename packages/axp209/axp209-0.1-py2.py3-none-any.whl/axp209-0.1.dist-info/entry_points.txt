@@ -1,0 +1,3 @@
+[console_scripts]
+axp209 = axp209:main
+
