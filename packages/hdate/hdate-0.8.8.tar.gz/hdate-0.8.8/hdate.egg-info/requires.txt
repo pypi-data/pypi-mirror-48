@@ -1,0 +1,10 @@
+python-dateutil
+six
+
+[dev]
+tox
+
+[pub]
+bumpversion
+wheel
+twine
