@@ -1,0 +1,3 @@
+[console_scripts]
+shellcraft=src.shellcraft.cli:main
+
