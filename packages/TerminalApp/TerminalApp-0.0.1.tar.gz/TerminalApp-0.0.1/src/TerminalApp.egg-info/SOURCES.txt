@@ -1,0 +1,6 @@
+README.md
+setup.py
+src/TerminalApp.egg-info/PKG-INFO
+src/TerminalApp.egg-info/SOURCES.txt
+src/TerminalApp.egg-info/dependency_links.txt
+src/TerminalApp.egg-info/top_level.txt
