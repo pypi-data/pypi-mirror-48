@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: django-country-dialcode-sb
+Version: 0.6.4
+Summary: Django Application providing Dialcode and Countries code
+Home-page: http://github.com/Star2Billing/django-country-dialcode
+Author: Belaid Arezqui
+Author-email: areski@gmail.com
+License: MIT License
+Description: ==========================
+        django-country-dialcode-sb
+        ==========================
+        
+        Major code is taken from http://github.com/Star2Billing/django-country-dialcode
+        
+        This Django application provides Dial Code and Country data to reuse in a django application.
+        
+        
+        Installation
+        ============
+        
+        Install Django-Country-Dialcode::
+        
+            python setup.py install
+        
+        
+        Settings
+        ========
+        
+        in your settings.py file::
+        
+            INSTALLED_APPS = INSTALLED_APPS + ('country_dialcode',)
+        
+        
+        Usage
+        =====
+        
+        In your models add the following ::
+        
+            dialcode = models.ForeignKey(Prefix, verbose_name=_("Destination"), null=True,
+                                       blank=True, help_text=_("Select Prefix"))
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/x-rst
