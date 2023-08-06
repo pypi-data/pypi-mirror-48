@@ -1,0 +1,65 @@
+Metadata-Version: 2.1
+Name: gym_breakout_pygame
+Version: 0.0.1a1
+Summary: Gym Breakout environment using Pygame
+Home-page: https://github.com/sapienza-rl/gym-breakout-pygame.git
+Author: Marco Favorito, Luca Iocchi
+License: MIT License
+Description: # gym-breakout-pygame
+        
+        Gym Breakout environment using Pygame.
+        
+        ## Install
+        
+        Install with `pip`:
+        
+            pip3 install gym_breakout_pygame==0.0.1a0
+            
+        Or, install from source:
+        
+            git clone https://github.com/sapienza-rl/gym-breakout-pygame.git
+            cd gym-breakout-pygame
+            python3 setup.py install
+        
+        ## Development
+        
+        - clone the repo:
+        
+              git clone https://github.com/sapienza-rl/gym-breakout-pygame.git
+              cd gym-breakout-pygame
+            
+        - Create/activate the virtual environment:
+        
+              pipenv shell
+            
+        - Run a short demo:
+        
+              python gym_breakout_pygame/breakout_env.py
+              
+        You should get:
+        
+        ![](docs/breakout-example.gif)
+        
+        ## Tests
+        
+        TODO
+        
+        ## License
+        
+        MIT License.
+        
+        ## Credits
+        
+        The code is largely inspired by [RLGames](https://github.com/iocchi/RLGames.git)
+        
+        
+Keywords: environment,agent,rl,openaigym,openai-gym,gym,breakout
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
