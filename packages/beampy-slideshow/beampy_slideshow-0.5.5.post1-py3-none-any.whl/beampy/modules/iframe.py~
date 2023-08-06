@@ -1,0 +1,6 @@
+# coding: utf-8
+
+"""
+Beampy module to include iframe in svg using svg ForeignObject
+"""
+
