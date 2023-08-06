@@ -1,0 +1,4 @@
+gitpython==2.1.11
+python-gitlab
+PySimpleGUI
+pathos
