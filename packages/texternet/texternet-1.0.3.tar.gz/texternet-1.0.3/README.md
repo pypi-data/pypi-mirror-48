@@ -1,0 +1,38 @@
+# Texternet
+
+Texternet is a Python library for developing applications on the Texting Service, Texternet
+
+## Description
+
+Texternet is a texting service used to interact with web applications through the use of text, eliminating the limiting factor of having Internet. Texternet can support apps for almost anything you can do online: from making an app that identifies what's in a picture, to just browsing the web with just images. Texternet's main purpose is to give simulated internet access to communities that wouldn't otherwise have access to internet or would have a hard time adapting to it. These communities would include lower and middle class people who can't afford data for their cell service, if they have any, rural communities with poor internet, or even a grandparent who's tech-saviness would only extend up to texting. Anyone can use this free program, and anyone can develop apps for the community to use. This python module is what developers use to make the apps for Texternet. 
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+
+```bash
+pip install texternet
+```
+
+In order to develop and Test apps, you will need to make an Twilio Account.
+
+## Usage
+
+```python
+from Texternet import Texternet
+from datetime import datetime
+
+TN = Texternet('TWILIO_AUTH_TOKEN', 'TWILIO_SID', "TWILIO_PHONE#") # makes Texternet object
+TN.getMessages(datetime.datetime(2019, 5, 17)) # returns messages since May 17, 2019
+TN.sendMessage("+18171111111", "Test text") # sends 'Test text' to '+18171111111'
+```
+
+Note: getMessages() returns twilio.rest.Client.messages type. Learn more from the [Twilio API](https://www.twilio.com/docs/usage/api)
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
