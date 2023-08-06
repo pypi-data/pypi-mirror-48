@@ -1,0 +1,15 @@
+pyats.tcl-19.6-py3.4-nspkg.pth,sha256=e0Aa4MZQ9F423CwtNHHpsEDtEBEJtZolebDzazoPJyI,534
+pyats/tcl/__init__.py,sha256=E_BIQRXzzZbhFGr-PKJjls-409hIRBc79Tgh3uISAnE,1478
+pyats/tcl/array.so,sha256=vVo1FTWEBq67Da2mHVOXLkf27w8usBeVxma_0Of9WPo,66740
+pyats/tcl/history.so,sha256=DrL9tFBCT4MxiC9Wp0zssyd7EhRy0GxvkbqUVVSrS80,110364
+pyats/tcl/internal.so,sha256=LQpuIgJoG7XXFQGPBhaKvnrRfO3_VbHRiyLRDlgBA3U,181348
+pyats/tcl/interpreter.so,sha256=ceE748449kXlGPAz3DK9NjiJSY3PRWkNvA9FBDOOzbo,227348
+pyats/tcl/keyedlist.so,sha256=DN1XRDkFsLfyGa_qkDWo1lG8DX4yTWQ2FIY8wvzilYw,151512
+pyats/tcl/namespace.so,sha256=jGO8i9YtMcuxiJT_bjdcFnf-1jYzYL8VN0tQCxocp2I,620476
+pyats/tcl/q.so,sha256=9l7G8akteCferDaQK41WoiGGNMVFaydMg7TBTYF7Fdg,80320
+pyats/tcl/tclstr.so,sha256=7xq9ThCc4uSuKbE_NYVhF-yksBZXz2-N5dl3G1qUkpI,114188
+pyats.tcl-19.6.dist-info/METADATA,sha256=qap5jSwEEx0i-g0pv2A98Bfa4-JjEg-wwENLokLVRjY,3004
+pyats.tcl-19.6.dist-info/WHEEL,sha256=NxJwBTuLPY7ebcEZAvprEKrQPjeP7QDJsmGX_XLjILM,111
+pyats.tcl-19.6.dist-info/namespace_packages.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-19.6.dist-info/top_level.txt,sha256=jGeyqyHwW1slwU9TmXM_iib2O5fPdh4peKwkj0m-bZU,6
+pyats.tcl-19.6.dist-info/RECORD,,
