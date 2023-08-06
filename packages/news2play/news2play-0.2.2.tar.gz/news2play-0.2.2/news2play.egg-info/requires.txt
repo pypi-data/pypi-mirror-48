@@ -1,0 +1,6 @@
+spacy
+pydub
+simpleaudio
+colorlog
+flask
+flask-httpauth
