@@ -1,0 +1,5 @@
+Django>=1.8
+python-dateutil>=2.1
+pyopenssl>=0.13.1
+pem>=0.1.0
+twisted
