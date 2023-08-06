@@ -1,0 +1,48 @@
+Metadata-Version: 1.1
+Name: NaughtyClustered
+Version: 0.3.7
+Summary: Clustered version of Naughty and Nice with a few more addons
+Home-page: UNKNOWN
+Author: xXTheProgrammerXx
+Author-email: arhithprem@gmail.com
+License: UNKNOWN
+Description: #Naughty and Nice (Clustered version)  
+        ###  How to download:
+        Use `pip3 (or pip ) install -vvv NaughtyClustered`
+        Download these packages as well:
+        * dispy
+        * tweepy
+        * nltk:
+        1. Open a file (or Python IDE) and put these to things to download NLTK full
+        1. import nltk
+        2. nltk.download()
+        2. Then you will see a window pop up. This is the NLTK downloader. Click on popular and wait for it to download.
+        ###  How to use the program:
+        First you have to go to apps.twitter.com and sign in and create an app.
+        Do all the steps to make your app, then go to your app interface and click on keys and tokens.
+        You will see two API keys, and you will also see a button that says "Create" under the access token bar. Click on the "Create" button to make your access tokens.
+        Now you need to store the keys. Make a file named "twitter_auth.json". Put this in the file:
+        ```    
+        {
+        "consumer_key": "YOURCONSUMERKEY",
+        "consumer_secret": "YOURCONSUMERSECRET",
+        "access_token": "YOURACCESSTOKEN",
+        "access_token_secret": "YOURACCESSTOKENSECRET"
+        }
+        ```
+        Put all of your creditionals in and save.
+        Now all you need to do is make sure your cluster is active, then go to a python file, type in:
+        ```python
+        from NaughtyClustered import Calculate
+        Calculate(PATH_TO_YOUR_TWITTER_AUTH.JSON_FILE)
+        ```
+        Then it will calculate and you are done.
+        
+Keywords: classifing,learning
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Requires: tweepy
+Requires: nltk
+Requires: dispy
