@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: marsh-schema-piapia
+Version: 0.0.2
+Summary: marsh_schema_piapia
+Home-page: https://github.com/liujinliu/marsh_schema_piapia
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click (==7.0)
+Requires-Dist: cython (==0.29.10)
+Requires-Dist: marshmallow-enum (==1.4.1)
+Requires-Dist: marshmallow (==2.19.5)
+
+UNKNOWN
+
+
