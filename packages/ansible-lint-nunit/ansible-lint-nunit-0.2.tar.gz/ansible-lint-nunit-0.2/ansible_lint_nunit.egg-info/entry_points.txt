@@ -1,0 +1,3 @@
+[console_scripts]
+ansible-lint-nunit = bootstrap.bootstrap:main
+
