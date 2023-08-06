@@ -1,0 +1,15 @@
+demyst/analytics/__init__.py,sha256=t0MK4smesGLaFq51Hf6eGiLBRurcRGdpKdFFrs2PSe8,126
+demyst/analytics/analytics.py,sha256=k9UZQQ6r0BcjgNaSx3ED1kUaK3qzNnFQlx2M7q-sGMk,64459
+demyst/analytics/dummies.pickle,sha256=uivdnDHM4UEQlBKh7quxweecjvZzium8JrJsCSt7lvU,1218
+demyst/analytics/eprint.py,sha256=mFG5wd0QQXNjwk5bxGkRDvVNR6_B6dqs5VZ0E4L-eAE,218
+demyst/analytics/max_length.pickle,sha256=Y-IZl63uTX979Tog4a1TL6XJf9RssH-YzAIzaVO20Xw,14
+demyst/analytics/model.pickle,sha256=PDi0M10tOZqBBSNRTiZAcVXvUh8mL_USzA_iM2NLuNc,2139227
+demyst/analytics/report.py,sha256=c-m5QzqsJyr6Nod8gkBVxuhmgVYsBcgpQWVUenAsHqM,4364
+demyst/analytics/shiny.py,sha256=CIA_bN6POLRlCk3CJgee83t0F0yeAf9UVKZ28T7DSbY,2997
+demyst/analytics/tokenizer.pickle,sha256=NBLJohRFWdQqiR5LIhkeSe2gw-GwJejGSGeocDV5gcs,2258
+demyst/analytics/type_guesser.py,sha256=GoCPCMZ5rF1AEmo4cfGn6dsgGPRFM9d9fP-DXCOznFw,9340
+demyst/analytics/sample/website.csv,sha256=7rzJFSd8bfFCoIFXjLIntAN18qqIkxovCvkLep34kwk,51
+demyst_analytics-0.7.35.dist-info/METADATA,sha256=8YXuJwK0c_8NjZf_liDuYIDqo5l4QVSb2nSIl1HBQnI,451
+demyst_analytics-0.7.35.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+demyst_analytics-0.7.35.dist-info/top_level.txt,sha256=OzOf8AsMyLfEKQ1YhQE16Ika13LY_yRhAuS2YQjncY4,7
+demyst_analytics-0.7.35.dist-info/RECORD,,
