@@ -1,0 +1,3 @@
+[console_scripts]
+tree_stat = tree_stat.__main__:main
+

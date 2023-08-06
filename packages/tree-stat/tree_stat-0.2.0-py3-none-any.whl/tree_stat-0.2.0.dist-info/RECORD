@@ -1,0 +1,10 @@
+tree_stat/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tree_stat/__main__.py,sha256=hK-axcvL1ZJmdf-_T4A_L8IaqXpd0F_4z8mDJheTOPY,2758
+tree_stat/_display_file_size.py,sha256=mOIdWA9n6cQEhWukjRlEc9rL5SapqcuNo2N_Uwiy4qs,744
+tree_stat/directory_measure.py,sha256=YmIHpexZmq2AkZFomSrPbAsHlsIkwMka90WWJg_vvqg,1810
+tree_stat/templates/tree_stat.md,sha256=eSYApeLvW3iOV27sse8Wlw8a2WoOcpaXOlcsJryBNm8,388
+tree_stat-0.2.0.dist-info/METADATA,sha256=rThJpvKEMXUGZekD1Ubxk1raCVHr3f81AgsHzo1q-3U,5256
+tree_stat-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tree_stat-0.2.0.dist-info/entry_points.txt,sha256=rIeqMPrAsRK0KDafSdPAVYa2Uj7mLgfMBqoJoHANQRs,55
+tree_stat-0.2.0.dist-info/top_level.txt,sha256=mkm0VRDsPN_6cHrU7-in815w-oA-fSUjn_scjVc5TYM,10
+tree_stat-0.2.0.dist-info/RECORD,,
