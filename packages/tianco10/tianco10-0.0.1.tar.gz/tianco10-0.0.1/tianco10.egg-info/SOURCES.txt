@@ -1,0 +1,7 @@
+README.md
+setup.py
+tianco10/__init__.py
+tianco10.egg-info/PKG-INFO
+tianco10.egg-info/SOURCES.txt
+tianco10.egg-info/dependency_links.txt
+tianco10.egg-info/top_level.txt
