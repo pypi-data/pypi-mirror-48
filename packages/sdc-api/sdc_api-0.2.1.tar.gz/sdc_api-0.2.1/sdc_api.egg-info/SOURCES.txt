@@ -1,0 +1,8 @@
+README.rst
+setup.py
+sdc_api/__init__.py
+sdc_api/sdc_api.py
+sdc_api.egg-info/PKG-INFO
+sdc_api.egg-info/SOURCES.txt
+sdc_api.egg-info/dependency_links.txt
+sdc_api.egg-info/top_level.txt

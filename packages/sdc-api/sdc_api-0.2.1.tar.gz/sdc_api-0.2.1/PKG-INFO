@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: sdc_api
+Version: 0.2.1
+Summary: An async wrapper for Server-Discord.Com API
+Home-page: https://github.com/TomoriBot/sdc_api
+Author: Tomori Project
+Author-email: dev@discord.band
+License: UNKNOWN
+Description: sdc-api.py
+        ==========
+        
+        Installation
+        --------------
+        
+        	pip install sdc-api
+        
+        
+        Quick Example
+        --------------
+        
+        .. code:: py
+        
+        	from sdc_api import SDC
+        	
+        	sdc = SDC('dKey')
+        	
+        	# Get guild, where you generated dKey
+        	guild = await sdc.get_guild()
+        	print(guild)
+        	
+        	# Get guild's place
+        	place = await guild.place()
+        	print("Place of server in SDC is %d" % place)
+        
+        Usage
+        --------------
+        
+        Get Guild
+        
+        .. code:: py
+        
+        	guild = await sdc.get_guild('id')
+        
+        Get Guild Votes
+        
+        .. code:: py
+        
+        	guild = Guild(id='id')
+        	votes = await guild.get_votes()
+        
+        .. code:: py
+        
+        	votes = await sdc.get_guild_votes('id')
+        
+        Get Guild Place
+        
+        .. code:: py
+        
+        	place = await sdc.get_guild_place('id')
+        	print("Place of server in SDC is %d" % place)
+        
+        .. code:: py
+        
+        	guild = await sdc.get_guild('id')
+        	place = await guild.place()
+        	print("Place of server in SDC is %d" % place)
+        
+        Get User's Votes
+        
+        .. code:: py
+        
+        	user = User(id='id')
+        	votes = await user.get_votes()
+        
+        .. code:: py
+        
+        	votes = await sdc.get_user_votes('id')
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
