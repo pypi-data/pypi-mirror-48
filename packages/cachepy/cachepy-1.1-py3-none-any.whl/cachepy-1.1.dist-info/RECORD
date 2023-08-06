@@ -1,0 +1,15 @@
+cachepy/__init__.py,sha256=RDXouIPD2f39Jt9FplM8q7fArofFUQu93HjJk2tQmAo,11919
+cachepy/conf.py,sha256=zScug9C3em0xVyCYwuraDUb_FkT7pS9Qw9fLzcjTvYU,525
+cachepy/crypter.py,sha256=Fp2vJVys4gOkunEve_-9B0CDihNc92j8i4d5chnSj00,2707
+cachepy/test.py,sha256=y-hA-YeXv7dFEvfsYYgQmZWukA_ECrqf8r5C39dXH_0,16795
+cachepy/utils.py,sha256=KPs4zQGh3vBZvkgKkiPRMbW2aPhxVhxhchmbaiDCXDE,2496
+cachepy/backends/__init__.py,sha256=eG3FvymIK9XGzsckHNBGZqnf3H-Pt_cDAUKjXe10emY,115
+cachepy/backends/base.py,sha256=gqdqiiWvspPBrEBMJ-OelctWzZwqGRwCZhH1kB3DhsY,6707
+cachepy/backends/file_backend.py,sha256=7Ymx_5aa8bZDU2r4zo6msuW1Q1mP3ZIbvSDqKJJcnjM,1629
+cachepy/backends/memory_backend.py,sha256=69D3HT0kOXedKDFZmHu3Cq3Ut5ixNYWun7NIGAWQPqA,591
+cachepy-1.1.dist-info/DESCRIPTION.rst,sha256=eJfBlSH0OallZ6W2YMg7KLYtaidvM4zDsWRPOZv7s7c,6186
+cachepy-1.1.dist-info/METADATA,sha256=f4fC-GBP_v4VCuBlXrw_95YE9cPz5kbfmRjucoSYoKY,7175
+cachepy-1.1.dist-info/RECORD,,
+cachepy-1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+cachepy-1.1.dist-info/metadata.json,sha256=VFzIX8baG4ssZ2FD79siDCuXPVqCiZlNRuXRIhOw09g,1072
+cachepy-1.1.dist-info/top_level.txt,sha256=6V73IKEKi6j0Pu7-ydtYB-9t0H72V7YJWjd7TuXJbwg,8
