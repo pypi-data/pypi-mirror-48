@@ -1,0 +1,10 @@
+pvcz/PVCZ-2019_GLDAS_NOAH025_3H_info.npz,sha256=g9dVunEtAAfwAE5nTBxK8Oy2ztI7dxSebzLyOXwtk7Q,1093778
+pvcz/PVCZ-2019_world_PV_climate_stressors_and_zones.csv,sha256=Gp-bfqJdNexj8ED90NVHfUwhXT7DghEq8XdyeKW84Qc,15764812
+pvcz/PVCZ-2019_world_PV_climate_stressors_and_zones.pkl,sha256=BCgDkRKur__cz2CwDzQFESXVHAivqKq0ADdYZAEYSnA,26196760
+pvcz/__init__.py,sha256=I-jOyu7XkseCNIbO3sbvU6RJ9Iosq5zjNINAkGcXPOg,33
+pvcz/pvcz.py,sha256=T_814sfzRfRmxM4IdE-dF5tmniGvixVtIUltg6ilhek,13560
+pvcz-0.0.1.dist-info/LICENSE,sha256=6ao4qogKKFHm_5cBVYg7HBc2mDeZRnJbqBNMHOQ_pms,1067
+pvcz-0.0.1.dist-info/METADATA,sha256=GP2Q13pbMLKKJ-eX8QcSzaDBcgczU6OUavefhMBhhZc,2732
+pvcz-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pvcz-0.0.1.dist-info/top_level.txt,sha256=mzi52FxWAlbtwa2HpTO4gybySp-Oty3OXUbw18qo2TE,5
+pvcz-0.0.1.dist-info/RECORD,,
