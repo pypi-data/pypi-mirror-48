@@ -1,0 +1,12 @@
+imglyb_examples/__init__.py,sha256=n0Rv9Wb1FEUGjSi5Jrtdhbb_6ZXoMbwEy7ngnteoBpA,46
+imglyb_examples/bdv_hello_world.py,sha256=dp2wPtOTLFs4PhXNxL5CBLhwGtdg1Tijh-pPEmdBemU,2510
+imglyb_examples/bdv_painter.py,sha256=CzluD_67xaIdxuPCKIAc0kBtYhVfSuvudFKEY63oSCo,5388
+imglyb_examples/butterfly.py,sha256=3FKBd01JBz-1KpRTZkw5MAQxUBZorvnoWb6dkrV_BQs,3813
+imglyb_examples/qt_awt.py,sha256=AyHbHsBSafumCzTeF4_u9w24FoUz9p-p8f2-xbpDQn0,3284
+imglyb_examples/version_info.py,sha256=lZolb0mGSYcs6Lh9ds37dqkVof-asG40BwPUhy1emU8,476
+imglyb_examples/views_stack.py,sha256=nmyy480IQC5lJJQ7H6iO9aXqb8ORjRW_3OkwXlGa5DE,1252
+imglyb_examples-0.1.0.dist-info/METADATA,sha256=xeJW3T40opT4zzefhoeKSn3dlLyxpteeXykhyOomRak,2096
+imglyb_examples-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+imglyb_examples-0.1.0.dist-info/entry_points.txt,sha256=CLAoHXiEFYiPBKEfCKrPkp7jB00-XL7jJaRl2SiBryw,328
+imglyb_examples-0.1.0.dist-info/top_level.txt,sha256=wDbtQmNWdqL9SOYdIjYdi8PkkHcHcHEnKyERLB1iYRM,16
+imglyb_examples-0.1.0.dist-info/RECORD,,
