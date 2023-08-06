@@ -1,0 +1,8 @@
+include *.in
+include *.ini
+include *.rst
+include *.txt
+include LICENSE
+include pyCMeKG/model/*.pkl
+
+global-exclude __pycache__ *.py[cod]
