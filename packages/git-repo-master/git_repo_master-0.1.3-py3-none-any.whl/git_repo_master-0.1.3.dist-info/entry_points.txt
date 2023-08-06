@@ -1,0 +1,3 @@
+[console_scripts]
+grm = git_repo_master.app:run
+
