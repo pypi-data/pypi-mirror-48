@@ -1,0 +1,16 @@
+synse_grpc/__init__.py,sha256=v7Cz2tL9sfPY7oFOnhBBAfdrLIwfNQSao7b7UnKqrdo,336
+synse_grpc/api.py,sha256=DCD69-0_0PAtzrMB2IsHNJPiGT36mTyZCVUeVvN9a00,126
+synse_grpc/client.py,sha256=13E2qe8hceyOyTj_4EPtddELWt_kHVnYZIc9Pb_74f8,10348
+synse_grpc/errors.py,sha256=MqSILb0Ooqvn8_c8kqG6pWv9xpFAjJf1e1BkxisezmM,1015
+synse_grpc/grpc.py,sha256=bmuGXaDdqPJbof_rDbeaE9y2xVW-giqqfl9GIpZSmeg,137
+synse_grpc/synse_pb2.py,sha256=Dcfl40QLk3lDyY7ccrrzSJVE0O9rT-hoNT4L8Ex7rGg,78948
+synse_grpc/synse_pb2_grpc.py,sha256=yk83u6quw3cFjGdjb6EPhLb1EIqjfZz8sS7aQLnlgZg,8961
+synse_grpc/utils.py,sha256=cQ1faGauDQFkG07wWALXpvaZwPY3BKQuJFO5eCPs8OM,3618
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_client.py,sha256=D-7IaPTmAHcgUDVyiExjNx5tiR2MAysJocbKvQJrN58,2083
+tests/test_errors.py,sha256=wTDCW4WaonawBn8Eoj3HAqWd0LIVJ-L7EdQYngLPXuE,1056
+tests/test_utils.py,sha256=0LVL0eJ-olwd0GndIzipKD-HgjauyzoY7b-MEqOZEU8,5347
+synse_grpc-3.0.0a1.dist-info/METADATA,sha256=EpltK_tQk3j7a5AzssBQqW7mJnSqCE2NkBGlxmzOUTA,639
+synse_grpc-3.0.0a1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+synse_grpc-3.0.0a1.dist-info/top_level.txt,sha256=uVLwBwgPQyqnAKGsdi2fM5L0yF1_TpvujUaA5rxVsvo,17
+synse_grpc-3.0.0a1.dist-info/RECORD,,
