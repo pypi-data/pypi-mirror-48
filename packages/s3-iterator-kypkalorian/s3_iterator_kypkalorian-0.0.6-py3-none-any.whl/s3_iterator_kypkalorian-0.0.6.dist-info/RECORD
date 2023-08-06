@@ -1,0 +1,9 @@
+s3_iterator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+s3_iterator/iterator.py,sha256=euDnnPUeaTXRpSvMgeLWGnwDcO0m_lNvDvpEjTLFQQc,962
+s3_iterator/list_obj.py,sha256=RDRmgRr8XzD1CZ_tBUq4gwtPjh_atA6nKCvtjdZhtNI,926
+s3_iterator/smart_worker.py,sha256=Kk7EGp-TWzMGu_LRVJaFRURq5Y6Q2ED6ol9w7uMWkv8,554
+s3_iterator/worker.py,sha256=SEImFLUjNQs2M_X3gLLxlKsurEBnJJCcneEjANeGXy0,384
+s3_iterator_kypkalorian-0.0.6.dist-info/METADATA,sha256=Z0imLfse9bYIQ98PyXcFVj_3FN0GwlrG9yUtyvu48KY,497
+s3_iterator_kypkalorian-0.0.6.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+s3_iterator_kypkalorian-0.0.6.dist-info/top_level.txt,sha256=ZRTudRQUiyRuDFVadmilVNvBcpK0t5f88uaV02KUQIM,12
+s3_iterator_kypkalorian-0.0.6.dist-info/RECORD,,
