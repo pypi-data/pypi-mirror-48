@@ -1,0 +1,5 @@
+setup.py
+kwame.egg-info/PKG-INFO
+kwame.egg-info/SOURCES.txt
+kwame.egg-info/dependency_links.txt
+kwame.egg-info/top_level.txt
