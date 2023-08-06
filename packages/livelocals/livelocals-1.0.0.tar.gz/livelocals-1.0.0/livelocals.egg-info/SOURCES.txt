@@ -1,0 +1,14 @@
+.flake8
+.gitignore
+.travis.yml
+LICENSE
+README.md
+setup.py
+livelocals/__init__.py
+livelocals/frame.c
+livelocals.egg-info/PKG-INFO
+livelocals.egg-info/SOURCES.txt
+livelocals.egg-info/dependency_links.txt
+livelocals.egg-info/top_level.txt
+livelocals.egg-info/zip-safe
+tests/__init__.py
