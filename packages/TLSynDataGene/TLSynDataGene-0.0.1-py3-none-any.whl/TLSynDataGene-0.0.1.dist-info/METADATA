@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: TLSynDataGene
+Version: 0.0.1
+Summary: Synthetic data generator to test transfer learning algorithms
+Home-page: UNKNOWN
+Author: Sergio Peignier, Mounir Atiq
+Author-email: sergio.peignier@insa-lyon.fr, atiq.mounir@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# TLSyntheticDataGenerator
+Generator of synthetic datasets for transfer learning algorithms
+
+
