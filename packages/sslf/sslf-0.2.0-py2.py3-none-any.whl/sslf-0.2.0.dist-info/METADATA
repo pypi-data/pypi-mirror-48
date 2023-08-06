@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: sslf
+Version: 0.2.0
+Summary: A simple spectral line finder
+Home-page: https://gitlab.com/chjordan/sslf
+Author: Christopher H. Jordan
+Author-email: christopherjordan87@gmail.com
+License: MIT
+Keywords: signal processing
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.8.0)
+Requires-Dist: scipy
+Requires-Dist: future
+
+sslf - A Simple Spectral Line Finder
+====================================
+
+``sslf`` is designed to be a dead-simple, effective and useful spectral line finder for 1D data. It utilises the continuous wavelet transform from scipy, which is a productive way to find even weak spectral lines.
+
+Because there are many definitions for a spectral line, this package can not conceivably work in all cases. Here, I have designed ``sslf`` for Gaussian-profiled spectral lines. A big part of my work focuses on recovering weak signals in the noise, so ``sslf`` aims to identify lines, flag them, and subtract the non-zero bandpass around them.
+
+Usage
+-----
+With a 1D spectrum (``spectral_data``) and a range of scales to test (e.g. 1 through 20), statistically significant spectral peaks can be found with::
+
+    import numpy as np
+    from sslf.sslf import Spectrum
+
+    s = Spectrum(spectral_data)
+    s.find_cwt_peaks(scales=np.arange(1, 20), snr=6.5)
+    s.subtract_bandpass()
+
+The flattened spectrum is then contained in ``s.modified``, and peak locations at ``s.channel_peaks``. Other parameters related to the peaks are ``s.peak_snrs``, ``s.vel_peaks`` and ``s.channel_edges``.
+
+Note that the ``snr`` parameter specified to ``find_cwt_peaks`` actually refers to the signal-to-noise ratio in the wavelet domain, not the input-signal domain; for this reason, if you wanted all signals above 5-sigma, you would have to put in a little more work to determine what your spectrum's noise RMS is and how it maps to the wavelet RMS.
+
+Also note that ``channel_edges`` can be quite inaccurate; by default, this variable is populated by the wavelet scale that found the spectral line. The wavelet need not match very well; it only needs to be significant enough to be picked up by ``sslf``. The ``Spectrum`` object has an optional ``refine_line_widths`` method which (hopefully) does a better job of finding the channel extent of all detected spectral lines. Read the documentation of ``sslf`` functions for more information.
+
+``find_cwt_peaks`` can optionally take the wavelet to be used in the wavelet transformation (Ricker wavelet by default). ``subtract_bandpass`` is a little harder to explain; more complicated examples of usage can be found in the ``notebooks`` directory. A reasonably complex example of ``sslf`` usage is `here <https://gitlab.com/chjordan/brewmaster/blob/master/brewmaster/merge.py>`_.
+
+Contributions and Suggestions
+-----------------------------
+I created this software because I could not find anything in the community that functioned similarly. So, I would welcome contributions to make this software more generally flexible, to be suitable for a wide audience. It's really simple, just look at the code!
+
+Issues? Bugs? Inconsistencies?
+------------------------------
+Absolutely! Please raise a GitLab issue if you find something odd, with your inputs and expected outputs, and I'll attempt to fix it ASAP.
+
+Installation
+------------
+::
+
+    pip install sslf
+
+or
+
+- clone this repo (``git clone https://gitlab.com/cjordan/sslf.git``)
+- within the directory, run: ``python setup.py install --optimize=1``
+
+Dependencies
+------------
+- python 2.7.x or 3.x
+- numpy 1.8+
+- scipy
+- future
+
+
