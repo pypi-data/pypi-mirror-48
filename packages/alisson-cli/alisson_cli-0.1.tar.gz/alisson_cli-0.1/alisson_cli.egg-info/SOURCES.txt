@@ -1,0 +1,7 @@
+README.md
+automation.py
+setup.py
+alisson_cli.egg-info/PKG-INFO
+alisson_cli.egg-info/SOURCES.txt
+alisson_cli.egg-info/dependency_links.txt
+alisson_cli.egg-info/top_level.txt
