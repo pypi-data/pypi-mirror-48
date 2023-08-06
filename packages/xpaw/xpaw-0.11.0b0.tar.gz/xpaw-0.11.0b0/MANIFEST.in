@@ -1,0 +1,10 @@
+include README.rst
+include LICENSE
+graft xpaw
+graft docs
+graft examples
+graft tests
+graft requirements
+global-exclude *.pyc
+global-exclude *.pyo
+prune docs/_build
