@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sdc-api
+Version: 0.1.0
+Summary: An async wrapper for Server-Discord.Com API
+Home-page: https://github.com/TomoriBot/sdc-api
+Author: Tomori Project
+Author-email: dev@discord.band
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+sdc-api.py
+==========
+
+Quick Example
+--------------
+
+.. code:: py
+
+	from sdc_api import SDC
+
+	sdc = SDC('dKey')
+
+	# Get guild, where you generated dKey
+	guild = await sdc.get_guild()
+	print(guild)
+
+	# Get guild's place
+	place = await guild.place()
+	print("Place of server in SDC is %d" % place)
+
+Get Guild
+
+.. code:: py
+
+	guild = await sdc.get_guild('id')
+
+
