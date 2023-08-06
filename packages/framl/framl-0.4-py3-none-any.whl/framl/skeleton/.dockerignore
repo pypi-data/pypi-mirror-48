@@ -1,0 +1,4 @@
+requirements.txt
+deployement.yaml
+skaffold.yaml
+*.json
