@@ -1,0 +1,4 @@
+PyBluez
+ipython
+scapy
+aiohttp
