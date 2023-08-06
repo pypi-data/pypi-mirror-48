@@ -1,0 +1,49 @@
+====
+jude
+====
+
+
+.. image:: https://img.shields.io/pypi/v/jude.svg
+        :target: https://pypi.python.org/pypi/jude
+
+.. image:: https://img.shields.io/travis/imohitawasthi/jude.svg
+        :target: https://travis-ci.org/imohitawasthi/jude
+
+.. image:: https://readthedocs.org/projects/jude/badge/?version=latest
+        :target: https://jude.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Hey Jude, don't make it bad Take a sad song and make it better.
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://jude.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2019-07-01)
+------------------
+
+* First release on PyPI.
+
+
