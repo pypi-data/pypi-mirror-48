@@ -1,0 +1,9 @@
+bs4
+lxml
+spacy
+nltk
+gensim
+numpy
+pathos
+dill
+aiohttp
