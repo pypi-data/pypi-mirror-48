@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: filmtagger
+Version: 0.0.1
+Summary: TA simple CLI to tag film scans with EXIF metadata.
+Home-page: https://github.com/2n3906/filmtagger
+Author: Scott Johnston
+Author-email: sjohnston@alum.mit.edu
+License: MIT
+Description: 
+        A simple CLI to tag film scans with EXIF metadata.
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
