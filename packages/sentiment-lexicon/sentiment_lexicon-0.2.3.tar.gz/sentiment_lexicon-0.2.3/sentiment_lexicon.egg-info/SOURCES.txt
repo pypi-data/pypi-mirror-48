@@ -1,0 +1,8 @@
+README.rst
+setup.py
+sentiment_lexicon/__init__.py
+sentiment_lexicon/lexicon.py
+sentiment_lexicon.egg-info/PKG-INFO
+sentiment_lexicon.egg-info/SOURCES.txt
+sentiment_lexicon.egg-info/dependency_links.txt
+sentiment_lexicon.egg-info/top_level.txt
