@@ -1,0 +1,8 @@
+logx/__init__.py,sha256=VvRwEr6N22FY-djePAEI-1f8CB2AtX5b3-Cpa_wG5d4,71
+logx/gumph.py,sha256=0uu5Ff3HP5LJ7veVhaPWpty8JZ3KUyaUSk9fqJ5DXuQ,4043
+logx/logxintrospect.py,sha256=1eBVtxdDOca-7MI9znZJynUZxMVSJDTgr6T0Y4Wzdcc,978
+logxutil/__init__.py,sha256=yKtAuGu2KLa1f0f3y-1XnrjWTVSeaBcDJLf4rB0KKnc,45
+logxutil/util.py,sha256=odn_V9Ui8mOmKy_O1m9pJoSapqxBJCRwVzobF5l4ccs,520
+logx-0.1.1562053912.dist-info/WHEEL,sha256=xPOQkOKMN3351_3nliYUOZ4djpDcLlPG4HXOBRXrERg,89
+logx-0.1.1562053912.dist-info/METADATA,sha256=ET4n5DofK8bQHpr_W3FyK9b-rcFGV4HnrcuUzqox9bg,2470
+logx-0.1.1562053912.dist-info/RECORD,,
