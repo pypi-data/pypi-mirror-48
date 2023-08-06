@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: mkAppleOpenSourceDownload
+Version: 1.0
+Summary: You can download the corresponding source code from "opensource.apple.com" according to the specified word (support for fuzzy matching).
+Home-page: https://github.com/mythkiven/mkAppleOpenSourceDownload
+Author: MythKiven
+Author-email: mythkiven@qq.com
+License: MIT
+Keywords: appple opensource ios runtime
+Platform: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: bs4
+Provides-Extra: h2
+Requires-Dist: hyper ; extra == 'h2'
+
+UNKNOWN
+
+
