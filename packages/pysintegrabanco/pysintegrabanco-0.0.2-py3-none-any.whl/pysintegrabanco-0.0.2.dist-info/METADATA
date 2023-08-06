@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pysintegrabanco
+Version: 0.0.2
+Summary: Leitura de arquivos bancarios, francesinhas, .TXT ou .RET
+Home-page: https://github.com/rfschubert/pys-integrabanco
+Author: Raphael Schubert
+Author-email: rfswdp@gmail.com
+License: GNU
+Keywords: python integra banco,python3,santander,schubert
+Platform: UNKNOWN
+Requires-Dist: pendulum
+
+UNKNOWN
+
+
