@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: locusselect
+Version: 0.1
+Summary: Compute deep learning embeddings for narrowPeak files; compute pairwise distance between embeddings and cluster with tSNE
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Download-URL: https://github.com/kundajelab/locusselect
+Description: UNKNOWN
+Platform: UNKNOWN
