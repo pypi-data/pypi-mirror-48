@@ -1,0 +1,10 @@
+cdetools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cdetools/cde_loss.py,sha256=yHuNlDNzgnBCNDhwf9MJf4EDCrDQjjc_J4hZBbnkv8Y,1964
+cdetools/cdf_coverage.py,sha256=oh7zpZtuxweLx-ERkuAWr7lzEmA3lnj0BPZUpAosM8M,1227
+cdetools/hpd_contours.py,sha256=xWre4EkP7EJtpxQCdayR3VpsjaS4P-BSHAE0HGrfXAo,2224
+cdetools/hpd_coverage.py,sha256=TSNZnzlvxH1e-MqNHEy7uIelPHKSQESYCzbZmqvnxmA,1842
+cdetools-0.0.1.dist-info/LICENSE,sha256=oj_ps0uDnod1U4gAFAGdoVuwCuOBstqyXylGeO5KAEg,1073
+cdetools-0.0.1.dist-info/METADATA,sha256=Zkya7714To38LKQ0s1DzUeTk6B14lK951fqfkzYebW0,672
+cdetools-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cdetools-0.0.1.dist-info/top_level.txt,sha256=QIMY7pUThPTX-cBl4UEdEI3PPSU3AhH9V-XPuJPAObw,9
+cdetools-0.0.1.dist-info/RECORD,,

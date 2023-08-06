@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cdetools
+Version: 0.0.1
+Summary: Tools for evaluating conditional density estimates.
+Home-page: https://github.com/tpospisi/cdetools/python
+Author: Niccolo Dalmasso, Taylor Pospisil
+Author-email: niccolo.dalmasso@gmail.com
+Maintainer: niccolo.dalmasso@gmail.com
+License: MIT
+Keywords: conditional density estimation,diagnostics
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+UNKNOWN
+
+
