@@ -1,0 +1,17 @@
+Metadata-Version: 1.0
+Name: indicator
+Version: 1.0.5
+Summary: Solving Quantitative Indicators of Funds, Stocks and Foreign Exchange Tool
+Home-page: https://github.com/haibeicode/indicator
+Author: Tab
+Author-email: ns_v@sina.com
+License: Apache 2.0
+Description: Financial Indicator Tool
+        
+        Install : pip install indicator
+        
+        Upgrade : pip install --upgrade indicator
+        
+        
+Keywords: Financial Indicator Tool
+Platform: UNKNOWN
