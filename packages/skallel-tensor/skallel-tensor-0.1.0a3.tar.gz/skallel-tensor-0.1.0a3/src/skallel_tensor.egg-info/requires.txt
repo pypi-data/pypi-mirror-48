@@ -1,0 +1,3 @@
+numpy
+numba
+dask>=2.0.0
