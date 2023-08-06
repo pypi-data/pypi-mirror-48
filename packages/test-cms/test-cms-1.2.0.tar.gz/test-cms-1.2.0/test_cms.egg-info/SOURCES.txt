@@ -1,0 +1,8 @@
+LICENSE.txt
+MANIFEST.in
+setup.py
+test_cms.egg-info/PKG-INFO
+test_cms.egg-info/SOURCES.txt
+test_cms.egg-info/dependency_links.txt
+test_cms.egg-info/requires.txt
+test_cms.egg-info/top_level.txt
