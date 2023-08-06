@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: spikesorters
+Version: 0.1.0
+Summary: Python wrappers for popular spike sorters
+Home-page: https://github.com/SpikeInterface/spikesorters
+Author: Cole Hurwitz, Jeremy Magland, Alessio Paolo Buccino, Matthias Hennig
+Author-email: alessiop.buccino@gmail.com
+License: UNKNOWN
+Description: # spikesorters
+        Collection of spike sorter wrappers
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
