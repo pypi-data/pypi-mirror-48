@@ -1,0 +1,101 @@
+Metadata-Version: 1.1
+Name: nasa-wildfires
+Version: 0.0.2
+Summary: Download wildfire data from NASA satellites
+Home-page: http://www.github.com/datadesk/nasa-wildfires
+Author: Los Angeles Times Data Desk
+Author-email: datadesk@latimes.com
+License: MIT
+Project-URL: Maintainer, https://github.com/datadesk
+Project-URL: Source, https://github.com/datadesk/nasa-wildfires
+Project-URL: Tracker, https://github.com/datadesk/nasa-wildfires/issues
+Description: nasa-wildfires
+        ==============
+        
+        Download wildfire data from NASA satellites
+        
+        Installation
+        ------------
+        
+        ::
+        
+            $ pipenv install nasa_wildfires
+        
+        
+        Command-line usage
+        ------------------
+        
+        ::
+        
+            Usage: nasawildfires [OPTIONS] COMMAND [ARGS]...
+        
+              A command-line interface for downloading wildfire data from NASA
+              satellites.
+        
+              Returns GeoJSON.
+        
+            Options:
+              --help  Show this message and exit.
+        
+            Commands:
+              modis  Hotspots detected by the MODIS satellite in a recent 24-hour period
+              viirs  Hotspots detected by the VIRRS satellite in a recent 24-hour period
+        
+        
+        Download a GeoJSON of hotspots detected by the MODIS satellite in a recent 24-hour period. ::
+        
+            $ nasa_wildfires modis
+        
+        
+        Download a GeoJSON of hotspots detected by the VIIRS satellite in a recent 24-hour period. ::
+        
+            $ nasa_wildfires viirs
+        
+        
+        Python usage
+        ------------
+        
+        Import the library. ::
+        
+            >>> import nasa_wildfires
+        
+        Download a GeoJSON of hotspots detected by the MODIS satellite in a recent 24-hour period. Returns GeoJSON. ::
+        
+            >>> data = nasa_wildfires.get_modis()
+        
+        
+        Download a GeoJSON of hotspots detected by the VIIRS satellite in a recent 24-hour period. Returns GeoJSON. ::
+        
+            >>> data = nasa_wildfires.get_modis()
+        
+        
+        Contributing
+        ------------
+        
+        Install dependencies for development. ::
+        
+            $ pipenv install --dev
+        
+        Run tests.::
+        
+            $ make test
+        
+        Shipping new version to PyPI. ::
+        
+            $ make ship
+        
+        
+        Developing the CLI
+        ------------------
+        
+        The command-line interface is implemented using Click and setuptools. To install it locally for development inside your virtual environment, run the following installation command, as `prescribed by the Click documentation <https://click.palletsprojects.com/en/7.x/setuptools/#setuptools-integration>`_. ::
+        
+            $ pip install --editable .
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
