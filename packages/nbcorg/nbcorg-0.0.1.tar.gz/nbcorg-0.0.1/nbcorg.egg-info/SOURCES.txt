@@ -1,0 +1,11 @@
+README.md
+setup.py
+nbcorg/__init__.py
+nbcorg/orgmode.py
+nbcorg.egg-info/PKG-INFO
+nbcorg.egg-info/SOURCES.txt
+nbcorg.egg-info/dependency_links.txt
+nbcorg.egg-info/entry_points.txt
+nbcorg.egg-info/requires.txt
+nbcorg.egg-info/top_level.txt
+nbcorg/templates/base.tpl
