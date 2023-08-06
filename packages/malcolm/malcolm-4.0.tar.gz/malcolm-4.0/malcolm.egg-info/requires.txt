@@ -1,0 +1,14 @@
+enum34==1.1.6
+numpy==1.13.1
+annotypes==0.17
+cothread==2.14
+
+[ca]
+cothread
+
+[hdf5]
+h5py
+vds-gen
+
+[websocket]
+tornado
