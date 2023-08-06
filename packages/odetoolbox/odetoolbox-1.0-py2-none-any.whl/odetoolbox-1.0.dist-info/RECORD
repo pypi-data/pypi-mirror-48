@@ -1,0 +1,12 @@
+odetoolbox/__init__.py,sha256=Z76BtSURfarsps8dqHTqWa61JPXshTs-RYRpdC-2kfw,5440
+odetoolbox/analytic.py,sha256=mnjFL6ZVmi5k6TbxRZmbwfY9LKaVrXEFtcKGTPMozL0,7682
+odetoolbox/numeric.py,sha256=Fi8StKixp3RJBRBngltsmQJDWaVoO2YsiSmV6cDZUbU,1242
+odetoolbox/shapes.py,sha256=gjcFW6GLQN5RXCtmLxCNfoGQTHrfYiF-9uflONzTEAU,13547
+odetoolbox/stiffness.py,sha256=KXFTJORRZG7eatGUAaKgQZd_uxaIdgjvx6sldME2w3w,19475
+odetoolbox-1.0.data/scripts/ode_analyzer.py,sha256=DlOhLv4sW3T4ULM6yiKQp_3kFox01wEbbGAtRXHvEGk,2742
+odetoolbox-1.0.dist-info/DESCRIPTION.rst,sha256=rF12PFvhny_RC9KHG7VYYofDNL8svZg6fvmES7nnFto,169
+odetoolbox-1.0.dist-info/METADATA,sha256=2gA8_yX4p2zHdWsCxYiD7TVBlAIpEEekVdDP2pNIies,922
+odetoolbox-1.0.dist-info/RECORD,,
+odetoolbox-1.0.dist-info/WHEEL,sha256=bee59qcPjkyXfMaxNWjl2CGotqfumWx9pC1hlVLr2mM,92
+odetoolbox-1.0.dist-info/metadata.json,sha256=P6DVSg21xVcB6Id19Z5ZSIfLhvEEGChbAd0syMB_gQM,889
+odetoolbox-1.0.dist-info/top_level.txt,sha256=rpuhlgOEUIJ5Lgc5X-XsIPm06wd2onwlQEC62bbm7d4,11
