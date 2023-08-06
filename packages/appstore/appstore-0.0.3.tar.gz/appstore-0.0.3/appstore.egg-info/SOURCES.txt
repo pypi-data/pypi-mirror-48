@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+appstore/__init__.py
+appstore.egg-info/PKG-INFO
+appstore.egg-info/SOURCES.txt
+appstore.egg-info/dependency_links.txt
+appstore.egg-info/top_level.txt
