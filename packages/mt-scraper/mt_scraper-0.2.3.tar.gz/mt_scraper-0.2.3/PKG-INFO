@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mt_scraper
+Version: 0.2.3
+Summary: Easy multythread web scraper
+Home-page: https://bitbucket.org/dronych/mt_scraper-project
+Author: Andrey Sechenov
+Author-email: dronych@mail.ru
+License: UNKNOWN
+Description: Description
+        ===========
+        
+        An Multythread scrapper project
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
