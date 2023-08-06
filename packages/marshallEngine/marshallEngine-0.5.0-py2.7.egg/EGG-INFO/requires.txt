@@ -1,0 +1,6 @@
+pyyaml
+marshallEngine
+fundamentals
+astrocalc
+hmpty
+astropy
