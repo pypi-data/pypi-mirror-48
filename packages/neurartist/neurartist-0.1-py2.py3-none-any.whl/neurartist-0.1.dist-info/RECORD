@@ -1,0 +1,13 @@
+neurartist/__init__.py,sha256=jGiYS9WB5OCQv91mE9xpCzYIFYExuXTJUWxkyLf4wZQ,122
+neurartist/__main__.py,sha256=mcAj0HQmaNNFbc7NxoZSrdmzjpEC2babDM4adEYSAVw,84
+neurartist/_package_manager.py,sha256=REVTx55xRXzZlbPq1r0x2FIsPosFdx26ytG4IZ10ddw,573
+neurartist/cli.py,sha256=tDQ7ORME-vXKSo2T0Li8qnfsh2C2zGnpdafwtHfFjck,3358
+neurartist/losses.py,sha256=pt_Bs18J59Cju2W6JLrIwHwbIKVs7U24xShkcI3Jkmk,815
+neurartist/models.py,sha256=qKinJVsDazunJRCJcJ_1Mh7ELkDu4PfYNcUKI8fs59g,5786
+neurartist/utils.py,sha256=-CLrHOlC0GNJUzrXMVx-CyDSI1J-0yrGWIGeIKo5FFY,2067
+neurartist-0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+neurartist-0.1.dist-info/METADATA,sha256=MH-dlLXYk588oNpeO6rdkQa2CP6pTiEbIazFFzAZpMk,2622
+neurartist-0.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+neurartist-0.1.dist-info/entry_points.txt,sha256=VkwMfNJ8k95QhT3mytkmFA45PiDxJW6HVcgV0EsKQFc,52
+neurartist-0.1.dist-info/top_level.txt,sha256=3WdHp8KGv2Alns9FHwPVN6UNk7z-9JtjFE33hp41iC8,11
+neurartist-0.1.dist-info/RECORD,,
