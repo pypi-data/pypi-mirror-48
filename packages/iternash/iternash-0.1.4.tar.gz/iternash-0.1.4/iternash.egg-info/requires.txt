@@ -1,0 +1,4 @@
+tqdm
+bbopt
+scipy
+mpmath
