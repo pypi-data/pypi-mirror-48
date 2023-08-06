@@ -1,0 +1,10 @@
+Pop_Con-1.0.0.data/scripts/Pop-Con,sha256=EY01Y1Sz_BaCmDXZudCRg8iC1L1vcTada4e4PmTzsWE,32055
+Pop_Con-1.0.0.data/scripts/SFS_genotypes_profiles_plot.R,sha256=gHJUfTR9OCVcK1Y75-6CiOu_9bAFhUthjD5DW5cksNs,5390
+popcon/SFS_profiles_plot.py,sha256=YkB7adnUMBz4jRA7RYJUmbzwL_B0QdbUcyZoBpT2SjM,22388
+popcon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+popcon/heterozygosity.py,sha256=mj2SaZM5L0_lLTbE7giK-DvBX7FldRlsAmuNectjhpo,17951
+popcon/util.py,sha256=8lZDB-93MPc7gB9hvAQBtMr20ehQ89tF_nygjXQqoGA,246
+Pop_Con-1.0.0.dist-info/METADATA,sha256=S4p_ssgRNBUisH-wISKlhUXYZqeBX9aIsBn4WjEIrvc,11661
+Pop_Con-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Pop_Con-1.0.0.dist-info/top_level.txt,sha256=WDTHQJ0Sse4IqdibDYmfAHnsZT0Fk6Zjbb70ylMeLSY,7
+Pop_Con-1.0.0.dist-info/RECORD,,
