@@ -1,0 +1,9 @@
+vgram.cpython-37m-darwin.so,sha256=kjYL-CYxxwvRY3d95L4hmA_mZiFL6LFdpHbfkWMSW8Q,471336
+binding/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binding/src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+binding/src/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vgram-0.4.2.dist-info/LICENSE,sha256=dNBaZiLZIVtPusRurLgEOusG-xg6SgpuoipwCAe87ZA,1073
+vgram-0.4.2.dist-info/METADATA,sha256=YuJn7ngF0MwxQxvIVn98d8hgyJYSN7Hxr_CvbcrOnew,315
+vgram-0.4.2.dist-info/WHEEL,sha256=khNvLtbK6MQUJmzfiDoZ10yOPcpm-KLGDzW6xW0-xo4,110
+vgram-0.4.2.dist-info/top_level.txt,sha256=4ImgfT57ZdJ8XKUUfsZD90pn--3xp1WhI4X81oaVZ8s,14
+vgram-0.4.2.dist-info/RECORD,,
