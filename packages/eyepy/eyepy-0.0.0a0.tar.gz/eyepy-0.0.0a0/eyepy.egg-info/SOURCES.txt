@@ -1,0 +1,7 @@
+README.md
+setup.py
+eyepy/__init__.py
+eyepy.egg-info/PKG-INFO
+eyepy.egg-info/SOURCES.txt
+eyepy.egg-info/dependency_links.txt
+eyepy.egg-info/top_level.txt
