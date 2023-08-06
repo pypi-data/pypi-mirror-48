@@ -1,0 +1,13 @@
+click
+toolz
+attrs
+parso
+bump2version
+trio
+async_generator
+async_exit_stack
+appdirs
+toml
+asks
+marshmallow>=3.0rc1
+pyrsistent
