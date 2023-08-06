@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: closure-problem
+Version: 2019.6.1
+Summary: UNKNOWN
+Home-page: https://github.com/hochbaumGroup/closure-problem
+Author: Quico Spaen
+Author-email: qspaen@berkeley.edu
+License: Non-commercial license. Not an open-source license.
+Keywords: Closure problem,Hochbaum's Normalized Cut,HNC,S-excess problem,Parametric cut problem
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: networkx
+Requires-Dist: pseudoflow
+
+# Closure problems
+
+
