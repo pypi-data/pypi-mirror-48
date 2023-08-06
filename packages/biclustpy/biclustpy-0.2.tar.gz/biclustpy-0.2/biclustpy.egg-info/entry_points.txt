@@ -1,0 +1,3 @@
+[console_scripts]
+biclustpy = biclustpy.command_line:main
+
