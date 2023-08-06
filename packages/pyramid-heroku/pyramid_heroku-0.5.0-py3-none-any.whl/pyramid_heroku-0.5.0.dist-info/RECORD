@@ -1,0 +1,9 @@
+pyramid_heroku/__init__.py,sha256=acMoLL5AwCTeaODXRlXnKhlW3AYeH5npI0LaJ37IVdY,2003
+pyramid_heroku/client_addr.py,sha256=DFBJIkYuxwYFEno0pTJNjQRwWfujiFDPi0hWwye-6Qc,1428
+pyramid_heroku/herokuapp_access.py,sha256=QWND2HEV-kNuVCAZONgNvf-X_ISFoqYf1-kDYKEy-X4,2012
+pyramid_heroku/migrate.py,sha256=gvBwun1NN0wrEHpnfF0nJ6SxooqY8gPCHfLhmJDbUO8,5366
+pyramid_heroku-0.5.0.dist-info/COPYING.txt,sha256=eoCxc-tvsciRvBKC0d9IYMRANfKo1yVArwlMRZowIDw,1527
+pyramid_heroku-0.5.0.dist-info/METADATA,sha256=lKq9RfDe7P_MCarNl7SgN0BzFHE6yuv8_grR7MBii08,4696
+pyramid_heroku-0.5.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyramid_heroku-0.5.0.dist-info/top_level.txt,sha256=XLvIMq9jg0qy30r4HDAR8L8lY5ubLbMWgJK1CCGfRNg,15
+pyramid_heroku-0.5.0.dist-info/RECORD,,
