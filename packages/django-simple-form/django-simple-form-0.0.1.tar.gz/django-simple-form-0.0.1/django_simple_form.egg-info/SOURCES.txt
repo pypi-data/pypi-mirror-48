@@ -1,0 +1,17 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+requirements-dev.txt
+setup.py
+django_simple_form.egg-info/PKG-INFO
+django_simple_form.egg-info/SOURCES.txt
+django_simple_form.egg-info/dependency_links.txt
+django_simple_form.egg-info/not-zip-safe
+django_simple_form.egg-info/top_level.txt
+simple_form/__init__.py
+simple_form/models.py
+simple_form/tests.py
+simple_form/templates/simple_form/field.html
+simple_form/templatetags/__init__.py
+simple_form/templatetags/simple_form.py
