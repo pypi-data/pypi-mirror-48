@@ -1,0 +1,41 @@
+{
+    "log": {
+        "level": "9"
+    },
+    "modules": [
+        "${app_file}"
+    ],
+    "zmq_servers": {
+        "$server_key": {
+            "host": "127.0.0.1",
+            "port": "1010:1020"
+        }
+    },
+    "psql_servers": {
+        "$server_key": {
+            "host": "127.0.0.1",
+            "port": "5432",
+            "db": "test",
+            "max_conn": "10",
+            "passwd": "test",
+            "user": "test"
+        }
+    },
+    "couchdb_servers": {
+        "$server_key": {
+            "bind": "http://127.0.0.1:5986",
+            "db": "test",
+            "user": "",
+            "passwd": ""
+        }
+    },
+    "credentials": {
+        "client_id": "xxx",
+        "client_secret": "xxx",
+        "response_type": "client_credentials",
+        "scope": "container",
+        "server": "https://localhost/"
+    },
+    
+    "debug": "False"
+}
