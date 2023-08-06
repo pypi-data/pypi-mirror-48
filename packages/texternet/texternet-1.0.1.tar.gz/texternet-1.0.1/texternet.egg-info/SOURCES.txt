@@ -1,0 +1,7 @@
+README.md
+setup.py
+texternet.egg-info/PKG-INFO
+texternet.egg-info/SOURCES.txt
+texternet.egg-info/dependency_links.txt
+texternet.egg-info/requires.txt
+texternet.egg-info/top_level.txt
