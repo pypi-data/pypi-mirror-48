@@ -1,0 +1,13 @@
+python-slugify
+ply
+construct<2.9
+pytz
+pyparsing
+configobj
+bson<1.0.0
+jsonpickle
+pyopengl
+pyatasm
+sawx>=1.4.0
+atrip>=0.5.0
+numpy
