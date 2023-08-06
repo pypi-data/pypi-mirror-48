@@ -1,0 +1,10 @@
+README.md
+setup.py
+foliant/meta_commands/draw/__init__.py
+foliant/meta_commands/draw/chapters_graph.py
+foliant/meta_commands/draw/draw.py
+foliantcontrib.project_graph.egg-info/PKG-INFO
+foliantcontrib.project_graph.egg-info/SOURCES.txt
+foliantcontrib.project_graph.egg-info/dependency_links.txt
+foliantcontrib.project_graph.egg-info/requires.txt
+foliantcontrib.project_graph.egg-info/top_level.txt
