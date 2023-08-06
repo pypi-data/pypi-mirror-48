@@ -1,0 +1,73 @@
+# Project Title
+
+A lightweight decorator based testing package for Python 3.5+.
+
+## Getting Started
+
+Whichever method you use, you will then need to import the module:
+```
+from zest import test, zest
+
+my_function_tester(func):
+    assert func(x, y)
+
+@test(my_function_tester)
+def my_function(x, y):
+    return x* y
+
+print(zest.run())
+```
+
+A suggested workflow is to write the test firstin a seperate tests.py file, like so:
+### tests.py
+```
+my_function_tester(my_function):
+    assert myfunction(test_data) == expected_result
+    .
+    .
+    .
+    return True
+'''
+
+### main.py
+'''
+from zest import test, zest
+import tests
+
+@test(tests.my_function_tester)
+def my_function(*args, **kwargs):
+    .
+    .
+    .
+    return result
+
+print(zest.run())
+```
+or
+```
+print(my_function.test())
+```
+
+### Prerequisites
+
+Python 3.5+
+
+### Installing
+
+The easiest way to install is to use pip:
+```
+pip install zest
+```
+or
+```
+python3 -m pip install zest
+```
+You can also download the source and place it the directory of the module you want to use it in.
+
+## Authors
+
+**Jeremy Zolnai-Lucas** - *Initial work* - [Jezza672](https://github.com/Jezza672)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
