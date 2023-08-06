@@ -1,0 +1,9 @@
+Modules/Azure.py,sha256=YJa4OWC0ubF8xOboy41wgFQvuIgQCBqa4t6ct2jZ4hM,239
+Modules/Cloud.py,sha256=bGu0MimhjxWQw5cCSQaMpYBybY_HEjpTulr9T7SUIIc,202
+Modules/GCP.py,sha256=Ayi2tn-P67_1i3rcZjG6866tsBlx6JA8jiY90pMLkjY,275
+Modules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+arthurstonecli-0.1.data/scripts/stone_cli,sha256=RiR4MITv1HXQhEUEfVRsDi2Js6EdlaynRQd0srx8F1c,640
+arthurstonecli-0.1.dist-info/METADATA,sha256=M3WWIfgmiMwweLUUlGc-jMvlVnoU3hgesxa2DZZLX-0,501
+arthurstonecli-0.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+arthurstonecli-0.1.dist-info/top_level.txt,sha256=h6iW7JznygeX5klov4OtcJXIKhCM_42e8o1o9eku5CU,8
+arthurstonecli-0.1.dist-info/RECORD,,
