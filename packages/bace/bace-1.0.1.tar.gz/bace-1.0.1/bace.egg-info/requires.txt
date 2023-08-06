@@ -1,0 +1,5 @@
+numpy
+scipy
+six
+scikit-learn
+m2r
