@@ -1,0 +1,7 @@
+README.md
+setup.py
+pybacklogpy.egg-info/PKG-INFO
+pybacklogpy.egg-info/SOURCES.txt
+pybacklogpy.egg-info/dependency_links.txt
+pybacklogpy.egg-info/requires.txt
+pybacklogpy.egg-info/top_level.txt
