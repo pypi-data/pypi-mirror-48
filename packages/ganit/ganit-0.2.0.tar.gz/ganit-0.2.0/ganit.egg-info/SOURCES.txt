@@ -1,0 +1,5 @@
+setup.py
+ganit.egg-info/PKG-INFO
+ganit.egg-info/SOURCES.txt
+ganit.egg-info/dependency_links.txt
+ganit.egg-info/top_level.txt
