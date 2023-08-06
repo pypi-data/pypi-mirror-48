@@ -1,0 +1,8 @@
+README.md
+brom.py
+setup.py
+brom.egg-info/PKG-INFO
+brom.egg-info/SOURCES.txt
+brom.egg-info/dependency_links.txt
+brom.egg-info/requires.txt
+brom.egg-info/top_level.txt
