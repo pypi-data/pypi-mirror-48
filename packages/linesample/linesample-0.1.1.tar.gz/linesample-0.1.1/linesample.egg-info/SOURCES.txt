@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+linesample/__init__.py
+linesample/__main__.py
+linesample.egg-info/PKG-INFO
+linesample.egg-info/SOURCES.txt
+linesample.egg-info/dependency_links.txt
+linesample.egg-info/entry_points.txt
+linesample.egg-info/top_level.txt
