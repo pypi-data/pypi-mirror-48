@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Stack-Search
+Version: 1.0.1
+Summary: An advanced exception handler that searches your exception in Stack Overflow
+Home-page: https://github.com/pypa/sampleproject
+Author: Saran Goda
+Author-email: godasaran@gmail.com
+License: UNKNOWN
+Description: # Stack Search
+        ## Description:
+        Stack Search is a package that can be used in exception handling to search directly in stackoverflow without you manually searching  
+        ## How to use:
+        Exceptions are generally unwanted and unexpected. So you need to make a habit of writing all your code in try except block.
+        ## For example code:
+        https://github.com/SaranGod/Stack-Search-package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
