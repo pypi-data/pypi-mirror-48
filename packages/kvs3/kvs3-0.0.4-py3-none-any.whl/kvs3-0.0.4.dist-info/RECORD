@@ -1,0 +1,9 @@
+kvs3/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kvs3/commands.py,sha256=WEDgtqWEWQuth2WuQdhlorBoVZtqqoOI5CpCT2zYNkI,4277
+kvs3/main.py,sha256=3Pkn5JXZNhf67pzHs8FLhQHZOQSbsed44frNkn8yxB4,155
+kvs3-0.0.4.dist-info/LICENSE,sha256=k0kBguV6uXfH7QvI-QUnaDurLUXlDyOMpMI-BVFd_qI,1070
+kvs3-0.0.4.dist-info/METADATA,sha256=vgyj-zCPQYGMZipdhoq_8km3BV6acq-SvkDxEWeg29Q,3047
+kvs3-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+kvs3-0.0.4.dist-info/entry_points.txt,sha256=Qg3Wnc-0E9EN1xjG7zEYND4prC9D4QMDmIeDrD4n5f0,48
+kvs3-0.0.4.dist-info/top_level.txt,sha256=DKGhOBFM6Vi0ClpvNsXA6gZmR8sR3JYoHUvhSCEJ47o,5
+kvs3-0.0.4.dist-info/RECORD,,
