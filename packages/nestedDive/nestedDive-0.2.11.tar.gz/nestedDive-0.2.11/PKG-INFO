@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: nestedDive
+Version: 0.2.11
+Summary: Sorter for nested items
+Home-page: https://github.com/RoelVoordendag/Deepdive
+Author: RoelVoordendag
+Author-email: rvoordendag@gmail.com
+License: UNKNOWN
+Description: # NestedDive
+        Python package to sort nested items 
+        
+        This package is made to sort list with deep nested items in your dictionory.
+        
+        # To install 
+        
+        ```
+        pip install nestedDive
+        ```
+        
+        
+        # Functions: 
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
