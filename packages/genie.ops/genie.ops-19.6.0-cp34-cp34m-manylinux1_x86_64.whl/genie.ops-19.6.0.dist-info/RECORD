@@ -1,0 +1,15 @@
+genie.ops-19.6.0-py3.4-nspkg.pth,sha256=h9oTUb5LE_2FqXSiu6TZnnXBniNRCjJ-m892Tw1Sru0,534
+genie/ops/__init__.py,sha256=IEGnx4EpPpV60o4eIQkaVylMbReOEWy6BjGqkIDR-FQ,1280
+genie/ops/ops_schema.py,sha256=lBuMTGByCHGYNU4Lwjm0Yuym8b2c7eJ9pd51wlQU0yU,281079
+genie/ops/ops_schema_generator.cpython-34m.so,sha256=jnkwZShmisSY1-6qRYSh8WGYc_H8Jt5xelPWNqhaNQ4,437488
+genie/ops/utils.cpython-34m.so,sha256=zfy-MmzW_iR5UJ0_4rkcLO8CRu7QlFi5vzmSpu_STsc,190016
+genie/ops/base/__init__.py,sha256=i0kwZsl5KbyBk8qONG_eTs5ktsulwuBe2b9xIb_vXq8,49
+genie/ops/base/base.cpython-34m.so,sha256=c7BmqfHV666oUgUYODOSjTqCYRp5-avVQRVJbk-jVMk,825448
+genie/ops/base/diffdict.cpython-34m.so,sha256=M11r-M_o0cOzm3Q0kBaWDalF4ekMLABMLRvz0Yhwyjs,524032
+genie/ops/base/exceptions.cpython-34m.so,sha256=shw1D6TuV0J1x31msvjsohObycDZ5o0XPs7-ERSVz48,53680
+genie/ops/base/maker.cpython-34m.so,sha256=ldsGjjO3raUaQW4kVTFHBl4aRKRI25xadzdQG7P7b7A,2312376
+genie.ops-19.6.0.dist-info/METADATA,sha256=4ObiqDICdNerlb4vgXHQe-IfA2qWjBNig63CAxHqy_E,3296
+genie.ops-19.6.0.dist-info/WHEEL,sha256=u4oSz5KRCA0_okVnoG9A48kf8qzhAHuV-94ZNO28nOI,109
+genie.ops-19.6.0.dist-info/namespace_packages.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.ops-19.6.0.dist-info/top_level.txt,sha256=EW4swMMBmuGW5VFCUGsl828kVUhrmMZJGHXfzmOidSg,6
+genie.ops-19.6.0.dist-info/RECORD,,
