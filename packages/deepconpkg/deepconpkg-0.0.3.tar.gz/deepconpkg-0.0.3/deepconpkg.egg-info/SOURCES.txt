@@ -1,0 +1,9 @@
+README.md
+setup.py
+deepcon/__init__.py
+deepcon/deepcon-covariance.py
+deepconpkg.egg-info/PKG-INFO
+deepconpkg.egg-info/SOURCES.txt
+deepconpkg.egg-info/dependency_links.txt
+deepconpkg.egg-info/requires.txt
+deepconpkg.egg-info/top_level.txt
