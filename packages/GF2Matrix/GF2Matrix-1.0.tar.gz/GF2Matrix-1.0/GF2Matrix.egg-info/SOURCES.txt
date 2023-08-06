@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+GF2Matrix/__init__.py
+GF2Matrix/int_matrix.c
+GF2Matrix/int_matrix.pyx
+GF2Matrix.egg-info/PKG-INFO
+GF2Matrix.egg-info/SOURCES.txt
+GF2Matrix.egg-info/dependency_links.txt
+GF2Matrix.egg-info/requires.txt
+GF2Matrix.egg-info/top_level.txt

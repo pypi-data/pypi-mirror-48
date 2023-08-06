@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: GF2Matrix
+Version: 1.0
+Summary: Cython implementation of a matrix with entries from GF(2).
+Home-page: https://github.com/EwanGilligan/GF2Matrix
+Author: Ewan Gilligan
+Author-email: eg207@st-andrews.ac.uk
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
