@@ -1,0 +1,166 @@
+CHANGES
+=======
+
+0.1.8
+-----
+
+* allow pycairo>=1.18.0 for windows
+
+v0.1.7
+------
+
+* add video\_output\_dir flag
+* Rename ode folder to diffyq
+* Changed ode folder to be named diffyq, since many of these are pde videos
+* Some of the first scenes for diffyq part4
+* Allow Bubble to flip over any axis, which was unnecessarily restricted before
+* Added Line.set\_length
+* frame\_center was getting double-added, messing up MovingCameraScene
+* Beginning chapter 4 animations
+* Change Fourier scene to center on vectors, not circles
+* Update tex\_file\_writing.py
+* Travis CI: The sudo tag is now deprecated
+* Final animations for diffyq chapter 3
+* update windows docs
+* Nearly the final animations for diffyq part 3
+* Latest animations for diffyq part 3
+* interpolate\_mobject should return self
+* Added TangentLine
+* Fix wording
+* Update tutorial description
+* Add a docker diagram to README.md
+* Change docker-compose to reflect README.md changes
+* Change docker instructions on README.md
+* Update link to Todd Zimmerman tutorial
+* Mention VMobject for geometry
+* Update assets with medium preset
+* Fix wording
+* Use monospace for asset annotation
+* Discrete case scenes for diffyq part 3
+* New scenes for diffyq part3
+* Bug fix for the case when the media\_dir has spaces
+* Change output folder heirarchy back to grouping files of similar types, rather grouping them as parts of the same scene
+* Default color of Vector should be white
+* Change default media output directory to from 'video' to 'videos'
+* Latest scenes for diffyq part 3
+* For some reason stage\_scenes still has a hardcoded input directory..
+* Make sure set\_opacity changes background stroke as well
+* Added TracedPath
+* Added int\_func to SHowIncreasingSubsets
+* Minor edit
+* Fix docker install instruction
+* Update README.md
+* Add documentation for the coordinate system
+* Documentation for TipableVMobject
+* Simple wording change
+* Update docker install link
+* fix broken link due to misnamed file
+* Minor changes
+* Update mac install doc to include manim
+* Rewrite learning\_by\_example.py
+* updated Compose file and update docker section of README.md
+* Apply link fix from master
+* Merging mac install doc from jarwin/patch-3
+* Update learning\_by\_example.rst
+* fix documentation links
+* update documentation
+* make media, tex, and video directories configurable via flags
+* Add animation documentation and asset folder
+* reorganize media file tree
+* Scenes up to AnalyzeSineCurve for diffyq part 3
+* remove repeated latex package
+* install less latex
+* update dockerfile, add flag for high quality rendering (#573)
+* Add documentation for constants.py (#572)
+* remove typographically incorrect punctuation from documentation headings (#567)
+* add option -i to save as gif (#529)
+* install pycairo conditionally based on platform identifier (#571)
+* Correction of a bad alt description (#566)
+* Remove duplicate usepackage (#554)
+* New scenes for diffyq part 3
+* Moving the frame\_center of camera was not working.  This fixes it, but I suspect there is a need for a deeper fix where everything is handled in transform\_points\_pre\_display properly for the various camera classes
+* add information to docs (#563)
+* add master\_doc to conf.py
+* Animations up to the preview for the breakdown into sine curves for diffyq chapter 3
+* Add Windows installation documentation
+
+v0.1.5
+------
+
+* Add social badges README
+* Update docs badge
+* test pr on docs
+* change docs to upstream
+* rebase onto upstream
+* make build script executable
+* refactor and test doc deployment
+* third attempt at deploying docs
+* second attempt at deploying docs
+* first attempt at deploying docs
+* Add installation documentation for ubuntu
+* Beginning heat equation solution animations
+* Added simple midpoint function
+* Formatting correction
+* Added c2p and p2c abbreviations to Axes
+* Update pycairo requirement
+* clean up docs
+* Fixed typo in the docs about page (#553)
+* add docs
+* Removed duplicate name\_animations.py
+* Change big\_ol\_pile\_of\_imports to manimlib.imports
+* Fourier series name animations
+* Small tweaks to Fourier series animations
+* Changed SceneFileWriter.get\_default\_file\_name
+* Changed thumbnail of nn1
+* Improved the "Using manim" section in the README
+* Mentioned -r argument in example\_scenes comment
+* Fixed typo in class name in example\_scenes.py
+
+v0.1.4
+------
+
+* Logo (#537)
+* copy docs
+* Update tex\_template.tex
+* update pypi credentials
+* Remove shortcuts.py, restored imports.py
+* Fix description content type
+* Rename "publish" task to "deploy"
+* Add travis job to publish on PyPI
+* Use pbr for setup.py
+* create manimlib.imports
+* fix mishandled relative paths
+* Add build status to README
+* tweak travis configuration
+* Added anaconda environment and windows instructions
+* Make manim installable using setuptools (setup.py)
+* Prefer pwd to install dir for temp files
+* smarter parameterized curve
+* Added pde thumbnail
+* Altered link, to point to 3Blue1Brown.com
+* Link to 3Blue1Brown channel in the README intro
+* Update README.md
+* Final animations for de chapter2
+* Dumb hard-coded file in stage\_scenes
+* Changed how pi creatures follow what happens
+* ALL\_SCENE\_CLASSES -> SCENES\_IN\_ORDER
+* Change patron name scroll
+* Add PiCreature.get\_look\_at\_spot
+* Use ==/!= to compare str, bytes, and int literals
+* Typo fix: remove redundant "the"
+* Updated README for Windows installation
+* Fix --preview on cygwin
+* A few more Fourier series scenes
+* Beginning heat equation animations, abstract fourier series circles scene implemented
+* Better behavior for turn\_animation\_into\_updater and cycle\_animations
+* Changes to AnimatedBoundary
+* Final changes before de chapter 1
+* Update README.md
+* Update README.md
+* add info to docker-compose file
+* add entrypoint to docker-compose.yml
+* Revert "Update README.md"
+* Revert "Remove Something..."
+* Remove Something..
+* Fix Matrix
+* Update README.md
