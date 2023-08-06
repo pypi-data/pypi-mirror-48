@@ -1,0 +1,6 @@
+README.md
+setup.py
+shale.egg-info/PKG-INFO
+shale.egg-info/SOURCES.txt
+shale.egg-info/dependency_links.txt
+shale.egg-info/top_level.txt
