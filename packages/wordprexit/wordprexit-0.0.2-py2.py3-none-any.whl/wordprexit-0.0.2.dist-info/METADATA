@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: wordprexit
+Version: 0.0.2
+Summary: Convert a Wordpress WXR export to a Hugo static site.
+Home-page: https://github.com/2n3906/wordprexit
+Author: Scott Johnston
+Author-email: sjohnston@alum.mit.edu
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: click
+Requires-Dist: html2text
+Requires-Dist: python-dateutil
+Requires-Dist: pytz
+Requires-Dist: requests
+Requires-Dist: ruamel.yaml
+Requires-Dist: tzlocal
+
+# wordprexit
+
+Convert a Wordpress WXR export to a Hugo site.
+
+
+# Usage
+
+To use it:
+
+    $ wordprexit --help
+
+
+
