@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+vshock/__init__.py
+vshock/__main__.py
+vshock/cli.py
+vshock/io.py
+vshock/server.py
+vshock.egg-info/PKG-INFO
+vshock.egg-info/SOURCES.txt
+vshock.egg-info/dependency_links.txt
+vshock.egg-info/entry_points.txt
+vshock.egg-info/requires.txt
+vshock.egg-info/top_level.txt
+vshock/assets/ui/index.html
+vshock/assets/ui/javascript/vshock.js
