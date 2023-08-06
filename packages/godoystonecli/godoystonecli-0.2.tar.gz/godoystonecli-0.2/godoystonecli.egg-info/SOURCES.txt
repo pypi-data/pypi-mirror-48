@@ -1,0 +1,12 @@
+README.md
+setup.py
+stone_cli
+Modulos/Azure.py
+Modulos/Cloud.py
+Modulos/Docker.py
+Modulos/GCP.py
+Modulos/__init__.py
+godoystonecli.egg-info/PKG-INFO
+godoystonecli.egg-info/SOURCES.txt
+godoystonecli.egg-info/dependency_links.txt
+godoystonecli.egg-info/top_level.txt
