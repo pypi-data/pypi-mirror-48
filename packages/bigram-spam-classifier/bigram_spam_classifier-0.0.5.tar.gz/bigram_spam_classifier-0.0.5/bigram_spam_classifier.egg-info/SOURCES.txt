@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+bigram_spam_classifier/__init__.py
+bigram_spam_classifier/spamclassifier.py
+bigram_spam_classifier.egg-info/PKG-INFO
+bigram_spam_classifier.egg-info/SOURCES.txt
+bigram_spam_classifier.egg-info/dependency_links.txt
+bigram_spam_classifier.egg-info/requires.txt
+bigram_spam_classifier.egg-info/top_level.txt
+bigram_spam_classifier/data/spam_collection.csv
