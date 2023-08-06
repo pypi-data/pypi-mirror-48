@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: PortiaItemPipelineUtils
+Version: 0.0.1
+Summary: Scrapy portia pipeline which allow you to do items related stuff.
+Home-page: https://github.com/asiellb/portia-item-pipeline-utils.git
+Author: Asiel Lara
+Author-email: asiel.lb@gmail.com
+License: MIT License
+Download-URL: https://github.com/asiellb/portia-item-pipeline-utils/tarball/master
+Description: ### Description
+        Scrapy portia pipeline which allow you to do resultant items related stuff.
+        
+        ### Install
+        **Official install**
+        ```
+        pip install PortiaItemPipelineUtils
+        ```
+        
+        **Git install**
+        ```
+        git clone https://github.com/asiellb/portia-item-pipeline-utils.git
+        cd portia-item-pipeline-utils
+        pip install .
+        ```
+        
+        ### Usage (Configure settings.py:)
+        - PortiaItemPipelineUtils.ReplaceDashesFields
+        
+          ```bash
+          ITEM_PIPELINES = {
+            'portiaitempipelineutils.portiaitempipelineutils.ReplaceDashesFields': 499
+          }
+          ```
+        
+Keywords: scrapy portia item pipeline utils
+Platform: Any
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: No Input/Output (Daemon)
+Description-Content-Type: text/markdown

@@ -1,0 +1,8 @@
+README.md
+setup.py
+PortiaItemPipelineUtils.egg-info/PKG-INFO
+PortiaItemPipelineUtils.egg-info/SOURCES.txt
+PortiaItemPipelineUtils.egg-info/dependency_links.txt
+PortiaItemPipelineUtils.egg-info/top_level.txt
+portiaitempipelineutils/__init__.py
+portiaitempipelineutils/portiaitempipelineutils.py
