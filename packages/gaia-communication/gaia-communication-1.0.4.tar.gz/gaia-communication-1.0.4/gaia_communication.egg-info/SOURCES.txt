@@ -1,0 +1,11 @@
+README.md
+setup.py
+gaia_communication/__init__.py
+gaia_communication/gaia_communication.py
+gaia_communication.egg-info/PKG-INFO
+gaia_communication.egg-info/SOURCES.txt
+gaia_communication.egg-info/dependency_links.txt
+gaia_communication.egg-info/requires.txt
+gaia_communication.egg-info/top_level.txt
+tests/__init__.py
+tests/test_placeholder.py
