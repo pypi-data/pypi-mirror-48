@@ -1,0 +1,3 @@
+[console_scripts]
+mediadex = mediadex.cmd.mediadex:main
+
