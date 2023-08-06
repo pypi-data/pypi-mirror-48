@@ -1,0 +1,8 @@
+README.rst
+setup.py
+tutor_notes.egg-info/PKG-INFO
+tutor_notes.egg-info/SOURCES.txt
+tutor_notes.egg-info/dependency_links.txt
+tutor_notes.egg-info/entry_points.txt
+tutor_notes.egg-info/top_level.txt
+tutornotes/plugin.py
