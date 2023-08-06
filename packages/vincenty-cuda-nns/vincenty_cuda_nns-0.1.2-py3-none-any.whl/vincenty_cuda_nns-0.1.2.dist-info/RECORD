@@ -1,0 +1,9 @@
+vincenty_cuda_nns/__init__.py,sha256=PUof1mtZX3LBXmNOx1SZ68Rm8jjWuSLWrL1mkfoy5T0,83
+vincenty_cuda_nns/building_functions.py,sha256=jxeUu4tiYfYQUTPb7ALp0pF7Y_nMbA1xSV4mMMxkQvI,3074
+vincenty_cuda_nns/cuda_tree.py,sha256=tXGBcOybSI4UfEtqr4dLwShQ96W_SfwbQkJZg12Hpio,3125
+vincenty_cuda_nns/query_functions.py,sha256=48pfX3RLU37OIDv1KSlhtvCrxyrSOu_o8w3kSQ0wetM,3884
+vincenty_cuda_nns-0.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+vincenty_cuda_nns-0.1.2.dist-info/METADATA,sha256=RZiWaqwQgzci1SW80aJqhOrDn0tLx6gcWKgzhUbf8xc,1408
+vincenty_cuda_nns-0.1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+vincenty_cuda_nns-0.1.2.dist-info/top_level.txt,sha256=9y3E391AP7HeaOVmYaSWevJJ0s1Qy91j5I0bJ8VUzWI,18
+vincenty_cuda_nns-0.1.2.dist-info/RECORD,,
