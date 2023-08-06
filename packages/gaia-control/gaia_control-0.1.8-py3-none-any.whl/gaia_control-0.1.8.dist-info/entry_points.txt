@@ -1,0 +1,3 @@
+[console_scripts]
+gaia = gaia_control.gaia_control:__main__
+
