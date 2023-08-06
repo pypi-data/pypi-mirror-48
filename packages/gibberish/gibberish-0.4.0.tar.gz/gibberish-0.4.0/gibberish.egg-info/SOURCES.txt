@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+gibberish/__init__.py
+gibberish/dir.py
+gibberish.egg-info/PKG-INFO
+gibberish.egg-info/SOURCES.txt
+gibberish.egg-info/dependency_links.txt
+gibberish.egg-info/entry_points.txt
+gibberish.egg-info/requires.txt
+gibberish.egg-info/top_level.txt
+gibberish/database/components.yaml
+gibberish/database/raw_components.yaml
