@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+
+{% block title %}
+    Home
+{% endblock %}
+
+{% block content %}
+    <div class="doublebox">
+        <div class="top">
+            <span class="left">Under construction</span>
+        </div>
+        <div class="bot">
+            Lentamente, su questo sito stanno apparendo nuove features. Come il <a href="{{ url_for("diarioview.diarioview_page", page=1) }}">diario</a>!
+        </div>
+    </div>
+{% endblock %}
