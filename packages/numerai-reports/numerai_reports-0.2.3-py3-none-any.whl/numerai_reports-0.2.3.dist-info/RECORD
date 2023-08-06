@@ -1,0 +1,9 @@
+numerai_reports/__init__.py,sha256=CzRjVOSOfgqf6HaRaDAPkKatAKZh10wbkj8GIAN1kLM,130
+numerai_reports/data.py,sha256=UT3T8Fb0UaAQnIIqqZKaNoOUELvHLpa7447i4wF_Uck,6372
+numerai_reports/reports.py,sha256=un3vb7nbCELpP2nXnHID9xlZHWXSXBKa-uSqWJG_jAQ,7704
+numerai_reports/test.py,sha256=V3-Je2e1X8YgCMZ5X7Jlvku4KlXdHLHWQim9_5eQ1aI,487
+numerai_reports/utils.py,sha256=s6KzgLSaJFDelRVPSWH2iEehihdWz0JHY1glimK8hec,150
+numerai_reports-0.2.3.dist-info/METADATA,sha256=fpI3RXGKlusLLY2YsGiy5BlDmitDzTKGgK_WtFaD3Mw,2403
+numerai_reports-0.2.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+numerai_reports-0.2.3.dist-info/top_level.txt,sha256=0CVH16-PRl2zMPLf7SIRLyuvSWGEBOKv8DKBDL0alJQ,16
+numerai_reports-0.2.3.dist-info/RECORD,,
