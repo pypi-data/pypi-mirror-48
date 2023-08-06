@@ -1,0 +1,12 @@
+jooxy/__init__.py,sha256=s4q97Teufiu22t0fYx17mI3Nq05p6mViHx_Jl1p679Q,387
+jooxy/auth.py,sha256=zqcvUp9cg3eacOKmY0F3MMOfdHHnQZIvka2wpgXXSYk,2735
+jooxy/client.py,sha256=Iw2NMwtRIImJ-nJ6zwYwZSYweYTUde9qgZvqco31eng,5222
+jooxy/config.py,sha256=gq65FKtI_DNSafP4iHSwH_mESNRUdnlveCXog0myqBE,924
+jooxy/sessions.py,sha256=2lFG4wYObeRAgxp-QJqOR48M8zcFE8-mRu68X7UrO_4,1389
+jooxy/user.py,sha256=opOcRIo3gPNJROCXujE8ioXwLWANxT5vyJu8hQXk4TY,3230
+jooxy/utils.py,sha256=g102UuJ3oXJLh5aoSjIo-b0UV0GA9kmbqOlpHUDwYmM,414
+jooxy-1.0.2.dist-info/LICENSE,sha256=_8glDfAGvAz1EH7as9e4DvpAuIgx-o_HTsXaGiwmFr4,1509
+jooxy-1.0.2.dist-info/METADATA,sha256=acYxjHsCc9vMj1ITtrEjdQrtsMhoPRkE0LQz_vJj1wU,1740
+jooxy-1.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jooxy-1.0.2.dist-info/top_level.txt,sha256=lYqWBwv0g8TqLsHti0p0w5i9kMQjbD-0BC8_fKf9CGE,6
+jooxy-1.0.2.dist-info/RECORD,,
