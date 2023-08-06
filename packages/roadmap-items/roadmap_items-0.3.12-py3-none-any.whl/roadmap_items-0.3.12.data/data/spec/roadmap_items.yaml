@@ -1,0 +1,565 @@
+components:
+  parameters:
+    search_text:
+      description: String to filter search with
+      in: query
+      name: search_text
+      required: false
+      schema:
+        maxLength: 40
+        type: string
+  schemas:
+    Error:
+      properties:
+        error_code:
+          description: Error code (equivalent to HTTP status code)
+          type: integer
+        key:
+          description: Unique identifier for error message
+          type: string
+        text:
+          description: Default english error message
+          type: string
+      type: object
+    Roadmap:
+      description: Roadmap
+      properties:
+        name:
+          description: Name of roadmap
+          example: Data ONTAP
+          maxLength: 32
+          minLength: 4
+          type: string
+          x-smoacks-edit-unit-test: Data ONTAP - edited
+          x-smoacks-search-field: true
+        record_created:
+          description: Record creation date
+          example: '1995-08-19T00:00:00.000Z'
+          format: date
+          readOnly: true
+          type: string
+        record_updated:
+          description: Record update date
+          example: '1995-08-19T00:00:00.001Z'
+          format: date
+          readOnly: true
+          type: string
+        roadmap_id:
+          description: Unique roadmap identifier
+          example: b5665877-f9ee-4074-a38b-39219cde6bbb
+          format: uuid
+          maxLength: 40
+          minLength: 12
+          readOnly: true
+          type: string
+          x-smoacks-model-id: true
+      required:
+      - name
+      type: object
+      x-smoacks-create: Roadmap
+      x-smoacks-extended: Roadmap
+      x-smoacks-rbac-controlled: RoadmapAuth
+      x-smoacks-relationships:
+        authorizations:
+          cascade: all, delete-orphan
+          field: roadmap
+          table: RoadmapAuth
+        items:
+          field: roadmap
+          table: RoadmapItem
+      x-smoacks-test-data: true
+    RoadmapAuth:
+      allOf:
+      - $ref: '#/components/schemas/RoadmapAuthBase'
+      - properties:
+          roadmap_id:
+            description: Unique roadmap identifier
+            example: b5665877-f9ee-4074-a38b-39219cde6bbb
+            format: uuid
+            maxLength: 40
+            minLength: 12
+            type: string
+            x-smoacks-foreign-key: Roadmap
+            x-smoacks-model-id: true
+        required:
+        - roadmap_id
+        type: object
+      description: Roadmap Authorizations
+      x-smoacks-create: RoadmapAuth
+      x-smoacks-relationships:
+        roadmap:
+          field: authorizations
+          table: Roadmap
+      x-smoacks-test-data: true
+    RoadmapAuthBase:
+      description: Roadmap Authorization Shared Properties
+      properties:
+        group_id:
+          description: Unique group identifier
+          example: b5665877-f9ee-4074-a38b-39219cde6bcc
+          format: uuid
+          maxLength: 40
+          minLength: 12
+          type: string
+          x-smoacks-model-id: true
+        record_created:
+          description: Record creation date
+          example: '1995-08-19T00:00:00.000Z'
+          format: date
+          readOnly: true
+          type: string
+        record_updated:
+          description: Record update date
+          example: '1995-08-19T00:00:00.001Z'
+          format: date
+          readOnly: true
+          type: string
+        role:
+          description: Role the specified group has for the specified roadmap
+          enum:
+          - Owner
+          - Editor
+          - Viewer
+          example: Owner
+          maxLength: 40
+          minLength: 4
+          type: string
+      type: object
+    RoadmapExtended:
+      allOf:
+      - $ref: '#/components/schemas/Roadmap'
+      - properties:
+          authorizations:
+            items:
+              $ref: '#/components/schemas/RoadmapAuthBase'
+            nullable: true
+            type: array
+        type: object
+      x-smoacks-api-verb-param: post
+      x-smoacks-api-verb-resp: get
+      x-smoacks-object: Roadmap
+    RoadmapItem:
+      description: Roadmap Item
+      properties:
+        code_name:
+          description: Code name of roadmap item
+          example: Full Steam
+          maxLength: 40
+          minLength: 4
+          type: string
+        commit_date:
+          description: Date by when this roadmap item is committed to be delivered
+          example: '2018-08-19T00:00:00Z'
+          format: date
+          type: string
+        commit_status:
+          description: Commitment Status for Roadmap Item
+          enum:
+          - Backlog
+          - Planned
+          - Execution
+          - Delivered
+          - Cancelled
+          example: Backlog
+          maxLength: 40
+          minLength: 4
+          type: string
+        description:
+          description: Extended description of roadmap item
+          example: This is an example of an extended description for a roadmap item
+          maxLength: 3000
+          minLength: 4
+          type: string
+        execution_status:
+          description: Commitment Status for Roadmap Item
+          enum:
+          - Green
+          - Yellow
+          - None
+          - Red
+          example: Yellow
+          maxLength: 40
+          minLength: 4
+          type: string
+        name:
+          description: Name of roadmap
+          example: Data ONTAP version 9.6
+          maxLength: 80
+          minLength: 4
+          type: string
+          x-smoacks-edit-unit-test: Data ONTAP 9.6 version 9.6 - edited
+          x-smoacks-search-field: true
+        record_created:
+          description: Record creation date
+          example: '1995-08-19T00:00:00.000Z'
+          format: date
+          readOnly: true
+          type: string
+        record_updated:
+          description: Record update date
+          example: '1995-08-19T00:00:00.001Z'
+          format: date
+          readOnly: true
+          type: string
+        release_date:
+          description: Date when this roadmap item was released
+          example: '2018-11-19T00:00:00Z'
+          format: date
+          type: string
+        roadmap_id:
+          description: Unique roadmap identifier
+          example: b5665877-f9ee-4074-a38b-39219cde6bbb
+          format: uuid
+          maxLength: 40
+          minLength: 12
+          type: string
+          x-smoacks-foreign-key: Roadmap
+        roadmap_item_id:
+          description: Unique roadmap item identifier
+          example: b5665877-f9ee-4074-a38b-39219cde6bbc
+          format: uuid
+          maxLength: 40
+          minLength: 12
+          readOnly: true
+          type: string
+          x-smoacks-model-id: true
+        short_name:
+          description: Short name of roadmap
+          example: ONTAP v9.6
+          maxLength: 40
+          minLength: 4
+          type: string
+        target_date:
+          description: Date by when this roadmap item is targeted to be delivered
+          example: '2018-09-19T00:00:00Z'
+          format: date
+          type: string
+      required:
+      - name
+      type: object
+      x-smoacks-create: RoadmapItem
+      x-smoacks-extended: RoadmapItem
+      x-smoacks-relationships:
+        roadmap:
+          field: items
+          table: Roadmap
+      x-smoacks-test-data: true
+info:
+  title: Roadmap and roadmap items service
+  version: 0.1.0
+openapi: 3.0.0
+paths:
+  /login:
+    get:
+      description: Returns initial login data for this service
+      responses:
+        '200':
+          content:
+            application/json:
+              schema:
+                properties:
+                  RoadmapAuths:
+                    items:
+                      $ref: '#/components/schemas/RoadmapAuth'
+                    type: array
+                  RoadmapItems:
+                    items:
+                      $ref: '#/components/schemas/RoadmapItem'
+                    type: array
+                  Roadmaps:
+                    items:
+                      $ref: '#/components/schemas/Roadmap'
+                    type: array
+                type: object
+          description: Successful response
+      summary: Hydrate application
+      tags:
+      - roadmap_items
+  /roadmap_auths:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoadmapAuth'
+        required: true
+      responses:
+        201:
+          content:
+            application/json:
+              schema:
+                properties:
+                  group_id:
+                    type: string
+                type: object
+          description: RoadmapAuth successfully added
+        402:
+          description: Object already exists
+      summary: Create a RoadmapAuth
+      tags:
+      - RoadmapAuths
+  /roadmap_auths/{roadmap_id}/{group_id}:
+    delete:
+      responses:
+        204:
+          description: RoadmapAuth deleted successfully
+        400:
+          description: Request error
+        404:
+          description: RoadmapAuth not found
+      summary: Delete a RoadmapAuth
+      tags:
+      - RoadmapAuths
+    get:
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RoadmapAuth'
+          description: Details for the requested RoadmapAuth
+        404:
+          description: RoadmapAuth not found
+      summary: Get information for a specific RoadmapAuth
+      tags:
+      - RoadmapAuths
+    parameters:
+    - description: RoadmapAuth ID (UUID) on which the operation should be performed
+      in: path
+      name: roadmap_id
+      required: true
+      schema:
+        maxLength: 40
+        minLength: 4
+        type: string
+    - description: RoadmapAuth ID (UUID) on which the operation should be performed
+      in: path
+      name: group_id
+      required: true
+      schema:
+        maxLength: 40
+        minLength: 4
+        type: string
+    put:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoadmapAuth'
+        required: true
+      responses:
+        200:
+          description: RoadmapAuth updated successfully
+        400:
+          description: Request error
+        404:
+          description: RoadmapAuth not found
+      summary: Update a RoadmapAuth
+      tags:
+      - RoadmapAuths
+  /roadmap_items:
+    get:
+      parameters:
+      - $ref: '#/components/parameters/search_text'
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/RoadmapItem'
+                type: array
+          description: List of RoadmapItems found
+      summary: Get a list of RoadmapItems
+      tags:
+      - RoadmapItems
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoadmapItem'
+        required: true
+      responses:
+        201:
+          content:
+            application/json:
+              schema:
+                properties:
+                  roadmap_item_id:
+                    type: string
+                type: object
+          description: RoadmapItem successfully added
+        402:
+          description: Object already exists
+      summary: Create a RoadmapItem
+      tags:
+      - RoadmapItems
+  /roadmap_items/{roadmap_item_id}:
+    delete:
+      responses:
+        204:
+          description: RoadmapItem deleted successfully
+        400:
+          description: Request error
+        404:
+          description: RoadmapItem not found
+      summary: Delete a RoadmapItem
+      tags:
+      - RoadmapItems
+    get:
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RoadmapItem'
+          description: Details for the requested RoadmapItem
+        404:
+          description: RoadmapItem not found
+      summary: Get information for a specific RoadmapItem
+      tags:
+      - RoadmapItems
+    parameters:
+    - description: RoadmapItem ID (UUID) on which the operation should be performed
+      in: path
+      name: roadmap_item_id
+      required: true
+      schema:
+        maxLength: 40
+        minLength: 4
+        type: string
+    put:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoadmapItem'
+        required: true
+      responses:
+        200:
+          description: RoadmapItem updated successfully
+        400:
+          description: Request error
+        404:
+          description: RoadmapItem not found
+      summary: Update a RoadmapItem
+      tags:
+      - RoadmapItems
+  /roadmaps:
+    get:
+      parameters:
+      - $ref: '#/components/parameters/search_text'
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                items:
+                  $ref: '#/components/schemas/Roadmap'
+                type: array
+          description: List of Roadmaps found
+      summary: Get a list of Roadmaps
+      tags:
+      - Roadmaps
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/RoadmapExtended'
+        required: true
+      responses:
+        201:
+          content:
+            application/json:
+              schema:
+                properties:
+                  roadmap_id:
+                    type: string
+                type: object
+          description: Roadmap successfully added
+        402:
+          description: Object already exists
+      summary: Create a Roadmap
+      tags:
+      - Roadmaps
+  /roadmaps/{roadmap_id}:
+    delete:
+      responses:
+        204:
+          description: Roadmap deleted successfully
+        400:
+          description: Request error
+        404:
+          description: Roadmap not found
+      summary: Delete a Roadmap
+      tags:
+      - Roadmaps
+    get:
+      responses:
+        200:
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/RoadmapExtended'
+          description: Details for the requested Roadmap
+        404:
+          description: Roadmap not found
+      summary: Get information for a specific Roadmap
+      tags:
+      - Roadmaps
+    parameters:
+    - description: Roadmap ID (UUID) on which the operation should be performed
+      in: path
+      name: roadmap_id
+      required: true
+      schema:
+        maxLength: 40
+        minLength: 4
+        type: string
+    put:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/Roadmap'
+        required: true
+      responses:
+        200:
+          description: Roadmap updated successfully
+        400:
+          description: Request error
+        404:
+          description: Roadmap not found
+      summary: Update a Roadmap
+      tags:
+      - Roadmaps
+  /shutdown:
+    post:
+      description: 'Allows for clean server shutdown.
+
+        '
+      requestBody:
+        content:
+          application/json:
+            schema:
+              properties:
+                key:
+                  type: string
+              title: ShutdownKey
+              type: object
+        description: Unique application key to allow shutdown
+      responses:
+        '200':
+          description: Server successfully shut down
+        '404':
+          description: User not authorized to shut down server
+      tags:
+      - Test Utilities
+servers:
+- description: Local development server
+  url: /api/v1/rs
+tags:
+- description: APIs associated with roadmaps and roadmap items
+  name: Roadmap

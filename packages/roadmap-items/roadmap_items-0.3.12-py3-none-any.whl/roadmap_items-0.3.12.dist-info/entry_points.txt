@@ -1,0 +1,10 @@
+[console_scripts]
+rs_add_roadmap = roadmap_items.cli.add_roadmap:add
+rs_add_roadmap_auth = roadmap_items.cli.add_roadmap_auth:add
+rs_add_roadmap_item = roadmap_items.cli.add_roadmap_item:add
+rs_import_roadmap = roadmap_items.cli.imp_roadmap:import_csv
+rs_import_roadmap_auth = roadmap_items.cli.imp_roadmap_auth:import_csv
+rs_import_roadmap_item = roadmap_items.cli.imp_roadmap_item:import_csv
+rs_search_roadmap = roadmap_items.cli.search_roadmap:search
+rs_search_roadmap_item = roadmap_items.cli.search_roadmap_item:search
+
