@@ -1,0 +1,6 @@
+annofabapi>=0.7.1
+requests
+pillow
+pyyaml
+dictdiffer
+more-itertools
