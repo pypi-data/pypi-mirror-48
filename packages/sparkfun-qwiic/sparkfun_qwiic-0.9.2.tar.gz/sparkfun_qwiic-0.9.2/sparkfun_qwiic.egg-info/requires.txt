@@ -1,0 +1,6 @@
+sparkfun_qwiic_ccs811
+sparkfun_qwiic_bme280
+sparkfun_qwiic_micro_oled
+sparkfun_qwiic_proximity
+sparkfun_qwiic_scmd
+sparkfun_qwiic_i2c
