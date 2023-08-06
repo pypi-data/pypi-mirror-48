@@ -1,0 +1,4 @@
+include *.md
+include requirements.txt
+include renom_q/gate/*py
+include renom_q/ml/*py
