@@ -1,0 +1,14 @@
+.DS_Store,sha256=6MrW7Hp8Op92tMYf_aVro7aLjvVCTyKta-KTY99DqFo,6148
+imbalance_xgboost-0.6.1.dist-info/DESCRIPTION.rst,sha256=gAzb2Rn2d5QT8TDYVybZlqFsKZSRAUXwzNU08xTj4GI,10993
+imbalance_xgboost-0.6.1.dist-info/METADATA,sha256=MyI15qUZQFXQD_8BljSePnrK1rhXATz5I4zFenKWFf8,11832
+imbalance_xgboost-0.6.1.dist-info/RECORD,,
+imbalance_xgboost-0.6.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+imbalance_xgboost-0.6.1.dist-info/metadata.json,sha256=Xo74qS4TiSQk68CcxlIuqlDm_C2WaJUvSFxvegSp3qk,1010
+imbalance_xgboost-0.6.1.dist-info/top_level.txt,sha256=lfCaq1O-aRgrb_igV4L-cCJ7oeCczij6gass2XAxrI8,10
+imbxgboost/focal_loss.py,sha256=cvqXGAmiZ-y9eXOi39VG2yH94LywLDgp3-I8N89HslY,1878
+imbxgboost/imbalance-xgboost.py,sha256=nTurZOOu9Ypx4F68sizwml1Q2Ai5QPTo2P2MLBYQUQs,8242
+imbxgboost/weighted_loss.py,sha256=pbP9Ogw5oF17rlQ_ULwZJDQDa6_IAKVD0I1lGgL-gIY,896
+imxgboost/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+imxgboost/focal_loss.py,sha256=cvqXGAmiZ-y9eXOi39VG2yH94LywLDgp3-I8N89HslY,1878
+imxgboost/imbalance_xgb.py,sha256=fYmFUwZyZ07GSG9oOnGuwHfReMLJdwHpizsDpDcwoCY,8197
+imxgboost/weighted_loss.py,sha256=pbP9Ogw5oF17rlQ_ULwZJDQDa6_IAKVD0I1lGgL-gIY,896
