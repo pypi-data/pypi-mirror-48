@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: py-gerrit
+Version: 1.0.2
+Summary: gerrit简单封装
+Home-page: https://github.com/youyan0704/py_gerrit
+Author: allen.you
+Author-email: youyan0704@163.com
+License: UNKNOWN
+Description: 简单封装gerrit ssh-commands，后续进一步封装rest api方法
+Keywords: gerrit tools
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
