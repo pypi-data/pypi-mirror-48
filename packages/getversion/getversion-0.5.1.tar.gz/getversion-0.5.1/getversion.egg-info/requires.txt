@@ -1,0 +1,6 @@
+stdlib_list
+setuptools_scm
+
+[:python_version < "3.2"]
+functools32
+scandir
