@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+PipDemo/__init__.py
+PipDemo/demo.py
+shelbyPip1160.egg-info/PKG-INFO
+shelbyPip1160.egg-info/SOURCES.txt
+shelbyPip1160.egg-info/dependency_links.txt
+shelbyPip1160.egg-info/top_level.txt
