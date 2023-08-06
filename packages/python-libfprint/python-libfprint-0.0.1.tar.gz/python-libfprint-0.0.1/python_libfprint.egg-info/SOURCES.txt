@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+lib/fprint.c
+lib/fprint.pxd
+lib/fprint.pyx
+python_libfprint.egg-info/PKG-INFO
+python_libfprint.egg-info/SOURCES.txt
+python_libfprint.egg-info/dependency_links.txt
+python_libfprint.egg-info/top_level.txt
