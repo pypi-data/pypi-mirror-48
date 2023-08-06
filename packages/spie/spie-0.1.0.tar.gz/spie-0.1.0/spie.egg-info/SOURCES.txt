@@ -1,0 +1,9 @@
+README.md
+setup.py
+spie/__init__.py
+spie/core.py
+spie.egg-info/PKG-INFO
+spie.egg-info/SOURCES.txt
+spie.egg-info/dependency_links.txt
+spie.egg-info/requires.txt
+spie.egg-info/top_level.txt
