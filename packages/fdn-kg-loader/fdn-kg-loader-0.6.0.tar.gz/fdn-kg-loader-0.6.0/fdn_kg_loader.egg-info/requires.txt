@@ -1,0 +1,6 @@
+grpcio
+protobuf
+grakn
+grakn-client
+click
+six
