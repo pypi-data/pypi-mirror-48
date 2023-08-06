@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+siunits.egg-info/PKG-INFO
+siunits.egg-info/SOURCES.txt
+siunits.egg-info/dependency_links.txt
+siunits.egg-info/top_level.txt
+src/__init__.py
+src/main.py
+src/test_.py
+src/units.py
