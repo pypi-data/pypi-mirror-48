@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+morecvutils/__init__.py
+morecvutils/calcOptFlow.py
+morecvutils/connectedComponents.py
+morecvutils/cv2draw.py
+morecvutils/getaviprop.py
+morecvutils.egg-info/PKG-INFO
+morecvutils.egg-info/SOURCES.txt
+morecvutils.egg-info/dependency_links.txt
+morecvutils.egg-info/entry_points.txt
+morecvutils.egg-info/requires.txt
+morecvutils.egg-info/top_level.txt
