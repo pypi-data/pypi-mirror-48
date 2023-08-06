@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: lfmxtractplus
+Version: 1.1
+Summary: Utility to extract last.fm scrobbles as a Pandas dataframe and enhance it with spotify audio features
+Home-page: UNKNOWN
+Author: Madhan Balaji
+Author-email: madhanbalaji2000@gmail.com
+License: LICENSE
+Description-Content-Type: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: PyYAML (>=5.1.1)
+Requires-Dist: numpy (>=1.14.0)
+Requires-Dist: pandas (>=0.22.0)
+Requires-Dist: requests (>=2.22.0)
+Requires-Dist: spotipy (>=2.4.4)
+Requires-Dist: tqdm (>=4.31.1)
+
+UNKNOWN
+
+
