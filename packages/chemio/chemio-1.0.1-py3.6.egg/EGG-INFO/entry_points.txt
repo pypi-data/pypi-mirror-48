@@ -1,0 +1,3 @@
+[console_scripts]
+chemio = chemio.cli:run_chemio_cli
+
