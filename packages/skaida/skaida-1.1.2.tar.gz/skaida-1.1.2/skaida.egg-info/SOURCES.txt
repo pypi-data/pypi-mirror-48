@@ -1,0 +1,10 @@
+README.txt
+setup.py
+skaida/__init__.py
+skaida/skaida.py
+skaida.egg-info/PKG-INFO
+skaida.egg-info/SOURCES.txt
+skaida.egg-info/dependency_links.txt
+skaida.egg-info/entry_points.txt
+skaida.egg-info/requires.txt
+skaida.egg-info/top_level.txt
