@@ -1,0 +1,3 @@
+[console_scripts]
+whichimg = whichimg.main:cmd
+
