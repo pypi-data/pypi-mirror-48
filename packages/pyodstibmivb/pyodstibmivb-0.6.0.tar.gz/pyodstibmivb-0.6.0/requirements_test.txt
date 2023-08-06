@@ -1,0 +1,5 @@
+pytest-xdist
+pytest-cov
+flake8
+asynctest==0.13.0
+codecov
