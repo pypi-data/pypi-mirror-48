@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: buildbot-macports-custom-views
+Version: 0.0.2
+Summary: MacPorts Custom Views Plugin for Buildbot
+Home-page: https://github.com/macports/buildbot-macports-custom-views
+Author: Rajdeep Bharati
+Author-email: rajdeepbharati13@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# buildbot-macports-custom-views
+
+Custom views plugin for MacPorts Buildbot.
+
+
