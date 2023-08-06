@@ -1,0 +1,6 @@
+[paste.app_factory]
+main = prometheus_paster:factory
+
+[paste.filter_factory]
+filter = prometheus_paster:filter_factory
+
