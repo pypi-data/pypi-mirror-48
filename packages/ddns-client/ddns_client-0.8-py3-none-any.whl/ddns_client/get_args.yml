@@ -1,0 +1,127 @@
+metadata:
+
+  __version: 0.8
+
+  argparse:
+    priority: 3
+    options:
+      description: 'ddns_client, with coredns/etcd'
+      #usage: '%(prog)s [options]'
+
+  environment:
+    enable: true
+    priority: 2
+    options:
+      override_cmd_env: true
+      env_file:
+        - .env
+        - /etc/ddns/.env
+        - /opt/ddns/.env
+      argparse:
+        e env_file:
+          nargs: +
+          help: load environment variables from env_file, default %(default)s
+
+  configuration:
+    enable: true
+    priority: 1
+    options:
+      conf_file:
+        - ddns.yml
+        - /etc/ddns/ddns.yml
+        - /opt/ddns/ddns.yml
+      argparse:
+        c conf_file:
+          nargs: +
+          help: load configuation from file, default %(default)s
+
+args:
+
+  __options:
+    dns_name:
+      nargs: '*'
+      help: dynamic dns names
+
+  _app|:
+    a public_ip_api:
+      nargs: +
+      default:
+        - http://www.myipaddress.com/
+        - https://www.ipip.net/
+      help: public http[s] api to get public ip
+
+    T time_loop:
+      type: !!python/name:builtins.int
+      help: seconds for query loop, default %(default)s
+      metavar: SEC
+
+    U time_update:
+      type: !!python/name:builtins.int
+      help: seconds for update loop, default %(default)s
+      metavar: SEC
+
+    test:
+      nargs: +
+      choices: [ip, etcd, all]
+      help: test args if successed (%(choices)s)
+
+    msg test_message: ddns test logging
+
+  _logging:
+    __desc: logging implements
+
+    t type: [stderr, fluent, file]
+    l level: [DEBUG, INFO, WARNING, ERROR, CRITICAL]
+
+    _stderr:
+      nocolor|: true
+      format: [line, json, message]
+
+    _fluent:
+      __desc: fluentd must use https://docs.fluentd.org/input/udp now
+      host:
+        help: default is localhost
+      port:
+        type: !!python/name:builtins.int
+        help: default is 5160
+      type: [forward, tcp, udp]
+
+    _file:
+      path: null
+      format: [line, json]
+      append|: true
+      crlf|: true
+
+  _metrics:
+    __desc: metrics implements
+
+    m type:
+      nargs: +
+      choices: [none, prometheus, statsd]
+      help: 'choices: %(choices)s'
+    _statsd:
+      __desc: only support udp for now
+      host: localhost
+      port: 8125
+      prefix:
+    _prometheus:
+      host:
+      port:
+
+  _etcd:
+    type:
+      choices: [native, cmd]
+      help: offser cmd call, because of some platforms has difficulty in installing grpcio without python wheel.
+    cmd:
+      help: etcdctl executable absolute path, default is `etcdctl`
+
+    host:
+    port:
+    ca_cert:
+    cert_key:
+    cert_cert:
+
+  _coredns:
+    prefix:
+    ttl:
+    notext: true
