@@ -1,0 +1,4 @@
+[console_scripts]
+lj = lj.lj:main
+ljc = lj.ljc:main
+
