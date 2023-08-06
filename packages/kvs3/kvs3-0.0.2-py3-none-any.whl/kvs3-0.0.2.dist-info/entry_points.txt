@@ -1,0 +1,3 @@
+[console_scripts]
+kvs3 = kvs3.main:program.run
+
