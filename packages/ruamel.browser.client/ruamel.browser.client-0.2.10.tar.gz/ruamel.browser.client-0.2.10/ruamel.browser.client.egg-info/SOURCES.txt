@@ -1,0 +1,15 @@
+README.rst
+setup.py
+./LICENSE
+./__init__.py
+./__main__.py
+./client.py
+.ruamel/__init__.py
+.ruamel/browser/__init__.py
+ruamel.browser.client.egg-info/PKG-INFO
+ruamel.browser.client.egg-info/SOURCES.txt
+ruamel.browser.client.egg-info/dependency_links.txt
+ruamel.browser.client.egg-info/entry_points.txt
+ruamel.browser.client.egg-info/namespace_packages.txt
+ruamel.browser.client.egg-info/requires.txt
+ruamel.browser.client.egg-info/top_level.txt

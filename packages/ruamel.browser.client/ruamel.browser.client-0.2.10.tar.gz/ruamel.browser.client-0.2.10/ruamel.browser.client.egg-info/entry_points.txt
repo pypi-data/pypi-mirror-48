@@ -1,0 +1,3 @@
+[console_scripts]
+rbc = ruamel.browser.client.__main__:main
+

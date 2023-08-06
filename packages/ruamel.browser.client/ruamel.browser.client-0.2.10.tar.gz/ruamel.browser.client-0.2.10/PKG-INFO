@@ -1,0 +1,39 @@
+Metadata-Version: 1.1
+Name: ruamel.browser.client
+Version: 0.2.10
+Summary: zmq based client to talk with ruamel.browser.server
+Home-page: https://bitbucket.org/ruamel/browser.client
+Author: Anthon van der Neut
+Author-email: a.van.der.neut@ruamel.eu
+License: MIT License
+Description: 
+        zmq based client to talk with ruamel.browser.server
+        
+        Example from commandline::
+        
+          rbc init abc selenium
+          rbc br abc get http://stackoverflow.com
+          rbc br abc find store sbox css "#search > input"
+          rbc br abc elem sbox keys 'ruamel.yaml
+          '
+          sleep 1
+          rbc br abc find css ".js-search-results > div:first-child h3"
+          rbc br abc inner
+        
+        Yes that is a newline within the quotes. The `store sbox` and `elem sbox` are not
+        really necessary here.
+        
+        You have to have ``ruamel.browser.server.selenium`` installed, and started the server
+        with ``rbs``
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Internet :: WWW/HTTP
