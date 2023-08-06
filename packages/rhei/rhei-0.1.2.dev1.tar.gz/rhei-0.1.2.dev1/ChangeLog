@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+* Add circleci deployment
+
+0.1.1
+-----
+
+* Add pbr
+* Add rstcheck
+* Update setup.py
+* Add flake8
+* Update README.rst
+* Add files
+* Initial commit
