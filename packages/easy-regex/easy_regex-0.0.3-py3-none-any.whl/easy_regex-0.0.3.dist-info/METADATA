@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: easy-regex
+Version: 0.0.3
+Summary: Pre-defined regex
+Home-page: https://github.com/yimingq/easy-regex
+Author: YimingQiu
+Author-email: yiming404@gmial.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+
+easy-regex
+=================================================================
+
+
+ **easy-regex** now only have two regex: date and email which cover over most possibilities. More functions may be added in the future.
+
+
+Functions
+--------------------------------------------------
+
+
+**date.find (text string)** : return match list
+`````````````````````````````````````````````````````````````````
+**email.find (text string)** : return match list
+````````````````````````````````````````````````````````````````````````````````````````````````````````
+**email.judge(text string)** : return True / False 
+``````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
+
+
