@@ -1,0 +1,14 @@
+README.md
+setup.py
+dbbackup_git/__init__.py
+dbbackup_git/apps.py
+dbbackup_git/implementation.py
+dbbackup_git/utils.py
+dbbackup_git/management/__init__.py
+dbbackup_git/management/commands/__init__.py
+dbbackup_git/management/commands/dbbackup_git.py
+django_database_backup_to_git.egg-info/PKG-INFO
+django_database_backup_to_git.egg-info/SOURCES.txt
+django_database_backup_to_git.egg-info/dependency_links.txt
+django_database_backup_to_git.egg-info/requires.txt
+django_database_backup_to_git.egg-info/top_level.txt
