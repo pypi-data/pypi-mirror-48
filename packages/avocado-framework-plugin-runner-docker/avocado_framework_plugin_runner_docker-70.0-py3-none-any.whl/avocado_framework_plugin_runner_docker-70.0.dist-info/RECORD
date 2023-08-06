@@ -1,0 +1,6 @@
+avocado_runner_docker/__init__.py,sha256=uHNWSER5qGS-PIhcsP28JYcRPzufft3-UbKsCJOZhsY,6614
+avocado_framework_plugin_runner_docker-70.0.dist-info/METADATA,sha256=ewuWFX14rWq1Rt1Z0zRmWfOgXMHk9AjGIArgCI3pXsY,376
+avocado_framework_plugin_runner_docker-70.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+avocado_framework_plugin_runner_docker-70.0.dist-info/entry_points.txt,sha256=C5KFVyFsKRQskIDFnxc6ddsB3-UrNH_HuH6j4sx0hEU,64
+avocado_framework_plugin_runner_docker-70.0.dist-info/top_level.txt,sha256=cvP8MQxQdmhQFagRVxIuit9UYT9H7zqHjHReSvdRoqE,22
+avocado_framework_plugin_runner_docker-70.0.dist-info/RECORD,,
