@@ -1,0 +1,6 @@
+bryl
+
+[tests]
+pytest<3.0,>=2.5
+pytest-cov<2.0,>=1.7
+unittest2<0.6,>=0.5.1
