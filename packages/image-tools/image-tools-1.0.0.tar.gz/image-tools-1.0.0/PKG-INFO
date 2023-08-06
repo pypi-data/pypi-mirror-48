@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: image-tools
+Version: 1.0.0
+Summary: Various tools for manipulating images
+Home-page: https://www.alexseitsinger.com/packages/python/image-tools
+Author: Alex Seitsinger
+Author-email: software@alexseitsinger.com
+License: BSD 2-Clause License
+Project-URL: Documentation, https://www.alexseitsinger.com/packages/python/image-tools
+Project-URL: Source, https://github.com/alexseitsinger/image-tools
+Project-URL: Tracker, https://github.com/alexseitsinger/image-tools/issues
+Description: # Image Tools
+        
+        ## Description
+        
+        Various tools for manipulating images.
+        
+        ## Installation
+        
+        ```python
+        pip install image-tools
+        ```
+        
+        ## Usage
+        
+        ```python
+        from image_tools.sizes import resize_and_crop
+        
+        image = resize_and_crop("/path/to/image", (200,200), "middle")
+        ```
+        
+Keywords: images
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+Description-Content-Type: text/markdown
