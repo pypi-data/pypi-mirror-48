@@ -1,0 +1,55 @@
+Metadata-Version: 1.1
+Name: funcparse
+Version: 1.0.1
+Summary: Parse `funcname`, `args`, `kargs` from function-like string
+Home-page: https://github.com/sjquant/funcparse
+Author: SJQuant
+Author-email: seonujang92@gmail.com
+License: MIT
+Description: funcparse
+        =========
+        
+        Introduction
+        ------------
+        Parse `funcname`, `args`, `kargs` from function-like string
+        
+        Installation
+        ------------
+        
+        ``pip install funcparse``
+        
+        Example
+        --------
+        
+        .. code:: python
+        
+            from funcparse import parse
+        
+            funcname, args, kwargs = parse('say(1, 2, "Hello", a=1, b=2, c="World")')
+        
+            print(funcname)
+            # >>> 'say'
+        
+            print(args)
+            # >>> (1, 2, 'Hello')
+        
+            print(kwargs)
+            # >>> {'a': 1, 'b': 2, 'c': 'World'}
+        
+        .. note::
+        
+            It cannot parse another object(i.e. dict) with '=' args in it as follows.
+        
+        .. code:: python
+        
+            from funcparse import parse
+        
+            # Raise Syntax Error
+            # Use {"from": "a", "to": "b"} instead.
+            funcname, args, kwargs = parse('hi(dict(from="a", to="b"))')
+        
+Keywords: parse,parse function,string-to-function
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

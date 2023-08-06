@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+funcparse/__init__.py
+funcparse/__version__.py
+funcparse.egg-info/PKG-INFO
+funcparse.egg-info/SOURCES.txt
+funcparse.egg-info/dependency_links.txt
+funcparse.egg-info/top_level.txt
