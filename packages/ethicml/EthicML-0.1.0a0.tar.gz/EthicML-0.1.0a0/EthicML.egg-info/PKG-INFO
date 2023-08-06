@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: EthicML
+Version: 0.1.0a0
+Summary: A toolkit for understanding and researching algorithmic bias
+Home-page: https://github.com/predictive-analytics-lab/EthicML
+Author: O. Thomas
+Author-email: olliethomas86@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: dev
