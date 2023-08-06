@@ -1,0 +1,13 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+picat_kernel/__init__.py
+picat_kernel/__main__.py
+picat_kernel/kernel.json
+picat_kernel/kernel.py
+picat_kernel.egg-info/PKG-INFO
+picat_kernel.egg-info/SOURCES.txt
+picat_kernel.egg-info/dependency_links.txt
+picat_kernel.egg-info/requires.txt
+picat_kernel.egg-info/top_level.txt
