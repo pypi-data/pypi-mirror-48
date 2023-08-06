@@ -1,0 +1,12 @@
+pypiuploader/__init__.py,sha256=PuI9E7mbzHZz1AOUCf5NlAs5ppHR6qBcJAErfrwzHrY,99
+pypiuploader/commands.py,sha256=Fg9ipqZNAKGijmTvJbCBevfsy23vNsU0x74ljA2PIQ8,7098
+pypiuploader/download.py,sha256=dJWy8GlkefXj1-KuB_qxGUjlCRxv7SrwG0DWrkwHm0c,3247
+pypiuploader/exceptions.py,sha256=HJMM0l8BkYCMkQJwXvnIS7TviEI1Tg6OBNln1A5rSi4,365
+pypiuploader/pypirc.py,sha256=gTtp3JVRyR3Y6Aks0fP9nMLkUIf2edDfL75LmZzRePE,3942
+pypiuploader/upload.py,sha256=rUrEpIpMIcR091_RQjUQfBigZ6MeJhaf1OrgzYTVCPs,5355
+pypi_uploader2-1.1.1.dist-info/LICENSE,sha256=xRGy3op-rb5KPspdw4wUJWYNVEH7okWHiQsnAgJJYsc,1055
+pypi_uploader2-1.1.1.dist-info/METADATA,sha256=10DW9JOYvjR9S36v4tuANzSdymXZ8kcuPjLC_i5H9EY,5888
+pypi_uploader2-1.1.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pypi_uploader2-1.1.1.dist-info/entry_points.txt,sha256=Iu00jSUOJQgv33Hla7oXtAUegyOFYTkFMih1CPPrgCA,59
+pypi_uploader2-1.1.1.dist-info/top_level.txt,sha256=dtOQ-nHAq_EXpZl3JtzlPqecV-O-AmZB3eGcDaqhN1I,13
+pypi_uploader2-1.1.1.dist-info/RECORD,,
