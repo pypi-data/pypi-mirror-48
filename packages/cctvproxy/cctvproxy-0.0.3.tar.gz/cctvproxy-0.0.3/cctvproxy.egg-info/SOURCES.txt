@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+cctv-proxy.sh
+setup.py
+cctvproxy/__init__.py
+cctvproxy/cctv_proxy.dist.yml
+cctvproxy/nocam.jpg
+cctvproxy/proxy.py
+cctvproxy.egg-info/PKG-INFO
+cctvproxy.egg-info/SOURCES.txt
+cctvproxy.egg-info/dependency_links.txt
+cctvproxy.egg-info/requires.txt
+cctvproxy.egg-info/top_level.txt
