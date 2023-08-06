@@ -1,0 +1,6 @@
+mongoengine
+matplotlib
+numpy
+progressbar2
+pymongo
+psutil

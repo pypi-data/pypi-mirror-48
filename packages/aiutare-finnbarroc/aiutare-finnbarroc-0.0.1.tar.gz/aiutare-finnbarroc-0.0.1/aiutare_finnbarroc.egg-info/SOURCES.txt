@@ -1,0 +1,14 @@
+README.md
+setup.py
+aiutare_finnbarroc.egg-info/PKG-INFO
+aiutare_finnbarroc.egg-info/SOURCES.txt
+aiutare_finnbarroc.egg-info/dependency_links.txt
+aiutare_finnbarroc.egg-info/requires.txt
+aiutare_finnbarroc.egg-info/top_level.txt
+bin/__init__.py
+bin/analyze.py
+bin/bench.py
+bin/config.py
+bin/drop_databases.py
+bin/run.py
+bin/test_read_db.py
