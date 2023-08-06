@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: CodeDomainEmissary
+Version: 0.0.1.dev0
+Summary: A package to adapt text to code domain intents and entities
+Home-page: UNKNOWN
+Author: Colin Lacy
+Author-email: colinjlacy@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Description-Content-Type: text/markdown
+Requires-Dist: mindmeld (>=4.1.1)
+
+# Code Domain Emissary
+
+This is an NLP project that leverages Cisco's [MindMeld](https://www.mindmeld.com) library to process text into code commands.  
+
+At this point I'm still figuring out what I'm doing, and this is not to be taken too seriously.  Once I actually have working functionality I'll update this readme.
+
