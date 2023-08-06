@@ -1,0 +1,15 @@
+cricri/__init__.py,sha256=fIJOAfQu4gdMKbNKp2q2wHYu5jEANeRa2Kpjs8k8q_w,231
+cricri/__version__.py,sha256=1-IRRkhfgE_64kXjvfGug98awyNksxSIBYhnu7EDbUQ,46
+cricri/algo.py,sha256=TXxVers9BUkaLq4ZsfC9hJ4j8XJcdR9PbWAFT2sy3Sc,3076
+cricri/condition.py,sha256=ToEm7YEx-l3ILtUBC1xmhq9utwHQjswR7Tt6Tc57qxc,4483
+cricri/cricri.py,sha256=LGsw7dJz6APSU4XoicbW-gDLkCuqy8m1uaAfI1fzcp8,24413
+cricri/inet/__init__.py,sha256=yx85JLJl5Veh6gMFY93gkWpgjMa-br8J_0rgS7xk6lc,1204
+cricri/inet/http_client.py,sha256=k0IR07VGDJybNFGTamdlv5U0lyW71zsZtCB5AOW02A4,10532
+cricri/inet/server.py,sha256=M8m4L3itB07Px5525eD7jokipHqGKrDx27G-j8EPgIQ,7288
+cricri/inet/tcp_client.py,sha256=PIHD26ap8d_NiQuANOX8awym9vVff76FYu7MnkZf7I8,2842
+cricri-2.0b0.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+cricri-2.0b0.dist-info/METADATA,sha256=per57vP_CuVk9IsaE2jIDNR40U-Ne6csx0QyhA8Eli4,684
+cricri-2.0b0.dist-info/RECORD,,
+cricri-2.0b0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+cricri-2.0b0.dist-info/metadata.json,sha256=jUvUOGiCmcfzy0MHUdh8wzWw3zU96iJ1cWN-6GyaObs,888
+cricri-2.0b0.dist-info/top_level.txt,sha256=DomyeXKVw-8ZnJ6M54oyveHb1eTFR6oDfl-3oisTqYs,7
