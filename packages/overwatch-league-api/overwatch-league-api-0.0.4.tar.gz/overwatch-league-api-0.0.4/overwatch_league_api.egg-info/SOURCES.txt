@@ -1,0 +1,10 @@
+README.md
+setup.py
+overwatch_league_api.egg-info/PKG-INFO
+overwatch_league_api.egg-info/SOURCES.txt
+overwatch_league_api.egg-info/dependency_links.txt
+overwatch_league_api.egg-info/top_level.txt
+overwatchleagueapi/__init__.py
+overwatchleagueapi/api.py
+overwatchleagueapi/models/__init__.py
+overwatchleagueapi/models/entities.py
