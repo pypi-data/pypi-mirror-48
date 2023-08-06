@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-polls-tutorial-v
+Version: 1.0.4
+Summary: A simple Django app to conduct Web-based polls.
+Home-page: UNKNOWN
+Author: kevin
+Author-email: kevin@kev.com
+License: BSD License
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.1
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: Django (==2.2.2)
+Requires-Dist: django-nose (==1.4.6)
+Requires-Dist: pytest-django (==3.5.0)
+Requires-Dist: django-pytest (==0.2.0)
+
+=====
+Polls
+=====
+
+Polls is a simple Django app to conduct Web-based polls. For each
+question, visitors can choose between a fixed number of answers.
+
+Detailed documentation is in the "docs" directory.
+
+Quick start
+-----------
+
+1. Add "polls" to your INSTALLED_APPS setting like this::
+
+    INSTALLED_APPS = [
+        ...
+        'polls',
+    ]
+
+2. Include the polls URLconf in your project urls.py like this::
+
+    path('polls/', include('polls.urls')),
+
+3. Run `python manage.py migrate` to create the polls models.
+
+4. Start the development server and visit http://127.0.0.1:8000/admin/
+   to create a poll (you'll need the Admin app enabled).
+
+5. Visit http://127.0.0.1:8000/polls/ to participate in the poll.
+
