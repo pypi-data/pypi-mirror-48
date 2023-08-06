@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: crazylib
+Version: 0.0.2
+Summary: Python Framework.
+Home-page: https://github.com/crazysnowboy/Crazylibs
+Author: crazysnowboy
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/crazysnowboy/Crazylibs/blob/master/dist/crazylib-0.0.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6

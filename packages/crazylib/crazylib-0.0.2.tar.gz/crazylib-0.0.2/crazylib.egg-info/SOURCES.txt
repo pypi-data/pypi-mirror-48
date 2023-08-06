@@ -1,0 +1,9 @@
+setup.py
+crazylib.egg-info/PKG-INFO
+crazylib.egg-info/SOURCES.txt
+crazylib.egg-info/dependency_links.txt
+crazylib.egg-info/not-zip-safe
+crazylib.egg-info/requires.txt
+crazylib.egg-info/top_level.txt
+crazytools/__init__.py
+crazytools/crazylib.py
