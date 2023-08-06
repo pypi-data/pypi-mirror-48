@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: pushoverclient
+Version: 0.1
+Summary: A simple Pushover API Client
+Home-page: https://github.com/FFCoder/Pushover-Client
+Author: Jonathon Chambers
+Author-email: me@jonathonchambers.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Pushover Client
+A simple [Pushover](https://pushover.net) Client for my repeated use of their services. 
+
