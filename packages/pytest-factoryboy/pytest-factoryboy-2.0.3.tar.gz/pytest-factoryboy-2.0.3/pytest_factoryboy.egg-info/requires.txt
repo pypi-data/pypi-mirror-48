@@ -1,0 +1,6 @@
+inflection
+factory_boy>=2.10.0
+pytest>=3.3.2
+
+[:python_version < "3.0"]
+funcsigs
