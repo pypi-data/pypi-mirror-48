@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: ktk-python
+Version: 0.0.2
+Summary: kmiku7's tookkit for Python
+Home-page: https://github.com/kmiku7/ktk-python
+Author: kmiku7
+Author-email: kakoimiku@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: # ktk-python
+        kmiku7's toolkit for Python
+        
+Platform: all
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
