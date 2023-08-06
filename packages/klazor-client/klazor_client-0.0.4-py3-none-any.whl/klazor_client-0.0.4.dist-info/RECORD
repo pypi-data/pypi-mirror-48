@@ -1,0 +1,11 @@
+klazor_client/__init__.py,sha256=g5gIZIfZimGbmFPXqg8DzJtKHizw0NSiWQf1qVeV9jc,47
+klazor_client/client.py,sha256=MG9oHsMfDRilkVTMOxXi6kxHZm34ANlzGFNGAlaNeyM,1402
+klazor_client/models.py,sha256=IiaT-DHXeW6gcMi89IPP_CN7zjLMonCdYyZCSMRhQhQ,2898
+klazor_client/settings.py,sha256=JcK9yJu9zKylPuXqn84f4E9p6ruzOsnpfuF78w9vXDA,62
+klazor_client/test.py,sha256=DMYjKipz--h-Pw79XU-fCM3jGBl19k37oTs_SokMb0U,251
+klazor_client/utils.py,sha256=JctaceaxPoddeNVcZOZLDwL3jzbaKurkmy9QFNkS7bA,3880
+klazor_client-0.0.4.dist-info/LICENSE,sha256=O4uII_N7PQyaFNwQH6bGRXSUXt8qG0hZYBEO-sYyf_E,1075
+klazor_client-0.0.4.dist-info/METADATA,sha256=KcJL7qA5rx4-N5JetL9gvLmK8inr2gVnfK6ubDGNpv4,1193
+klazor_client-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+klazor_client-0.0.4.dist-info/top_level.txt,sha256=Sm5qZoIYAlmfP550lY3_UWlr66XTgxnZqc_2PS5ln9g,14
+klazor_client-0.0.4.dist-info/RECORD,,
