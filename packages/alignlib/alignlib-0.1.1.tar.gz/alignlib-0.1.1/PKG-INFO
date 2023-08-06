@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: alignlib
+Version: 0.1.1
+Summary: Some sequence alignment routines
+Home-page: https://github.com/marcelm/alignlib/
+Author: Marcel Martin
+Author-email: marcel.martin@scilifelab.se
+License: MIT
+Description: # alignlib
+        
+        A small Python module providing edit distance and Hamming distance computation.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Description-Content-Type: text/markdown
