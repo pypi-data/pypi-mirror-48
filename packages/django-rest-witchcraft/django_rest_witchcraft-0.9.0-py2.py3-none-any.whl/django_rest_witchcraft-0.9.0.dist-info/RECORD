@@ -1,0 +1,15 @@
+rest_witchcraft/__init__.py,sha256=QhrQT--lNjyi8OgSspm03zXBIPZDJ0FD_S3T4vadFYw,190
+rest_witchcraft/__version__.py,sha256=-YMFJaYLn6FX7SAHa-9ROBzDK0h54gbnlj6cwitAaec,256
+rest_witchcraft/field_mapping.py,sha256=kN3rQnlbYUVaM6Bo5ESJQ_3JpBfvaOpJ3u5ASJjLh2s,3290
+rest_witchcraft/fields.py,sha256=p4hS6u9acEVF0zgbltbLUDhOxcaw2nrd_Ob5hyQj_gk,2041
+rest_witchcraft/generics.py,sha256=uUloCJM0gpEKbAAGR6SIYqAcWtFerV1yZdnzcktu4nM,2196
+rest_witchcraft/mixins.py,sha256=MMRMvxtRjk_oj8s4tNidiVV1dNshNnXJxiSEeFhHyqY,4040
+rest_witchcraft/routers.py,sha256=Rttl8IYBuYS2X1CFa2B0AIBR6nECy_rlF_HywAHRsAA,1962
+rest_witchcraft/serializers.py,sha256=v5i_9615fNFDT0cHsJKUUXR7PNGQEi0yEHWtohni7_s,38161
+rest_witchcraft/utils.py,sha256=xEjB9Ny8DQWn3RKaYA7pCOtmmms5zfv9g3YUPesoXFA,1078
+rest_witchcraft/viewsets.py,sha256=phOUH33f07IxGb6gsm0s9yF6wbMvWUC0AFgBgEq_5LY,1434
+django_rest_witchcraft-0.9.0.dist-info/LICENSE,sha256=fuG4RI1roUoUn1b905pB1N4F1Sgy4uypIkcPV7mvdXE,1069
+django_rest_witchcraft-0.9.0.dist-info/METADATA,sha256=mzpZwwwi3vJ2gza1W7iKhLgq4WE47uc_COuxrLh5dFE,8514
+django_rest_witchcraft-0.9.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_rest_witchcraft-0.9.0.dist-info/top_level.txt,sha256=M66SunADU8Q96EdZTPLwYwWB3Zvz_FaqajTjNmbv2Bk,16
+django_rest_witchcraft-0.9.0.dist-info/RECORD,,
