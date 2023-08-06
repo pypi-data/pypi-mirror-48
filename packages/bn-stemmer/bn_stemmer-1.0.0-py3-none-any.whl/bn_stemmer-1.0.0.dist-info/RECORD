@@ -1,0 +1,7 @@
+stemmer/__init__.py,sha256=smE16YPm7-UhgAHeoSBMWkImoS_3LW9osznkSQaRhrA,42
+stemmer/stemmer_builder.py,sha256=bmCsXdEU8w_nA-EtZLA1PQnRh_RvuKxlGHKUdNCb-CY,6287
+bn_stemmer-1.0.0.dist-info/LICENSE,sha256=6ZZBsQxHT7fv7SVfMRYUzXKcoSsrq9RtbqqxD7kJZ7Y,1074
+bn_stemmer-1.0.0.dist-info/METADATA,sha256=m7ITBUo5oRreIuv3lClk4pSU3al08_p-OctAtEpa-tI,401
+bn_stemmer-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bn_stemmer-1.0.0.dist-info/top_level.txt,sha256=bUp-1BjEJ6I3TNBegEdWgbPt6twEJi4PyS5UsUDukiY,8
+bn_stemmer-1.0.0.dist-info/RECORD,,
