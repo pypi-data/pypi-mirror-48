@@ -1,0 +1,3 @@
+[tox]
+pipenv-install = tox_pipenv_install.plugin
+

@@ -1,0 +1,8 @@
+tox_pipenv_install/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tox_pipenv_install/plugin.py,sha256=lBlwUnUSZ4QyySE0eqkDWbx1IPt0lI1cd9q0e80MhHw,759
+tox_pipenv_install-0.1.0.dist-info/LICENSE,sha256=Hd2zpuLctOP0CCOk8EtufZmsJPp2xfjLw_iE_dTISX0,1080
+tox_pipenv_install-0.1.0.dist-info/METADATA,sha256=iADshsCdSWxTfCaa_Q5XU5eRiNFLt8g_ROdWvSNSZDc,2838
+tox_pipenv_install-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tox_pipenv_install-0.1.0.dist-info/entry_points.txt,sha256=DNSRf_ptiase8ZFRE8r1ilB_acJfA_7K6dXwC7VBWH8,50
+tox_pipenv_install-0.1.0.dist-info/top_level.txt,sha256=cJV9ki_EM-L-I6ENE46rseU_ETqoGfJnCbw7BsevVd8,19
+tox_pipenv_install-0.1.0.dist-info/RECORD,,
