@@ -1,0 +1,4 @@
+importlib_resources
+scipy
+tabulate
+torch
