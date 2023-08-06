@@ -1,0 +1,3 @@
+[console_scripts]
+es-xlsx2csv = es_xlsx2csv.command_line:main
+
