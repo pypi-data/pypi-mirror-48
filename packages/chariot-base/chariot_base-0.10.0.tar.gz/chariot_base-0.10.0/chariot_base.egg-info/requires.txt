@@ -1,0 +1,13 @@
+asyncio
+cloudant
+ecdsa
+falcon
+fastecdsa
+gmqtt
+ibmiotf
+influxdb
+jaeger-client
+paho-mqtt
+pycrypto
+pytest
+pytest-asyncio
