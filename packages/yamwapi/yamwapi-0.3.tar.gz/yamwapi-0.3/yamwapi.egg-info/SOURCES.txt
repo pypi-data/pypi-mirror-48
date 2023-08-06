@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+yamwapi/__init__.py
+yamwapi/yamwapi.py
+yamwapi/yamwapi_test.py
+yamwapi.egg-info/PKG-INFO
+yamwapi.egg-info/SOURCES.txt
+yamwapi.egg-info/dependency_links.txt
+yamwapi.egg-info/top_level.txt
