@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: pythonplug
+Version: 0.1.0
+Summary: An ASGI web framework
+License: MIT
+Author: Shen Li
+Author-email: dustet@gmail.com
+Requires-Python: >=3.6,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: Werkzeug (>=0.15.4,<0.16.0)
+Requires-Dist: multidict (>=4.5,<5.0)
