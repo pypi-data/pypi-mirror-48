@@ -1,0 +1,8 @@
+argcomplete
+awscli
+boto3
+future
+python-dateutil
+requests
+retry
+termcolor
