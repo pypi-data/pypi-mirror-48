@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: brew-tools
+Version: 0.2.2
+Summary: 
+License: MIT
+Author: Sven
+Author-email: sven@unlogic.co.uk
+Requires-Python: >=3.5,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Description-Content-Type: text/x-rst
+
+
