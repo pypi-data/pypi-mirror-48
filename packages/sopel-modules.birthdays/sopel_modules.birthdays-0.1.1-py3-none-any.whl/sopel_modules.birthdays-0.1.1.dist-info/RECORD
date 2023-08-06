@@ -1,0 +1,11 @@
+sopel_modules.birthdays-0.1.1-py3.7-nspkg.pth,sha256=GpO4OWqrcKGJyabPvvsBuBcrUk4pFr3K5HYvSnuQBi8,574
+sopel_modules/birthdays/__init__.py,sha256=NdBoAJdHZnnZ4_fjy_D19YDD8bqxDZOsDSpkFeTJQC4,286
+sopel_modules/birthdays/birthdays.py,sha256=C5ZZAfeRyjnB5Pum64NL7E28dGkNZIVl4zJ8tT-leO8,1421
+tests/__init__.py,sha256=eoZ6GfifbqhMLNzjlqRDVil-yyBkOmVN9ujSgJWNBlY,15
+tests/test_birthdays.py,sha256=oJOhFfd51OrcRSWs1RvltdAe67w7LhMR6j3e-C513uA,897
+sopel_modules.birthdays-0.1.1.dist-info/COPYING,sha256=GMjS0NE2IKS6zNYcSKb0YX0RM1HoLI_I6tgJVMFThl4,1022
+sopel_modules.birthdays-0.1.1.dist-info/METADATA,sha256=8GtlPkzgxo4bGZpUkbHv5uGqGnoYHBkBI5l7Un5hGhk,411
+sopel_modules.birthdays-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+sopel_modules.birthdays-0.1.1.dist-info/namespace_packages.txt,sha256=1GJk87jnz3vpuDVQimAVoSTAzCNN7PNkycVbH0Q1pkg,14
+sopel_modules.birthdays-0.1.1.dist-info/top_level.txt,sha256=_ZwLN-V1x1etvfwqzYdX0btb7nbM-uSphbb8tSb8fKU,20
+sopel_modules.birthdays-0.1.1.dist-info/RECORD,,
