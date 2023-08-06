@@ -1,0 +1,8 @@
+MANIFEST.in
+README.md
+pyquota.c
+setup.py
+PyQuota.egg-info/PKG-INFO
+PyQuota.egg-info/SOURCES.txt
+PyQuota.egg-info/dependency_links.txt
+PyQuota.egg-info/top_level.txt
