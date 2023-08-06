@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: distribute-config
+Version: 0.0.2
+Summary: A package to handle multi-source distributed configuration
+Home-page: https://github.com/Net-Mist/distribute_config
+Author: Sébastien IOOSS
+Author-email: archimist.linux@gmail.com
+License: UNKNOWN
+Description: # Distribute Config
+        
+        [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
+        [![Maintainability](https://api.codeclimate.com/v1/badges/c95ee137fde197b24dc1/maintainability)](https://codeclimate.com/github/Net-Mist/distribute_config/maintainability)
+        [![Coverage Status](https://coveralls.io/repos/github/Net-Mist/distribute_config/badge.svg?branch=master)](https://coveralls.io/github/Net-Mist/distribute_config?branch=master)
+        [![Build Status](https://travis-ci.org/Net-Mist/distribute_config.svg?branch=master)](https://travis-ci.org/Net-Mist/distribute_config)
+        
+        A package to handle multi-source distributed configuration
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
