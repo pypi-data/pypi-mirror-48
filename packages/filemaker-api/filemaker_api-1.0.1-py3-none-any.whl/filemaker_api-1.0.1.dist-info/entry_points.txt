@@ -1,0 +1,3 @@
+[console_scripts]
+filemaker-api = filemaker.__main__:main
+

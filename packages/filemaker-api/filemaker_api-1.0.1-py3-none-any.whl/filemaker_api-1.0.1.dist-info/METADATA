@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: filemaker-api
+Version: 1.0.1
+Summary: Connect easily to a FileMaker instance.
+Home-page: https://caoslab.psy.cmu.edu:32443/caoskids/filemaker_api
+Author: Hugo Angulo
+Author-email: hugoanda@andrew.cmu.edu
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# filemaker_api
+
+Filemaker Python-based API to connect, retrieve, upload, download, update and delete information from a FileMaker database.
+
+## Installation
+
+In order to install this tool, you can use pip:
+
+```bash
+pip install filemaker-api
+```
+
+## Usage
+
+On terminal you can use it in the following way:
+
+```bash
+filemaker-api -u <username> -p <password> -s <server_IP_or_FQDN>
+```
+
+This will return the survey with all the responses on JSON format.
+
+*Powered by*: Hugo Angulo
+
