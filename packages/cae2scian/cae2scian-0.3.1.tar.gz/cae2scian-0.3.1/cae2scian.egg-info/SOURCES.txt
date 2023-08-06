@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+cae2scian/__init__.py
+cae2scian/lookup.py
+cae2scian.egg-info/PKG-INFO
+cae2scian.egg-info/SOURCES.txt
+cae2scian.egg-info/dependency_links.txt
+cae2scian.egg-info/top_level.txt
+cae2scian/db/cae2scian.tsv
