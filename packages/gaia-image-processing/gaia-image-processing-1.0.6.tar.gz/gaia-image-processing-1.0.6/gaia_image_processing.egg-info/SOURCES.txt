@@ -1,0 +1,10 @@
+README.md
+setup.py
+gaia_image_processing.egg-info/PKG-INFO
+gaia_image_processing.egg-info/SOURCES.txt
+gaia_image_processing.egg-info/dependency_links.txt
+gaia_image_processing.egg-info/top_level.txt
+src/drawing.cpp
+src/image_processing.cpp
+src/morph_transformations.cpp
+src/objects.cpp
