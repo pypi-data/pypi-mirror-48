@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+rsrc_web/__init__.py
+rsrc_web/base.py
+rsrc_web/models.py
+rsrc_web.egg-info/PKG-INFO
+rsrc_web.egg-info/SOURCES.txt
+rsrc_web.egg-info/dependency_links.txt
+rsrc_web.egg-info/entry_points.txt
+rsrc_web.egg-info/requires.txt
+rsrc_web.egg-info/top_level.txt
