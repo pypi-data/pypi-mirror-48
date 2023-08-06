@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: crawler_framework
+Version: 0.1
+Summary: Framework for crawling
+Home-page: UNKNOWN
+Author: Dragan Matesic
+Author-email: dragan.matesic@gmail.com
+License: MIT
+Description: # Crawler Framework
+        #### Framework that helps with creating core architecture  for professional data mining
+        ###### Work in progress. 
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
