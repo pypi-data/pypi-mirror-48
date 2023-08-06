@@ -1,0 +1,7 @@
+README.md
+setup.py
+easy_splunk.egg-info/PKG-INFO
+easy_splunk.egg-info/SOURCES.txt
+easy_splunk.egg-info/dependency_links.txt
+easy_splunk.egg-info/top_level.txt
+pkg/__init__.py
