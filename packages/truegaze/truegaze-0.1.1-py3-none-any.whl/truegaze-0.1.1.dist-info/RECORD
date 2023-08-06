@@ -1,0 +1,12 @@
+truegaze/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+truegaze/cli.py,sha256=xUb8otagfr6GoNkPg3qjJYSwyDyWtJxVgDf4AUQE8ko,3633
+truegaze/utils.py,sha256=4FMhKGhebCCVuOST-3SNwv2PHXQA3K7cpB5XUy2P6Jw,3451
+truegaze/plugins/__init__.py,sha256=bECvpsBSXLGuYqZiIpN2kdGnfIRvhKvZsIoZTlGZ848,245
+truegaze/plugins/adobe_mobile_sdk.py,sha256=cKP3NuL6rqcHCf1fny2v4t4LDE9bvDQYbRD_3RCFOII,5840
+truegaze/plugins/base.py,sha256=kaHjqsgD4im7G0vvaWiE90OqPbtfsIS5HaNcVElo3D8,1980
+truegaze-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+truegaze-0.1.1.dist-info/METADATA,sha256=70RsrjZt8FxtCpCUiJ2RRIISJQLiMf4MncpxRVB_9Ok,4805
+truegaze-0.1.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+truegaze-0.1.1.dist-info/entry_points.txt,sha256=3XdRQxyoT50eq3O0WnHwEbJ6cUTweuXaq_0aDj-bQfA,47
+truegaze-0.1.1.dist-info/top_level.txt,sha256=HiPHxogXWgTFk5vBjwiQ-Yb3bmP43Fviup8WDLSRT90,9
+truegaze-0.1.1.dist-info/RECORD,,
