@@ -1,0 +1,6 @@
+molecule>=2.22rc1
+pytest>=3.50
+
+[docker]
+docker
+paramiko

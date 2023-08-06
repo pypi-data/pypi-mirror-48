@@ -1,0 +1,54 @@
+---
+dist: xenial
+# Config file for automatic testing at travis-ci.org
+
+sudo: false
+services:
+  - docker
+language: python
+
+jobs:
+  fast_finish: true
+  include:
+    - name: lint
+      python: "3.7"
+      env: TOXENV=lint
+    - name: py27
+      python: "2.7"
+      env: TOXENV=py27
+    - name: py35
+      python: "3.5"
+      env: TOXENV=py35
+    - name: py36
+      python: "3.6"
+      env: TOXENV=py36
+    - name: py37
+      python: "3.7"
+      env: TOXENV=py37
+    - name: devel
+      python: "3.7"
+      env: TOXENV=devel
+    - stage: deploy
+      name: deploy
+      if: tag IS present AND type != cron
+      env: TOXENV=upload
+
+install:
+  - pip install tox
+
+script:
+  - tox
+
+before_cache:
+  - rm -rf $HOME/.cache/pip/log
+
+cache:
+  directories:
+    - $HOME/.cache/pip
+addons:
+  apt:
+    packages:
+      - lxc
+      - lxc-dev
+      - lxd
+      - lxd-client
