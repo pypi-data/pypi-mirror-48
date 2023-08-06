@@ -1,0 +1,3 @@
+include LICENSE.txt
+include README.md
+recursive-include interactivecrop/image_samples *
