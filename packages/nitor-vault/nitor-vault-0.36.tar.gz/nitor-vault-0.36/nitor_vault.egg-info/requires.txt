@@ -1,0 +1,5 @@
+threadlocal_aws==0.4
+requests
+argcomplete
+future
+cryptography
