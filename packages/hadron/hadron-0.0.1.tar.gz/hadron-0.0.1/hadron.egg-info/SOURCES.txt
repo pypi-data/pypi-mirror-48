@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+hadron/__init__.py
+hadron.egg-info/PKG-INFO
+hadron.egg-info/SOURCES.txt
+hadron.egg-info/dependency_links.txt
+hadron.egg-info/top_level.txt
