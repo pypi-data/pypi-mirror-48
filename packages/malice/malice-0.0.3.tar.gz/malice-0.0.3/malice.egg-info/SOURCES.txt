@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+malice.egg-info/PKG-INFO
+malice.egg-info/SOURCES.txt
+malice.egg-info/dependency_links.txt
+malice.egg-info/entry_points.txt
+malice.egg-info/top_level.txt
