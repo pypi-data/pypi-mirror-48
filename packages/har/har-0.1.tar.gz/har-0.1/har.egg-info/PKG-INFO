@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: har
+Version: 0.1
+Summary: Har parser Tool
+Home-page: https://github.com/yafeile/harparser
+Author: yafeile
+Author-email: yafeile@sohu.com
+License: UNKNOWN
+Description: A tool for parser the http archive file
+Platform: UNKNOWN
