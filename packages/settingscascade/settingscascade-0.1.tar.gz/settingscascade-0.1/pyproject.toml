@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "settingscascade"
+version = "0.1"
+description = "Cascade settings from multiple levels of specificity"
+authors = ["Paul Becotte <pjbecotte@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://gitlab.com/pjbecotte/settingscascade"
+packages = [
+    {include = "settingscascade", from = "src"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+dataclasses = {version = "~0.5", python = "~3.6"}
+toml = "~0.10"
+jinja2 = "~2.10"
+sortedcontainers = "~2.1"
+
+
+[tool.poetry.dev-dependencies]
+black = {version = "^19.3b0", allows-prereleases = true}
+mypy = "^0.710"
+pylint = "^2.3"
+pytest = "^4.6"
+pytest-cov = "^2.7"
+
+[build-system]
+requires = ["poetry>=1.0.0a4)"]
+build-backend = "poetry.masonry.api"

@@ -1,0 +1,54 @@
+Settings cascade is designed for situations where you need to merge
+configuration settings from different hierarchical sources. The model
+is the way that CSS cascades onto elements.
+
+Settings have the concept of levels. The system is based on Toml, so
+the root of the setting is always a map. Inside of that, each key is
+either a level or a setting. (This means you can't reuse a level name
+for a setting!) In css parlance, a level would be an element type.
+
+In the below example `val_a` is a key at the root level. `task` is a
+level. A level can either be a map or a list of maps. when you use a
+list of maps, each map has a key called `name` - this is the key used
+to access settings of that map. This `name` key would map roughly to
+the class of a css element. If it is left out, or the level is just set
+directly to a mapping, the selector is None (`tasks.None` for this one-)
+
+val_a = "a"
+val_b = "fallback"
+
+[[tasks]]
+name = "a"
+val_b = "1"
+
+[[tasks]]
+name = "b"
+val_b = "3"
+
+[[tasks]]
+val_b = "7"
+
+Once the Config is set up, you can access variables by setting up your context
+and then just grabbing them. If there is no setting that matches your context,
+AttributeError is raised. If there are more then one, the MOST specific one is
+returned. Below the selecor `environments=None`.setting_a would return "outer",
+while `tasks=default_task, environments=none` would return "inner". 
+`tasks=default_task`.setting_a would return and error though. You can get a
+setting that is LESS specific then your context, but not one that is MORE
+specific. `tasks=None` could still get tasks.task_setting = "less"
+
+[environments]
+setting_a = "outer"
+
+[[tasks]]
+	name = "default_task"
+	task_setting = "less"
+	[tasks.environments]
+		setting_a = "inner"
+
+In your python code, this is accomplished with a context manager.
+
+```python
+with MyConfig.context(tasks="default_task", "environments"=None):
+	assert MyConfig.setting_a == "inner"
+```
