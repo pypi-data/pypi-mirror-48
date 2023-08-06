@@ -1,0 +1,12 @@
+pvfr/groopledb/__init__.py,sha256=bsyUsG4N3hAkzAjhI_DfLMb0_808uVCxoS3gcgvX1qw,9292
+pvfr/groopledb/activity.py,sha256=PBYRKTrpOZ43oAE1BaHEkx1T0lvSByVYwesrWhZJv7o,3105
+pvfr/groopledb/category.py,sha256=wFbu5tZppNgY9Ld2bx88J6VR9xxkhdbPj_xN_-W-8c8,1239
+pvfr/groopledb/config.yml,sha256=Xv5E0fxdFBxpqGm6De6vQr6r3KTiSJTZUdX-lSUEG6E,796
+pvfr/groopledb/group.py,sha256=80PHs-lB73fJsAgLR7al_edMtBplCgKf7CSdfDp9PHM,4505
+pvfr/groopledb/organizer.py,sha256=UCFXzXQJL_ULXrkvbF3IxfFz8HgRwzcCzmkR2Ko0-G8,1723
+pvfr/groopledb/participant.py,sha256=1HQ73iDZjDu4MaXi5sNAKyprk3wR6rsTvgz-j7-aIHU,1265
+pvfr.groopledb-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pvfr.groopledb-0.4.0.dist-info/METADATA,sha256=CnU-Whokon7Z3P40ISIAecl9ZVV-GILyseye4TN69F8,609
+pvfr.groopledb-0.4.0.dist-info/WHEEL,sha256=ZvfnntGaZglpRLAKVkx18HrxfMwCXrA0b-ARJVnnMrw,92
+pvfr.groopledb-0.4.0.dist-info/top_level.txt,sha256=25C0LR2wXPgXTBJQfm1lhoRybidVYobnzyGkswoRTYk,5
+pvfr.groopledb-0.4.0.dist-info/RECORD,,
