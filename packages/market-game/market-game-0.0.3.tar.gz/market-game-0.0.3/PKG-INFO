@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: market-game
+Version: 0.0.3
+Summary: Market game
+Home-page: https://github.com/Tsangares/market
+Author: William Wyatt
+Author-email: wwyatt@ucsc.edu
+License: UNKNOWN
+Description: Market Game.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
