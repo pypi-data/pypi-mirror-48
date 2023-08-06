@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: pyhg19
+Version: 0.0.1
+Summary: Utilities for working with human genome build hg19
+Home-page: https://github.com/anthony-aylward/pyhg19.git
+Author: Anthony Aylward
+Author-email: aaylward@eng.ucsd.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pydbsnp
+
+# pyhg19
+
+Get the coordinates of a variant from its RSID, or an RSID from its
+coordinates
+
+## Installation
+
+First make sure you have followed the installation procedure for
+[pydbsnp](https://github.com/anthony-aylward/pydbsnp). Then install `pyhg19`
+with `pip3`:
+
+```sh
+pip3 install pyhg19
+```
+or
+```sh
+pip3 install --user pyhg19
+```
+
+For full functionality, you should appropriately set environment variables
+`PYHG19_PATH`, `PYHG19_MASKED`, `PYHG19_BOWTIE2_INDEX`. For example, you could
+add this to your `.bash_profile`:
+
+```bash
+export PYHG19_PATH=<path of your choice>
+export PYHG19_MASKED=<path of your choice>
+export PYHG19_BOWTIE2_INDEX=<path of your choice>
+```
+
+## Examples
+
+```python
+import pyhg19
+rs10_coord = pyhg19.coord('rs10')
+print(f'rs10 is on chromosome {rs10_coord.chr} at position {rs10_coord.pos}')
+
+rs10_coord_tuple = pyhg19.coord_tuple('rs10')
+print(
+    'rs10 is on chromosome {} at position {}'
+    .format(rs10_coord_tuple[0], rs10_coord_tuple[1])
+)
+
+rs_something = pyhg19.rsid(chr=1, pos=10019)
+print(
+    'The RSID of the variant on chromosome 1 at position 10019 is {}.'
+    .format(rs_something)
+)
+```
+
