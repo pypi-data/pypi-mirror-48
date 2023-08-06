@@ -1,0 +1,13 @@
+README.md
+setup.py
+elizur/__init__.py
+elizur.egg-info/PKG-INFO
+elizur.egg-info/SOURCES.txt
+elizur.egg-info/dependency_links.txt
+elizur.egg-info/not-zip-safe
+elizur.egg-info/requires.txt
+elizur.egg-info/top_level.txt
+elizur/life/__init__.py
+elizur/life/annuity/__init__.py
+elizur/life/table/__init__.py
+elizur/life/util/__init__.py
