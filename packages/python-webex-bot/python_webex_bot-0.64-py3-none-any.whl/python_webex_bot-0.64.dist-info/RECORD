@@ -1,0 +1,14 @@
+python_webex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_webex/v1/Bot.py,sha256=p5s_ayToGsB2xZsp1JQ8uCqJPlIa05Ckikd9-8WzUYs,1222
+python_webex/v1/Message.py,sha256=5wazdfo9rsq63ZLLNxfcsIXbEMhYk7XwEgrAj4-IOLA,3358
+python_webex/v1/People.py,sha256=53NC7C3lYVHzwbrc7HiDJxdmsz6JlZeP8EL7BvdwhEI,1484
+python_webex/v1/Room.py,sha256=bukz2vPcJrI-uV4UVel7RIB4jqXiS1NGOjqTSrTMVyk,3139
+python_webex/v1/Webhook.py,sha256=QJe1M24vAIfM-pGs1IUGgSdbjRS3FJU9_2O-LDLN9X0,4035
+python_webex/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_webex/webhook/__init__.py,sha256=p4SP7eFbCju8B20K_dDy-ZN_OfyWo0bWMQjsAJuG8Lw,920
+python_webex_bot-0.64.data/scripts/python_webex_bot,sha256=7SonGMMIN8hPZAtdW8l_4Zr0FAJlLjFb50ut6mevxgo,69
+python_webex_bot-0.64.dist-info/LICENSE,sha256=vR2z3eUszyli3pNE5DdS2gRzEwCRuQTwhfjfPkGTXpk,1091
+python_webex_bot-0.64.dist-info/METADATA,sha256=id2Y9ErvQkvdO9Iw2sfcnxCBMUSiOAjYWlKjtqmjGLs,6282
+python_webex_bot-0.64.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+python_webex_bot-0.64.dist-info/top_level.txt,sha256=mTllRCfxhaugpWF8UN7F84BG1ClBJ4vFN50qSWF2ap4,13
+python_webex_bot-0.64.dist-info/RECORD,,
