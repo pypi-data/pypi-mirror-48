@@ -1,0 +1,13 @@
+README.md
+setup.py
+kfmd/__init__.py
+kfmd/metadata.py
+kfmd.egg-info/PKG-INFO
+kfmd.egg-info/SOURCES.txt
+kfmd.egg-info/dependency_links.txt
+kfmd.egg-info/top_level.txt
+kfmd/openapi_client/__init__.py
+kfmd/openapi_client/api_client.py
+kfmd/openapi_client/configuration.py
+kfmd/openapi_client/exceptions.py
+kfmd/openapi_client/rest.py
