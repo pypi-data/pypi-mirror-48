@@ -1,0 +1,15 @@
+vcfpy2/__init__.py,sha256=7sPc5xuPOOOtM0sADF5BLhpyVjkaTTGoL-XNjOQP7D8,1071
+vcfpy2/bgzf.py,sha256=IR9rCRD2IILYTByaCTu8vl3upMb5I22FiPNifJvC-1M,7273
+vcfpy2/compat.py,sha256=XZnXUttHE4u6pumo-VtVkjWyDoZQ6npHHffR221NP5Y,573
+vcfpy2/exceptions.py,sha256=uRZfHpA3dLC_LjrrevqfISi9h1ibWbFSGabFo73Nav8,1793
+vcfpy2/header.py,sha256=j9I6FCc8L-2PPmjkKOHjQQotEBeOM0-RrqjbdsrypmM,34546
+vcfpy2/parser.py,sha256=UtfxalpGQUYtQk7AXegF8SWEeKR0QTLng5CR2hlbVhw,28494
+vcfpy2/reader.py,sha256=3eJMoOD1Pp4yqECWgqjG8330OcI-OUAxRF770SgPQmE,6753
+vcfpy2/record.py,sha256=GisH_NR6oUUDDLd_CSrZ-aOxHF_H6oJglqgcIqeT7SM,17064
+vcfpy2/writer.py,sha256=kx2SYJQQ3ly0AgGd-Ob8uCbrDNfEwRLFFaBYGJAv07k,6530
+vcfpy2-0.1.0.dist-info/AUTHORS.rst,sha256=wbKGyltovHOQaaMyENqYa0asHQjS2zg7Z5h0YimPnng,163
+vcfpy2-0.1.0.dist-info/LICENSE,sha256=-3sdoopRZbcVv5QIy7PYA2KUw4HDEP5Bzf-Afg2HgKU,1073
+vcfpy2-0.1.0.dist-info/METADATA,sha256=wy9SIK0SC2pmVzIKqAwqDIO6PvFdjpGrSJ-9o-Ed1cs,2324
+vcfpy2-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+vcfpy2-0.1.0.dist-info/top_level.txt,sha256=s2xmwU_6SiPhd2cVzbTWOX0BKxC42Oper-pNGVpw6X8,7
+vcfpy2-0.1.0.dist-info/RECORD,,
