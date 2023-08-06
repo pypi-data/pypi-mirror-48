@@ -1,0 +1,30 @@
+{
+  "name": "lobio",
+  "version": "0.0.1",
+  "description": "Extra utilities for BioPython",
+  "authors": [
+    "Justin Vrana <justin.vrana@gmail.com>"
+  ],
+  "homepage": "https://www.github.com/jvrana/LoBio",
+  "repository": "https://www.github.com/jvrana/LoBio",
+  "documentation": "https://www.github.com/jvrana/LoBio",
+  "readme": "README.md",
+  "dependencies": {
+    "python": "^3.7",
+    "biopython": "^1.73"
+  },
+  "dev-dependencies": {
+    "black": {
+      "version": "^18.3-alpha.0",
+      "allows-prereleases": true
+    },
+    "pytest": "^4.6",
+    "pre-commit": "^1.17",
+    "toml": "^0.10.0"
+  },
+  "scripts": {
+    "upver": "lobio:_version.pull_version",
+    "version": "lobio:_version.get_version",
+    "name": "lobio:_version.get_name"
+  }
+}
