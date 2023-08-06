@@ -1,0 +1,17 @@
+get_args>=1.2
+aiohttp[speedups]
+
+[color]
+coloredlogs
+
+[etcd]
+etcd3
+
+[fluentd]
+fluent-logger
+
+[prometheus]
+prometheus_client
+
+[statsd]
+statsd

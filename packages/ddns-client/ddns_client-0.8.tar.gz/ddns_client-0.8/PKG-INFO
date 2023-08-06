@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: ddns_client
+Version: 0.8
+Summary: ddns_client, used with coredns/etcd
+Home-page: https://github.com/fun04wr0ng/ddns
+Author: fun04wr0ng
+Author-email: fun04wr0ng@gmail.com
+License: GPL v3
+Description: DDNS
+        ====
+        
+        采用以下开源项目作为核心实现:
+        
+        - CoreDNS: https://coredns.io/
+        - Etcd: https://etcd.io/
+        
+        获取公网IP接口(多个容错):
+        
+        - http://www.myipaddress.com/show-my-ip-address/
+        - https://www.ipip.net/
+        - http://20019.ip138.com/
+        
+        
+        日志/指标方案支持以下:
+        
+        - fluentd: https://github.com/fluent/fluentd
+        - prometheus: https://github.com/prometheus/prometheus
+        - netdata/statsd: https://github.com/netdata/netdata, https://github.com/statsd/statsd 
+        
+        部署方案支持以下:
+        
+        - systemd: https://github.com/systemd/systemd
+        - docker: https://github.com/moby/moby
+        - k8s: https://github.com/kubernetes/kubernetes
+        
+        其他参数支持:
+        
+        - pid
+        
+        客户端采用技术:
+        
+        - python3.6: https://docs.python.org/3.6/
+        - logging/asyncio: 
+        - uvloop: https://github.com/MagicStack/uvloop
+        - etcd: https://github.com/kragniz/python-etcd3
+        - ~~fluentd: https://github.com/fluent/fluent-logger-python~~ #使用tcp通信, 与架构兼容性不好
+        - fluentd: https://docs.fluentd.org/input/udp
+        - statsd: https://github.com/jsocol/pystatsd
+        - prometheus: https://github.com/prometheus/client_python
+        - aiohttp: https://github.com/aio-libs/aiohttp
+        - color: https://github.com/tartley/colorama, https://github.com/xolox/python-coloredlogs
+        
+        
+        实现方案考虑
+        ----------
+        
+        - ``coredns + /etc/hosts + python server/client``
+        - ``coredns + etcd + python client``
+        
+        ![实现方案](image/plans.jpg)
+        
+        
+        最终方案选择
+        -----------
+        
+        降低对环境的耦合, 不对 ``/etc/hosts`` 进行操作(简单性能一般), 最终采用 ``coredns + etcd + python client ``方案。
+        
+        
+        
+        部署方案考虑
+        -----------
+        
+        支持以下方案(平台支持: linux/amd64+arm64):
+        
+        - 二进制/systemd
+        - Docker/docker-compose/docker-swarm
+        - k8s
+        
+        
+        周边生态考虑
+        -----------
+        
+        支持以下项目:
+        
+        - 参数配置
+          - 命令行参数: [argparse](https://docs.python.org/3.6/library/argparse.html)
+          - 环境变量: [dotenv](https://github.com/theskumar/python-dotenv)
+          - 配置文件: [yaml](https://pyyaml.org/wiki/PyYAMLDocumentation)
+          
+        - 日志输出:
+            - 标准输出/错误
+            - 日志文件(根据信号支持重新打开): [logging](https://docs.python.org/3.6/library/logging.html)
+            - fluentd输出: [fluentd-python](https://docs.fluentd.org/language-bindings/python)
+        
+        - 指标输出:
+            - http/https: [prometheus](https://github.com/prometheus/client_python)
+            - netdata/statsd: [statsd-python](https://github.com/statsd/statsd/wiki#client-implementations)
+            
+        - 信号处理:
+            - 重启加载日志
+            - stop/quit/reopen/reload
+         
+         
+        运行流程图
+        ----------
+        
+        读取配置文件:
+        
+        ![配置文件](./image/flow-config.jpg)
+        
+        运行:
+        
+        ![运行](./image/flow-client.jpg)
+        
+        
+        安装部署
+        ----------
+        
+        ```bash
+        # brotlipy(aiohttp[speedup]) requirements
+        apt install -y build-essential python3.6-dev libffi-dev
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: color
+Provides-Extra: fluentd
+Provides-Extra: prometheus
+Provides-Extra: statsd
+Provides-Extra: etcd
