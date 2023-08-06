@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: acls
+Version: 1.0.2
+Summary: `@cls` - Class Made Aware to Decorator
+Home-page: https://github.com/guoquan/acls
+Author: guoquan
+Author-email: guoquanscu@gmail.com
+License: UNKNOWN
+Description: # `@cls` - Class Made Aware to Decorator
+        
+        [![PyPI - License](https://img.shields.io/pypi/l/acls.svg)](https://pypi.org/project/acls/)
+        [![PyPI](https://img.shields.io/pypi/v/acls.svg)](https://pypi.org/project/acls/)
+        [![PyPI - Status](https://img.shields.io/pypi/status/acls.svg)](https://pypi.org/project/acls/)
+        [![PyPI - Python Version](https://img.shields.io/pypi/pyversions/acls.svg)](https://pypi.org/project/acls/)
+        
+        [![GitHub](https://img.shields.io/github/license/guoquan/acls.svg)](LICENSE)
+        [![CircleCI](https://circleci.com/gh/guoquan/acls/tree/master.svg?style=svg)](https://circleci.com/gh/guoquan/acls/tree/master)
+        [![Build Status](https://travis-ci.org/guoquan/acls.svg?branch=master)](https://travis-ci.org/guoquan/acls)
+        [![codecov](https://codecov.io/gh/guoquan/acls/branch/master/graph/badge.svg)](https://codecov.io/gh/guoquan/acls)
+        
+        
+        The purpose of this library is to provide possibility to create decorators, especially in super classes, with current class `cls` as argument.
+        Everything are centered with our new `cls` module, keyword, magic, or what every you think it would be.
+        
+        ## Getting Started
+        
+        ### Installation
+        
+        Install by `pip` from PyPI:
+        ```bash
+        pip install acls
+        ```
+        
+        ### Example
+        
+        A typical snippet looks like:
+        
+        ```python
+        from functools import wraps
+        import cls
+        
+        
+        class Base(metaclass=cls.ClsMeta):
+          @cls
+          def decor(cls, decor_arg):
+            def wrap(func):
+              @wraps(func)
+              def wrapper(self):
+                # do something with `func`
+                retval = func(self)
+                # do something with `retval`
+                return retval
+              return wrapper
+            return wrap
+        
+        class Extended(Base):
+          @cls.decor('some arg')
+          def func(self):
+            # do something
+            pass
+        ```
+        
+        The magic is that you can use `@cls.decor` in `Extended` class, which is inheritance from `Base`.
+        What is more, with in the decorator `Base.decor`, argument `cls` will be assigned with the correct current class.
+        In this example, it would simply be a reference to `Extended`.
+        This would be helpful if you want to make use of some class property here in the decorator.
+        
+        ## Magic
+        
+        Well, there is no magic. I created a delegator in class namespace to enable both class possible to use `@cls`.
+        So, it is not the module `cls` as we imported on the top.
+        I use this to make it more consistent looking, and fool some interpreters like `pylint`.
+        No offense, just want to make them less noisy.
+        
+        ## Limitations
+        
+        Unfortunately, This work is based on [customizing python class creation](https://docs.python.org/3/reference/datamodel.html#customizing-class-creation).
+        I have to make use of [`__prepare__`](https://www.python.org/dev/peps/pep-3115/#id11), which is [introduced](https://www.python.org/dev/peps/pep-3115/) only to [python 3](https://docs.python.org/3/reference/datamodel.html#customizing-class-creation).
+        That means there is no known possible backward compatibility with [python 2](https://docs.python.org/2/reference/datamodel.html#customizing-class-creation) now.
+        The code is tested against python 3.5+.
+        
+        Please let me know if you come up with an idea how to manipulate class creation in python 2.
+        
+        There are a couple of issues, with which I am talking. Contributions are welcome.
+        
+        ### Known issue
+        
+        - [ ] relying on length of arguments and `callable()` to support optional arguments in decorator
+        - [ ] not compatible with `@classmethod`, or many other decorators
+        - [ ] make `pylint` really noisy
+        - [ ] no documents :see_no_evil:!
+        
+        ## License
+        
+        [MIT License, Copyright (c) 2019 guoquan](LICENSE)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
