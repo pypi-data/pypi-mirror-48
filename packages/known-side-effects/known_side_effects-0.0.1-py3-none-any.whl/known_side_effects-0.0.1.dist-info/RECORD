@@ -1,0 +1,11 @@
+known_side_effects/__init__.py,sha256=OsXH1cApq1oZYM7khMBUW999GO_TUaWLn8bXZq6dtcA,2172
+known_side_effects/exceptions.py,sha256=IDmA5W5n-cK69Pkelgy05n6QpWtN-BYFh-uLjiEbA1o,1392
+known_side_effects/types.py,sha256=ANNsB8Xacbtv6RAJw2cPPgjgPFiDwcyw2q2C5_dQ7KA,2562
+known_side_effects/matchers/__init__.py,sha256=FKSU84rr7dd5KCA8btpDcJOubI0HVvqJpWSQKZo_hQs,1074
+known_side_effects/matchers/parameter_matchers.py,sha256=TsXf9-cRMG3XOOI_A71vdRdsthEHCM4y8qOcQJfTZ-8,3062
+known_side_effects/matchers/types.py,sha256=hKErQlnge3mjYFaWhQIM9ho5ns_PBjkgJ0parMFnKRo,2479
+known_side_effects-0.0.1.dist-info/LICENSE,sha256=qsEemU2tBaynYanX4Z6VWsdeXwof05oYrFZ4Gkarrdw,1066
+known_side_effects-0.0.1.dist-info/METADATA,sha256=dKaXFDaGHFo7MZ0wCvGxp_HlthxdYS0dSboh-YNkwAU,6002
+known_side_effects-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+known_side_effects-0.0.1.dist-info/top_level.txt,sha256=SLyj9lLJrWXt_J9ADrxyIZ00gOAva48dDqR3Ylt8tiE,19
+known_side_effects-0.0.1.dist-info/RECORD,,
