@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: fandak
+Version: 0.0.1a1.dev4
+Summary: A Framework for Deep Learning Research in PyTorch.
+Home-page: https://github.com/yassersouri/fandak
+Author: Yasser Souri
+Author-email: yassersouri@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Typing :: Typed
+Description-Content-Type: text/markdown
+Requires-Dist: torch (<2,>=1.0)
+Requires-Dist: torchvision (<1,>=0.3)
+Requires-Dist: tqdm (<5,>=4.32)
+Requires-Dist: matplotlib (<4,>=3.1.1)
+Requires-Dist: tensorboard (<2,>=1.14.0)
+
+# Fandak: فندک
+
+## Ideas
+
+* Config files:
+    - One idea is to have config files (python files) with a specific signature that implements a specific function.
+    - These files should be able to be loaded dynamically.
+    - These files should be able to be saved in snapshot directories for resuming.
+    - But it is confusing for me how to manage the dependencies for these config files.
+    - I think 3 config files are needed: Train Dataset, Model, Training
+    - We can have one more config file for: Evaluation. 
+
