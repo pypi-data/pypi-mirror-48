@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: coci
+Version: 0.1.4
+Summary: Collective Observation on Causal Inference
+Home-page: UNKNOWN
+Author: Koki Fujiwara
+Author-email: koki.fujiwara@exwzd.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: seaborn
+
+UNKNOWN
+
+
