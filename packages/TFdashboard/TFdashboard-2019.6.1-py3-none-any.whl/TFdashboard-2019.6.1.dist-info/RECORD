@@ -1,0 +1,12 @@
+TFdashboard-2019.6.1.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+TFdashboard-2019.6.1.dist-info/METADATA,sha256=s6fraE7alHg2wRdEfPvGaxERJldlZEvGFjWhEu7gKZQ,1127
+TFdashboard-2019.6.1.dist-info/RECORD,,
+TFdashboard-2019.6.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+TFdashboard-2019.6.1.dist-info/entry_points.txt,sha256=6938J0vkz2NRr7-midH-1eVhfM8IyYbXTVD6UtzdZAw,57
+TFdashboard-2019.6.1.dist-info/metadata.json,sha256=JOa69l3z3-m8zeT_WUbaXFJJCo3_amU0vtn8Oi5Zn5I,1409
+TFdashboard-2019.6.1.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/dashboard.py,sha256=0V7x5gsBLfZOIta8Ly2bLWIXukSKMNVMPRYwmME3YB8,10951
+src/widgets/TrimTab.py,sha256=PSxCYuCSm4DC343cC9IFd_KkK2QkJyAUbmYQYaxo87k,3835
+src/widgets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/widgets/range.py,sha256=JRqKnnc4CIjHd95PJzVvBhEKyNIYCHIP7kAuZhqKlLM,2978
