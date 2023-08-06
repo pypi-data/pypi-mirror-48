@@ -1,0 +1,7 @@
+README.md
+setup.py
+promptory/__init__.py
+promptory.egg-info/PKG-INFO
+promptory.egg-info/SOURCES.txt
+promptory.egg-info/dependency_links.txt
+promptory.egg-info/top_level.txt
