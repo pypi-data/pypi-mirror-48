@@ -1,0 +1,4 @@
+baidu-aip
+numpy
+opencv-python
+PyYAML
