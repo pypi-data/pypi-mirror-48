@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+mkdocs_bibtex/__init__.py
+mkdocs_bibtex/plugin.py
+mkdocs_bibtex/test_plugin.py
+mkdocs_bibtex.egg-info/PKG-INFO
+mkdocs_bibtex.egg-info/SOURCES.txt
+mkdocs_bibtex.egg-info/dependency_links.txt
+mkdocs_bibtex.egg-info/entry_points.txt
+mkdocs_bibtex.egg-info/requires.txt
+mkdocs_bibtex.egg-info/top_level.txt
