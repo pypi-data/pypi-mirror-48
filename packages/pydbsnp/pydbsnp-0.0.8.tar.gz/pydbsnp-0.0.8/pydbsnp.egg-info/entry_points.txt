@@ -1,0 +1,4 @@
+[console_scripts]
+pydbsnp-download = pydbsnp.download:main
+pydbsnp-index = pydbsnp.index:main
+
