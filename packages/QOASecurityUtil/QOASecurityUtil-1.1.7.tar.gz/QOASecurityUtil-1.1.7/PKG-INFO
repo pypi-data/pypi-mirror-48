@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: QOASecurityUtil
+Version: 1.1.7
+Summary: QOAToken工具
+Home-page: https://github.com/leeguooooo/QOASecurity
+Author: lee.guo
+Author-email: leeguoo@163.com
+License: BSD License
+Description: :Name: leeguoo
+        :Long: Here we insert more text
+           in many lines.
+        :Remark:
+          Starts on the next line.
+        
+Platform: all
