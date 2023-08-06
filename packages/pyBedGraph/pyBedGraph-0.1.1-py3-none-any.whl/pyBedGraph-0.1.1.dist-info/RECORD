@@ -1,0 +1,12 @@
+pyBedGraph/Benchmark.py,sha256=pUs7OxnZflwQdEXj2clFDc8o5K8Rn9QnTMILrjIDhJk,9648
+pyBedGraph/Chromosome.py,sha256=cjGCVb8YU8cQ9naEqAVQGjwQXpo9bcgZ5aU7av-Py7c,6378
+pyBedGraph/Genome.py,sha256=2WHxwdiJScMGdR6g0zOh_IPwW6IJeM1HE_6YlxPJkIk,3101
+pyBedGraph/Test.py,sha256=pOwc5PXLHUFtQtraPsu2f0W6487-HCS9pdoTbjXF_Dw,368
+pyBedGraph/__init__.py,sha256=hTpbAJzk9lHShitvukawTV1HBKpYkBif3ERUIXXkt-Q,1809
+pyBedGraph/main.py,sha256=CMF4-uq0K6p2q2U0T_tMLaI9zeRo18Cm9VPsHIaHpfc,57
+pyBedGraph/make_tests.py,sha256=KwqVYX5Q_hMPdDdcPR3poaQR4PjB4fsqL6no6R74iDg,1746
+pyBedGraph-0.1.1.dist-info/LICENSE,sha256=jt_e9qMHQJiHupRbxprjOqOhVfZ5dx97GFj3dEgIeZc,1069
+pyBedGraph-0.1.1.dist-info/METADATA,sha256=nVoY1dndPGS8R_7FHI-Mdox5FbauFcIAHjhchsmnFR0,1741
+pyBedGraph-0.1.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pyBedGraph-0.1.1.dist-info/top_level.txt,sha256=tfMwYz8j0GPDYcKhIqCnL2j3OcDGuBPpul2U5zqs04U,11
+pyBedGraph-0.1.1.dist-info/RECORD,,
