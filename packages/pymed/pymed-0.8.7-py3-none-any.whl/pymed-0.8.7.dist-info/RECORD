@@ -1,0 +1,11 @@
+pymed/__init__.py,sha256=II3Z4njJz2vdfHosLiJ1rAx_4pVQhr7tbDLPvO54C4I,98
+pymed/api.py,sha256=1dVD6Rn5Uu7QoLuq-kdofNdTxvi-nAyD5G9RIvelbQs,7970
+pymed/article.py,sha256=RYqzlRl4jIK7VlMAZd5XF-TB6Ym5Y26YmmgWAgz4R0I,5810
+pymed/book.py,sha256=ifmaGPNW8CXuhownAVjq-IH2O-QuSfqFzbNU4r9UXDg,5749
+pymed/helpers.py,sha256=jHb5PrAAGST0iCz3b_sGxuW_RCoMUEukzPA7ASj1tOM,1507
+pymed/version.py,sha256=vTwvdJOZi8jZb9U-Em7-d50qNDNPS2z51IXqRoojeNM,22
+pymed-0.8.7.dist-info/LICENCE,sha256=LVcts8oBugDur6mJE5cAPa79_twRiuUvNTFYQWPoUI8,1087
+pymed-0.8.7.dist-info/METADATA,sha256=2ZABZgngP9nsOxDGDwcWx5ZPsEQDFkq_RYIUAtFDZYA,2362
+pymed-0.8.7.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pymed-0.8.7.dist-info/top_level.txt,sha256=KF8yE1-BDbUrDlO1bj8hDYkpQQZBtYxMdWXxa6e2TnQ,6
+pymed-0.8.7.dist-info/RECORD,,
