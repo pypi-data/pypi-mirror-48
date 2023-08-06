@@ -1,0 +1,10 @@
+setup.py
+src/__init__.py
+src/plugin.py
+src/sentry_wechat_webhook.egg-info/PKG-INFO
+src/sentry_wechat_webhook.egg-info/SOURCES.txt
+src/sentry_wechat_webhook.egg-info/dependency_links.txt
+src/sentry_wechat_webhook.egg-info/entry_points.txt
+src/sentry_wechat_webhook.egg-info/not-zip-safe
+src/sentry_wechat_webhook.egg-info/requires.txt
+src/sentry_wechat_webhook.egg-info/top_level.txt
