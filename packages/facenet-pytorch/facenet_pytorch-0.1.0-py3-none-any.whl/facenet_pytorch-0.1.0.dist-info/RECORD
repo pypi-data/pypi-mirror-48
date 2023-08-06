@@ -1,0 +1,14 @@
+facenet_pytorch/__init__.py,sha256=wL_LTFE5D33EKLS70lELJXi-Nsq7l5_1bCXHpSXOEyw,170
+facenet_pytorch/setup.py,sha256=8C2Jw7iYr0UgzVD0A3bNzHv924AOv7P5sEunBKF0CuU,906
+facenet_pytorch/data/onet.pt,sha256=Flv75ClAQWzPuXdUXPDpdtW_Mh9nCDriqqpcdkKAEY0,1559269
+facenet_pytorch/data/pnet.pt,sha256=oqcZJeC5mWpC9j5H78HKGQQ-aVWLXFI7l41hHfrknI8,28570
+facenet_pytorch/data/rnet.pt,sha256=u7k33nLvye-DsYbEn19VhGeh1-NFOo7ODXGohmM_aoY,403147
+facenet_pytorch/models/inception_resnet_v1.py,sha256=xmTza87zTCi3phYEEYc8a_ub5TM2uhZyIZHfeRVGC48,10983
+facenet_pytorch/models/mtcnn.py,sha256=Ro3w5NclzVObQ5Ocsyw8iKbM-Iok951hadDEdx0eALc,12111
+facenet_pytorch/models/utils/detect_face.py,sha256=jXBDoAdpKnFjtA0dL5vy4zVOyyj0o7WgnG9k_ln0AZw,9963
+facenet_pytorch/models/utils/example.py,sha256=MqT--prtZHtLY_Rc-x4pHwJiyq3FcZqLXZfyYtVg2Bw,1899
+facenet_pytorch/models/utils/tensorflow2pytorch.py,sha256=FlK9dZ13RYgMqjetOZOWJ8Z_vmsrl6p_k2AiqyQEAq8,16090
+facenet_pytorch-0.1.0.dist-info/METADATA,sha256=6sRIzxcB2RJXs5rYPhVGypC0HzOS0RvGjjKWprqdFak,9002
+facenet_pytorch-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+facenet_pytorch-0.1.0.dist-info/top_level.txt,sha256=4aQ4VHtnQRKS8Fxa7omifaPDlbgpEH6CCSto3X6ibGo,16
+facenet_pytorch-0.1.0.dist-info/RECORD,,
