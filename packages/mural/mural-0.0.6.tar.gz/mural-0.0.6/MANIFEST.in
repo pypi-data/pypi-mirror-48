@@ -1,0 +1,8 @@
+include market-game/bin/static/base.css
+include market-game/bin/static/canvas.css
+include market-game/bin/static/canvas.js
+include market-game/bin/static/jquery.js
+include market-game/bin/templates/canvas.html
+include market-game/bin/templates/index.html
+include market-game/bin/templates/market.html
+include market-game/bin/oracle.yaml
