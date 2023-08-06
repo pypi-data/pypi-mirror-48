@@ -1,0 +1,43 @@
+Metadata-Version: 1.1
+Name: httpasync
+Version: 0.1.0
+Summary: HTTP Async.
+Home-page: https://github.com/eerimoq/httpasync
+Author: Erik Moqvist
+Author-email: erik.moqvist@gmail.com
+License: MIT
+Description-Content-Type: UNKNOWN
+Description: |buildstatus|_
+        |coverage|_
+        
+        HTTP Async
+        ==========
+        
+        Project homepage: https://github.com/eerimoq/httpasync
+        
+        Documentation: https://httpasync.readthedocs.org/en/latest
+        
+        Installation
+        ============
+        
+        .. code-block:: python
+        
+            pip install httpasync
+        
+        Examples
+        ========
+        
+        There are plenty of examples in the `examples folder`_.
+        
+        .. |buildstatus| image:: https://travis-ci.org/eerimoq/httpasync.svg?branch=master
+        .. _buildstatus: https://travis-ci.org/eerimoq/httpasync
+        
+        .. |coverage| image:: https://coveralls.io/repos/github/eerimoq/httpasync/badge.svg?branch=master
+        .. _coverage: https://coveralls.io/github/eerimoq/httpasync
+        
+        .. _examples folder: https://github.com/eerimoq/httpasync/tree/master/examples
+        
+Keywords: http
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
