@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: monobank
+Version: 0.1.0
+Summary: Monobank.ua API implementation
+Author: Vitaliy Kucheriavyi
+Author-email: ppr.vitaly@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests (>=2.22,<3.0)
