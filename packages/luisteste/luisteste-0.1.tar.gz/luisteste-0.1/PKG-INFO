@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: luisteste
+Version: 0.1
+Summary: pacote criado na aula1
+Home-page: https://github.com/AlissonMMenezes/teste
+Author: Luis C
+Author-email: luis.cipparrone@stone.com.br
+License: UNKNOWN
+Description: ### STONE CLI
+        
+        cria 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

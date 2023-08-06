@@ -1,0 +1,11 @@
+README.md
+setup.py
+stone_cli.py
+Modulos/Azure.py
+Modulos/Cloud.py
+Modulos/GCP.py
+Modulos/__init__.py
+luisteste.egg-info/PKG-INFO
+luisteste.egg-info/SOURCES.txt
+luisteste.egg-info/dependency_links.txt
+luisteste.egg-info/top_level.txt
