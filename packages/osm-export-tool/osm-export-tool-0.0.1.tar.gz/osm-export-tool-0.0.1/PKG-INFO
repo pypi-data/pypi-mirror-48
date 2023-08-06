@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: osm-export-tool
+Version: 0.0.1
+Summary: Convert OpenStreetMap data into GIS and mobile mapping file formats.
+Home-page: https://github.com/hotosm/osm-export-tool-python
+Author: Brandon Liu
+Author-email: brandon.liu@hotosm.org
+License: UNKNOWN
+Description: OSM Export Tool
+        
+        Under development.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
