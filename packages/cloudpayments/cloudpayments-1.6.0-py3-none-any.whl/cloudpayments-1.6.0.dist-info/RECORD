@@ -1,0 +1,12 @@
+cloudpayments/__init__.py,sha256=FzazOxFc0Kzghut6msC_gTbIbaB3g4arW7jrVFccNLY,336
+cloudpayments/client.py,sha256=U-hb8vSerWhrfTNZt797p_hxHL9YV8bPIHbwAHRCuu0,11964
+cloudpayments/enums.py,sha256=zgAv1HH-aZ948baPrMW0OY_S4CRAG1t5NXKc7b3OisA,6964
+cloudpayments/errors.py,sha256=HYtghRYOZ-cTfDgJOq9pEHUz72sBtd8rCi9fzYtsCHY,1049
+cloudpayments/models.py,sha256=9o0ZmhiecMGlGP4eKbqFnAo2DLyQVFeEbUpLo4WQXM4,13041
+cloudpayments/tests.py,sha256=TD7mF1o-2wqBESU5YLxWqo1eCjOJXznE88b-VudMw-0,11144
+cloudpayments/utils.py,sha256=PM3-Owtx_6Wid8EkfeaWrmGMmDZ6aDOuBDOXx6zl9iU,403
+cloudpayments-1.6.0.dist-info/LICENSE,sha256=JcCtImiO49fIYxFFNwJ1tmv1r2uRrK32yqEAKzjbYkg,1100
+cloudpayments-1.6.0.dist-info/METADATA,sha256=vFx5AHtP3agAzjJBdm2TJY2-TEHXaW7F_w8Cv1JX3d0,12165
+cloudpayments-1.6.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+cloudpayments-1.6.0.dist-info/top_level.txt,sha256=Qs3eVMkq-XF284CkyyCCNtrFotsdSRvMZ1AxdAZpOD8,14
+cloudpayments-1.6.0.dist-info/RECORD,,
