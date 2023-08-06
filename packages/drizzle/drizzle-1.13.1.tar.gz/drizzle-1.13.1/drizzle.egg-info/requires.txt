@@ -1,0 +1,11 @@
+Cython
+astropy
+
+[docs]
+sphinx
+sphinx_automodapi
+matplotlib
+
+[test]
+pytest
+pytest-runner
