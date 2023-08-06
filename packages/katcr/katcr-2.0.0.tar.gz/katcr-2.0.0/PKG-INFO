@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: katcr
+Version: 2.0.0
+Summary: KickassTorrents CLI and Telegram bot
+License: GPL-3.0+
+Author: David Francos
+Author-email: opensource@davidfrancos.net
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: cleo (>=0.7.4,<0.8.0)
+Requires-Dist: cutie (>=0.2.2,<0.3.0)
+Requires-Dist: pygogo (>=0.12.0,<0.13.0)
+Requires-Dist: requests (>=2.22,<3.0)
+Requires-Dist: robobrowser (>=0.5.3,<0.6.0)
+Requires-Dist: telepot (>=12.7,<13.0)
+Requires-Dist: torrentmirror (>=0.1.0,<0.2.0)
