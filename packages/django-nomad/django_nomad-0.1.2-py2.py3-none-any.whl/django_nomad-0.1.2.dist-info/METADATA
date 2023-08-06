@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: django-nomad
+Version: 0.1.2
+Summary: Easily handle migrations in dev mode
+Home-page: https://github.com/smaniotto/django-nomad
+Author: Bernardo Smaniotto
+Author-email: bernardo@cheesecakelabs.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Requires-Dist: django
+
+UNKNOWN
+
+
