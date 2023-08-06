@@ -1,0 +1,11 @@
+[tool.poetry]
+name = "autopub"
+version = "0.1.0-alpha.0"
+authors = ["Justin Mayer <entrop@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
