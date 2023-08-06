@@ -1,0 +1,13 @@
+setup.py
+gimmebio.seqs.egg-info/PKG-INFO
+gimmebio.seqs.egg-info/SOURCES.txt
+gimmebio.seqs.egg-info/dependency_links.txt
+gimmebio.seqs.egg-info/namespace_packages.txt
+gimmebio.seqs.egg-info/top_level.txt
+gimmebio/seqs/__init__.py
+gimmebio/seqs/cli.py
+gimmebio/seqs/concat_lanes.py
+gimmebio/seqs/fastx.py
+gimmebio/seqs/fastx_io.py
+gimmebio/seqs/sample_management.py
+gimmebio/seqs/seqs.py
