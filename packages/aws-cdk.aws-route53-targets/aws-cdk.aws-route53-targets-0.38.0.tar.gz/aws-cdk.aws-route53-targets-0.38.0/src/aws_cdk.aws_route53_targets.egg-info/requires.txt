@@ -1,0 +1,8 @@
+jsii~=0.14.0
+publication>=0.0.3
+aws-cdk.aws-apigateway~=0.38.0
+aws-cdk.aws-cloudfront~=0.38.0
+aws-cdk.aws-elasticloadbalancingv2~=0.38.0
+aws-cdk.aws-iam~=0.38.0
+aws-cdk.aws-route53~=0.38.0
+aws-cdk.core~=0.38.0
