@@ -1,0 +1,11 @@
+user_voting_rocks/__init__.py,sha256=wup2yk56-0sd3Z8vmetHkYL0L5tx9xTxpq5rdY5kx8U,159
+user_voting_rocks/cli.py,sha256=jJdsTJW2Dg2WRDEL1eDcDylS-AIKPTM4j7VUBnQwPMk,3098
+user_voting_rocks/stop_words.py,sha256=AJKG1iS2fvkKV3WrECAQ3ecynlIfCw7bs4uxLd8x9SU,3327
+user_voting_rocks/user_voting_rocks.py,sha256=0bOn9mKXGb4ShFyGwQTrcxHmlsedoZlNqj5tG_bGSC4,2120
+user_voting_rocks-0.1.0.dist-info/AUTHORS.rst,sha256=x-L3MXM_LYF8CbRqzaQQ8Xkj_Wv4q21d3A3VSABnTUo,155
+user_voting_rocks-0.1.0.dist-info/LICENSE,sha256=CwkJ_bq6cbb4h1NgVy92RgqJRYbWBnRUs1ELM7wwZiI,1066
+user_voting_rocks-0.1.0.dist-info/METADATA,sha256=6Zstq71wmZdARG_wpeaxVFB7L8dyeryakx8eVys84C8,2596
+user_voting_rocks-0.1.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+user_voting_rocks-0.1.0.dist-info/entry_points.txt,sha256=zRyMXDA1X84AlFoWTxDMM7GexZ9nqQcvujfuUFnNmAE,66
+user_voting_rocks-0.1.0.dist-info/top_level.txt,sha256=hLYy4JGLzjDN3wnYAut795LYNqR2DvztNTaq9CxWA88,18
+user_voting_rocks-0.1.0.dist-info/RECORD,,
