@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: codewars
+Version: 0.0.1
+Summary: A toolbox for daily use
+Home-page: UNKNOWN
+Author: Annihilator708
+Author-email: 
+License: UNKNOWN
+Description: [![Codewars.nl](https://codewars.nl/static/img/logo.png)](https://codewars.nl/)
+        Make sure the dependencies are installed before using
+        
+        
+        `sudo apt-get install libbluetooth-dev`
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
