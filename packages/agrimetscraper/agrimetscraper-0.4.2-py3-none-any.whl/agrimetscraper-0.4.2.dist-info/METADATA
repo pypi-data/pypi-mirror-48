@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: agrimetscraper
+Version: 0.4.2
+Summary: A package to scrape AgriMet weather data
+Home-page: https://github.com/lixiaopi1985/agrimet_scraper
+Author: Xiaoping Li
+Author-email: lixiaopi@oregonstate.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: python-crontab
+Requires-Dist: requests
+Requires-Dist: fake-useragent
+Requires-Dist: bs4
+Requires-Dist: pymongo
+Requires-Dist: dnspython
+
+# agrimetscraper
+
+
+### introduction
+
+agrimetscraper crawls AgriMet weather data and summarise for later data usage.
+
+### basic usage
+
+Python virtual environment is preferred
+
+`pip install agrimetscraper`
+
+`startproject -p <yourproject> -t <select database type: mongodb or sql or atlas>`
+
+It will create a directory for your project, this folder will contain yourproject-config, yourproject-log, yourproject-database, yourproject-stations
+
+>If you choose 'atlas', the program will prompt you for your atlas connection string and the password 
+
+
+cd into your project, change .ini file if needed
+
+
+**There are two baseurls for agrimet API: one is for daily, the other is for instant, are all defined in ini file**
+
+run project: python runproject.py -f "instant"|"daily" -n dbtable
+
+set scheduler in .ini file (this program uses crontab)
+
+**For instant data, program will aggregate 15 minutes into 1 hour interval and average the parameters
+
+
+
