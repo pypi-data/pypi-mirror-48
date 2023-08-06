@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+test_synthetic_generator.ipynb
+TLSynDataGene/Generator.py
+TLSynDataGene/__init__.py
+TLSynDataGene.egg-info/PKG-INFO
+TLSynDataGene.egg-info/SOURCES.txt
+TLSynDataGene.egg-info/dependency_links.txt
+TLSynDataGene.egg-info/top_level.txt
