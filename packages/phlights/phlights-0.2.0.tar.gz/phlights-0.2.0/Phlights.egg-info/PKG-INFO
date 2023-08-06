@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: phlights
+Version: 0.2.0
+Summary: Flight Search API Powered by Kiwi
+Home-page: http://pypi.python.org/pypi/phlights/
+Author: Josh Imbriani
+Author-email: josh@mailinator.com
+License: LICENSE
+Description: # Phlights
+Platform: UNKNOWN
