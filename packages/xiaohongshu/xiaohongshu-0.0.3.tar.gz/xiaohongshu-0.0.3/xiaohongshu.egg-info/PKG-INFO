@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: xiaohongshu
+Version: 0.0.3
+Summary: Xiaohongshu Python SDK
+Home-page: https://github.com/block-cat/xiaohongshu
+Author: blackcat
+Author-email: kfx2007@163.com
+License: GNU
+Description: # 小红书 Python SDK
+        
+        小红书Python SDK
+        
+        ## requirement
+        
+        python >= 3.6
+        
+        # 安装使用
+        
+        ## 安装
+        
+        pypi:
+        
+        ```python
+        pip install xiaohongshu
+        ```
+        
+        
+        ## Usage
+        
+        使用示例：
+        ```
+        from xiaohongshu.api.api import ARK
+        
+        ark = ARK("xhs", "9a539709cafc1efc9ef05838be468a28")
+        
+        # 获取物流公司列表
+        ark.comm.get_express_list()
+        ```
+        
+        ## 接口说明
+        
+        公共接口封装在comm中
+        订单相关接口封装在order
+        库存相关接口封装在stock
+        商品相关封装在product.
+        
+        ## changelog
+        
+        [0.0.3] 添加物流模式接口的说明，官方文档存在错误。
+        
+Keywords: xiaohongshu sdk
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Description-Content-Type: text/markdown
