@@ -1,0 +1,3 @@
+[console_scripts]
+keysteps = keysteps.__main__:main
+
