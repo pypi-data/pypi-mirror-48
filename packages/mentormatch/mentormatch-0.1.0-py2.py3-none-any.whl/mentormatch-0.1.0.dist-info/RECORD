@@ -1,0 +1,11 @@
+mentormatch/__init__.py,sha256=HPmQyboSO_0Qyv5jorXZSu6AcopvDyiOohZwWm4yp64,166
+mentormatch/cli.py,sha256=7vnyQCasb0Z8q7cnTNgwjcaiubh4wilz3OrjkMpocLw,512
+mentormatch/get_path.py,sha256=jERq4DBDmqjgjrZ7guv3zUTwCMqNPYIds9tGMHrKhNY,351
+mentormatch/mentormatch.py,sha256=Qtq3EpSkdAFqQNQPDXTAouXS784LkR8Rh2D5s5w5_tc,47
+mentormatch-0.1.0.dist-info/AUTHORS.rst,sha256=jAlUjjLOm3LAcSp2WrY3mrtC_qChXPBKmj-u0SGMBpg,174
+mentormatch-0.1.0.dist-info/LICENSE,sha256=40eFCL54CAcoTgsjC06O6pynAYn-sdcd1nw3hO8v06s,1098
+mentormatch-0.1.0.dist-info/METADATA,sha256=M5EtHmxbv2dKmVjrYsWaSHDzpY8K6FalVVXsqinfW34,1892
+mentormatch-0.1.0.dist-info/WHEEL,sha256=53VSps8MltPLN_x9Ib61FU2ZSaJKzgrWQqu9rS-Dkgk,116
+mentormatch-0.1.0.dist-info/entry_points.txt,sha256=mhcJBwa_ePE_yY5Pjp44D5jPMzVnKVWzI9R3GltVjyE,54
+mentormatch-0.1.0.dist-info/top_level.txt,sha256=wqUG33Hmc-9khueTMnLjr9YSo2Ghwq7C-huTopmu0Ew,12
+mentormatch-0.1.0.dist-info/RECORD,,
