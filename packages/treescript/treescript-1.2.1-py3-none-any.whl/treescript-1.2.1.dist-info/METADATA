@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: treescript
+Version: 1.2.1
+Summary: Tree Modifying Script
+Home-page: https://github.com/mozilla-releng/treescript
+Author: Mozilla Release Engineering
+Author-email: release+python@mozilla.com
+License: MPL2
+Platform: UNKNOWN
+Requires-Dist: mozilla-version
+Requires-Dist: scriptworker
+Requires-Dist: taskcluster
+
+UNKNOWN
+
+
