@@ -1,0 +1,12 @@
+README.md
+setup.py
+scripts/vcfbench.py
+scripts/vcfcnsus.py
+vbtools/__init__.py
+vbtools/vbtools.py
+vbtools.egg-info/PKG-INFO
+vbtools.egg-info/SOURCES.txt
+vbtools.egg-info/dependency_links.txt
+vbtools.egg-info/not-zip-safe
+vbtools.egg-info/requires.txt
+vbtools.egg-info/top_level.txt
