@@ -1,0 +1,14 @@
+hoggorm/__init__.py,sha256=bHu9MH04imYvA1G4ESul4rnjJMC45_a5lxjQDLW1Uc0,703
+hoggorm/cross_val.py,sha256=ZexH3hyUofc5P3K8J_0hS-yQWIG9z8X_gTBuVVI616c,9087
+hoggorm/mat_corr_coeff.py,sha256=YQUdEDI5IvbaHRUIkOOsllR0ypvUfPUPKbtNt5Huvig,16392
+hoggorm/pca.py,sha256=TwxGooRUleTxOoz4aMQ9vl2cuBaF_17P4luJ2CknlVU,39934
+hoggorm/pcr.py,sha256=E1-Fx58rnS-PeXQy0H3A1YTkB1V_IqU9tHqxUz4GVp4,66090
+hoggorm/plsr1.py,sha256=v2VFQQmcQVdBzDEP4zR1u_I4IJuG15H_hqSKvbs4gsg,56399
+hoggorm/plsr2.py,sha256=WWI0beiVHpt5EHtfEoJc7WLbhFSpFxnY7I-VKtlh-Zo,68277
+hoggorm/statTools.py,sha256=RBgoKG6of0478wKHYz54g1-hVTDDsV0icV1w8_jBpig,4296
+hoggorm/version.py,sha256=AqSZpyPeYdJtsfcETndfa4WlOKrFvgrYaRWzU-pfNNA,24
+hoggorm-0.13.2.dist-info/LICENSE,sha256=ysomhrUX4OC00FyTXYRrzkIJr0Xy_KQ1vYEpJEY895c,1342
+hoggorm-0.13.2.dist-info/METADATA,sha256=svJyjAtMlynMgxqHM3JWUFugOAwn4UbscaYy4jSt2Pg,2645
+hoggorm-0.13.2.dist-info/WHEEL,sha256=aEiWNTQcG6AiGGAYQ9qHTifyKRnmFJvDeTI0hP5aohY,116
+hoggorm-0.13.2.dist-info/top_level.txt,sha256=lBX5348qHIed3h5uNB8ZvSzf_7CKaB8uEzbviTxQf1U,8
+hoggorm-0.13.2.dist-info/RECORD,,
