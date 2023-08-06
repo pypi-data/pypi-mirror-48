@@ -1,0 +1,11 @@
+asv_bwrap/__init__.py,sha256=Fw4HBVb894B1CZdmFgxW0UERlDb_7C5G9D4T452V1qQ,294
+asv_bwrap/__main__.py,sha256=gsXQtkXeFmKXjmBbDst9vQIp7QEMcT-nVk75mJEMpfg,61
+asv_bwrap/_version.py,sha256=f8yGiZ5O8PGk4pBPSuDoXerG1OigBpGQo2SK20Rlv34,1756
+asv_bwrap/main.py,sha256=Yk2wbbeaBHGqSB57WP_HqTVM8EIcko3TqWOad9u-ero,13889
+asv_bwrap/scripts/preamble1.sh,sha256=xRSPBxApco6V46Zoca_RuQWov5iBJdy6nbceiORrC0Y,893
+asv_bwrap/scripts/run1.sh,sha256=rZr4vAVdu1inPjKr4BCp3Zpto9v0G1kk2StJaq531Hc,717
+asv_bwrap-0.1.dist-info/entry_points.txt,sha256=JtHjg1gVFi8dDkziJ4uKJLEDUtVRa99E1kSJ-pr4S8M,49
+asv_bwrap-0.1.dist-info/LICENSE.rst,sha256=AeSoP6HYvEMj3iYwqQLqt6zoYY1blCrSzsr1B-i9TTE,1487
+asv_bwrap-0.1.dist-info/WHEEL,sha256=JXk7EE_UnY8Q4113Zu8f6SlrMizLH61VvvtIzqzkSKE,79
+asv_bwrap-0.1.dist-info/METADATA,sha256=9_Tqj1FDkTaD3RZSWCaSCZpudgnGFbb0Q3n7wToi_ms,2475
+asv_bwrap-0.1.dist-info/RECORD,,

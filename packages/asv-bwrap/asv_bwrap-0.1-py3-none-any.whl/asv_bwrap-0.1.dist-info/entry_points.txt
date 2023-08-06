@@ -1,0 +1,3 @@
+[console_scripts]
+asv-bwrap=asv_bwrap.main:main
+
