@@ -1,0 +1,9 @@
+setup.py
+df_multinomial/__init__.py
+df_multinomial/df_multinomial.py
+df_multinomial/test_df_multinomial.py
+df_multinomial.egg-info/PKG-INFO
+df_multinomial.egg-info/SOURCES.txt
+df_multinomial.egg-info/dependency_links.txt
+df_multinomial.egg-info/not-zip-safe
+df_multinomial.egg-info/top_level.txt

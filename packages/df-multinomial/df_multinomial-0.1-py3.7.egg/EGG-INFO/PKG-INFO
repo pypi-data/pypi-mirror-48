@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: df-multinomial
+Version: 0.1
+Summary: package to handle multinomial confidence intervals in pandas DataFrames
+Home-page: https://github.com/marco-bellini/df_multinomial
+Author: Marco Bellini
+Author-email: marco@gatech.edu
+License: GPL3
+Description: UNKNOWN
+Platform: UNKNOWN
