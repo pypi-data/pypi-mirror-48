@@ -1,0 +1,13 @@
+bst_plugins_container/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bst_plugins_container/elements/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bst_plugins_container/elements/docker_image.py,sha256=uexffRQkU_I_xwPtUen--U3SL_ZkzO82ZA-fwcbYRAc,16339
+bst_plugins_container/elements/docker_image.yaml,sha256=HEFxBhCe9UzSlglWIgVtNpG-SDgvg9CowalGfKYKA1o,1887
+bst_plugins_container/sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bst_plugins_container/sources/docker.py,sha256=Bx_MOb_dGUTVDHy5-iySAt5LpSdvAWmwVR25sbBV0iw,18158
+bst_plugins_container-0.2.2.dist-info/DESCRIPTION.rst,sha256=qy9BJr3_RamG1Rsbf3DS5y-bX5bOgQSEr-ejM2qmiXA,2124
+bst_plugins_container-0.2.2.dist-info/METADATA,sha256=EV_zDpbSPeovFwsVYYtiSiJz_haAXncmQoUGgJTWSZk,3482
+bst_plugins_container-0.2.2.dist-info/RECORD,,
+bst_plugins_container-0.2.2.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+bst_plugins_container-0.2.2.dist-info/entry_points.txt,sha256=x2FrUjtZLPN89ybnpdIDb6CLL_aHgtveyEheRPcKiLI,128
+bst_plugins_container-0.2.2.dist-info/metadata.json,sha256=UdtsakZY9umomYFwSaaQChbkGZcNJUxaoD545oem13c,1281
+bst_plugins_container-0.2.2.dist-info/top_level.txt,sha256=1nu4t3EVdTKYrks-509xErDKx4Z0J6i3WV8F2JbYBKg,22
