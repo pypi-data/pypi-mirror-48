@@ -1,0 +1,11 @@
+README.md
+setup.py
+cep_scraper/__init__.py
+cep_scraper/client.py
+cep_scraper.egg-info/PKG-INFO
+cep_scraper.egg-info/SOURCES.txt
+cep_scraper.egg-info/dependency_links.txt
+cep_scraper.egg-info/requires.txt
+cep_scraper.egg-info/top_level.txt
+tests/__init__.py
+tests/test_cep.py
