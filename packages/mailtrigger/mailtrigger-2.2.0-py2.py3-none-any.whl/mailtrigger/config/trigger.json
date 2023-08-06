@@ -1,0 +1,49 @@
+{
+  "gerrit": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8080
+  },
+  "helper": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    }
+  },
+  "jenkins": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8081
+  },
+  "jira": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "host": "localhost",
+    "port": 8082
+  },
+  "printer": {
+    "filter": {
+      "from": [
+        "name@example.com"
+      ],
+      "subject": "[trigger]"
+    },
+    "name": "output.xlsx"
+  }
+}
