@@ -1,0 +1,10 @@
+setup.py
+eljur_distributions/Binomialdistribution.py
+eljur_distributions/Gaussiandistribution.py
+eljur_distributions/Generaldistribution.py
+eljur_distributions/__init__.py
+eljur_distributions.egg-info/PKG-INFO
+eljur_distributions.egg-info/SOURCES.txt
+eljur_distributions.egg-info/dependency_links.txt
+eljur_distributions.egg-info/not-zip-safe
+eljur_distributions.egg-info/top_level.txt
