@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: bokeh_wordcloud2
+Version: 0.9
+Summary: a bokeh extension that implements a wordcloud (https://wordcloud2-js.timdream.org)
+Home-page: https://bokeh-wordcloud2.readthedocs.io
+Author: joran beasley
+Author-email: joranbeasley@gmail.com
+License: GPL
+Description: # bokeh_wordcloud2
+        a (mostly complete) bokeh implementation of [wordcloud2-js](https://wordcloud2-js.timdream.org)
+        
+        This extension attempts to make wordcloud available inside the bokeh ecosystem
+        
+        This was made as part of a learning project to make bokeh widgets, but it was too good not to share.
+        
+        ## Installation
+        
+        `pip install git+https://github.com/joranbeasley/bokeh_wordcloud2.git`
+        
+        or you can clone this repo and run `setup.py install` or `pip install <git_checkout_directory>`
+        ## Documentation
+        ## [>>> |Read The Docs| <<<](https://bokeh-wordcloud2.readthedocs.io/en/latest/getting_started.html)
+        and check out the [examples](/examples)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: Freely Distributable
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Widget Sets
+Description-Content-Type: text/markdown
