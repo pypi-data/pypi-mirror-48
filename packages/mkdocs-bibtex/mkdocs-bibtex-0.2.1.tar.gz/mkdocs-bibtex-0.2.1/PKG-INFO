@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: mkdocs-bibtex
+Version: 0.2.1
+Summary: An MkDocs plugin that enables managing citations with BibTex
+Home-page: https://github.com/shyamd/mkdocs-bibtex/
+Author: Shyam Dwaraknath
+Author-email: shyamd@lbl.gov
+License: BSD
+Description: UNKNOWN
+Keywords: mkdocs python markdown bibtex
+Platform: UNKNOWN
+Requires-Python: >=3.5
