@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+GroMaster/GroMaster.py
+GroMaster/__init__.py
+GroMaster/__version__.py
+GroMaster.egg-info/PKG-INFO
+GroMaster.egg-info/SOURCES.txt
+GroMaster.egg-info/dependency_links.txt
+GroMaster.egg-info/requires.txt
+GroMaster.egg-info/top_level.txt
