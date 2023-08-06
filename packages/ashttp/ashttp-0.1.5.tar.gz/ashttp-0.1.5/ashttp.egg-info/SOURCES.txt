@@ -1,0 +1,9 @@
+README.md
+ashttp.py
+setup.py
+ashttp.egg-info/PKG-INFO
+ashttp.egg-info/SOURCES.txt
+ashttp.egg-info/dependency_links.txt
+ashttp.egg-info/not-zip-safe
+ashttp.egg-info/requires.txt
+ashttp.egg-info/top_level.txt
