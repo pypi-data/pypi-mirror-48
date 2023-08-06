@@ -1,0 +1,10 @@
+japana/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+japana/dictionary.py,sha256=yXo9_-WGZZZ9n1cfVg902uzg3vZfymRJoDdiIjUC5uc,1248
+japana/kanji_count.py,sha256=3R2zrvm0nhfUhwiD8sJBdEne1GYRY31P2oUHGY7DR0Q,1232
+japana/progress_bar.py,sha256=oVTYcJ8Eqy-CVDyL0xCl04FdHtw2qPswInmmcDGEP3g,976
+japana/word_count.py,sha256=ccbyS82UjX1_XI5AQn9vtzOGRQQyjF4M50tTmbJnwSk,1672
+japana-1.2.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+japana-1.2.dist-info/METADATA,sha256=LWAW4YlrMTAbPf-JcaQtaSsDhuGEuG_gY4PnmBK5KZU,1656
+japana-1.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+japana-1.2.dist-info/top_level.txt,sha256=14OEHFPW8hQWrnNOmKI63gdEFQstciGNVGMlW9ASdYI,7
+japana-1.2.dist-info/RECORD,,
