@@ -1,0 +1,16 @@
+IQDM/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IQDM/main.py,sha256=hDrHVTZs_n5R0TYK0nnbdeyzGEkPfde7jRMkfDzFpoc,6750
+IQDM/pdf_to_text.py,sha256=crZu8B1bKdJSPVkPLVuLu8C0ERVPL0KXrmM4ALS2UJA,1091
+IQDM/pdf_to_text_python2.py,sha256=n3GxjFytV0cjodj33GaoW3-dK8EniD0W_0IMw9LmPfE,1067
+IQDM/utilities.py,sha256=gKC52Qwr2qz0l8u3DiKwbDSJJNzc-QNGQxlJYBURzWo,1259
+IQDM/parsers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+IQDM/parsers/arccheck.py,sha256=Vu0DY4Pk8OV8uTYKFUdOGqRJaAHls25TniKWv-PS_XM,7095
+IQDM/parsers/delta4.py,sha256=shHjCQCWwNZXCXVai2b5jtYbjUIN7RobZC4tVXqFnn4,10181
+IQDM/parsers/mapcheck.py,sha256=YByAmEf-SHE2dZFYx4X2wlkn8sNnhvpeNkenWygHT3U,4690
+IQDM/parsers/parser.py,sha256=uRj465-m-ZopYx5xQA3cy5ydRToLK6n5MJR5YPWi-DY,1907
+IQDM-0.2.8.dist-info/LICENSE,sha256=Cir-VxMP0oZy0QIzCt1YYzIYhtQ4rCSWWZkGs90Vf30,1069
+IQDM-0.2.8.dist-info/METADATA,sha256=QhOopiaMBKuckDEn6F_JZSYg-3KUnaSvN6LUVcC7Le4,688
+IQDM-0.2.8.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+IQDM-0.2.8.dist-info/entry_points.txt,sha256=a6F3a0QBPn6XKpTo04GkXNvoUx-j9tPUdupyfYq9g-M,41
+IQDM-0.2.8.dist-info/top_level.txt,sha256=JsMFi2l3BH3_CcfZfV6mJ-T8CNgugZBBxJ1y0ESV60c,5
+IQDM-0.2.8.dist-info/RECORD,,
