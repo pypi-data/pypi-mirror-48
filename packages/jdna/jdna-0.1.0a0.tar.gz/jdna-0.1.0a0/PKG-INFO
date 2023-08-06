@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: jdna
+Version: 0.1.0a0
+Summary: 
+Author: Justin Vrana
+Author-email: justin.vrana@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: biopython (>=1.73,<2.0)
+Requires-Dist: colorama (>=0.4.1,<0.5.0)
+Requires-Dist: networkx (>=2.3,<3.0)
+Requires-Dist: numpy (>=1.16,<2.0)
+Requires-Dist: primer3-py (>=0.6.0,<0.7.0)
+Requires-Dist: webcolors (>=1.9,<2.0)
