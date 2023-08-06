@@ -1,0 +1,1 @@
+const ADDITIONAL_FILES_LIST=["{% static 'img/logo/vertical.png' %}",];
