@@ -1,0 +1,9 @@
+README.md
+setup.py
+whichimg/__init__.py
+whichimg/main.py
+whichimg.egg-info/PKG-INFO
+whichimg.egg-info/SOURCES.txt
+whichimg.egg-info/dependency_links.txt
+whichimg.egg-info/entry_points.txt
+whichimg.egg-info/top_level.txt
