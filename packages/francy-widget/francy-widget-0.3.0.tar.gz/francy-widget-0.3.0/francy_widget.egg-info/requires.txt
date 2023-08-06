@@ -1,0 +1,5 @@
+pip
+ipywidgets>=7.0.0
+networkx
+jupyter-francy
+Sphinx
