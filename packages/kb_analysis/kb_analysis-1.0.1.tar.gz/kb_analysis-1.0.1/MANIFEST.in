@@ -1,0 +1,18 @@
+# description
+include README.rst
+
+# version
+include kb_analysis/VERSION
+
+# license
+include LICENSE
+
+# requirements
+include requirements.txt
+
+# model files
+#graft h1_hesc
+#prune h1_hesc/data
+#recursive-exclude h1_hesc/kb_gen *.xlsx
+#recursive-exclude reconstruction *.xlsx
+#recursive-exclude model *.xlsx
