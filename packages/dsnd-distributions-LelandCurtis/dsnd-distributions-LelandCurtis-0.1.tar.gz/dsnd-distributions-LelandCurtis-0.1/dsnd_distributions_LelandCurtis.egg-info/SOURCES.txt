@@ -1,0 +1,11 @@
+README.md
+setup.py
+dsnd-distributions-LelandCurtis/Binomialdistribution.py
+dsnd-distributions-LelandCurtis/Gaussiandistribution.py
+dsnd-distributions-LelandCurtis/Generaldistribution.py
+dsnd-distributions-LelandCurtis/__init__.py
+dsnd_distributions_LelandCurtis.egg-info/PKG-INFO
+dsnd_distributions_LelandCurtis.egg-info/SOURCES.txt
+dsnd_distributions_LelandCurtis.egg-info/dependency_links.txt
+dsnd_distributions_LelandCurtis.egg-info/not-zip-safe
+dsnd_distributions_LelandCurtis.egg-info/top_level.txt
