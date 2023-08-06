@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+geosconfig.py
+setup.py
+pygeos/__init__.py
+pygeos/construction.py
+pygeos/test.py
+pygeos.egg-info/PKG-INFO
+pygeos.egg-info/SOURCES.txt
+pygeos.egg-info/dependency_links.txt
+pygeos.egg-info/requires.txt
+pygeos.egg-info/top_level.txt
+src/fast_loop_macros.h
+src/ufuncs.c
