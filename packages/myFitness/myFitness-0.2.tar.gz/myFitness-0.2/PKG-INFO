@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: myFitness
+Version: 0.2
+Summary: This package provides some basic tools to analyze the health data in a csv file downloaded from Apple Health.
+Home-page: https://github.com/lizawood/Apple-Health-Fitness-Tracker
+Author: Liza Wood
+Author-email: liza.4.bc@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
