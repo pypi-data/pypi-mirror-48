@@ -1,0 +1,17 @@
+common/__init__.py,sha256=driXJYDU527alWtwFsEsgKvy_RVmT2I1sxdj-zzRWVs,484
+common/configuration.py,sha256=TVZDakMlXoZi2M_qehq0QvHmHkUnjn3Nnl-iOPQfZmw,132
+common/cursor_utils.py,sha256=1Ob4UVDRQkzsyjrVt6_sykg10MDXSoYjG34ZBQzOIyQ,1008
+common/utils.py,sha256=gMJLIiKRc_X_Tzf2sx_3Mf9MP7c2Iajq0e_Z3-Sv-jM,1085
+ssml/__init__.py,sha256=tvkBDScSpZG0nzDoBF28tSv_VPIWv7MYI816dcW1uMY,7895
+tts/__init__.py,sha256=wm6wo-qOFW-sT7q4UsZhnDMi0XLUX9i7iRZ2ukmQVyQ,4247
+web_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+web_downloader/clearning_tool.py,sha256=h-U4qgT9jJEnjBo1llmFfoBRaLWXQHGPSaCLP2KkB4w,1859
+web_downloader/down_index.py,sha256=si8GVlJ85mVVtmAt4OFrL2zYvwEywzz6IT_iENTgXFQ,1018
+web_downloader/downloader.py,sha256=TNEYW6KVKUm-GTP4_E5xnS5IXhB1LcnZ_WRfCLRlIQw,3209
+web_downloader/fid_spider.py,sha256=nh6WJMwJg_jU377zy8ia8pR4snQggMxvI47NCq2Z-ps,1133
+web_downloader/ts_tools.py,sha256=v59pi3wHytwtHEehaO1AGH0QMUuRGd30iz_M3kZ-Y5w,544
+news2play-0.1.1.dist-info/LICENSE,sha256=OZrKuoW07nAIMY9VXSH9B5kZwxhgTWm-sk0SXvFwKQk,608
+news2play-0.1.1.dist-info/METADATA,sha256=8kqLaM7Y5T1dH4kZQUyfqtHmMHO9YdTmLJEOMQPGNok,1018
+news2play-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+news2play-0.1.1.dist-info/top_level.txt,sha256=C7XdPKDMVdk3WGUJKyfNrbc_O0lwCX2hQVoF-hS4nc0,31
+news2play-0.1.1.dist-info/RECORD,,
