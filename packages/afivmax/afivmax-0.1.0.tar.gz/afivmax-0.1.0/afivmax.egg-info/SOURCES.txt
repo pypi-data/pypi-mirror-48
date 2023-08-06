@@ -1,0 +1,8 @@
+README.md
+setup.py
+afivmax/__init__.py
+afivmax/afivmax.py
+afivmax.egg-info/PKG-INFO
+afivmax.egg-info/SOURCES.txt
+afivmax.egg-info/dependency_links.txt
+afivmax.egg-info/top_level.txt

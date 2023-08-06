@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: afivmax
+Version: 0.1.0
+Summary: Interview problem of Ant Fin
+Home-page: https://github.com/eggachecat/afivmax
+Author: sunao
+Author-email: sunao_0626@hotmail.com
+License: UNKNOWN
+Description: # afivmax
+        
+        [![Build Status](https://travis-ci.com/eggachecat/afivmax.svg?branch=master)](https://travis-ci.com/eggachecat/afivmax)
+        [![PyPI version](https://badge.fury.io/py/afivmax.svg)](https://badge.fury.io/py/afivmax)
+        [![Coverage Status](https://coveralls.io/repos/github/eggachecat/afivmax/badge.svg?branch=master)](https://coveralls.io/github/eggachecat/afivmax?branch=master)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
