@@ -1,0 +1,12 @@
+iternash/__coconut__.py,sha256=OREio11KIJc2HJ-fhNW7hQXamgcnH9yY7Y3HV2tAH2U,35741
+iternash/__init__.py,sha256=3l5E95_9Uq-fYteKqRWcxUroLRMRTkadTPzcqKM1dD8,1600
+iternash/agent.py,sha256=ZttH_mZUE8wqMuwYA1YlRW0n3suV2UW3BLheZBIcpVM,8178
+iternash/game.py,sha256=zWQakY9YjhD1GRdIyU19tKxkdacZbX6dt77IPV34gOA,6607
+iternash/examples/__init__.py,sha256=QcOoAA-A6OBS_V-E0O8kbob0FjxD4lKPX_gNifyGAmI,1569
+iternash/examples/absent_minded_driver.py,sha256=JwArfcNfKYaXXbPNFe7Uygjbv75AfJ_a6JrolJ0--30,3783
+iternash/examples/sequential_defection_absent_minded_driver.py,sha256=t2h9EYJK15W2XkyWlrgVTtpDFvyfd93cavgHbDD6Vhk,2183
+iternash-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+iternash-0.0.1.dist-info/METADATA,sha256=gC_4342Wje1vLFb6GQaQdJsBGOYf7gHrbUQGfUjOpEo,204
+iternash-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+iternash-0.0.1.dist-info/top_level.txt,sha256=FI3zL6Ogq4ozhU2hiRYjab8Wjnpt3zoRkOhiB9tM24M,9
+iternash-0.0.1.dist-info/RECORD,,
