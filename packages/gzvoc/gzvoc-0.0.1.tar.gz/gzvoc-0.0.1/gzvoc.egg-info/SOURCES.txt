@@ -1,0 +1,7 @@
+setup.py
+gzvoc/__init__py.py
+gzvoc/gzvoc.py
+gzvoc.egg-info/PKG-INFO
+gzvoc.egg-info/SOURCES.txt
+gzvoc.egg-info/dependency_links.txt
+gzvoc.egg-info/top_level.txt
