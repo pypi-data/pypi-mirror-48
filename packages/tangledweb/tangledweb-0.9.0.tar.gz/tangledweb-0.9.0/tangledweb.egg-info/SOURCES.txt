@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+glorifiedgrep/__init__.py
+tangledweb.egg-info/PKG-INFO
+tangledweb.egg-info/SOURCES.txt
+tangledweb.egg-info/dependency_links.txt
+tangledweb.egg-info/top_level.txt
