@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: lspy
+Version: 0.0.4
+Summary: 网页中演示 Python 运行步骤
+Home-page: https://github.com/liushilive/PythonTutor
+Author: 刘士
+Author-email: liushilive@outlook.com
+License: MIT
+Project-URL: 作者主页, https://liushilive.github.io
+Keywords: python online
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+
+# PythonTutor
+
+网页中演示 Python 运行步骤
+
+
