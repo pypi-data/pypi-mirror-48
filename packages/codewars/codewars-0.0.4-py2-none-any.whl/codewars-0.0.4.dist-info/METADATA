@@ -1,0 +1,96 @@
+Metadata-Version: 2.0
+Name: codewars
+Version: 0.0.4
+Summary: A toolbox for daily use. This is just a toolbox to make my life easier. Maybe yours too..
+Home-page: UNKNOWN
+Author: Annihilator708
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown
+Requires-Dist: backcall
+Requires-Dist: decorator
+Requires-Dist: ipython
+Requires-Dist: ipython-genutils
+Requires-Dist: jedi
+Requires-Dist: parso
+Requires-Dist: pexpect
+Requires-Dist: pickleshare
+Requires-Dist: prompt-toolkit
+Requires-Dist: ptyprocess
+Requires-Dist: Pygments
+Requires-Dist: scapy
+Requires-Dist: six
+Requires-Dist: traitlets
+Requires-Dist: WCWidth
+Requires-Dist: PyBluez
+Requires-Dist: scapy
+
+[![Codewars.nl](https://codewars.nl/static/img/logo.png)](https://codewars.nl/)
+
+>Make sure to install all the dependencies needed for each individual module.
+
+## Dependencies
+### Bluetooth: `sudo apt-get install libbluetooth-dev`
+
+---
+## Install latest version (stable)
+
+    pip install codewars
+
+## Install development version (unstable)
+
+    pip install git+https://github.com/Annihilator708/codewars@master
+
+# Examples
+## Info
+
+>In the following section you will find a brief example on how to use this
+>code. This library is ment to grow over time so more examples to come... 
+>I prep my work in advance so documentation is a thing and will be present in
+>the near future. But because I'm in a early phase of the project I still have 
+>not generated my documentation. Don't let that fool you.. I try to keep 
+>my docstrings as up-to-date as possible. There are plenty of examples 
+>in the module just open the code and see where it imports anything from
+>codewars. Not only the docstrings are usefull currently but perhaps also my
+>own used tests to see if the setup works correctly. 
+>Those examples below are however parts of raw snippets of test code and might
+>not feel due to the confirm of PEP8 or flake8. Excuse mwha.
+
+
+## Logger
+
+    Example:
+    ```
+    from codewars.logger import Logger
+    logger = Logger(appname="test", mode="DEBUG", write=False)
+    logger._testLoggerClass()
+    logger.info("Hello World!")
+    ```
+
+>Note
+>----
+>The whole module makes use of the `Logger` class instead of the `print` method.
+
+## BlueTooth
+
+    Example:
+    ```
+    from codewars.bluetooth import Bluetooth
+    bt = Bluetooth()  # Initialize the class, Scans once
+    scan_results1 = bt.scan()  # Scan area for the default 10 seconds, this is \
+    # also executed when this class initializes
+    scan_results2 = bt.run_until_discovered()  # Scan until a device is found
+    print("Scan results1: {}".format(scan_results1))
+    print("Scan results2: {}".format(scan_results2))
+    ```
+
+
+---
+#### Refer to docstrings for more detailed documentation
+
