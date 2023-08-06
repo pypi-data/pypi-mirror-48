@@ -1,0 +1,14 @@
+code_inspector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+code_inspector/__main__.py,sha256=rstyOZk3Diswn07jSWLGr6q1lxF-3PYFmPx5UpMwfn4,65
+code_inspector/analyze.py,sha256=u6UaJQTvIEWPQeK2rbi_9Co47yFBw9plAxQsTMBH56k,4285
+code_inspector/common.py,sha256=Cc0_UunxhOSzRCB5WTDdRaVZiqkDtw311BSZgwggUqU,723
+code_inspector/compare.py,sha256=ASfbk8Drgt33NVnccMc_Q7TMRroYs8uNnOAJjTjO_JA,9366
+code_inspector/constants.py,sha256=1Ee7dCxkXU9s_wHN51_lQeNnlY0vSTAEXSMu3i1It0U,161
+code_inspector/project.py,sha256=yklZL7LhZjAGhUWs3DO5bDj2JriVUTmip0ZuHJdph30,2545
+code_inspector/version.py,sha256=eB5tEg_BNHHsJgQexgmpZJr4c2VbfooQZMXAWuDHoIg,22
+code_inspector-0.0.5.dist-info/LICENSE,sha256=bunWzSCicRl9PeL2KABt3DyI_f8r6FqjPlAxi3LvItA,1320
+code_inspector-0.0.5.dist-info/METADATA,sha256=6TvXXue6j1o039sDIMb_EVKJxLSfRUJY95wqmh61MlI,6294
+code_inspector-0.0.5.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+code_inspector-0.0.5.dist-info/entry_points.txt,sha256=mPxkmtVa5nV7249sQgsUAPHXbs0QjFg0a_cZNyD5VIw,178
+code_inspector-0.0.5.dist-info/top_level.txt,sha256=XfHzNAVsusofSTysouzvSYhMeaTgrzjrC9Nr8D0oGl8,15
+code_inspector-0.0.5.dist-info/RECORD,,
