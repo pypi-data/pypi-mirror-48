@@ -1,0 +1,16 @@
+chitti/__init__.py,sha256=vaWhLg8EdcphogygR6HtGApdV4g2LYTZNjLBJVNs8Nw,296
+chitti/color_text.py,sha256=hv4tJf6ENZ0xXJPkrIOwGG3J4SUZN_t-y0ehuYg-Mmk,267
+chitti/list_to_dic.py,sha256=a4vXgzxYjW8R7wIUxL9QZnQ5HjUT4WqybDytwi3p694,524
+chitti/print.py,sha256=cJXUL-hdGY7LIp_UDIjB4hjdOOpNCLzeiOaXmRotHXY,481
+chitti/sklearn_utilities.py,sha256=30D5MwiR2OWXEprCglfOuxN7JHGWaF7xYS3ZdiHEoSg,2335
+chitti/train_test_split.py,sha256=cVgxc-E6F_SpKLON5D6onWqjCPMARcyJO6_Ms62hnpo,1052
+chitti/nlp/__init__.py,sha256=kY4o5pI6fQxJUg18Aozdu43EIH388sIi7ndVl5HHBNg,222
+chitti/nlp/clean_text.py,sha256=dPj9trVCc6ogzh_MBRyM4lN2W5E6_e5ZL_uP_sn-sYo,981
+chitti/nlp/download_pretrained_vectors.py,sha256=MGq-pRV1r4-PPHcT2n_X8YlESZC8yrWSGAQb9NtcAF8,2093
+chitti/nlp/pretrained_vectors.py,sha256=fT1urVnAL2djccDIzGhTaPugovvxY-ai1bjwvSV3akE,2605
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chitti-0.2.5.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+chitti-0.2.5.dist-info/METADATA,sha256=RIOQWc5WqPG2NJG_n4qHTQ1nKzuPp0RIRpD76K4iIhA,634
+chitti-0.2.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+chitti-0.2.5.dist-info/top_level.txt,sha256=pCJrpyLzKdXAP6PFcAXncJlu-YhDwI_T-1s9PI5mJH8,13
+chitti-0.2.5.dist-info/RECORD,,
