@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/center_tk_window.py
+src/center_tk_window.egg-info/PKG-INFO
+src/center_tk_window.egg-info/SOURCES.txt
+src/center_tk_window.egg-info/dependency_links.txt
+src/center_tk_window.egg-info/top_level.txt
