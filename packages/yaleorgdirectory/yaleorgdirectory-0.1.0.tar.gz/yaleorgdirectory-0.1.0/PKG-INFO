@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: yaleorgdirectory
+Version: 0.1.0
+Summary: Library for fetching data from the Yale OrgDirectory API.
+Home-page: https://github.com/ErikBoesen/yaleorgdirectory
+Author: Erik Boesen
+Author-email: me@erikboesen.com
+License: GPL
+Description: UNKNOWN
+Platform: UNKNOWN
