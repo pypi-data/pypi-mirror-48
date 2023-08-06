@@ -1,0 +1,4 @@
+biopython
+bitarray
+parmap
+tqdm
