@@ -1,0 +1,8 @@
+README.md
+applicationinsights_starlette.py
+setup.py
+applicationinsights_starlette.egg-info/PKG-INFO
+applicationinsights_starlette.egg-info/SOURCES.txt
+applicationinsights_starlette.egg-info/dependency_links.txt
+applicationinsights_starlette.egg-info/requires.txt
+applicationinsights_starlette.egg-info/top_level.txt

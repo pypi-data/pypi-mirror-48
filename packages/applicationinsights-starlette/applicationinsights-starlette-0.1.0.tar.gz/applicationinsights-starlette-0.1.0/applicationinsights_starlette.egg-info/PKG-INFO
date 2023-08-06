@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: applicationinsights-starlette
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Description: # Azure's Application insights for Starlette
+        
+        This is a small module to use Azure's Application insights on a [Starlette](https://www.starlette.io/) application.
+        
+        How to use:
+        
+            from starlette.applications import Starlette
+            from starlette.middleware.base import BaseHTTPMiddleware
+        
+            app = Starlette()
+        
+            from .appinsight import AppInsights
+            insights = AppInsights('<instrumentation_key>')
+        
+            app.add_exception_handler(Exception, insights.exception_handler)
+        
+            app.add_middleware(BaseHTTPMiddleware, dispatch=insights.request_middleware)
+            app.add_middleware(BaseHTTPMiddleware, dispatch=insights.flush_middleware)
+        
+            # or any variation of how you log in your app
+            logging.getLogger(__name__).addHandler(insights.log_handler)
+        
+        
+            @app.route('/')
+            async def homepage(request):
+                return JSONResponse({'hello': 'world'})
+            
+            if __name__ == '__main__':
+                uvicorn.run(app, host='0.0.0.0', port=8000)
+        
+        At this point, any request, log message or exception will be pushed to Azure's application insights.
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
