@@ -1,0 +1,8 @@
+PySocks
+pycryptodomex
+pillow
+pyqrcode
+matplotlib
+ed25519
+base58
+coincurve
