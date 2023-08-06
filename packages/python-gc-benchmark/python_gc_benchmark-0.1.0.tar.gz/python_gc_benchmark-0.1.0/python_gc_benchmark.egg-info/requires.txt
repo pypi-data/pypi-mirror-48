@@ -1,0 +1,35 @@
+click
+six
+setuptools>=18.5
+pip>=6.0
+wheel
+backports-abc==0.5
+singledispatch==3.4.0.3
+certifi==2019.3.9
+MarkupSafe==1.1.1
+webencodings==0.5.1
+mpmath==1.1.0
+docutils==0.14
+six==1.12.0
+Chameleon==3.6.1
+Django==1.11.20
+Genshi==0.7.3
+Mako==1.0.10
+SQLAlchemy==1.3.4
+dulwich==0.19.11
+html5lib==1.0.1
+pyaes==1.6.1
+sympy==1.4
+tornado==5.1.1
+torch>=1.0
+numpy
+
+[:python_version < "3.0"]
+lockfile==0.12.2
+pydns==2.3.6
+mercurial==5.0
+spambayes==1.1b2
+
+[:python_version < "3.4"]
+statistics==1.0.3.5
+pathlib2==2.3.3

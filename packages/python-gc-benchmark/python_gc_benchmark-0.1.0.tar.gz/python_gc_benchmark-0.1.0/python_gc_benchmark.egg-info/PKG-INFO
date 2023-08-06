@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: python-gc-benchmark
+Version: 0.1.0
+Summary: Python GC benchmark suite
+Home-page: UNKNOWN
+Author: Joannah Nanjekye
+Author-email: jnanjeky@unb.ca
+License: MIT license
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
