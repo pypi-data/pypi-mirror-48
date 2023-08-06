@@ -1,0 +1,12 @@
+ajax_access/__init__.py,sha256=Lpe2zHszTTgud-OFKMeo4jO7FvAvLdgMGR04LlrMQMA,176
+ajax_access/settings.py,sha256=bmeD9xwObpu6bZ8lnUO6PR9hRXblxu8IUEbikLMzZ40,585
+ajax_access/urls.py,sha256=68xiWO53TzEGT9iChayzBssjubh2BWVYk7TT9mzp8Z0,288
+ajax_access/utils.py,sha256=344fPgf6647dFDVTqpFXwSxi46URrm7ZrubUEV7Jjl4,306
+ajax_access/views/__init__.py,sha256=QWMghQHeQJqgKi-W5uQ_c3JE9XKaUA0R7gyoduOKzy8,72
+ajax_access/views/ajax_login.py,sha256=wKc79qjepPia-dkF7Hib4nBo6_qfPCU_8NS8rxi1VP0,2410
+ajax_access/views/ajax_logout.py,sha256=uVYinFPSOxGXkCY7hUFVC_ThLUs3CC9NuSsn4VgAMv4,750
+django_ajax_access-0.2.0.dist-info/LICENSE.txt,sha256=D_S0pd48W3QJFzy5i0K5sgS6EMh-iHreI5Ppy7aU5Go,1267
+django_ajax_access-0.2.0.dist-info/METADATA,sha256=FhiyI_suckABT6lDMwmV1QfFwGRsuXLLBFo7Lz7D62Q,1752
+django_ajax_access-0.2.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+django_ajax_access-0.2.0.dist-info/top_level.txt,sha256=M6Mc_XuPyig4SWGDRrcRYiwQnUa653bpRq8MlWDcPIw,12
+django_ajax_access-0.2.0.dist-info/RECORD,,
