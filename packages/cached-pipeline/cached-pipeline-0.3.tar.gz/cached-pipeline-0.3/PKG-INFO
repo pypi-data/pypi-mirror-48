@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: cached-pipeline
+Version: 0.3
+Summary: This class manages your runtime components in terms of order and caching.
+Home-page: https://github.com/AmitMY/cached-pipeline
+Author: Amit Moryossef
+Author-email: amitmoryossef@gmail.com
+License: MIT
+Download-URL: https://github.com/AmitMY/cached-pipeline/archive/0.3.tar.gz
+Description: UNKNOWN
+Keywords: pipeline
+Platform: UNKNOWN
