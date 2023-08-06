@@ -1,0 +1,10 @@
+README.md
+setup.py
+oftop/__init__.py
+oftop/main.py
+oftop.egg-info/PKG-INFO
+oftop.egg-info/SOURCES.txt
+oftop.egg-info/dependency_links.txt
+oftop.egg-info/entry_points.txt
+oftop.egg-info/requires.txt
+oftop.egg-info/top_level.txt
