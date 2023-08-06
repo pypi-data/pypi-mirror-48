@@ -1,0 +1,177 @@
+Jared Warner's Personalized Opportunities (JWPO)
+================================================
+
+Jared Warner's Personalized Opportunities (`JWPO`_) is an Apache2 licensed tool
+for generating personalized tests.
+
+.. image:: https://api.travis-ci.org/grantjenks/personalized-opportunities.svg?branch=master
+    :target: http://www.grantjenks.com/docs/jwpo/
+
+.. image:: https://ci.appveyor.com/api/projects/status/github/grantjenks/personalized-opportunities?branch=master&svg=true
+    :target: http://www.grantjenks.com/docs/jwpo/
+
+Quickstart
+----------
+
+Installing `JWPO`_ is simple with `pip <http://www.pip-installer.org/>`_::
+
+    $ python -m pip install jwpo
+
+You can run the tool with::
+
+    $ python -m jwpo --help
+
+Notes
+-----
+
+- Program
+
+  - Inputs: Tex File, Gradebook File, Opportunity Number, Opportunity Name,
+    Directory
+
+  - Outputs: Dozens of PDFs
+
+  - Write it defensively, catch errors early.
+
+  - Make sure it works on Windows.
+
+- TeX File
+
+  - A1.1 -- Outcome, Type, Variant -- Label
+
+  - Outcome: single character
+
+  - Type: single digit integer
+
+  - Variant: single digit integer
+
+  - Variant maps to Opportunity
+
+  - Introduction
+
+    - Preamble is start of file to "%Start questions" line.
+
+  - Student Name
+
+    - Replace "studentName" with "First Last" of student.
+
+  - Opportunity Name
+
+    - Ask for opportunity name (text) and fill in for "opportunityName".
+
+  - Math Seed
+
+    - Jared: each item needs to have its seed set explicitly if needed.
+
+  - Number of Opportunity
+
+    - Jared: renumber labels so that variant corresponds to opportunity number.
+
+    - Ask for opportunity number (integer).
+
+  - Structure/Format
+
+    - Delete questions not matching opportunity/gradebook.
+
+    - Remove variant identifier ".X".
+
+  - Identify Items
+
+    - Start with "\item[A1.1:]"
+
+    - End with any of next item, or math set seed, or 
+
+  - Horizontal Rule
+
+    - Only to occur between intro and outcome sections.
+
+  - Outcome Header
+
+    - Identified by "{\bf ...}"
+
+    - Only to occur at start of outcomes given to students.
+
+- Gradebook
+
+  - Focus on MergeData sheet.
+
+  - Student name is "[Nickname] [Last Name]"
+
+  - Identifying Opportunities
+
+    - Opportunity 1 is all green (automatically given)
+
+    - Opportunity 2 is all blue (automatically given)
+
+      - And some will see some of the green.
+
+    - U outcome in Gradebook maps to F outcome in TeX File
+
+    - Opportunity 3 is all yellow (automatically given)
+
+      - J outcome does not map to TeX File (it's a project)
+
+    - Gray-colored outcomes should be ignored (it's a project)
+
+  - Identifying Columns
+
+    - Ignore "AL" (Outcome-Letter "L") total of other columns.
+
+    - First question has value 2, 1, or 0.
+
+    - Second and third questions has value 1 or 0.
+
+    - The "W" column has value 1 or 0.
+
+  - Logic for Questions
+
+    - When the opportunity matches, then auto-given.
+
+    - Else, when "W" column is 1 and question is not max, then given.
+
+      - Outcomes that qualify must have been given in a previous opportunity.
+
+    - Opportunities 5 and 6 have no auto-given questions.
+
+  - Ordering
+
+    - It's OK for opportunities to be displayed in original order.
+
+- Open Questions
+
+  - How to map "blue" columns to Opportunity 1?
+
+    - These are the auto-given questions.
+
+    - Idea: Add spreadsheet with opportunity to outcome mapping.
+
+Reference
+---------
+
+* `JWPO Documentation`_
+* `JWPO at PyPI`_
+* `JWPO at GitHub`_
+* `JWPO Issue Tracker`_
+
+.. _`JWPO Documentation`: http://www.grantjenks.com/docs/jwpo/
+.. _`JWPO at PyPI`: https://pypi.python.org/pypi/jwpo/
+.. _`JWPO at GitHub`: https://github.com/grantjenks/personalized-opportunities/
+.. _`JWPO Issue Tracker`: https://github.com/grantjenks/personalized-opportunities/issues/
+
+License
+-------
+
+Copyright 2019 Grant Jenks
+
+Licensed under the Apache License, Version 2.0 (the "License"); you may not use
+this file except in compliance with the License.  You may obtain a copy of the
+License at
+
+    http://www.apache.org/licenses/LICENSE-2.0
+
+Unless required by applicable law or agreed to in writing, software distributed
+under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+CONDITIONS OF ANY KIND, either express or implied.  See the License for the
+specific language governing permissions and limitations under the License.
+
+.. _`JWPO`: http://www.grantjenks.com/docs/jwpo/
