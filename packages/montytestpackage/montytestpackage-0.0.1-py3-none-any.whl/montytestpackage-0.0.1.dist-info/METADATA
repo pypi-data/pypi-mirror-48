@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: montytestpackage
+Version: 0.0.1
+Summary: My Python Test package
+Home-page: https://github.com/c-sanders/testpackage
+Author: Craig Sanders
+Author-email: blah@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Example Package
+
+This is a simple example package. You can use
+[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+to write your content.
+
+**This text should be Bold.**
+
+*This text should be in Italics.*
+
+[Description of link](http://google.com)
+
+
