@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: flask-app
+Version: 0.0.1.dev6
+Summary: A tool to create flask boilerplate code
+Home-page: https://github.com/kimbugp/flask_app
+Author: Kimbugwe Simon Peter
+Author-email: kimbsimon2@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
