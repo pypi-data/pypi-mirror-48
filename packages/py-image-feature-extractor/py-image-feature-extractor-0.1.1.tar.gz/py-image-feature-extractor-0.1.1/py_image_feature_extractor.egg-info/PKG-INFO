@@ -1,0 +1,28 @@
+Metadata-Version: 1.0
+Name: py-image-feature-extractor
+Version: 0.1.1
+Summary: This package provides implementations of different methods to perform image feature extraction
+Home-page: https://github.com/jgoodman8/py-image-feature-selector
+Author: Javier Guzman
+Author-email: jguzmanfd@gmail.com
+License: UNKNOWN
+Description: 
+        This package provides implementations of different methods to perform image feature extraction. These methods are
+        though a Python package and a command line interface. Available feature extraction methods are:
+        
+        - Convolutional Neural Networks
+          
+          - VGG-19
+          - ResNet-50
+          - DenseNet-50
+          - Custom CNN through .h5 file
+        
+        - Linear Binary Patterns Histograms (LBPH)
+        
+        - Bag of Features (bag-of-visual-words)
+        
+          - SIFT
+          - SURF
+          - KAZE
+        
+Platform: UNKNOWN
