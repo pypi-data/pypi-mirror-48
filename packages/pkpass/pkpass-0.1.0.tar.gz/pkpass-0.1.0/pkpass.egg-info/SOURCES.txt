@@ -1,0 +1,7 @@
+README.md
+setup.py
+pkpass.egg-info/PKG-INFO
+pkpass.egg-info/SOURCES.txt
+pkpass.egg-info/dependency_links.txt
+pkpass.egg-info/not-zip-safe
+pkpass.egg-info/top_level.txt
