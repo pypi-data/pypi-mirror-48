@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: qualtrics-api
+Version: 1.0.5
+Summary: Easy connection to a Qualtrics API.
+Home-page: https://caoslab.psy.cmu.edu:32443/caoskids/qualtrics_api
+Author: Hugo Angulo
+Author-email: hugoanda@andrew.cmu.edu
+License: MIT
+Description: # qualtrics_api
+        
+        A Python-based project that performs a query to a Qualtrics API.
+        
+        ## Installation
+        
+        In order to install this package, you can use the following command:
+        
+        ```bash
+        pip install qualtrics-api
+        ```
+        
+        ## Usage
+        
+        On terminal you can use it in the following way:
+        
+        ```bash
+        qualtrics-api -t <token_api> -d <datacenter_id> -s <survey_id>
+        ```
+        
+        This will return the survey with all the responses on JSON format.
+        
+        *Powered by*: Hugo Angulo
+        
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

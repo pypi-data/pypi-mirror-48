@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+qualtrics/__init__.py
+qualtrics/__main__.py
+qualtrics/qualtrics_api.py
+qualtrics_api.egg-info/PKG-INFO
+qualtrics_api.egg-info/SOURCES.txt
+qualtrics_api.egg-info/dependency_links.txt
+qualtrics_api.egg-info/entry_points.txt
+qualtrics_api.egg-info/requires.txt
+qualtrics_api.egg-info/top_level.txt
