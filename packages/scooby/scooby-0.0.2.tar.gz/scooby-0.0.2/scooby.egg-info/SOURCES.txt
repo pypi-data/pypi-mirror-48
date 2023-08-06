@@ -1,0 +1,11 @@
+README.md
+setup.py
+scooby/__init__.py
+scooby/extras.py
+scooby/knowledge.py
+scooby/versions.py
+scooby.egg-info/PKG-INFO
+scooby.egg-info/SOURCES.txt
+scooby.egg-info/dependency_links.txt
+scooby.egg-info/requires.txt
+scooby.egg-info/top_level.txt
