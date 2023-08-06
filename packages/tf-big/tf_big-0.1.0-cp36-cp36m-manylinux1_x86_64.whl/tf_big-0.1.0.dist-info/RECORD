@@ -1,0 +1,9 @@
+tf_big-0.1.0.data/purelib/tf_big/__init__.py,sha256=KF_yk-5F7hh6zA32bir1B7xBH4ZXXleG7jO91z7zml8,183
+tf_big-0.1.0.data/purelib/tf_big/python/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tf_big-0.1.0.data/purelib/tf_big/python/ops/big_ops.py,sha256=G7dbDvawUQzkSf4qANLtI1M91410pUS0ovR_orFxALA,377
+tf_big-0.1.0.data/purelib/tf_big/python/ops/_big_ops.so,sha256=kp0UCBqC37a8e8mdLymlw7-pnO70pBliPBSqLnHBo7Y,680640
+tf_big-0.1.0.data/purelib/tf_big/python/ops/__init__.py,sha256=5Bzchnq57JPyxYXoGQXspApF_vCeQa4zzjJuVJbCeQo,216
+tf_big-0.1.0.dist-info/METADATA,sha256=2CgagNppq-q1iS41LVXlRncC6nLxEAdBhlxxDMPnW88,3432
+tf_big-0.1.0.dist-info/WHEEL,sha256=q6ZS0x11G9XscKQI--PbS172VpPpBOOoLI4QlxtsUa0,109
+tf_big-0.1.0.dist-info/RECORD,,
+tf_big-0.1.0.dist-info/top_level.txt,sha256=ibCax8IeE0Cf6PkV6LTXhq_J-BDa_NaMOOYBfFpf9eM,7
