@@ -1,0 +1,13 @@
+README.md
+setup.py
+hashchecker.egg-info/PKG-INFO
+hashchecker.egg-info/SOURCES.txt
+hashchecker.egg-info/dependency_links.txt
+hashchecker.egg-info/entry_points.txt
+hashchecker.egg-info/requires.txt
+hashchecker.egg-info/top_level.txt
+hclib/__init__.py
+tests/__init__.py
+tests/core/__init__.py
+tests/core/test_core_actions.py
+tests/core/test_core_objects.py
