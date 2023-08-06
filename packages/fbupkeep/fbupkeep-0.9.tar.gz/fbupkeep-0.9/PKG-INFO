@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: fbupkeep
+Version: 0.9
+Summary: Firebird Upkeep utility
+Home-page: https://github.com/pcisar/fbupkeep
+Author: Pavel Císař
+Author-email: pcisar@ibphoenix.cz
+License: MIT
+Project-URL: Source, https://github.com/pcisar/fbupkeep
+Description: =========================================================
+        FBUPKEEP - Firebird server & database maintenance utility
+        =========================================================
+        
+        FBUPKEEP is basically a task executor engine. Its primary purpose is to run maintenance
+        tasks for `Firebird`_ ® servers and databases, but could be easily extended to run other
+        tasks of various type.
+        
+        Built-in tasks:
+        
+        * Logical (gbak) database backup and restore.
+        * Database sweep.
+        * Collection of database statistics (gstat).
+        * Update index statistics in database.
+        * Rebuild of user indices in database.
+        * Removal of old files.
+        
+        FBUPKEEP is designed to run on Python 3.5+, and uses FDB_ Firebird driver.
+        
+        .. _Firebird: http://www.firebirdsql.org
+        .. _FDB: https://github.com/FirebirdSQL/fdb
+        
+Keywords: Firebird database backup maintenance
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS
+Classifier: Topic :: Database
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=3.5, <4
+Description-Content-Type: text/x-rst
