@@ -1,0 +1,8 @@
+README.md
+setup.py
+decampy/__init__.py
+decampy.egg-info/PKG-INFO
+decampy.egg-info/SOURCES.txt
+decampy.egg-info/dependency_links.txt
+decampy.egg-info/requires.txt
+decampy.egg-info/top_level.txt

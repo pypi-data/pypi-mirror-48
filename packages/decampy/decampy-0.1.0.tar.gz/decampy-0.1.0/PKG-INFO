@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: decampy
+Version: 0.1.0
+Summary: Converts DataCamp repos to the format of https://github.com/ines/course-starter-python
+Home-page: https://github.com/dwinston/decampy
+Author: Donny Winston
+Author-email: dwinston@lbl.gov
+License: MIT
+Description: This repo is under construction...
+        
+        # decampy
+        Converts DataCamp repos to the format of https://github.com/ines/course-starter-python
+        
+        Inspired by https://github.com/laderast/decampr.
+        
+        Hat tip to [@marskar](https://twitter.com/marskar/status/1144256946125660165?s=20) for the name.
+        
+Keywords: datacamp python online-course jupyter binder
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Topic :: Education
+Classifier: Topic :: Education :: Computer Aided Instruction (CAI)
+Classifier: Topic :: Text Processing :: Markup
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev

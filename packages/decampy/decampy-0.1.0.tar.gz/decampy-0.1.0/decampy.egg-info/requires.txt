@@ -1,0 +1,6 @@
+
+[dev]
+black
+invoke
+pre-commit
+twine
