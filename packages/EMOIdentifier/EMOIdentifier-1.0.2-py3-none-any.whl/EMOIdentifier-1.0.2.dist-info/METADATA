@@ -1,0 +1,17 @@
+Metadata-Version: 2.0
+Name: EMOIdentifier
+Version: 1.0.2
+Summary: An extract method refactoring algorithm
+Home-page: https://github.com/omkarendra/segmentation
+Author: Omkarendra Tiwari
+Author-email: omkarendra@cse.iitb.ac.in
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: numpy
+
+UNKNOWN
+
+
