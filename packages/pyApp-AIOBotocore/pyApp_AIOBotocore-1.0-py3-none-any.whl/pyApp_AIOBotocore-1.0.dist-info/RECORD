@@ -1,0 +1,9 @@
+pyapp_ext/aiobotocore/__init__.py,sha256=KzYzTXL-T1STpoj0v4QD1Xgu59z8QcuG-0SC2B-7UiM,173
+pyapp_ext/aiobotocore/checks.py,sha256=A-RKUA2wu5mT9-dmfWSTASlLLGKVi2QltzIn6yG-AbM,108
+pyapp_ext/aiobotocore/default_settings.py,sha256=Vkb4-jJL0-tmLDHDi3-fhO78HAaHGc4AaV3yhAPGVPQ,77
+pyapp_ext/aiobotocore/factory.py,sha256=GhO9sPStREB0n1xzKSJ3pxzRYzNf0CsVcRBeNkzf60U,1339
+pyApp_AIOBotocore-1.0.dist-info/METADATA,sha256=uINsMVEoZxZmPHTO_6Feyc73zC-Gl-EVc23TyJY2AzU,1170
+pyApp_AIOBotocore-1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyApp_AIOBotocore-1.0.dist-info/entry_points.txt,sha256=4I8HVVIHeio3qMRhglY3lU8sa_tC4oypxszPzheS9BM,72
+pyApp_AIOBotocore-1.0.dist-info/top_level.txt,sha256=frApB1nqfiES7hqKoZvZXYkZj_kX2GHG4ai2ZetSXdQ,10
+pyApp_AIOBotocore-1.0.dist-info/RECORD,,
