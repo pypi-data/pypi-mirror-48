@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: pySpeechAlien
+Version: 2.1
+Summary: Speech analysis tool
+Home-page: https://github.com/arpansahoo/pySpeechAlien
+Author: Arpan Sahoo
+Author-email: asahoo1@jhu.edu
+License: MIT
+Description: Speech analysis tool - modified version of https://github.com/Shahabks/my-voice-analysis.
+        
+        Visit the pySpeechAlien repository to learn more: https://github.com/arpansahoo/pySpeechAlien.
+        
+        
+Keywords: praat speech-analysis python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
