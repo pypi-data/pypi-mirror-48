@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.py
+pycpqcc/__init__.py
+pycpqcc/parse.py
+pycpqcc.egg-info/PKG-INFO
+pycpqcc.egg-info/SOURCES.txt
+pycpqcc.egg-info/dependency_links.txt
+pycpqcc.egg-info/not-zip-safe
+pycpqcc.egg-info/top_level.txt
+pycpqcc/data/ca_coords.csv
+pycpqcc/data/gis/CA_State.zip
+pycpqcc/data/icd/$dxref 2015.csv
+pycpqcc/data/icd/$prref 2015.csv
+pycpqcc/data/icd/ccs_dx_icd10cm_2017.csv
+pycpqcc/data/icd/ccs_pr_icd10pcs_2017.csv
