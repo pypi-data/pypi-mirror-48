@@ -1,0 +1,4 @@
+[console_scripts]
+extractRegion = extractRegion.extractRegion:main
+snagnblast = snagnblast.snagnblast:main
+
