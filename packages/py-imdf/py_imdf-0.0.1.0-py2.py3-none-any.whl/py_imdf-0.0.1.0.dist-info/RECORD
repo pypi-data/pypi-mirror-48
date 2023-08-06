@@ -1,0 +1,13 @@
+pyimdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimdf/__main__.py,sha256=6xL4B-SNcVRBTw9p-9AxHcR6leAs7oWLqineOHL7IKw,64
+pyimdf/app.py,sha256=wh0tq7oPuK2dcYmYJtGrxszIEvsx2RhbyxrM2PtrdFQ,151
+pyimdf/imdf.py,sha256=--wVNNsQHuhaUmrEi7Q0RtcWJ_E_S9oIw3wY42CEVGo,9877
+pyimdf/imdf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyimdf/imdf/footprint.py,sha256=8uh2lX-LMlS05aLETLqfe1Bkonjb1VO_TDn4cE83mHw,65
+pyimdf/imdf/venue.py,sha256=-4pb8_Uih1pVt_fKuGZkwwowGDM3d21gAsXY6-AODOU,67
+py_imdf-0.0.1.0.dist-info/AUTHORS.rst,sha256=aDEHW_4lD-DGjFF_zWejDP8ArbGKYjnW9wVnBRiHg_Y,76
+py_imdf-0.0.1.0.dist-info/LICENSE.txt,sha256=innX6uOadxhBzrK-1zA7fMS3g2vU_ILjIQOnXopSRfo,1072
+py_imdf-0.0.1.0.dist-info/METADATA,sha256=nKAiLbbUjSF2aaucvm3b-jfvYD2L2PwREY2b3ddDe5Q,696
+py_imdf-0.0.1.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+py_imdf-0.0.1.0.dist-info/top_level.txt,sha256=mc1h60VsI2Ys34oTuh_FTiWaa49r4YvK75-FmdHWNDg,7
+py_imdf-0.0.1.0.dist-info/RECORD,,
