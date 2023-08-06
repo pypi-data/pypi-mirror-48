@@ -1,0 +1,9 @@
+README.md
+setup.py
+src/TripleStore.egg-info/PKG-INFO
+src/TripleStore.egg-info/SOURCES.txt
+src/TripleStore.egg-info/dependency_links.txt
+src/TripleStore.egg-info/not-zip-safe
+src/TripleStore.egg-info/top_level.txt
+src/triplestore/__init__.py
+src/triplestore/store.py
