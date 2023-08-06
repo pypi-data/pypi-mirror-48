@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: general-config
+Version: 0.0.1
+Summary: A quick module for pulling configs from standard locations, environments and in secrets for docker and kubernetes images
+Home-page: https://gitlab.com/benjamin.small83/general-config
+Author: Ben Small
+Author-email: benjamin.small83@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+
+UNKNOWN
+
+
