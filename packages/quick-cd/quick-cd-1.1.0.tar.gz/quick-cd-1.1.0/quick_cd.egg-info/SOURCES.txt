@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/qcd
+quick_cd/__init__.py
+quick_cd/__main__.py
+quick_cd.egg-info/PKG-INFO
+quick_cd.egg-info/SOURCES.txt
+quick_cd.egg-info/dependency_links.txt
+quick_cd.egg-info/top_level.txt
