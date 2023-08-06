@@ -1,0 +1,3 @@
+[babel.extractors]
+red = redgettext_babel:extract_red
+
