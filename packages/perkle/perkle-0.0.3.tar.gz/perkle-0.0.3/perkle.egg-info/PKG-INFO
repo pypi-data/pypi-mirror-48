@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: perkle
+Version: 0.0.3
+Summary: Python 3 implementation of Merkle Trees
+Home-page: https://github.com/wborgeaud/perkle
+Author: William Borgeaud
+Author-email: williamborgeaud@gmail.com
+License: UNKNOWN
+Description: # Perkle: A simple Python 3 implementation of Merkle Trees
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
