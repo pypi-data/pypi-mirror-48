@@ -1,0 +1,9 @@
+README.md
+setup.py
+bitsy/__init__.py
+bitsy/bitsy.py
+bitsy.egg-info/PKG-INFO
+bitsy.egg-info/SOURCES.txt
+bitsy.egg-info/dependency_links.txt
+bitsy.egg-info/requires.txt
+bitsy.egg-info/top_level.txt
