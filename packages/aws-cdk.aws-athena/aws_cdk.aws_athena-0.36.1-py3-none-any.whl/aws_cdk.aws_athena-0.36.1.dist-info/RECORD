@@ -1,0 +1,8 @@
+aws_cdk/aws_athena/__init__.py,sha256=h12JSivEK9dlU4N8u9XoDg4CvLfinLFyJOrQ74szdXY,6139
+aws_cdk/aws_athena/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_athena/_jsii/__init__.py,sha256=HYe19HfCWrirGkrqrUGvtl106_J-W58jjF_KCBu5J0w,200
+aws_cdk/aws_athena/_jsii/aws-athena@0.36.1.jsii.tgz,sha256=1DAdZmqlsk_97ewYYC4Q_BqqTMwi3_j7DWR10XhT3VI,12833
+aws_cdk.aws_athena-0.36.1.dist-info/METADATA,sha256=_xG7mQMQNSkuDTlm0BsBnRf_5pIVO3d6H4cApmitnN8,1178
+aws_cdk.aws_athena-0.36.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_athena-0.36.1.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_athena-0.36.1.dist-info/RECORD,,
