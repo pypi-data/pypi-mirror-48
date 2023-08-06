@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: certn-python
+Version: 0.0.1
+Summary: A python client for Certn API
+Home-page: https://github.com/livebungalow/certn-python
+Author: Bungalow Living
+Author-email: engineering@bungalow.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
