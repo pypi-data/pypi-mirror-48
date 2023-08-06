@@ -1,0 +1,6 @@
+setup.py
+simple_pkg/__init__.py
+uwrit_rit_pypi.egg-info/PKG-INFO
+uwrit_rit_pypi.egg-info/SOURCES.txt
+uwrit_rit_pypi.egg-info/dependency_links.txt
+uwrit_rit_pypi.egg-info/top_level.txt
