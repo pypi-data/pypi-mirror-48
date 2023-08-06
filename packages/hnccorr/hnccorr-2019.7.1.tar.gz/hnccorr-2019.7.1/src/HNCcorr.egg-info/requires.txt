@@ -1,0 +1,8 @@
+closure-problem>=2019.6.3
+networkx
+numpy
+pillow
+six
+sparsecomputation
+scipy
+tqdm
