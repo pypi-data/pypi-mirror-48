@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: sentry-wechat-webhook
+Version: 0.0.6
+Summary: Sentry 企业微信 Webhook 插件
+Home-page: https://github.com/linguofeng/sentry-wechat-webhook
+Author: linguofeng
+Author-email: linguofeng@msn.com
+License: MIT
+Keywords: sentry wechat webhook
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: sentry (>=9.0.0)
+Requires-Dist: requests
+
+# sentry-wechat-webhook
+
+Sentry 企业微信 Webhook 插件
+
