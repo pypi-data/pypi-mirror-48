@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: bmrs
+Version: 1.1
+Summary: This package that enables you fetch BMRS data as json instead of XML
+Home-page: https://github.com/SimiCode/bmrs-json-api
+License: UNKNOWN
+Author: Edison Abahurire
+Author-email: abahedison@gmail.com
+Requires-Python: >=3.3
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: docopt >=0.6.2
+Requires-Dist: stomp.py >=4.1.22
+Requires-Dist: xmltodict >=0.12.0
+
+# bmrs-json-api
+For returning BMRS API data in json format, it fetches data and auto converts it to a dictionary object, easier for data processing.
+
