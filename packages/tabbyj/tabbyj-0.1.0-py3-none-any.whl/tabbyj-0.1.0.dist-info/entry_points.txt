@@ -1,0 +1,3 @@
+[console_scripts]
+tabbyj=tabbyj.__main__:tabbyj
+
