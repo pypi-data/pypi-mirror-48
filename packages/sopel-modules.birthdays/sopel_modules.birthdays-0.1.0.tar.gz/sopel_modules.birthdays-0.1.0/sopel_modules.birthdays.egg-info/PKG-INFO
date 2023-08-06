@@ -1,0 +1,15 @@
+Metadata-Version: 1.0
+Name: sopel-modules.birthdays
+Version: 0.1.0
+Summary: Print birthdays of notable people using wikipedia data
+Home-page: https://github.com/shanedabes/sopel-birthdays
+Author: Shane Donohoe
+Author-email: shane@donohoe.cc
+License: Eiffel Forum License, version 2
+Description: # sopel-birthdays
+        
+        Print birthdays of notable people using wikipedia data
+        
+        
+        
+Platform: UNKNOWN
