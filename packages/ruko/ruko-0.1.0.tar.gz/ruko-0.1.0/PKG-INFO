@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: ruko
+Version: 0.1.0
+Summary: A dead simple high performance JSON database
+Home-page: https://github.com/rukodb/ruko
+Author: Matthew Scholefield
+Author-email: matthew331199@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: ruko database in-memory
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
