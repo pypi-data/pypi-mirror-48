@@ -1,0 +1,9 @@
+slacker/__init__.py,sha256=xFWnyjgaOD13uZgtL58yv7_m8hMve2sen6FdUd3tla4,193
+slacker/message_builder.py,sha256=QGIwA89I2mwDyAGjKPNeC69jW9OK9P0wcOxmLcnYwas,2500
+slacker/sender.py,sha256=GAjUW58VVcnhScInKtfg8-JlMge-Mvl6H5ulmh5bVSE,321
+slacker/status_manager.py,sha256=GAlcr43Yxsa5iCXP_dr9U9O3ywzuJkMP5zo_mQj2FM0,916
+sci_slacker-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+sci_slacker-0.0.1.dist-info/METADATA,sha256=4_xj5oXgxQF-zWmWWg6z0ns9AXiQxq4Xg_-m0HyQlEk,745
+sci_slacker-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+sci_slacker-0.0.1.dist-info/top_level.txt,sha256=e4jivl37sk0la0OIBsv2DEDyPTwKQiBDCYKfLKBhGb4,8
+sci_slacker-0.0.1.dist-info/RECORD,,
