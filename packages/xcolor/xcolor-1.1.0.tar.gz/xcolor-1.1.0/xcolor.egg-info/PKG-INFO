@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: xcolor
+Version: 1.1.0
+Summary: color print for python3
+Home-page: https://github.com/artsoftio/xcolor
+Author: Max
+Author-email: max@xmail.vip
+License: MIT
+Description: # xcolor
+        color values:
+        Red,Green,Yellow,Blue,Purple,Cyan,Black,White
+        
+        style values:
+        Default,Bold,Italic,Underline,Flashing,Reversed,Througline
+        
+        create a color object and use print
+        
+        eg.
+        
+        yellow =  Xcolor("Yellow")
+        
+        yellow.print("Hello World!")
+        
+        blue = Xcolor(foreground="Blue",background="Whilte",style="Highlight")
+        
+        blue.print("Blue")
+        
+        blue.foreground="Green"
+        
+        blue.print("Green color!")
+        
+Keywords: color print ColorPrint python3
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
