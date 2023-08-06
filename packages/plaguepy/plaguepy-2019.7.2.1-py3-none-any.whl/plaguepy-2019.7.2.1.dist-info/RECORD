@@ -1,0 +1,17 @@
+data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/input/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/output/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+data/shapefiles/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plaguepy/__init__.py,sha256=vIuy5i9i_DKQ2o7yfhaX0CSAgUVfShz9clppwRDMMiU,19
+plaguepy/bereken.py,sha256=UTfUhaAfbwqAKjc7ngcIlefpdjI_a0_3ngvF8uNGlmA,8933
+plaguepy/convertCSV.py,sha256=ncufz4bxbj4XTMaEwZyrYGJT7PuwzL0FjLFkzV2ZGvA,4272
+plaguepy/plot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plaguepy/plot/norm_verd.py,sha256=wNCHiZu3MYZukvQ3OVWJeRupX-vIK9W8ZtthNhZ6y1U,3712
+plaguepy/plot/plot.py,sha256=Mn-DNeYQD8HH5nXIJx4foVFzPJqPC4lL-dLgeantAg0,9469
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_bereken.py,sha256=CwrjgwnQ3hIYJe_-9o_Q86E1miHRrsJDkLROjSAy0YY,1808
+plaguepy-2019.7.2.1.dist-info/LICENSE,sha256=4BFhHJHqjxWUpNWAaGl7FxuA5x-e5XdAoOffpdeO004,11549
+plaguepy-2019.7.2.1.dist-info/METADATA,sha256=M6cXpq_kEXSmdTRAcT27GXkmIyqRPrhmZ0S-evryfdg,4576
+plaguepy-2019.7.2.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+plaguepy-2019.7.2.1.dist-info/top_level.txt,sha256=2jmq5VVMyqEsRj2uHcd2Wi8XnVkBtRyZzh7_T7znz3w,19
+plaguepy-2019.7.2.1.dist-info/RECORD,,
