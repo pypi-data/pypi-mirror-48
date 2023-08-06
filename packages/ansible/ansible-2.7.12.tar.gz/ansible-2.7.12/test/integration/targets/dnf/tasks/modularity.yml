@@ -1,0 +1,58 @@
+# FUTURE - look at including AppStream support in our local repo
+- name: set package for RHEL
+  set_fact:
+    astream_name: '@swig:3.0/default'
+  when: ansible_distribution == 'RedHat'
+
+- name: set package for Fedora
+  set_fact:
+    astream_name: '@ripgrep:master/default'
+  when: ansible_distribution == 'Fedora'
+
+- name: install "@postgresql:9.6/client" module
+  dnf:
+    name: "@postgresql:9.6/client"
+    state: present
+  register: dnf_result
+
+- name: verify installation of "@postgresql:9.6/client" module
+  assert:
+    that:
+        - "not dnf_result.failed"
+        - "dnf_result.changed"
+
+- name: install "@postgresql:9.6/client" module again
+  dnf:
+    name: "@postgresql:9.6/client"
+    state: present
+  register: dnf_result
+
+- name: verify installation of "@postgresql:9.6/client" module again
+  assert:
+    that:
+        - "not dnf_result.failed"
+        - "not dnf_result.changed"
+
+- name: uninstall "@postgresql:9.6/client" module
+  dnf:
+    name: "@postgresql:9.6/client"
+    state: absent
+  register: dnf_result
+
+- name: verify uninstallation of "@postgresql:9.6/client" module
+  assert:
+    that:
+        - "not dnf_result.failed"
+        - "dnf_result.changed"
+
+- name: uninstall "@postgresql:9.6/client" module again
+  dnf:
+    name: "@postgresql:9.6/client"
+    state: install
+  register: dnf_result
+
+- name: verify uninstallation of "@postgresql:9.6/client" module again
+  assert:
+    that:
+        - "not dnf_result.failed"
+        - "not dnf_result.changed"
