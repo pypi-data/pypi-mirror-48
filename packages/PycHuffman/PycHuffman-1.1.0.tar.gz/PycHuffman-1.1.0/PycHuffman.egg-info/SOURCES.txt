@@ -1,0 +1,8 @@
+README.md
+huffman.c
+huffmanWrapper.c
+setup.py
+PycHuffman.egg-info/PKG-INFO
+PycHuffman.egg-info/SOURCES.txt
+PycHuffman.egg-info/dependency_links.txt
+PycHuffman.egg-info/top_level.txt
