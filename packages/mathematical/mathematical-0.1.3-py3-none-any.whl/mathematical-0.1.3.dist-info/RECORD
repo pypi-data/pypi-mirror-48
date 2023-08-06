@@ -1,0 +1,12 @@
+mathematical/__init__.py,sha256=rGQc19zfhWeT-aghIpnYei-AQskWJKwQ0UEBTj4xwSQ,1175
+mathematical/data_frames.py,sha256=Aaw1NHQ1QzOB4k9IaqCM5vn8q62AvgpQjtxs4exCCZw,7766
+mathematical/outliers.py,sha256=ghCsp5hYxqZ6yRulQTzLIgUFsCHKPTyCcYMygadK_Ic,6515
+mathematical/stats.py,sha256=zxrZAaNi5MJ2yhUZweRfA0atfBPc5j3kUW4ZOP1xsT8,14823
+mathematical/utils.py,sha256=EegD0QC1Dw3Wri_8na8fy_Tg3fuPbr5uBMvxoxkdvs0,3251
+tests/__init__.py,sha256=JuPEErVZPITpxn20DOV1XvUQImtLA0HB52HPk6tAD6M,49
+tests/test_stats.py,sha256=v4FUMyxahXBCTB63A53jSZ_DLrCFB33Bc1CKBQB0sC0,2071
+mathematical-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+mathematical-0.1.3.dist-info/METADATA,sha256=3GJ_2N6C4zdc1qHWnwNvBJLnlY_yX1tHgJxZ3YCKtyQ,811
+mathematical-0.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mathematical-0.1.3.dist-info/top_level.txt,sha256=XLVK6XfH3SYa2RphpTQ6DnhcZ8IVCg6tIgGTPcgDcFA,19
+mathematical-0.1.3.dist-info/RECORD,,
