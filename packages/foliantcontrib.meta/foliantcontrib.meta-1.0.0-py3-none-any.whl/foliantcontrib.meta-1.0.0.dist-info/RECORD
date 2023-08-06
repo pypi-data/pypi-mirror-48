@@ -1,0 +1,10 @@
+foliant/cli/meta.py,sha256=Ik8-uJGxB4ad3XaD_2IsdQ0wU1VkcAaoaIhZyT8dl18,2657
+foliant/meta_commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+foliant/meta_commands/base.py,sha256=dLOBsBHzkVurMt-bv0YVNHSaVuIlF1nkV0nbxscwpp0,608
+foliant/meta_commands/generate.py,sha256=y_ygIxLstYtmGBPuvrDNj5rOG2qppE7ngDeyLCSLpC0,4519
+foliant/preprocessors/meta.py,sha256=S_s3i3DZ3MKAhqlEDOYHZGRjCwqLr6deQjUmVcrofHQ,2250
+foliantcontrib.meta-1.0.0.dist-info/LICENSE,sha256=2j7OLS2vXIEshgbSkiCU9RgYJY1M4OBBtO6ECbo7OB8,1056
+foliantcontrib.meta-1.0.0.dist-info/METADATA,sha256=g1UWjbNP-8uMG2ZBUgu8wGP0U8TxL8ERr4h9bfkq12k,3542
+foliantcontrib.meta-1.0.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+foliantcontrib.meta-1.0.0.dist-info/top_level.txt,sha256=5uvI8ZIgBWKY09Z8Xs4ESLGD7yAEGbiLvIrdHdaC9mE,8
+foliantcontrib.meta-1.0.0.dist-info/RECORD,,
