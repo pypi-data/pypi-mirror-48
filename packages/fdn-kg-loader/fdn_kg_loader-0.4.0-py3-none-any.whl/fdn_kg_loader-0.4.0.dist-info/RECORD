@@ -1,0 +1,15 @@
+fdn_kg_loader/__init__.py,sha256=4wiXk-AW-cmreH-FVXN9i3KqKrH8afU6H1rAt3h2mKA,2595
+fdn_kg_loader/filter.py,sha256=yBaCY1rV7PBSWhNFupNoMtjcvUcWYdXhd5SjRk7iWag,1611
+fdn_kg_loader/loader.py,sha256=dTT6YvAwNvc66atXbFg8fWc2EdrQRazBBzYQ7B4T_DY,4538
+fdn_kg_loader/model/__init__.py,sha256=0AE_itOARIZaJtcrNxHXeTlcDojlPzRfDsx9yN44PvM,1143
+fdn_kg_loader/store/__init__.py,sha256=4lheTcflnBzQ2fmFo8mHJS2p0wc5dX--o7gk6ZoB5dA,6069
+fdn_kg_loader-0.4.0.dist-info/METADATA,sha256=jOlsBkJnKTCN-uoOWghMx8QHCQPNtzuznyGGOCFBjWE,336
+fdn_kg_loader-0.4.0.dist-info/RECORD,,
+fdn_kg_loader-0.4.0.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+fdn_kg_loader-0.4.0.dist-info/entry_points.txt,sha256=9FbUPu-mION6xdUhfXBGH6oYHH737Bv2kS2eoLZNJ18,46
+fdn_kg_loader-0.4.0.dist-info/top_level.txt,sha256=VrgByT6nEwrSS-g6_n-gnj7BoZ-aS4vZcmgkIiu7ZPY,14
+fdnloader/__init__.py,sha256=TiE9R_GLGylw5cbZvZbZblI735rrX0PlDnDAAvLZq40,2565
+fdnloader/filter.py,sha256=yBaCY1rV7PBSWhNFupNoMtjcvUcWYdXhd5SjRk7iWag,1611
+fdnloader/loader.py,sha256=dTT6YvAwNvc66atXbFg8fWc2EdrQRazBBzYQ7B4T_DY,4538
+fdnloader/model/__init__.py,sha256=0AE_itOARIZaJtcrNxHXeTlcDojlPzRfDsx9yN44PvM,1143
+fdnloader/store/__init__.py,sha256=IFlHMdtrM1U0PdXyVQbBXN9HDTMCOWYvfsYLav3jW5g,5955
