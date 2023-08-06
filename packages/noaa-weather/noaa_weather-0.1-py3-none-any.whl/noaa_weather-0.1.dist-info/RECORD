@@ -1,0 +1,7 @@
+noaa/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+noaa/get_historical_weather.py,sha256=g_vBGPdfMwaLAuuQDRLUmF1PHUy8p3saRq80bI8kzdk,2336
+noaa_weather-0.1.data/scripts/get_historical_weather.py,sha256=g_vBGPdfMwaLAuuQDRLUmF1PHUy8p3saRq80bI8kzdk,2336
+noaa_weather-0.1.dist-info/METADATA,sha256=Sew0OKaQSmtuWyc_vGlEgJTLO5OQP35wYsrXAZjgEi0,1464
+noaa_weather-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+noaa_weather-0.1.dist-info/top_level.txt,sha256=pumcDL7bkirNTSvEhR3W_yw7EtascsZkujXDD5ksnhk,5
+noaa_weather-0.1.dist-info/RECORD,,
