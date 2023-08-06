@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: cctxpro
+Version: 1.0.0
+Summary: Looking for CCXT Pro? You've mistyped the name. Bad guys could exploit this by providing a fake version of CCXT Pro here. The original version you're looking for: https://www.npmjs.com/package/ccxt.pro
+Home-page: https://ccxt.pro
+Author: Igor Kroitor
+Author-email: igor.kroitor@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: PHP
+Classifier: Operating System :: OS Independent
+Classifier: Environment :: Console
+Description-Content-Type: text/markdown
+
+# Looking for CCXT Pro?
+
+You've mistyped the name.
+Bad guys could exploit this by providing a fake version of CCXT Pro here.
+The original version you're looking for: https://www.npmjs.com/package/ccxt.pro
+
+Have a nice day!
+
+– CCXT Dev Team
+
