@@ -1,0 +1,10 @@
+ipfscluster/__init__.py,sha256=Qe-nxfOLfctTdhECzU45E7COpaz7ktH3EJzyHHHUjOw,9044
+ipfscluster/allocations.py,sha256=4nsazh7P4qkNmWm-lKEnFZUR7U5uzdCYeOM5haPrJNI,1203
+ipfscluster/health.py,sha256=MsX4yPs_T6NVdqenJq1heMeF13GIVKAO-7DLxHwpYNw,881
+ipfscluster/http.py,sha256=tN6xKlgY1S_JqHeUh5SjIC6YpKOk5ULLG7tc7yaSetA,4228
+ipfscluster/peers.py,sha256=Zy0H5Xcnyc8FKRp3bXc8qI051yJ81loIGpvl6jfNpgA,849
+ipfscluster/pins.py,sha256=sfsFUJSaznwIU4_oT-wAtGtstpeFTsk1OZZOk5eD6Dw,3112
+ipfscluster-0.0.0.dist-info/METADATA,sha256=lxbxREqJgDmRz3pbfI7k8icEhb0BrzvRR3Ljb2Hnk28,759
+ipfscluster-0.0.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+ipfscluster-0.0.0.dist-info/top_level.txt,sha256=8K6uRi0suWd8fDa01YB1M8UXc7F4QgY5uzfOuh5I_As,12
+ipfscluster-0.0.0.dist-info/RECORD,,
