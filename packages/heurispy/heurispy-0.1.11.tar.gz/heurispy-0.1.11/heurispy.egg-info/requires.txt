@@ -1,0 +1,5 @@
+pathos
+tqdm
+numpy
+pandas
+fpdf
