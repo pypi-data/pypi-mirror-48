@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: kb_analysis
+Version: 1.0.6
+Summary: H1 human embryonic stem cells (hESCs) Data Analysis
+Home-page: https://github.com/KarrLab/kb_analysis
+Author: Karr Lab
+Author-email: karr@mssm.edu
+License: MIT
+Download-URL: https://github.com/KarrLab/kb_analysis
+Description: UNKNOWN
+Keywords: whole-cell systems biology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Provides-Extra: all
+Provides-Extra: tests
+Provides-Extra: docs
