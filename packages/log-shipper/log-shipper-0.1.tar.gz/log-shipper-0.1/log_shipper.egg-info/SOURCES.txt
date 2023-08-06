@@ -1,0 +1,8 @@
+setup.py
+bin/log-shipper
+log_shipper.egg-info/PKG-INFO
+log_shipper.egg-info/SOURCES.txt
+log_shipper.egg-info/dependency_links.txt
+log_shipper.egg-info/not-zip-safe
+log_shipper.egg-info/requires.txt
+log_shipper.egg-info/top_level.txt

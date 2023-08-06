@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: log-shipper
+Version: 0.1
+Summary: Simple log shipper via HTTP
+Home-page: https://github.com/newint33h/log-shipper
+Author: Jorge del Rio
+Author-email: jdelrios@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
