@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: all-shortcuts
+Version: 0.7
+Summary: a app that simplify our shape of write orders
+Home-page: https://github.com/whohe/shortcuts
+Author: Wilson Hernández Ortiz
+Author-email: who@whooami.me
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# shortcuts
+Una app que simplifica las ordenes en la linea de comandos, soporta
+conexiones remotas a otros nodos y bases de datos
+comandos populares:
+* go
+* get
+* send
+
+

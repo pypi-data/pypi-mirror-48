@@ -1,0 +1,13 @@
+#!python
+#get server:[path|filename] [path|filename]
+try:
+    import shortcuts.services.sftp
+    import sys
+    originData=sys.argv[1].split(":")
+    server=originData[0]
+    origin=originData[1]
+    destiny=sys.argv[2]
+    connect=shortcuts.services.sftp
+    connect.sftp(server,origin,destiny,'get')
+except:
+    print("\nSee you baby")

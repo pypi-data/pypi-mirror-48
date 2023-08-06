@@ -1,0 +1,17 @@
+all_shortcuts-0.7.data/scripts/get,sha256=1KAy4PDBqD1_jJqDUJ0IHv0zKTcVaDRhFu1dcTt2BEE,338
+all_shortcuts-0.7.data/scripts/go,sha256=OpvfSPgcx5DgrHrm95eDx_S02fsLxQPiPsT88uPrh7E,371
+all_shortcuts-0.7.data/scripts/send,sha256=rFKM82ypaaWowDM8IVlTNt7B0oMsJf_5b_hy9BshpV4,390
+shortcuts/Models.py,sha256=vaIq-ZEyB2qtq2SjvaBjsVDyXV7jiQd9L3fHx4D4Y-Q,857
+shortcuts/__init__.py,sha256=EAnz9qDNI2FHqwFekKSCAa-bkx55UStdCfoW--ImSNY,31
+shortcuts/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shortcuts/services/sftp.py,sha256=B72CDsT8fu9Adr2V5bUkuIhpR1XAm3z8QOB8hxqIt8E,1106
+shortcuts/services/ssh.py,sha256=-j0BHTGo7fl0BrdbL1FJaNvywQAS9KK2mzlSgXdLL0w,1083
+shortcuts/services/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shortcuts/services/libs/destroyPrivateKey.py,sha256=T-yEKwi343yUezAhkEaDsi5kupgeEEjKFxY9URpKopY,411
+shortcuts/services/libs/getServer.py,sha256=gO4p2ioI3co5Awawj3yebiqZ6ZVVJw9_mUs6dcBV4jc,561
+shortcuts/services/libs/makePrivateKey.py,sha256=joJ6uxPpAj6paru1X4uFn8IRp_HKHysBqwUGbi9xOT4,500
+all_shortcuts-0.7.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+all_shortcuts-0.7.dist-info/METADATA,sha256=JWsXQ-oPD3zhaHhH3sHkDyG6r3wte4ZobSiNumoffQY,463
+all_shortcuts-0.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+all_shortcuts-0.7.dist-info/top_level.txt,sha256=-TtXadrf8mTltUlbcuN8zJ2CatHDdDNE0FMMrMImkBw,10
+all_shortcuts-0.7.dist-info/RECORD,,
