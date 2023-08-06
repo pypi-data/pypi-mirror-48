@@ -1,0 +1,78 @@
+Metadata-Version: 1.1
+Name: pysimpleapp
+Version: 0.1.2
+Summary: Simple framework for applications in python
+Home-page: https://github.com/MagpieEmbedded/pysimpleapp
+Author: Tim Guite
+Author-email: magpieembedded@gmail.com
+License: MIT license
+Description: ===========
+        pysimpleapp
+        ===========
+        
+        
+        .. image:: https://img.shields.io/pypi/v/pysimpleapp.svg
+                :target: https://pypi.python.org/pypi/pysimpleapp
+        
+        .. image:: https://img.shields.io/travis/MagpieEmbedded/pysimpleapp.svg
+                :target: https://travis-ci.org/MagpieEmbedded/pysimpleapp
+        
+        .. image:: https://readthedocs.org/projects/pysimpleapp/badge/?version=latest
+                :target: https://pysimpleapp.readthedocs.io/en/latest/?badge=latest
+                :alt: Documentation Status
+        
+        
+        
+        
+        Simple framework for applications in python
+        
+        Aims
+        ----
+        
+        This package is intended to provide the basic components for a  graphical application in Python.
+        It grew out of a frustration with existing tutorials on writing GUI applications in Python.
+        
+        It is intended to be GUI framework agnostic, although some common frameworks have been included for demonstration and ease of use.
+        
+        There should also be a relatively thorough set of tutorials alongside the main code.
+        This will teach how to use the software.
+        Read the documentation to find out why the software is this way.
+        
+        
+        * Free software: MIT license
+        * Documentation: https://pysimpleapp.readthedocs.io.
+        
+        
+        Features
+        --------
+        
+        * TODO
+        * Attempt to implement best practices
+        * Documentation and tutorials
+        
+        Credits
+        -------
+        
+        This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+        
+        .. _Cookiecutter: https://github.com/audreyr/cookiecutter
+        .. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2019-07-06)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: pysimpleapp
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
