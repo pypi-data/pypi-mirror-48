@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: prosemirror-py
+Version: 0.1.2
+Summary: ProseMirror in Python
+Home-page: https://github.com/fellowinsights/prosemirror-py
+Author: Shen Li
+Author-email: shen@fellow.co
+Keywords: prosemirror,collaborative,editing
+Requires-Python: >=3.6,<4
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: pyicu (>=2.3,<3.0)
+Requires-Dist: typing-extensions (>=3.7,<4.0)
+Project-URL: Repository, https://github.com/fellowinsights/prosemirror-py
