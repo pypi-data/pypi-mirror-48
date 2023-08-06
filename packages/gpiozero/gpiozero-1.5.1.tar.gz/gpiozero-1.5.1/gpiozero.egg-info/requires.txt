@@ -1,0 +1,9 @@
+colorzero
+
+[doc]
+sphinx
+
+[test]
+pytest
+coverage
+mock
