@@ -1,0 +1,7 @@
+numpy
+pandas
+requests_html
+yahoo_fin
+seaborn
+sklearn
+talib
