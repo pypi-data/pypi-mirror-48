@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: codewars
+Version: 0.0.2rc0
+Summary: A toolbox for daily use. This is just a toolbox to make my life easier. Maybe yours too..
+Home-page: UNKNOWN
+Author: Annihilator708
+Author-email: 
+License: UNKNOWN
+Description: [![Codewars.nl](https://codewars.nl/static/img/logo.png)](https://codewars.nl/)
+        
+        Make sure the dependencies are installed before using
+        
+        `sudo apt-get install libbluetooth-dev`
+        
+        # Install
+        
+            pip install codewars
+        
+        # Info
+        
+            More to come...
+        
+        # BlueTooth
+        
+            Example:
+            ```
+            from codewars.bluetooth import Bluetooth
+            bt = Bluetooth() # Initialize the class, Scans once
+            scan_results = bt.scan()  # Scan and overwrite history of scans
+            print(scan_results)
+            ```
+        Refer to docstrings for more detailed documentation
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Requires-Python: >=3.6.*
+Description-Content-Type: text/markdown
