@@ -1,0 +1,16 @@
+MANIFEST.in
+README.rst
+requirements.txt
+setup.cfg
+setup.py
+geometric_smote.egg-info/PKG-INFO
+geometric_smote.egg-info/SOURCES.txt
+geometric_smote.egg-info/dependency_links.txt
+geometric_smote.egg-info/not-zip-safe
+geometric_smote.egg-info/requires.txt
+geometric_smote.egg-info/top_level.txt
+gsmote/__init__.py
+gsmote/_version.py
+gsmote/geometric_smote.py
+gsmote/tests/__init__.py
+gsmote/tests/test_geometric_smote.py
