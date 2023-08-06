@@ -1,0 +1,10 @@
+README.md
+setup.py
+methylator/__init__.py
+methylator/methylationPattern.py
+methylator/splitReads.py
+methylator.egg-info/PKG-INFO
+methylator.egg-info/SOURCES.txt
+methylator.egg-info/dependency_links.txt
+methylator.egg-info/entry_points.txt
+methylator.egg-info/top_level.txt
