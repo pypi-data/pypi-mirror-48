@@ -1,0 +1,10 @@
+include LICENSE
+include README.rst
+include nft.py
+include requirements.txt
+include setup.py
+recursive-include templates
+include templates
+include templates.pickle
+include config.yaml
+exclude test.py
