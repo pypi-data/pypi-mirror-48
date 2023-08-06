@@ -1,0 +1,3 @@
+[console_scripts]
+mywsgi = mywsgi:cli
+
