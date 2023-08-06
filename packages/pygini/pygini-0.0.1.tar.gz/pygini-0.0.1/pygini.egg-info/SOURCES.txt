@@ -1,0 +1,9 @@
+README.rst
+setup.py
+pygini/__init__.py
+pygini/gini.py
+pygini.egg-info/PKG-INFO
+pygini.egg-info/SOURCES.txt
+pygini.egg-info/dependency_links.txt
+pygini.egg-info/requires.txt
+pygini.egg-info/top_level.txt
