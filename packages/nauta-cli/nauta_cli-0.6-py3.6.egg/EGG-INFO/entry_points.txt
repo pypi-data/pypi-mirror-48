@@ -1,0 +1,3 @@
+[console_scripts]
+nautacli = nautacli.__main__:main
+
