@@ -1,0 +1,15 @@
+pytd/__init__.py,sha256=IQQreWlEtb2iRAnVuRXQ2ug259nMd0CVmBPIucgG_Ko,234
+pytd/client.py,sha256=6iealDkxRm48-eW9OjsKg1BPicOK9M2yOLnx8dEOdwI,5706
+pytd/query_engine.py,sha256=GXlhT52tIP7PRxtLAxihWX0SrIWdnfrv4VlcHJ6UIDY,5462
+pytd/version.py,sha256=2eiWQI55fd-roDdkt4Hvl9WzrTJ4xQo33VzFud6D03U,22
+pytd/writer.py,sha256=L4t6qJ8At9MYTPvw0Cbeu1SyGZ8R58axo2D-EZX2pxs,5510
+pytd/dbapi/__init__.py,sha256=vpBesjVbJOXNt88OWLI9796N9KMJpXXs4w7leeV99Ko,957
+pytd/dbapi/connection.py,sha256=S7InZVaNW4O6JDSqNJ_BM4aaDu3DPTOj7XlxEYkIJag,958
+pytd/dbapi/error.py,sha256=tmexcdgEwGrmAAr10cEsaBycPj3lHXk3RWd2wvEQcEg,469
+pytd/pandas_td/__init__.py,sha256=f9TJ_ojvPR_9S-o0cO6h-AFLANYrksvpGPc4KjUQOLE,15035
+pytd/pandas_td/ipython.py,sha256=zqYeocIGRohYXxLdF4gSm5j5wQXQyBCLaE3i-J1smw4,24971
+pytd-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pytd-0.4.0.dist-info/METADATA,sha256=GDlxzWuRkfaYGgwaoZAI6EIKpHSYZSXZH-xRbPB7tns,6566
+pytd-0.4.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pytd-0.4.0.dist-info/top_level.txt,sha256=jnTFfMft2OAseNBGRToSxge3aWbNpJPeoiJe3lqbUZw,5
+pytd-0.4.0.dist-info/RECORD,,
