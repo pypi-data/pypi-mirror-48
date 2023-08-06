@@ -1,0 +1,34 @@
+{
+  "alphabet": [
+    {
+      "freq": 22,
+      "text": "a",
+      "vec": [
+        0
+      ]
+    },
+    {
+      "freq": 0,
+      "text": "ab",
+      "vec": [
+        0,
+        1
+      ]
+    },
+    {
+      "freq": 6,
+      "text": "b",
+      "vec": [
+        1
+      ]
+    }
+  ],
+  "coder": [
+    0,
+    1
+  ],
+  "fitted": true,
+  "freqs_computed": true,
+  "min_prob": 0.002,
+  "size": 5
+}
