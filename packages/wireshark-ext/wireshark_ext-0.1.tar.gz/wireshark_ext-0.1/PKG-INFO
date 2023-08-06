@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: wireshark_ext
+Version: 0.1
+Summary: Wireshark Format Tool
+Home-page: https://github.com/yafeile/wireshark_ext
+Author: yafeile
+Author-email: yafeile@sohu.com
+License: UNKNOWN
+Description: A tool for pretty format packet of Wireshark
+Platform: UNKNOWN

@@ -1,0 +1,8 @@
+setup.py
+wireshark_ext/__init__.py
+wireshark_ext/packet.py
+wireshark_ext.egg-info/PKG-INFO
+wireshark_ext.egg-info/SOURCES.txt
+wireshark_ext.egg-info/dependency_links.txt
+wireshark_ext.egg-info/requires.txt
+wireshark_ext.egg-info/top_level.txt
