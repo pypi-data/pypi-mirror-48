@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: Jian
+Version: 0.1
+Summary: Jarrott Flask中实现高可用的扩展
+Home-page: UNKNOWN
+Author: Jarrott Xu
+Author-email: xqiqio7@gmail.com
+License: Apache License
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
