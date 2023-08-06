@@ -1,0 +1,9 @@
+README.md
+getlino.py
+setup.py
+getlino.egg-info/PKG-INFO
+getlino.egg-info/SOURCES.txt
+getlino.egg-info/dependency_links.txt
+getlino.egg-info/not-zip-safe
+getlino.egg-info/requires.txt
+getlino.egg-info/top_level.txt

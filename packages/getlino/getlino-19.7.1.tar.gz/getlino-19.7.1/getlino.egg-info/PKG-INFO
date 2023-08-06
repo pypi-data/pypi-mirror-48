@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: getlino
+Version: 19.7.1
+Summary: Get Lino application
+Home-page: http://lino-framework.org
+Author: Luc Saffre
+Author-email: luc.saffre@gmail.com
+License: BSD-2-Clause
+Description: 
+            Get Lino application
+            
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Office/Business :: Financial :: Accounting
