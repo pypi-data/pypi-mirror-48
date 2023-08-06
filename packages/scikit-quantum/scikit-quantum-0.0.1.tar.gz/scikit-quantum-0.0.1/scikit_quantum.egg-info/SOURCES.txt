@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+data/data_file
+sample/__init__.py
+sample/package_data.dat
+scikit_quantum.egg-info/PKG-INFO
+scikit_quantum.egg-info/SOURCES.txt
+scikit_quantum.egg-info/dependency_links.txt
+scikit_quantum.egg-info/entry_points.txt
+scikit_quantum.egg-info/requires.txt
+scikit_quantum.egg-info/top_level.txt
