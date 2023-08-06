@@ -1,0 +1,16 @@
+attrdict==1.1.0
+blessings>=1.6
+graphviz>=0.8.2
+matplotlib<=2.9
+numpy>=1.11
+networkx==1.11
+pydotplus
+pandas>=0.18
+psutil>=3.0
+errand_boy>=0.3
+orderedset>=2.
+setproctitle>=1.1
+sortedcontainers>=0.9
+
+[testing]
+pytest<=4.6

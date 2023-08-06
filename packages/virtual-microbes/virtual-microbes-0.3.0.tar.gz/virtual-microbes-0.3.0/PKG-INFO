@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: virtual-microbes
+Version: 0.3.0
+Summary: Virtual Microbe Evolutionary Simulator
+Home-page: https://bitbucket.org/thocu/virtual-microbes
+Author: Thomas D. Cuypers, Bram van Dijk
+Author-email: thomas.cuypers@gmail.com, bramvandijk88@gmail.com
+License: UNKNOWN
+Description: For documentation and source code see bitbucket.org/thocu/virtual-microbes/
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Cython
+Classifier: Topic :: Scientific/Engineering :: Artificial Life
+Classifier: Topic :: Scientific/Engineering
+Provides-Extra: testing
