@@ -1,0 +1,12 @@
+include AUTHORS.txt
+include CHANGES.txt
+include CONTRIBUTIONS.txt
+include COPYRIGHT.txt
+include LICENSE.txt
+include README.md
+include TODO.txt
+include ChangeLog
+include set-env.sh
+
+recursive-include bin *
+recursive-include man *
