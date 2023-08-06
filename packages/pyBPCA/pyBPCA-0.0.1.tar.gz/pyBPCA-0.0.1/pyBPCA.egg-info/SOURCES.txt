@@ -1,0 +1,11 @@
+README
+setup.py
+pyBPCA/__init__.py
+pyBPCA/pyBPCA.py
+pyBPCA/runBPCA.py
+pyBPCA.egg-info/PKG-INFO
+pyBPCA.egg-info/SOURCES.txt
+pyBPCA.egg-info/dependency_links.txt
+pyBPCA.egg-info/not-zip-safe
+pyBPCA.egg-info/requires.txt
+pyBPCA.egg-info/top_level.txt
