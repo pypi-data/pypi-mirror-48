@@ -1,0 +1,6 @@
+setup.py
+elements/__init__.py
+pyelements.egg-info/PKG-INFO
+pyelements.egg-info/SOURCES.txt
+pyelements.egg-info/dependency_links.txt
+pyelements.egg-info/top_level.txt
