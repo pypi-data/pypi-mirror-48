@@ -1,0 +1,9 @@
+s3chunkuploader/__init__.py,sha256=sMC9RA-oKBUfiBzcn0zKuEtHfDTIAo4FEaqBzSm5TLQ,133
+s3chunkuploader/fields.py,sha256=JJCgvjnzfmwrpwNdDF07gJ4bpZ7IPBcAqCPk5pozS8s,526
+s3chunkuploader/file_handler.py,sha256=WwymkBDKXh1wfdMh3VLqWDgSR4VT0dY6sdLCszx4Y60,8422
+s3chunkuploader/version.py,sha256=mSEGsm3krpaP32dIC6o0jfSpVPy-WcrOfoatVvRBnV4,20
+s3chunkuploader-0.3.dist-info/LICENSE,sha256=eixDD6xyYNk6hUxoTn8EB5YDirm0p_07YRsS2vipTCs,1090
+s3chunkuploader-0.3.dist-info/METADATA,sha256=UqL45yGzKQmOeea2-a1Wu_9V7drknL5DrQl7ERKyws8,3595
+s3chunkuploader-0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+s3chunkuploader-0.3.dist-info/top_level.txt,sha256=Q6tJHkTqloCfShvzkjaYQp4r3B0_JeZuumWDHCocEXU,16
+s3chunkuploader-0.3.dist-info/RECORD,,
