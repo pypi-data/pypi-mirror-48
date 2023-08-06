@@ -1,0 +1,10 @@
+numpy
+pandas
+ennikkai
+selenium
+pcse
+chardet
+tradssat
+requests
+pykrige
+scipy
