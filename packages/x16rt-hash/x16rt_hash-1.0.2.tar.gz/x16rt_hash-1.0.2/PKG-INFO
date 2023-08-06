@@ -1,0 +1,32 @@
+Metadata-Version: 1.0
+Name: x16rt_hash
+Version: 1.0.2
+Summary: Bindings for X16RT hashing PoW
+Home-page: https://github.com/random-zebra/x16rt_hash
+Author: random.zebra
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: # x16rt_hash
+        Python bindings for the x16rt hash function used in Veil cryptocurrency PoW.
+        
+        ## Prerequisites
+        
+        ```
+        sudo apt-get install python-dev
+        ```
+        
+        ## Installation
+        
+        To install this module, clone this repository and run:
+        
+        ```
+        python setup.py install
+        ```
+        
+        You can verify the installation by running:
+        
+        ```
+        python test.py
+        ```
+        
+Platform: UNKNOWN
