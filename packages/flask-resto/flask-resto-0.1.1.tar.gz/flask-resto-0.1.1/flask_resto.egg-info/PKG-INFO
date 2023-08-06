@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: flask-resto
+Version: 0.1.1
+Summary: RESTful APIs with Flask for lazy people
+Home-page: https://github.com/matthewscholefield/flask-resto
+Author: Matthew Scholefield
+Author-email: matthew331199@gmail.com
+License: MIT
+Description: 
+        Flask Resto
+        -------------
+        
+        RESTful APIs with Flask for lazy people
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
