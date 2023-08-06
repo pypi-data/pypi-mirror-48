@@ -1,0 +1,6 @@
+invidia
+setup.py
+invidia.egg-info/PKG-INFO
+invidia.egg-info/SOURCES.txt
+invidia.egg-info/dependency_links.txt
+invidia.egg-info/top_level.txt

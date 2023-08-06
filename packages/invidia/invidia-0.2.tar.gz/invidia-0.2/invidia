@@ -1,0 +1,59 @@
+#!/usr/bin/env python
+from __future__ import absolute_import
+from __future__ import print_function
+import argparse
+import collections
+import platform
+import re
+import os
+import subprocess
+import sys
+import six
+from six.moves import zip
+device = collections.namedtuple("Device", ["name", "pci_id"])
+def get_nvidia_device():
+    """
+    Returns the device info (name and ID) for the NVIDIA device, if present.
+    """
+    pci_vga = ""
+
+    try:
+        lspci = subprocess.Popen(["lspci", "-nn"], stdout=subprocess.PIPE)
+        pci_vga = subprocess.check_output(["grep", "-i", "VGA"], stdin=lspci.stdout)
+    except subprocess.CalledProcessError:
+        if __name__ == "__main__":
+            print("Error: Problem retreiving VGA device info!")
+        raise
+    except OSError:
+        if __name__ == "__main__":
+            print("Error: Command 'lspci' not available!")
+        raise
+
+    if pci_vga != "":
+        if "nvidia" in pci_vga.lower().decode('utf-8'):
+            pci_id_regex = re.compile('\:[0-9A-Fa-f]+\]')
+            pci_id_match = pci_id_regex.search(pci_vga.decode('utf-8'))
+            id_start = pci_id_match.start() + 1
+            id_end = pci_id_match.end() - 1
+            pci_id = pci_vga[id_start:id_end].upper()
+
+            device_name_regex = re.compile('nvidia.*\[10de')
+            device_name_match = device_name_regex.search(pci_vga.lower().decode('utf-8'))
+            name_start = device_name_match.start()
+            name_end = device_name_match.end() - 5
+            device_name = pci_vga[name_start:name_end]
+
+            return device(name=device_name, pci_id=pci_id)
+
+
+    return None
+print(get_nvidia_device())
+script = """
+echo ""
+if ! nvidia-smi
+then
+sudo ubuntu-drivers install
+fi
+echo ""
+"""
+os.system("bash -c '%s'" % script)
