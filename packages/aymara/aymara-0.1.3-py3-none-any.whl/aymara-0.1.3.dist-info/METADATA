@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: aymara
+Version: 0.1.3
+Summary: Python bindings to the LIMA linguistic analyzer
+Author: Gael de Chalendar
+Author-email: gael.de-chalendar@cea.fr
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: PySide2 (>=5.12,<6.0)
+Requires-Dist: docker (>=4.0.2,<5.0.0)
+Requires-Dist: pyconll (>=2.0,<3.0)
+Requires-Dist: requests (>=2.22,<3.0)
