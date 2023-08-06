@@ -1,0 +1,17 @@
+git-semver ~= 0.2.0
+jinja2 ~= 2.9
+mondrian ~= 0.7
+packaging ~= 19.0
+pip-tools ~= 3.0
+stevedore ~= 1.28
+whistle ~= 1.0
+yapf ~= 0.20
+
+[dev]
+coverage ~= 4.5
+isort
+pytest ~= 5.0
+pytest-cov ~= 2.7
+releases >= 1.6, < 1.7
+sphinx ~= 1.7
+sphinx-sitemap ~= 1.0
