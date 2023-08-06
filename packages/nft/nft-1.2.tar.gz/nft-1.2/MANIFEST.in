@@ -1,0 +1,10 @@
+include LICENSE
+include README.md
+include main.py
+include requirements.txt
+include setup.py
+include templates/*
+include templates
+exclude config.yaml
+exclude templates.pickle
+exclude test.py
