@@ -1,0 +1,9 @@
+aioli_openapi/__init__.py,sha256=Hi4lOBcMVgFojUDGMoEUn8Zr3JTsNHtOxusFEJk1nCo,359
+aioli_openapi/config.py,sha256=2PnrNKyVrrdGDB8oMUdqbrIoYvLZwRH1qrZ9KAjK_0M,161
+aioli_openapi/controller.py,sha256=2PKQXZ-u61yiFXNqcknA2LrVJZfPTbmqqqRJWDZ4SCU,846
+aioli_openapi/schema.py,sha256=7ns053bpyF9y3y0G-ACMNiG3iCL_wCQ8WTKGOtM0opA,116
+aioli_openapi/service.py,sha256=-3wy86_Ai6z8gii8bomNhyug7buP3URxatDgd9ecr64,2756
+aioli_openapi-0.1.3.dist-info/LICENSE,sha256=_2Fv8L6MldNHu1SOgv5rEH7X9ZeFPYzio2H_Pc3iWrM,1088
+aioli_openapi-0.1.3.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+aioli_openapi-0.1.3.dist-info/METADATA,sha256=fe7ObqEXCxH6o4NZPH8rW19RSLyUGf9jaGicUDPp-XM,584
+aioli_openapi-0.1.3.dist-info/RECORD,,
