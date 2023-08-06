@@ -1,0 +1,11 @@
+maven/__init__.py,sha256=uvzreB01whzoaEsZ-S5aW6_6cJUixtYRgeKlzIoHZB8,21
+maven/get.py,sha256=c6QjN0PGXDVvPMNX7nWI0LPf-dXNKFsIq5aV3v4UHqI,1173
+maven/datasets/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maven/datasets/test.py,sha256=2EroseCtJ3pNAwxVFxOab2aqQ2RJlrQi4HGpibkXLyY,14
+maven/datasets/general_election/__init__.py,sha256=Azc23AT_yxylEEWFWPJCmwmO4Hy_1vus2cUWOP-cFsw,72
+maven/datasets/general_election/gb_2015_results.py,sha256=wNSbZvq2N2ZTGM89yFpmii2mxL6rpOrA1WmiRXn8GN8,4615
+maven-0.0.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+maven-0.0.4.dist-info/METADATA,sha256=_8O-IOQG6O1-IEDLULu3OecL5vDH1RFxuHXd2Q_3NcQ,3875
+maven-0.0.4.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+maven-0.0.4.dist-info/top_level.txt,sha256=dxAkUd_YOm6ZzD7FHLkojWqr1uESPUtZswlgyCcqdyE,6
+maven-0.0.4.dist-info/RECORD,,
