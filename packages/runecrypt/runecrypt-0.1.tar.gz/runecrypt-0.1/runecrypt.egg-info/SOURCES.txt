@@ -1,0 +1,8 @@
+setup.py
+runecrypt/__init__.py
+runecrypt/utils.py
+runecrypt.egg-info/PKG-INFO
+runecrypt.egg-info/SOURCES.txt
+runecrypt.egg-info/dependency_links.txt
+runecrypt.egg-info/not-zip-safe
+runecrypt.egg-info/top_level.txt
