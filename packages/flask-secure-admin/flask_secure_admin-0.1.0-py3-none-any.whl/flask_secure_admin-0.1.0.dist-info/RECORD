@@ -1,0 +1,10 @@
+flask_secure_admin/__init__.py,sha256=tYeAiO3c9LaxQgfrRyIMNkgVjFnt3zDHiZfonaB224I,40
+flask_secure_admin/blueprint.py,sha256=h6Od40Q87PyKxm-F3fzHIb2iXd_5D3Eo3Xum4MZptMA,3285
+flask_secure_admin/secure_model_view.py,sha256=fyeZtLui6WO9d3B7xlOQHOc9rxU6qTMZM2mT46dGWk0,820
+flask_secure_admin/security_sqlsoup_user_datastore.py,sha256=5wQCffucJ39Ydx7Bf9pfKEPEhEpLzCgO2GHQNaLO95E,1658
+flask_secure_admin/str_representation.py,sha256=jY6dAfbZ5AG9h4pnwG1wbsD6Iiu3RmykDkXkmzpfygE,382
+flask_secure_admin/templates.py,sha256=YaarUz0wXF5ZzHxqR-yAvVf2TwXgcKaJ1F_w_eEGhRg,750
+flask_secure_admin-0.1.0.dist-info/METADATA,sha256=tWhssskEOPj4xSn2jHVOJE-ksKcR5kE5RVj3WkU9MBA,829
+flask_secure_admin-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+flask_secure_admin-0.1.0.dist-info/top_level.txt,sha256=ku0wcw6wjXi0-XqFBIkgj3PlGMG7gf7L7JRXhRZiBz8,19
+flask_secure_admin-0.1.0.dist-info/RECORD,,
