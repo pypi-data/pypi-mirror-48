@@ -1,0 +1,2 @@
+include customeventfilters/*.py
+include customeventfilters/*.so

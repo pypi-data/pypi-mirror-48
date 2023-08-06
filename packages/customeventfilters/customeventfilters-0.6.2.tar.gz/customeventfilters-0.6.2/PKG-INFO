@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: customeventfilters
+Version: 0.6.2
+Summary: clarilab custom event filters
+Home-page: UNKNOWN
+Maintainer: Laurent Coustet
+Maintainer-email: laurent.coustet@clarisys.fr
+License: BSD
+Description: Custom PyQt5 event filters
+Platform: UNKNOWN

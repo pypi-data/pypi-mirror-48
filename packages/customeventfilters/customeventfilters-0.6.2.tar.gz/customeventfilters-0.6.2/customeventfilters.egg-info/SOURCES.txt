@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+customeventfilters/__init__.py
+customeventfilters/customeventfilters.so
+customeventfilters/libcustomeventfilters.so
+customeventfilters.egg-info/PKG-INFO
+customeventfilters.egg-info/SOURCES.txt
+customeventfilters.egg-info/dependency_links.txt
+customeventfilters.egg-info/top_level.txt
