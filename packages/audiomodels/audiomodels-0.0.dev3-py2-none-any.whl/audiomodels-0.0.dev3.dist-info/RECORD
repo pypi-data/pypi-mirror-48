@@ -1,0 +1,10 @@
+src/__init__.py,sha256=WXE2mB-L3cJnjcHyVqULuzzwFVikD00P4VMvHPMIpmg,95
+src/audio_gatedcnnarch.py,sha256=GdoGNXC1BVqBPwxVoHOzZz3BH6khhIPvDbrBl_rpx68,13198
+src/fishers_multiclass.py,sha256=jx7Y6qvHd2MqaRC5M_cFck2jQhZ0EqxQpgOv0sco7X4,5006
+src/hidrometer_consumption.py,sha256=Qegxoi3thkJ2Y-IeJACDl-kbihEk2iqvK4WCREwuZ2Q,47797
+src/sgdfilters.py,sha256=ENwrkfaD4shNPiNFHZ-ds694eaG-M_9nmttxQY1J-2Q,7010
+audiomodels-0.0.dev3.dist-info/LICENSE,sha256=jHVKdrm7VxHySr_B_5RuDFeKgLgyRzRDU9OA1vBii4A,28
+audiomodels-0.0.dev3.dist-info/METADATA,sha256=ooHcYVtmVcvo1QMZiwmwAmznRMWwDm_82F7ppZhx5Gc,3665
+audiomodels-0.0.dev3.dist-info/WHEEL,sha256=Ph_z28wTcU7HnQwSQ6yCQ-zkcGK4h4ehDfP8b6UoHVE,92
+audiomodels-0.0.dev3.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+audiomodels-0.0.dev3.dist-info/RECORD,,
