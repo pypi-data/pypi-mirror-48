@@ -1,0 +1,11 @@
+parse_1c_build/__init__.py,sha256=cnvRcDN6LEgMZB_u7xlO-1OlAXXg3F1S__Y0_JH6l38,637
+parse_1c_build/__main__.py,sha256=JHqvK6OArT1RbmykTkvys93kqC3XAAOOXyW5OdgS3XM,185
+parse_1c_build/base.py,sha256=20LWEvlub0CjWY7cq08ccdRCStDiLLUzx6_EuU1pSu8,1605
+parse_1c_build/build.py,sha256=0npollWpUx3F0B2kIdp0oCA4OVlFvioJVuHWym9vMVo,4839
+parse_1c_build/cli.py,sha256=47k1SttBQ3D5D3Q1S3S4unwaI25UZFsdIq6IDDV8-ek,807
+parse_1c_build/core.py,sha256=yq8OHKz_-abq7YNHduddDDQks57lZrMlltqI8wokccQ,309
+parse_1c_build/parse.py,sha256=CRQaYbbU2FRcDleCzE4F-A1Uqw-1eGRhJCZIhMx0070,4572
+parse_1c_build-5.10.0.dist-info/entry_points.txt,sha256=_OOqtv1QTSByRBwYWPPxJlCXakS398dZk-7jPoGQGEw,52
+parse_1c_build-5.10.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+parse_1c_build-5.10.0.dist-info/METADATA,sha256=tlSQwbAkrPbKpeyDTLpKQSFBUzoky-4NNf908vblYQQ,2901
+parse_1c_build-5.10.0.dist-info/RECORD,,
