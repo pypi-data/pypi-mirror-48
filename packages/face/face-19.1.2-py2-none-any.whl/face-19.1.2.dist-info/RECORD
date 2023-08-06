@@ -1,0 +1,17 @@
+face/__init__.py,sha256=YbZH1xF9By1tAGV6I79gL4CZ5ciMgllR3fICEDbifNc,733
+face/command.py,sha256=DyCDMtMWqJqgBCCharyusIeuQIrhwB1d8GPScNzXTAo,15300
+face/errors.py,sha256=Jhfl_72A-S4HXUdL3V4c5iNXKTD2h1u0KIRmEduGYeU,5261
+face/helpers.py,sha256=qRlkL7F3T6a9sCRTDQv2--k_IZt_MySDIYO3D7I98iU,17954
+face/middleware.py,sha256=8VMpxeJJ2ox0ThXIquijluIw_cC_peH0uC6ULm0_S0o,11644
+face/parser.py,sha256=-N_hC_1bxLKCmZqRIAgI3730gGV4gwep7dPEvGX0L0A,41535
+face/sinter.py,sha256=Feaf8YDaLbjIvzGljSN0wYfjSm9Qjs-HQXvYdADOTpA,5601
+face/utils.py,sha256=W8nAw7dSdH7mRiIqIbVdcll1nhWYX4UzPYQ8DTP7308,10099
+face/test/_search_cmd_a.flags,sha256=fTzi_ldvzVmKh3AB4EhVvzpgwXPe1aWm1fSLQXmTl3I,15
+face/test/test_parse.py,sha256=T61_16fUycE4UavUaY9nmkRDZ3CXJlsD5A4k0OsZZd4,1444
+face/test/test_search_cmd.py,sha256=cbNa9V0zPEAXYSaGx4M29r6V249Tn6UnGfYcJmSYkUo,4279
+face-19.1.2.dist-info/DESCRIPTION.rst,sha256=p6gFELGkpi9gvx7n31M-lmsFRHSzsMW4zfZiHV7jF_8,99
+face-19.1.2.dist-info/METADATA,sha256=NJlramYOr1z_PhXytMT8I3XB-ck7sKi_PfFBKAQ1Gkk,827
+face-19.1.2.dist-info/RECORD,,
+face-19.1.2.dist-info/WHEEL,sha256=hZvi-8L6mc2COqhOUWREM_h2lvnJbaHycZt8eohtmso,92
+face-19.1.2.dist-info/metadata.json,sha256=Ignoa4weiDLVluSoTx7CyHFZ3uOgCKKiU-AL7zY_nmI,918
+face-19.1.2.dist-info/top_level.txt,sha256=mNV8JaK-0oPAkLwlCAePr_BBJiiAvsm2t0TmNy1KXwk,5
