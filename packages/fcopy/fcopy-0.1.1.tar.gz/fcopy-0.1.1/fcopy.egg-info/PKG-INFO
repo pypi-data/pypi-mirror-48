@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: fcopy
+Version: 0.1.1
+Summary: A copying utility to keep files updated
+Home-page: https://github.com/e2raptor/fcopy
+Author: Eduardo Pina Fonseca
+Author-email: epinaster@gmail.com
+License: MIT
+Description: fcopy is an utility to copy several files from a source to different destinations by reading the configuration from a previously created JSON file. It allows also to watch if a file has changed to be automatically updated immediately.
+            
+        For complete documentation please visit the project page on `GitHub <https://github.com/e2raptor/fcopy>`_.
+Keywords: file utilities admin filesystem copy sync
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
