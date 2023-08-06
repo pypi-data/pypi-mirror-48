@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/shadow_auth/__init__.py
+src/shadow_auth.egg-info/PKG-INFO
+src/shadow_auth.egg-info/SOURCES.txt
+src/shadow_auth.egg-info/dependency_links.txt
+src/shadow_auth.egg-info/top_level.txt
+src/shadow_auth/_internal/__init__.py
+src/shadow_auth/_internal/classes.py
+src/shadow_auth/_internal/enums.py
+src/shadow_auth/_internal/exceptions.py
+src/shadow_auth/_internal/functions.py
+src/shadow_auth/_internal/validations.py
