@@ -1,0 +1,11 @@
+Biopython==1.68
+pysam
+bcbio-gff
+coverage==4.4.1
+jenkspy==0.1.4
+matplotlib==1.5.3
+pandas
+pyaml==17.8.0
+networkx
+nose
+sphinxcontrib-napoleon
