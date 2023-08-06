@@ -1,0 +1,2 @@
+[console_scripts]
+get_21=know_py_shell:get_21
