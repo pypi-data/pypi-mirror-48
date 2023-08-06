@@ -1,0 +1,259 @@
+Metadata-Version: 2.1
+Name: youchoose
+Version: 0.1.2
+Summary: YouChoose is an open source recommendation library built on PyTorch.
+Home-page: https://github.com/csmithchicago/YouChoose
+Author: Corey Smith
+Author-email: coreys@uchicago.edu
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas (>=0.24.2)
+Requires-Dist: scikit-learn
+Requires-Dist: sklearn
+Requires-Dist: torch (>=1.1.0)
+Requires-Dist: torchvision
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: alabaster (==0.7.12) ; extra == 'dev'
+Requires-Dist: appdirs (==1.4.3) ; extra == 'dev'
+Requires-Dist: arrow (==0.13.1) ; extra == 'dev'
+Requires-Dist: asn1crypto (==0.24.0) ; extra == 'dev'
+Requires-Dist: aspy.refactor-imports (==1.1.0) ; extra == 'dev'
+Requires-Dist: aspy.yaml (==1.3.0) ; extra == 'dev'
+Requires-Dist: astroid (==2.0.4) ; extra == 'dev'
+Requires-Dist: atomicwrites (==1.3.0) ; extra == 'dev'
+Requires-Dist: attrs (==19.1.0) ; extra == 'dev'
+Requires-Dist: autodoc (==0.5.0) ; extra == 'dev'
+Requires-Dist: autograd (==1.2) ; extra == 'dev'
+Requires-Dist: autopep8 (==1.4.4) ; extra == 'dev'
+Requires-Dist: Babel (==2.7.0) ; extra == 'dev'
+Requires-Dist: backcall (==0.1.0) ; extra == 'dev'
+Requires-Dist: bcrypt (==3.1.7) ; extra == 'dev'
+Requires-Dist: beautifulsoup4 (==4.7.1) ; extra == 'dev'
+Requires-Dist: binaryornot (==0.4.4) ; extra == 'dev'
+Requires-Dist: black (==19.3b0) ; extra == 'dev'
+Requires-Dist: bleach (==3.1.0) ; extra == 'dev'
+Requires-Dist: blis (==0.2.4) ; extra == 'dev'
+Requires-Dist: cached-property (==1.5.1) ; extra == 'dev'
+Requires-Dist: cachetools (==3.1.0) ; extra == 'dev'
+Requires-Dist: certifi (==2019.3.9) ; extra == 'dev'
+Requires-Dist: cffi (==1.12.3) ; extra == 'dev'
+Requires-Dist: cfgv (==2.0.0) ; extra == 'dev'
+Requires-Dist: chardet (==3.0.4) ; extra == 'dev'
+Requires-Dist: codacy-coverage (==1.3.11) ; extra == 'dev'
+Requires-Dist: colorama (==0.4.1) ; extra == 'dev'
+Requires-Dist: coverage (==4.5.3) ; extra == 'dev'
+Requires-Dist: crate-docs-theme (==0.5.78) ; extra == 'dev'
+Requires-Dist: cryptography (==2.7) ; extra == 'dev'
+Requires-Dist: cycler (==0.10.0) ; extra == 'dev'
+Requires-Dist: cymem (==2.0.2) ; extra == 'dev'
+Requires-Dist: Cython (==0.29.11) ; extra == 'dev'
+Requires-Dist: cytoolz (==0.9.0.1) ; extra == 'dev'
+Requires-Dist: decorator (==4.4.0) ; extra == 'dev'
+Requires-Dist: defusedxml (==0.6.0) ; extra == 'dev'
+Requires-Dist: dill (==0.2.9) ; extra == 'dev'
+Requires-Dist: docutils (==0.14) ; extra == 'dev'
+Requires-Dist: dodgy (==0.1.9) ; extra == 'dev'
+Requires-Dist: entrypoints (==0.3) ; extra == 'dev'
+Requires-Dist: ERAlchemy (==1.2.10) ; extra == 'dev'
+Requires-Dist: flake8 (==3.7.7) ; extra == 'dev'
+Requires-Dist: ftfy (==4.4.3) ; extra == 'dev'
+Requires-Dist: future (==0.17.1) ; extra == 'dev'
+Requires-Dist: hdbscan (==0.8.20) ; extra == 'dev'
+Requires-Dist: html5lib (==1.0.1) ; extra == 'dev'
+Requires-Dist: identify (==1.4.5) ; extra == 'dev'
+Requires-Dist: idna (==2.8) ; extra == 'dev'
+Requires-Dist: ijson (==2.3) ; extra == 'dev'
+Requires-Dist: imageio (==2.5.0) ; extra == 'dev'
+Requires-Dist: imagesize (==1.1.0) ; extra == 'dev'
+Requires-Dist: importlib-metadata (==0.18) ; extra == 'dev'
+Requires-Dist: ipykernel (==5.1.1) ; extra == 'dev'
+Requires-Dist: ipython (==7.6.0) ; extra == 'dev'
+Requires-Dist: ipython-genutils (==0.2.0) ; extra == 'dev'
+Requires-Dist: ipywidgets (==7.4.2) ; extra == 'dev'
+Requires-Dist: isort (==4.3.20) ; extra == 'dev'
+Requires-Dist: jedi (==0.14.0) ; extra == 'dev'
+Requires-Dist: Jinja2 (==2.10.1) ; extra == 'dev'
+Requires-Dist: jinja2-time (==0.2.0) ; extra == 'dev'
+Requires-Dist: jmespath (==0.9.4) ; extra == 'dev'
+Requires-Dist: joblib (==0.13.2) ; extra == 'dev'
+Requires-Dist: jsonpickle (==1.1) ; extra == 'dev'
+Requires-Dist: jsonschema (==3.0.1) ; extra == 'dev'
+Requires-Dist: jupyter (==1.0.0) ; extra == 'dev'
+Requires-Dist: jupyter-client (==5.2.4) ; extra == 'dev'
+Requires-Dist: jupyter-console (==6.0.0) ; extra == 'dev'
+Requires-Dist: jupyter-contrib-core (==0.3.3) ; extra == 'dev'
+Requires-Dist: jupyter-contrib-nbextensions (==0.5.1) ; extra == 'dev'
+Requires-Dist: jupyter-core (==4.5.0) ; extra == 'dev'
+Requires-Dist: jupyter-highlight-selected-word (==0.2.0) ; extra == 'dev'
+Requires-Dist: jupyter-latex-envs (==1.4.6) ; extra == 'dev'
+Requires-Dist: jupyter-nbextensions-configurator (==0.4.1) ; extra == 'dev'
+Requires-Dist: kiwisolver (==1.1.0) ; extra == 'dev'
+Requires-Dist: lazy-object-proxy (==1.3.1) ; extra == 'dev'
+Requires-Dist: Lifetimes (==0.11.1) ; extra == 'dev'
+Requires-Dist: lxml (==4.3.4) ; extra == 'dev'
+Requires-Dist: Markdown (==3.1) ; extra == 'dev'
+Requires-Dist: MarkupSafe (==1.1.1) ; extra == 'dev'
+Requires-Dist: matplotlib (==3.1.0) ; extra == 'dev'
+Requires-Dist: mccabe (==0.6.1) ; extra == 'dev'
+Requires-Dist: mistune (==0.8.4) ; extra == 'dev'
+Requires-Dist: more-itertools (==7.0.0) ; extra == 'dev'
+Requires-Dist: murmurhash (==1.0.2) ; extra == 'dev'
+Requires-Dist: mwparserfromhell (==0.5.3) ; extra == 'dev'
+Requires-Dist: mypy (==0.711) ; extra == 'dev'
+Requires-Dist: mypy-extensions (==0.4.1) ; extra == 'dev'
+Requires-Dist: nbconvert (==5.5.0) ; extra == 'dev'
+Requires-Dist: nbformat (==4.4.0) ; extra == 'dev'
+Requires-Dist: networkx (==2.3) ; extra == 'dev'
+Requires-Dist: nodeenv (==1.3.3) ; extra == 'dev'
+Requires-Dist: notebook (==5.7.8) ; extra == 'dev'
+Requires-Dist: numpy (==1.16.4) ; extra == 'dev'
+Requires-Dist: packaging (==19.0) ; extra == 'dev'
+Requires-Dist: pandas (==0.24.2) ; extra == 'dev'
+Requires-Dist: pandocfilters (==1.4.2) ; extra == 'dev'
+Requires-Dist: paramiko (==2.6.0) ; extra == 'dev'
+Requires-Dist: parso (==0.5.0) ; extra == 'dev'
+Requires-Dist: pep8-naming (==0.4.1) ; extra == 'dev'
+Requires-Dist: pexpect (==4.7.0) ; extra == 'dev'
+Requires-Dist: pickleshare (==0.7.5) ; extra == 'dev'
+Requires-Dist: Pillow (==6.0.0) ; extra == 'dev'
+Requires-Dist: plac (==1.0.0) ; extra == 'dev'
+Requires-Dist: pluggy (==0.12.0) ; extra == 'dev'
+Requires-Dist: pockets (==0.7.2) ; extra == 'dev'
+Requires-Dist: pony (==0.7.10) ; extra == 'dev'
+Requires-Dist: poyo (==0.4.2) ; extra == 'dev'
+Requires-Dist: pre-commit (==1.17.0) ; extra == 'dev'
+Requires-Dist: preshed (==2.0.1) ; extra == 'dev'
+Requires-Dist: prometheus-client (==0.7.1) ; extra == 'dev'
+Requires-Dist: prompt-toolkit (==2.0.9) ; extra == 'dev'
+Requires-Dist: ptyprocess (==0.6.0) ; extra == 'dev'
+Requires-Dist: py (==1.8.0) ; extra == 'dev'
+Requires-Dist: pyasn1 (==0.4.5) ; extra == 'dev'
+Requires-Dist: pycodestyle (==2.5.0) ; extra == 'dev'
+Requires-Dist: pycosat (==0.6.3) ; extra == 'dev'
+Requires-Dist: pycparser (==2.19) ; extra == 'dev'
+Requires-Dist: pydocstyle (==3.0.0) ; extra == 'dev'
+Requires-Dist: pydot (==1.4.1) ; extra == 'dev'
+Requires-Dist: pyemd (==0.5.1) ; extra == 'dev'
+Requires-Dist: pyflakes (==1.6.0) ; extra == 'dev'
+Requires-Dist: Pygments (==2.4.2) ; extra == 'dev'
+Requires-Dist: pylint (==2.1.1) ; extra == 'dev'
+Requires-Dist: pylint-plugin-utils (==0.5) ; extra == 'dev'
+Requires-Dist: PyNaCl (==1.3.0) ; extra == 'dev'
+Requires-Dist: pyOpenSSL (==19.0.0) ; extra == 'dev'
+Requires-Dist: pyparsing (==2.4.0) ; extra == 'dev'
+Requires-Dist: Pyphen (==0.9.5) ; extra == 'dev'
+Requires-Dist: pyrsistent (==0.15.2) ; extra == 'dev'
+Requires-Dist: PySocks (==1.6.8) ; extra == 'dev'
+Requires-Dist: pytest (==4.6.3) ; extra == 'dev'
+Requires-Dist: pytest-cov (==2.7.1) ; extra == 'dev'
+Requires-Dist: python-coveralls (==2.9.2) ; extra == 'dev'
+Requires-Dist: python-dateutil (==2.8.0) ; extra == 'dev'
+Requires-Dist: python-dotenv (==0.10.3) ; extra == 'dev'
+Requires-Dist: python-Levenshtein (==0.12.0) ; extra == 'dev'
+Requires-Dist: pytz (==2019.1) ; extra == 'dev'
+Requires-Dist: PyWavelets (==1.0.3) ; extra == 'dev'
+Requires-Dist: PyYAML (==4.2b1) ; extra == 'dev'
+Requires-Dist: pyzmq (==18.0.1) ; extra == 'dev'
+Requires-Dist: qtconsole (==4.5.1) ; extra == 'dev'
+Requires-Dist: requests (==2.22.0) ; extra == 'dev'
+Requires-Dist: rsa (==3.4.2) ; extra == 'dev'
+Requires-Dist: ruamel.yaml (==0.15.46) ; extra == 'dev'
+Requires-Dist: scikit-learn (==0.21.2) ; extra == 'dev'
+Requires-Dist: scipy (==1.3.0) ; extra == 'dev'
+Requires-Dist: seaborn (==0.9.0) ; extra == 'dev'
+Requires-Dist: seed-isort-config (==1.9.1) ; extra == 'dev'
+Requires-Dist: Send2Trash (==1.5.0) ; extra == 'dev'
+Requires-Dist: setoptconf (==0.2.0) ; extra == 'dev'
+Requires-Dist: six (==1.12.0) ; extra == 'dev'
+Requires-Dist: sklearn (==0.0) ; extra == 'dev'
+Requires-Dist: snowballstemmer (==1.2.1) ; extra == 'dev'
+Requires-Dist: soupsieve (==1.9.2) ; extra == 'dev'
+Requires-Dist: Sphinx (==1.7.4) ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme (==0.4.3) ; extra == 'dev'
+Requires-Dist: sphinx-sitemap (==0.3.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-applehelp (==1.0.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-devhelp (==1.0.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-htmlhelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-jsmath (==1.0.1) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-napoleon (==0.7) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-plantuml (==0.14) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-qthelp (==1.0.2) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-serializinghtml (==1.1.3) ; extra == 'dev'
+Requires-Dist: sphinxcontrib-websupport (==1.1.2) ; extra == 'dev'
+Requires-Dist: SQLAlchemy (==1.3.5) ; extra == 'dev'
+Requires-Dist: srsly (==0.0.5) ; extra == 'dev'
+Requires-Dist: sshtunnel (==0.1.5) ; extra == 'dev'
+Requires-Dist: terminado (==0.8.2) ; extra == 'dev'
+Requires-Dist: testpath (==0.4.2) ; extra == 'dev'
+Requires-Dist: thinc (==7.0.4) ; extra == 'dev'
+Requires-Dist: toml (==0.10.0) ; extra == 'dev'
+Requires-Dist: toolz (==0.9.0) ; extra == 'dev'
+Requires-Dist: torch (==1.1.0) ; extra == 'dev'
+Requires-Dist: torchvision (==0.3.0) ; extra == 'dev'
+Requires-Dist: tornado (==6.0.2) ; extra == 'dev'
+Requires-Dist: tqdm (==4.32.2) ; extra == 'dev'
+Requires-Dist: traitlets (==4.3.2) ; extra == 'dev'
+Requires-Dist: typed-ast (==1.4.0) ; extra == 'dev'
+Requires-Dist: urllib3 (==1.24.2) ; extra == 'dev'
+Requires-Dist: virtualenv (==16.6.1) ; extra == 'dev'
+Requires-Dist: waitress (==1.3.0) ; extra == 'dev'
+Requires-Dist: wasabi (==0.2.1) ; extra == 'dev'
+Requires-Dist: wcwidth (==0.1.7) ; extra == 'dev'
+Requires-Dist: webencodings (==0.5.1) ; extra == 'dev'
+Requires-Dist: WebOb (==1.8.5) ; extra == 'dev'
+Requires-Dist: WebTest (==2.0.33) ; extra == 'dev'
+Requires-Dist: wget (==3.2) ; extra == 'dev'
+Requires-Dist: whichcraft (==0.5.2) ; extra == 'dev'
+Requires-Dist: widgetsnbextension (==3.4.2) ; extra == 'dev'
+Requires-Dist: wrapt (==1.11.1) ; extra == 'dev'
+Requires-Dist: yapf (==0.27.0) ; extra == 'dev'
+Requires-Dist: zipp (==0.5.1) ; extra == 'dev'
+
+# YouChoose
+
+[![Build Status](https://travis-ci.org/csmithchicago/YouChoose.svg?branch=master)](https://travis-ci.org/csmithchicago/YouChoose)
+[![Coverage Status](https://coveralls.io/repos/github/csmithchicago/YouChoose/badge.svg)](https://coveralls.io/github/csmithchicago/YouChoose)
+[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/python/black)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/413dbdc41b89490da86758b6dc980d3c)](https://www.codacy.com/app/csmithchicago/YouChoose?utm_source=github.com&utm_medium=referral&utm_content=csmithchicago/YouChoose&utm_campaign=Badge_Grade)
+[![Documentation Status](https://readthedocs.org/projects/youchoose/badge/?version=latest)](https://youchoose.readthedocs.io/en/latest/?badge=latest)
+[![PyPI version](https://badge.fury.io/py/youchoose.svg)](https://badge.fury.io/py/youchoose)
+
+## Project Overview
+
+A recommender system built on PyTorch. I wanted a library similar to what was provided
+in OpenRec but for PyTorch. Spotlight is a similar package but appears to have died. And
+while it does have some nice features, instead of forking it and building on it,
+I wanted to start at the ground floor to build a library that would be simple to use but
+also easy to configure.
+
+## Project Set-Up
+
+### Virtual Environment
+
+The best way to run the code is to use a python virtual environment. This will require that you have python3 and git already installed on your system. To begin, run `python3 -m venv project-name` to create a virtual environment in a folder called project-name. Now run `cd project-name` to change directories.
+
+### Install with PIP
+
+```sh
+pip install youchoose
+```
+
+### Install From Source
+
+The following command is then run to clone the repository.
+
+```sh
+git clone https://github.com/csmithchicago/YouChoose.git
+
+source bin/activate
+cd youchoose
+pip install -r requirements.txt
+```
+
+## Project References
+
+
