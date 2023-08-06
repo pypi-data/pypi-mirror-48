@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+django_healthz.egg-info/PKG-INFO
+django_healthz.egg-info/SOURCES.txt
+django_healthz.egg-info/dependency_links.txt
+django_healthz.egg-info/requires.txt
+django_healthz.egg-info/top_level.txt
+healthz/__init__.py
+healthz/apps.py
+healthz/middleware.py
