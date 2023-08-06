@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: setColourProfile
+Version: 0.0.1
+Summary: GIMP Plugin called SetColourProfile
+Home-page: https://github.com/c-sanders/SetColourProfile
+Author: Craig Sanders
+Author-email: blah@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Filename : README.md
+# ====================
+#
+# md = Markdown
+#
+# GIMP Plugin setColourProfile
+
+
+This Python Package implements a GIMP Plugin called **setColourProfile**.
+
+This Plugin can be used by GIMP to set the Colour Profile of an image or images.
+
+This Python package has a page at [Github](https://github.com/c-sanders/setColourProfile/).
+
+
