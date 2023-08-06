@@ -1,0 +1,3 @@
+WTForms
+dnspython
+is_disposable_email
