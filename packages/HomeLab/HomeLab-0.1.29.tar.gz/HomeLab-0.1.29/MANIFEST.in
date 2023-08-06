@@ -1,0 +1,3 @@
+recursive-include homelab/templates *
+recursive-include homelab/static *
+include *.py
