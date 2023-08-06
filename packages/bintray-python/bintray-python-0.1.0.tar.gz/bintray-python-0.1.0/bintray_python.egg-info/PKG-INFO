@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: bintray-python
+Version: 0.1.0
+Summary: Python Wrapper for Bintray API
+Home-page: https://github.com/uilianries/bintray-python
+Author: Uilian Ries
+Author-email: uilianries@gmail.com
+License: MIT
+Description: # Bintray Python
+        
+        **The Python wrapper for Bintray API**
+        
+        #### DOCUMENTATION
+        
+        Please, read the official documentation from Bintray: https://bintray.com/docs/api
+        
+        #### LICENSE
+        [MIT](LICENSE)
+        
+Keywords: jfrog,bintray,api,libraries,developer,manager,dependency,package,python,wrapper
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: test
