@@ -1,0 +1,8 @@
+aws_cdk/aws_cognito/__init__.py,sha256=TMaupeYjIJREZKgYsCnLYiZvRWtwf-R_9hmjHU4NKjk,188575
+aws_cdk/aws_cognito/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_cognito/_jsii/__init__.py,sha256=YXuGHdnzr5F8BQPKmTCEzg47XLgujnIQNZaGc5dECi0,249
+aws_cdk/aws_cognito/_jsii/aws-cognito@0.38.0.jsii.tgz,sha256=XHxnqMsRDQN_W1-zAqCq_G0_NSBSJ9fmYqnCrVXkaUw,75761
+aws_cdk.aws_cognito-0.38.0.dist-info/METADATA,sha256=u03kMPrcnLPiToh8d_Ngpm9_34cmpgXb-mSuYN4b7uY,1268
+aws_cdk.aws_cognito-0.38.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+aws_cdk.aws_cognito-0.38.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_cognito-0.38.0.dist-info/RECORD,,
