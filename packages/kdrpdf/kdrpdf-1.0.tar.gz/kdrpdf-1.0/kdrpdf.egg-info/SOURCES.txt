@@ -1,0 +1,9 @@
+README.md
+setup.py
+kdrpdf/__init__.py
+kdrpdf/pdf2image.py
+kdrpdf/pdf2text.py
+kdrpdf.egg-info/PKG-INFO
+kdrpdf.egg-info/SOURCES.txt
+kdrpdf.egg-info/dependency_links.txt
+kdrpdf.egg-info/top_level.txt
