@@ -1,0 +1,11 @@
+vec2graph/__init__.py,sha256=9Eq1r9v8-5P8yJiGvtyzgJV2Z9BiqqzrhguCocaWEcs,42
+vec2graph/genviz.html,sha256=WzYF7xMfc16_P1qn-bYe5kjfOqcsUFKl5hZ6wNMHlSY,730
+vec2graph/genviz.js,sha256=n3UOWCqbnHaZuFz5xlYDfoF917X8RJmOqgC64RHdu_0,3569
+vec2graph/genviz.py,sha256=Tunc3D2xBkRyO1o0Ehhz_CwDkfp5dpIPBvEaeMF6-qQ,6971
+vec2graph/data/genviz.html,sha256=WzYF7xMfc16_P1qn-bYe5kjfOqcsUFKl5hZ6wNMHlSY,730
+vec2graph/data/genviz.js,sha256=n3UOWCqbnHaZuFz5xlYDfoF917X8RJmOqgC64RHdu_0,3569
+vec2graph-0.2.1.dist-info/LICENSE,sha256=_oRo2OQ2iJ1rvzjrGXz-sHY2jW-LRQKH1Y_5_Q32tA4,1075
+vec2graph-0.2.1.dist-info/METADATA,sha256=Rln4CzLgD5Po1V27FJC-p-5_iUKMbev31LJQLMsVUtU,860
+vec2graph-0.2.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+vec2graph-0.2.1.dist-info/top_level.txt,sha256=G5c4r_521c7gsT-uL7YhQ7Xin86juI0lCOd-0dfK1fs,10
+vec2graph-0.2.1.dist-info/RECORD,,
