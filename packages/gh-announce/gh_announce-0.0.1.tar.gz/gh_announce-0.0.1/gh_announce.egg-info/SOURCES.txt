@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+gh_announce/__init__.py
+gh_announce/main.py
+gh_announce.egg-info/PKG-INFO
+gh_announce.egg-info/SOURCES.txt
+gh_announce.egg-info/dependency_links.txt
+gh_announce.egg-info/entry_points.txt
+gh_announce.egg-info/requires.txt
+gh_announce.egg-info/top_level.txt
