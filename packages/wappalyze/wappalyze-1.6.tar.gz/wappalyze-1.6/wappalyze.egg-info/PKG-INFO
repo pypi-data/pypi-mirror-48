@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: wappalyze
+Version: 1.6
+Summary: Framework Identifier tool
+Home-page: https://github.com/shaddygarg/framework-identifier
+Author: Shaddy Garg
+Author-email: shaddygarg1@gmail.com
+License: UNKNOWN
+Description: # framework-identifier
+        This repository is the python implementation of the repo(https://github.com/AliasIO/Wappalyzer). 
+        ## Setup
+        Run:
+        `pip install -r requirements.txt`
+        ## Running the script
+        To run the script, the following command is to be used:
+        `python wappalyze.py`
+        
+        
+        Install from pip
+        
+        pip install wappalyze
+        
+        # Usage
+        
+        wapp -u google.com
+        
+        # Use as a module
+        
+        import wappalyze
+        
+        result = wappalyze.analyze('google.com')
+        
+        print(result)
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
