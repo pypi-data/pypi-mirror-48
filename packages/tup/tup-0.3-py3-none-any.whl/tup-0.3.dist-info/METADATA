@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: tup
+Version: 0.3
+Summary: CLI Telegram file uploder
+Home-page: https://github.com/Qwerty-Space/tup
+Author: Oliver Duce
+Author-email: oliver_duce@live.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Telethon (>=1.7)
+
+# tup
+Command line tool for uploading files to Telegram
+
+## Usage
+#### Logging in, and Uploading a file
+Do `tup file` to upload a file to your saved messages.  if you aren't logged in, it will automatically login for you.
+
+
+#### Other options
+* `-r username` - which chat to send the file to (default: self)
+* `-c caption` - the caption to send with the message
+* `-s` - use a different session file
+* `-d` - send the file as a document
+
+
+#### Logging in with a different account
+I'm sure many of you use multiple accounts, or alt accounts, so to use tup with different accounts,you can just use the `-s` flag to specify a different account.  It will be saved as another `.session` file.  
+For example: `tup image.png -s personal_account`
+
+
