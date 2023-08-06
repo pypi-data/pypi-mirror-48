@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/spyse
+spyse/__init__.py
+spyse/spyse.py
+spyse.py.egg-info/PKG-INFO
+spyse.py.egg-info/SOURCES.txt
+spyse.py.egg-info/dependency_links.txt
+spyse.py.egg-info/requires.txt
+spyse.py.egg-info/top_level.txt
