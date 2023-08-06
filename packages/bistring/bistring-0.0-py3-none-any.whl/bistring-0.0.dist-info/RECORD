@@ -1,0 +1,11 @@
+bistring/__init__.py,sha256=OpnfT3CPMys693WcfKdIa9VhpzCuTJ5vEOdAtdahI78,189
+bistring/_alignment.py,sha256=DRVB8o4-0r62BeFyqOww4XcP8wtb9S9Dc4RmSzUD9rc,8457
+bistring/_bistr.py,sha256=1-oxL2rhRw-OrdQkyCoyJdP1X-Cw0PJCKghl8fRYJ0Y,7572
+bistring/_builder.py,sha256=7EH2S5GWpAngY4ReP-MA0i6qXnz5KaeIYKOuh1yskhw,6170
+bistring/_icu.py,sha256=QCPxzVGZ84TkIYBoP_qTfxyDOFIfu9EIeqonKm4aP5k,2407
+bistring/_token.py,sha256=P6UeQquqpfo1-sge_-bCkjrHom-Ely-_N26sltw-iZg,8073
+bistring/_typing.py,sha256=gWGADg4P7zwJh8W2hLBiQ33kFhMorxNqWHsYlOvtwPI,259
+bistring-0.0.dist-info/METADATA,sha256=O9Wh9ttoJg-bVJUNHK15_y1_McYDq8jcXdd2Ugg6wjc,293
+bistring-0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bistring-0.0.dist-info/top_level.txt,sha256=0jFgTCrb_nABFt2ek6k3_6igwtYhQJchvHUbBJLApcg,9
+bistring-0.0.dist-info/RECORD,,

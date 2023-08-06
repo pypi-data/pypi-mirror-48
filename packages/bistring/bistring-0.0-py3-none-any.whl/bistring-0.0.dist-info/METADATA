@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: bistring
+Version: 0.0
+Summary: Bidirectionally transformed strings
+Home-page: https://dev.azure.com/maluuba/Isentrope
+Author: Microsoft Research Montreal
+Author-email: msrmtle@microsoft.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pyicu (>=2.1)
+
+UNKNOWN
+
+
