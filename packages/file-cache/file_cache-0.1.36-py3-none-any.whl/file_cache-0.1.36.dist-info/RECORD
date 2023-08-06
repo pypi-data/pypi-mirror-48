@@ -1,0 +1,12 @@
+file_cache/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_cache/cache.py,sha256=nE2LqsyeQ5iixnK0kUqFz55LZLsiFtluPUW_zhiRjk8,5139
+file_cache/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+file_cache/utils/other.py,sha256=ndgX4EoGm5fVLe-LIb-P1rKCp3vL9Eh0cHSGbLDnv3Y,5247
+file_cache/utils/reduce_mem.py,sha256=7hAaRuZjYKUw3NF-tR0AIsVU4hyCRGQ_FM4i8DPl6c0,3446
+file_cache/utils/util_date.py,sha256=siZoKan7QKeF4bYX_7HhCxasynFqhkZnnfqol8Q69Mw,4315
+file_cache/utils/util_log.py,sha256=Mjquto-YFAbxThk-wnIJPYbFoXzA9xTPv4IBd9y2VE4,4377
+file_cache/utils/util_pandas.py,sha256=fTCnb4D0y7BqKjx05VFz947RS7mWZXANobiCiQPo-oo,3468
+file_cache-0.1.36.dist-info/METADATA,sha256=44vGuGzbcakoYAd9qEXKOGTs72F2ub-ySm2_h2slIMw,617
+file_cache-0.1.36.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+file_cache-0.1.36.dist-info/top_level.txt,sha256=oFsuFCq4p95qRu4HnHg2Pp_0Vra9KIqeYK0ZE2Lphls,11
+file_cache-0.1.36.dist-info/RECORD,,
