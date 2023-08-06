@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: softheap
+Version: 0.2
+Summary: Python Soft Heap Implementation
+Home-page: https://github.com/alex-michael17/softheap
+Author: Alex Michael
+Author-email: mr17state@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Soft Heap in Python
+==
+
+This library is a full python implementation of Bernard Chazelle's soft heap [1].
+
+The soft heap is a heap-like data structure which gives all heap operations a constant runtime, with the exception of insert. However, in order to maintain this seemingly impossible runtime, some of the data is "corrupted". The result of this is that insert takes O(log 1/e) where e is the rate of corruption.
+
+
+[1] http://www.cs.cmu.edu/afs/cs/academic/class/15859-f05/www/documents/p1012-chazelle.pdf
+
+### Usage
+
+To get started, import the module. We'll also import random for this example.
+```
+from softheap import *
+import random
+```
+
+The soft heap requires one input, the error rate r. The number of corrupted nodes in the heap is inversely proportional to r.
+
+```
+s = SoftHeap(2)
+```
+
+We can test the heap by randomly inserting 100 elements into the heap.
+
+```
+arr = list(range(100))
+random.shuffle(arr)
+
+for a in arr:
+  s.insert(a)
+```
+
+
+Now when we deletemin repeatedly, the output will be approximately sorted.
+
+```
+output = []
+
+for b in range(len(arr))
+  output.append(s.deletemin())
+
+print(output)
+
+```
+
+This takes O(n log 1/e) time.
+
+
+### Installation
+
+Use pip to install softheap. Via the command line:
+
+``
+pip install softheap
+``
+
