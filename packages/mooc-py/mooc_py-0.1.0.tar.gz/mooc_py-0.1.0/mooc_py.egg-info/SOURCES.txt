@@ -1,0 +1,7 @@
+README.rst
+setup.py
+MOOC/__init__.py
+mooc_py.egg-info/PKG-INFO
+mooc_py.egg-info/SOURCES.txt
+mooc_py.egg-info/dependency_links.txt
+mooc_py.egg-info/top_level.txt
