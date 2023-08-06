@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+glorifiedgrep/__init__.py
+glorifiedgrep.egg-info/PKG-INFO
+glorifiedgrep.egg-info/SOURCES.txt
+glorifiedgrep.egg-info/dependency_links.txt
+glorifiedgrep.egg-info/top_level.txt
