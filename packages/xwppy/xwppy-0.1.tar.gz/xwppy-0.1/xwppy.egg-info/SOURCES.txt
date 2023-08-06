@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+src/__init__.py
+src/wpcli.py
+src/xwppy.py
+xwppy.egg-info/PKG-INFO
+xwppy.egg-info/SOURCES.txt
+xwppy.egg-info/dependency_links.txt
+xwppy.egg-info/requires.txt
+xwppy.egg-info/top_level.txt
