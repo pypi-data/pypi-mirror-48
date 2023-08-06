@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: packy
+Version: 0.1.4
+Summary: Package manager for downloading packages from content providers
+Home-page: https://github.com/codetent/packy
+Author: codetent
+License: UNKNOWN
+Keywords: package CDNJS JS packet
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# 📦 Packy
+
+[![Build Status](https://travis-ci.org/codetent/packy.svg?branch=master)](https://travis-ci.org/codetent/packy)
+
+## What is packy?
+Packy is a simple package manager working like pip which allows downloading packages from content delivery providers like cdnjs.
+
+## How does it work?
+
+1. Install it via pip:
+
+    ```bash
+    pip install packy
+    ```
+
+2. Install packages
+
+    ```bash
+    # Latest version
+    packy jquery
+    # Specific version
+    packy jquery==3.2
+    # Version range
+    packy jquery>=2.0
+
+    # Install from packages.txt (syntax like requirements.txt)
+    packy -r packages.txt
+
+    # Set CD provider
+    packy -p cdnjs ...
+
+    # Set installation directory
+    packy -o ./static/ ...
+    ```
+
+## 🔧 API
+Additionally, packy can be used directly with Python:
+
+```python
+from packy import Packy
+
+packy.install('jquery')
+```
+
+
