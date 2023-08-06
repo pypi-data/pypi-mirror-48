@@ -1,0 +1,8 @@
+deserialize/__init__.py,sha256=IYmn2tvXetDfJWSNZYVy6SJTcmkQFc72uzv59p_E-oo,4415
+deserialize/decorators.py,sha256=FelyBWWMJ_16o7cfkJNQB-LDcOU1zjNV441slZNwAbU,2432
+deserialize/exceptions.py,sha256=ISlXuAkGXIsfFB1FHYg6zy0TfTCa7t5UV7Mc3EdZX48,294
+deserialize/type_checks.py,sha256=VXXUOs5zoStx2uyaxl6gbMX4_83zUGQfgQW4qv6fieQ,2437
+deserialize-0.10.0.dist-info/LICENSE,sha256=VIJZiHOwptD3w3pzdVeHswYInRxaSiUbGLqeJC27-7k,1082
+deserialize-0.10.0.dist-info/WHEEL,sha256=OyjuYVC9vVJqb-Aqln3fyrroYJ4WrcSwx2msO2AokVc,85
+deserialize-0.10.0.dist-info/METADATA,sha256=_rLk7oWzL8DMojMdcUQFjjRwXEmWnXrbJ9KEV-_7cNA,4493
+deserialize-0.10.0.dist-info/RECORD,,
