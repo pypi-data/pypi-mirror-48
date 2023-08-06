@@ -1,0 +1,14 @@
+oriole/__init__.cpython-36m-x86_64-linux-gnu.so,sha256=jjhIoG9P7HBNhFhzZfgOpDopNSwKXyxTRzP3SuO_YE8,49784
+oriole/cli.cpython-36m-x86_64-linux-gnu.so,sha256=PA-2W1zTGRLilVHMy2kAklTsckf9BzqzxcRPtNvljhM,227584
+oriole/db.cpython-36m-x86_64-linux-gnu.so,sha256=3mPPFHX0EXHoSYrPhqfPVZ1Xw5gzcZSYSIIMCubbzY8,384344
+oriole/fake.cpython-36m-x86_64-linux-gnu.so,sha256=2vU01EMO-MCCCaV1v3xjrE1poy61T6THRa4MsJyAW9g,254144
+oriole/log.cpython-36m-x86_64-linux-gnu.so,sha256=WBI_2Rg-H1MhmKvv7SLOtCt0jQM93AdqZnVUQ1CfzzI,212768
+oriole/ops.cpython-36m-x86_64-linux-gnu.so,sha256=1rtgS0IQozK4O4gv1SFZdajqvehaMWflKU_EOdkIObU,265784
+oriole/vos.cpython-36m-x86_64-linux-gnu.so,sha256=kxEBOnLWTz27SWUJ0xjX4linYOTn7anD7qxD6PKy0FE,638128
+oriole/yml.cpython-36m-x86_64-linux-gnu.so,sha256=Z9QGDDnnnyx_ppS-m6hx9oOvHozB3d_psgzmAL8lb-s,183176
+oriole-20.0.0.dist-info/LICENSE,sha256=TkN8YTrx8SkuhXqxN2CuEZvO2iM3H5Jkhvofx9Vnwog,553
+oriole-20.0.0.dist-info/METADATA,sha256=Et87d7uFwYsrh_F1bzofkabpyILOzB77Ngxa2P0QH34,1039
+oriole-20.0.0.dist-info/WHEEL,sha256=20VbULKYZkloMiRGGyn6pQ1txWjC-O4LG0yqCWoWyRc,109
+oriole-20.0.0.dist-info/top_level.txt,sha256=ZE6H2gM94jB0vpCsXySSHn4Auu5jP9aAo4Wa4AJS6R4,7
+oriole-20.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+oriole-20.0.0.dist-info/RECORD,,
