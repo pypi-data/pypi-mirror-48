@@ -1,0 +1,12 @@
+docopt
+requests
+
+[dev]
+pytest
+scripttest
+pre-commit
+tox
+
+[tests]
+pytest
+scripttest
