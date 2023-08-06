@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+git_alias/__init__.py
+git_alias/main.py
+git_alias.egg-info/PKG-INFO
+git_alias.egg-info/SOURCES.txt
+git_alias.egg-info/dependency_links.txt
+git_alias.egg-info/entry_points.txt
+git_alias.egg-info/top_level.txt
