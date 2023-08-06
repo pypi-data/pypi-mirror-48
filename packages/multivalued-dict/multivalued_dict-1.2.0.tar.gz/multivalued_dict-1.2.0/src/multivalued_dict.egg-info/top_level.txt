@@ -1,0 +1,2 @@
+check_self_class_call_package
+multivalued_dict_package
