@@ -1,0 +1,9 @@
+ase
+matplotlib
+numpy
+pandas
+paramiko
+pymatgen
+scipy
+six
+tabulate
