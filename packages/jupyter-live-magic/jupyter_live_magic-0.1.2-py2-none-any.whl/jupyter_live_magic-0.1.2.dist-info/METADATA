@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: jupyter-live-magic
+Version: 0.1.2
+Summary: A Jupyter Notebook %%magic for periodic auto re-run and refresh of Cells
+Home-page: https://github.com/srizzo/jupyter-live-magic
+Author: Samuel Rizzo
+Author-email: rizzolabs@gmail.com
+License: MIT
+Keywords: ipython,jupyter
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: jupyter
+Requires-Dist: ipywidgets
+Requires-Dist: jupyter-interval-widget
+
+# Jupyter Live Magic
+
+A Jupyter Notebook %%magic for periodic auto re-run and refresh of Cells
+
+
+Usage
+------
+
+Load extension inside a Jupyter notebook:
+
+```
+%load_ext jupyterlivemagic
+```
+
+Add code with Cell magic:
+
+```
+%%live
+# code to re-run
+```
+
+
+Examples
+--------
+
+Display current time, update every second:
+
+```
+%%live
+%%bash
+date
+```
+
+Display current datetime, update every 500ms:
+
+```
+%%live --refresh-rate 500
+import datetime
+str(datetime.datetime.now())
+```
+
+
+Installation
+------------
+
+Install and activate dependencies:
+
+- [ipywidgets](https://github.com/jupyter-widgets/ipywidgets)
+- [jupyter-interval-widget](https://github.com/srizzo/jupyter-interval-widget)
+
+Then:
+
+    $ pip install jupyter-live-magic
+
+
