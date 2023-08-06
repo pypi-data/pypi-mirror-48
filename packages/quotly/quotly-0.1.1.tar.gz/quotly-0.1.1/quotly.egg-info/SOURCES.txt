@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+quotly/Quote.py
+quotly/Quoty.py
+quotly/QuotyBot.py
+quotly/__init__.py
+quotly/__main__.py
+quotly.egg-info/PKG-INFO
+quotly.egg-info/SOURCES.txt
+quotly.egg-info/dependency_links.txt
+quotly.egg-info/requires.txt
+quotly.egg-info/top_level.txt
+web/__init__.py
+web/app.py
