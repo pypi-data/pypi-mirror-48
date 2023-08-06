@@ -1,0 +1,3 @@
+[pyapp.extensions]
+pyapp.redis = pyapp_ext.redis:Extension
+
