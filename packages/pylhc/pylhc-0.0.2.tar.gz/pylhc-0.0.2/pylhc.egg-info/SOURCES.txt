@@ -1,0 +1,9 @@
+README.md
+setup.py
+pylhc/__init__.py
+pylhc/machine_settings_info.py
+pylhc.egg-info/PKG-INFO
+pylhc.egg-info/SOURCES.txt
+pylhc.egg-info/dependency_links.txt
+pylhc.egg-info/requires.txt
+pylhc.egg-info/top_level.txt
