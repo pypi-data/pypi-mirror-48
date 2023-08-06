@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: kb-analysis
+Version: 1.0.0
+Summary: H1 human embryonic stem cells (hESCs) Data Analysis
+Home-page: https://github.com/KarrLab/kb_analysis
+Author: Karr Lab
+Author-email: karr@mssm.edu
+License: MIT
+Download-URL: https://github.com/KarrLab/kb_analysis
+Keywords: whole-cell systems biology
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires-Dist: biopython
+Requires-Dist: cement (>=3.0.0)
+Requires-Dist: cobra
+Requires-Dist: conv-opt
+Requires-Dist: datanator
+Requires-Dist: dcor
+Requires-Dist: ete3
+Requires-Dist: mygene
+Requires-Dist: natsort
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pyensembl
+Requires-Dist: python-libsbml
+Requires-Dist: re
+Requires-Dist: requests
+Requires-Dist: scipy
+Requires-Dist: setuptools
+Requires-Dist: six
+Requires-Dist: sqlalchemy
+Requires-Dist: wc-kb
+Requires-Dist: wc-kb-gen
+Requires-Dist: wc-lang
+Requires-Dist: wc-model-gen
+Requires-Dist: wc-onto
+Requires-Dist: wc-sim
+Requires-Dist: wc-utils
+Requires-Dist: xlrd
+Requires-Dist: xlsxwriter
+Provides-Extra: all
+Provides-Extra: docs
+Provides-Extra: tests
+
+UNKNOWN
+
+
