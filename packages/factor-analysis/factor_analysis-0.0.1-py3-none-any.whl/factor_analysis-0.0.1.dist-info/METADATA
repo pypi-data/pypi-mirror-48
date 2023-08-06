@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: factor-analysis
+Version: 0.0.1
+Summary: Package to conduct factor analysis on data
+Home-page: https://github.com/avkpy/factor-analysis
+Author: Aswin Vijayakumar
+Author-email: aswinkv28@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Factor Analysis
+===============
+
+```python
+
+import tensorflow as tf
+
+f = factor_analysis.factors.Factor(data, factor_analysis.posterior.Posterior(covariance_prior, means))
+
+noise = factor_analysis.noise.Noise(f, f.posterior)
+
+with tf.Session() as sess:
+    print(f.create_factor().eval())
+    print(noise.create_noise(f.create_factor()).eval())
+```
+
+
+
