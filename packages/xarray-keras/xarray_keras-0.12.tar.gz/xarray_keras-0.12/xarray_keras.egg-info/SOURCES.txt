@@ -1,0 +1,9 @@
+README.md
+setup.py
+xarray_keras/__init__.py
+xarray_keras/xrkeras.py
+xarray_keras.egg-info/PKG-INFO
+xarray_keras.egg-info/SOURCES.txt
+xarray_keras.egg-info/dependency_links.txt
+xarray_keras.egg-info/requires.txt
+xarray_keras.egg-info/top_level.txt
