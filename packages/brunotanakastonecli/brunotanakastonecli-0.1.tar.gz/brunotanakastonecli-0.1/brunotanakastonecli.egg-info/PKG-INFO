@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: brunotanakastonecli
+Version: 0.1
+Summary: Criar a infraestrutura automatizada de forma automatica
+Home-page: https://github.com/brunotanaka/stone_cli
+Author: Bruno Tanaka
+Author-email: bruno_tanaka100@ghotmail.com
+License: UNKNOWN
+Description: ### Stone CLI
+        
+        cria tudo na stone sem burocracia chata, Ã© nois
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
