@@ -1,0 +1,8 @@
+MANIFEST.in
+setup.cfg
+setup.py
+test_library/__init__.py
+test_library.egg-info/PKG-INFO
+test_library.egg-info/SOURCES.txt
+test_library.egg-info/dependency_links.txt
+test_library.egg-info/top_level.txt
