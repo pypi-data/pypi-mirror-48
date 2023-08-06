@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: acfun
+Version: 0.2
+Summary: acfun video player
+Home-page: https://github.com/xingheng/acfun-joker
+Author: Will Han
+Author-email: xingheng.hax@qq.com
+License: MIT
+Description: UNKNOWN
+Keywords: acfun preview download
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Unix Shell
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Terminals
+Classifier: Topic :: Text Processing :: Linguistic
