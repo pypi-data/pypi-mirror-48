@@ -1,0 +1,11 @@
+csvql.py,sha256=R7FwvyHxIq8YT6Va5NPNMvB-6TUYZI9OOhAOfVSkdvw,6564
+CSVRW/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+CSVRW/csvrw.py,sha256=sQAc5Z0Sr4goB7gEs43VE-cwxHjefmU50z6_c8mCVp0,812
+DB/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DB/db.py,sha256=u-9Roaac7CwMVsxV3-r-RYVE_iBfe0F7EN06ad3qvBw,4326
+csvql-0.0.2.dist-info/LICENSE,sha256=hLSE5f9t4IDGfcNfdB7HaWgvH1I5SRQtrDbd5Jxr9mw,1067
+csvql-0.0.2.dist-info/METADATA,sha256=BCSU7Fyu4U3M4IXiNqCWMxv5rEKtfw1f7Z9MlO6Lmzc,1066
+csvql-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+csvql-0.0.2.dist-info/entry_points.txt,sha256=daMTygeJlHzlMHfGtrKuxwCzJpIQHvOlSpObWvvxvdg,38
+csvql-0.0.2.dist-info/top_level.txt,sha256=elX7dDHAjQmN31ymQ9T1bi8IE-Ip6p4LBxifd-WWgxg,15
+csvql-0.0.2.dist-info/RECORD,,
