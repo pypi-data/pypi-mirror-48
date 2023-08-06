@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: thunder-remote
+Version: 0.6.0
+Summary: A modified version of the 'pyController' package for usage with a ThunderBorg
+Home-page: https://github.com/Schrotty/thunder-remote
+Author: Schrotty
+Author-email: rubenmaurer@live.de
+License: MIT
+Description: # Thunder Remote
+        A simple remote control for a thunder borg based on the [pyController](https://github.com/Schrotty/pyController) package.
+        
+        ## Installation
+        Install using pip via `pip install thunder-remote`
+        and afterwards pip run `python setup.py patch` to patch the [inputs](https://github.com/zeth/inputs) library.
+Keywords: thunder-borg borg remote-control remote rc
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
