@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "xls2json"
+version = "0.1.2"
+description = "Convert XLS file to JSON."
+authors = ["Reza Handzalah <rezahandzalah@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+xlrd = "^1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^3.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
+[tool.poetry.scripts]
+xls2json = 'xls2json.command_line:main'
