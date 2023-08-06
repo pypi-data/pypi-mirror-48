@@ -1,0 +1,15 @@
+katcr/__init__.py,sha256=5WDZ0cf2inPFlEGEyt0O7USxI3lEo5APRAk9VQUDID0,3693
+katcr/bot.py,sha256=_wm_OG0OnclQOe-Wsc0mpTYC3IO8Py_aBQR2bnJ_jU4,2563
+katcr/engines/__init__.py,sha256=VTf2cP5KQXx133gDHI6Cwmt_jc5jgff4tKT0xJbQd4o,175
+katcr/engines/base.py,sha256=_LmjEveTbkZ7gZcQIvk47Qtz5CUJcF4R-oC1gpwCWX4,2211
+katcr/engines/digbt.py,sha256=C3sU7OwGS5lfqSZSB9SQup_iOBRAr8fwrpbkXuCKmJs,825
+katcr/engines/jackett.py,sha256=YfnmP4ywrvDiYJAyT57Hymfo4q83Cf9Ysxx9edqbyzo,523
+katcr/engines/katcr.py,sha256=Ebgzl_2rQN-pWzcXSV5jw_-PkQ3-t5qEwOeOTzAde40,957
+katcr/engines/magnetsh.py,sha256=H2xDaczdauHRMXjrwR2-cAXct3B-_Cm6RognMiqTnWM,764
+katcr/engines/nyaasi.py,sha256=KKc7BZbbCQR-TvPaaOjLBEbE-9GyvwQipDpdspPiRos,855
+katcr/engines/skytorrents.py,sha256=WKJBVO7n_rjGnzkVdFgSknKNN22gTZ7IMPpSeXV5t3s,757
+katcr/engines/tpb.py,sha256=KSPNflQSTwl4_odk0IUhajRQO_S2g6kxQE3O1rYlFXw,909
+katcr-2.0.0.dist-info/entry_points.txt,sha256=9djaSNLBEzJ4SIDzqpjXZT3q_w8jPSMcZ1oK-H0HQWc,36
+katcr-2.0.0.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+katcr-2.0.0.dist-info/METADATA,sha256=Jwv4unF8wKMcescojItTeu9Z4knUTWLZdHyQQuzbVHQ,672
+katcr-2.0.0.dist-info/RECORD,,
