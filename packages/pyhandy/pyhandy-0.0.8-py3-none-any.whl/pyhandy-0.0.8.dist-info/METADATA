@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyhandy
+Version: 0.0.8
+Summary: A collection of python tools to make my life easier.
+Home-page: https://github.com/callmexss/pyhandy
+Author: callmexss
+Author-email: callmexss@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
