@@ -1,0 +1,2 @@
+TAMO/MD/_MDsupport.so
+TAMO/util/_swilk.so
