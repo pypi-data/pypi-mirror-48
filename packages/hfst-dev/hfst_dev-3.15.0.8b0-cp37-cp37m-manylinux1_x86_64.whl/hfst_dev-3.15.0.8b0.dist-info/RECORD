@@ -1,0 +1,11 @@
+_libhfst_dev.cpython-37m-x86_64-linux-gnu.so,sha256=ph4yHnMSU2UdChyeWUAAvz6qoinEVV2tfc-dQvqPXcA,121500038
+libhfst_dev.py,sha256=TaKQ_5JvnVKkWE5zwhkwbjj_6lx3BUmMDW04iBgm0w8,188363
+hfst_dev-3.15.0.8b0.dist-info/RECORD,,
+hfst_dev-3.15.0.8b0.dist-info/WHEEL,sha256=AhV6RMqZ2IDfreRJKo44QWYxYeP-0Jr0bezzBLQ1eog,109
+hfst_dev-3.15.0.8b0.dist-info/METADATA,sha256=Uihq7h5Tjtlm9FV8SNtgj96Rqz0x3DTf8F80Oedtqig,4472
+hfst_dev-3.15.0.8b0.dist-info/top_level.txt,sha256=KkXs4x6aqxAgjVxn7h7b7S1fjzQaLMKP5_J3Rx-ZW00,34
+hfst_dev/__init__.py,sha256=KgKOF4gSMLNMpyPfzJKD3bCmJKMpsnwu1MssLrtHShg,47457
+hfst_dev/__INIT__.py,sha256=3C90iNDcFEpaQtdRmE7B0_LLYZAir86rWo96xB7Y_Qo,48719
+hfst_dev/exceptions/__init__.py,sha256=Nmb9I7IMlPWlG1X5Q8-x6TBPX7pvd6hH5rOVCioI258,1936
+hfst_dev/sfst_rules/__init__.py,sha256=pIMz1e4kPxzk_MAEwSV8kPJEQ7ttMpZuZgLZAmM9WCY,601
+hfst_dev/xerox_rules/__init__.py,sha256=u2R_HuNGTQYDtM6DeL95cz0qRksLMWBwdwk7jXeslkE,1023
