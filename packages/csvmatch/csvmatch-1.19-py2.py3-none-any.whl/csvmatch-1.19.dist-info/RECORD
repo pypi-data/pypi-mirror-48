@@ -1,0 +1,15 @@
+cli.py,sha256=C9txbv3AAxX-wcK7i2d7BgrgBN0kPd5lu3KBb14jOqA,6664
+csvmatch-titles.txt.py,sha256=Y8pbJ3IMWE74BcBmnYfiKMTT7GkvNygOHDIbfqZhEgk,295
+csvmatch.py,sha256=3MnPSQwSoZ-Q8HiKCbe_4IOuOr5Z-a6x8MMNzEMvu4w,9131
+fuzzybilenko.py,sha256=EZ_rc1AuEcqjYLisNzoC9wBStfIZnJOeUXP47wYuTHo,2413
+fuzzyjaro.py,sha256=K7KnFH_s4n91-bahVetxCEcLWAPvYjgcClogXTbYURc,95
+fuzzylevenshtein.py,sha256=ApgGKfEUdg05k9nzKpvF1Z1nsXsOI0PU6IByjdEnejE,200
+fuzzymetaphone.py,sha256=2jChmavCM0KwH8ZPoIme1_OJYPvAmK4SPLPpvPsDSoY,457
+profilers.py,sha256=Ds5oXi_5bGHu1S_EfYmMPxWjfpe-P4itFlnAirK3yJ8,3318
+tests.py,sha256=yAc21nSjW3yPdPwwnMjfT0rIZZeExfomJWUTgXW7Zes,13291
+csvmatch-1.19.dist-info/LICENCE,sha256=8q_SGAyD_CufqtdBWZ3-IJX9JVffLkeYc7-Hr2LPER0,524
+csvmatch-1.19.dist-info/METADATA,sha256=lTk362yu6r-MVzMlN5J2lFrmSxg7h8Onzzm-uDNh_C8,8305
+csvmatch-1.19.dist-info/WHEEL,sha256=aSdOKpzTGLLkKenfdFGiq92od_Dmr98YfEe8iw7iZoo,110
+csvmatch-1.19.dist-info/entry_points.txt,sha256=ZEhutk7OGz_4qoJUvsQcUojS-Ud38mzXcW2s4kJ53gI,39
+csvmatch-1.19.dist-info/top_level.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+csvmatch-1.19.dist-info/RECORD,,
