@@ -1,0 +1,3 @@
+[console_scripts]
+python_gc_benchmark = python_gc_benchmark.cli:main
+
