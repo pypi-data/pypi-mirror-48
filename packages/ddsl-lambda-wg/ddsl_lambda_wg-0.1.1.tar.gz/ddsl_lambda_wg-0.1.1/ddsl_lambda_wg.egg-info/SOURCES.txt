@@ -1,0 +1,9 @@
+README.rst
+setup.py
+ddsl_lambda_wg/__init__.py
+ddsl_lambda_wg/wg.py
+ddsl_lambda_wg.egg-info/PKG-INFO
+ddsl_lambda_wg.egg-info/SOURCES.txt
+ddsl_lambda_wg.egg-info/dependency_links.txt
+ddsl_lambda_wg.egg-info/requires.txt
+ddsl_lambda_wg.egg-info/top_level.txt
