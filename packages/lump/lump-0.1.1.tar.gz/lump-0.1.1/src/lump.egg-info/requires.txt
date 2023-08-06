@@ -1,0 +1,6 @@
+tqdm==4.32.2
+requests==2.22.0
+lxml==4.3.4
+
+[test]
+pytest>=4.2.0
