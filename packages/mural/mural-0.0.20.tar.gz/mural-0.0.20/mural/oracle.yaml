@@ -1,0 +1,231 @@
+- prompt: |
+    Ursula belonged to which Disney movie?
+  answer: The Little Mermaid
+  reward: 1
+- prompt: |
+    Name one person you've met today.
+  no_answer: True
+  reward: 1
+- prompt: |
+    CARPENTER : HAMMER :: PLUMBER ::
+  answer: WRENCH
+  reward: 3
+- prompt: |
+    What’s the total number of dots on a pair of dice?
+  answer: 42
+  reward: 2
+- prompt: |
+    Which planet is the closest to Earth?
+  answer: Venus
+  reward: 2
+- prompt: |
+    What color is the circle on the Japanese national flag?
+  answer: Red
+  reward: 1
+- prompt: |
+    How many rings make up the symbol of the Olympic Games?
+  answer:
+    number: 5
+    string: five
+  reward: 1
+- prompt: |
+    What’s the colored part of the human eye called?
+  answer: Iris
+  reward: 1
+- prompt: |
+    In Charlie and the Chocolate Factory, what is Charlie’s last name?
+  answer: Bucket
+  reward: 3
+- prompt: |
+    Which planet is closest to our sun?
+  answer: Mercury
+  reward: 1
+- prompt: |
+    If you suffer from arachnophobia, which animal are you scared of?
+  answer: Spiders
+  reward: 1
+- prompt: |
+    What is the capital of California?
+  answer: Sacramento
+  reward: 1
+- prompt: |
+    Word association: find a word that associates with the following sets of words.
+    Cake, swiss, cottage
+  answer: Cheese
+  reward: 1
+- prompt: |
+
+    Word association: find a word that associates with the following sets of words.
+
+    Glasses, screen, day
+  answer: Sun
+  reward: 2
+- prompt: |
+
+    Word association: find a word that associates with the following sets of words.
+
+    Cream, cube, cap
+  answer: Ice
+  reward: 1
+- prompt: |
+
+    Word association: find a word that associates with the following sets of words.
+
+    Knife, fly, cup
+  answer: Butter
+  reward: 1
+- prompt: |
+    Divide 30 by 1/2 and add 10. What’s the answer?
+  answer: 70
+  reward: 3
+- prompt: |
+    Using only addition, how can you use eight eights to get the number 1,000?
+  answer: 888 +88 +8 +8 +8
+  reward: 3
+- prompt: |
+    What object has keys that open no locks, space but no room, and you can enter bbut not go in?
+  answer: Keyboard
+  reward: 2
+- prompt: |
+    A word I know, six letters it contains. Subtract just one, and twelve is what remains.
+  answer: Dozen
+  reward: 1
+- prompt: |
+   What is a five letter word which becomes shorter with two letters added onto its end?
+  answer: Short
+  reward: 1
+- prompt: |
+    If:
+    2 + 2 = 44
+    3 + 3 = 96
+    4 + 4 = 168
+    5 + 5 = 2510
+
+    Then:
+    6 + 6 = ?
+  answer: 3612
+  reward: 5
+- prompt: |
+    How many eggs would you have if you bought half a dozen?
+  answer: 6
+  reward: 1
+- prompt: |
+    How many textbooks are on a bus of 20 children with 5 textbooks each?
+  answer: 100
+  reward: 2
+- prompt: |
+    How many quarters are there in 6 dollars?
+  answer: 24
+  reward: 3
+- prompt: |
+    If you have to wait for 10 hours, how many minutes will you be waiting?
+  answer: 600
+  reward: 2
+- prompt: |
+    What is next in this sequence? JFMAMJJASON
+  answer: D
+  reward: 5
+- prompt: |
+    65-42=
+  answer: 23
+  reward: 1
+- prompt: |
+    87+56=
+  answer: 143
+  reward: 1
+- prompt: |
+    A polygon with 8 sides is called an...
+  answer: octagon
+  reward: 1
+- prompt: |
+    What is the square root of 36?
+  answer: 6
+  reward: 2
+- prompt: |
+    Which is greater -50 or 2?
+  answer: 2
+  reward: 2
+- prompt: |
+    What is 25+23=
+  answer: 48
+  reward: 1
+- prompt: |
+    What subject does Alyssa teach during the school year?
+  answer: Math
+  reward: 1
+- prompt: |
+    What is 5*5=
+  answer: 25
+  reward: 1
+- prompt: |
+    21/7=
+  answer: 3
+  reward: 1
+- prompt: |
+    How many seas are there in the world?
+  answer: 7
+  reward: 1
+- prompt: |
+    What ocean borders the coast of California?
+  answer: Pacific Ocean
+  reward: 1
+- prompt: |
+    What city is The Girls' Middle School in?
+  answer: Palo Alto
+  reward: 1
+- prompt: |
+    A caterpillar grows and develops into a...
+  answer: Butterfly
+  reward: 1
+- prompt: |
+    What is the tallest animal in the world?
+  answer: Giraffe
+  reward: 1
+- prompt: |
+    True or false: A lion is a herbivore.
+  answer: false
+  reward: 1
+- prompt: |
+    Name the world's fastest land animal
+  answer: Cheetah
+  reward: 1
+- prompt: |
+    True or false: A lion is a herbivore.
+  answer: false
+  reward: 1
+- prompt: |
+    In Aladdin, Rajah is the pet Tiger of whom?
+  answer: Jasmine
+  reward: 2
+- prompt: |
+    Queen Elsa is a character of which Disney film?
+  answer: Frozen
+  reward: 1
+- prompt: |
+    Which Disney film was set in the Islands of Polynesia?
+  answer: Moana
+  reward: 1
+- prompt: |
+    What is the capital of the United States?
+  answer: Washington D.C.
+  reward: 2
+- prompt: |
+    What state borders California to the north?
+  answer: Oregon
+  reward: 2
+- prompt: |
+    The state flower of California is what?
+  answer: The poppy
+  reward: 1
+- prompt: |
+    A polygon with 4 sides is called a...
+  answer: square
+  reward: 1
+- prompt: |
+    What does GMS stand for?
+  answer: The Girls Middle School
+  reward: 1
+- prompt: |
+    What is your favorite subject at school?
+  no_answer: True
+  reward: 1
