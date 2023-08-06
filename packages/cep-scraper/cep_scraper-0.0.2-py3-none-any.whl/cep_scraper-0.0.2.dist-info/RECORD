@@ -1,0 +1,9 @@
+cep_scraper/__init__.py,sha256=38Rwdbvd3MMR3NE012_uNgaQDcAet_2UGMRLmN3HGS4,914
+cep_scraper/client.py,sha256=aCV0A1xbQgYZ9hfwV0MirVySQVfX_u3qhOZIjm13vs4,926
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_cep.py,sha256=TeKoWQ1KkF2GoYhvMXGz6_vtw13E79ZZQ20Wgwg4qvQ,768
+cep_scraper-0.0.2.dist-info/LICENSE,sha256=ocv-JD-V9O0XGaPylttY9aieLDeTEQn9YYWfY1eCqS0,1062
+cep_scraper-0.0.2.dist-info/METADATA,sha256=jeqB4sLiNroukcV2bdC6D3wasdhCnhXFMtGaXInND4M,1529
+cep_scraper-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+cep_scraper-0.0.2.dist-info/top_level.txt,sha256=CRdeU8CoNdWnXG_KaQuH7NvbkgAIu4LGI2EqDQ3u0bk,18
+cep_scraper-0.0.2.dist-info/RECORD,,
