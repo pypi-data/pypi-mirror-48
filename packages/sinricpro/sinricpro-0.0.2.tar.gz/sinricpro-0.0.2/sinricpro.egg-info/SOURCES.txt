@@ -1,0 +1,9 @@
+README.rst
+setup.py
+sinric/__init__.py
+sinric/sinricpro.py
+sinricpro.egg-info/PKG-INFO
+sinricpro.egg-info/SOURCES.txt
+sinricpro.egg-info/dependency_links.txt
+sinricpro.egg-info/requires.txt
+sinricpro.egg-info/top_level.txt
