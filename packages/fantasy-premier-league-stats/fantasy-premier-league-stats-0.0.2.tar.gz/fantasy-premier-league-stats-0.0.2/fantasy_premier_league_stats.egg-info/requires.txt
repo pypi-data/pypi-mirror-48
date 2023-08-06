@@ -1,0 +1,6 @@
+requests
+jsonpickle
+pandas
+matplotlib
+seaborn
+Pillow
