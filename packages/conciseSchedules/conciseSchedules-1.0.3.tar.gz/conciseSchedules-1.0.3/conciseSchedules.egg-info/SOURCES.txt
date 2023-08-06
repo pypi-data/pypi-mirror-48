@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+conciseSchedules/__init__.py
+conciseSchedules.egg-info/PKG-INFO
+conciseSchedules.egg-info/SOURCES.txt
+conciseSchedules.egg-info/dependency_links.txt
+conciseSchedules.egg-info/requires.txt
+conciseSchedules.egg-info/top_level.txt
