@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: f2db
+Version: 1.0.3
+Summary: filesystem-based kvs
+Home-page: http://github.com/account/repository
+Author: nardtreee
+Author-email: angeldust03@gmail.com
+License: MIT
+Description: long_description
+Keywords: kvs,leveldb,rocksdb
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Database
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
