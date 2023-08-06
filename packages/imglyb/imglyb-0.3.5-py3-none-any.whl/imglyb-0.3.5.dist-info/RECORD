@@ -1,0 +1,13 @@
+imglyb_config.py,sha256=wAxYKBgLyvWo2JWjpky1ZW1Lb5JRncXiiNns1zYl2lI,955
+imglyb/OSXAWTwrapper.py,sha256=ZWk57eycT3-6eQrvE5HQo4Y1bsyoBSccNfPPxqRZWh4,3239
+imglyb/__init__.py,sha256=hkZaSzSiBZTTFJ4Zk7-Qkx6n2mCfTr74FJ2phURtubI,1477
+imglyb/accesses.py,sha256=JXgkJgiUpe5IcAP1Fe_I6bpUfdE60pRUJ_jhmavI9j0,3436
+imglyb/cell.py,sha256=974AEwxysn-3fH6M91DyHrE6wP1NcA2S2ppOI6Yi_-M,4060
+imglyb/imglib_ndarray.py,sha256=bOesa7BmhqGa_E2Y6OFb7qa8ZrL4yJnOoLD7EKCDhDE,3465
+imglyb/types.py,sha256=t9C3zWpF87ZLjK3tZyr5pwU1Y2XtDKLul2_F4eRvHpg,2882
+imglyb/util.py,sha256=qcamNLHsAjdKRA6WEQIe22eogJ8N6A7aIAlovZjvcbY,5591
+imglyb/version.py,sha256=7FrRnNzRYWZ5oAyIn_6zZC4DZ4xD6IqOrL_N0PsKQWc,49
+imglyb-0.3.5.dist-info/METADATA,sha256=GW9bcW_How1BJ_tNTboRFLzx6-o3UNu9GwZdbONx7PU,372
+imglyb-0.3.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+imglyb-0.3.5.dist-info/top_level.txt,sha256=71BGB5onRbJMqxZi_0SE3S7Uu0tBvEC_eYjonJ2x6Kg,21
+imglyb-0.3.5.dist-info/RECORD,,
