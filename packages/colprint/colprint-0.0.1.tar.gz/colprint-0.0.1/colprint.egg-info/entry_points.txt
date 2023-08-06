@@ -1,0 +1,3 @@
+[console_scripts]
+colprint_usage = colprint:colprint_usage
+

@@ -1,0 +1,8 @@
+setup.py
+colprint/__init__.py
+colprint/cprint.py
+colprint.egg-info/PKG-INFO
+colprint.egg-info/SOURCES.txt
+colprint.egg-info/dependency_links.txt
+colprint.egg-info/entry_points.txt
+colprint.egg-info/top_level.txt
