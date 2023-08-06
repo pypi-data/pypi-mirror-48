@@ -1,0 +1,12 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+MailGun_V3.egg-info/PKG-INFO
+MailGun_V3.egg-info/SOURCES.txt
+MailGun_V3.egg-info/dependency_links.txt
+MailGun_V3.egg-info/not-zip-safe
+MailGun_V3.egg-info/requires.txt
+MailGun_V3.egg-info/top_level.txt
+mailgunv3/__init__.py
