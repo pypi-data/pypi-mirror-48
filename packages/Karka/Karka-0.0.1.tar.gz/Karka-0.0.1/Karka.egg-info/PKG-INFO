@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: Karka
+Version: 0.0.1
+Summary: A TensorFlow recommendation algorithm and framework in Python.
+Home-page: https://github.com/firebolt-ai/karka/
+Author: Aaron Ma
+Author-email: hi@aaronhma.com
+License: MIT
+Description: UNKNOWN
+Keywords: python,python3,tensorflow,recommendation,pypi,karka,firebolt,ai,algorithm,framework
+Platform: UNKNOWN
