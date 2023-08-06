@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pandasHana
+Version: 0.0.1
+Summary: Pandas to SQL translator (SAP Hana DB)
+Home-page: https://github.com/pypa/sampleproject
+Author: Thorsten Hapke
+Author-email: thorsten.hapke@sap.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pandasHana Package
+
+Creates sql statements (select, insert, update, create, ..)  for storing a pandas 
+dataframe to Hana DB.
+
+It maps the column data types of pandas to the corresponding Hana DB types.
+
+If a Hana Client is installed a call to the DB is offered as well. 
+
+
+
