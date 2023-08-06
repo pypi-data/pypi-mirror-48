@@ -1,0 +1,9 @@
+README.md
+setup.py
+falconx_py/__init__.py
+falconx_py/client.py
+falconx_py/secrets.py
+falconx_py.egg-info/PKG-INFO
+falconx_py.egg-info/SOURCES.txt
+falconx_py.egg-info/dependency_links.txt
+falconx_py.egg-info/top_level.txt
