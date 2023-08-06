@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: SMSONAR
+Version: 0.0.1
+Summary: Sound Metrics SONARs files software development kit     (SDK) for reading and writing SONAR files.
+Home-page: https://github.com/minamaged113/SMSONAR
+Author: Mina Gabriel
+Author-email: minamaged113@gmail.com
+License: GNU GPLv3
+Description: # Sound Metrics SONARs
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown

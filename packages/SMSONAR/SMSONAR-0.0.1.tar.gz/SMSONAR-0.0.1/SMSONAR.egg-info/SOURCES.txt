@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+code-of-conduct.md
+requirements.txt
+setup.py
+SMSONAR.egg-info/PKG-INFO
+SMSONAR.egg-info/SOURCES.txt
+SMSONAR.egg-info/dependency_links.txt
+SMSONAR.egg-info/top_level.txt
+src/__init__.py
+test/__init__.py
