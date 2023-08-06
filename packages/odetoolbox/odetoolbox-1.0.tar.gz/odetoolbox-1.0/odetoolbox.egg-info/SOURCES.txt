@@ -1,0 +1,13 @@
+README.md
+ode_analyzer.py
+setup.cfg
+setup.py
+odetoolbox/__init__.py
+odetoolbox/analytic.py
+odetoolbox/numeric.py
+odetoolbox/shapes.py
+odetoolbox/stiffness.py
+odetoolbox.egg-info/PKG-INFO
+odetoolbox.egg-info/SOURCES.txt
+odetoolbox.egg-info/dependency_links.txt
+odetoolbox.egg-info/top_level.txt

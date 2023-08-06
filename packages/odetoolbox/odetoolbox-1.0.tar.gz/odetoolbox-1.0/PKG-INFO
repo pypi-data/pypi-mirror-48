@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: odetoolbox
+Version: 1.0
+Summary: The NEST ODE toolbox
+Home-page: https://github.com/nest/ode-toolbox
+Author: The NEST Initiative
+Author-email: UNKNOWN
+License: GPLv3
+Description: The NEST ODE toolbox provides utility
+        classes and functions for selecting and generating solvers
+        for the differential equations commonly used in spiking neuron
+        models.
+Keywords: computational neuroscience modeling connectivity
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering
+Requires: matplotlib
+Requires: numpy
+Requires: sympy
