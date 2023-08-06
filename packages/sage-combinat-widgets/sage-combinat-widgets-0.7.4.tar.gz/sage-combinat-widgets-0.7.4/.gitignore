@@ -1,0 +1,16 @@
+.ipynb_checkpoints/
+*.pyc
+images/
+sage_combinat_widgets.egg-info/
+docs/build/
+TODO*
+test*.ipynb
+build/
+dist/
+Untitled*.ipynb
+DEBUG
+js/dist/
+js/node_modules/
+package-lock.json
+*.[1-9]
+*.print
