@@ -1,0 +1,6 @@
+click
+click_completion
+logbook
+flask
+altair
+pandas

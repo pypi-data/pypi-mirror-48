@@ -1,0 +1,17 @@
+.gitignore
+AUTHORS
+LICENSE
+README.md
+dev_requirements.txt
+setup.py
+bin/simdash
+simdash/__init__.py
+simdash/cli.py
+simdash/serve.py
+simdash.egg-info/PKG-INFO
+simdash.egg-info/SOURCES.txt
+simdash.egg-info/dependency_links.txt
+simdash.egg-info/requires.txt
+simdash.egg-info/top_level.txt
+test_simdash/__init__.py
+test_simdash/test_basic.py

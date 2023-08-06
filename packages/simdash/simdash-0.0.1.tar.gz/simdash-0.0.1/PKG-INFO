@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: simdash
+Version: 0.0.1
+Summary: A web based dashboard for visualizing simulations
+Home-page: http://github.com/NSSAC/simdash
+Maintainer: Parantapa Bhattacharya
+Maintainer-email: pb+pypi@parantapa.net
+License: UNKNOWN
+Description: # SimDash
+        
+        A web based dashboard for visualizing simulations
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
