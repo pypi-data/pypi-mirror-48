@@ -1,0 +1,52 @@
+#!/usr/bin/env python3
+
+# See https://www.reddit.com/r/git/comments/ah1euu
+import _gitz
+
+USAGE = """
+git-snip:
+
+    Delete one or more commits IDs from the current branch.
+    IDs 0, 1, 2, 3... are short for HEAD~0, HEAD~1, HEAD~2, HEAD~3...
+
+    This command rewrites history.
+
+Usage:
+    git-snip <id> [<id> ...]
+
+"""
+GIT = _gitz.GIT
+EXIT = _gitz.Exit(USAGE)
+
+
+def git_snip(*argv):
+    indexes = []
+    errors = []
+    dupes = []
+    indexer = _gitz.CommitIndexer()
+
+    for a in argv:
+        try:
+            index = indexer.index(a)
+            if index in indexes:
+                dupes.append(a)
+            else:
+                indexes.append(index)
+        except Exception:
+            errors.append(a)
+
+    if errors:
+        EXIT.error('Not commit IDs:', *errors)
+    if dupes:
+        EXIT.error('Duplicate IDs:', *dupes)
+    if errors or dupes:
+        EXIT.exit()
+
+    indexes
+    for i in reversed(sorted(indexes)):
+        'HEAD~%s' % i
+        GIT.rebase(('HEAD~%s' % i), '--onto', 'HEAD~%s' % (i + 1))
+
+
+if __name__ == '__main__':
+    _gitz.run_argv(USAGE, git_snip)

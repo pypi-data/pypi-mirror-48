@@ -1,0 +1,70 @@
+#!/usr/bin/env python3
+import _gitz
+
+GIT = _gitz.GIT
+
+USAGE = """
+git-split:  Split a range of commits into many single-file commits
+
+`git-split` squashes together a range of commits and the staging area, then
+splits out a sequence of individual commits, one for each file changed.
+
+Usage:
+
+    git-split [<pathspec>]
+
+Examples:
+
+    git-split
+    git-split HEAD
+        Splits HEAD
+
+    git-split HEAD~
+        Splits the squash of HEAD and HEAD~
+
+    git-split HEAD~~
+        Splits the squash of HEAD, HEAD~ and HEAD~~
+"""
+EXIT = _gitz.Exit(USAGE)
+
+
+def git_split(commit='HEAD'):
+    try:
+        GIT.cd_root()
+    except ValueError:
+        EXIT.error_and_exit('Not in a git directory')
+
+    EXIT.require_clean_workspace()
+    commit = GIT.commit_id(commit + '~')
+    GIT.reset('--soft', commit)
+    lines = GIT.status('--porcelain')
+
+    GIT.reset(commit)
+    commit_count = 0
+
+    for line in lines:
+        mode, filename = line.split(maxsplit=1)
+        mode = mode.strip()
+        mode_name = NAMES[mode]
+
+        # Renaming is a special case with two files on a line
+        # separated by -> and with mode = '??'
+        filenames = filename.split(' -> ')
+        try:
+            GIT.add(*filenames)
+            GIT.commit('-m', '"[split] %s %s"' % (mode_name, filename))
+            commit_count += 1
+
+        except Exception:
+            EXIT.error("couldn't commit filename ", filename)
+
+    s = '' if commit_count == 1 else 's'
+    print('%d commit%s generated' % (commit_count, s))
+
+
+NAMES = 'Added', 'Deleted', 'Modified', 'Renamed'
+NAMES = {name[0]: name for name in NAMES}
+NAMES['??'] = NAMES['R']
+
+if __name__ == '__main__':
+    _gitz.run_argv(USAGE, git_split)

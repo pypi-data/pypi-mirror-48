@@ -1,0 +1,124 @@
+#!/usr/bin/env python3
+import argparse
+import _gitz
+
+GIT = _gitz.GIT
+GIT_SILENT = _gitz.GIT_SILENT
+
+USAGE = """
+git-combine: Combines multiple commit IDs together using cherry picking
+
+Usage:
+    git-combine <base-commit> [<additional-commit> ...<additional-commit>]
+        [--force-push | -f] [--preserve-conflict | -p] [--stash | -s]
+
+
+Hard-resets to <base-commit> then successively cherry-picks the additional
+commit IDs on top
+
+If the --force-push / -f flag is set, on successful completion the branch is
+force-pushed using --force-with-lease.
+
+If there are any uncommitted changes in the workspace ``git-combine`` will
+fail, unless the --stash / -s flag is set, when uncommited changes are stashed.
+
+By default, if there is an error in the cherry-picking, it is reported,
+and then the branch gets reverted to where it was before ``git-combine``
+started before the script errors... unless the --preserve-conflict / -p flag
+is set, in which case the branch stays right at the broken cherry-pick.
+
+Examples:
+    git combine master d2dfe0c a2833bc
+        Goes to the commit in `master` and then cherry picks the two commits
+        d2dfe0c and a2833bc on top of it.
+
+    git combine --force-push master d2dfe0c a2833bc
+    git combine -f master d2dfe0c a2833bc
+        The same, but force-push the result over the current branch
+        (not master).
+
+    git combine -p HEAD x-branch
+    git combine --preserve-conflict HEAD x-branch
+        Basically the same as ``git cherry-pick x-branch``
+
+    git combine -s HEAD x-branch
+        Something like ``git stash; git cherry-pick x-branch`` except that
+        any changes are stashed, and if the cherry-pick fails, the state is
+        reverted including the stash popped
+
+"""
+EXIT = _gitz.Exit(USAGE)
+
+UNCOMMITTED_ERROR = """
+Uncommitted changes would be overwritten.
+
+(Use git combine --stash or -s to stash changes automatically)
+"""
+
+
+def git_combine():
+    args = _parse_args()
+    commit_id = GIT.commit_id()
+    ids, errors = [], []
+    for id in (args.base[0], *args.commit_id):
+        try:
+            ids.append(GIT_SILENT.commit_id(id))
+        except Exception:
+            errors.append(id)
+
+    if errors:
+        EXIT.error_and_exit('Not commit IDs:', *errors)
+
+    stash = GIT_SILENT.is_workspace_dirty()
+    if stash:
+        if not args.stash:
+            EXIT.error(UNCOMMITTED_ERROR)
+            EXIT.exit()
+        _git('stash')
+    try:
+        base, *commits = ids
+        _git('reset', '--hard', base)
+        for id in commits:
+            _git('cherry-pick', id)
+        if args.force_push:
+            _git('push', '--force-with-lease')
+    except Exception as e:
+        if not args.preserve_conflict:
+            _git('reset', '--hard', commit_id)
+            if stash:
+                _git('stash', 'pop')
+        EXIT.error_and_exit('In git:', e)
+
+
+def _add_arguments(parser):
+    add_arg = parser.add_argument
+    add_arg('base', nargs=1, help='Base commit to combine from')
+    add_arg('commit_id', nargs='+', help='List of commit IDs to cherry pick')
+
+    boolean_flags = (
+        ('force-push', 'Force push on success'),
+        ('preserve-conflict', 'Do not revert the workspace on failure'),
+        ('stash', 'Automatically stash any changes'),
+        ('verbose', 'Report all git messages'),
+    )
+    for flag, help in boolean_flags:
+        add_arg('-' + flag[0], '--' + flag, action='store_true', help=help)
+
+
+def _git(*cmd, **kwds):
+    for line in GIT.git(*cmd, **kwds):
+        if GIT.verbose:
+            print(line)
+
+
+def _parse_args():
+    argv = _gitz.get_argv()
+    _gitz.print_help(argv, USAGE)
+
+    parser = argparse.ArgumentParser()
+    _add_arguments(parser)
+    return parser.parse_args(argv)
+
+
+if __name__ == '__main__':
+    git_combine()
