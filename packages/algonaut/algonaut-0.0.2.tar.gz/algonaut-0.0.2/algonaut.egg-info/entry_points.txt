@@ -1,0 +1,3 @@
+[console_scripts]
+algonaut = algonaut.cli.main:main
+
