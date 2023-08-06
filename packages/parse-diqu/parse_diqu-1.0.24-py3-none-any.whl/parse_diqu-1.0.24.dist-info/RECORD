@@ -1,0 +1,11 @@
+parse_diqu/__init__.py,sha256=q-XQkWwlT53e5uFT2h01A6H4enECH_xHJ4BGFeFVs5w,25
+parse_diqu/parse_diqu.py,sha256=pjlbbRgpsx5En0PZomFSbRIk2lg-CAUB_aObIKTdKZo,6279
+parse_diqu/xzqh_key_word.json,sha256=4a_KRmAWez07pozQ2vFDQmaD8yzksXJCXSix7xTQcoY,80618
+parse_diqu/公共区域,sha256=KXHe8bUW5pvsUNsUg4PCgAznuZMg-i3ZDY_Vo_dI80Q,6732
+parse_time/__init__.py,sha256=kNREORPmItmcGq8lteKIZQEK_0mB0uA9AzzA2LOJy4w,68
+parse_time/ggzy_extra_time.py,sha256=gq4m7dJXTyMNVpBp4nfDQ-H3jYpihlIM2w-lJrlDRdk,27617
+parse_time/not_ggzy_extra_time.py,sha256=iIrKQJ7nylidIxMfZdxc3DZccLu7WL6GJeVGsU8prg4,24893
+parse_diqu-1.0.24.dist-info/METADATA,sha256=PVhMDNxKhbzOQYCDzMBMMZbJJgFiL4Il-fvApKp5DAA,819
+parse_diqu-1.0.24.dist-info/WHEEL,sha256=qB97nP5e4MrOsXW5bIU5cUn_KSVr10EV0l-GCHG9qNs,97
+parse_diqu-1.0.24.dist-info/top_level.txt,sha256=zHf1F7O49a-V7-N_CEZ5C06ER_UVzbPmorRBiopL5BY,22
+parse_diqu-1.0.24.dist-info/RECORD,,
