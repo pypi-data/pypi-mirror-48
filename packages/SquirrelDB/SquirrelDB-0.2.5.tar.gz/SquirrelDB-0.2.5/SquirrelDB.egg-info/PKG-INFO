@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: SquirrelDB
+Version: 0.2.5
+Summary: Type & Thread safe In-Memory concurrent datastore written in Python.
+Home-page: https://github.com/vikene/squirreldb
+Author: Vigneash Sundararajan
+Author-email: vigneashsundar@live.com
+License: GPL
+Description: Squirrel Database - A Fast InMemory DataStore for you're computational needs
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
