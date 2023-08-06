@@ -1,0 +1,14 @@
+nltk
+bllipparser
+scipy
+cython
+depgrep
+scikit-learn
+tensorflow>=1.12.1
+setuptools>=41.0.0
+spacy
+pandas
+tqdm
+pyparsing
+tabview
+isort
