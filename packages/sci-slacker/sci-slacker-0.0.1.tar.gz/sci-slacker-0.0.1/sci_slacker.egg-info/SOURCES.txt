@@ -1,0 +1,12 @@
+README.md
+setup.py
+sci_slacker.egg-info/PKG-INFO
+sci_slacker.egg-info/SOURCES.txt
+sci_slacker.egg-info/dependency_links.txt
+sci_slacker.egg-info/not-zip-safe
+sci_slacker.egg-info/requires.txt
+sci_slacker.egg-info/top_level.txt
+slacker/__init__.py
+slacker/message_builder.py
+slacker/sender.py
+slacker/status_manager.py
