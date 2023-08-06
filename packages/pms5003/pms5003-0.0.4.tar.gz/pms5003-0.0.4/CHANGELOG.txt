@@ -1,0 +1,19 @@
+0.0.4
+-----
+
+* Packaging improvements/bugfix from boilerplate
+
+0.0.3
+-----
+
+* Added pyserial dependency
+
+0.0.2
+-----
+
+* Added reset function
+
+0.0.1
+-----
+
+* Initial Release
