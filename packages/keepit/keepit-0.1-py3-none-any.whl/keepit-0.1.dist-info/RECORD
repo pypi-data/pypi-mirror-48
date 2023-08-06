@@ -1,0 +1,13 @@
+keepit/VERSION,sha256=FL5LRfGODYxntPcZtRRO7ohJfkE3CdEdhbCW2OI0YxA,3
+keepit/__init__.py,sha256=8zRLhr-9_Y_Sy-q1Ovv0-haPRKV7UDIXyrSiJv7AxdI,3753
+keepit/version.py,sha256=8Qu064aDB0A5Flj4ZsraKtZwn7zAkMnxQz2pKJyuxSo,436
+keepit/__pycache__/__init__.cpython-37.pyc,sha256=A5nvwczShzx3tizcftzrbuFgX7LSTV4u_UvftY-cLkI,4265
+keepit/backends/__init__.py,sha256=uSS4KYvWoQxfWrZr7FEko2cJVfMrHKOH3d6K8t9UKbE,2305
+keepit/backends/pickle.py,sha256=n1bnYdeb_bNDBKASWGywTRa0Ne9hMAkal3AuVZJgovI,5
+keepit/backends/__pycache__/__init__.cpython-37.pyc,sha256=yObYLEo-YjnhP8IVcquE3cpOounHjy_JoPLs4Tz6Fu4,3931
+keepit-0.1.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+keepit-0.1.dist-info/METADATA,sha256=4b3_-CZfqMdKw9421WjYoDwvJepKLovyU_idMiZO-gY,681
+keepit-0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+keepit-0.1.dist-info/entry_points.txt,sha256=YlousPynnE02HkSDKa1IuWmNYWdzsfm4Mmwm2NEKclw,49
+keepit-0.1.dist-info/top_level.txt,sha256=gMX5vwVuhUQoRr5IWT23bt4OwIRZZdTOZxE7Y-ddzE4,7
+keepit-0.1.dist-info/RECORD,,
