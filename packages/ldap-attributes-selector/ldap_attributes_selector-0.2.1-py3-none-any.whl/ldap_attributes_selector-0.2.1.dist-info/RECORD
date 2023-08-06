@@ -1,0 +1,10 @@
+ldap_attributes_selector/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ldap_attributes_selector/_version.py,sha256=Nag3e6IhRowimF6lbp0vLlgPp33ThMRN1-ga5Wv-FYs,60
+ldap_attributes_selector/ldap_attributes_selector.py,sha256=OcDTMb4IH5pLyonsrfdaVZ1To5ehWY-fMzdRRIGJqmI,8969
+ldap_attributes_selector-0.2.1.data/scripts/_version.py,sha256=Nag3e6IhRowimF6lbp0vLlgPp33ThMRN1-ga5Wv-FYs,60
+ldap_attributes_selector-0.2.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+ldap_attributes_selector-0.2.1.dist-info/METADATA,sha256=wPBU8vgLCq-mO0NH5NZ3h13UzsqvqNn3C3A3tpeOcWc,4376
+ldap_attributes_selector-0.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+ldap_attributes_selector-0.2.1.dist-info/entry_points.txt,sha256=JQPiZPT0JuaQlIRn-3VFsxM2Wppb-MsUgghu2mQK78w,101
+ldap_attributes_selector-0.2.1.dist-info/top_level.txt,sha256=2mO7gAlAHP6Dvms_9BCLQKti0WvmAJq_eDMryLVc8fo,25
+ldap_attributes_selector-0.2.1.dist-info/RECORD,,
