@@ -1,0 +1,3 @@
+anyio==1.0.0
+asks>=2.3.5
+anysocks>=0.1.2
