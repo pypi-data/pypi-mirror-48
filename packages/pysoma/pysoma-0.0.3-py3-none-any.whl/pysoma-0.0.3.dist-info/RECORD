@@ -1,0 +1,10 @@
+pysoma/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysoma/soma_api.py,sha256=aoBkPB_VYERUx-hGzZgjEhLfvlTJkoO5BTufops8hPU,556
+pysoma/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysoma/api/soma_api.py,sha256=aoBkPB_VYERUx-hGzZgjEhLfvlTJkoO5BTufops8hPU,556
+pysoma-0.0.3.dist-info/DESCRIPTION.rst,sha256=aFPmK8hCsX5ubLy6xC7AT0kMVMWgxmHwUHMdbtaaBIQ,85
+pysoma-0.0.3.dist-info/METADATA,sha256=uKs926jOgeg4a4MrSVlz96jFlsRPfLRYQdTPeh3FuE8,531
+pysoma-0.0.3.dist-info/RECORD,,
+pysoma-0.0.3.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+pysoma-0.0.3.dist-info/metadata.json,sha256=MoNgKmLUMTuJRpnjfiq3_6qzX08zuZJxmgPJ2Eil2Yw,596
+pysoma-0.0.3.dist-info/top_level.txt,sha256=P28193xCaEiPK4SEyhmlCw00TfPvdK4hwm3HJjpo1D8,7
