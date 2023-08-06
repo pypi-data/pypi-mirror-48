@@ -1,0 +1,11 @@
+sidecar/__init__.py,sha256=8hU3kC8RWt1IV0me5_mN3-iLV60OO7eYCpKzczH4YWY,209
+sidecar/_version.py,sha256=_zI4sZD6yllzauEEELqNx2DJ-EYwpY7Sy7JPnddF0j4,484
+sidecar/sidecar.py,sha256=EZ-5LY59BuBwWYLNxQd6PGdmhbThi7zS0qXJnIXseGI,769
+sidecar/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sidecar/tests/conftest.py,sha256=W4QWzxAU5E3pKUHBaINEelXK8njzURyy3SDTNXel51g,1413
+sidecar/tests/test_example.py,sha256=reCxjBdHSVGhOUB78EkBMysItWeaVEDskW0Ebhv2hbs,280
+sidecar-0.3.0.dist-info/LICENSE.txt,sha256=tAOz8H86H857PO6d36YkJDoMrKkDWTFJ1txzrc-zRC8,1515
+sidecar-0.3.0.dist-info/METADATA,sha256=gfVGlNXypC9iz-0t-bxlTWTLC0WvSYKPmQAcAiXO2dg,1366
+sidecar-0.3.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+sidecar-0.3.0.dist-info/top_level.txt,sha256=UeSpF04SG1AMNIl7-0aa3Zq_fEcx8_LQ8_Z9mgUwU1A,8
+sidecar-0.3.0.dist-info/RECORD,,
