@@ -1,0 +1,20 @@
+Metadata-Version: 2.0
+Name: vizion-composite-key
+Version: 1.0.1
+Summary: Composite Key for Django >= 2.0
+Home-page: https://github.com/ubuviz/vizion-composite-key
+Author: Ubuviz
+Author-email: info@ubuviz.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# vizion-composite-key
+Composite Key for Django >= 2.0
+
+
