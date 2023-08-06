@@ -1,0 +1,6 @@
+msmbps
+setup.py
+msmbps.egg-info/PKG-INFO
+msmbps.egg-info/SOURCES.txt
+msmbps.egg-info/dependency_links.txt
+msmbps.egg-info/top_level.txt
