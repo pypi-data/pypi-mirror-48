@@ -1,0 +1,7 @@
+-r default.txt
+-r test.txt
+redis<4.0.0
+django-jinja
+jinja2
+rpyc
+gevent

@@ -1,0 +1,10 @@
+celery>=4.3.0
+humanize==0.5.1
+pytz
+django-jinja
+jinja2
+rpyc
+gevent
+
+[:python_version == "2.7"]
+futures
