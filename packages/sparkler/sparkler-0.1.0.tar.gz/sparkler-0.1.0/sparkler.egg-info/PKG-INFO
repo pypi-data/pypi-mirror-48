@@ -1,0 +1,40 @@
+Metadata-Version: 1.1
+Name: sparkler
+Version: 0.1.0
+Summary: GitHub stats sparkline CLI
+Home-page: http://www.ivehearditbothways.com
+Author: Sean McGinnis
+Author-email: sean.mcginnis@gmail.com
+License: Apache License (2.0)
+Description: sparkler
+        ========
+        
+        A command line too for generating sparklines from GitHub stats.
+        
+        GitHub has several APIs for extracting activity statistics in a raw JSON
+        format. Sparkler is a tool that can take this raw data and generate sparkline
+        images to show the activity level over a period of time.
+        
+        Installing
+        ----------
+        
+        Sparkler can be installed with pip::
+        
+          $ pip install --user sparkler
+        
+        Using
+        -----
+        
+        To be filled in as development progresses.
+        
+        
+Keywords: sparklines spark lines
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
