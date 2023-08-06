@@ -1,0 +1,10 @@
+devops_spt/__init__.py,sha256=6dUoaEw88nf56A3-MH_iASR6ShW5mXeuien2LMPoeXc,219
+devops_spt/directory.py,sha256=2Sm_xv9M6cHUPookoFXWjDnp1U7jPa9IavmTw5AbAB8,666
+devops_spt/external_version.py,sha256=4dUzLyczvHW9KISxp7fy-FlQZ21MV10jzCYIyn0MkJs,508
+devops_spt/gradle_version.py,sha256=9naxoOhZ80Klgw_KS-3ko7xj87IEktDkiMhbrjToX68,2053
+devops_spt/kotlin_version.py,sha256=8AQX6OWvu6RKcNnlZTHvZIi9QK2sspvUMTBc14P_vGc,1843
+devops_spt-0.4.1.dist-info/LICENSE,sha256=OYi6FMMuQ8JELT84g_HArCIQF5cP9Apyo1hlWjdS5rI,1053
+devops_spt-0.4.1.dist-info/METADATA,sha256=Aji29UrNL--ioGiuwwz44nNDh4S5W6pCVK1nkwA_2Fs,1888
+devops_spt-0.4.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+devops_spt-0.4.1.dist-info/top_level.txt,sha256=pTPzWOwJsa2SYAglMnFkEc8W8gFYPC7MGKqIReBef5U,11
+devops_spt-0.4.1.dist-info/RECORD,,
