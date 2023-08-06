@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: exsc
+Version: 1.2
+Summary: Extended substitution cipher
+Home-page: https://github.com/aman-roy/Extended-Substitution-Cipher
+Author: Aman Roy
+Author-email: royaman8757@gmail.com
+License: MIT
+Description: Implementation of Extended Substitution Cipher.
+Platform: UNKNOWN
