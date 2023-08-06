@@ -1,0 +1,77 @@
+Deckhand - A Collection of development tools
+==================
+
+## Table of Contents
+
+[Usage](#usage)
+* [Installation](#installation)
+* [Using Deckhand](#using-deckhand)
+    * [Quickstart](#quickstart)
+    * [List of Commands](#list-of-commands)
+
+[Contributing](#contributing)
+
+[License](#license)
+
+## Usage
+
+### Installation
+
+The recommended way to install Deckhand is from our private release repository. This will ensure that you have the latest working version. If your project requires you to modify deckhand, you can always install from source.
+
+##### From Private Repository:
+
+1. If you have Python 3 with pip installed, just run: `pip3 install deckhand --extra-index-url https://pypi.mindcloud.tools/oceanstack/release/+simple/`
+
+##### From PyPi:
+
+1. `pip3 install deckhand`
+
+##### From source:
+
+1. Clone the repository: `git clone https://mindcloud.dev/oceanstack/deckhand/deckhand.git`
+2. Change directories: `cd deckhand/`
+3. Run the installer with Python 3: `python3 setup.py install`
+
+### Using Deckhand
+
+Deckhand is designed to get you up and running easily. The quickstart will help you get started. If you're looking for a more detailed guide, see the [list of commands](#list-of-commands).
+
+#### Quickstart
+
+After installing Deckhand, the first thing you'll want to do is add the private repositories to your pip configuration and install the optional tools:
+
+1. Configure pip for development or stable releases: `deckhand config dev` **_or_** `deckhand config stable`
+
+2. Install the optional tools: `deckhand install`
+
+That's it! You can now utilize all of the commands listed [below](#list-of-commands).
+
+#### List of Commands
+
+The following is a list of arguments and commands with definitions for use when running **`deckhand`** from the command line:
+
+#### Optional Arguments
+
+| Argument | Definition | Default Value |
+| --- | --- | --- |
+| `-h`, `--help` | Display the help window and exit | _false_ |
+| `-v`, `--version` | Display name and version number and exit | _false_ |
+| `-V`, `--verbose` | Print more informational data to the console | _false_ |
+
+#### Positional Arguments
+
+| Command | Definition | Options | Usage |
+| --- | --- | --- | --- |
+| `config` | Updates pip configuration for development or stable releases from the [private PyPi](https://pypi.mindcloud.tools) repository | `dev` `stable` `reset` | `deckhand config <option>` |
+| `install` | Installs the optional tools | _none_ | `deckhand install` |
+| `list` | Lists the optional tools that can be installed | _none_ | `deckhand list` |
+| `update` | Updates the optional tools | _none_ | `deckhand update` |
+
+## Contributing
+
+Thanks for your interest in contributing! There are many ways to contribute to this project. Get started [here](CONTRIBUTING.md).
+
+## License
+
+All software contained in this repository is © 2019 The Deckhand authors and licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0) unless stated otherwise.
