@@ -1,0 +1,10 @@
+pylspci/__init__.py,sha256=bFhPivrAOa4h2L_zKrYVkbLQHb5Vs6ESMbTaJv1KkaM,110
+pylspci/__main__.py,sha256=CzcL6lqHOL2wTpRGQsunwL-sxv3-o78u0fK8FOnD_Dc,210
+pylspci/device.py,sha256=cdnnLY1Tai8wsIYaSwcqjhsN_djUJWy8zeXkI_sZXlo,333
+pylspci/fields.py,sha256=2ft6plk60PXzkXwd6oOGiC-9X_7A_EsHrhENyNJhmRg,1802
+pylspci/simple_parser.py,sha256=ySZAiy9x0wQU6WWh3kE2_4NTHWBWgRZpKSvXeFK6ho8,1591
+pylspci-0.1.0.dist-info/LICENSE,sha256=WJ7YI-moTFb-uVrFjnzzhGJrnL9P2iqQe8NuED3hutI,35141
+pylspci-0.1.0.dist-info/METADATA,sha256=pS6oVm51VmEBVEpb1muHt8GLSR6VFOTy4mx1th_XRwM,1394
+pylspci-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pylspci-0.1.0.dist-info/top_level.txt,sha256=Xc7woH3itwbO-9rd8RVf2Nk0Ina96KzX45ORQF2s5U4,8
+pylspci-0.1.0.dist-info/RECORD,,
