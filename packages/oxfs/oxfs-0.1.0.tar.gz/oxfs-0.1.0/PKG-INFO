@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: oxfs
+Version: 0.1.0
+Summary: A Fast SFTP File System
+Home-page: https://github.com/RainMark/oxfs
+Author: RainMark
+Author-email: rain.by.zhou@gmail.com
+License: UNKNOWN
+Description: 
+        ### Oxfs
+        
+        - Oxfs is a network file system like sshfs.
+        - It is very fast to edit remote files with desktop software.
+        
+        ### Get Start
+        
+        - https://github.com/RainMark/oxfs
+        
+Platform: UNKNOWN
+Classifier: Environment :: MacOS X
+Classifier: Environment :: X11 Applications
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
