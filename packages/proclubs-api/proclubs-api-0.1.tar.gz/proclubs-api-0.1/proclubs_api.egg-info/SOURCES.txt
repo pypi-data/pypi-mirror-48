@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+proclubs_api.egg-info/PKG-INFO
+proclubs_api.egg-info/SOURCES.txt
+proclubs_api.egg-info/dependency_links.txt
+proclubs_api.egg-info/not-zip-safe
+proclubs_api.egg-info/top_level.txt
+proclubsapi/__init__.py
+proclubsapi/api.py
