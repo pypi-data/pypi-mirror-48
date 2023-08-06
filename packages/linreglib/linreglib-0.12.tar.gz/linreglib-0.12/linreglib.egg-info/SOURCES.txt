@@ -1,0 +1,9 @@
+README.md
+setup.py
+linreglib/__init__.py
+linreglib.egg-info/PKG-INFO
+linreglib.egg-info/SOURCES.txt
+linreglib.egg-info/dependency_links.txt
+linreglib.egg-info/not-zip-safe
+linreglib.egg-info/requires.txt
+linreglib.egg-info/top_level.txt
