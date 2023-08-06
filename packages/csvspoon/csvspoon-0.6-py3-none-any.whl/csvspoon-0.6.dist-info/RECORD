@@ -1,0 +1,8 @@
+csvspoon/__init__.py,sha256=LSTDrrA5x-c8kCJkich6gu2gcQEpdLxZ17WzCDj8C70,1622
+csvspoon/_cli.py,sha256=zA1Pwv3vS9wyXl6shkknRtC_eeKXfgkPUwFGPlVZBek,24227
+csvspoon/spoon.py,sha256=8GORi8dKRO7kwbGGbdSLwL9y_sgvKoveuDzYyDLkzs4,12301
+csvspoon-0.6.dist-info/METADATA,sha256=Tz2Qs7e1eM41JdqO7UocjUNrU7ieTXQoO5GGKZv5MYw,25616
+csvspoon-0.6.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+csvspoon-0.6.dist-info/entry_points.txt,sha256=cwp1vMkiZzY24oRk_MkLbb8mt8zWjj8ub-r65ZjxfIk,49
+csvspoon-0.6.dist-info/top_level.txt,sha256=LovzGo1kNE9HCA6sQLwv1rVRaVcwDKhOILWUvpsqi6U,9
+csvspoon-0.6.dist-info/RECORD,,
