@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wasp-map
+Version: 0.0.3
+Summary: Utilites for the mapping pipeline from WASP
+Home-page: https://github.com/anthony-aylward/wasp_map.git
+Author: Anthony Aylward
+Author-email: aaylward@eng.ucsd.edu
+License: UNKNOWN
+Description: # wasp_map
+        Utilites for the mapping pipeline from [WASP](https://github.com/bmvdgeijn/WASP)
+        
+        ## Installation
+        ```sh
+        pip3 install wasp_map
+        ```
+        or
+        ```sh
+        pip3 install --user wasp_map
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
