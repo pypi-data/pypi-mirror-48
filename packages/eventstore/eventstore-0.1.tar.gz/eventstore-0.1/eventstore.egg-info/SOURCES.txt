@@ -1,0 +1,6 @@
+setup.py
+eventstore.egg-info/PKG-INFO
+eventstore.egg-info/SOURCES.txt
+eventstore.egg-info/dependency_links.txt
+eventstore.egg-info/requires.txt
+eventstore.egg-info/top_level.txt
