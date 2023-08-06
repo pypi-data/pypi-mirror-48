@@ -1,0 +1,8 @@
+README.md
+setup.py
+jack-audio/__init__.py
+jackAudio.egg-info/PKG-INFO
+jackAudio.egg-info/SOURCES.txt
+jackAudio.egg-info/dependency_links.txt
+jackAudio.egg-info/requires.txt
+jackAudio.egg-info/top_level.txt
