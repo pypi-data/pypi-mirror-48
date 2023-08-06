@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyQualitor
+Version: 0.0.1
+Summary: API Qualitor Python
+Home-page: https://github.com/paulor1610/pyQualitor
+Author: Paulo Roberto
+Author-email: paulor1610@gmail.com
+License: MIT License
+Description: API Qualitor em python utilizando o Web Service
+Keywords: API Qualitor
+Platform: UNKNOWN

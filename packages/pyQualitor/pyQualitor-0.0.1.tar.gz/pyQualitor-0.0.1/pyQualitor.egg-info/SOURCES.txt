@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+pyQualitor/__init__.py
+pyQualitor.egg-info/PKG-INFO
+pyQualitor.egg-info/SOURCES.txt
+pyQualitor.egg-info/dependency_links.txt
+pyQualitor.egg-info/requires.txt
+pyQualitor.egg-info/top_level.txt
