@@ -1,0 +1,8 @@
+methylator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+methylator/methylationPattern.py,sha256=QrR-HsgO7Mk73tUS6vEH9ldcHICBzyFSsck8wp3TD3Y,4612
+methylator/splitReads.py,sha256=slV5xlhFCJ3MQ1JeKaLi00UjzdygBpx-m_W6QcvPOto,8417
+methylator-0.1.dist-info/METADATA,sha256=YkDDVDJlQMmwVDxST-G9WSgV0sEUjJsdUT_ejD7xw_E,172
+methylator-0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+methylator-0.1.dist-info/entry_points.txt,sha256=6sfv5H5KRdVTJyF_F2ctr0wTZBW3d04k-sCfodE4BYQ,63
+methylator-0.1.dist-info/top_level.txt,sha256=hZz_DGy1ZbD8235tmusNWZD3Pc95n7S42Z8uNCE8usY,11
+methylator-0.1.dist-info/RECORD,,
