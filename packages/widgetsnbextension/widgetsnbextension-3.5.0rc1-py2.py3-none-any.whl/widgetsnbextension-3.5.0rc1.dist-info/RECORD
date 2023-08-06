@@ -1,0 +1,12 @@
+widgetsnbextension/__init__.py,sha256=Ix58iw6xT3misN2PudDxnGeIgFxBMPbUAhK3VPamQNY,765
+widgetsnbextension/_version.py,sha256=D_3n2SEiU43h9YkiC8L-4NpQ-fkACcIycY3OxN8dO_I,285
+widgetsnbextension/static/extension.js,sha256=FdOnVKP8Ba5nS2Gn-zNZieYuizy_bB2dI3JHaLeAHz8,895287
+widgetsnbextension/static/extension.js.map,sha256=bAt68l-jodPqcEj65L6aFdQ0VElMWZ57JNg4-270jkg,3535148
+widgetsnbextension-3.5.0rc1.data/data/etc/jupyter/nbconfig/notebook.d/widgetsnbextension.json,sha256=qFXzCZ_LuMf4hb9c_yVEM7g0tJtnaZUJ_XM-zvaFyig,72
+widgetsnbextension-3.5.0rc1.data/data/share/jupyter/nbextensions/jupyter-js-widgets/extension.js,sha256=FdOnVKP8Ba5nS2Gn-zNZieYuizy_bB2dI3JHaLeAHz8,895287
+widgetsnbextension-3.5.0rc1.data/data/share/jupyter/nbextensions/jupyter-js-widgets/extension.js.map,sha256=bAt68l-jodPqcEj65L6aFdQ0VElMWZ57JNg4-270jkg,3535148
+widgetsnbextension-3.5.0rc1.dist-info/LICENSE,sha256=5awr4wsrzv4zDunlrX_lsNEVb-yzVV_KqpCKjSn5_e0,1513
+widgetsnbextension-3.5.0rc1.dist-info/METADATA,sha256=vt5VQmZzM9Ni9F1dwI-rQH24kl8q6BwednQtcI53a4U,1318
+widgetsnbextension-3.5.0rc1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+widgetsnbextension-3.5.0rc1.dist-info/top_level.txt,sha256=8mUbfjjdQrlSNE3WjLz-1BElRoeM8-4hzUZkHlbxVvs,19
+widgetsnbextension-3.5.0rc1.dist-info/RECORD,,
