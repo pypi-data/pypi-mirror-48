@@ -1,0 +1,251 @@
+
+
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Configuration &mdash; django-htcpcp-tea 0.2.2 documentation</title>
+  
+
+  
+  
+  
+  
+
+  
+  <script type="text/javascript" src="_static/js/modernizr.min.js"></script>
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+        <script type="text/javascript" src="_static/jquery.js"></script>
+        <script type="text/javascript" src="_static/underscore.js"></script>
+        <script type="text/javascript" src="_static/doctools.js"></script>
+        <script type="text/javascript" src="_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="_static/js/theme.js"></script>
+
+    
+
+  
+  <link rel="stylesheet" href="_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Installation" href="install.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="index.html" class="icon icon-home"> django-htcpcp-tea
+          
+
+          
+          </a>
+
+          
+            
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="install.html">Installation</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Configuration</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#settings">Settings</a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="index.html">django-htcpcp-tea</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="index.html">Docs</a> &raquo;</li>
+        
+      <li>Configuration</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+            
+            <a href="_sources/config.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuration">
+<h1>Configuration<a class="headerlink" href="#configuration" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="settings">
+<h2>Settings<a class="headerlink" href="#settings" title="Permalink to this headline">¶</a></h2>
+<dl class="field-list">
+<dt class="field-odd">HTCPCP_ALLOW_DEPRECATED_POST</dt>
+<dd class="field-odd"><p>Default: <code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+<p>Whether to allow clients to use the POST method for brewing requests.</p>
+<p>The use of the POST method for HTCPCP requests is officially deprecated in <a class="reference external" href="https://tools.ietf.org/html/rfc2324#section-2.1.1">RFC 2324 section 2.1.1</a>. However, the standard also stipulates that, HTCPCP servers must accept POST and BREW requests equivalently, and so setting this configuration to <code class="docutils literal notranslate"><span class="pre">False</span></code> is not recommended.</p>
+</dd>
+</dl>
+<dl class="field-list">
+<dt class="field-odd">HTCPCP_DISABLE_CSRF</dt>
+<dd class="field-odd"><p>Default: <code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, this app’s views will be exempt from <a class="reference external" href="https://docs.djangoproject.com/en/2.2/ref/csrf/">Django’s CSRF protection</a>.</p>
+<p>In order for HTCPCP requests to pass the CSRF checks, clients would need to set valid Referrer headers and correctly store and transmit CSRF tokens. For most use cases, this is an unnecessary burden, and so these checks are disabled by default.</p>
+<p>If you set this configuration to <code class="docutils literal notranslate"><span class="pre">False</span></code>, you will need to update the templates to include CSRF tokens and ensure that your clients know to include the required headers and data in their requests.</p>
+</dd>
+</dl>
+<dl class="field-list">
+<dt class="field-odd">HTCPCP_GET_ADDITIONS</dt>
+<dd class="field-odd"><p>Default: <code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, clients will be able to request beverage additions by listing additions after the <code class="docutils literal notranslate"><span class="pre">?</span></code> in a url.</p>
+<p>The URI scheme specified in <a class="reference external" href="https://tools.ietf.org/html/rfc2324#section-3">RFC 2324 section 3</a> suggests that beverage additions can be provided as list in the query string of the request uri. When this setting is enabled, additions requested in the Accept-Additions header and in the query string are given equal precedence.</p>
+<p>Do note that setting this configuration to <code class="docutils literal notranslate"><span class="pre">True</span></code> may enable CSBF (Cross-Site Beverage Forgery) attacks as HTCPCP urls could contain malicious beverage additions that will be requeted with the client knowledge (such as Sea-Salt).</p>
+<p>Setting this option to <code class="docutils literal notranslate"><span class="pre">True</span></code> <em>does not</em> enable HTCPCP GET requests.</p>
+</dd>
+</dl>
+<dl class="field-list">
+<dt class="field-odd">HTCPCP_POT_SESSIONS</dt>
+<dd class="field-odd"><p>Default: <code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+<p>Whether to track user interactions with the server’s pots using the <a class="reference external" href=".._Djangosessionsframework:https://docs.djangoproject.com/en/2.2/topics/http/sessions/">Django session framework</a>.</p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, this app will track when beverage a particular user from each pot to enable statefull interactions with the server. Clients will need to follow a complete HTCPCP request cycle, including a start, stop, and optional ‘WHEN’ request for each beverage the client requests. Invalid HTCPC request sequences (such as requesting a new beverage in a pot that is already brewing a beverage) will result in errors.</p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">False</span></code>, this app will naively simulate an HTCPCP server without tracking user sessions. Start, stop, and ‘WHEN’ requests will be accepted even if their ordering is not logical (e.g. saying ‘WHEN’ before requesting any beverage).</p>
+</dd>
+</dl>
+<dl class="field-list">
+<dt class="field-odd">HTCPCP_STRICT_MIME_TYPE</dt>
+<dd class="field-odd"><p>Default: <code class="docutils literal notranslate"><span class="pre">True</span></code></p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, HTCPCP requests will be ignored unless they have a content type of either <code class="docutils literal notranslate"><span class="pre">message/coffeepot</span></code> or <code class="docutils literal notranslate"><span class="pre">message/teapot</span></code>.</p>
+<p>Set this configuration to <code class="docutils literal notranslate"><span class="pre">False</span></code> if modifying HTTP Content-Type header for HTTP requests is not convenient for your use case.</p>
+</dd>
+<dt class="field-even">STRICT_REQUEST_BODY</dt>
+<dd class="field-even"><p>Default: <code class="docutils literal notranslate"><span class="pre">False</span></code></p>
+<p>When set to <code class="docutils literal notranslate"><span class="pre">True</span></code>, HTCPCP requests must have a body constistly solely of <code class="docutils literal notranslate"><span class="pre">start</span></code> or <code class="docutils literal notranslate"><span class="pre">stop</span></code>.</p>
+<p>By default, this configuration is set to <code class="docutils literal notranslate"><span class="pre">False</span></code> since it is understood that some clients may want to include additional content in the request entity, such as “please” and “thank you”.</p>
+</dd>
+</dl>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+      
+        <a href="install.html" class="btn btn-neutral float-left" title="Installation" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &copy; Copyright 2019, Brian Schubert
+
+    </p>
+  </div>
+  Built with <a href="http://sphinx-doc.org/">Sphinx</a> using a <a href="https://github.com/rtfd/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
