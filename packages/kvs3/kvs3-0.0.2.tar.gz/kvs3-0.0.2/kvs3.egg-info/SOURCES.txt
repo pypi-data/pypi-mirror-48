@@ -1,0 +1,11 @@
+README.md
+setup.py
+kvs3/__init__.py
+kvs3/commands.py
+kvs3/main.py
+kvs3.egg-info/PKG-INFO
+kvs3.egg-info/SOURCES.txt
+kvs3.egg-info/dependency_links.txt
+kvs3.egg-info/entry_points.txt
+kvs3.egg-info/requires.txt
+kvs3.egg-info/top_level.txt
