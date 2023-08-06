@@ -1,0 +1,5 @@
+elasticsearch-dsl<8,>=7
+
+[gevent]
+gevent
+gipc
