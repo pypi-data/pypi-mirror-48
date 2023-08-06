@@ -1,0 +1,11 @@
+vbtools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vbtools/vbtools.py,sha256=bnNRH6f-cWFOXALGi0vBSveR2y4p4TDcYmebVrGWRDU,5102
+vbtools/scripts/vcfbench.py,sha256=8ep5nctEjn0ZlGPTTQgay_5bkpsF532ftAcWZ0rDaCw,2079
+vbtools/scripts/vcfcnsus.py,sha256=H3sLweBwEPgWr4VhTA_4lUNGnVqKPeF15oX6DMjHTxI,93
+vbtools-0.1.0.data/scripts/vcfbench.py,sha256=GyhiEiqdgaMskIJqbK2GGQY-1ERWBDpt_G3GcqlhhLo,2065
+vbtools-0.1.0.data/scripts/vcfcnsus.py,sha256=kPdIiKkApTDtOQvIIVvCWyLadIsl4nr_MiUPE0cCNjs,79
+vbtools-0.1.0.dist-info/LICENSE,sha256=pSE73qU8Wo26w2xRCIDFi0fzlQnEOCMudrAqKqwoVWo,1121
+vbtools-0.1.0.dist-info/METADATA,sha256=EGACSna77C3ng07t6xU_do6PNkWiOwVnryqfN5TftDk,2529
+vbtools-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+vbtools-0.1.0.dist-info/top_level.txt,sha256=BZ65FBfAIfYYGJTdhSrsMniXL2NZjjLOcoolxBaVOcQ,8
+vbtools-0.1.0.dist-info/RECORD,,
