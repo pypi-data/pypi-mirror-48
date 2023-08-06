@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: livelocals
+Version: 1.0.0
+Summary: Live Locals for Python
+Home-page: https://github.com/obriencj/python-livelocals
+Author: Christopher O'Brien
+Author-email: obriencj@gmail.com
+License: GNU Lesser General Public License v3
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=2.6, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, <4
+
+UNKNOWN
+
+
