@@ -1,0 +1,3 @@
+[console_scripts]
+bashsmash = bashsmash.__main__:main
+
