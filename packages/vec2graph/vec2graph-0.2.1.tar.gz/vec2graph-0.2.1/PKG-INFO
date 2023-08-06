@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: vec2graph
+Version: 0.2.1
+Summary: Mini-library for producing graph visualizations from embedding models
+Home-page: https://github.com/lizaku/vec2graph
+Author: Nadezda Katricheva, Alyaxey Yaskevich, Anastasiya Lisitsina, Tamara Zhordaniya, Andrey Kutuzov, Elizaveta Kuzmenko
+Author-email: andreku@ifi.uio.no
+License: UNKNOWN
+Description: # vec2graph
+        Mini-library for producing graph visualizations from embedding models
+        
+        Code is available at https://github.com/lizaku/vec2graph
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Description-Content-Type: text/markdown
