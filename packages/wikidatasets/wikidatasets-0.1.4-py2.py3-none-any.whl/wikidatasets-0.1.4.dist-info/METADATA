@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: wikidatasets
+Version: 0.1.4
+Summary: Break WikiData dumps into smaller knowledge graphs
+Home-page: https://github.com/armand33/wikidatasets
+Author: Armand Boschin
+Author-email: aboschin@enst.fr
+License: BSD license
+Keywords: wikidatasets
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: tqdm (==4.32.2)
+Requires-Dist: sparqlwrapper (==1.8.2)
+Requires-Dist: pandas (==0.24.1)
+
+UNKNOWN
+
+
