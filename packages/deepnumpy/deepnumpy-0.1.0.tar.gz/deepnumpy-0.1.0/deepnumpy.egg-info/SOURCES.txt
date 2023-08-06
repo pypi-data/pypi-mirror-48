@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+deepnumpy/__init__.py
+deepnumpy.egg-info/PKG-INFO
+deepnumpy.egg-info/SOURCES.txt
+deepnumpy.egg-info/dependency_links.txt
+deepnumpy.egg-info/not-zip-safe
+deepnumpy.egg-info/requires.txt
+deepnumpy.egg-info/top_level.txt
