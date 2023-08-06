@@ -1,0 +1,7 @@
+seqdataloader.egg-info/
+build/
+dist/
+*.bigWig
+*.gz
+*.pyc
+__pycache__
