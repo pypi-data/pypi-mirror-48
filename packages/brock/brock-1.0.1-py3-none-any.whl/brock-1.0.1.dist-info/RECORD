@@ -1,0 +1,9 @@
+bedrock/__init__.py,sha256=LuTQd4BhDYrbFASTRLH8YUiYAxq2byZQ_b_IvNi-3Ps,17
+bedrock/blueprint.py,sha256=UUcVUjdw2cvKGAB0Dzq_jdvIkq1NOjCRD6OYKPs-jpY,3861
+bedrock/manifest.py,sha256=HpcvMH2czfj9ulS3lM4bFz9v976PREas1VGgStSIdv0,5045
+brock-1.0.1.dist-info/LICENSE,sha256=HL-FMHUrO-qTqyHp1XxT55H1CDWjtp9Q58YAmb9jsqQ,31
+brock-1.0.1.dist-info/METADATA,sha256=503LJS3cwGIC8TUnKFhnu4kctzbsRFAgbrjN8FQWOLs,10402
+brock-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+brock-1.0.1.dist-info/entry_points.txt,sha256=FVtKkGXhh6yFvS0fr9vHpSFlY-JMwTodOPhgD7j9XeU,76
+brock-1.0.1.dist-info/top_level.txt,sha256=xxGg3L6UzHRSpAWkSRBVjojlL9pizi18ZJNAJ9FXZrc,8
+brock-1.0.1.dist-info/RECORD,,
