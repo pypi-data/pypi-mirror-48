@@ -1,0 +1,6 @@
+click
+requests
+pyrsistent
+ipython
+notebook
+pyyaml
