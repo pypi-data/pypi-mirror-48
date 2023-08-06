@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: upath
+Version: 1.0.1
+Summary: 
+    C extension to fetch an item from a nested structure made out of dictionaries and/or lists.
+    Can reduce the time spent retrieving items from nested structures resulted after de-serializing JSON content
+    or other nested structures.    
+Home-page: https://github.com/aoprisor/upath
+Author: Georgian-Andrei Oprișor
+Author-email: gaoprisor@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+
+# Ultra Path
+
+This module is made out of a simple C extension to help reduce the total time required to extract items from highly 
+nested structures. At the moment it supports retrieving items from nested structures made out of dictionaries and lists 
+but it can be easily extended to support other mappings or iterables. 
+
+**Usage:**
+
+`>>> from upath import getp`
+
+`>>> getp({"level0": {"level1": [{"level3": 3}]}}, "level0.level1.0.level3")
+3`
+
+`>>> getp({"level0": {"level1": [{"level3": 3}]}}, "level0/level1/0/level3", '/', None)
+3`
+
+`>>> getp({"level0": {"level1": [{"level3": 3}]}}, "level0/level1/0/level77777777", '/', "Default value")
+'Default value'`
+
+Only positional arguments are supported, so this will not work: 
+
+`>>> getp({"level0": {"level1": [{"level3": 3}]}}, "level0/level1/0/level3", default='Works')
+None`
+
+Check C extensions documentation here: 
+https://docs.python.org/3/extending/
+
