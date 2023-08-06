@@ -1,0 +1,6 @@
+README.md
+setup.py
+justinpdf.egg-info/PKG-INFO
+justinpdf.egg-info/SOURCES.txt
+justinpdf.egg-info/dependency_links.txt
+justinpdf.egg-info/top_level.txt
