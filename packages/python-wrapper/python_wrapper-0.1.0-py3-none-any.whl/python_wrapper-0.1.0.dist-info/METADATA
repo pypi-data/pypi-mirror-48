@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: python-wrapper
+Version: 0.1.0
+Summary: A generic Python API wrapper.
+Home-page: https://github.com/cfc603/python-wrapper
+Author: Trevor Watson
+Author-email: wtrevor162@gmail.com
+License: MIT
+Keywords: python-wrapper python_wrapper
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: requests
+Requires-Dist: simplejson
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: responses ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+
+python-wrapper
+==============
+
+*A generic Python API wrapper.*
+
+TO DO
+
+
+History
+-------
+
+UNRELEASED
+++++++++++
+
+0.1.0
++++++
+First Release
+
+
