@@ -1,0 +1,5 @@
+Flask==0.12.2
+python-freeipa==0.2.3
+boto3==1.9.180
+botocore==1.12.180
+pyOpenSSL==19.0.0
