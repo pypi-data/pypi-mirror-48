@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: aapt
+Version: 1.0.0
+Summary: Android Asset Packaging Tool for Python
+Home-page: https://github.com/HuMoran/aapt
+Author: Tao.Hu
+Author-email: htax2013@gmail.com
+License: MIT Licence
+Description: Android Asset Packaging Tool for Python
+Keywords: aapt,apktool
+Platform: any
