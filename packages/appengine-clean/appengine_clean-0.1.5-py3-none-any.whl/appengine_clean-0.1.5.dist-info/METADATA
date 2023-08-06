@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: appengine-clean
+Version: 0.1.5
+Summary: Clean old AppEngine versions
+Home-page: https://github.com/poweredbygrow/appengine_clean
+Author: David Grant
+Author-email: davidgrant@gmail.com
+License: UNKNOWN
+Keywords: utility,miscellaneous,library
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+
+# appengine_clean
+Clean up old versions of AppEngine instances to avoid the dreaded "Your app may not have more than 210 versions. Please delete one of the existing versions before trying to create a new version" error
+
+## Usage:
+
+First, let's do a dry-run. Run the following to keep 15 versions of each module around:
+```
+appengine-clean my-project-id 15 --dry-run
+```
+
+If you're happy with the result of the dry-run, let's delete:
+
+```
+appengine-clean my-project-id 15 --force
+```
+
+
+
