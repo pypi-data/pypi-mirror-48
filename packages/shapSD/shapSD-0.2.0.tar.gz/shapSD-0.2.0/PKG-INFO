@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: shapSD
+Version: 0.2.0
+Summary: Explain variable influence with shapley values in black box model through pattern mining
+Home-page: https://github.com/XiaoqiMa/shapSD
+Author: xiaoqi
+Author-email: xiaoqima2013@gmail.com
+License: MIT License (MIT)
+Download-URL: https://github.com/XiaoqiMa/shapSD/archive/v0.1-alpha.2.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
