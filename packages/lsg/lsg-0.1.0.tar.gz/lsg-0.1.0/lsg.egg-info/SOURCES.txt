@@ -1,0 +1,9 @@
+README.md
+setup.py
+lsg/__init__.py
+lsg/main.py
+lsg.egg-info/PKG-INFO
+lsg.egg-info/SOURCES.txt
+lsg.egg-info/dependency_links.txt
+lsg.egg-info/entry_points.txt
+lsg.egg-info/top_level.txt
