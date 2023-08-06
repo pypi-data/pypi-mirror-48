@@ -1,0 +1,25 @@
+Metadata-Version: 2.0
+Name: envoxy
+Version: 0.0.1
+Summary: Envoxy Platform Framework
+Home-page: https://github.com/muzzley/envoxy
+Author: Matheus Santos
+Author-email: vorj.dux@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Flask (==1.0.2)
+Requires-Dist: cachetools (==3.0.0)
+Requires-Dist: paho-mqtt (==1.4.0)
+Requires-Dist: pika (==0.12.0)
+Requires-Dist: psycopg2 (==2.8.3)
+Requires-Dist: pylint (==2.1.1)
+Requires-Dist: pymongo (==3.7.2)
+Requires-Dist: pyzmq (==17.1.2)
+Requires-Dist: requests (>=2.20.0)
+Requires-Dist: sdnotify (==0.3.2)
+Requires-Dist: uPnPClient (==0.0.8)
+Requires-Dist: uWSGI (==2.0.18)
+
+UNKNOWN
+
+
