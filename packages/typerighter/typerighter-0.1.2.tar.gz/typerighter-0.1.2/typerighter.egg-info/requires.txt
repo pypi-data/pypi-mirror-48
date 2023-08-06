@@ -1,0 +1,11 @@
+
+[dev]
+pycodestyle
+pylint
+pytest
+pytest-cov
+tox
+
+[docs]
+doc8
+sphinx
