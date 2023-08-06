@@ -1,0 +1,8 @@
+certifi
+chardet
+idna
+numpy
+Pillow
+requests
+six
+urllib3
