@@ -1,0 +1,9 @@
+README.md
+gui.py
+qwackchat
+setup.py
+sqwackchat
+qwackchat.egg-info/PKG-INFO
+qwackchat.egg-info/SOURCES.txt
+qwackchat.egg-info/dependency_links.txt
+qwackchat.egg-info/top_level.txt
