@@ -1,0 +1,12 @@
+gurobi/VERSION,sha256=sMsnbN5Rd3nKQ6X4_pStzWsco7Tn2l6X8szZw7Q4Hfg,5
+gurobi/__init__.py,sha256=G1WbBQRZTmsa6fK8_2Fsrj30TFkniNd_mTF1mW64h3k,156
+gurobi/__main__.py,sha256=mxgJu9cbtSUFdarQuXL7ZuQMu-VnHso8oPGg76ZYct4,4447
+gurobi/gurobi_check.py,sha256=Qeeha6KSsUPAMjZi4WNGw_nu6DOiOBauC5NBHpzzpXY,2485
+gurobi_machines_plugin-0.7.0.data/data/VERSION/VERSION,sha256=sMsnbN5Rd3nKQ6X4_pStzWsco7Tn2l6X8szZw7Q4Hfg,5
+gurobi_machines_plugin-0.7.0.dist-info/DESCRIPTION.rst,sha256=MvdqFETxY4Bo7FZ977f4THWtGk8ZQ2nfeXQ9jeIWCLY,2832
+gurobi_machines_plugin-0.7.0.dist-info/METADATA,sha256=0zmOx7eZyPKR1FHNw_yL1gQOMZHhgp3J2gduPVBK9-A,3493
+gurobi_machines_plugin-0.7.0.dist-info/RECORD,,
+gurobi_machines_plugin-0.7.0.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+gurobi_machines_plugin-0.7.0.dist-info/entry_points.txt,sha256=AADxyxMdXRKvQWJDBit7IC0u1GlQAxQp5YBSZu4e8L8,65
+gurobi_machines_plugin-0.7.0.dist-info/metadata.json,sha256=eD7SUiOx_HA0_H9o5R_kWqpGodW2VUtcTv8Ew5jfBqQ,1002
+gurobi_machines_plugin-0.7.0.dist-info/top_level.txt,sha256=Gu9bBSEgFiX0o_aqPUlcctu2KVoVtvGfbBfpT-hQIPA,7
