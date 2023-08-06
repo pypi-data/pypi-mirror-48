@@ -1,0 +1,5 @@
+jsii~=0.12.1
+publication>=0.0.3
+aws-cdk.aws-iam~=0.36.0
+aws-cdk.core~=0.36.0
+aws-cdk.cx-api~=0.36.0
