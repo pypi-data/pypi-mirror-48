@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: python3-http-logstash
+Version: 0.4.74
+Summary: Python logging handler for Logstash.
+Home-page: https://github.com/frauniki/python3-logstash
+Author: Israel Flores
+Author-email: frauniki@sinoa.jp
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+
+UNKNOWN
+
+
