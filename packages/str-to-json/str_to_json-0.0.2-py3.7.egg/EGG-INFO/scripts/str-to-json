@@ -1,0 +1,12 @@
+#!/Users/anggriantod1/.virtualenvs/str-to-json/bin/python
+
+import json
+import pyperclip
+
+pasted = pyperclip.paste()
+# clean
+cleaned = pasted.replace('\\"', '"')
+loaded = json.loads(pasted)
+dumped = json.dumps(loaded, indent=4, sort_keys=True)
+pyperclip.copy(dumped)
+

@@ -1,0 +1,8 @@
+README.md
+setup.py
+str-to-json/str-to-json
+str_to_json.egg-info/PKG-INFO
+str_to_json.egg-info/SOURCES.txt
+str_to_json.egg-info/dependency_links.txt
+str_to_json.egg-info/requires.txt
+str_to_json.egg-info/top_level.txt
