@@ -1,0 +1,10 @@
+github_release/__init__.py,sha256=D63gqX0OY6UEL2IXlto-VAQYyR2UKA2WFL42qjFOogE,799
+github_release/api.py,sha256=PBjd3sTLzSPQ-gcvtJnYnPkR-TcvgKfFFd2AwsosmIg,2372
+github_release/github_release.py,sha256=dCmrq1bPsEg67mqLF-oOmJpCxJGfmnAIUo2SZWIVWno,5503
+github_release/utils.py,sha256=xB328eDL65C1S5yfLJpdipjjgPltRMfTwgUwc_OmCl0,293
+github_tagged_release-0.1.0.dist-info/LICENSE,sha256=2Ysxe9cvfjwRBEtyKN7mip5Zm8VmqTdltwvJHe7ieEQ,1094
+github_tagged_release-0.1.0.dist-info/METADATA,sha256=b2Wqj5dyTybFQ-AXMzKBOQQVxHVuS7Ibg1K3-6VKb7M,1758
+github_tagged_release-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+github_tagged_release-0.1.0.dist-info/entry_points.txt,sha256=y8Co1PKkb6FXo4jMMHjCCE-_SMjdRUFN-I8VTRfcKzc,63
+github_tagged_release-0.1.0.dist-info/top_level.txt,sha256=ZEQYWmHCSi0LcLdwEfRz5Z-yNsTyqWUfsGNcUl1Curw,15
+github_tagged_release-0.1.0.dist-info/RECORD,,
