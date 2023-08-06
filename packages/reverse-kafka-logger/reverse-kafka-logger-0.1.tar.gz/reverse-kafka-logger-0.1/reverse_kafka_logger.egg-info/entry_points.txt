@@ -1,0 +1,3 @@
+[console_scripts]
+reverse-kafka-logger = logger.grep_interface:run_grep_command
+
