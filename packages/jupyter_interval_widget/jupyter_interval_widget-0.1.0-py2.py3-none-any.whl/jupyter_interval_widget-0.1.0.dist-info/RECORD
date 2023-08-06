@@ -1,0 +1,15 @@
+jupyter_interval_widget/__init__.py,sha256=0JZxaWA2jtQLFklKndULhnYRDljhGSC_meU73-fnZM0,283
+jupyter_interval_widget/_version.py,sha256=DV9H6SvmeRfpfZv2eiIRQbzIC4PXGMY9Cu_JU7It1V8,281
+jupyter_interval_widget/interval.py,sha256=9J2OJl5BO1JTc5TTc3vCsEehFE4NkFxBPvnt4iDJt1A,1624
+jupyter_interval_widget/static/extension.js,sha256=CSYC-M0n1oFyFmfY7EjAJCyBsx2sKpvnh1bt5XXVjFU,3375
+jupyter_interval_widget/static/index.js,sha256=t3Jw3nx0qC55SO7y0k56SyYID3T6Jr8wW5zrn5WK4MA,5408
+jupyter_interval_widget/static/index.js.map,sha256=ToZ5S4r8wgSxgWA_i7EM5iVtVfvFIiY13i6hswPvV8s,6346
+jupyter_interval_widget-0.1.0.data/data/etc/jupyter/nbconfig/notebook.d/jupyter-interval-widget.json,sha256=7iHWHmtw_mbDrkyQBJek1YWRKOBJGY5UxFvB6ykixIE,77
+jupyter_interval_widget-0.1.0.data/data/share/jupyter/nbextensions/jupyter-interval-widget/extension.js,sha256=CSYC-M0n1oFyFmfY7EjAJCyBsx2sKpvnh1bt5XXVjFU,3375
+jupyter_interval_widget-0.1.0.data/data/share/jupyter/nbextensions/jupyter-interval-widget/index.js,sha256=t3Jw3nx0qC55SO7y0k56SyYID3T6Jr8wW5zrn5WK4MA,5408
+jupyter_interval_widget-0.1.0.data/data/share/jupyter/nbextensions/jupyter-interval-widget/index.js.map,sha256=ToZ5S4r8wgSxgWA_i7EM5iVtVfvFIiY13i6hswPvV8s,6346
+jupyter_interval_widget-0.1.0.dist-info/LICENSE,sha256=MG6oGOtM3WOFdh-stStmdZSlgxeSqtsLdYPneH1fOQA,1056
+jupyter_interval_widget-0.1.0.dist-info/METADATA,sha256=jVu-LQ5mmiEJ_P20MpgvsdY0En5ocrFv69R53AmcjAk,858
+jupyter_interval_widget-0.1.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+jupyter_interval_widget-0.1.0.dist-info/top_level.txt,sha256=azDZ-dbJQznkjj9UniraMjPBh1L66FhPI8ZE5_500u0,24
+jupyter_interval_widget-0.1.0.dist-info/RECORD,,
