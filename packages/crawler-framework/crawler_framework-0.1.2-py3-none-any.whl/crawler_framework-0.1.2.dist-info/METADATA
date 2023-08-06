@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: crawler-framework
+Version: 0.1.2
+Summary: Framework for crawling
+Home-page: UNKNOWN
+Author: Dragan Matesic
+Author-email: dragan.matesic@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: SQLAlchemy
+Requires-Dist: pandas
+Requires-Dist: requests
+Requires-Dist: bs4
+Requires-Dist: stem
+Requires-Dist: pymssql
+Requires-Dist: pyodbc
+Requires-Dist: psycopg2
+
+# Crawler Framework
+#### Framework that helps with creating core architecture  for professional data mining
+###### Work in progress. 
+
+
