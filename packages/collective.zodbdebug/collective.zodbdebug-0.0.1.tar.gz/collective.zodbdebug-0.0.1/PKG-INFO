@@ -1,0 +1,61 @@
+Metadata-Version: 1.1
+Name: collective.zodbdebug
+Version: 0.0.1
+Summary: Tools to debug a ZODB.
+Home-page: https://github.com/collective/collective.zodbdebug
+Author: Rafael Oliveira
+Author-email: rafaelbco@gmail.com
+License: GPL
+Description: Overview
+        ========
+        
+        Tools to debug a ZODB.
+        
+        Provide the ``.core.ZODBInfo`` class which is a nice interface to inspect the objects in a ZODB
+        and the references between them.
+        
+        The ``scan_blobs`` script scans the blobs directory and prints information about each blob.
+        It is registered using the ``zopectl.command`` entry-point, so it can be invoked like this:
+        ``bin/instance scan_blobs``.
+        
+        .. DANGER::
+        
+           Do not use in production! This project provides debugging tools only. For safety always use it
+           in a copy of the actual DB.
+        
+        
+        Install
+        =======
+        
+        Install it as an egg of a Zope instance.
+        
+        
+        See also
+        ========
+        
+        This discussion: `Any way to track down the content object a blobstorage asset belongs to? (RelStorage)`_
+        
+        
+        .. References:
+        
+        .. _`Any way to track down the content object a blobstorage asset belongs to? (RelStorage)`: https://community.plone.org/t/any-way-to-track-down-the-content-object-a-blobstorage-asset-belongs-to-relstorage/7191
+        
+        
+        
+        Changelog
+        =========
+        
+        0.0.1 (2019-07-03)
+        ------------------
+        
+        - First version.
+        
+Keywords: zope zodb debug
+Platform: UNKNOWN
+Classifier: Framework :: ZODB
+Classifier: Framework :: Zope :: 2
+Classifier: Framework :: Zope
+Classifier: Framework :: Zope2
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python

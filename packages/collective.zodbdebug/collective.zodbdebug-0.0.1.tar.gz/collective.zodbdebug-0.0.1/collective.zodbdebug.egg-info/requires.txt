@@ -1,0 +1,6 @@
+ZODB3
+docopt
+plone.memoize
+rbco.caseclasses
+setuptools
+walkdir
