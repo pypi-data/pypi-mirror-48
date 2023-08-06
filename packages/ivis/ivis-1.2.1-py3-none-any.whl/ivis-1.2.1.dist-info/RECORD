@@ -1,0 +1,15 @@
+ivis/__init__.py,sha256=LeC96nm1SU3Vf9-kqUBlbSyRu8W4QuJhS6URv8B729Y,103
+ivis/ivis.py,sha256=WeR4SJvsaiYBBqcFxsC8Mfo42S-UJVcWulyUFO8jko0,12042
+ivis/version.py,sha256=rrgeG0Eo5T7G4XnCQdZdSUrKsWWGlQ4qVstbFgXoGYA,18
+ivis/data/__init__.py,sha256=Wdhavxx8SNz_xNybYXwNi0PZge3T92NVLkzXhEQs3mY,50
+ivis/data/knn.py,sha256=m4-HuHkuXfsUKiRuaLlfP4KTM5uv-Jh5KNHStcFrjjg,4001
+ivis/data/triplet_generators.py,sha256=Q7HlWJ_e6RsAI6Ip_bSbs1f0kwByJPwWrG5dd46msT4,9773
+ivis/nn/__init__.py,sha256=WBLh3oBdW1-Bk5tMrS9Jl8mfQQe7MBS4K-xe43dt8fI,42
+ivis/nn/callbacks.py,sha256=XS8G7ThsY_jg9lVjz6F1Il87llHqsiAEZu010YALflo,5007
+ivis/nn/losses.py,sha256=0xEwdw26pTj2gEnZz8WxAokNH0VT6T2DJ3lXjWPDo-Y,4870
+ivis/nn/network.py,sha256=Z2Nfg6ZWau2e5A0TJgpUE-Xdm4CJI6C2nF5tETH_8ao,3221
+ivis-1.2.1.dist-info/LICENSE,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+ivis-1.2.1.dist-info/METADATA,sha256=CB0ctQRjYi_X63yJ3qvv1oQrhhSUqX0ymx6CGa2rXlk,3214
+ivis-1.2.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+ivis-1.2.1.dist-info/top_level.txt,sha256=5udsCq8_vV_ZuH5m4YZI5Lsjc5EAKN_nFPllv8FJShc,5
+ivis-1.2.1.dist-info/RECORD,,
