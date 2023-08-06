@@ -1,0 +1,6 @@
+README.md
+setup.py
+setColourProfile.egg-info/PKG-INFO
+setColourProfile.egg-info/SOURCES.txt
+setColourProfile.egg-info/dependency_links.txt
+setColourProfile.egg-info/top_level.txt
