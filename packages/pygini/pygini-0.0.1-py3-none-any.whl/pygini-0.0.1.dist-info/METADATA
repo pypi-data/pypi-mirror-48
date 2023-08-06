@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pygini
+Version: 0.0.1
+Summary: Compute the Gini index.
+Home-page: https://github.com/mckib2/pygini
+Author: Nicholas McKibben
+Author-email: nicholas.bgp@gmail.com
+License: GPLv3
+Keywords: gini gini-index sparsity
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.16.2)
+
+pygini
+======
+
+Very simple module that computes the Gini index of a numpy array.
+
+Installation
+============
+
+.. code-block:: bash
+
+    pip install pygini
+
+Usage
+=====
+
+.. code-block:: python
+
+    import numpy as np
+    from pygini import gini
+
+    A = np.random.random(100)
+    GI = gini(A)
+
+See `examples` directory.
+
+
