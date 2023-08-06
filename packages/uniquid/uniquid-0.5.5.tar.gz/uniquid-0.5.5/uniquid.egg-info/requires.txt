@@ -1,0 +1,10 @@
+click>=7.0
+requests>=2.21.0
+jsonschema>=3.0.1
+pycrypto>=2.6.1
+datetime>=4.3
+ws4py>=0.5.1
+python-dateutil>=2.7.5
+cryptography==2.4.2
+paramiko==2.4.2
+scp==0.13.2
