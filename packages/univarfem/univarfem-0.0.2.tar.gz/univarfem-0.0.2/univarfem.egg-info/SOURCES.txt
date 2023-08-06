@@ -1,0 +1,11 @@
+README.md
+setup.py
+univarfem/__init__.py
+univarfem/fem.py
+univarfem/gaussquad.py
+univarfem/mesh.py
+univarfem.egg-info/PKG-INFO
+univarfem.egg-info/SOURCES.txt
+univarfem.egg-info/dependency_links.txt
+univarfem.egg-info/requires.txt
+univarfem.egg-info/top_level.txt
