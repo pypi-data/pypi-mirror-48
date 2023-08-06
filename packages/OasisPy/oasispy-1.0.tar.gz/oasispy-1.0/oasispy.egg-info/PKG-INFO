@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: oasispy
+Version: 1.0
+Summary: Difference Imaging Engine for Optical SETI Applications
+Home-page: https://github.com/andrewhstewart/OasisPy.git
+Author: Andrew Stewart
+Author-email: ah.stewart@outlook.com
+License: UNKNOWN
+Description: # **OasisPy**-- Difference Imaging Engine for Optical SETI Applications
+        
+        See documentation [here](https://oasispy.readthedocs.io/en/latest/?)
+Platform: UNKNOWN
