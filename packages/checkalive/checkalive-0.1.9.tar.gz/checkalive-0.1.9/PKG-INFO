@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: checkalive
+Version: 0.1.9
+Summary: 检查系统状态，如：指定的IP地址是否存在，指定的端口是否被监听，指定的进程是否存活。
+Home-page: https://github.com/appstore-zencore/checkalive
+Author: zencore
+Author-email: dobetter@zencore.cn
+License: MIT
+Description: # checkalive
+        
+        检查系统状态，如：
+        
+        - 指定的IP地址是否存在。
+        - 指定的端口是否被监听。
+        - 指定的进程是否存活。
+        
+        # 安装
+        
+        ```
+            pip install checkalive
+        ```
+        
+        # 安装的可执行程序
+        
+        - checkalive
+        - checkip
+        - checkport
+        - checkproc
+        
+        # 程序帮忙信息
+        
+        - checkalive
+        
+        各种检查命令的包装程序。通过子命令指定特别的检查类型。
+        
+        ```
+        D:\code\checkalive>checkalive --help
+        Usage: checkalive [OPTIONS] COMMAND [ARGS]...
+        
+          检查系统状态。
+        
+        Options:
+          --help  Show this message and exit.
+        
+        Commands:
+          checkip    检查指定的IP地址是否存在。
+          checkport  检查指定端口是否被监听。
+          checkproc  检查指定进程是否存活。 注意：要求pid、pidfile、command参数有且只有一个。
+        ```
+        
+        - checkip
+        
+        检查指定的IP地址是否存在。
+        
+        ```
+        D:\code\checkalive>checkip --help
+        Usage: checkip [OPTIONS] IP
+        
+          检查指定的IP地址是否存在。
+        
+        Options:
+          -i, --nic TEXT  在指定网络接口上查找监听端口，默认为在全部网络接口上查找。可以多次使用，表示在多个网络接口上查找。
+          --help          Show this message and exit.
+        
+        ```
+        
+        - checkport
+        
+        检查指定的端口是否被监听。
+        
+        ```
+        D:\code\checkalive>checkport --help
+        Usage: checkport [OPTIONS] PORT
+        
+          检查指定端口是否被监听。
+        
+        Options:
+          -i, --nic TEXT    在指定网络接口上查找监听端口，默认为在全部网络接口上查找。可以多次使用，表示在多个网络接口上查找。
+          -p, --proto TEXT  监听端口的协议，如：tcp, tcp4, udp, udp4, inet, inet4, inet6, tcp6,
+                            udp6等，默认为tcp。
+          --help            Show this message and exit.
+        ```
+        
+        - checkproc
+        
+        检查指定的进程是否存活。
+        
+        ```
+        D:\code\checkalive>checkproc --help
+        Usage: checkproc [OPTIONS]
+        
+          检查指定进程是否存活。
+        
+          注意：要求pid、pidfile、command参数有且只有一个。
+        
+        Options:
+          -i, --pid INTEGER   根据PID判断进程是否存活。
+          -f, --pidfile TEXT  根据PID文件判断进程是否存活。
+          -c, --command TEXT  检查启动命令正则匹配判断进程是否存活。
+          --help              Show this message and exit.
+        ```
+Keywords: openpyxl,xlsx split,excel split
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown

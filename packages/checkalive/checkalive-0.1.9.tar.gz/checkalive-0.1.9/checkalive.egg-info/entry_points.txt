@@ -1,0 +1,6 @@
+[console_scripts]
+checkalive = checkalive:main
+checkip = checkalive:cmd_checkip
+checkport = checkalive:cmd_checkport
+checkproc = checkalive:cmd_checkproc
+
