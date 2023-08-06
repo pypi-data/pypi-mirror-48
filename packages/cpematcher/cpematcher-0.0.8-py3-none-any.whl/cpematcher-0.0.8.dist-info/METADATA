@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: cpematcher
+Version: 0.0.8
+Summary: Match CPEs between them.
+Home-page: https://github.com/alertot/cpematcher
+Author: alertot SpA
+Author-email: UNKNOWN
+License: BSD
+Download-URL: https://github.com/alertot/cpematcher/tarball/0.0.8
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: natsort (==6.0.0)
+Requires-Dist: fastnumbers (==2.2.1)
+
+# cpematcher
+
+[![Build Status](https://travis-ci.com/alertot/cpematcher.svg?branch=master)](https://travis-ci.com/alertot/cpematcher)  [![PyPIersion](https://badge.fury.io/py/cpematcher.svg)](https://badge.fury.io/py/cpematcher)
+
+## Overview
+
+Match CPEs between them.
+
+## Installation / Usage
+
+To install use pip:
+
+    $ pip install cpematcher
+
+
+
