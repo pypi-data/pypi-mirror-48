@@ -1,0 +1,11 @@
+README.md
+kickdomain.py
+setup.py
+Kickdomain.egg-info/PKG-INFO
+Kickdomain.egg-info/SOURCES.txt
+Kickdomain.egg-info/dependency_links.txt
+Kickdomain.egg-info/requires.txt
+Kickdomain.egg-info/top_level.txt
+provider/__init__.py
+provider/config.py
+provider/providers.py
