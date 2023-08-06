@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: pconsc4
+Version: 0.4
+Summary: UNKNOWN
+Home-page: https://github.com/ElofssonLab/PconsC4
+Author: Mirco Michel and David Menéndez Hurtado
+Author-email: davidmenhur@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
