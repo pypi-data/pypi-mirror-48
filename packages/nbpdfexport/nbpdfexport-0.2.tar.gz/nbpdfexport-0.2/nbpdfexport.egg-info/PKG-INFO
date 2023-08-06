@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: nbpdfexport
+Version: 0.2
+Summary: Convert Jupyter Notebooks to PDF without LaTeX
+Home-page: http://github.com/yuvipanda/nbpdfexport
+Author: Yuvi Panda
+Author-email: yuvipanda@gmail.com
+License: BSD
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
