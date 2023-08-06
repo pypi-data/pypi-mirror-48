@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: bork
+Version: 0.0.1
+Summary: bork bork bork
+Home-page: https://github.com/duckinator/bork
+Author: Ellen Marie Dash
+Author-email: me@duckie.co
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Provides-Extra: linting
+Requires-Dist: flake8 (~=3.5) ; extra == 'linting'
+Requires-Dist: flake8-bugbear ; extra == 'linting'
+Requires-Dist: flake8-commas ; extra == 'linting'
+Requires-Dist: flake8-docstrings ; extra == 'linting'
+Requires-Dist: pylint ; extra == 'linting'
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+
+# bork [![Build Status][build-status-link]][build-status-img]
+
+bork bork bork
+
+[build-status-link]: https://api.cirrus-ci.com/github/duckinator/bork.svg
+[build-status-img]: https://cirrus-ci.com/github/duckinator/bork
+
+## Installation
+
+```
+$ pip3 install bork
+```
+
+## Usage
+
+BORK BORK BORK BORK BORK (TODO)
+
+## Contributing
+
+Bug reports and pull requests are welcome on GitHub at https://github.com/duckinator/bork. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+
+## License
+
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+
+## Code of Conduct
+
+Everyone interacting in the bork project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/duckinator/bork/blob/master/CODE_OF_CONDUCT.md).
+
+
