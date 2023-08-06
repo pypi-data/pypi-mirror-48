@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tup
+Version: 0.2
+Summary: CLI Telegram file uploder
+Home-page: https://github.com/Qwerty-Space/tup
+Author: Oliver Duce
+Author-email: oliver_duce@live.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: Telethon (>=1.7)
+
+# tup
+Command line tool for uploading files to Telegram
+
+
