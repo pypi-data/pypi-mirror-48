@@ -1,0 +1,32 @@
+<head>
+    {% block styles %}
+        {% for style in styles %}
+          <style>{{ style | safe }}</style>
+        {% endfor %}
+    {% endblock %}
+</head>
+<body style="padding: 15px">
+    {% block body %}
+            {% block title %}
+                {% if title %}
+                    <h1>{{ title }}</h1>
+                {% endif %}
+            {% endblock %}
+
+            {% block extras %}
+                {% if extras %}
+                    {% for key, value in extras.items() %}
+                        <p><span>{{key}}:</span> <span>{{value}}</span></p>
+                    {% endfor %}
+                {% endif %}
+            {% endblock %}
+
+            {% block tables %}
+                {% if tables %}
+                    {% for table in tables %}
+                        {{ table.style.render(**table.context) | safe }}
+                    {% endfor %}
+                {% endif %}
+            {% endblock %}
+    {% endblock %}
+</body>
