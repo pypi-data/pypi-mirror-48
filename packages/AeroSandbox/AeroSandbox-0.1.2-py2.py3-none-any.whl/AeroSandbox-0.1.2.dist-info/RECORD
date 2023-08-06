@@ -1,0 +1,11 @@
+AeroSandbox/Aerodynamics.py,sha256=FurEQ4w4zo5fsvAOs-L1A-RBx4t1Zieq92T5V3X3kHI,40557
+AeroSandbox/Geometry.py,sha256=fm-_3KyiNnOGeH_blE3nQ2IhZAzrb6sW8Lfc51kgB58,32938
+AeroSandbox/Performance.py,sha256=fldkfPJmwTcxBb78wai681x1G77sLVladHuT6EFDHB4,2466
+AeroSandbox/Plotting.py,sha256=xvHrmP4Iyj7mZaOjzZHIGuC7ngYMHIgQzSmpfJzbd44,1479
+AeroSandbox/__init__.py,sha256=o0iJ4wykmnzZVCk2JGlgxMJyNi0CIv2oaFQ5lNPE2ZE,107
+AeroSandbox/airfoils/__init__.py,sha256=Ye4hAd7rYLnxuwg0raMTD0Zz3IPM75kfUCoMR__kdV4,34
+AeroSandbox-0.1.2.dist-info/LICENSE.txt,sha256=nZtkzcbLtg_rliFdPgk42uTA8PjGA_tUgA_Krs6Jp-U,1088
+AeroSandbox-0.1.2.dist-info/METADATA,sha256=iIVl2LgeNmER4IvdSglRElVl0T2Xja-C8Wl58u889Hs,9958
+AeroSandbox-0.1.2.dist-info/WHEEL,sha256=53VSps8MltPLN_x9Ib61FU2ZSaJKzgrWQqu9rS-Dkgk,116
+AeroSandbox-0.1.2.dist-info/top_level.txt,sha256=Qs6quH38w7PqNWYC4Yr5wJYtDh-L4RDDUe4Gimt-Dtk,12
+AeroSandbox-0.1.2.dist-info/RECORD,,
