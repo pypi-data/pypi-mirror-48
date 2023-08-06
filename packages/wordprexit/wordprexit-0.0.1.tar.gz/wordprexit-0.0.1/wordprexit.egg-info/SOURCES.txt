@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+wordprexit/__init__.py
+wordprexit/autop.py
+wordprexit/cli.py
+wordprexit/hugo_shortcodes.py
+wordprexit/wp_shortcodes.py
+wordprexit/wxrfile.py
+wordprexit.egg-info/PKG-INFO
+wordprexit.egg-info/SOURCES.txt
+wordprexit.egg-info/dependency_links.txt
+wordprexit.egg-info/entry_points.txt
+wordprexit.egg-info/not-zip-safe
+wordprexit.egg-info/top_level.txt
