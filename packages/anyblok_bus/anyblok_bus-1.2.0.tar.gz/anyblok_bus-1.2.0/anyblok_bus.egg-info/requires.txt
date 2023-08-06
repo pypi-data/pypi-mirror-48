@@ -1,0 +1,4 @@
+anyblok
+furl
+marshmallow>=3.0.0rc5
+pika>=1.0.1
