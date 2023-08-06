@@ -1,0 +1,8 @@
+mmr/__init__.py,sha256=W4smIVpNY6iSFypTnjHe1swqOPT68eBdrVgcMdSZjMA,120
+mmr/mmr.py,sha256=QyKo3krzNr6ia8czwV7QjdH6HgEITzTQu37-yWVyzRk,8598
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_mmr.py,sha256=kXoWT4v1ul8Hm3wDIC1S450A8y03yF7YOvHCCaix7LI,1341
+mmr.py-0.0.3.dist-info/METADATA,sha256=3AYQAZePTCIJPP8qzd-C9bpP1O4AjgjDMZMXrT9xzkM,1041
+mmr.py-0.0.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mmr.py-0.0.3.dist-info/top_level.txt,sha256=ANE12-heYghODzOeIZhlzH5qKWEF0LR4K31XgKiT7eQ,10
+mmr.py-0.0.3.dist-info/RECORD,,
