@@ -1,0 +1,13 @@
+stylish/__init__.py,sha256=WVLXqLPO8H_k65Eq5f8pCHC--WXejWATVyJ2AMU1NWk,20491
+stylish/__main__.py,sha256=ef7LpOcsrnj61OcrIRzeuMHZXfqN1Todab1k0ou9Cfg,229
+stylish/_version.py,sha256=42STGor_9nKYXumfeV5tiyD_M8VdcddX7CEexmibPBk,22
+stylish/command_line.py,sha256=beHxyTa24JP-bHLXfXvvExXXVKkRn4ASdd3SIzVv2a0,9893
+stylish/filesystem.py,sha256=Q5MXC1Of5WgCJRHA3325tEb0xnPO-woA-7OZpgC9JL0,2528
+stylish/logging.py,sha256=b3J-9oRNU1_Tm1OoGhAQw_-UIMs0SpafQtoSWfyhqQs,4020
+stylish/transform.py,sha256=NX71_Fb9X3zBYddOj2J48nbNCPLWE6_4eiHjU7nb8hc,8329
+stylish/vgg.py,sha256=fZHYmRQ4M3B1fJ2ZUBDFuyLeu_Gg8t6DZgGIFbANdHE,6951
+stylish-0.4.0.dist-info/METADATA,sha256=-wZUf6R_CGyarg6HIb57DK4fRbQuVhlpomNzSbynrMA,2842
+stylish-0.4.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+stylish-0.4.0.dist-info/entry_points.txt,sha256=q2C1n_sFHUq6HQ71yT1Vb3BLsbXzV8I81bfuSDvYoiA,51
+stylish-0.4.0.dist-info/top_level.txt,sha256=v-UA8PLjT60fGSP7VK6LwPyOmk_0zUB_Br1w46ybQ0o,8
+stylish-0.4.0.dist-info/RECORD,,
