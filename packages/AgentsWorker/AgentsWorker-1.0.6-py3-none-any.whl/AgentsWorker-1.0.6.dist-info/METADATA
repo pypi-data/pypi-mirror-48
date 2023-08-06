@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: AgentsWorker
+Version: 1.0.6
+Summary: Libreria para crear agentes que responden a eventos desde kafka
+Home-page: UNKNOWN
+Author: Enoi Barrera Guzman
+Author-email: zafiro3000x@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: kafka-python (==1.4.6)
+Requires-Dist: Logbook (==1.4.3)
+
+# Agent Worker
+
+Framework para implementar agenes con acciones que permitan ejecutarlos bajo un protocolo
+basado en json-rpc.
+
+```python
+
+@Agents.Define(options(
+    Name = '',
+    Kafka = []
+))
+class Example:
+
+    @Agents.Methods('list')
+    def NameMethod(data, Resquest):
+        # Response
+        return 10
+```
+
