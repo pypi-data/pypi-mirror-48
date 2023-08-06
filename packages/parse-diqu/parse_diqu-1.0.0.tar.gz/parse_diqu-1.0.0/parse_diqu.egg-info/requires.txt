@@ -1,0 +1,4 @@
+jieba
+lmf>=2.0.6
+lmfscrap>=1.1.0
+lmfhawq>=1.1.4
