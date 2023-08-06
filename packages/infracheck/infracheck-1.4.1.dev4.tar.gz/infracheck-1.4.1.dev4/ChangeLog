@@ -1,0 +1,69 @@
+CHANGES
+=======
+
+* Fixed types casting in arguments passing from CLI
+* Fixed types casting in arguments passing from CLI
+* Hotfix: Fixed 503 on HTTP caused by missing new params
+* Updated suggestion in reference in docs
+
+1.4.0
+-----
+
+* Added --lazy flag
+* Added --wait / WAIT\_TIME, secured \`domain-expiration\` check against CPU overload
+* Added docs, clean up
+* Resolved unit tests
+* Resolved "rate limit exceeded" in domain-expiration check, by adding waits
+* Added caching mechanism, so the HTTP endpoint will not execute all checks each time. Now the background process triggered by crontab will be updating status cache, and the HTTP endpoint will read it
+* Fixed documentation syntax
+* Fixed link to the documentation
+* Travis: Setting correct Python versions
+* Travis: Setting correct Python versions
+* Travis: Setting correct Python versions
+* Fixed mistake in path
+* Changed description format for PyPI, allowing failures on travis nightly and pypi3
+* Changed to mime of description to text/markdown for PyPI
+* Trying to fix the travis build
+* Trying to fix the travis build
+* Fixed travis build after path change
+* Switched to Alpine 3.9, fixed incorrect path after recent changes
+* Resolved permissions problem
+* Added tests for domain-expiration check, updated documentation, dependencies list
+* Renamed check to fit the convention
+* Added domain-expiration check
+* Corrected package name
+* Fixed invalid types casting - when the value in checks parameters was an integer, then there was an exception
+* Update LICENSE
+* Create LICENSE
+* Resolved test after changes done on purpose
+* Added example free-ram usage
+* Applied PEP-8 rules to the free-ram file
+* Added missing documentation
+* Changed names to fit into the existing naming convention
+* fix the test
+* fix free\_ram.py and free\_ram\_test.sh according to code review
+* Add a check to watch for available RAM and a test for this check
+* update disk-space-test.sh to run check with proper name
+* fix disk-space-test.sh and add a mock value for checks/disk-space
+* Change app/checks/disk-space so that it uses environmental variablesw
+* Rewrite app/checks/disk-space to python, change the syntax
+* Updated changelog, changed min. Python version to 3.5
+* Update README.md
+* Update README.md
+* Reordered badges (commited from github)
+* Added badges (commited in github)
+* Deleted support for Python 3.7 as on Travis it does not work
+* Replaced call to "bc", as it works differently on different operating systems. The floats support in bash is not so good
+* Switched from sh to bash
+* CI: Added Python 3.7 to the build
+* Stripped out characters different than numbers and dots for compatiblity reasons
+* Reverted last CI change
+* Added Mattermost notification to notify riotkit collective
+* Resolved #2: Disk space is now properly recognized
+* Travis-CI: Release to PYPI conditions
+* Building not only on tags
+* Updated credentials
+* Added information about the docker container variables
+* Fixed crontab on Debian / armhf
+* Added coverage ignore for server and argument parsing
+* Added supervisor and scheduled job support using cron
