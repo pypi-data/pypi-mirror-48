@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: maven
+Version: 0.0.1
+Summary: A trusted expert who seeks to pass timely and relevant knowledge on to others.
+Home-page: https://github.com/john-sandall/maven
+Author: John Sandall
+Author-email: contact@coefficient.ai
+License: Apache 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Description-Content-Type: text/markdown
+
+# maven
+/meɪvən/ – a trusted expert in a particular field, who seeks to pass timely and relevant knowledge on to others in the respective field.
+
+
