@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+dcPyUtils.egg-info/PKG-INFO
+dcPyUtils.egg-info/SOURCES.txt
+dcPyUtils.egg-info/dependency_links.txt
+dcPyUtils.egg-info/requires.txt
+dcPyUtils.egg-info/top_level.txt
+dcutils/__init__.py
+dcutils/__version__.py
+dcutils/core.py
