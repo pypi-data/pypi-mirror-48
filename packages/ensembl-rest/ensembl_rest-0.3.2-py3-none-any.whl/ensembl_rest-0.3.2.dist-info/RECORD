@@ -1,0 +1,17 @@
+ensembl_rest/__init__.py,sha256=iHS5XaoCZx1g9eZ8sA7vJjC-8woMBNJ2NoaoLgythYk,675
+ensembl_rest/assemblymapper.py,sha256=4mWrRD_WliTx4DLa-RQrEVwXsFJcoufmWHKm1sLNebE,6499
+ensembl_rest/ensemblclient.py,sha256=fwzW89l-u7ItWSJ-meELv3GaNNRJ8Ni75cHGTCSwEC8,696
+ensembl_rest/ensemblclients.py,sha256=UvI0WiahJWR5EUBmV75gPQPTugUFpEp3BFU8G8PpAAQ,994
+ensembl_rest/utils.py,sha256=ukj3g9w3fvPE8n4oQSA7iS6-3LtetPD5R2JweDjvBEM,331
+ensembl_rest/core/__init__.py,sha256=qpNcL1P8xWgLqx_Bi2APyl-XYhguCs4U-h75NQaCEug,132
+ensembl_rest/core/baseclient.py,sha256=81Xh0OaieIUzItsjyaM0fxMdVoGPR54BbISnvp-xzn8,5264
+ensembl_rest/core/restclient.py,sha256=WQmR0QWZc2NtTCaNqqcri3wDYSsMmDk-9YMAjAKTMac,4282
+ensembl_rest/data/__init__.py,sha256=4W8VliAYUP1KY2gLJ_YDy2TmcXYVm-PY7XikQD_bFwA,2
+ensembl_rest/data/ensembl_genomes_endpoints.json,sha256=GnP_APxjX4ype0HOxZhK_SQueTJ_4lmcvBvfvN5CG0M,19147
+ensembl_rest/data/ensembl_response_codes.json,sha256=qMK1vHZQCIiUtB4Jc9hnpr-QQihJr-mWYxmQ2WAfPKI,1395
+ensembl_rest/data/ensembl_rest_endpoints.json,sha256=8NbK2TH6h2xK0nLr4r8Hrc_mnKyzHrMbuz7MZ8sO7ao,191771
+ensembl_rest-0.3.2.dist-info/LICENSE,sha256=GK7R0RyslaHQlJ2RS74Mf5L6NXylGRfLr6TZ7w4zvFY,1072
+ensembl_rest-0.3.2.dist-info/METADATA,sha256=9_usqWvqa0AApkqzUMKz4hPqQfy91Iq_miuB_YhTQEE,12988
+ensembl_rest-0.3.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+ensembl_rest-0.3.2.dist-info/top_level.txt,sha256=aUpYT98mIp7XorL1-ikrpNsEnhQhMVP8uZEkW48uj-A,13
+ensembl_rest-0.3.2.dist-info/RECORD,,
