@@ -1,0 +1,8 @@
+README.md
+setup.py
+xcolor/__init__.py
+xcolor/color.py
+xcolor.egg-info/PKG-INFO
+xcolor.egg-info/SOURCES.txt
+xcolor.egg-info/dependency_links.txt
+xcolor.egg-info/top_level.txt
