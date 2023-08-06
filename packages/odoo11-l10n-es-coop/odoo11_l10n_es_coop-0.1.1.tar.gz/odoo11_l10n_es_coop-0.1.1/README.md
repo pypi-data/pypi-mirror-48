@@ -1,0 +1,6 @@
+# Temporal repository
+This repo is a copy of the Odoo module [l10n_es_coop](https://github.com/acysos/odoo-addons/tree/11.0/l10n_es_coop) developed by [Acysos](https://www.acysos.com/) and adapted to deploy with pip since the module was completely merged in the Odoo core modules as is indicated in the next mail list threat: https://groups.google.com/forum/#!searchin/openerp-spain/Instalaci%C3%B3n$20del$20m%C3%B3dulo$20l10n_es_coop%7Csort:date/openerp-spain/3NTmjihnw_k/9ulFbsC5AwAJ
+
+When the module is merged, this repository will be discontinued and deprecated.
+
+## Odoo Spanish Cooperative Localization
