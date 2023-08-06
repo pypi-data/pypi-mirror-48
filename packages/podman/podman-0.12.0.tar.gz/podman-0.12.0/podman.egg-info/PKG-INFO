@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: podman
+Version: 0.12.0
+Summary: A library to interact with a Podman server
+Home-page: https://github.com/containers/python-podman
+Author: Jhon Honce
+Author-email: jhonce@redhat.com
+License: Apache Software License
+Project-URL: Bug Tracker, https://github.com/containers/python-podman/issues
+Project-URL: Source Code, https://github.com/containers/python-podman
+Description: # podman - pythonic library for working with varlink interface to Podman
+        
+        ## Status: Active Development
+        
+        See [libpod](https://github.com/containers/python-podman)
+        
+        ## Overview
+        
+        Python podman library.
+        
+        Provide a stable API to call into.
+        
+        ## Releases
+        
+        ### Requirements
+        
+        * Python 3.5+
+        * OpenSSH 6.7+
+        * Python dependencies in requirements.txt
+        
+        ### Building
+        
+        To build the podman egg and install as user:
+        
+        ```sh
+        cd ~/python-podman
+        python3 setup.py clean -a && python3 setup.py sdist bdist
+        python3 setup.py install --user
+        ```
+        
+        ## Code snippets/examples:
+        
+        ### Show images in storage
+        
+        ```python
+        import podman
+        
+        with podman.Client() as client:
+          list(map(print, client.images.list()))
+        ```
+        
+        ### Show containers created since midnight
+        
+        ```python
+        from datetime import datetime, time, timezone
+        
+        import podman
+        
+        midnight = datetime.combine(datetime.today(), time.min, tzinfo=timezone.utc)
+        
+        with podman.Client() as client:
+            for c in client.containers.list():
+                created_at = podman.datetime_parse(c.createdat)
+        
+                if created_at > midnight:
+                    print('Container {}: image: {} created at: {}'.format(
+                        c.id[:12], c.image[:32], podman.datetime_format(created_at)))
+        ```
+        
+        
+Keywords: varlink,libpod,podman
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Topic :: Software Development
+Description-Content-Type: text/markdown
+Provides-Extra: devel

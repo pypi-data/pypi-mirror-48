@@ -1,0 +1,10 @@
+psutil
+python-dateutil
+setuptools>=39
+varlink
+
+[devel]
+fixtures
+pbr
+tox
+bandit
