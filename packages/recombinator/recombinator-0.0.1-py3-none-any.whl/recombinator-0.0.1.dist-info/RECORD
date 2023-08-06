@@ -1,0 +1,15 @@
+recombinator/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recombinator/block_bootstrap.py,sha256=57SAqWjPjZ1pNj7hBUmGjBi2jhfinivyBUEqT3coIo8,17609
+recombinator/iid_bootstrap.py,sha256=SRQgSeR-IggL-Kab0yxCfxEdUQ-WjIK9RCRrOZNwJsU,17702
+recombinator/log_returns.py,sha256=9-JhEFRaSDGk4IkutIl5xOvFLV_VstkvHg2J3NowcvQ,17799
+recombinator/optimal_block_length.py,sha256=tyzcxU-JngjOI9uOI_p29NZ7acICljjSH746zZM6EHQ,8255
+recombinator/statistics.py,sha256=BBoMPY6pTzBvZ1EENZZyOXf-RDX6TzMSaONVhtsk3Pc,2597
+recombinator/tapered_block_bootstrap.py,sha256=2jQ1-ZFnpUDe2Fx1CusVR45zAp5h-8MKDpnatfY0gV4,8545
+recombinator/utilities.py,sha256=upmkGlt4CYk-a_BzVZM2c5pJavtbtx1-WTWo_6yPq2Q,8527
+recombinator/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+recombinator/tests/test_aggregate_multi_dimensional_log_returns.py,sha256=bceEgd4EHi-DHun1yH7HqGK3ucu4GWB47YNVQNszSNg,620
+recombinator-0.0.1.dist-info/LICENSE,sha256=Ulh6HPYWPZMnQ90UPOf3pm85VTkEsmGpf12nxIwf3cU,1749
+recombinator-0.0.1.dist-info/METADATA,sha256=FS1f8LC0TYoyNFrrshXkf1HP9Myb5wLHuE7BzpMZW3c,2273
+recombinator-0.0.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+recombinator-0.0.1.dist-info/top_level.txt,sha256=lHQo55fO_GaQy57pfabjojZNLy8pw8-5zsOh8qwHlGI,13
+recombinator-0.0.1.dist-info/RECORD,,
