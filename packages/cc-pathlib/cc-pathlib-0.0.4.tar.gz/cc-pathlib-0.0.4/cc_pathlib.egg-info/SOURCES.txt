@@ -1,0 +1,13 @@
+README.md
+setup.py
+cc_pathlib/__init__.py
+cc_pathlib/path.py
+cc_pathlib/proc.py
+cc_pathlib.egg-info/PKG-INFO
+cc_pathlib.egg-info/SOURCES.txt
+cc_pathlib.egg-info/dependency_links.txt
+cc_pathlib.egg-info/top_level.txt
+cc_pathlib/filter/__init__.py
+cc_pathlib/filter/cc_json.py
+cc_pathlib/filter/cc_pickle.py
+cc_pathlib/filter/tsv.py
