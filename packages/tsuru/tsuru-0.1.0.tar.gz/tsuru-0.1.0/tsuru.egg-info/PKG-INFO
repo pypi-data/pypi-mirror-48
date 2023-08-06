@@ -1,0 +1,70 @@
+Metadata-Version: 1.1
+Name: tsuru
+Version: 0.1.0
+Summary: Tsuru API client for Python
+Home-page: UNKNOWN
+Author: eduK
+Author-email: pd@eduk.com.br
+License: MIT
+Description: .. image:: https://img.shields.io/badge/python-3-blue.svg
+           :target: https://www.python.org/
+           :alt: Python 3
+        
+        .. image:: https://api.codeclimate.com/v1/badges/471b178f14d470337668/maintainability
+           :target: https://codeclimate.com/github/edukorg/tsuru-py/maintainability
+           :alt: Maintainability
+        
+        .. image:: https://api.codeclimate.com/v1/badges/471b178f14d470337668/test_coverage
+           :target: https://codeclimate.com/github/edukorg/tsuru-py/test_coverage
+           :alt: Test Coverage
+        
+        
+        ================
+        Tsuru API Client
+        ================
+        
+        Python client for the `Tsuru <https://tsuru.io/>`_ API.
+        
+        ************
+        Installation
+        ************
+        
+        .. code-block:: bash
+        
+            pip install tsuru
+        
+        
+        *****
+        Setup
+        *****
+        
+        The following environment variables must be set prior to using the lib.
+        
+        ``TSURU_URL``, with port (if necessary) and without trailing dash. Example: http://my-tsuru.domain.vpc:8080
+        
+        ``TSURU_USERNAME``
+        
+        ``TSURU_PASSWORD``
+        
+        
+        *****
+        Usage
+        *****
+        
+        .. code-block:: python
+        
+            from tsuru import App
+        
+            for app in App.list()
+                print(app.name)
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Testing
