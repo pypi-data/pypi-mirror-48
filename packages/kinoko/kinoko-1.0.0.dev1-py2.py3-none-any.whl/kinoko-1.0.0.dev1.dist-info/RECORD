@@ -1,0 +1,17 @@
+kinoko/__init__.py,sha256=lDYfy_M-rDUzfUMQr04X4WteHZkpEzUZiOU2ZrKdFSM,172
+kinoko/func.py,sha256=rg1sIabffRFShhp8ppZ1eyklBZ-YL9r-QWZdwtUSFn4,1465
+kinoko/misc/__init__.py,sha256=BDS323PGBeCcoIFxuG4YVfgc3Mwfvc0QPCDDcM7mmao,171
+kinoko/misc/log_writer.py,sha256=f4zKe9y3XtR_xZtnWpJuU0RFPKxjMaZuXsfA6MsqrW4,5601
+kinoko/misc/network/__init__.py,sha256=AlG0JlLdgP5dgnrhVqhwIeWnzHLmcGvW4sI18XA_A28,171
+kinoko/misc/network/chase_redirection.py,sha256=H9vp22fJd_vEBjS-3zU6GsBAcnauZGSAZLIM-LEjWUw,3960
+kinoko/misc/network/reachability.py,sha256=O4SuZlhvvfsTUwo-5MxSsK5UaR4vs2P_Zqzu5fNdnXA,320
+kinoko/text/__init__.py,sha256=88sOGUvJ2AQrpO64Evmd5jJHMnXc2jHxQ7YPe-kHG9Y,191
+kinoko/text/agg_tsv.py,sha256=W_s3a0gcQoLCbRdK0M-yEBdt3mc3ORxZ_Z6AEMD6kVU,2676
+kinoko/text/io.py,sha256=MUgktCPsB9rVIdn1p71-R9JpMzdkySH2fuoY954XfOg,2460
+kinoko/text/patch_tsv.py,sha256=s8i_G6yWzg5QUDcadACJOIyK-bGYHUfYy2X5JXR44lU,2744
+kinoko-1.0.0.dev1.dist-info/DESCRIPTION.rst,sha256=SnalgCxMocmCTOoF7qfLbhhmIKfAAS5clXQlQxbq8y0,599
+kinoko-1.0.0.dev1.dist-info/METADATA,sha256=jgGST6C_UjSuTaXZ75rz0WYjMnhhYn2b-460Yw5qnUA,1388
+kinoko-1.0.0.dev1.dist-info/RECORD,,
+kinoko-1.0.0.dev1.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+kinoko-1.0.0.dev1.dist-info/metadata.json,sha256=1lclYJbDSlZhthgDsl7WS9ux9tXOoQEcYUN5Fu5osig,902
+kinoko-1.0.0.dev1.dist-info/top_level.txt,sha256=fK0Jb5v-gAoxPm4M_NnOFqHJwqkpSlgHfKhM8K7ec7U,7
