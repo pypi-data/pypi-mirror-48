@@ -1,0 +1,7 @@
+README.md
+setup.py
+SimpleHTMLBuilder/__init__.py
+SimpleHTMLBuilder.egg-info/PKG-INFO
+SimpleHTMLBuilder.egg-info/SOURCES.txt
+SimpleHTMLBuilder.egg-info/dependency_links.txt
+SimpleHTMLBuilder.egg-info/top_level.txt

@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: SimpleHTMLBuilder
+Version: 1.0.0
+Summary: A simple HTML builder for when you don't want to touch JavaScript.
+Home-page: https://github.com/kbeauregard/HTMLBuilder
+Author: Kyle Beauregard
+Author-email: kylembeauregard@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
