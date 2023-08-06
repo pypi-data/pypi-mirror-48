@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: tradewatch
+Version: 0.1.19
+Summary: TradeWatch toolbox
+Home-page: https://github.com/user/reponame
+Author: ShinSheel
+Author-email: wladgavrilov@gmail.com
+License: MIT
+Download-URL: https://github.com/user/reponame/archive/v_01.tar.gz
+Description: That's my tradewatch package
+        import tradewatch as tw
+        tw.get_atts("BRB lalka")
+        #{"search_request": "Barbie Lalka", "Stan": "Nowy", "Faktura": "Wystawiam faktur\\u0119 VAT", "Seria": "Made To Move", "Marka": "Barbie", "Bohater": "Barbie", "Wiek dziecka": "3 lata +", "P\\u0142e\\u0107": "Ch\\u0142opcy, Dziewczynki", "Materia\\u0142": "Plastik, Tkanina", "query": "Barbie Lalka"}
+Keywords: allegro.pl
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
