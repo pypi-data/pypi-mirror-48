@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+swimlane_migrator/__init__.py
+swimlane_migrator/utils.py
+swimlane_migrator.egg-info/PKG-INFO
+swimlane_migrator.egg-info/SOURCES.txt
+swimlane_migrator.egg-info/dependency_links.txt
+swimlane_migrator.egg-info/requires.txt
+swimlane_migrator.egg-info/top_level.txt
