@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+cfgsaver/__init__.py
+cfgsaver/cfgsaver.py
+cfgsaver.egg-info/PKG-INFO
+cfgsaver.egg-info/SOURCES.txt
+cfgsaver.egg-info/dependency_links.txt
+cfgsaver.egg-info/top_level.txt
+test/__init__.py
+test/test_cfgsaver.py
