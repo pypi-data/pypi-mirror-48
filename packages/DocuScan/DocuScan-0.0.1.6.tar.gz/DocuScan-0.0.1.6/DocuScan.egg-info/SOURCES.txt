@@ -1,0 +1,7 @@
+README.md
+setup.py
+DocuScan/__init__.py
+DocuScan.egg-info/PKG-INFO
+DocuScan.egg-info/SOURCES.txt
+DocuScan.egg-info/dependency_links.txt
+DocuScan.egg-info/top_level.txt
