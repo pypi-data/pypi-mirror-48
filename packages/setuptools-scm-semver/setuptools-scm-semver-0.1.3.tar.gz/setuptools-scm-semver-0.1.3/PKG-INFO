@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: setuptools-scm-semver
+Version: 0.1.3
+Summary: the blessed package to manage your versions by scm tags
+Home-page: https://github.com/hbasria/setuptools-scm-semver
+Author: Basri
+Author-email: h@basri.me
+License: MIT
+Description: # setuptools-scm-semver
+        
+        This is a setuptools_scm   plugin that adds support for Semantic Versioning (SemVer).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Version Control
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: Utilities

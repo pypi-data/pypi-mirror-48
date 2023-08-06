@@ -1,0 +1,10 @@
+
+        [setuptools_scm.parse_scm]
+        .git = setuptools_scm_semver.git:parse
+
+        [setuptools_scm.version_scheme]
+        guess-next-semver = setuptools_scm_semver.version:guess_next_semver_version
+
+        [setuptools_scm.local_scheme]
+        get-local-empty = setuptools_scm_semver.version:get_local_empty
+    
