@@ -1,0 +1,9 @@
+itk/itkMeshToPolyDataFilterPython.py,sha256=ZUdyT-QVskar2n_2tnQ6RxJPMYjPyHb2-Z8xO9Td7uU,49860
+itk/_MeshToPolyDataPython.so,sha256=pTA-6mxRKsEGiETorHEdRJOGGRVWTUJtNxQhnW-TBmk,1362608
+itk/itkPolyDataPython.py,sha256=Y_1KDxglGVn7JbZtCT47ElhaYyKRPhH4Nk7CjStp0c8,48723
+itk/MeshToPolyDataPython.py,sha256=ntM58zGJu0_GFTnR2fLldX8srC5PYF-2X7HplBljTEs,3169
+itk/Configuration/MeshToPolyDataConfig.py,sha256=amjbfG2fchDCLFdMs1zSXp-FbQGoe9xRejQii0Ofgbc,1694
+itk_meshtopolydata-0.1.0.dist-info/WHEEL,sha256=Iih2rMDmluTbX-Lhyg4bn2rbB1WWHkPeoA2YdBqhroY,102
+itk_meshtopolydata-0.1.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk_meshtopolydata-0.1.0.dist-info/METADATA,sha256=hvRygUy7wKE0mWwNl18diVFUFcNBldLwOBvl6jAj5YQ,1540
+itk_meshtopolydata-0.1.0.dist-info/RECORD,,
