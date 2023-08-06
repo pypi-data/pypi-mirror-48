@@ -1,0 +1,15 @@
+README.md
+setup.py
+bootstrap/__init__.py
+bootstrap/__main__.py
+bootstrap/haste.py
+bootstrap/screen.py
+bootstrap/shorten.py
+bootstrap/subshare.py
+bootstrap/upload.py
+subshare.egg-info/PKG-INFO
+subshare.egg-info/SOURCES.txt
+subshare.egg-info/dependency_links.txt
+subshare.egg-info/entry_points.txt
+subshare.egg-info/requires.txt
+subshare.egg-info/top_level.txt
