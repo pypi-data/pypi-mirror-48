@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pytrax
+Version: 0.1.2
+Summary: A random walk for estimating the toruosity tensor of images
+Home-page: https://pytrax.readthedocs.io/en/latest/
+Author: Tom Tranter
+Author-email: t.g.tranter@gmail.com
+License: UNKNOWN
+Project-URL: Documentation, https://pytrax.readthedocs.io/en/latest/
+Project-URL: Source, https://github.com/PMEAL/pytrax
+Project-URL: Tracker, https://github.com/PMEAL/pytrax/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
