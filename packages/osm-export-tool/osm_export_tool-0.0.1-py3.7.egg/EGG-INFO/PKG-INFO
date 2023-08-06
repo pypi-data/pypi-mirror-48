@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: osm-export-tool
+Version: 0.0.1
+Summary: Convert OpenStreetMap data into GIS and mobile mapping file formats.
+Home-page: https://github.com/hotosm/osm-export-tool-python
+Author: Brandon Liu
+Author-email: brandon.liu@hotosm.org
+License: UNKNOWN
+Description: OSM Export Tool
+        
+        Converts OpenStreetMap data into various file formats.
+        
+        Thematic layers based on a YAML schema that supports SQL-like filtering.
+        
+        This program is meant for GIS users who have the appropriate libraries installed on their workstation.
+        
+        Humanitarian OpenStreetMap Team makes this program available as a web service at https://export.hotosm.org
+        
+        Input: an OSM PBF or XML file.
+        
+        `osm-export-tool input.pbf example --formats shp,gpkg,kml --mapping mapping.yaml`
+        
+        --formats
+        
+        default: GeoPackage
+        
+        mapping:
+        
+        default:
+        
+        Supported outputs:
+        
+        Shapefile
+        GeoPackage
+        KML (requires GDAL to be built with LIBKML)
+        
+        KML
+        
+        To limit memory usage, each layer is a separate KML file.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
