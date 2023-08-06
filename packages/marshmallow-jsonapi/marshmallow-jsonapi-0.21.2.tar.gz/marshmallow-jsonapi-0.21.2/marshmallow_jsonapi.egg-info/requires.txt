@@ -1,0 +1,26 @@
+marshmallow>=2.8.0
+
+[dev]
+pytest
+mock
+faker==1.0.7
+Flask==1.0.3
+flake8==3.7.7
+pre-commit~=1.17
+tox
+
+[dev:python_version >= "3.5"]
+flake8-bugbear==19.3.0
+
+[lint]
+flake8==3.7.7
+pre-commit~=1.17
+
+[lint:python_version >= "3.5"]
+flake8-bugbear==19.3.0
+
+[tests]
+pytest
+mock
+faker==1.0.7
+Flask==1.0.3
