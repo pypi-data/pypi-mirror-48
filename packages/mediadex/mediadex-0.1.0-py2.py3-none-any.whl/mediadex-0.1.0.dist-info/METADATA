@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: mediadex
+Version: 0.1.0
+Summary: Index media metadata into elasticsearch
+Home-page: https://github.com/jesusaurus/mediadex
+Author: K Jonathan Harker
+Author-email: code@gentlydownthe.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: pymediainfo
+Requires-Dist: elasticsearch-dsl (<8.0,>=7.0)
+Requires-Dist: PyYAML
+
+# Mediadex
+
+Index media metadata into elasticsearch
+
+## Usage
+
+Give mediadex a path with music or movies:
+`mediadex --path /srv/music`
+
+... and watch as an elasticsearch index is quickly built!
+
+You can now query elasticsearch about your media metadata with your
+favorite tool such as Kibana or curl.
+
+
+
