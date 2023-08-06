@@ -1,0 +1,7 @@
+sphinx>=1.8
+
+sphinxcontrib-napoleon
+
+click>=6.0
+
+osmnx>=0.9
