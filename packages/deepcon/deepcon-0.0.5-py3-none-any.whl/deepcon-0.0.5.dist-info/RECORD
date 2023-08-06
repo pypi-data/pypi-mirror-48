@@ -1,0 +1,17 @@
+deepcon/__init__.py,sha256=0g6pB45bEMJ-CzSgROKqs0dhzNsulx1l_2ot6V0Gizk,19
+deepcon/deepcon-covariance.py,sha256=4mXoN8nIJpkku2rfrG-alcaWDGK87cLgam2g-e05yCA,6771
+deepcon/weights-rdd-covariance.hdf5,sha256=ucaVYqN1DxpN0_8BuNTxAdTRy7ZJ7JH3kSK99lEGS18,29916552
+deepcon/test/16pkA.pdb,sha256=xBykFte6pQtGZ1363vFy8RrImoipLxhFGk1kDwRnCjw,155156
+deepcon/test/16pkA0.aln,sha256=D2M0mr4CwTZP7KtqQFtRDoQeNq43R9oxQGN07zqgzUU,181442
+deepcon/test/16pkA0.rr,sha256=oHjg7wK_mHjtmJNRxl3A27GLDq9yjDpfNDMxJFhFiJs,606081
+deepcon/test/1a0tP.pdb,sha256=1be-w2putoPftTqav70uTSTuSSjeafY3NnhNVeykoAw,152944
+deepcon/test/1a0tP0.aln,sha256=K7rY5HFViaJ4UyXsogQ5DCdBmqhVVegiEYp-PYvpBuo,112309
+deepcon/test/1a0tP0.rr,sha256=6HyC6fOz7mSK9W5AE9EcDX8rpnQRScffp7kLQmJUjfw,606081
+deepcon/test/coneva-lite.pl,sha256=4jWH__5HN9qG4GlF1w6Pt5w785Uu1Di3aFyPAMraRmo,24891
+deepcon/test/dry-run.log,sha256=TrpIXRas7uBp-XqlwMYI55rX15454PU8oh5EjROcFdA,8626
+deepcon/test/dry-run.sh,sha256=gvkRQeSI0DQo9u18VMXhxd6F7ePajAl2PGUWz71oQpc,352
+deepcon-0.0.5.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+deepcon-0.0.5.dist-info/METADATA,sha256=itoEGzAuM5lfkjviaHNadYD-eSYGeX3ItgOQdkyOyrw,1476
+deepcon-0.0.5.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+deepcon-0.0.5.dist-info/top_level.txt,sha256=YH4U9X2bobmVAbseRrS_AKNJxFYEMWNAzIThSYjrDYU,8
+deepcon-0.0.5.dist-info/RECORD,,
