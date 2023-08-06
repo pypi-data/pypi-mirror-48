@@ -1,0 +1,3 @@
+biopython==1.73
+progressbar2==3.39.3
+ftputil==3.4
