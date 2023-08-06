@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyfof/fof.cc
+pyfof/fof.hpp
+pyfof/pyfof.cpp
+pyfof/pyfof.pyx
+pyfof.egg-info/PKG-INFO
+pyfof.egg-info/SOURCES.txt
+pyfof.egg-info/dependency_links.txt
+pyfof.egg-info/requires.txt
+pyfof.egg-info/top_level.txt
