@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: redgettext-babel
+Version: 0.1.1
+Summary: A Babel message extractor for Red-DiscordBot
+Home-page: https://github.com/Cog-Creators/redgettext-babel
+Author: Toby Harradine
+Author-email: me@tobyharradine.id.au
+License: GPL-3.0
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Requires-Dist: babel
+
+UNKNOWN
+
+
