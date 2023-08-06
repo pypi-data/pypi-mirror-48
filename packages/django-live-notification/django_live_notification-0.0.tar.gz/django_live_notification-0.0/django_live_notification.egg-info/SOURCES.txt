@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+setup.py
+django_live_notification/__init__.py
+django_live_notification/admin.py
+django_live_notification/apps.py
+django_live_notification/models.py
+django_live_notification/tests.py
+django_live_notification/views.py
+django_live_notification.egg-info/PKG-INFO
+django_live_notification.egg-info/SOURCES.txt
+django_live_notification.egg-info/dependency_links.txt
+django_live_notification.egg-info/requires.txt
+django_live_notification.egg-info/top_level.txt
