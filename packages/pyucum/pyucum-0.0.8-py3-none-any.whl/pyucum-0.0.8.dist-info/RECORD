@@ -1,0 +1,8 @@
+lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+lib/ucum.py,sha256=XmFjl9mfHtS40argEpLZQMxgNEpM-bbc67eQz1VkkRg,7041
+pyucum/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyucum/ucum.py,sha256=vMB0YOy1wVJ0A4caI4ssQzcGXwsvob2tO9KtSq7EpyM,7042
+pyucum-0.0.8.dist-info/METADATA,sha256=f5uAeanY554hEzWaKmCe3Yog_cg9GyH2qkuuGy5XmZQ,9190
+pyucum-0.0.8.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+pyucum-0.0.8.dist-info/top_level.txt,sha256=w0xlRj_fprWytZLqHTyn0dhOmT3xU9XcDAQ_2K70Fmg,11
+pyucum-0.0.8.dist-info/RECORD,,
