@@ -1,0 +1,8 @@
+[console_scripts]
+catatest = skaida:catatest
+findfile = skaida:findfile
+opsite = skaida:opsite
+projpp = skaida:projpp
+samprepare = skaida:samprepare
+simplegoo = skaida:simplegoo
+
