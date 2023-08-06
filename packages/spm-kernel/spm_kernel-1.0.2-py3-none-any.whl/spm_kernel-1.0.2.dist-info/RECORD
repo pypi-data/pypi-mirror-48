@@ -1,0 +1,9 @@
+spm_kernel/__init__.py,sha256=zdVA6HIa2YHB3YFTEhGczI8h4fa1OkmV4_pH_kSGPXk,75
+spm_kernel/__main__.py,sha256=7WiynVEhZj8d79qVaqlU7Bs5Xfb8vkGA9mdk2aulz4E,83
+spm_kernel/kernel.py,sha256=XMMJqMyxIFR0s87HeCQL9Pjb68friobwTRwcIx9Kmeo,20442
+spm_kernel/version.py,sha256=ZTipNH6wyC6qsq1H_lZsvJyVruUa1nu3y4EysMdkpuU,22
+spm_kernel-1.0.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+spm_kernel-1.0.2.dist-info/METADATA,sha256=pQ9ehOeDwrg-k8LYTCB51c3SNwchfc6Odekr0iIkhZE,6759
+spm_kernel-1.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+spm_kernel-1.0.2.dist-info/top_level.txt,sha256=xGNkc2509arHifLh12XP6cFjqX0em-fPDgpGZFpMLSo,11
+spm_kernel-1.0.2.dist-info/RECORD,,
