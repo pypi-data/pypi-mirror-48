@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: visionseed
+Version: 1.0.0
+Summary: python-sdk for VisionSeed - a camera module with AI ability
+Home-page: https://visionseed.youtu.qq.com
+Author: liang chen
+Author-email: chenliang@tencent.com
+License: MIT
+Description: ### python-sdk for VisionSeed - a camera module with AI ability
+        
+        # install
+        ```shell
+        pip3 install visionseed
+        ```
+        
+        # more
+        Homepage: https://visionseed.youtu.qq.com
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
