@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: framelake
+Version: 0.1.0
+Summary: Wrappers for remote exec, local exec.
+Home-page: http://vixal.net
+Author: JM
+Author-email: jimferd@gmail.com
+License: UNKNOWN
+Description: # SSH Helper
+        ---
+        Python Library to create SSH tunnels.
+        ---
+        
+        ---
+        
+        ## SSHTunnel(object)
+        
+        ```python
+        import import ssh_tunnel
+        tun = ssh_tunnel.SSHTunnel(
+                <remote-site> [local_port(4444), remote_port(3306), 
+                remote interface("localhost"), remote_user=<current_user>, spin=(True,False),
+                foreground=(True,False), immediate=(True, False)
+                )
+        ```
+        ### RemoteDB(SSHTunnel):
+         -- Execute MySQL queries over a forwarded SSH connection
+        ```pytho
+        remote_db = ssh_tunnel.RemoteDB(
+            db_hostname, db_user=<current_user>, db_pass=<None>, db_port=4444, database=<None>, **SSHTunnel(*, **)
+            )
+        ```
+        ### Tunnels(object):
+         -- Registry for SSH Tunnels; also allows iteration (for example, to kill the connection.) Allows iteration.
+         -- To register a tunnel, use the register()
+         
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
