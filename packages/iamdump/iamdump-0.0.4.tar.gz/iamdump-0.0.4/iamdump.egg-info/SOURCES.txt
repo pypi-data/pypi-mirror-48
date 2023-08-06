@@ -1,0 +1,10 @@
+README.md
+iamdump.py
+setup.cfg
+setup.py
+iamdump.egg-info/PKG-INFO
+iamdump.egg-info/SOURCES.txt
+iamdump.egg-info/dependency_links.txt
+iamdump.egg-info/entry_points.txt
+iamdump.egg-info/not-zip-safe
+iamdump.egg-info/top_level.txt
