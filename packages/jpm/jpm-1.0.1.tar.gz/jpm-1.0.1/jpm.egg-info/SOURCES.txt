@@ -1,0 +1,9 @@
+README.md
+setup.py
+bin/jpm
+jpm/__init__.py
+jpm/cli.py
+jpm.egg-info/PKG-INFO
+jpm.egg-info/SOURCES.txt
+jpm.egg-info/dependency_links.txt
+jpm.egg-info/top_level.txt
