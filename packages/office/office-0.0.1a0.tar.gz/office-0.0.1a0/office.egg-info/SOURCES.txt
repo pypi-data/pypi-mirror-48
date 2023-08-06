@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+office/__init__.py
+office/office.py
+office.egg-info/PKG-INFO
+office.egg-info/SOURCES.txt
+office.egg-info/dependency_links.txt
+office.egg-info/not-zip-safe
+office.egg-info/top_level.txt
