@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: jupyterlab_commands
+Version: 0.1.2
+Summary: Arbitrary python commands for notebooks in JupyterLab
+Home-page: https://github.com/timkpaine/jupyterlab_commands
+Author: Tim Paine
+Author-email: t.paine154@gmail.com
+License: Apache 2.0
+Download-URL: https://github.com/timkpaine/jupyterlab_commands/archive/v0.0.4.tar.gz
+Description: UNKNOWN
+Keywords: jupyter jupyterlab
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: dev
