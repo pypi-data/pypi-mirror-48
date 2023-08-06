@@ -1,0 +1,8 @@
+README.md
+setup.py
+pandasHana/__init__.py
+pandasHana/pandasHana.py
+pandasHana.egg-info/PKG-INFO
+pandasHana.egg-info/SOURCES.txt
+pandasHana.egg-info/dependency_links.txt
+pandasHana.egg-info/top_level.txt
