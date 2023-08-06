@@ -1,0 +1,11 @@
+puprelease/__init__.py,sha256=sHgBDHOrragFn2i_jtElMNOzfRz2qbKz77C2lkMMWAk,96
+puprelease/check.py,sha256=9wLYUSOyZN5tX2YNWrmPAdItUo6qvCE3XZbaFPy-5NM,2672
+puprelease/pup.py,sha256=hC2XFtXZ6kWXEQWdCrdwBYgP-JXLhUl1Inc6X9Or0FM,662
+puprelease/release.py,sha256=V0oF1J8_ROscF6dL80q-MXBW1JT-XufB4sXftleYbyg,3941
+puprelease/util.py,sha256=Xvq-0uAbaeumjh6HeqlkvOClURa_RW5SUuBg4IYJybE,3086
+puprelease-1.0.dist-info/LICENSE,sha256=xHmtiHhV5ZQyrLmDxgvlWL5gcTvPPFltuQvBama-zBg,1089
+puprelease-1.0.dist-info/METADATA,sha256=1Sc1IB9y-j_CndkQpXcU36eV9xfleNhn2A_73cgfGoI,407
+puprelease-1.0.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+puprelease-1.0.dist-info/entry_points.txt,sha256=3FeIAjeAeRBbDXhAmtcs6VcLFlvNvKXeGedHUv3vWjo,44
+puprelease-1.0.dist-info/top_level.txt,sha256=K5gVpKlTFCpYdfYvHFHiK_Xamg2kW5n_5D7awyETG7E,11
+puprelease-1.0.dist-info/RECORD,,
