@@ -1,0 +1,24 @@
+README.md
+setup.py
+examples/13kb_context_3b_prediction_dnase.hdf5
+examples/example.sh
+examples/k562_dnase_profile_arch.json
+examples/optimal_peak.narrowPeak.gz
+examples/regression on 200 bp genome bins.ipynb
+examples/train_profile_model.py
+locusselect/config.py
+locusselect/custom_losses.py
+locusselect/generators.py
+locusselect/metrics.py
+locusselect/utils.py
+locusselect.egg-info/PKG-INFO
+locusselect.egg-info/SOURCES.txt
+locusselect.egg-info/dependency_links.txt
+locusselect.egg-info/entry_points.txt
+locusselect.egg-info/requires.txt
+locusselect.egg-info/top_level.txt
+locusselect/deeplift/__init__.py
+locusselect/dist/__init__.py
+locusselect/dist/__init__.py~
+locusselect/embeddings/__init__.py
+locusselect/vis/__init__.py
