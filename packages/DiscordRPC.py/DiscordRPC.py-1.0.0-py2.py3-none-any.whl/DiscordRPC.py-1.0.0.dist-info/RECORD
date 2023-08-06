@@ -1,0 +1,13 @@
+discordrpc/__init__.py,sha256=ZbZC0FZkFMog_p3q7SDMyp1UXuyrwBVn2L_eNpghPn8,459
+discordrpc/baseclient.py,sha256=22lBSRX0hv34otNSWJbcSZCVIvaU47dcMngj6sM_POY,5477
+discordrpc/client.py,sha256=szniVtWn2quqn8HyJJ2PMNNDiWSkafyKc-puKRrGXBI,13580
+discordrpc/exceptions.py,sha256=Q53bsBPLBgHP-8UK2Xe46wj-Mk18TeiE_drNpNB2Vyg,1068
+discordrpc/payloads.py,sha256=DPBGObzYZXgLbjF_3sjK5jVV1XdaRs6aqs-MDkZifDg,7421
+discordrpc/response.py,sha256=0TlruQalcnf34kJkBwJ0VFKdl9MWraSdEO1UjZru4WE,614
+discordrpc/utils.py,sha256=hIJuTCip7lS8X5ooKoCAN16xOaSsSeI4PjE9_ixZpq0,618
+DiscordRPC.py-1.0.0.dist-info/LICENSE,sha256=D3ET8tSI6DEktOulMOpawgCSvJ9G22EJiZ4Zno7GXFM,1513
+DiscordRPC.py-1.0.0.dist-info/METADATA,sha256=hbXNmuVayXLfMSo_wJEjQbFykspulBg7ChnMfxYC2ms,2275
+DiscordRPC.py-1.0.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+DiscordRPC.py-1.0.0.dist-info/top_level.txt,sha256=SfjQz85K9DT-McDPi02jwMLVp5_PnBMojhfvPP1X0_Y,11
+DiscordRPC.py-1.0.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+DiscordRPC.py-1.0.0.dist-info/RECORD,,

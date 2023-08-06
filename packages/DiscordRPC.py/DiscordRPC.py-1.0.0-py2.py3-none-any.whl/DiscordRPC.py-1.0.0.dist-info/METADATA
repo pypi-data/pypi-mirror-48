@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: DiscordRPC.py
+Version: 1.0.0
+Summary: Complete Discord RPC interface written in Python
+Home-page: https://github.com/lbots/DiscordRPC.py
+Author: LBots
+License: MIT
+Keywords: discord rich presence discordrpc discordrpc.py rpc api interface richpresence irc
+Platform: Windows
+Platform: Linux
+Platform: OSX
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Communications :: Chat
+Classifier: Framework :: AsyncIO
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# DiscordRPC.py
+A complete RPC interface for Discord's API.
+
+_Original code by [qwertyquerty and LewdNeko](https://github.com/qwertyquerty/pypresence)_
+
+This whole thing is a big TODO right now...
+
+---
+### Installation
+Install from pip
+
+### Extending BaseClient
+If you are looking to extend BaseClient and implement your own behaviour / set of endpoints, please remember to implement the following:
+- `close` - a way of tidying up any open files or the event loop
+- `on_event` - If you do not want events, this can just `pass`, but if you do then you must handle them accordingly. The only argument passed is data, a dictionary created from Discord's event structure. You must be subscribed to receive these.
+
+---
+#### How to Use
+
+#### License
+Code that is indifferent from [pypresence v3.3.1 or earlier](https://github.com/qwertyquerty/pypresence) remains licensed under the MIT license and retain their copyright to the respective owner. Any changes that have been made are licensed and copyrighted under BSD 3-Clause "New" or "Revised" to LBots.  
+
+
