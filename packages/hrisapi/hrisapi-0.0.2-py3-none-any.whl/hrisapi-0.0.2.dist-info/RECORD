@@ -1,0 +1,10 @@
+hrisapi/__init__.py,sha256=VA_jMekCsAISSKpAOjfHRMPRf38M8lBfSt8ZmKiOn_U,5372
+hrisapi/exception.py,sha256=iUa7sn3Zv6nWUu4sGjWJx6Ntm7czohV26a0O3I0co7k,618
+hrisapi/schema.py,sha256=Z75KxicdeM-XDV6Odhoslt-140Pa915pbFA7Qn1bhow,5620
+hrisapi/zoho_schema.py,sha256=fUbdd65zHyvDpT7eVFftWrqYarCbT3TCTS6przPO3tY,23233
+hrisapi-0.0.2.dist-info/LICENSE,sha256=iiWR3RXmuEUkdosDx2z-190l_Ddy-wRmaLfhDj7r5zs,1074
+hrisapi-0.0.2.dist-info/METADATA,sha256=tYMn3O47NG18xJ5ECkHEU2d8R1w6Y1J4PWFxvhng108,953
+hrisapi-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+hrisapi-0.0.2.dist-info/entry_points.txt,sha256=3ff2UoyIpDBg2mR4t3pny2P-CZR4wL86HB4CuJSBWUk,42
+hrisapi-0.0.2.dist-info/top_level.txt,sha256=qMJtcptrZhEBq4p8PtjvVAMMoziJ-z_UtznSHNH9zlA,8
+hrisapi-0.0.2.dist-info/RECORD,,
