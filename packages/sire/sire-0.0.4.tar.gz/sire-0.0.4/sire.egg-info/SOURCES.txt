@@ -1,0 +1,8 @@
+README.md
+setup.py
+sire/__init__.py
+sire.egg-info/PKG-INFO
+sire.egg-info/SOURCES.txt
+sire.egg-info/dependency_links.txt
+sire.egg-info/not-zip-safe
+sire.egg-info/top_level.txt
