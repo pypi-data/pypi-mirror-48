@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pyetsy
+Version: 0.5.1
+Summary: Python access to the Etsy API
+Home-page: UNKNOWN
+Author: Dan McKinley & Fulfil.IO Inc.
+Author-email: dan@etsy.com,support@fulfil.io
+License: GPL v3
+Description: Python access to the Etsy API
+Keywords: etsy api handmade
+Platform: UNKNOWN
