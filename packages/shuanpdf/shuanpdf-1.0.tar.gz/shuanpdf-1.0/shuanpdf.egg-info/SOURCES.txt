@@ -1,0 +1,9 @@
+README.md
+setup.py
+shuanpdf/__init__.py
+shuanpdf/pdf2image.py
+shuanpdf/pdf2text.py
+shuanpdf.egg-info/PKG-INFO
+shuanpdf.egg-info/SOURCES.txt
+shuanpdf.egg-info/dependency_links.txt
+shuanpdf.egg-info/top_level.txt
