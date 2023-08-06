@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: puprelease
+Version: 1.0
+Summary: Publishing a new version of your Python package has never been easier
+Home-page: https://github.com/tfiers/puprelease
+Author: Tomas Fiers
+Author-email: tomas.fiers@gmail.com
+License: UNKNOWN
+Project-URL: Source Code, https://github.com/tfiers/puprelease
+Description: UNKNOWN
+Platform: UNKNOWN
