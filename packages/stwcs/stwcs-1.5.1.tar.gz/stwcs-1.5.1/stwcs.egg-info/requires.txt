@@ -1,0 +1,5 @@
+astropy
+numpy
+stsci.tools>=3.5.2
+requests
+lxml
