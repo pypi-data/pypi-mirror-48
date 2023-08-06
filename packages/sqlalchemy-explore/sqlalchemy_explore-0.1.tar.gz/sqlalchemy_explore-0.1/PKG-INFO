@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: sqlalchemy_explore
+Version: 0.1
+Summary: Utilities for working with pre-existing databases using SQLAlchemy
+Home-page: https://github.com/aviadr1/sqlalchemy-explore
+Author: Aviad Rozenhek
+Author-email: aviadr1@gmail.com
+License: MIT
+Download-URL: https://github.com/aviadr1/sqlalchemy-explore/archive/0.1-alpha.tar.gz
+Description: UNKNOWN
+Keywords: SQLAlchemy,reflect,explore,dump,automap
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
