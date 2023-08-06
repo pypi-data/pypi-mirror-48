@@ -1,0 +1,10 @@
+# default theme
+name               default-2bit
+background         0
+foreground         1
+default_background 0
+default_foreground 1
+
+colors 2
+0   0   0   
+255 255 255 
