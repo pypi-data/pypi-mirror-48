@@ -1,0 +1,10 @@
+itk_montage-0.3.0.dist-info/RECORD,,
+itk_montage-0.3.0.dist-info/WHEEL,sha256=Iih2rMDmluTbX-Lhyg4bn2rbB1WWHkPeoA2YdBqhroY,102
+itk_montage-0.3.0.dist-info/METADATA,sha256=ZHQC-hRrmW4lnu2mio5jicTQIn_V0KyF92VqjLCcEY8,1479
+itk_montage-0.3.0.dist-info/top_level.txt,sha256=K3Bo2NX2FvAd7ExrYg0rKrdBucaB6n6elW5QBc_g8FA,4
+itk/itkPhaseCorrelationOperatorPython.py,sha256=ds_5cyg1u-iYkrodDIcDICADrDCVZN0-TdObgEgBGhk,91150
+itk/MontagePython.py,sha256=TXk1YdkkYhHl8vDD9kmwWnz10qRAfAzEltxCBhowJiw,3288
+itk/itkPhaseCorrelationImageRegistrationMethodPython.py,sha256=ukzAZIgVvQUl6eMqXx8-nQjCc41nNnXCz9iLQHFV8Mo,71149
+itk/itkPhaseCorrelationOptimizerPython.py,sha256=rI1FWr-PySTpE80tu9JYzIOlLgCcuWQmPgFwwCTnsyU,52747
+itk/_MontagePython.so,sha256=UEce2eZkf6VMp3XOHYclqpaoTBRu9EUogjOphxjK4UU,5872416
+itk/Configuration/MontageConfig.py,sha256=236Ieanr5gdDln58F_m3kOWrMOSd_s6Q1nopr0VPq5k,3781
