@@ -1,0 +1,6 @@
+boto3>=1.9.174
+configobj>=5.0.6
+pyquery>=1.4.0
+requests>=2.22.0
+pkginfo>=1.5.0
+setuptools
