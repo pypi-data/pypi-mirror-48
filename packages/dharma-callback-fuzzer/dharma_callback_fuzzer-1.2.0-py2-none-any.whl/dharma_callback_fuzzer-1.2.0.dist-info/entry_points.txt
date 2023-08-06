@@ -1,0 +1,3 @@
+[console_scripts]
+dharma-callback-fuzzer = dharma_callback_fuzzer.harness:main
+
