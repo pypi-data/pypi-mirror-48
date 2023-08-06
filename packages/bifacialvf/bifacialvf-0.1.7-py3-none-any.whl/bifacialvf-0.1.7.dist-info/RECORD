@@ -1,0 +1,15 @@
+bifacialvf/__init__.py,sha256=ZxdgSh7ttuecyPGqoRB-qJrfAMXZygP-NscF8Pv3mp4,573
+bifacialvf/bifacialvf.py,sha256=tF9o1PO7AuSE1INtQqZZeAYzaj9X3YVFXL8cj7aDJvw,21825
+bifacialvf/loadVFresults.py,sha256=9zlTu0HgiwTQWnc88eBy74OqVh4T6XUcS_nwaqtDXy0,2102
+bifacialvf/readepw.py,sha256=FWftb6alCFiSogh_SCamGdzAhuS8w83VnySmYiU3wQM,5446
+bifacialvf/sun.py,sha256=rjkinj2NZoPxCqUjJD-CBTWewDRIDtecBi4_3_LpPxg,26096
+bifacialvf/vf.py,sha256=_2VMTXdyr0pKcuZRXVTvSh-y1ZIFEK4H1_IwxX9P7QI,78837
+bifacialvf/data/722740TYA.CSV,sha256=FTkjVZVfX9eOxYc_0zcS6-jPkMjME3pqFRNWkeAdzLs,1719667
+bifacialvf/data/724010TYA.CSV,sha256=5x7P_b6CxXZGBQDjpAq-DVv-Orz7TqR-Re0L_yRqI5w,1724307
+bifacialvf/data/724666TYA.CSV,sha256=v8APhbw2089YF2N7130vSIfFZxN1fPc2eLMwso3gVpY,1721693
+bifacialvf/data/USA_VA_Richmond.Intl.AP.724010_TMY.epw,sha256=vkUhQ_KKQhXSZFTIrU7PEnc8TA4LRt8BUuWsPQ-kZMM,1654052
+bifacialvf-0.1.7.dist-info/LICENSE,sha256=roHusHAgy0bZXyhueSB2T14Udt6v8XGx_ONzIVojY9c,2163
+bifacialvf-0.1.7.dist-info/METADATA,sha256=e6Ptr17YhvZU_WTBvbv7Q9vVpugX6RVYtjAC7J8A_K4,4054
+bifacialvf-0.1.7.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bifacialvf-0.1.7.dist-info/top_level.txt,sha256=2TigcmZFpqpFXIXfPMRsUOmOONaYM_-OFE07SB9X9zY,11
+bifacialvf-0.1.7.dist-info/RECORD,,
