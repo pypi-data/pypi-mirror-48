@@ -1,0 +1,12 @@
+smalldataviewer/__init__.py,sha256=qiUcG_FjL6P1MAZysaUxfdo7NlULlKv3roY_PfWMNa8,197
+smalldataviewer/__main__.py,sha256=h5CSj8L31PDFWkJZC09YjG5GG_l3d5U0WOeFlmAXlLo,2503
+smalldataviewer/ext.py,sha256=Jdyj-9yhhnNhrGdpyvSdTFNyva08PMCYf0yTWjY1Q9s,1064
+smalldataviewer/files.py,sha256=_6a7AIDBpbt1HLs2y8LTUOroVCLv-PPzmvl0C1JT_yU,4876
+smalldataviewer/version.py,sha256=xCsS3s4Jroc3FKGlsUj71PPtdegZ4bJ_7mBJedYJuaM,153
+smalldataviewer/viewer.py,sha256=pvJrI_W_xKK1KCJG1SjA6uRw0_3wtUYMAiRXsmgyV68,4928
+smalldataviewer-0.9.0.dist-info/LICENSE,sha256=iGuArjtKHv7ZXOs1ZirhX6y_Q7rFHJJ04qgGZiEWKD4,1069
+smalldataviewer-0.9.0.dist-info/METADATA,sha256=VMu_ng8LqINHx5H3g1HrmEia-1YzB6GLWHhMcfD2C0E,6410
+smalldataviewer-0.9.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+smalldataviewer-0.9.0.dist-info/entry_points.txt,sha256=PNYb-vXE_K7FH_ct-py1562FvpSMJRNfFKmULOwQYRU,105
+smalldataviewer-0.9.0.dist-info/top_level.txt,sha256=52XVYMaaznH9U74Rhxl1qhuYaW7abX-MB0cLXqsJdnQ,16
+smalldataviewer-0.9.0.dist-info/RECORD,,
