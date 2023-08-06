@@ -1,0 +1,17 @@
+typeform/__init__.py,sha256=zvabZgoxlknMA1vXZ1O4_o9tBg6ziCJeyabOv5GpKW4,552
+typeform/client.py,sha256=C3CEmAJRr5pPU0P0DDlAZSzhIjLIHRwFjkwYgFC_moQ,1600
+typeform/constants.py,sha256=Cke5IbVOfD_lS2gJcYri3dpZDx5xmt_lvgD71hepfEs,521
+typeform/forms.py,sha256=wfysVg5jxkF1U7aY5lTNgUNJi6W2QPBaCNsnsL4F2SQ,2998
+typeform/responses.py,sha256=TylcMyu-A18TaP0SO9vRpV3u9MDOignhCosQ3bn1X-k,1522
+typeform/utils.py,sha256=458tEjthyX844d31gZcLtT3rXWqWGojwsFMryO4MhYQ,861
+typeform/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+typeform/test/fixtures.py,sha256=Q87OT_TRLo1jBjy8_ikElaIs983nWGAWfjYi37XiMSI,141
+typeform/test/suite.py,sha256=cOuugEgsmb6U52KQH0_ORtt6JdYWtaEv_GnmaTBder8,146
+typeform/test/test_client.py,sha256=2DKBXpAkcWBfNRE-MWo-z40L3J0sFcpulWk9P9_dVbw,916
+typeform/test/test_forms.py,sha256=ylASQTXbPRVMgilE1k6zKd-ZseJ27knaF7nEOQicDRM,5733
+typeform/test/test_responses.py,sha256=TKEjTL1Fj81bxSUegUzLOQ3K2d7lKIF2U2QbdvZoAnU,3566
+typeform-1.1.0.dist-info/LICENSE,sha256=yVhl6r-b8KreDeWpmZO1t3gc3I2XYG6q2hVoMVFW94Y,1100
+typeform-1.1.0.dist-info/METADATA,sha256=meKTSIaWOhs3wzyl7IGU4mcWBAA8Q7ltHmFodp-NiBw,6332
+typeform-1.1.0.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+typeform-1.1.0.dist-info/top_level.txt,sha256=Ir2AjnHM-_Vnztd9XSslqQ4RsTjnhNmxAZF-p7uf8Rc,9
+typeform-1.1.0.dist-info/RECORD,,
