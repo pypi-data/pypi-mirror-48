@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+FlowNaturalisation.egg-info/PKG-INFO
+FlowNaturalisation.egg-info/SOURCES.txt
+FlowNaturalisation.egg-info/dependency_links.txt
+FlowNaturalisation.egg-info/requires.txt
+FlowNaturalisation.egg-info/top_level.txt
+flownat/__init__.py
+flownat/core.py
+flownat/tests/__init__.py
+flownat/tests/test_web_service.py
+flownat/tests/working.py
