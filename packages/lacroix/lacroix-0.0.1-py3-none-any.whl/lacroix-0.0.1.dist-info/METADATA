@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lacroix
+Version: 0.0.1
+Summary: Use LaCroix Color Palettes in Matplotlib & Seaborn
+Home-page: https://github.com/ethanagbaker/LaCroix
+Author: Ethan Alexander Garcia Baker
+Author-email: ethanagbaker@gmail.com
+License: cc-by-sa
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
