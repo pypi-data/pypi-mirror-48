@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+import os
+script = """
+apt-get -s dist-upgrade | grep "^Inst" | 
+    grep -i securi | awk -F " " {'print $2'} | 
+    xargs apt-get install
+"""
+os.system("bash -c '%s'" % script)
