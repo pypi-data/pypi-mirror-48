@@ -1,0 +1,9 @@
+dockertarpusher/__init__.py,sha256=fhNdgN8DLq8aNxS9il48Uvuvk7wMDwbN-6FvmBlFUcQ,107
+dockertarpusher/dockertarpusher.py,sha256=yKhubLPC91kZv7EX75L7LyBeoaedP7S4RmKeHm1ThWE,6918
+dockertarpusher/manifestcreator.py,sha256=itP_X4uUEqzzsZQXid8Wg1nWr0uJlW8P5nrs4a6d-Po,1576
+dockertarpusher-0.16.data/scripts/docker-tar-push,sha256=4U-dYBhGcbmAwOk7SGhGnA18kFzln4HaZ1I2hHld5fQ,614
+dockertarpusher-0.16.dist-info/LICENSE,sha256=FleE2sTZJkgUvMFzdWVSHQGvbjfut5pgmEUdlFTr_zU,1073
+dockertarpusher-0.16.dist-info/METADATA,sha256=aGMMsODJRTqRNoj0sNZJpG9tZscd-oQ5z9037V2pecA,1155
+dockertarpusher-0.16.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+dockertarpusher-0.16.dist-info/top_level.txt,sha256=3IVeLlA_D4vxg6njbMLHiOWlixebgEx9CNMYEat9rLk,16
+dockertarpusher-0.16.dist-info/RECORD,,
