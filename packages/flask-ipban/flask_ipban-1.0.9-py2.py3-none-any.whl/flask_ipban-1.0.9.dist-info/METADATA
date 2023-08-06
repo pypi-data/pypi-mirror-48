@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: flask-ipban
+Version: 1.0.9
+Summary: URL spam security for Flask.
+Home-page: https://github.com/Martlark/flask-ipban
+Author: Andrew Rowe
+Author-email: rowe.andrew.d@gmail.com
+License: Apache Software License
+Download-URL: https://github.com/Martlark/flask-ipban/archive/1.0.9.tar.gz
+Requires-Dist: flask (>=0.11)
+Requires-Dist: pyyaml
+Requires-Dist: itsdangerous
+Requires-Dist: requests
+
+IpBan: HTTP spam security for Flask
+
+
