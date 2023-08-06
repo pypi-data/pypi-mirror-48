@@ -1,0 +1,10 @@
+naver_api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+naver_api/naver_search.py,sha256=A4AywTPV3PQmxyD6Eqg08P3hMW2-GxQvCUtBgaTGBl8,2138
+water/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+water/kofiabond.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+water/naver.py,sha256=47Av5MuORs6E0m7E5LDDBq3H9WXipgfe_Z2-bXvQbe0,2410
+water/naver_search.py,sha256=A4AywTPV3PQmxyD6Eqg08P3hMW2-GxQvCUtBgaTGBl8,2138
+water_api-0.5.dist-info/METADATA,sha256=CDwEJTrfvIK8sUK1l_-TyVAq1pOJSRthK7PGH67hwgE,340
+water_api-0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+water_api-0.5.dist-info/top_level.txt,sha256=jfBeXcqQI7rBZwBorbBcvkbbLAXIlHZzb-_Opgx1TvM,6
+water_api-0.5.dist-info/RECORD,,
