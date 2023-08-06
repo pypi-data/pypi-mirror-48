@@ -1,0 +1,19 @@
+<svg width="640" height="480" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <defs>
+  <symbol viewBox="0 0 64 64" height="64px" width="64px" y="0px" x="0px" id="svg_2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+   <polyline points="0,48 15,48 47,16 63,16 " stroke-miterlimit="10" stroke-width="2" stroke="#000000" fill="none"/>
+   <polyline points="37,38 47,48 63,48 " stroke-miterlimit="10" stroke-width="2" stroke="#000000" fill="none"/>
+   <polyline points="0,16 15,16 25,26 " stroke-miterlimit="10" stroke-width="2" stroke="#000000" fill="none"/>
+   <path d="m56,23" stroke-miterlimit="10" stroke-linejoin="bevel" stroke-width="2" stroke="#000000" fill="none"/>
+   <polyline points="56,23 63,16 56,9   " stroke-miterlimit="10" stroke-linejoin="bevel" stroke-width="2" stroke="#000000" fill="none"/>
+   <polyline points="56,55 63,48   56,41 " stroke-miterlimit="10" stroke-linejoin="bevel" stroke-width="2" stroke="#000000" fill="none"/>
+  </symbol>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <use x="0" y="0" transform="matrix(2.5,0,0,2.5,0,0) " xlink:href="#svg_2" id="svg_3"/>
+  <g id="svg_4"/>
+  <text stroke="#000000" transform="matrix(1.5477888584136963,0,0,1.6441681385040283,-5.298145364969969,-33.98993443325162) " xml:space="preserve" text-anchor="middle" font-family="serif" font-size="24" id="svg_5" y="74" x="15" stroke-width="0" fill="#000000">C</text>
+ </g>
+</svg>
