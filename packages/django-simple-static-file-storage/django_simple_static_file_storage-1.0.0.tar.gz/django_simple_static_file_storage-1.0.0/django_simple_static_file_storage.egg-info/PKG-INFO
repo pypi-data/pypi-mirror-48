@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: django-simple-static-file-storage
+Version: 1.0.0
+Summary: Simple static file storage for user uploads.
+Home-page: https://github.com/matix-io/django-simple-static-file-storage
+Author: Connor Bode
+Author-email: connor@matix.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
