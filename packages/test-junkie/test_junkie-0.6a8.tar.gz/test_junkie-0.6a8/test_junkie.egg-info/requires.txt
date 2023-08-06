@@ -1,0 +1,5 @@
+statistics
+psutil
+appdirs
+configparser
+colorama
