@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sciunit
+Version: 0.2.1
+Summary: A test-driven framework for formally validating scientific models against data.
+Home-page: http://sciunit.scidash.org
+Author: Rick Gerkin
+Author-email: rgerkin@asu.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: cypy (>=0.2)
+Requires-Dist: quantities (==0.12.1)
+Requires-Dist: pandas (>=0.18)
+Requires-Dist: ipython
+Requires-Dist: matplotlib
+Requires-Dist: bs4
+Requires-Dist: lxml
+Requires-Dist: nbconvert
+Requires-Dist: ipykernel
+Requires-Dist: nbformat
+Requires-Dist: gitpython
+Requires-Dist: cerberus (>=1.2)
+Requires-Dist: backports.tempfile
+
+UNKNOWN
+
+
