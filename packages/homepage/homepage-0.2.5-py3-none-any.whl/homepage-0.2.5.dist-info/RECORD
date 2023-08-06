@@ -1,0 +1,17 @@
+homepage/__init__.py,sha256=LA4CQh6jQUmjeCNuLZpTx7x43-sqRJiy85NINNxPrt8,42
+homepage/__main__.py,sha256=YaJuwBiJGnbRUIGVIm1wmu2q3sMuXMquoTB8k7umh0M,64
+homepage/homepage.py,sha256=bMRUX4HLDeiqehhYIC8JgRS5L82Yo0BPd0DEWtFU1Us,9216
+homepage/static/Background.jpg,sha256=djoKBEMTWdWyERDZa7LfzEop1nmn7p0cprsrqpZYlqg,373279
+homepage/static/HomePage.png,sha256=Cl9RgEOpEHYEUHHF7Ser4rQ_2LO6RNwKYtz1GcsgOpI,61540
+homepage/static/favicon.png,sha256=5hnja3aLDIgRGCBtvIB6d6E4iJ04Nj2QOVqqlKVXjBo,395
+homepage/static/light_theme.css,sha256=owMAz4yLKltzm_DwpEuYa1eSCybU2riA5unuTP9TqVY,897
+homepage/static/styles.css,sha256=7aJwQ6X6babh5cxB_aUMMdnBqZUYnirnKu1LHcwcw1c,15983
+homepage/static/styles2.css,sha256=wb6TWfwYXRpQFXEBVViQBUYR5k81gvlsozXY_Dj7j-4,16880
+homepage/templates/error_template.html,sha256=r5S9267RqwQSMEmJcFGbTLF-CnTYrgzgUb5_JTC7cd0,127
+homepage/templates/site.html,sha256=rTNiOgoTG43tQi1jrg3AZwAJ6ozf4E3IPekWfqPP12Y,15813
+homepage-0.2.5.dist-info/LICENSE,sha256=KShGdV7XY6bb8LggzCqKHMVQlrmmDj3TxB1iI1dUxvI,1080
+homepage-0.2.5.dist-info/METADATA,sha256=oEMFW4anP_Voqq9PBGCFIq7XmJ05WKkb9U2Fs-p77Dc,6414
+homepage-0.2.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+homepage-0.2.5.dist-info/entry_points.txt,sha256=euo98FX6rkuHy-kEfx2uTZGY9oPgLmy6TMjVdhQtbLU,44
+homepage-0.2.5.dist-info/top_level.txt,sha256=JSVSlhmhwFVfDjGYfWYut_DD8rHRR_KHc2cME1NEuwc,9
+homepage-0.2.5.dist-info/RECORD,,
