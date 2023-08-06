@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: flask-observability
+Version: 0.0.1.dev13
+Summary: InfluxDB-based observability utilities for Flask
+Home-page: https://github.com/adimian/flask-observability
+Author: Adimian
+Author-email: contact@adimian.com
+License: UNKNOWN
+Description: InfluxDB-based observability utilities for Flask
+Platform: UNKNOWN
