@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: homeassistant-braviarc
+Version: 0.3.8.dev0
+Summary: This package is a temporary solution to update braviarc.
+Home-page: https://github.com/aparraga/braviarc.git
+Author: Antonio Parraga
+Author-email: antonio@parraga.es
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

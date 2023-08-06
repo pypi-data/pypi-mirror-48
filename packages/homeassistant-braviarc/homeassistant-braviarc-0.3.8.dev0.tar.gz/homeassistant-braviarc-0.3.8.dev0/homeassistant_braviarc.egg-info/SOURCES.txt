@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+braviarc/__init__.py
+braviarc/braviarc.py
+homeassistant_braviarc.egg-info/PKG-INFO
+homeassistant_braviarc.egg-info/SOURCES.txt
+homeassistant_braviarc.egg-info/dependency_links.txt
+homeassistant_braviarc.egg-info/not-zip-safe
+homeassistant_braviarc.egg-info/requires.txt
+homeassistant_braviarc.egg-info/top_level.txt
