@@ -1,0 +1,12 @@
+chemlg/__init__.py,sha256=cGWC2-anqCCUVEmZJk4GMAHFe5cEzt4ZykFsmlP0tRU,65
+chemlg/constrained.py,sha256=de6Ew950Q7ED3wlrRM3t9Zsv8gaQEf2K96Bul7_p_e0,30323
+chemlg/feasibility.py,sha256=TOib32aL_kFky1rU-PsKF2LmoUxb6DclGUPAXKDJBGk,3465
+chemlg/libgen.py,sha256=GmT7G8w2vjZrBiy5XVg3KyAKb8nUcu4N-KZpmEK8isU,36443
+chemlg/notebooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemlg/notebooks/main.py,sha256=v0sNhPxOCFk8XOHY7UEGkc6YQ1LzAJZEgPD76xKSUEU,34548
+chemlg/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+chemlg-0.6.0.data/scripts/chemlgshell,sha256=pKVe4LgtrKrigcZuHzGffYGkJHpdZT-utzG9D_amzy8,1033
+chemlg-0.6.0.dist-info/METADATA,sha256=tGBrp_fc7n5Xpzn0fjMoxk0zPofLGvZ0F0zvY4EbzYc,4521
+chemlg-0.6.0.dist-info/RECORD,,
+chemlg-0.6.0.dist-info/WHEEL,sha256=_V8uWu5F_h-lvAz5Mbq4oZqV_uCfL4cHgm4IIlDevzU,92
+chemlg-0.6.0.dist-info/top_level.txt,sha256=fPwJzWwdS1abbL2Y6IO-LVd7QGUmUGVFFX6cve3hHhw,7
