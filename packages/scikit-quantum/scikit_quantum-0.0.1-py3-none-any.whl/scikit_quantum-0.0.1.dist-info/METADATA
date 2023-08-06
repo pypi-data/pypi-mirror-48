@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: scikit-quantum
+Version: 0.0.1
+Summary: Quantum Computing in Python
+Home-page: https://github.com/scikit-quantum/scikit-quantum
+Author: scikit-quantum developers
+Author-email: kallada@cs.dal.ca
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/scikit-quantum/scikit-quantum/issues
+Project-URL: Source, https://github.com/scikit-quantum/scikit-quantum/
+Keywords: scikit scikit-learn quantum machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.0, <4
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# scikit-quantum
+
+scikit-quantum is a Python module for quantum computing and quantum machine learning built primarily on top of PennyLane and is distributed under the 3-Clause BSD license.
+
+# Building the Documentation
+
+We use GitHub pages to host our documentation. To compile the docs to the `docs` folder run:
+
+> make -f build_tools/build_docs/Makefile html
+
+
