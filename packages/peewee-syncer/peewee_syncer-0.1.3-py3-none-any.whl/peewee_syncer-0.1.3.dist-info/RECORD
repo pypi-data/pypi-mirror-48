@@ -1,0 +1,8 @@
+peewee_syncer/__init__.py,sha256=UHmzzOYlQUCjRzXN76zCtfvylfSHkm8tCjqa6AkRFzY,127
+peewee_syncer/models.py,sha256=3ca70NZ_oeYAGpe9Cf6H8Hz_YlhEQUjfrQmqdJqpMnk,1525
+peewee_syncer/processor.py,sha256=TjqBEMm4vzpBSLEnFOBZu_Rvtlu0yuwRmnBwhOUjQhI,5349
+peewee_syncer/utils.py,sha256=pRk5_QVxXWrXFNKFaqiE0LePA2lWhW2XBfgxKUPbJGE,1715
+peewee_syncer-0.1.3.dist-info/METADATA,sha256=Fuqp-T6arZ4bCdwQN-XtK-dcOFuqzuaLCGzi1CJ70Pc,11645
+peewee_syncer-0.1.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+peewee_syncer-0.1.3.dist-info/top_level.txt,sha256=c4bjgEcd2wq2jOvkpoW2bVWshr43LFzcA4Y_pVIYqwg,14
+peewee_syncer-0.1.3.dist-info/RECORD,,
