@@ -1,0 +1,7 @@
+Flask
+flask-resto
+ruko
+flask-ruko
+gunicorn
+prettyparse
+notify-client
