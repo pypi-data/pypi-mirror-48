@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: rfc2html
+Version: 2.0.1
+Summary: Convert text-format RFCs and Internet-Drafts to html
+Home-page: https://tools.ietf.org/tools/rfcmarkup/
+Author: Henrik Levkowetz
+Author-email: henrik@levkowetz.com
+License: Simplified BSD
+Description: Htmlizing IETF Text Documents
+        =============================
+        
+        This module contains one single function, ```markup(text)``` which adds HTML markup
+        to what is assumed to be an IETF document (usually an Internet-Draft_ or an RFC_)::
+        
+          from rfc2html import markup
+          with open('rfc3344.txt') as file:
+              text = file.read()
+          html = markup(text)
+        
+        As a historic artifact of being a document series which was started at the time when the easiest
+        way of distributing a 'Request For Comments' was to type it up on a typewriter and mimeographing_
+        it, RFCs and Internet-Drafts have traditionally been published as plaintext documents with a
+        maximum line length of 72 characters.
+        
+        This format isn't particularly appropriate in a web-centric world, howerver, so starting in
+        2002, `Henrik Levkowetz`_ started using scripts to convert the plaintext documents into HTML
+        documents with the same look-and-feel as the plaintext originals, but with internal and external
+        HTML links in order to facilitate browsing.
+        
+        Since 2004, the resulting documents have been made available on `tools.ietf.org`_.
+        
+        This module is a packaging of the htmlization code from version 1.113 of the htmlizing script.
+        Earlier version of the script are available at `tools.ietf.org/tools/rfcmarkup`_
+        
+        .. _Internet-Draft: https://en.wikipedia.org/wiki/Internet_Draft
+        .. _RFC: https://en.wikipedia.org/wiki/Request_for_Comments
+        .. _mimeographing: https://en.wikipedia.org/wiki/Mimeograph
+        .. _`tools.ietf.org`: https://tools.ietf.org/html/
+        .. _`tools.ietf.org/tools/rfcmarkup`: https://tools.ietf.org/tools/rfcmarkup
+        .. _`Henrik Levkowetz`: mailto:henrik@levkowetz.com
+        
+        
+        Changelog
+        =========
+        
+        Version 2.0.1 (25 Jun 2019)
+        ------------------------------------------------
+        
+        
+          * Changed tabs to spaces for python 3.
+        
+          * Now importing escape() from html instead of cgi if possible.  
+        
+          * Added a name= keyword argument to markup(), in order to be able to do
+            special handling dependent on the draft or RFC name.  
+        
+          * Added special case handling for draft-ietf-dnsop-interim-signed-root-01.
+        
+          * Corrected the copyright in setup.py; fixed some pyflakes issues, and added
+            sys reload with defaultencoding UTF-8 under py27.
+        
+          * Added a tox.ini file for test runs across py27 and 3.4-3.6, and a trivial
+            tests.py placeholder.
+        
+          * Added control character stripping.
+        
+          * Added code to identify not only the start but also the end of reference
+            section(s).
+        
+        
+        
+        
+        
+        Version 1.121 (13 Jul 2016)
+        ------------------------------------------------
+        
+        
+          * Added handling for 'Section x of RFC y', with an intervening line
+            break after 'Section', and similar cases.
+        
+        
+        
+Keywords: R,F,C, ,a,n,d, ,I,n,t,e,r,n,e,t,-,D,r,a,f,t, ,t,e,x,t, ,t,o, ,h,t,m,l, ,c,o,n,v,e,r,s,i,o,n
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Other Audience
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Markup :: XML
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Provides-Extra: dev
