@@ -1,0 +1,9 @@
+qwiic_i2c/__init__.py,sha256=KV_pIHjkzk9I0fD79I9pklhrtJUtLW7BqHsXRLOrgPU,2460
+qwiic_i2c/circuitpy_i2c.py,sha256=uZSHizy_Y9-ETZX90cbbPGM4OuYL5Q_2mVGSsSpkaO0,6187
+qwiic_i2c/i2c_driver.py,sha256=71naJMsFbBbhX6Rpk81lLuhyzczCun64a24iCfvoLp4,2689
+qwiic_i2c/linux_i2c.py,sha256=I7BpF2V0STGZiQWpfZXNrWWq0pe9O6dhOZmdV-qUTcw,5708
+sparkfun_qwiic_i2c-0.8.0.dist-info/LICENSE,sha256=LL-W5AYijfMKi10xfQceLeJCtk2b6StoyOtLcm6iUfo,1059
+sparkfun_qwiic_i2c-0.8.0.dist-info/METADATA,sha256=VGhVv4DyyC201Khw7_mdAFJWVFuVw_sA4hBhlctbESo,799
+sparkfun_qwiic_i2c-0.8.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+sparkfun_qwiic_i2c-0.8.0.dist-info/top_level.txt,sha256=2OWMFT9-KMR6bMSaxzVpC_uXeqIEdqnIX2TVa6weMyk,10
+sparkfun_qwiic_i2c-0.8.0.dist-info/RECORD,,
