@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: exif2pandas
+Version: 1.0
+Summary: Extract EXIF to pandas / SQL / Excel / Feather
+Home-page: https://github.com/visgean/exif2pandas
+Author: Visgean
+Author-email: visgean@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: exif sql
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
