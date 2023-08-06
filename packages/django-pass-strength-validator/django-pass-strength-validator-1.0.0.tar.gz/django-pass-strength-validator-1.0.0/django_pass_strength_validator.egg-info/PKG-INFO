@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: django-pass-strength-validator
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/mfdeux/django-pass-strength-validator
+Author: Marc Ford
+Author-email: mrfxyz567@gmail.com
+License: MIT
+Description: # django-pass-strength-validator
+        
+        `django-pass-strength-validator` is a password strength validator for Django based on the [`zxcvbn`](https://github.com/dropbox/zxcvbn) library developed by Dropbox. Any time a user attempts to set a password with a strength less than the specified level, a ValidationError will be raised. This enhances the security of your app by ensuring users have strong passwords.
+        
+        Through pattern matching and estimation, the zxcvbn library recognizes and weighs 30k common passwords, common names and surnames according to US census data, popular English words from Wikipedia and US television and movies, and other common patterns like dates, repeats (`aaa`), sequences (`abcd`), keyboard patterns (`qwertyuiop`), and l33t speak.
+        
+        ## Installation
+        
+        ```shell
+        pip install django-pass-strength-validator
+        ```
+        
+        ## Usage in Django
+        
+        Add a string reference to the PasswordStrengthValidator class from the `django-pass-strength-validator` library in the `AUTH_PASSWORD_VALIDATORS` list in your Django project settings.
+        
+        The `zxcvbn` library returns a password strength score from 0 to 4, with 0 being the weakest and 4 being the strongest password strength. The default minimum password strength level for the `django-pass-strength-validator` library is 3. This means if a user attempts to save a password that has a strength less than 3, a ValidationError will be raised. You can change the minimum password strength level by passing though an OPTIONS value in Django settings, as shown in the example below.
+        
+        ```python
+        AUTH_PASSWORD_VALIDATORS = [
+            # There will likely be other validators included by default
+            {
+                'NAME': 'django_pass_strength_validator.PasswordStrengthValidator',
+                'OPTIONS': {
+                    'min_strength': 3, # Optional, can be an integer from 0 to 4
+                }
+            },
+        ]
+        ```
+        
+Keywords: django,zxcvbn,password,security
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Security
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
