@@ -1,0 +1,16 @@
+README.md
+setup.py
+DatastoreClient/Client.py
+DatastoreClient/CommandLineInterface.py
+DatastoreClient/Downloader.py
+DatastoreClient/Queryer.py
+DatastoreClient/Resources.py
+DatastoreClient/Structures.py
+DatastoreClient/Uploader.py
+DatastoreClient/__init__.py
+DatastoreClient/client.py
+DatastoreClient/utils.py
+DatastoreClient.egg-info/PKG-INFO
+DatastoreClient.egg-info/SOURCES.txt
+DatastoreClient.egg-info/dependency_links.txt
+DatastoreClient.egg-info/top_level.txt
