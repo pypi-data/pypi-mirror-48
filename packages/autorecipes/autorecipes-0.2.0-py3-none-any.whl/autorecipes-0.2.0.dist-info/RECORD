@@ -1,0 +1,15 @@
+autorecipes/__init__.py,sha256=8PiQJgq0QmTi8p9uQA0awwr5koyfyqZJ8V34z6Dh1Yg,152
+autorecipes/cmake.py,sha256=6EAH_v6QZvGFUj7rlgSN3FbhEZdoj-UjC8YUmBN8sN8,8545
+autorecipes/data/configure/CMakeLists.txt,sha256=Nd4eG71jSlRWuOX5hRdndsHgdoEqJWrFJSgpJysMzIg,356
+autorecipes/data/configure/attributes.py.in,sha256=lusflzUICP_1h3MizyRYSbw5l3BHk685FCphZNqRIek,651
+autorecipes/data/install/CMakeLists.txt,sha256=qq2FtfzkgNAODJ9ZU0Ladk7rv6TUerXnrF5d6bmo6i8,4518
+autorecipes/data/install/cpp_info.py.in,sha256=LVXyRQn5G5LQQKuOdZyV-_auG1Hzhf37KZ12S2bV9Qo,2403
+autorecipes/descriptors.py,sha256=Jo2gqe6w6i0KbBdKQO_RCVLhxROD2XQlRRMrDDw2CVw,2404
+autorecipes/descriptors.pyi,sha256=NqpCyFSvu6Ttnnh3mGen2P5hb9ghlvv2BczeP5Ya4Vs,1603
+autorecipes/python.py,sha256=q123fGjAYUnpYziYbOr6XGDVzXqRZjyncfh07l_BIU0,1962
+autorecipes/stdlib.py,sha256=g9VzveqB6udnL45aw85h2obuf3n7JhUrTi-axOq6JSo,1528
+autorecipes/stubs/conans/__init__.pyi,sha256=G3diglRAeselKUn99JmvWc6sEGDlyIhOBseQV4bCUSM,346
+autorecipes-0.2.0.dist-info/LICENSE,sha256=ObN9RxwjM63J4wFa-pBk66Y6JZGbqPgshdwWN1T_KAs,761
+autorecipes-0.2.0.dist-info/WHEEL,sha256=qqH4VFAGHuXzke2tXb1YpuzJyjZRAueWBHbC3m2yit8,85
+autorecipes-0.2.0.dist-info/METADATA,sha256=5SFpFEPm0DGTB1CLsDenQeVZ5hcQbTwi2vg47PAxCDE,3913
+autorecipes-0.2.0.dist-info/RECORD,,
