@@ -1,0 +1,13 @@
+README.md
+setup.py
+marsh_schema_piapia/__init__.py
+marsh_schema_piapia/base_schema.py
+marsh_schema_piapia/cmd.py
+marsh_schema_piapia.egg-info/PKG-INFO
+marsh_schema_piapia.egg-info/SOURCES.txt
+marsh_schema_piapia.egg-info/dependency_links.txt
+marsh_schema_piapia.egg-info/entry_points.txt
+marsh_schema_piapia.egg-info/requires.txt
+marsh_schema_piapia.egg-info/top_level.txt
+tests/__init__.py
+tests/test_base_schema.py
