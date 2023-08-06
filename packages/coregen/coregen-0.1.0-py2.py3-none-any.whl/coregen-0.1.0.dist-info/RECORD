@@ -1,0 +1,9 @@
+coregen/__init__.py,sha256=qkvEYd9T8IC_6NnClNV1IsZaxLzhkcYOqpONicBFDmg,153
+coregen/common.py,sha256=YsevenhaDVTjJIpd8f2wSD0boluQn9L7NWDHZAv46oM,201
+coregen/coregen.py,sha256=VYoI-gwqwBKPx84cA0KnYDRofrgIXs8xtASD2nu5fE0,44
+coregen-0.1.0.dist-info/AUTHORS.rst,sha256=vM7t1INbClwZMSRYZOFcGCXbbIGdEB4R9Fn3I2g-Sjw,159
+coregen-0.1.0.dist-info/LICENSE,sha256=JLgp9XHeTltN0K3GjWCJKuSvU8Jk0ff82BAqY8ic6MQ,1073
+coregen-0.1.0.dist-info/METADATA,sha256=sbISga593pXat0QE1eJfs7WYmF5FIYe93mEMzmghkDs,1606
+coregen-0.1.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+coregen-0.1.0.dist-info/top_level.txt,sha256=PABuaQgfiyQ89iUo2fTEzNPRIuIPi6nWVI3WxnO2_64,8
+coregen-0.1.0.dist-info/RECORD,,
