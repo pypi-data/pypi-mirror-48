@@ -1,0 +1,14 @@
+django_import_export_celery-0.0.1.dist-info/DESCRIPTION.rst,sha256=wxfGkYzB-ynpYlHWM-mnnfyqZnzrwo1S_ZwlXUDCTBQ,2310
+django_import_export_celery-0.0.1.dist-info/METADATA,sha256=m_nM47zU8zkvJWC5b7L6aMf0YD_FQ5Q82dPMT0DJtsA,3208
+django_import_export_celery-0.0.1.dist-info/RECORD,,
+django_import_export_celery-0.0.1.dist-info/WHEEL,sha256=rNo05PbNqwnXiIHFsYm0m22u4Zm6YJtugFG2THx4w3g,92
+django_import_export_celery-0.0.1.dist-info/metadata.json,sha256=4yo0xWNMm5IC4NtvQ0t5n28_VInVniudvoG1XoKsURY,1049
+django_import_export_celery-0.0.1.dist-info/top_level.txt,sha256=O-DU1zs7kWQNm83f679fHkLwy4Yvjg9na7A6uFIl6Tk,21
+import_export_celery/__init__.py,sha256=QzZGBIPTlFGa4-AcCFxm3AYXQshzu0E-Ph_q6cb-5P0,45
+import_export_celery/admin.py,sha256=O6FDiSrGYzOt4hrn9mnD5APEDnb0e823EyhaBWWaHGo,568
+import_export_celery/model_config.py,sha256=ob9H24O8OIxr0M17Z7Luo23gnEAQKfPSHRl1RUgO6Ok,395
+import_export_celery/tasks.py,sha256=ITsztlA6FfUCxFwUqcgSRIgpKIFtz0wBxObEoW6DXAU,2763
+import_export_celery/migrations/0001_initial.py,sha256=ZmHXjC-OwCXrLpP_TnpsVLxNhc2MqofDcDIwWYPYrsk,2445
+import_export_celery/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+import_export_celery/models/__init__.py,sha256=tOuqdKNfTEN9Z_WH3e0QyRMdOemjnbiILWVCTxyX9Go,175
+import_export_celery/models/importjob.py,sha256=vCnPtJs2RbWrMjpiKpIOtqQyzs5hW4RPUg1tFSKRCMo,2940
