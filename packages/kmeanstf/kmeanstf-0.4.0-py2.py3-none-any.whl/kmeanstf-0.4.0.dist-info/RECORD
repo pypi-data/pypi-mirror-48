@@ -1,0 +1,8 @@
+kmeanstf/__init__.py,sha256=I2Wn68qcVfCfV0G7EOnlk_GsgnatMIhKZoWQO2X5iT4,68
+kmeanstf/initializer.py,sha256=18RfwCU0Ppk_SK8kOMfGnl2dnVe6XtDXSk3BSMJ6-6M,4420
+kmeanstf/kmeanstf.py,sha256=hMATPheiRbbtv2iNy8TIJSeCllOCsRNzpdI4og3faRU,10701
+kmeanstf-0.4.0.dist-info/LICENSE,sha256=7nr5-rQLplPIXOZi7BBc3wk6brMd3TlVpv_-R3JeJXI,1608
+kmeanstf-0.4.0.dist-info/METADATA,sha256=bvIJlmXBf7fHPzjFnFDB1jrFw4HmV91S9gsO9Fdxn8I,11286
+kmeanstf-0.4.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+kmeanstf-0.4.0.dist-info/top_level.txt,sha256=jJEKTLdE2xoPpGT4HcrobxpBGgxGz9zs1ABIX5CvtBI,9
+kmeanstf-0.4.0.dist-info/RECORD,,
