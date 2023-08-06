@@ -1,0 +1,3 @@
+[console_scripts]
+embeddingdb = embeddingdb.cli:main
+
