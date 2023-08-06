@@ -1,0 +1,7 @@
+[console_scripts]
+xfmt = xfmt.cli:main
+
+[xfmt.formatter]
+xfmt.black = xfmt.black_fmt:BlackFormatter
+xfmt.json = xfmt.json_fmt:JsonFormatter
+

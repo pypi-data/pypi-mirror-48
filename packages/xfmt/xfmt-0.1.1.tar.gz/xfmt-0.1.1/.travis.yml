@@ -1,0 +1,31 @@
+os: linux
+sudo: false
+language: python
+matrix:
+  include:
+  - python: '3.7'
+    dist: xenial
+    sudo: true
+    env: TOXENV=py37,cov-codecov
+  - python: '3.6'
+    env: TOXENV=py36,cov-codecov,linting,formatting,typing
+  fast_finish: true
+install:
+- pip install -cconstraints.txt tox-constraints
+script:
+- tox
+cache:
+- pip
+branches:
+  only:
+  - "/^.*master$/"
+  - "/^\\d+\\.\\d+(\\.\\d+)?(-\\S*)?$/"
+deploy:
+  on:
+    python: '3.6'
+    env: TOXENV=py36,cov-codecov,linting,formatting,typing
+    tags: true
+  provider: pypi
+  user: sprigmaintainer
+  password:
+    secure: cmuUKvB4hrKDwj8KZ5EB+gA0ebJwsVltm/AUpko6MD7BI7dDJru2PQNbfr/oEdBmpzhiqOznO2cDO8AeeVAf4QqPDDakDEfei0KqfsSzbYxDpwlUl7darPYtgCOCq+ZYBwVpSAxoA/BtrFUq7ZADf39UJc3A8WuCeeV96SqU94ruesyoRhk6Gk+rmW00wNGFDEw7fr6BGog5My1QRBdXClx5s0tValeSbGjYOC6/WdQVqqCyivqunotcgSeypNiI4uVih5ggDnaFmsaIpF9GMkiqa5ykDCRDDZ5TwWJdK9FUEJFB5yWOog8CFDx6LeuoNh0Xjzb6ICYKOlbzxnyIIwrbiTRRaib+Q2V/w+hItH35mgwUzXLbGdClUzhbd5rUjknX1A3xDw9XrEoUdZACx26iT7NdX9aO2brgRApZ0kT0rbci45tUBnSr93KSBmJZUciM3Yw2KdlchV1iBNPxO5Jl0fMMTKuMpPj+MUVpZrrIZn/BkIqOf0cKL4AuCwkGwA5MC15r0/ttcLOUgGU2wffdLxXkOrVXsMq+SYRgcBsctWHfsVKqBCXGzbcKAxfnn+mH80RTvOrhn3Y8+44ImZz/q+Ip++p2nMsNI5BLWw7bMkFNx0L47tfnqsm88UUHumYWflmd/oRIrHmJW8w/NAUZLLN7Z32FO0A5oTd9QO8=
