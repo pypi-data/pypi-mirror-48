@@ -1,0 +1,17 @@
+dohproxy/__init__.py,sha256=LwAiEKYy2yubVPdoZo1sQ4K2Pox832GyiFjQckodikw,250
+dohproxy/client.py,sha256=3L6WzvMCer_Qm0eLhyJ6N6C8ggO_UF1YpbAGJlGWnjc,1525
+dohproxy/client_protocol.py,sha256=mlWdmi-61c56FvKZl5XO11PLmR76iKzigm1CQQq_cik,5018
+dohproxy/constants.py,sha256=8z-twwHpYbtGEO4ulioWkigraI-GoJlchFf5SqfCR-A,375
+dohproxy/httpproxy.py,sha256=OuDuY82rfjf-n4mOEf41H5UR6h6H5rSwmSptt58aGdM,5127
+dohproxy/integration.py,sha256=5tj3KffGNvw-MU_aVHGBex_mpTwK_r_w7RHIL4KdZAo,10004
+dohproxy/protocol.py,sha256=Y3Xi47BhzSum3eSnRtOpUh9HVQvau8RnJ4u9ctzme74,5876
+dohproxy/proxy.py,sha256=2imHQ9OOpWyVgaxrHUSxyDLx11koAm0yav4SXK4e3wA,10027
+dohproxy/server_protocol.py,sha256=ckLUDoffYdwa8JApIXUSd2oZHiuSQN8d1Blu9NlyDDo,5353
+dohproxy/stub.py,sha256=n-QGmyNpvD7wGENGry8-VUuo0REKcePEQuGHHGn6I70,1376
+dohproxy/utils.py,sha256=dnGPyP-Ke751NxvLlPdH7Hj2j2-7DSGanigrZ7rHQew,10283
+doh_proxy-0.0.9.dist-info/LICENSE,sha256=DQv1M5sJbT3cfs8ffc0h1sQkENmhPdknt-9kxtdWotc,1530
+doh_proxy-0.0.9.dist-info/METADATA,sha256=W2qVSKx5xksSIo8VMMyIzqOV0nJWZhTC-b6RsU-n78U,5880
+doh_proxy-0.0.9.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+doh_proxy-0.0.9.dist-info/entry_points.txt,sha256=D49rgqIn7zxK2iTk5ubnacQceX4fQ_0BFN1Z2YS40P0,155
+doh_proxy-0.0.9.dist-info/top_level.txt,sha256=sdFAaXWIspBGyGZ5MYzaHvJXt9mc_FWaal7OxxbjwzY,9
+doh_proxy-0.0.9.dist-info/RECORD,,
