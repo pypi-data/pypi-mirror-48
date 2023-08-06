@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: drf-multiple-serializer
+Version: 0.1.0
+Summary: Django REST framework serializer utility
+Home-page: https://github.com/qpfmtlcp/drf-multiple-serializer
+Author: jay kim
+Author-email: jaykim1361@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: django,drf,serializer
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
