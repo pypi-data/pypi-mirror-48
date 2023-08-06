@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: Closure
+Version: 0.1.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Quico Spaen
+Author-email: qspaen@berkeley.edu
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: Closure problems,S-excess problem,Parametric problems
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
