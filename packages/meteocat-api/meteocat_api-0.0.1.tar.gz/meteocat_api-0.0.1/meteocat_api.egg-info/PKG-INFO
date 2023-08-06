@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: meteocat-api
+Version: 0.0.1
+Summary: Meteocat API to retrieve Meteocat data
+Home-page: UNKNOWN
+Author: Alvaro Rodriguez
+Author-email: alvaro.rdrgz.ramos@gmail.com
+License: UNKNOWN
+Description: # Meteocat API library
+        
+        This package allows to use the API provided by Meteocat to retrieve weather data from its weather stations network.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
