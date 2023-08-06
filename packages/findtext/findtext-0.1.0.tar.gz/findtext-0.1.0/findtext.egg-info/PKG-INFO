@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: findtext
+Version: 0.1.0
+Summary: OCR, based on tesseract (tesserocr), with accuracy improvement
+Home-page: https://github.com/williamfzc/findtext
+Author: williamfzc
+Author-email: fengzc@vip.qq.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

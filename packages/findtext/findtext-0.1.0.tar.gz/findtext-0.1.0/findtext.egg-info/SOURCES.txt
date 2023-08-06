@@ -1,0 +1,8 @@
+README.md
+setup.py
+findtext/__init__.py
+findtext.egg-info/PKG-INFO
+findtext.egg-info/SOURCES.txt
+findtext.egg-info/dependency_links.txt
+findtext.egg-info/requires.txt
+findtext.egg-info/top_level.txt
