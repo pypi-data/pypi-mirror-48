@@ -1,0 +1,9 @@
+README.md
+acfun.py
+setup.py
+acfun.egg-info/PKG-INFO
+acfun.egg-info/SOURCES.txt
+acfun.egg-info/dependency_links.txt
+acfun.egg-info/entry_points.txt
+acfun.egg-info/requires.txt
+acfun.egg-info/top_level.txt
