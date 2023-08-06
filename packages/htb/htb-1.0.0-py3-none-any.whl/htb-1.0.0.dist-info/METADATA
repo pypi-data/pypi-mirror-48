@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: htb
+Version: 1.0.0
+Summary: Hack the Box API
+Home-page: https://github.com/kulinacs/htb
+Author: Nicklaus McClendon
+Author-email: nicklaus@kulinacs.com
+License: ISC
+Keywords: hackthebox
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: ISC License (ISCL)
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: requests
+
+============
+Hack the Box
+============
+
+An unofficial Python wrapper to interact with hackthebox.eu
+
+
