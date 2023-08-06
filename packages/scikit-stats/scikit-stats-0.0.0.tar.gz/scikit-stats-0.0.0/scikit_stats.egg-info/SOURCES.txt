@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+scikit-stats/__init__.py
+scikit-stats/core/__init__.py
+scikit-stats/hypotests/__init__.py
+scikit-stats/hypotests/basecalculator.py
+scikit-stats/hypotests/parameters.py
+scikit_stats.egg-info/PKG-INFO
+scikit_stats.egg-info/SOURCES.txt
+scikit_stats.egg-info/dependency_links.txt
+scikit_stats.egg-info/requires.txt
+scikit_stats.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
