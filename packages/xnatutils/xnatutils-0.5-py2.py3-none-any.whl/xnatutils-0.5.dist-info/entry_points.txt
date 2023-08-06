@@ -1,0 +1,8 @@
+[console_scripts]
+xnat-get = xnatutils.get:cmd
+xnat-ls = xnatutils.ls:cmd
+xnat-put = xnatutils.put:cmd
+xnat-rename = xnatutils.rename:cmd
+xnat-varget = xnatutils.varget:cmd
+xnat-varput = xnatutils.varput:cmd
+

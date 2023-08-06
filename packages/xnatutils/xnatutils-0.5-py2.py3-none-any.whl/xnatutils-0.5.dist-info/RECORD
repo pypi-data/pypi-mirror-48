@@ -1,0 +1,16 @@
+xnatutils/__init__.py,sha256=8uRTiyqXPfRAbz_eT56YnxfwmKmdM8QDVAJCZbW9Xbk,924
+xnatutils/base.py,sha256=4wuRtxMTRsBBr2d60Obge0RsQejIGsQNgLa0pxEtC8g,19644
+xnatutils/exceptions.py,sha256=mF4G7aFBmlLqfj0v3wjTZhP8Zw5wwPYDIahRdMrPUGs,1154
+xnatutils/get.py,sha256=T9lwB4PcL9brFcce_IeEauX_pNtca2-H5_NEMclIJXI,23566
+xnatutils/ls.py,sha256=FMDkotmwtI7ooUVM-INZimDvauCfCqwsZKEWoeyen2M,12983
+xnatutils/put.py,sha256=WntwUoceLkoX596oZ6mOHV8wko5WNrlIApwz4UuYaXw,11851
+xnatutils/rename.py,sha256=jALPAgV7QI1h2j_oTPvTPqkBsoTYc5d2N1JgG4lL5Lg,3070
+xnatutils/varget.py,sha256=nlsBOHqzXUlMyoDl8te2udeht3MZRixG75dTBByF2PI,4095
+xnatutils/varput.py,sha256=vGSu4VqUFeCCv2RHXWB0z8s8q8mbDtH7ZSmoef56O1E,3813
+xnatutils/version_.py,sha256=4FdYq1QhEnfseFtVXCMw_8wLQbaC3UXVBIhzGsP6C-8,20
+xnatutils-0.5.dist-info/LICENSE,sha256=DOwG4OVfvD3FzuT8qbYH9my49OTbzzs8ATWU3RVnMuk,10173
+xnatutils-0.5.dist-info/METADATA,sha256=pB4pp6TqKjK0T3EIbxhSd360Pkb-edDGIru51rlDMws,8079
+xnatutils-0.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+xnatutils-0.5.dist-info/entry_points.txt,sha256=p9opP8StNtB9CEi6sBweXjFqOz7epXKh2YFnKzLRaI4,209
+xnatutils-0.5.dist-info/top_level.txt,sha256=7q_38WI5lErAKjV3hSwrv-DPc5FPHSbdXPlSc4sHZvk,10
+xnatutils-0.5.dist-info/RECORD,,
