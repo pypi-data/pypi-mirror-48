@@ -1,0 +1,52 @@
+README FILE
+
+fft_dev
+Benoit Dubois
+July 19th, 2018
+
+CONTENTS OF THIS FILE
+---------------------
+* Introduction
+* Requirements
+* Installation
+
+INTRODUCTION
+------------
+fft_dev is dedicated to acquire data from HP 3562A device (FFT analyser).
+
+REQUIREMENTS
+------------
+Preferably a Linux system with a Debian distribution (not tested with others OS
+nor others distributions).
+The program requires the folowing packages:
+ * Python 3.x (Normally already installed on a Debian system)
+          $ [sudo] apt-get install python3
+ * iopy package (for Prologix GPIB-Eth capabilities)
+          See package for details on installation
+
+If you use pip to install the package, you can go to INSTALLATION section
+ * Numpy
+          $ python3 -m pip install --user numpy
+ * pyqtgraph
+          $ python3 -m pip install --user pyqtgraph
+
+INSTALLATION
+------------
+1. Install
+1.1 The pip way
+          $ python3 -m pip install --user ftt_dev-x.x.tar.gz
+
+1.2 The setup.py way
+1.2.1 Untar the package archive
+          $ tar xvzf ftt_dev-x.x.tar.gz
+1.2.2 Enter in the newly created directory
+          $ cd fft_dev-x.x 
+1.2.3 Then install package
+          $ [sudo] python3 setup.py install
+or
+          
+
+Now you can start script from anywhere:
+          $ fft35670a-gui
+or
+          $ fft3562a-gui

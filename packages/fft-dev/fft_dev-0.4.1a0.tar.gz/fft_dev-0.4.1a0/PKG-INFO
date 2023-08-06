@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: fft_dev
+Version: 0.4.1a0
+Summary: Driver and UI for 3562A and 35670A FFT analyzer
+Home-page: https://gitlab.com/bendub/fft_dev
+Author: Benoit Dubois
+Author-email: benoit.dubois@femto-st.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: X11 Applications :: Qt
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Requires: PyQt5
+Requires: numpy
+Requires: pyqtgraph
+Requires: iopy

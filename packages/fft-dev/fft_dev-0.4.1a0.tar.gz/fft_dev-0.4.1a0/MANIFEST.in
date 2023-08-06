@@ -1,0 +1,4 @@
+include bin/fft35670a-gui
+include bin/fft3562a-gui
+include README
+recursive-include fft_dev *.py

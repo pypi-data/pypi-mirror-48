@@ -1,0 +1,17 @@
+MANIFEST.in
+README
+setup.py
+bin/fft3562a-gui
+bin/fft35670a-gui
+fft_dev/__init__.py
+fft_dev/version.py
+fft_dev.egg-info/PKG-INFO
+fft_dev.egg-info/SOURCES.txt
+fft_dev.egg-info/dependency_links.txt
+fft_dev.egg-info/top_level.txt
+fft_dev/fft3562a/__init__.py
+fft_dev/fft3562a/fft3562a_dev_prologix.py
+fft_dev/fft3562a/fft3562a_form.py
+fft_dev/fft35670a/__init__.py
+fft_dev/fft35670a/fft35670a_dev_prologix.py
+fft_dev/fft35670a/fft35670a_form.py
