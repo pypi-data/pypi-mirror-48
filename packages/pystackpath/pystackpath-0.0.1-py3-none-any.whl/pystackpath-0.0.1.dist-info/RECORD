@@ -1,0 +1,10 @@
+pystackpath/__init__.py,sha256=11idVp_448V1KsUNJzRT-53P8vt3cT-mOXq-pTdwQ54,1669
+pystackpath/cdnsites.py,sha256=bVfGvDQyA3RUNs2jArLJKePub_U5GyY4fer_4YrXJyE,1426
+pystackpath/config.py,sha256=VSUFjn1YbKfpnK3Bbg-C8OtcQ0uLl7_zKIvyX5PkL74,42
+pystackpath/stacks.py,sha256=BZsbuU6-Jrw2M7HnV_dWuNiWzNsAQFqsSwAYi6NN0bg,2116
+pystackpath/util.py,sha256=euFauqfpFUTbS4uKePzZkqVxtztTh_vTHJ_9A3xuQTQ,1371
+pystackpath-0.0.1.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+pystackpath-0.0.1.dist-info/METADATA,sha256=-W4gHGlC_d52Pz9BvF37sexXAZSIdfhsSInhH9JolXk,2053
+pystackpath-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pystackpath-0.0.1.dist-info/top_level.txt,sha256=IxxIZ2r53--OqvMKL0KmbpWm0-GE_mwcFAvmTGExgYs,12
+pystackpath-0.0.1.dist-info/RECORD,,
