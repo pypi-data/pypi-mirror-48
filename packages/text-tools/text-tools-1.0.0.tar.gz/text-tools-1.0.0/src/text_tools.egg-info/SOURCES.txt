@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/text_tools/__init__.py
+src/text_tools/finders.py
+src/text_tools/utils.py
+src/text_tools.egg-info/PKG-INFO
+src/text_tools.egg-info/SOURCES.txt
+src/text_tools.egg-info/dependency_links.txt
+src/text_tools.egg-info/top_level.txt
