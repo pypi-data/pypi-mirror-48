@@ -1,0 +1,13 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/usb-external-monitor/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/usb-external-monitor/sample_count_down_timer.py,sha256=mMHjHbazfbdnDUZKijtW_nDvYbp5n9Sa8Cra-kMGL9U,1610
+examples/usb-external-monitor/sample_number_animation.py,sha256=z_JRk_DfpAvkNbdaqVxpw09ZmeeJDnGFaCzaZgnxpf0,2174
+examples/usb-external-monitor/sample_number_effect.py,sha256=RU200v00RwkDzx608LxaKBQ_EcBRbzYBiMSjad7RMbw,2434
+external_counter/__init__.py,sha256=GiF7tWLIKgh7GKH0xRyQa55txEbzp-amCRonXt9qZVk,24
+external_counter/external_counter.py,sha256=gh9ll1wBwdhDeNSzgSc1CSTXJ7CiAYBetCC3dL761Hk,7194
+external_counter_dilshan-1.0.3.data/scripts/usb-display-module-config,sha256=E185NbGrzPKkk7H6Z9EEaMQi9a88Xg1GGuFAoiYVjuk,7422
+external_counter_dilshan-1.0.3.dist-info/LICENSE,sha256=QaJ7V236MWyTBtaR7zth-8uHHzlGTIlLaSYgal2zj2s,1086
+external_counter_dilshan-1.0.3.dist-info/METADATA,sha256=DJMx4aOcnYZGRUiqy0W-JngOd2G67ceC26GKi1N_t28,1376
+external_counter_dilshan-1.0.3.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+external_counter_dilshan-1.0.3.dist-info/top_level.txt,sha256=lSsqbWE-UxsUH_0EDa7pDaNT2In8UF6Kcvvym0AiX8M,26
+external_counter_dilshan-1.0.3.dist-info/RECORD,,
