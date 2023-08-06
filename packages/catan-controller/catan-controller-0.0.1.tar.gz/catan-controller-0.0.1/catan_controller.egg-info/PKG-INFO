@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: catan-controller
+Version: 0.0.1
+Summary: Controller for the game Catan
+Home-page: https://github.com/jamberin/Catan
+Author: James Beringer
+Author-email: jamberin@gmail.com
+License: UNKNOWN
+Description: # Catan Controller
+        
+        This is a game controller for catan.
+        
+        Most methods are commented to explain how they work.
+        
+        Will add more info into readme later :)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

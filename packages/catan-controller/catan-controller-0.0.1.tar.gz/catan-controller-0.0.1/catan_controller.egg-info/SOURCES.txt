@@ -1,0 +1,6 @@
+README.md
+setup.py
+catan_controller.egg-info/PKG-INFO
+catan_controller.egg-info/SOURCES.txt
+catan_controller.egg-info/dependency_links.txt
+catan_controller.egg-info/top_level.txt
