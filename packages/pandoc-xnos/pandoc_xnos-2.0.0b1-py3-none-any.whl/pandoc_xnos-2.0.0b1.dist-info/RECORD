@@ -1,0 +1,9 @@
+pandocxnos/__init__.py,sha256=KsO4hBju6sI-A-Wq2iYAeoa5IidV8NlCF5k6yHb6dQM,67
+pandocxnos/core.py,sha256=oSFbMFejimx59IMWahzx4ktwVSBf_YBiGuInJukb0Uk,39755
+pandocxnos/pandocattributes.py,sha256=B1LFMkzeEvLp5kPC-_eRIEwb9vXL49saeClXY6iYMMA,6661
+pandoc_xnos-2.0.0b1.dist-info/AUTHORS,sha256=KdbL4lUZZmBSH3GviiKgpyvSIiHynSM7Q3xL9usbPqE,200
+pandoc_xnos-2.0.0b1.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pandoc_xnos-2.0.0b1.dist-info/METADATA,sha256=hEMYJypsGCTBTUilZ068gGqoC9XvOuiTqLpNtWvf6fA,744
+pandoc_xnos-2.0.0b1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pandoc_xnos-2.0.0b1.dist-info/top_level.txt,sha256=FFiKBanZarr-8A0kqMffD06kXD-dW8a_p9JJ2hCPbQM,11
+pandoc_xnos-2.0.0b1.dist-info/RECORD,,
