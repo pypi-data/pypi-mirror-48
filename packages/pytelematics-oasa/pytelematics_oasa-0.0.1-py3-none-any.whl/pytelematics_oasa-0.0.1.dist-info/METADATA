@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: pytelematics-oasa
+Version: 0.0.1
+Summary: OASA Telematics API wrapper for python.
+Home-page: https://github.com/blackrose514/pytelematics-oasa
+Author: blackrose514
+Author-email: dmtri3sukuna@gmail.com
+License: MIT
+Download-URL: https://github.com/blackrose514/pytelematics-oasa/releases
+Keywords: oasa,telematics,api,pytelematics-oasa
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# Pytelematics-oasa
+
+Pytelematics-oasa is a simple API wrapper for python.
+
+## Installation
+
+```bash
+pip install pytelematics-oasa
+```
+Requirements: [requests](https://pypi.org/project/requests/)
+
+## Usage
+
+```python
+from pytelematics_oasa import OasaTelematics, Line, Route, Stop
+
+##### Line #####
+
+# example using linecode 962 (A1 ΠΕΙΡΑΙΑΣ-ΒΟΥΛΑ)
+line = Line('962')
+
+line.ID        # Α1
+line.linecode  # 962
+line.name      # ΠΕΙΡΑΙΑΣ - ΒΟΥΛΑ
+line.name_en   # PEIRAIAS - VOYLA
+
+line.routes()
+line.schedule_days()
+
+##### Route #####
+
+# example using routecode 1884 (845 ΠΕΙΡΑΙΑΣ - ΕΛΕΥΣΙΝΑ, route: ΕΛΕΥΣΙΝΑ ==> ΠΕΙΡΑΙΑΣ)
+route = Route('1884')
+
+route.name      # ΕΛΕΥΣΙΝΑ - ΠΕΙΡΑΙΑΣ
+route.name_en   # ELEFSINA - PEIRAIAS
+route.routecode # 1884
+
+route.stops()
+route.bus_location()
+route.details()
+
+##### Stop #####
+
+# example using stopcode 400075 (στάση ΗΣΑΠ Ν.ΦΑΛΗΡΟΥ)
+stop = Stop('400075')
+
+stop.name     # ΗΣΑΠ Ν.ΦΑΛΗΡΟΥ
+stop.name_en  # ISAP.N.FALIROY
+stop.lat      # 37.9445913
+stop.lng      # 23.6671421
+stop.stopcode # 400075
+
+stop.arrivals()
+
+###### Oasa ######
+
+# Use the get method for getting data. 
+# 1st arg: action, 2nd~ arg: params
+# More info at the documentation page.
+# https://oasa-telematics-api.readthedocs.io/en/latest/index.html
+
+oasa = OasaTelematics()
+
+oasa.get('getRoutesForLine', 962)
+oasa.get('getClosestStops', 37.9445913, 23.6671421)
+
+# Custom methods
+oasa.get_all_lines()
+oasa.closest_stops(x, y) 
+oasa.linecodes(lineID)
+```
+
+## API Documentation
+[Oasa-Telematics-API](https://oasa-telematics-api.readthedocs.io/en/latest/)
+
+## License
+MIT License
+
+
+
