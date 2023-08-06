@@ -1,0 +1,12 @@
+towel/__init__.py,sha256=v6o2Hh0lq5ur54p7Z-OcbZzEKhilQnwVzmQEL8pWUtk,279
+towel/columns.py,sha256=0t3Q00nBPkga2qAprMA_s4aklSgVtTzBT9491NMbbsU,3657
+towel/database.py,sha256=jtbWjM_JOW-j86yVPk9-8an2OlQ-0aGt2HK9txc2rHU,199
+towel/errors.py,sha256=mn5xONr1apOrETncI7QvW8X2g3Q1E8u9Kluy0TWV7qY,157
+towel/model.py,sha256=CbpWc-BAFWmDE39YWxey1-LmkRro-2WfeZEtQ-X8GC4,3678
+towel/object_manager.py,sha256=_p9dHDGlUVqVbHfyxWcj32wi-m3FXCogVuhFg-2JAMg,7873
+towel/sql_composer.py,sha256=4q53O0S2Jz7HzZkYTH-T_qvdmBC9eUrVCsgPaEl3Vxk,2660
+towel_orm-0.0.1.dist-info/LICENSE,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+towel_orm-0.0.1.dist-info/METADATA,sha256=tle8ss4SSMR2QRdr8M_ujJDOFF76EPmlQOXQJW15n14,492
+towel_orm-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+towel_orm-0.0.1.dist-info/top_level.txt,sha256=lH64ILqTQv5e9TsMufpATUfP-dOpOfSeU-tPgXY2Fys,6
+towel_orm-0.0.1.dist-info/RECORD,,
