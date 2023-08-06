@@ -1,0 +1,10 @@
+boto3==1.9.180
+dask[dataframe]==2.0.0
+fastparquet==0.3.1
+joblib==0.13.2
+pandas==0.24.2
+PyAthena==1.6.1
+s3fs==0.2.1
+
+[pandas]
+pandas>=0.24.0
