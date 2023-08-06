@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: cirve
+Version: 0.2
+Summary: Software for circuits analysis and solving.
+Home-page: https://github.com/CarmenLegarre/circuits_solving/
+Author: CarmenLegarre
+Author-email: Carmenlegarreta@hotmail.com
+License: GNU GPLv3 
+Download-URL: https://github.com/CarmenLegarre/circuits_solving/tarball/0.2
+Description: UNKNOWN
+Keywords: circuits,solving
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
