@@ -1,0 +1,10 @@
+paranormal/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paranormal/parameter_interface.py,sha256=b9R7GHU1CQW-xj75dIXN9j5fAkgsEuDWFJZx28YRGy8,36933
+paranormal/params.py,sha256=qVTfrinjKp7IFIwEJMkhrjGGrpoxebxfdZOBLj2oWFk,11794
+paranormal/test/test_parameter_interface.py,sha256=iGjzOTQY2QuP8w7AAF1CkM3B-Ly_0S051cxEtuPdVOs,16572
+paranormal/test/test_params.py,sha256=XsEtqnZvA88fX_J7IMlvNallijhYUGaF2x4QVw06NbM,2903
+paranormal/units.py,sha256=OwPNh47NV4C-kxDuj5RE-aJ0jj6luUbclj43d5ujP58,1431
+paranormal-0.1.6.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paranormal-0.1.6.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+paranormal-0.1.6.dist-info/METADATA,sha256=EtfMSg83pKDvADIMHVUq2hfGY49CGh_V7jZ3XePSvRY,490
+paranormal-0.1.6.dist-info/RECORD,,
