@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kg-flask-crud
+Version: 0.0.1
+Summary: An opinionated library to quickly create Flask CRUD interfaces
+Home-page: UNKNOWN
+Author: Keoni Gandall
+Author-email: koeng101@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Todo
+
+
