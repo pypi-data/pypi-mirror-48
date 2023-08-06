@@ -1,0 +1,4 @@
+[console_scripts]
+scrap-my-rip = rip_counter.scrap:main
+scrap-my-rip-bot = rip_counter.bot:start_bot
+
