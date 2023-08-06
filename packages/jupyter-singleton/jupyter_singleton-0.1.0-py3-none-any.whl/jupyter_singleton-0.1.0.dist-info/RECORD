@@ -1,0 +1,17 @@
+jupyter_singleton/__init__.py,sha256=nHoBzyTpZehuUt2ZEzXjpuY3cl8xQFDkWl29PYB4rVs,22
+jupyter_singleton/debugredirect.html,sha256=jry4tkmP8uRR7ec9j0uo9o3r59sJ_J4mj-UWq2WQZf8,370
+jupyter_singleton/displaydatahook.py,sha256=w7EFc6li6AnctcKJrH1jl2whXMQZiyNhfcZICKUNW3Q,1021
+jupyter_singleton/dummylauncher.py,sha256=HNVH0X1ptjXj2tP067ooM4xcK9lH3MRHS7nTdpU3Il8,81
+jupyter_singleton/handlers.py,sha256=5cFnB1hC6H0kNq5jXl_kVfi8vTCgiAz8nvlHVzQzSKs,3671
+jupyter_singleton/serverlauncher.py,sha256=0Sy0U3Jq8DUyQuL869nsbR4MlIKz7sprsjcg7jYz_G8,3060
+jupyter_singleton/singletonapp.py,sha256=bmjFT2scFrhx6dgpX8P3vFbWXLvvLgiMeAnCmc1o2-k,6034
+jupyter_singleton/singletonipkernel.py,sha256=9P9DH09Cjo2WYAvKBdx9_AnguuGxvjPhMPWEF0ro4kc,776
+jupyter_singleton/singletonkernelmanager.py,sha256=1DaJNyzIFxuwk829GUXvS2CNkDWrd87CPCXKSNz3_Ac,2124
+jupyter_singleton/wrapper.html,sha256=WWCH_Az18PCu4zjO0r6Fy9Up-AtpUWJeLJyRsxMX4NI,3526
+jupyter_singleton/config/__init__.py,sha256=E9jHl_w9n6PW0RNWsHxmBD6ud3R5IIpP7xTGw3GHX9U,4301
+jupyter_singleton/direct/__init__.py,sha256=-rcAYBNs55g1qF3kMMLfYxHP7lLB4oxJbROxO5d0XF0,259
+jupyter_singleton-0.1.0.dist-info/LICENSE,sha256=ZggSPru9YvshxjKVGsODbNLpCAPB1ZXKPTTTuaKfDu4,1066
+jupyter_singleton-0.1.0.dist-info/METADATA,sha256=ecbDanm0cF7QI7qR5DJr46oFNUJCKp3duvc6W4HpB_s,2521
+jupyter_singleton-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jupyter_singleton-0.1.0.dist-info/top_level.txt,sha256=Tvm4QBfx7YXzdmN9PHCWWooZ2HcSualIWHL-NWz-MyY,68
+jupyter_singleton-0.1.0.dist-info/RECORD,,
