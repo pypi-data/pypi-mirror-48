@@ -1,0 +1,4 @@
+[console_scripts]
+bbt = bedrock.blueprint:main
+bmt = bedrock.manifest:main
+
