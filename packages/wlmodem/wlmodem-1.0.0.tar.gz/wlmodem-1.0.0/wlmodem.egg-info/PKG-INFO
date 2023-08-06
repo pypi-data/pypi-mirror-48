@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: wlmodem
+Version: 1.0.0
+Summary: Python library for Water Linked underwater modems
+Home-page: https://www.waterlinked.com
+Author: Water Linked AS
+Author-email: support@waterlinked.com
+License: UNKNOWN
+Description: # wlmodem
+        
+        Python library for communicating with Water Linked underwater modems.
+        
+        The library exposes the functionality of the modem: setting configuration, getting diagnostic, sending
+        and receiving packets.
+        
+        Further information on the [Water Linked web site](https://waterlinked.com/underwater-communication/)
+        
+        ## Requirements
+        
+        * Python 2.7 or Python 3.5
+        * pyserial
+        * crcmod
+        
+        ## Setup
+        
+        ```
+        $ python -m pip install --user wlmodem
+        or
+        (venv)$ python -m pip install wlmodem
+        ```
+        
+        ## Usage
+        
+        Connecting to a modem and configuring the mode and channel:
+        
+        ```python
+        $ python
+        
+        >>>  from wlmodem import WlModem
+        >>>  modem = WlModem("/dev/ttyUSB0")
+        >>>  modem.connect()
+        >>>  modem.cmd_configure("a", 4)
+        True
+        ```
+        
+        A larger example is available in [example/example.py](example/example.py).
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
