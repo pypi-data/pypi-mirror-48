@@ -1,0 +1,11 @@
+zoomer/__init__.py,sha256=SA1FGHTsc2m21WVBPUspQyre7ziJcieKy1EemDh53CM,25
+zoomer/__version__.py,sha256=MobQVtrO9Ze27biO6l6QreTAONnDTqbALI54Q1gpCI8,352
+zoomer/base.py,sha256=4pzYTKYyoFlKhI42susc0g9rF78nkm0WmE0c1VnN8MA,636
+zoomer/face.py,sha256=KqWd-JxUqxoFmt4gl6GltM453bgCKZv24QtXrlVvIEs,1708
+zoomer/run.py,sha256=0LxPj-JHjplRWgyoz5Z3DVGup5g01J-peEKBEK7ojKQ,125
+zoomer/test.py,sha256=jVmtA-AhLkisuIJOlPRAn_M-PNjh-mGkyL3wEXs5uBE,107
+Zoomer-0.0.5.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+Zoomer-0.0.5.dist-info/METADATA,sha256=SDnnHQwDHoPdV8F8q5WJGMe0zxn4Eq16V1O0yW_-Ng0,239
+Zoomer-0.0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+Zoomer-0.0.5.dist-info/top_level.txt,sha256=LiJBhtqYHyVa-tmBZTEQmzhSfPoEbh_ExoTyM4knVw0,7
+Zoomer-0.0.5.dist-info/RECORD,,
