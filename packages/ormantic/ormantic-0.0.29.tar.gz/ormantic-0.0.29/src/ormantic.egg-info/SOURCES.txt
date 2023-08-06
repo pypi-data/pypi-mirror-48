@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+setup.py
+src/ormantic/__init__.py
+src/ormantic/exceptions.py
+src/ormantic/fields.py
+src/ormantic/models.py
+src/ormantic.egg-info/PKG-INFO
+src/ormantic.egg-info/SOURCES.txt
+src/ormantic.egg-info/dependency_links.txt
+src/ormantic.egg-info/requires.txt
+src/ormantic.egg-info/top_level.txt
