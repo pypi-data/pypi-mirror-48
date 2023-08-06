@@ -1,0 +1,4 @@
+requests-html
+dateparser
+aiohttp
+pillow

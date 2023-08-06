@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: aninja
+Version: 0.0.1
+Summary: Help your spiders deal with anti-crawling mechanism.
+Home-page: https://github.com/wooddance/aNinja
+Author: wooddance
+Author-email: zireael.me@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
