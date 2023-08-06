@@ -1,0 +1,11 @@
+chemdata/__init__.py,sha256=JmhncYXA2FywpMfoTYWUuBV2P1WbR2I1E5CsbcR42Rs,146
+chemdata/atom.json,sha256=tMaCROdGIkckePTH3ySAuS86aLz0sSF9LCZYCC3CX6k,34614
+chemdata/basic.py,sha256=r7vEOlM7es86IvLOM4JyWhNYjPTfzoW8AMwtteY-3cQ,3300
+chemdata/nist.py,sha256=LB3dLufYySuV5VLcY2TaDSGErFNYCk7ahoiHEece5kA,2511
+chemdata/nist_spectrum.json,sha256=iOY0tsWsr8g6i1RqDSqbSkNYf61VVYkNwNr1g-Krgb0,1797361
+chemdata-1.5.2.dist-info/LICENSE,sha256=Rkw0XFAkqnSrUZOqN3vXOjLAqiL4kGSs1ijbajK5SKI,1063
+chemdata-1.5.2.dist-info/METADATA,sha256=en3DA8NLLUQLEOqOr2tUAyTyuvIdYNRI4H-fpauUqNY,1707
+chemdata-1.5.2.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+chemdata-1.5.2.dist-info/entry_points.txt,sha256=crJbDlw7WlMbTkoVRa83AwtnODdQVL16gdxPkyMwBuc,60
+chemdata-1.5.2.dist-info/top_level.txt,sha256=7sOuShqPwLmUqgcWK3Pzl5LTqOPhcDz04H8hYw5d-Qs,9
+chemdata-1.5.2.dist-info/RECORD,,
