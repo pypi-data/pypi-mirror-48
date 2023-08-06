@@ -1,0 +1,51 @@
+[
+    {
+        "model": "coopstarter_data.format",
+        "pk": 1,
+        "fields": {
+            "title": "PDF"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 2,
+        "fields": {
+            "title": "Text"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 3,
+        "fields": {
+            "title": "Spreadsheet"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 4,
+        "fields": {
+            "title": "Video"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 5,
+        "fields": {
+            "title": "Audio"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 6,
+        "fields": {
+            "title": "Webpage"
+        }
+    },
+    {
+        "model": "coopstarter_data.format",
+        "pk": 7,
+        "fields": {
+            "title": "Printed document"
+        }
+    }
+]
