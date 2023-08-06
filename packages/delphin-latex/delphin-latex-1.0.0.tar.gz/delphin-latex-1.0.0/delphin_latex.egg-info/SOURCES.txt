@@ -1,0 +1,8 @@
+README.md
+setup.py
+delphin/codecs/dmrstikz.py
+delphin_latex.egg-info/PKG-INFO
+delphin_latex.egg-info/SOURCES.txt
+delphin_latex.egg-info/dependency_links.txt
+delphin_latex.egg-info/requires.txt
+delphin_latex.egg-info/top_level.txt
