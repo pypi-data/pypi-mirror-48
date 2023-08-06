@@ -1,0 +1,10 @@
+tv/__init__.py,sha256=fnBQ2sHND7-1BbN82T-ZfniVq6iPS5YU1nWu_lq1iLI,838
+tv/data.py,sha256=ojgDWtJt2oFRqiISqyRFk4ly2ySTkJiopSTIbwtbCUU,6681
+tv/exceptions.py,sha256=5C4Nb7hMYoq_JjRY33OyQr313UPsD_ZgVVbYqD3F5bI,42
+tv/tv.py,sha256=CpQkYj0PNtSl2zgpR9gOBEsY14qLSNTRH2Di6P3uzDY,6838
+tv/tvdb.py,sha256=EvzJEnRRFwJuo3ZHQfbqNvrwyZDrDO-GZHMsH2ZOXqc,3601
+tv_series-1.0.0.dist-info/METADATA,sha256=xisuoDim4oHxa072rFiDZM17uaiLcgQCdZh4BTmp9Nw,4009
+tv_series-1.0.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+tv_series-1.0.0.dist-info/entry_points.txt,sha256=nQnXrgjnzBPQp_POjwjjp_YGG9rKrbLICjjF1yxZgNA,52
+tv_series-1.0.0.dist-info/top_level.txt,sha256=bdmItMuoIG00Kg3_abPTgUqI_oGVLIQoqM0ju4XnByg,3
+tv_series-1.0.0.dist-info/RECORD,,
