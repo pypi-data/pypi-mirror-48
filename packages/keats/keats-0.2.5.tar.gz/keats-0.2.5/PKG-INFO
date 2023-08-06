@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: keats
+Version: 0.2.5
+Summary: Utilities for managing version, changelogs, and project releases.
+Home-page: https://github.com/jvrana/keats
+Author: jvrana
+Author-email: justin.vrana@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: fire (>=0.1.3,<0.2.0)
+Requires-Dist: termcolor (>=1.1,<2.0)
+Requires-Dist: toml (>=0.10.0,<0.11.0)
+Project-URL: Documentation, https://github.com/jvrana/keats
+Description-Content-Type: text/markdown
+
+# Keats
+
+![John Keats](assets/keats.jpg)
+
+Keats is an utilities package for poetry.
+
+Features include forced change logs, release scripts, and package version control.
+
+## Usage
+
+```
+keats bump <VERSION>
+```
+
+```
+# get the package version number
+keats version
+```
+
+## Installation
+
+
+```
+# globally install keats
+pip install keats
+```
+
+```
+# locally install keats
+poetry add --dev keats
+
+# run keats
+poetry run keats
+```
