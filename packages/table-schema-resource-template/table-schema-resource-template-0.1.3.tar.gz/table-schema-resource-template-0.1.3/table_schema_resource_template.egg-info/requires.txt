@@ -1,0 +1,3 @@
+iso8601
+tableschema>=1.5.1
+xlsxwriter>=1.1.8
