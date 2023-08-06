@@ -1,0 +1,7 @@
+PySide2>=5.12
+vsutillib.mkv>=1.0.2
+vsutillib.media>=1.0.2
+vsutillib.macos>=1.0.2
+vsutillib.files>=1.0.2
+vsutillib.log>=1.0.1
+vsutillib.pyqt>=1.0.2
