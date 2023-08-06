@@ -1,0 +1,13 @@
+README.rst
+setup.py
+gurobi/VERSION
+gurobi/__init__.py
+gurobi/__main__.py
+gurobi/gurobi_check.py
+gurobi_machines_plugin.egg-info/PKG-INFO
+gurobi_machines_plugin.egg-info/SOURCES.txt
+gurobi_machines_plugin.egg-info/dependency_links.txt
+gurobi_machines_plugin.egg-info/entry_points.txt
+gurobi_machines_plugin.egg-info/not-zip-safe
+gurobi_machines_plugin.egg-info/requires.txt
+gurobi_machines_plugin.egg-info/top_level.txt

@@ -1,0 +1,3 @@
+[console_scripts]
+gurobi_machines_plugin = gurobi.__main__:main
+
