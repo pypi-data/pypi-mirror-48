@@ -1,0 +1,29 @@
+Metadata-Version: 2.0
+Name: sanic-swagger-37
+Version: 0.0.2
+Summary: OpenAPI / Swagger support for Sanic using attrs
+Home-page: http://github.com/abatilo/sanic-swagger/
+Author: Shane Scott
+Author-email: sscott@gvit.com
+Maintainer: Shane Scott
+Maintainer-email: sscott@gvit.com
+License: MIT
+Keywords: sanic swagger openapi attrs cattrs
+Platform: any
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Environment :: Web Environment
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: ==3.7.*
+Description-Content-Type: text/markdown
+Requires-Dist: sanic (>=0.7.0)
+Requires-Dist: attrs (>=18.0.0)
+
+# sanic-swagger-37
+
+For of sanic-swagger which si python 3.7 compatible
+
+
+
