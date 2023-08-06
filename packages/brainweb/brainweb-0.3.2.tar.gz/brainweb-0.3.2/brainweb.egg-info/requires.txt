@@ -1,0 +1,7 @@
+tqdm
+requests
+numpy
+scikit-image
+
+[plot]
+matplotlib
