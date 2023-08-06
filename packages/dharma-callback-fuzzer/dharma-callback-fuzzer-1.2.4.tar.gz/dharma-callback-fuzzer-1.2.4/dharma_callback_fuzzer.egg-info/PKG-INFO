@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: dharma-callback-fuzzer
+Version: 1.2.4
+Summary: Generation-based, context-free grammar fuzzer.
+Home-page: https://github.com/MozillaSecurity/dharma
+Author: Mozilla Fuzzing Team
+Author-email: fuzzing@mozilla.com
+License: MPL 2.0
+Download-URL: https://github.com/MozillaSecurity/dharma/tarball/1.2.4
+Description: Dharma Callback Fuzzer
+        Generation-based, context-free grammar fuzzer.
+        
+        Usage
+        dharma-callback-fuzzer [number_of_files] [output_dir]
+        
+        Example: The following command will generate 100 JS test case files in output directory /home/corpus
+        dharma-callback-fuzzer 100 /home/corpus
+        
+Keywords: fuzzer fuzzing security testing generator
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Security
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
