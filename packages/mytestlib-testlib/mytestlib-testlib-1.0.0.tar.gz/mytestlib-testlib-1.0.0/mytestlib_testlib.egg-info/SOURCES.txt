@@ -1,0 +1,8 @@
+README.txt
+setup.py
+mytestli/__init__.py
+mytestli/greet.py
+mytestlib_testlib.egg-info/PKG-INFO
+mytestlib_testlib.egg-info/SOURCES.txt
+mytestlib_testlib.egg-info/dependency_links.txt
+mytestlib_testlib.egg-info/top_level.txt
