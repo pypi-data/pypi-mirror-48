@@ -1,0 +1,10 @@
+python-keycloak>=0.16.0
+simplejson>=3.16.0
+pprint
+pandas
+configparser
+requests
+urllib3<=1.24.2
+IPython
+matplotlib
+pycrypto
