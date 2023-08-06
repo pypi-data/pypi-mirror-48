@@ -1,0 +1,16 @@
+README.md
+setup.py
+fdn_kg_loader/__init__.py
+fdn_kg_loader/filter.py
+fdn_kg_loader/loader.py
+fdn_kg_loader/model.py
+fdn_kg_loader/store.py
+fdn_kg_loader.egg-info/PKG-INFO
+fdn_kg_loader.egg-info/SOURCES.txt
+fdn_kg_loader.egg-info/dependency_links.txt
+fdn_kg_loader.egg-info/entry_points.txt
+fdn_kg_loader.egg-info/requires.txt
+fdn_kg_loader.egg-info/top_level.txt
+fdn_kg_loader/tests/__init__.py
+fdn_kg_loader/tests/test_brand.py
+fdn_kg_loader/tests/test_product.py
