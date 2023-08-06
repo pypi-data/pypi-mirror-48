@@ -1,0 +1,10 @@
+setup.py
+jlim_distributions/Binomialdistribution.py
+jlim_distributions/Gaussiandistribution.py
+jlim_distributions/Generaldistribution.py
+jlim_distributions/__init__.py
+jlim_distributions.egg-info/PKG-INFO
+jlim_distributions.egg-info/SOURCES.txt
+jlim_distributions.egg-info/dependency_links.txt
+jlim_distributions.egg-info/not-zip-safe
+jlim_distributions.egg-info/top_level.txt
