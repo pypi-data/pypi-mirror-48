@@ -1,0 +1,10 @@
+lobio/SeqIOUtils.py,sha256=74GMKHXV5xmD8kX70ug3u5hYKopf4kMmCw__tSQdZ-w,587
+lobio/SeqUtils.py,sha256=0m2FHRjccXN9T7fq_Le2uSd-WYwJHZysINoOcz7nscQ,1642
+lobio/__init__.py,sha256=CXmK27mCErLUlrkafJ0-IMpODSDqtgBv17py5Qlv3vs,219
+lobio/__version__.py,sha256=2vegxv4ZNTyRpUDyp9--amiahhASIG99ZG9AdsCeP_M,285
+lobio/exceptions.py,sha256=dLlJzexVrpwvd2PP3CGs1sELYzxk35Dph_yqS29PhpY,352
+lobio/models.py,sha256=ZtMAFdtaCn79SNogxpKiUfJuPQH0ecYOOQ1PNPQRMY4,5944
+lobio/region.py,sha256=dhMuDa4RZqR28pHKudEWdUUlVNUm-qK_K5Sx7QrcrD8,29252
+lobio-0.0.12.dist-info/WHEEL,sha256=f_L0I4hqSDuunYLcjib7afhVEQa4uCwremk0_wPx54s,85
+lobio-0.0.12.dist-info/METADATA,sha256=SO-MafIkcUiY5iVBwXNPh372tLIKk0EkBomrjkXLib0,596
+lobio-0.0.12.dist-info/RECORD,,
