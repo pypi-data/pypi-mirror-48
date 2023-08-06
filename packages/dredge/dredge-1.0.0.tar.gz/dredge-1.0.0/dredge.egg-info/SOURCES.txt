@@ -1,0 +1,9 @@
+README.md
+setup.py
+dredge/__init__.py
+dredge/dredge.py
+dredge.egg-info/PKG-INFO
+dredge.egg-info/SOURCES.txt
+dredge.egg-info/dependency_links.txt
+dredge.egg-info/requires.txt
+dredge.egg-info/top_level.txt
