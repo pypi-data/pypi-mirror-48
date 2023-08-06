@@ -1,0 +1,10 @@
+clodius
+cytoolz
+flask
+flask-cors
+fusepy
+ipywidgets
+multiprocess
+sh
+simple-httpfs
+slugid>=2.0.0
