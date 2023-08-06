@@ -1,0 +1,12 @@
+linkable/__init__.py,sha256=iRVr6LOV-QYId3JWzQ6ltBfX35HLhplToY-LADDlP6w,74
+linkable/emoji.py,sha256=4cigWCJ5DZxR9rW9AACUi33cFNQaEFd9qUVJgNi-ztE,1885
+linkable/helpers.py,sha256=s1r14qoM0Eqi6mnH5fAPOycUyNQTJXo9fTGJ3ue3ZZc,750
+linkable/parser.py,sha256=MzGY3yDEvYYAamNudf-rQHvN9fabsgoRsOlM2b3O7F0,3395
+linkable/patterns.py,sha256=5cM3QU895fpzihaXX5-rgs6sCSSBIWHJt-_eTU6VOJ4,4985
+linkable/tld_list.py,sha256=eawhxJSNs0MS3N5OtOK8k6jr2ad9N5shdID4RtssH0s,10358
+linkable/validators.py,sha256=1gcwR3NqvWfsOFn0_sYjZXX5VIGVN0ePZH2VAOvndWc,528
+linkable-0.2.2.dist-info/LICENSE,sha256=B046k673xZfF3AulpVupTpzG-PkrkjXIA2PqLwPj8U0,1062
+linkable-0.2.2.dist-info/METADATA,sha256=h-cWAgbO9QSBYZd5rgzHJqbj1fYKdEWQX2qLGHkZ7qQ,2205
+linkable-0.2.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+linkable-0.2.2.dist-info/top_level.txt,sha256=4aG08tMr9kJGcIsDt7Dh5G3k4g1C6cnUHOkleMtvyqk,9
+linkable-0.2.2.dist-info/RECORD,,
