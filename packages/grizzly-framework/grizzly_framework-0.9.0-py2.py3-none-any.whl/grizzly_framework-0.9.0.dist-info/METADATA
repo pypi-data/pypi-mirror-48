@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: grizzly-framework
+Version: 0.9.0
+Summary: A framework for developing and running browser fuzzers
+Home-page: https://github.com/MozillaSecurity/grizzly
+Maintainer: Tyson Smith
+Maintainer-email: twsmith@mozilla.com
+License: MPL 2.0
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Security
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Requires-Dist: ffpuppet
+Requires-Dist: psutil
+Requires-Dist: six
+Provides-Extra: all
+Requires-Dist: boto3 ; extra == 'all'
+Requires-Dist: lithium-reducer ; extra == 'all'
+Requires-Dist: jsbeautifier ; extra == 'all'
+Requires-Dist: FuzzManager ; extra == 'all'
+Provides-Extra: reduce
+Requires-Dist: lithium-reducer ; extra == 'reduce'
+Requires-Dist: FuzzManager ; extra == 'reduce'
+Requires-Dist: jsbeautifier ; extra == 'reduce'
+Provides-Extra: s3
+Requires-Dist: boto3 ; extra == 's3'
+Provides-Extra: test
+Requires-Dist: pytest (>=3.9) ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+
+UNKNOWN
+
+
