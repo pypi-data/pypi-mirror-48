@@ -1,0 +1,17 @@
+README.md
+setup.py
+SerialScope/PySimpleGUI.py
+SerialScope/__init__.py
+SerialScope/__main__.py
+SerialScope/arduino.py
+SerialScope/config.py
+SerialScope/gui.py
+SerialScope/layout.py
+SerialScope/scope.py
+SerialScope/version.py
+SerialScope.egg-info/PKG-INFO
+SerialScope.egg-info/SOURCES.txt
+SerialScope.egg-info/dependency_links.txt
+SerialScope.egg-info/entry_points.txt
+SerialScope.egg-info/requires.txt
+SerialScope.egg-info/top_level.txt
