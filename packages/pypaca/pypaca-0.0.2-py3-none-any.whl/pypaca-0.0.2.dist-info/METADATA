@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pypaca
+Version: 0.0.2
+Summary: Simple utilities for complex projects.
+Home-page: https://github.com/vic-lee/pypaca
+Author: Vic Lee
+Author-email: viclee@nyu.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# pypaca
+
+*Work in progress...*
+
+Useful python utilities = )
+
+![IKEA ALPACA](static/ikea-alpaca.png)
+
+
