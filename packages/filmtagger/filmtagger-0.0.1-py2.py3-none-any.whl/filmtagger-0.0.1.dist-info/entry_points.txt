@@ -1,0 +1,3 @@
+[console_scripts]
+filmtagger = filmtagger.cli:main
+

@@ -1,0 +1,12 @@
+filmtagger/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+filmtagger/cameras.toml,sha256=tuoAvR-7T11VHIwhI1QTc1oCh3merRKBTILGTZaMSk4,208
+filmtagger/cli.py,sha256=zkkIaxy0_pJjheUQSDkXzXzNuMhflwwcCIlFk_4OVc4,4996
+filmtagger/films.toml,sha256=Dx2tsgjgkRG6vfXWTlM_Ch0uY1KZ0nTGwnqKNvnOEuI,2653
+filmtagger/data/cameras.toml,sha256=tuoAvR-7T11VHIwhI1QTc1oCh3merRKBTILGTZaMSk4,208
+filmtagger/data/films.toml,sha256=prM8j21aZ79M-G2quLVJOQROB86MeW95AfssAoo3F3o,2271
+filmtagger-0.0.1.dist-info/LICENSE,sha256=t1m_LCz7JVNlGcnboO5mA4VIZ4Il3m_-D3GcUbVxRLQ,1071
+filmtagger-0.0.1.dist-info/METADATA,sha256=vJXesd3w5HfDyFE_JOxibkGIV1FXR_Yo4XXEofU-5v8,808
+filmtagger-0.0.1.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+filmtagger-0.0.1.dist-info/entry_points.txt,sha256=dlvRqonvwLatv4UtqtcR9Pi1i95rzJsUMTMLlgtJ2as,52
+filmtagger-0.0.1.dist-info/top_level.txt,sha256=0gjP45U2QTsx3LcqYU2B_zoViCg5k4zbqSiClHD1A9M,11
+filmtagger-0.0.1.dist-info/RECORD,,
