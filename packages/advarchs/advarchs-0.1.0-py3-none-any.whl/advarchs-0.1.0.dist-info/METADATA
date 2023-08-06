@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: advarchs
+Version: 0.1.0
+Summary: 
+Author: elessarelfstone
+Author-email: elessarelfstone@mail.ru
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: rarfile (>=3.0,<4.0)
