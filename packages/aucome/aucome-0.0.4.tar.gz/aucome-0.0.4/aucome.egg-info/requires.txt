@@ -1,0 +1,5 @@
+docopt
+eventlet
+mpwt
+padmet
+requests
