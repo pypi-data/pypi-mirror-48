@@ -1,0 +1,13 @@
+pyscigraph/VERSION.py,sha256=VpULYpcPS1bub54GnSiLtKRoL25N8gnTSiOQlxdiclw,389
+pyscigraph/__init__.py,sha256=r1-O3Llb08rvZ21BbazE-Nx9F_DIOEDqOCW5FwuOPQw,74
+pyscigraph/lib.py,sha256=DZZSzussGjx4TNmkC7KGVr8u__IsXPSb0cjtk0lCCz4,5154
+pyscigraph/main.py,sha256=VrZZJr7yDux3IhjgtqvsUb5iAxLDwgVqi0v_t0TDyHw,1897
+pyscigraph/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyscigraph/tests/quicktest.py,sha256=w5IYCVHah3wqr0m73clR2Ta9kbHWwjrbUnip759DfUU,390
+pyscigraph/tests/test_one.py,sha256=luN2wvMKO_nrYfju_ADJ1FFvTHhuUFpROERhXO3HP7Y,779
+pyscigraph-0.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pyscigraph-0.5.dist-info/METADATA,sha256=0DtrTh5y9PjysnrO7bxy8AsIe6AomKee8r1T9A5cUhc,1172
+pyscigraph-0.5.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+pyscigraph-0.5.dist-info/entry_points.txt,sha256=YA_glZJXqbtef0iDhbyXhHvKHgMcvHOIj7taL_ww4qA,77
+pyscigraph-0.5.dist-info/top_level.txt,sha256=bCzAqmpoiQVV-n-UQITRdXOypLQQpt9P71ovCVyCZjE,11
+pyscigraph-0.5.dist-info/RECORD,,
