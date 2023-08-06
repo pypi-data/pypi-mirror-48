@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: gaia-image-processing
+Version: 1.0.3
+Summary: Image processing module for the gaia boat.
+Home-page: https://github.com/gaia-boat/image-processing
+License: GNU
+Description: # Image Processing and Obstacle detection
+        
+        Repo for the image processing and obstacle detection of the Gaia Boat.
+        
+        ## Requirements
+        
+        - OpenCV 4.1.0
+        - Python 3.6+
+        
+        ## Installation
+        
+        1. Install OpenCV following [this tutorial](dependencies/README.md)
+        
+        2. Install the image processing package running:
+        ```
+        python3 setup.py install --user
+        ```
+        
+        
+        
+Keywords: gaia,boat,pi2
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: Portuguese
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
