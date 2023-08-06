@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: towel-orm
+Version: 0.0.7
+Summary: A small and proud ORM
+Home-page: https://github.com/pypa/sampleproject
+Author: Aleksandra Rievva
+Author-email: rievva.ara@gmail.com
+License: UNKNOWN
+Description: # Towel ORM
+        
+        Small but proud ORM based on psycopg2. Still in development.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
