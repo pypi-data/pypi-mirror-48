@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: thunder-remote
+Version: 0.6.2
+Summary: A modified version of the 'pyController' package for usage with a ThunderBorg
+Home-page: https://github.com/Schrotty/thunder-remote
+Author: Schrotty
+Author-email: rubenmaurer@live.de
+License: MIT
+Keywords: thunder-borg borg remote-control remote rc
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/markdown
+Requires-Dist: inputs
+Requires-Dist: events
+Requires-Dist: enum34
+
+# Thunder-Remote
+
+## Install
+
+Install through pypi:
+
+    pip install thunder-remote
+
+After the setup is complete run the following command to patch the inputs library for non-blocking controller input.
+Otherwise the library blocks until there is an input from the controller.
+
+    python -m thunder_remote --patch
+
+Or clone this repo:
+
+    git clone https://github.com/Schrotty/thunder-remote
+    cd thunder-remote
+    python setup.py install
+
+## Usage
+
+For examples see the _examples/_ directory.
+
+## License
+Thunder-Remote is licensed under the MIT-License.
+
+The 3rd-party module licenses can be found in _LICENSE-3RD-PARTY.md_
+
