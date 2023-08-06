@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: zmz
+Version: 1.1.1
+Summary: An CLI tool for fetching episode download links from www.zimuzu.tv.
+Home-page: https://github.com/ikarishinjigao/Zimuzu-Spider-Python
+Author: ikarishinjigao
+Author-email: ikarishinjigao@gmail.com
+License: MIT License
+Description: UNKNOWN
+Keywords: zmz,zimuzu,yyets
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3 :: Only
