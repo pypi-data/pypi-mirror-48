@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: ipfscluster
+Version: 0.0.0
+Summary: HTTP Client for IPFS Cluster.
+Home-page: https://gitlab.com/crosenbrock/py-ipfs-cluster-api
+Author: Conrad W Rosenbrock
+Author-email: crosenbrockc@clearcenter.com
+License: MIT
+Description: # IPFS Cluster HTTP API
+        
+        This is a python package to interact with the HTTP REST API of the IPFS cluster.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
