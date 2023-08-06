@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ad-pack
+Version: 0.1
+Summary: package testing lib
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: abhishek.adhril@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: Pillow (>=1.0)
+Requires-Dist: Matplotlib (>=2.1)
+Requires-Dist: Cython (>=0.28.1)
+
+UNKNOWN
+
+
