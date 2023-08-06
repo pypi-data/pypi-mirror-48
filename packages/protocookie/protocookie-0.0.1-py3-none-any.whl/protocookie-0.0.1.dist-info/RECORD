@@ -1,0 +1,11 @@
+protocookie/__init__.py,sha256=wDbL14NbJWkO6APe3W6kofdQUn_jFBieZYNrTXKhwdY,87
+protocookie/config.json,sha256=Y3CGbG1wXNTQ-rLkUgrp0NGvKw7KBX7omMrGwEMFytw,519
+protocookie/protocookie.proto,sha256=FinIdDDNubCaGEOcYbRHwXzsxsUpx0fIIJSGoTpgpqo,336
+protocookie/protocookie.py,sha256=aEL9-4vPkXttZqehQ9L717gd1cmGeYU1fxS6WE05uk0,1364
+protocookie/protocookie_pb2.py,sha256=zC-7A_GmzB6Jy88E5FB7YlA7zkVWTNweemjgray6FZo,5581
+protocookie/server.py,sha256=u6g05eDLBlaMRMWrqRiEHLX_fv5-ImOkkaNmUEozKG0,1880
+protocookie-0.0.1.dist-info/LICENCE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+protocookie-0.0.1.dist-info/METADATA,sha256=5j06x5pIBiT2upJwxlAeN9ATZrSVtNMrFRR-eIXpf_4,966
+protocookie-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+protocookie-0.0.1.dist-info/top_level.txt,sha256=a0vssy6H6E5eF3VWysPHXMgpvT3onPQf2reaqgcEBA4,12
+protocookie-0.0.1.dist-info/RECORD,,

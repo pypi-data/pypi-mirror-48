@@ -1,0 +1,20 @@
+{
+    "encryptionKey": "yfTTMknEseBrPxGmpG6GAVqIZ7LX7OuW8en-Zdkee84=",
+    "cookieName" : "ModulzAuth",
+    "userDefinition":  {
+        "username"  : "ExampleUser",
+        "id"        : 42,
+        "services"  : [
+            {
+                "name" : "ServiceOne",
+                "id"   : 0,
+                "perm" : [ "OWNER", "EDITOR" ]
+            },
+            {
+                "name" : "ServiceTwo",
+                "id"   : 1,
+                "perm" : ["EDITOR", "VIEWER" ]
+            }
+        ]
+    }
+}
