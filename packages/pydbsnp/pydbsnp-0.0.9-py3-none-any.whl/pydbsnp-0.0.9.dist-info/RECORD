@@ -1,0 +1,11 @@
+pydbsnp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydbsnp/download.py,sha256=8l4Zuy7oVT06Ite4QOIe_JaapgJOv6QLBID9R2iwWGA,2326
+pydbsnp/env.py,sha256=PGz2pA82dliFYlx8fFin97G1CQN3npyRFrV7Uqyags4,1130
+pydbsnp/index.py,sha256=f30NCQazUr84GaKTBYAgtMXrli9c7fOnEFtiHwdNRls,3611
+pydbsnp/query.py,sha256=qo6GFGHHskMDwPq-m2u8hFW7nqdgRmUr9trlSIiFWeo,291
+pydbsnp-0.0.9.dist-info/LICENSE,sha256=1m275erGaOOqdpGpvPY5-TybTHDRleKM56Z97aFqx-g,1073
+pydbsnp-0.0.9.dist-info/METADATA,sha256=oaXhIpyfvve2stSqFsPhN_zUfb6Mt7FeMhKQUMWZ96w,846
+pydbsnp-0.0.9.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+pydbsnp-0.0.9.dist-info/entry_points.txt,sha256=2l9SzL03GEUT9CAqnWuX-Qx1OPAhTmY4ewstcoJuOFY,95
+pydbsnp-0.0.9.dist-info/top_level.txt,sha256=RgxBKmJ5rkBdDho_2-50YsQfilmkHFFA2gXhMjgOs_g,8
+pydbsnp-0.0.9.dist-info/RECORD,,
