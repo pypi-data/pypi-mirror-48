@@ -1,0 +1,2 @@
+django_tst_cms
+Django
