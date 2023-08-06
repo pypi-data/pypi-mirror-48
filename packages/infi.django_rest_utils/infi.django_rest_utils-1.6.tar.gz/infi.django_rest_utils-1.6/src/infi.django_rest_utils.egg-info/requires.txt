@@ -1,0 +1,6 @@
+capacity
+djangorestframework>=3.5.3
+docopt
+setuptools
+unicodecsv
+future
