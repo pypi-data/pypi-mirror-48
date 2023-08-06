@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: http_server_mock
+Version: 1.0
+Summary: Python 3 library to mock a http server using Flask
+Home-page: https://github.com/ezequielramos/http-server-mock
+Author: Ezequiel Ramos
+Author-email: ezequielmr94@gmail.com
+License: GNU General Public License v3.0
+Description: # http-server-mock
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
