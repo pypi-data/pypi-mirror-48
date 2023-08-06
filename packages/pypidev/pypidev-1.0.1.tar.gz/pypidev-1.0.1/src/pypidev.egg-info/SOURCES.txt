@@ -1,0 +1,15 @@
+CHANGES.rst
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+src/pypidev/__init__.py
+src/pypidev/__main__.py
+src/pypidev/cli.py
+src/pypidev/core.py
+src/pypidev.egg-info/PKG-INFO
+src/pypidev.egg-info/SOURCES.txt
+src/pypidev.egg-info/dependency_links.txt
+src/pypidev.egg-info/entry_points.txt
+src/pypidev.egg-info/top_level.txt

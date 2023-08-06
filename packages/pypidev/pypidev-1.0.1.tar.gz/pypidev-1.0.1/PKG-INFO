@@ -1,0 +1,64 @@
+Metadata-Version: 1.2
+Name: pypidev
+Version: 1.0.1
+Summary: A simple pypi sample
+Home-page: https://github.com/bassaer/pypidev
+Author: Tsubasa Nakayama
+Author-email: app.nakayama@gmail.com
+License: Apache 2.0
+Description: =========
+        pypidev
+        =========
+        
+        .. image:: https://travis-ci.com/bassaer/pypidev.svg?branch=master
+            :target: https://travis-ci.com/bassaer/pypidev
+        
+        .. image:: https://img.shields.io/pypi/v/pypidev.svg
+            :target: https://pypi.org/project/pypidev/
+        
+        pypidev is a pypi sample
+        
+        -------
+        install
+        -------
+        
+        .. code-block:: sh
+        
+            ❯ pip install pypidev
+        
+        
+        -------
+        example
+        -------
+        
+        .. code-block:: python
+        
+            >>> from pypidev import Hello
+            >>> hello = Hello("hoge")
+            >>> hello.get()
+            'Hello, hoge!'
+        
+        
+        ---
+        cli
+        ---
+        
+        .. code-block:: sh
+        
+            ❯ pypidev -n hoge
+            Hello, hoge!
+        
+Keywords: hello,pypi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*
