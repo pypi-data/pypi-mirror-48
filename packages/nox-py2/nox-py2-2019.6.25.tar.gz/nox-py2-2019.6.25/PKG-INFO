@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: nox-py2
+Version: 2019.6.25
+Summary: Flexible test automation.
+Home-page: https://nox.thea.codes
+Author: Alethea Katherine Flowers
+Author-email: me@thea.codes
+License: Apache Software License
+Project-URL: Documentation, https://nox.thea.codes
+Project-URL: Source Code, https://github.com/theacodes/nox
+Project-URL: Bug Tracker, https://github.com/theacodes/nox/issues
+Description: Nox - Flexible test automation for Python
+        =========================================
+        
+        ``nox`` is a command-line tool that automates testing in multiple Python
+        environments, similar to `tox`_. Unlike tox, Nox uses a standard Python
+        file for configuration.
+        
+        The latest documentation is available on `Read the Docs`_.
+        
+        The source code is available on `GitHub`_.
+        
+        Python 2 Version
+        ================
+        
+        This is a custom version of nox which supports python 2.
+        It was created for a specific project's needs, `salt`_, because on some distributions where it's tested
+        there's either no Python 3 support or not a recent enough version of Python 3.
+        
+        .. _salt: https://github.com/saltstack/salt
+        .. _tox: https://tox.readthedocs.io
+        .. _Read the Docs: https://nox.readthedocs.io
+        .. _GitHub: https://github.com/theacodes/nox
+        
+Keywords: testing automation tox
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Software Development :: Testing
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=2.7
+Provides-Extra: tox_to_nox
