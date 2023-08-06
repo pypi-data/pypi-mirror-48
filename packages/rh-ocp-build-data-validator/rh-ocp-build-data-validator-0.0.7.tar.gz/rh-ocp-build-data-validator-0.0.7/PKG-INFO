@@ -1,0 +1,57 @@
+Metadata-Version: 1.0
+Name: rh-ocp-build-data-validator
+Version: 0.0.7
+Summary: Validation of ocp-build-data Image & RPM declarations
+Home-page: https://gitlab.cee.redhat.com/openshift-art/tools/ocp-build-data-validator
+Author: AOS ART Team
+Author-email: aos-team-art@redhat.com
+License: Red Hat Internal
+Description: ocp-build-data-validator
+        ========================
+        
+        Validation of `ocp-build-data <https://gitlab.cee.redhat.com/openshift-art/ocp-build-data>`__
+        Image & RPM declarations
+        
+        Installation
+        ------------
+        
+        ::
+        
+            $ pip install rh-ocp-build-data-validator
+        
+        Usage
+        -----
+        
+        Validating a single file:
+        
+        ::
+        
+            $ validate-ocp-build-data path/to/ocp-build-data/images/or/rpms.yml
+        
+        Validating the whole `ocp-build-data <https://gitlab.cee.redhat.com/openshift-art/ocp-build-data>`__
+        repository:
+        
+        ::
+        
+            $ validate-ocp-build-data path/to/ocp-build/data/{images,rpms}/*
+        
+        Validations
+        -----------
+        
+        -  YAML Format
+        -  YAML Schema (supported schemas: **Image** and **RPM**)
+        -  Presence of corresponding `DistGit <http://pkgs.devel.redhat.com>`__ repository
+           (needs to match YAML filename)
+        
+           -  Presence of corresponding **branch** on `DistGit <http://pkgs.devel.redhat.com>`__
+        
+        -  Presence of `GitHub <https://github.com>`__ repository (if declared)
+        
+           -  Presence of **branch** on `GitHub <https://github.com>`__ (if declared)
+           -  Presence of **dockerfile** on `GitHub <https://github.com>`__ (if declared)
+           -  Presence of **manifests-dir** on `GitHub <https://github.com>`__ (if declared)
+        
+        -  Stream is supported (if declared, value must match one of the entries in ``streams.yml``)
+        -  Member exists (if declared, member must be another existing declaration under ``images/``)
+        
+Platform: UNKNOWN
