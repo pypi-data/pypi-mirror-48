@@ -1,0 +1,8 @@
+README.rst
+setup.py
+userv/socket_server.py
+userv.socket_server.egg-info/PKG-INFO
+userv.socket_server.egg-info/SOURCES.txt
+userv.socket_server.egg-info/dependency_links.txt
+userv.socket_server.egg-info/requires.txt
+userv.socket_server.egg-info/top_level.txt
