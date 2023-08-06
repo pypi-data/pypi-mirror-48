@@ -1,0 +1,427 @@
+<div align='center'>
+  <a href='https://www.naturalearthdata.com/'><img src='res/NEV-Logo-Black.png' alt='Natural Earth'></img></a>
+</div>
+
+----
+
+<div align='center'>
+<p><b>asciimap</b></p>
+<p>Print countries in ASCII Art based on shape files from Natural Earth project</p>
+</div>
+
+<div align='center'>
+<a href="https://github.com/ambv/black"><img alt="Code Style: Black" src="https://img.shields.io/badge/code%20style-black-black.svg?style=flat-square"></a>
+<a href="https://choosealicense.com/licenses/gpl-3.0/"><img alt="License" src="https://img.shields.io/badge/license-GPL--3.0--or--later-green.svg?style=flat-square"></a>
+<a href="https://docs.python.org/"><img alt="Python Version" src="https://img.shields.io/badge/python-3.6%20%7C%203.7-blue.svg?style=flat-square"></a>
+<a href="https://github.com/MaelStor/asciimap"><img alt="GitHub tag (latest SemVer)" src="https://img.shields.io/github/tag/MaelStor/asciimap.svg?style=flat-square"></a>
+<a href="https://travis-ci.com/MaelStor/asciimap/"><img alt="Travis (.com) branch" src="https://img.shields.io/travis/com/MaelStor/asciimap/master.svg?style=flat-square"></a>
+</div>
+
+----
+
+<div align='center'>
+<pre>
+        *-----*                                 $-----$                                 '-----'                    
+       *     /                                 $     /                                 '     /                     
+       *    *                                  $    $                                  '    '                      
+      *      *-----*                          $      $-----$                          '      '-----'               
+      |           |                           |           |                           |           |                
+      |           *                           |           $                           |           '                
+      *          /                            $          /                            '          /                 
+       *        /                              $        /                              '        /                  
+       |       *                               |       $                               |       '                   
+       |-*      *--*                           |-$      $--$                           |-'      '--'               
+       *  *         *                          $  $         $                          '  '         '              
+         *          *                            $          $                            '          '              
+ *--*     *--*       \                   $--$     $--$       \                   '--'     '--'       \             
+ |   **       \       \                  |   $$       \       \                  |   ''       \       \            
+ *\  |         \       *-*               $\  |         \       $-$               '\  |         \       '-'         
+   *-*          *        *                 $-$          $        $                 '-'          '        '         
+                United Kingdom                          United Kingdom                          United Kingdom     
+           *--* *         *                        $--$ $         $                        '--' '         '        
+          *    *           \                      $    $           \                      '    '           \       
+          *                 **                    $                 $$                    '                 ''     
+           \                  \*                   \                  \$                   \                  \'   
+            *                  *                    $                  $                    '                  '   
+        *--/                  *                 $--/                  $                 '--/                  '    
+         *----*               |                  $----$               |                  '----'               |    
+               *              |                        $              |                        '              |    
+           *--*              /*                    $--$              /$                    '--'              /'    
+          /     ** *--------*                     /     $$ $--------$                     /     '' '--------'      
+         /-----*  *                              /-----$  $                              /-----'  '                
+       *-*                                     $-$                                     '-'                         
+                                                                                                                   
+</pre>
+</div>
+
+You can print any country with `asciimap` for which a Geometry exists (currently
+177 countries). In general printing is pretty fast though big countries like 
+Russia, Canada etc. need some extra computation time. To circumvent loading times 
+store the results in a database or similar. Disk space isn't much for normal
+40x80 sized ascii maps.
+
+## Dependencies
+
+You need the python bindings for GDAL and GDAL itself installed. I experienced 
+problems installing the python bindings into a virtualenv, so I recommend 
+installing the system packages.
+
+#### Arch
+    pacman -Sy gdal python-gdal
+
+#### Debian/Ubuntu
+
+    apt-get update
+    apt-get install gdal-bin libgdal-dev python3-gdal
+
+## Installation
+
+#### PyPi
+Installation with pip is straightforward:
+
+    sudo pip install asciimap
+
+#### Git
+Installation with git from master branch:
+
+    git clone git@github.com:MaelStor/asciimap.git
+    cd asciimap
+    git checkout master
+
+###### In userspace
+Install in user space with:
+
+    pip install --user .
+
+###### System
+Install system wide with:
+   
+    sudo pip install .
+
+## Usage
+<pre>
+usage: asciimap [-h] [--fill FILL] [--height HEIGHT] [--width WIDTH]
+                [--empty EMPTY] [--blur BLUR]
+                [--method {full,f,dynamic,d,height,h,width,w}]
+                country
+
+Print countres in ASCII Art
+
+positional arguments:
+  country               Select country by ISO 3166-1 alpha-2 codes
+
+optional arguments:
+  -h, --help            show this help message and exit
+  --fill FILL, -f FILL  Single character
+  --height HEIGHT, -i HEIGHT
+                        Height of the map
+  --width WIDTH, -w WIDTH
+                        Width of the map
+  --empty EMPTY, -e EMPTY
+                        The character to use for empty space
+  --blur BLUR, -b BLUR  Add blur to radius and inflate the map
+  --method {full,f,dynamic,d,height,h,width,w}, -m {full,f,dynamic,d,height,h,width,w}
+                        Change rendering method
+
+List all countries and ISO 3166-1 alpha-2 codes with 'list'
+</pre>
+
+## Examples
+    $ asciimap --blur 0.1 it
+<pre>
+              *  *---*                                                          
+              *-*     *--*                                                      
+         *---*            **                                                    
+      *  /                *                                                     
+ *---* **                  *                                                    
+ *                    *----*                                                    
+  *                  *                                                          
+ *                   |                                                          
+ |                   |                                                          
+ |                   *                                                          
+ *\    *--*           \                                                         
+   \ **    *-*         \                                                        
+   **         *         **                                                      
+              |           \                                                     
+              *            *                                                    
+               \           *                                                    
+                \           \                                                   
+                 \  Italy    **                                                 
+                  \            \                                                
+                   **           *--*                                            
+                     **            \                                            
+                       *--*         **                                          
+        *-*                \          **                                        
+      */   \                **          **                                      
+      *     *                 \        /  **                                    
+       *    *                  **     / *-* *                                   
+       |   *                     \   *     **                                   
+       |   |                      *  *                                          
+       |   |                      *   \*                                        
+       * *-*                       *   |                                        
+        *                          |  /*                                        
+                                   * /                                          
+                                  / /                                           
+                      *----------/ /*                                           
+                      |         | *                                             
+                      *\        |                                               
+                        *-*     |                                               
+                           *-*  |                                               
+                              *-*                                               
+                                                                                
+</pre>
+
+    $ asciimap --blur 0.1 no
+<pre>
+                       *---------------*                                        
+          *-----------* \  |  /------*                                          
+           *\            *---*                                                  
+             **          /     *                                                
+               \       **    *----*                                             
+                *-*   /                                                         
+                   *-*                                                          
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                                                                
+                                   *------*                                     
+                                 **     /  *--*                                 
+                          *-----*     ** \   |                                  
+                   Norway/ /--\     **    *--*                                  
+                     * *--*    *---*                                            
+                   *--*                                                         
+                 ** /                                                           
+                /  /                                                            
+               /  /                                                             
+             **  /                                                              
+            /   /                                                               
+           /   /                                                                
+         **   /*                                                                
+       **    /                                                                  
+    *-*     *                                                                   
+  **        |                                                                   
+ *          *                                                                   
+ |           *                                                                  
+ |           |                                                                  
+ |           *                                                                  
+ |       ** /                                                                   
+ *      /  *                                                                    
+  *----*                                                                        
+                                                                                
+</pre>
+
+#### Advanced usage
+Some advanced usage with command-line tools. The picture in the title was produced with
+
+    $ asciimap gb --height 30 --width 35 | paste - <(asciimap gb --height 30 --width 35 --fill "$") | paste - <(asciimap gb --height 30 --width 35 --fill "'")
+
+another example with 'paste' and usage of 'blur':
+
+    $ asciimap -b 0 jp -i 30 -w 30 | paste - <(asciimap -b 2.0 jp -i 30 -w 30)
+
+<pre>
+                                                              
+                                                              
+                                                    *--*      
+                       **                           /   \     
+                       | \                         /     *--* 
+                       *  *--*                    /          *
+                     **     /*                   *           |
+                    *  \   /                     *           |
+                    | * *-*                     *            |
+                    * |                         |            |
+                     /|                         |          *-*
+                    * \                         |         /   
+                    |  *                        |        /    
+                    |  |                        *       *     
+                    *  *                     *-*        |     
+                   /  /                     /           *     
+                  *  *                     /   Japan   *      
+               Japan |                 *--*            *      
+             **      *               **               *       
+             /      *               /                 |       
+            /        *            **                  |       
+      *----/       **            *                    *       
+     /    /   *---*              |                  **        
+   *-*   / \ /                   |              *--*          
+  /*  \ / /-*                    |            **              
+ *  *--* *                       *         *-*                
+ *  |                             *      **                   
+  \ *                             *     /                     
+  **                               *---*                      
+                                                              
+</pre>
+
+    $ asciimap au --blur 0.1 --empty '.' --method full
+
+<pre>
+.....................................*-*.................**.....................
+..................................../...*-----*........../.\....................
+..................................**..........*.........*...*...................
+...........................*.....*.........../..........|...*...................
+........................*-*.**...*..........*...........|....*-*................
+......................**......*-*............**.........|......\................
+...................../.........................**.......*.......*...............
+..................*-*............................*-*.../........*...............
+................../.................................*-*..........*..............
+................./...............................................*..............
+...............**.................................................*-*...........
+.........*----*......................................................**.........
+.....*--*..............................................................\........
+..*-*...................................................................**......
+.*........................................................................\.....
+.|.........................................................................\....
+.*..........................................................................**..
+..*...........................................................................\.
+.*........................................Australia............................*
+..*............................................................................|
+..*............................................................................|
+...\...........................................................................|
+....*..........................................................................|
+....*..........................................................................*
+.....*........................*--------*....................................../.
+.....|.................*-----*..........**.................................../*.
+.....*................/...................\.....*.........................../...
+....*.......*--------*.....................\..**.*........................./....
+.....*-----*................................**..**......................../.....
+..................................................*-*....................*......
+.....................................................*...................*......
+.....................................................*................*-*.......
+......................................................*----*.*--*..*-*..........
+............................................................*....**.............
+................................................................................
+................................................................................
+...............................................................*-----*..........
+................................................................|....*..........
+................................................................*---*...........
+................................................................................
+</pre>
+
+Sometimes a country has more than one land surface (or more precise: Polygons)
+defined which scrambles the surface of interest when printing all surfaces:
+
+    $ asciimap --surface all --method full ru --fill "'"
+<pre>
+                                                             ''                 
+                                                             '\                 
+                                                               '                
+                                                               '                
+                                                      ''      / \'              
+                                                     '      '/   '     '-'      
+                                                            /   '               
+                                                    '     '/     '' '           
+                                                    |   ' /        \|  '-'      
+                                                    '  ' '          \ /  \      
+                                                       '             '    ''    
+                                               '      / '                   '--'
+                                               |\ '  / '                       |
+ '                                             |-\ ''                          |
+ |'                                            |  /                            |
+ '                                             | '                             |
+                                               | '                             |
+                                               |/                              |
+                                               |                           ''  '
+                                               |             Russia       '  '/ 
+                                               |                        ' | '/  
+                                               |                       ' '' |   
+                                               |                       '    |   
+                                               |                      '    '|   
+                                               |                      |    |'   
+                                               |       '-'            '    |    
+                                               '      /   '        '   '   |    
+                                                '    /    |       ' \  |   |    
+                                                |   /|    '   '   |  ' |   '    
+                                                '  / '     \ / \  |  | |        
+                                                 \/        ''  '--'  | '        
+                                                 ||                  '  '       
+                                                 ||                   '/        
+                                                 ||                   |         
+                                                 /|                   |         
+                                                ' |                   |         
+                                                 \|                   '         
+                                                  '                             
+                                                                                
+                                                                                
+</pre>
+
+To overcome the bias you can just render the big land surface for example with:
+
+    $ asciimap --surface 1 --method height ru --fill "'" 
+
+<pre>
+                                           '-'                                  
+                                   '-----'                              '------'
+                                '---'                             '----'       |
+                              '' /                               /             |
+                             / ''                          '----'              |
+                            ' /               '--'     '-' /                   |
+                            '--'            '/  \  '' /   '                    |
+                                            |    '  ''                         |
+    '-'                             '--'    '\   ' /                           |
+  ''   '---'                ''    '' /  '--'  '   / \                          |
+   |        \-'    ''   '--'  '--'  '       ''   /'  '                         |
+   '     '-----\   /\ ''                        '  ''                          |
+    '   '      |--'  '                           ''                            |
+   '    '  '   /                                                               |
+    \    '' '-'                                                                |
+     '                                                                         |
+    /                                                                          |
+   /                                                                     Russia|
+  /                                                                            |
+ '                                                                             |
+ |                                                                             |
+ |                                                                             |
+ '\                                                                            |
+   \                                        '--'                               |
+    \                                 '----'    '-'  ''                        |
+     \                               '             ''  \                       |
+     |-'                             '                  \                      |
+     '  \                '---'      /                    \                    /'
+         \ '            /     '------'                    '---'       '--'   /  
+          ' ''        ''                                       '-' '-'    '--'  
+              '      '                                            '             
+              '      '                                                          
+             /        \                                                         
+            '          '                                                        
+       ''   |         /                                                         
+       ''  '-\       '                                                          
+              '--'   '                                                          
+                  '-' \                                                         
+                     '-'                                                        
+                                                                                
+</pre>
+
+what cuts off the right half of Russia. To print the whole surface:
+
+    $ asciimap --surface 1 --method width --height 20 ru --fill "'"
+
+<pre>
+                                         ''                                      
+                '-'              '-----'  '--'            '--'                  
+               /            '---'             ''   '        /                   
+             ''       '' '-'                    '-' '' '   / '--'               
+                     / \ /                            ' '-'      '---'     '--' 
+  '---'  '' '-------'   '                                             '---'    '
+  |/    /  '                                                                   |
+  | \ ''                                                                      /'
+  '  '                                                             '--'   ' ''  
+ '                                  Russia                  '-----'    '-' '    
+ |                                                        ''         ''         
+ '                   ''                                  '          '  '        
+  \               '-'  '--'                      '-'     '          |-'         
+   ''       '----'         '-'    '   ''        /   \     \-'       '           
+     ''    /     '            '--' '-'  '-------'    ''    |                    
+       '  '                                            \   '                    
+      '    '                                            \ /                     
+    ' '-' /                                            '-'                      
+         ''                                                                     
+                                                                                
+</pre> 
+
+To find the right surface you have to try around a bit. I'm working on a
+better solution.
