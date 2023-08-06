@@ -1,0 +1,3 @@
+[console_scripts]
+amt = amt.cli:main
+
