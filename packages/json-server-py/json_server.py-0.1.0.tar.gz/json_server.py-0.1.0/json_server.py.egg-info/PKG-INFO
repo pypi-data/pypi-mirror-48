@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: json-server.py
+Version: 0.1.0
+Summary: A simple JSON server
+Home-page: https://github.com/gera2ld/json_server.py
+Author: Gerald
+Author-email: i@gerald.top
+License: MIT license
+Description: UNKNOWN
+Keywords: json server
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
