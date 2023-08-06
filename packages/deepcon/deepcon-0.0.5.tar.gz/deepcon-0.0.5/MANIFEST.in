@@ -1,0 +1,2 @@
+include deepcon/weights-rdd-covariance.hdf5
+include deepcon/test/*
