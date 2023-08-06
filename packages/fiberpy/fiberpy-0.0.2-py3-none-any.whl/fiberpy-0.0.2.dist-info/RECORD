@@ -1,0 +1,11 @@
+fiberpy/__about__.py,sha256=gB6wLlUfZew7ymEpD11uz2oAE-wWtTTZi_5o0XoyjtY,288
+fiberpy/__init__.py,sha256=_3y6ecors8wSySfrbdHevXu-DZ0afq2OzFH-JdntlGs,215
+fiberpy/closure.py,sha256=J5f92-pPmQJuJzao9Fker02ZI862PcKzDSMK9CUsQgY,16555
+fiberpy/mechanics.py,sha256=cS2_52StqHyj3lSjoXfWfOiiNsODwy13fhWHloG911I,11748
+fiberpy/orientation.py,sha256=jZrNaePdezw3gdbL5p4lOmuuc36JOGq_bWY13HfAQv4,3210
+fiberpy/tensor.py,sha256=CF-mCnIhIZq1MiASXKKFJlLPSh7aBIQSQGppiGn_8tU,11291
+fiberpy-0.0.2.dist-info/LICENSE,sha256=L8pwam33ctK0bRR6IlCzz4Gw1ME5gZH_YkxzkzWZ_c8,1076
+fiberpy-0.0.2.dist-info/METADATA,sha256=W7c4PjXtpiFp4qSKF1owZbAdIHB4V-krlTksldsNbdc,2107
+fiberpy-0.0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+fiberpy-0.0.2.dist-info/top_level.txt,sha256=jmpDv_ZQFbcJ67Vm3qPcxsLpa5xXckJEKcHtKhlU07g,8
+fiberpy-0.0.2.dist-info/RECORD,,
