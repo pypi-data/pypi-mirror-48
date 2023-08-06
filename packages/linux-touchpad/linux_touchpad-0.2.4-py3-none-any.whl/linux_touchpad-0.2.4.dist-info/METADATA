@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: linux-touchpad
+Version: 0.2.4
+Summary: Auto-disable laptop touchpad when a mouse is detected.
+Home-page: https://github.com/Zer0897/linux-touchpad
+License: MIT
+Keywords: linux,touchpad,auto,disable,mouse
+Author: Noah
+Author-email: noah@coronasoftware.net
+Requires-Python: >=3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: filelock (>=3.0,<4.0)
+Requires-Dist: pyudev (>=0.21.0,<0.22.0)
+Project-URL: Repository, https://github.com/Zer0897/linux-touchpad
+Description-Content-Type: text/plain
+
+#+title: Linux Touchpad
+#+author: Noah Corona
+#+email: noah@coronasoftware.net
+#+description: A simple tool for managing your touchpad.
+
+Disable touchpad when a mouse is plugged in.
+
+Does its best at guessing device type, it should work for most
+unix systems.
+
+* Dependencies
+  | Python 3.7 | https://www.python.org/downloads/release/python-373/ |
+  | Xinput     | https://wiki.archlinux.org/index.php/Xinput          |
+* Install
+  #+begin_src bash
+  $ pip install linux-touchpad
+  #+end_src
+* Usage
+** Start
+   #+begin_src bash
+   $ python -m linux-touchpad start
+   #+end_src bash
+** Toggle
+   #+begin_src bash
+   $ python -m linux-touchpad toggle
+   #+end_src
+** Stop
+   #+begin_src bash
+   $ python -m linux-touchpad stop
+   #+end_src
+* Author
+ [[https://github.com/Zer0897][Noah Corona]] \\
+ [[mailto:noah@coronasoftware.net][noah@coronasoftware.net]]
+ #+name: Logo
+ [[https://coronasoftware.net][https://coronasoftware.net/s/sLogo.png]]
+
