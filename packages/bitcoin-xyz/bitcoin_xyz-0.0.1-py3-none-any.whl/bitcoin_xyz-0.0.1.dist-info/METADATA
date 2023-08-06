@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: bitcoin-xyz
+Version: 0.0.1
+Summary: This is a bitcoin tools package.
+Home-page: https://github.com/sincatgit/bitcoin_xyz
+Author: alphajon
+Author-email: alphajon@126.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# bitcoin_jon
+
+This is a bitcoin tools package including bip32、bip38 bip39 implemention.
+
+Visit[bitcoin_jon](https://github.com/sincatgit/bitcoin_jon) to check source code.
+
