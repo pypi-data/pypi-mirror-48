@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: onatlib
+Version: 0.0.2
+Summary: A tool offers P2P communication to transfer files and connect pipes between PCs in different NATs
+Home-page: https://github.com/ryogrid/Over-NAT-Lib
+Author: Ryo Kanbayashi
+Author-email: ryo.contact@gmail.com
+License: BSD
+Description: # What is Over-NAT-Lib?
+        Library and tools for using data channel of WebRTC which can establish transport over NAT  
+          
+          
+        # Usage  
+        [A tool offers P2P communication to transfer files and connect pipes between PCs in different NATs](https://qiita.com/ryo_grid/items/4ce5d45454887500e9c8)
+          
+          
+        # To people who are interested in this library and tools
+        if you have any comment or question, please feel free to reach me or add a issue to this repo.  
+        - ryo.contact[at]gmail.com   
+        - https://twitter.com/samehada_grid  
+        - https://ryogrid.hatenablog.com/
+        - http://ryogrid.net/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
