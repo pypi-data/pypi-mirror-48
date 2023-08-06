@@ -1,0 +1,6 @@
+facial_hair.py
+setup.py
+facial_hair.egg-info/PKG-INFO
+facial_hair.egg-info/SOURCES.txt
+facial_hair.egg-info/dependency_links.txt
+facial_hair.egg-info/top_level.txt
