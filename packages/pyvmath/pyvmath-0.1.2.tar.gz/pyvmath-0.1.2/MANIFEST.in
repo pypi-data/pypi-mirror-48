@@ -1,0 +1,8 @@
+include LICENSE
+include MANIFEST.in
+include README.md
+include setup.py
+pyVectorMath.cpp
+pyVectorMath.h
+vmath.h
+vmath_doc_en.h

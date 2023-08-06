@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pyvmath
+Version: 0.1.2
+Summary: C++ extension Vector Mathematics Package for 3D and 2D games.
+Home-page: UNKNOWN
+Author: Kiharu Shishikura
+Author-email: shishi@indigames.net
+License: MIT
+Description: pyvmath
+        
+        C++ extension Vector Mathematics Package for 3D and 2D games.
+        
+        
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Topic :: Games/Entertainment
