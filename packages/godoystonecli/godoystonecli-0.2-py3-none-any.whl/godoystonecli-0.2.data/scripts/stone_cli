@@ -1,0 +1,61 @@
+#!/usr/bin/python3
+
+import sys
+from Modulos.Azure import Azure
+from Modulos.GCP import GCP
+import yaml
+
+def usage():
+    print ("""
+        Stone-cli é um projeto para automatizar a criação de infraestrutura na Stone sem ter que abrir os chamados.
+        -h para ajuda
+        -gcp para criar no gcp
+        -az para criar no azure
+        -f para parsear o yaml
+    """)
+
+# print(sys.argv)
+
+def parse_yaml():
+    print("cheguei")
+    print(sys.argv[2])
+    with open(sys.argv[2], "r") as f:
+        compose = yaml.load(f.read())
+    print(compose)
+    if compose.get("plataform") == "gcp":
+        gcp = GCP()
+        if compose["type"] == "vm":
+            gcp.create_vm(compose["list"])
+
+def switch(x):
+    az = Azure()
+    gcp = GCP()
+    try:
+        # print(x)
+        funcoes = {
+            "-gcp":gcp.create_vm,
+            "-az":az.criar_vm,
+            "-h":usage,
+            "-f":parse_yaml
+        }
+        return funcoes[x]
+    except Exception as e:
+        print("Argumento inválido", e)
+
+try:
+    print(sys.argv)
+    switch(sys.argv[1])()
+except Exception as e:
+    print("O numero de argumentos é inválido")
+
+# if len(sys.argv) == 1 or sys.argv[1] == "-h":
+#     usage()
+# elif sys.argv[1] == "-gcp":
+#     gcp()
+# elif sys.argv[1] == "-az":
+#     azure()
+# else:
+#     print("argumento inválido")
+
+
+

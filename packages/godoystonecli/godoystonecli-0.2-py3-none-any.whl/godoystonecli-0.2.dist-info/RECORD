@@ -1,0 +1,10 @@
+Modulos/Azure.py,sha256=sD-Jv42NvNI8w3AW5VIWfWI5u7DbMRXwJXrv_SnkTZ4,242
+Modulos/Cloud.py,sha256=itOLCpQ7YzdVfJxysuFqhceKdUIldzGEvsNkB4TQR4U,203
+Modulos/Docker.py,sha256=pn8h4xKuxDTG5w2lNNx2sOZlWuoEFFgq9vPP6tv8IxM,761
+Modulos/GCP.py,sha256=aSry4FrfzdxuL63Vvb5hxYK59WtCTrgtoOiXPuqF-uA,816
+Modulos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+godoystonecli-0.2.data/scripts/stone_cli,sha256=HTZDT-lxL75mjtAwKswE02FMWOOXppJLF-gqR1rrJ14,1390
+godoystonecli-0.2.dist-info/METADATA,sha256=cKcyGXWLL7BQnYGn3KKisFaYXi3nehv7ZkJzIMEAako,452
+godoystonecli-0.2.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+godoystonecli-0.2.dist-info/top_level.txt,sha256=vZpkju47QV_ZZEH96yHCA1ntGKMhFCPqQzZWZeXS6kE,8
+godoystonecli-0.2.dist-info/RECORD,,
