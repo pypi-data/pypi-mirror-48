@@ -1,0 +1,11 @@
+README.rst
+setup.py
+stdutils/__init__.py
+stdutils.egg-info/PKG-INFO
+stdutils.egg-info/SOURCES.txt
+stdutils.egg-info/dependency_links.txt
+stdutils.egg-info/top_level.txt
+tests/__init__.py
+tests/conftest.py
+tests/test_stdutils.py
+tests/test_shutil/__init__.py

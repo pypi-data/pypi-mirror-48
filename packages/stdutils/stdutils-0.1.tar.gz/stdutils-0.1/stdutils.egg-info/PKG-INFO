@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: stdutils
+Version: 0.1
+Summary: Utils for Python Standard Library
+Home-page: https://github.com/hezhiming/stdutils
+Author: he.zhiming
+Author-email: he.zhiming@foxmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: IPv4,IPv6
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
