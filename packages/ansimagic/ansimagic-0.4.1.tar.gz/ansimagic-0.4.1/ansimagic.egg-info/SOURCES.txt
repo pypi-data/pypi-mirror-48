@@ -1,0 +1,12 @@
+README.md
+setup.py
+ansimagic/__init__.py
+ansimagic/brush.py
+ansimagic/clear.py
+ansimagic/cursor.py
+ansimagic/presets.py
+ansimagic/tools.py
+ansimagic.egg-info/PKG-INFO
+ansimagic.egg-info/SOURCES.txt
+ansimagic.egg-info/dependency_links.txt
+ansimagic.egg-info/top_level.txt
