@@ -1,0 +1,72 @@
+Metadata-Version: 1.1
+Name: stockAnalysis
+Version: 1.4.1
+Summary: UNKNOWN
+Home-page: https://github.com/francose/stockAnalysis
+Author: Sadik Erisen
+Author-email: fserisen@gmail.com
+License: MIT
+Download-URL: https://github.com/francose/stockAnalysis/archive/master.zip
+Description: This package includes Stock analysis tools and data extractor by using
+        Yahoo Finance..
+        
+        Installation
+        ============
+        
+        - pip install stockAnalysis
+        
+        Yahoo Finance S&P500 Extrator
+        =============================
+        
+        -  Method and Params: YahooFinance( Symbol , Range/Duration , interval )
+        -  Symbol is the stock ticker symbol, e.g. 'AAPL' for Apple or 'GOOG'
+           for Google.
+        -  range/duration is the desired range of the query, allowed parameters
+           are [1d, 5d, 1mo, 3mo, 6mo, 1y, 2y, 5y, 10y, ytd, max].
+        -  interval is the desired interval of the quote, e.g. every 5 minutes,
+           allowed parameters are [1m, 2m, 5m, 15m, 30m, 60m, 90m, 1h, 1d, 5d,
+           1wk, 1mo, 3m].
+        
+        USAGE
+        =====
+        
+        .. code:: python
+        
+           '''Create an instance of yahoo finance class and pass the parameters as string '''
+           yf = YahooFinance('AAPL', '6mo', '1d')
+        
+           '''Gets all the prices within given time frame'''
+           get_quotes = yf.CompanyQuotes()
+        
+           '''Populates the output data as a json file '''
+           write_data = yf.writeOutput()
+        
+           '''Reads from the output file. Takes only two parameter Path and Data Series 
+              Parameter string should be [High, Low, Open , Close] '''
+           r_data = yf.readOutput('output.json', 'close')
+        
+           '''SMA and EMA methods takes two parameters first param is Data and second is the time frame. '''
+           get_sma = yf.sma(r_data, 14)
+           get_ema = yf.ema(r_data, 14)
+           '''RSI method takes two parameters first param is Data and second is the time frame. '''
+           get_rsi = yf.RSI(r_data, 14)
+           '''MACD method takes three parameters first param is Data, second is the slows  and third one is the fast'''
+           get_macd = yf.macd(r_data, 25, 14)
+        
+        CONTACT
+        =======
+        
+        The package is created by Sadik Erisen. Please send email to fserisen@gmail.com if you have questions or comments.
+        
+        LICENCE
+        =======
+        
+        MIT
+Keywords: stocks,finance,market,S&P500,yahoo
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
