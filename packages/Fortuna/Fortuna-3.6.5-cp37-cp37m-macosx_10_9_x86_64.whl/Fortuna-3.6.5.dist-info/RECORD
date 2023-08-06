@@ -1,0 +1,15 @@
+Fortuna.cpython-37m-darwin.so,sha256=x57XSrOothA9Jepcx61D9GRFFLSknRkjyACiZ1eNJZs,507080
+fortuna_extras/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fortuna_extras/examples.py,sha256=sPCrXYcz4gXz6dGZHLAHHooC8ePUMuyjMP6DtQiqdIY,1667
+fortuna_extras/flex_cat_tests.py,sha256=R2BVoMe6lAtLy-1Twi2XzhbfLoeqavBSqC2t9xOzhlw,753
+fortuna_extras/monty_tests.py,sha256=vcaD-BXZBfArpiU2Je62Vs1cgs9meTjchlq_LI0MruA,776
+fortuna_extras/quest_example.py,sha256=haEQjN28uFiX1yaN8DEtV7mnoX805YC9uQfcXMQncws,2660
+fortuna_extras/random_value_tests.py,sha256=2v55yoKMCE2qlakKAzoHoVFuAv-ksdm2xHQXRNmm_9U,1677
+fortuna_extras/range_tests.py,sha256=SkJ43mMwmWlKcEOY1oInwQ_eFbhd__o9mH7XWsvbBZM,5538
+fortuna_extras/tests.py,sha256=PAi1m-LzZxJhv9X8oG8MbYx7tilMUG0aUy6HBSWWesw,5513
+fortuna_extras/weighted_tests.py,sha256=0X_HNrV1oRINqugyWuZOYc9jCuaN-jOmQ4foq75S6i0,460
+fortuna_extras/zero_cool.py,sha256=n7IWRdQs1quXbJha5bjxF9W9j9WuwP3VAFgrUQvbgm0,670
+Fortuna-3.6.5.dist-info/METADATA,sha256=oHQEZDgoO4wJTLPI6mXCOEIfwKfj9AnjWEij8At6tIA,58795
+Fortuna-3.6.5.dist-info/WHEEL,sha256=7N6M1ykYIrx0t3uJ-hlnVYi8OLGWgsRo4OtIoqs8ENE,110
+Fortuna-3.6.5.dist-info/top_level.txt,sha256=529_hPm1yz8v0V7GOg_YsQ3gQqP6WAhEsLBI1ZDDP4o,23
+Fortuna-3.6.5.dist-info/RECORD,,
