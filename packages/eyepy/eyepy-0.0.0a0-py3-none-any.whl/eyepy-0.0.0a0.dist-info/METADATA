@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: eyepy
+Version: 0.0.0a0
+Summary: Eyetracking Software
+Home-page: https://github.com/dillongwozdz/eyepy
+Author: Dillon Gwozdz
+Author-email: dillongwozdz@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Description-Content-Type: text/markdown
+
+# eyepy
+Library for eyetracking analysis with Python
+
+
