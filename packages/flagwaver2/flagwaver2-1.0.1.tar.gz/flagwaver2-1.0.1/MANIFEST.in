@@ -1,0 +1,3 @@
+graft flagwaver2/static
+graft flagwaver2/templates
+global-exclude *.pyc
