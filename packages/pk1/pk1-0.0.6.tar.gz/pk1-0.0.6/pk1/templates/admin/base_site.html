@@ -1,0 +1,40 @@
+{% extends "admin/base.html" %}
+{% load static i18n %}
+{% block title %}{{ title }} | {{ site_title }}{% endblock %}
+{% block extrastyle %}
+    {{ block.super }}
+    <style>
+        #header{
+            background-color: rgba(255, 255, 255, 0.95);
+        }
+        #branding img{
+            max-height: 50px;
+        }
+    </style>
+    <style>
+        div.breadcrumbs a, #header a:link, #header a:visited{
+            color:#6f7e95;
+        }
+        #user-tools, #user-tools a:link, #user-tools a:visited{
+            color: #c1c8f4;
+        }
+        div.breadcrumbs, #header{
+            background-color: #ecf2f6;
+        }
+        #branding img{
+            max-height: 35px;
+        }
+    </style>
+    {% endblock %}
+{% block extrahead %}
+    <link rel="apple-touch-icon" sizes="180x180" href="{% static '/apple-touch-icon.png' %}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{% static '/favicon-16x16.png' %}">
+{% endblock %}
+{% block branding %}
+    {{ block.super }}
+    <h1 id="site-name">
+        <a href="/">
+            <img src="{% static '/logo-large.png' %}">
+        </a>
+    </h1>
+{% endblock %}
