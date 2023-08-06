@@ -1,0 +1,4 @@
+[console_scripts]
+wasp_map-download = wasp_map.download:main
+wasp_map-set-ldlib = wasp_map.ldlib:main
+
