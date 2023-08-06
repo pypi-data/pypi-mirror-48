@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        cgccli=cancergeonomics.cli:cgccli
+    
