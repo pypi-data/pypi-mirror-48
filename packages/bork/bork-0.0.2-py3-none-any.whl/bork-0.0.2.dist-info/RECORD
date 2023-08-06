@@ -1,0 +1,10 @@
+bork/__init__.py,sha256=0fUT3CTKWrCMApkgd4NqiCTv0V1LaIasoFY-NAU0UYs,2592
+bork/cli.py,sha256=mLkIZazxsMkxKrZE1R9gmt70_A11eQZDAF5yYqEAzi0,297
+bork/github_uploader.py,sha256=nbp8hJTDYKXipQ5F5sAwh_xq_GpJ5xM9zLTHqAFqs9s,297
+bork/pypi_uploader.py,sha256=E0lFX5gnfBoaWN24P3IouTz8FlAkXNDiS_VofFLKups,376
+bork-0.0.2.dist-info/LICENSE.txt,sha256=RXEOZS2JR_7_MjNKEWGjq_9wqQ6gv_KtgnmGK36Tc_Q,1083
+bork-0.0.2.dist-info/METADATA,sha256=Ptea0L_Fm1lqxEOfHjWUOPs8fx1i_nhrq_iY3_-T2Tw,1961
+bork-0.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+bork-0.0.2.dist-info/entry_points.txt,sha256=MG3rowYQ65VUdGCJRpp2HwvUgx61GsY0qW0nLvSKAcw,40
+bork-0.0.2.dist-info/top_level.txt,sha256=l7Yy0ANz0WRZThGTX9MKpsMDMxtmzDgIgxx0xSi2dkU,5
+bork-0.0.2.dist-info/RECORD,,
