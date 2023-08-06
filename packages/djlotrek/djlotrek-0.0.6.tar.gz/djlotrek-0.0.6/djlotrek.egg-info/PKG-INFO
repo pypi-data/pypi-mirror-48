@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: djlotrek
+Version: 0.0.6
+Summary: Lotrek's beloved Django utilities library
+Home-page: https://github.com/lotrekagency/djlotrek
+Author: Lotrek
+Author-email: dimmitutto@lotrek.it
+License: MIT
+Description: 
+        DjLotrek
+        ========
+        
+        There's no party without DjLotrek, our personal Django library
+        
+        Run tests
+        ---------
+        
+        .. code-block:: sh
+        
+           pip install -r requirements-dev.txt
+           ./runtests.py --with-coverage
+        
+        How to use it
+        -------------
+        
+        
+        * `@Decorators </how-to/decorators.md>`_
+        
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
