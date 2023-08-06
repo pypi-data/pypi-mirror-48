@@ -1,0 +1,6 @@
+README.md
+setup.py
+conjugate_bayes.egg-info/PKG-INFO
+conjugate_bayes.egg-info/SOURCES.txt
+conjugate_bayes.egg-info/dependency_links.txt
+conjugate_bayes.egg-info/top_level.txt
