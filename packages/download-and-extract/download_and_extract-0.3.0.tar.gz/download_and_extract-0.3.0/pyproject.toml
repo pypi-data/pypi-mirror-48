@@ -1,0 +1,13 @@
+[tool.poetry]
+name = "download_and_extract"
+version = "0.3.0"
+description = "Downloads zip archive and extracts it to specified folder"
+authors = ["Advaita Krishna das <advaita.krishna.das@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "^2.22"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
