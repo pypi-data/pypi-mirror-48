@@ -1,0 +1,10 @@
+README.rst
+setup.py
+pipelineutils/__init__.py
+pipelineutils/pipelineutils.py
+pipelineutils.egg-info/PKG-INFO
+pipelineutils.egg-info/SOURCES.txt
+pipelineutils.egg-info/dependency_links.txt
+pipelineutils.egg-info/not-zip-safe
+pipelineutils.egg-info/requires.txt
+pipelineutils.egg-info/top_level.txt
