@@ -1,0 +1,13 @@
+README.md
+setup.py
+pyBedGraph/Benchmark.py
+pyBedGraph/Chromosome.py
+pyBedGraph/Genome.py
+pyBedGraph/Test.py
+pyBedGraph/__init__.py
+pyBedGraph/main.py
+pyBedGraph/make_tests.py
+pyBedGraph.egg-info/PKG-INFO
+pyBedGraph.egg-info/SOURCES.txt
+pyBedGraph.egg-info/dependency_links.txt
+pyBedGraph.egg-info/top_level.txt
