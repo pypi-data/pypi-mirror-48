@@ -1,0 +1,33 @@
+[tool.poetry]
+name = "jdna"
+version = "0.1.0"
+description = ""
+authors = ["Justin Vrana <justin.vrana@gmail.com>"]
+homepage = 'https://jvrana.github.io/jdna/'
+repository = 'https://github.com/jvrana/jdna'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+biopython = "^1.73"
+numpy = "^1.16"
+networkx = "^2.3"
+primer3-py = "^0.6.0"
+colorama = "^0.4.1"
+webcolors = "^1.9"
+
+[tool.poetry.dev-dependencies]
+black = {version = "^18.3-alpha.0",allows-prereleases = true}
+pytest = "^5.0"
+pre-commit = "^1.17"
+toml = "^0.10.0"
+pytest-benchmark = "^3.2"
+guzzle_sphinx_theme = "^0.7.11"
+
+[tool.poetry.scripts]
+upver = 'jdna:_version.pull_version'
+version = 'jdna:_version.get_version'
+name = 'jdna:_version.get_name'
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
