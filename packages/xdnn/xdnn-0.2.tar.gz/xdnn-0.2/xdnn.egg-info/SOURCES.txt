@@ -1,0 +1,7 @@
+setup.py
+xdnn/__init__.py
+xdnn.egg-info/PKG-INFO
+xdnn.egg-info/SOURCES.txt
+xdnn.egg-info/dependency_links.txt
+xdnn.egg-info/not-zip-safe
+xdnn.egg-info/top_level.txt
