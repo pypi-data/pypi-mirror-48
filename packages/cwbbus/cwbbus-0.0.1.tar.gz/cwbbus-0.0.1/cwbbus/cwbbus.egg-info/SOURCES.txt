@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cwbbus/__init__.py
+cwbbus/datareader.py
+cwbbus/downloader.py
+cwbbus/filetype.py
+cwbbus/cwbbus.egg-info/PKG-INFO
+cwbbus/cwbbus.egg-info/SOURCES.txt
+cwbbus/cwbbus.egg-info/dependency_links.txt
+cwbbus/cwbbus.egg-info/requires.txt
+cwbbus/cwbbus.egg-info/top_level.txt
