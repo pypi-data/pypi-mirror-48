@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: tabbyj
+Version: 0.2.0
+Summary: A command line JSON flattener
+License: MIT
+Author: Riley Flynn
+Author-email: riley@rileyflynn.me
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: click (>=7.0,<8.0)
+Requires-Dist: ujson (>=1.35,<2.0)
