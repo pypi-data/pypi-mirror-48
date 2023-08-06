@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: CredentialHolder
+Version: 0.0.1
+Summary: simple class for serializable and secure credential holder
+Home-page: https://github.com/bmpang/PythonCredentialHolderClass
+Author: brando
+Author-email: snoopy20704@capitalone.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: pycryptodome
+
+# Simple Serializable Credential Holder
+This is a simple class for handling credentials. It is serializable for data transfer and is able to securely hold
+credentials in its constructed form.
+
+## usage
+Create a passphrase that is used as an encryption key and create an instance of the object using the credential you want
+to encrypt and the passphrase. Then you can serialize it and use the string to store or communicate the credentials, e.g.
+
+```Python
+from credential_holder.holder import CredentialHolder
+from credential_holder.serializer import  CredentialHolderSerializer
+
+
+credential_holder = CredentialHolder("passphrase", "password")
+serialized_credential_holder = CredentialHolderSerializer.serialize_credential_holder(credential_holder)
+```
+
+This creates something along the lines of 
+```Python
+
+serialized_credential = 'aG9sZGVyLl' + 'GQzXHInKQ==' # shortened representation of a large base64 string
+
+```
+
+This value can be then transferred and used elsewhere as follows
+
+```Python
+from credential_holder.serializer import  CredentialHolderSerializer
+
+serialized_credential = "same_as_above"
+
+serialized_credential_holder = CredentialHolderSerializer.deserialize_credential_holder(serialized_credential)
+
+serialized_credential_holder.get_credential("passphrase")
+```
+
+Using the wrong passphrase or supplying an invalid serialized credential holder will raise an exception
+
