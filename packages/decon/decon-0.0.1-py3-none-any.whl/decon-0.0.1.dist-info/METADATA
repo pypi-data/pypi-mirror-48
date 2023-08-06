@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: decon
+Version: 0.0.1
+Summary: Deconvolution tools, focused on time series data.
+Home-page: https://github.com/micha2718l/decon
+Author: Michael Haas
+Author-email: micha2718l@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# Decon
+
+Some algorithms and tools for deconvolution. Mainly focused on time series data analysis.
+
