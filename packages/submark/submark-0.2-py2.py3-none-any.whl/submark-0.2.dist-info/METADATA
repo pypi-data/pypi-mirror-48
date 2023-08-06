@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: submark
+Version: 0.2
+Summary: A Subset of Markdown
+Home-page: https://github.com/okken/submark
+License: UNKNOWN
+Author: Brian Okken
+Author-email: 
+Classifier: License :: OSI Approved :: MIT License
