@@ -1,0 +1,4 @@
+absl-py==0.6.1
+grr-response-client==3.3.0post3
+grr-response-core==3.3.0post3
+pyinstaller==3.2.1
