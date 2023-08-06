@@ -1,0 +1,6 @@
+
+[fx2]
+pyusb==1.0.0a3
+
+[smdp]
+pyserial
