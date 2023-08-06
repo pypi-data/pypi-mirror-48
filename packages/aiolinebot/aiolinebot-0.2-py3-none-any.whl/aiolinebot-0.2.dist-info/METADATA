@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: aiolinebot
+Version: 0.2
+Summary: AioLineBotApi provides asynchronous interface for LINE messaging API
+Home-page: https://github.com/uezo/aio-linebot-api
+Author: uezo
+Author-email: uezo@uezo.net
+Maintainer: uezo
+Maintainer-email: uezo@uezo.net
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: line-bot-sdk
+Requires-Dist: aiohttp
+
+UNKNOWN
+
+
