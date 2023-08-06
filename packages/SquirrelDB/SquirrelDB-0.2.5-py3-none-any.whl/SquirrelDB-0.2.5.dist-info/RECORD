@@ -1,0 +1,17 @@
+SquirrelDB-0.2.5.dist-info/METADATA,sha256=dSXRtzc2gwKpTtgLTgT_hzbaIzuWJiFqk9gYpBNxLN8,454
+SquirrelDB-0.2.5.dist-info/RECORD,,
+SquirrelDB-0.2.5.dist-info/WHEEL,sha256=NzFAKnL7g-U64xnS1s5e3mJnxKpOTeOtlXdFwS9yNXI,92
+SquirrelDB-0.2.5.dist-info/top_level.txt,sha256=FDZhf1yg9MGWhx2AchYQ5sM7ks6hwpVF9R8PfUpgsfc,11
+squirreldb/__init__.py,sha256=-PIAvgNjh7nCOmhlEsgxb0c_rDLcmPgSoJMxwdmiaAg,121
+squirreldb/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squirreldb/commands/listOperations.py,sha256=t8ZrWUoG79FtGDDfeZaxT6wQEXJc0TWKaSxE55dKcf0,1223
+squirreldb/commands/listOperationsImpl.py,sha256=XeqNm9wK3bpSSfHRnqPdvRJaiv5H550K6R7iqP5Q-u0,7587
+squirreldb/commands/stringOperations.py,sha256=zmTqNIclbX21-pPn5e7HZrUbYWEo2nhd0Z4EdKEdqnQ,1045
+squirreldb/commands/stringOperationsImpl.py,sha256=rSb3R5a4ek9yF-TAfa5Nx8G9lmpb-5z9BBWTjM214f0,3887
+squirreldb/engine/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squirreldb/engine/main.py,sha256=3ORhSu5W4GXw0VdxIizOqLbeTjOAR_tvaPyVKvnbaDY,5400
+squirreldb/engine/operations.py,sha256=WoLVJIeKMvgVsTt5bV39qlCjb-Y3QeYRz1FqkNtnQq4,72
+squirreldb/persistence/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+squirreldb/persistence/jsonPersistence.py,sha256=IDZMRmHlWt54cYqln9NQyHNdpLkCp9d9LTn-tPd3b9w,2987
+squirreldb/persistence/persistence.py,sha256=fE7wFkRvv1PGqNZB3wvUVU1iStD8xWHee0_duDpf8Jo,452
+squirreldb/persistence/storageState.py,sha256=1fSsoyU3bcyWquc3bzL1MfrFwfKREgXF-WT3g67wtsg,79
