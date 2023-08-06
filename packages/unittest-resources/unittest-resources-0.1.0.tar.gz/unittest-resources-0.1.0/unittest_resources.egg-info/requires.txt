@@ -1,0 +1,16 @@
+six
+
+[:python_version < "3.7"]
+importlib_resources
+
+[testing-codestyle]
+pycodestyle
+
+[testing-docstyle]
+pydocstyle
+
+[testing-maintainability]
+radon
+
+[testing-typing]
+mypy
