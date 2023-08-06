@@ -1,0 +1,8 @@
+closure-problem
+networkx
+numpy
+pillow
+six
+sparsecomputation
+scipy
+tqdm
