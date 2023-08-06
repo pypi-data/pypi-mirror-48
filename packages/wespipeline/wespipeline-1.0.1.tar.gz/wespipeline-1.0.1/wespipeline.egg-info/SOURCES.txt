@@ -1,0 +1,15 @@
+README.rst
+setup.py
+wespipeline/__init__.py
+wespipeline/align.py
+wespipeline/fastq.py
+wespipeline/processalign.py
+wespipeline/reference.py
+wespipeline/utils.py
+wespipeline/vcf.py
+wespipeline/vcfanalysis.py
+wespipeline.egg-info/PKG-INFO
+wespipeline.egg-info/SOURCES.txt
+wespipeline.egg-info/dependency_links.txt
+wespipeline.egg-info/requires.txt
+wespipeline.egg-info/top_level.txt
