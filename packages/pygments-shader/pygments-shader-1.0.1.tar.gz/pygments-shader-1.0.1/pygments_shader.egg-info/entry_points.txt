@@ -1,0 +1,3 @@
+[pygments.lexers]
+shader=pygments_shader:ShaderLexer
+

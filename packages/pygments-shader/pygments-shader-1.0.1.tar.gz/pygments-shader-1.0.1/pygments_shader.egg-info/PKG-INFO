@@ -1,0 +1,42 @@
+Metadata-Version: 1.1
+Name: pygments-shader
+Version: 1.0.1
+Summary: Pygments lexer for Unity shader
+Home-page: https://github.com/midnightSuyama/pygments-shader
+Author: midnightSuyama
+Author-email: midnightSuyama@gmail.com
+License: MIT
+Description: ===============
+        pygments-shader
+        ===============
+        
+        .. image:: https://travis-ci.org/midnightSuyama/pygments-shader.svg?branch=master
+            :target: https://travis-ci.org/midnightSuyama/pygments-shader
+        
+        .. image:: https://badge.fury.io/py/pygments-shader.svg
+            :target: https://badge.fury.io/py/pygments-shader
+        
+        Pygments lexer for Unity shader
+        
+        .. image:: https://raw.githubusercontent.com/midnightSuyama/pygments-shader/master/screenshot.png
+        
+        ------------
+        Installation
+        ------------
+        
+        ::
+        
+            $ pip install pygments-shader
+        
+        -----
+        Usage
+        -----
+        
+        ::
+        
+            $ pygmentize -l shader example.shader
+        
+Keywords: pygments shader unity
+Platform: UNKNOWN
+Classifier: Environment :: Plugins
+Classifier: License :: OSI Approved :: MIT License
