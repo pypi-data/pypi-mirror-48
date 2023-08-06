@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/apd.sensors.egg-info/PKG-INFO
+src/apd.sensors.egg-info/SOURCES.txt
+src/apd.sensors.egg-info/dependency_links.txt
+src/apd.sensors.egg-info/entry_points.txt
+src/apd.sensors.egg-info/not-zip-safe
+src/apd.sensors.egg-info/requires.txt
+src/apd.sensors.egg-info/top_level.txt
+src/apd/sensors/__init__.py
+src/apd/sensors/sensors.py

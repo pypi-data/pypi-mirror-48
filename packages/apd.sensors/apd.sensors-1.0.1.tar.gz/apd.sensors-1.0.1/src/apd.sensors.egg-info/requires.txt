@@ -1,0 +1,5 @@
+psutil
+click
+
+[:"arm" in platform_machine]
+adafruit-circuitpython-dht
