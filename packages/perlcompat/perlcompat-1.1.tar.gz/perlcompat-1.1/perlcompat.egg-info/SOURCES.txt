@@ -1,0 +1,7 @@
+README.md
+setup.py
+perlcompat/__init__.py
+perlcompat.egg-info/PKG-INFO
+perlcompat.egg-info/SOURCES.txt
+perlcompat.egg-info/dependency_links.txt
+perlcompat.egg-info/top_level.txt
