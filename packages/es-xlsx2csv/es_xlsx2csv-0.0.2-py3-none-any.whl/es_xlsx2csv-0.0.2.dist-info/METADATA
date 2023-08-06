@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: es-xlsx2csv
+Version: 0.0.2
+Summary: Command line tool to generate CSVs from XLSX files on S3
+Home-page: https://github.com/tory-harter/xlsx2csv
+Author: Tory Harter
+Author-email: tory.harter@edusource.us
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: argparse
+Requires-Dist: io
+Requires-Dist: boto3
+Requires-Dist: unicodecsv
+Requires-Dist: xlrd
+Requires-Dist: pandas
+Requires-Dist: openpyxl
+
+# xlsx2csv
+Command line utility to convert xlsx file to csv
+
+Heavily based off [Caleb Dinsmore's](https://github.com/calebdinsmore) command line utility [matillion-columns](https://github.com/calebdinsmore/matillion-columns).
+
+
