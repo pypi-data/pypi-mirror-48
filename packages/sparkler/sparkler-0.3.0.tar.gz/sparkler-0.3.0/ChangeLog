@@ -1,0 +1,29 @@
+CHANGES
+=======
+
+0.3.0
+-----
+
+* Add GitHub token handling to avoid rate limiting
+
+0.2.0
+-----
+
+* Add ability to get all repos by org or user
+* Exclude stestr directory
+
+0.1.2
+-----
+
+* Add antialiasing to smooth image
+
+0.1.1
+-----
+
+* Fix README information
+
+0.1.0
+-----
+
+* Initial implementation
+* Initial commit
