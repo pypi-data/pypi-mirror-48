@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+gon/__init__.py
+gon.egg-info/PKG-INFO
+gon.egg-info/SOURCES.txt
+gon.egg-info/dependency_links.txt
+gon.egg-info/top_level.txt
