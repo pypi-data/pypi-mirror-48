@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: userspy
+Version: 0.0.5b5
+Summary: An easy app for managing users.
+Home-page: https://github.com/pypa/sampleproject
+Author: Ofri Kirshen
+Author-email: okirshen@gmail.com
+License: UNKNOWN
+Description: # Userspy
+        
+        An easy app for managing users.
+        
+        ## Installing
+        
+        ---
+        
+        ```python
+        pip install userspy
+        ```
+        
+        ## Functions
+        
+        ---
+        
+        **create** - creates a database
+        **Register** - Check password, hash and insert to the database
+        **Login** - check login credentials (returns True or Fales)
+        **password_hash** - hash password
+        **check_password** - verifys only password (returns True or False)
+        
+        ```python
+        import userspy
+        
+        # creates the database with usernames and hashed passwords
+        userspy.create(DataBaseName)
+        
+        # Registers a user, hashed and inserts to database
+        userspy.Register(UserName, Password)
+        
+        # Checks user Authentication credentials
+        isAuthenticated = userspy.Login(UserName, Password)
+        
+        # Returns hashed password
+        hashed_password = userspy.password_hash(Password)
+        
+        # Checks user password`
+        isPasswordValid = userspy.check_password(Password, Hashed_Password)
+        ```
+        
+        ---
+        
+        created by ofri kirshen
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
