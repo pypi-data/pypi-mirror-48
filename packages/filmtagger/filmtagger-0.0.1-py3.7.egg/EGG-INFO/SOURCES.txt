@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+filmtagger/__init__.py
+filmtagger/cli.py
+filmtagger.egg-info/PKG-INFO
+filmtagger.egg-info/SOURCES.txt
+filmtagger.egg-info/dependency_links.txt
+filmtagger.egg-info/entry_points.txt
+filmtagger.egg-info/not-zip-safe
+filmtagger.egg-info/top_level.txt
