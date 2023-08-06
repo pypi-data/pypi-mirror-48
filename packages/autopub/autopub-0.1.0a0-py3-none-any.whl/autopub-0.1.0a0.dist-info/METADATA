@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: autopub
+Version: 0.1.0a0
+Summary: 
+Author: Justin Mayer
+Author-email: entrop@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
