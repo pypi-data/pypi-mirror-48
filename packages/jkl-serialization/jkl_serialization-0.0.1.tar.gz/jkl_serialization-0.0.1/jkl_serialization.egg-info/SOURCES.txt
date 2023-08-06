@@ -1,0 +1,8 @@
+README.md
+setup.py
+jkl_serialization/__init__.py
+jkl_serialization/test_jkl_serialization.py
+jkl_serialization.egg-info/PKG-INFO
+jkl_serialization.egg-info/SOURCES.txt
+jkl_serialization.egg-info/dependency_links.txt
+jkl_serialization.egg-info/top_level.txt
