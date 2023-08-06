@@ -1,0 +1,36 @@
+#!python
+
+import os
+import subprocess as sp
+from xseed_maxbox.sub_modules import installCommonPackagesTools as installCommon
+from xseed_maxbox.sub_modules import prerequisiteChecks as checks
+from xseed_maxbox.sub_modules import packageCleanUp as cleanup
+from xseed_maxbox.sub_modules import configureMasterBox as configure
+from xseed_maxbox.sub_modules import dockerCompose as dc
+from xseed_maxbox.sub_modules import config
+from xseed_maxbox.sub_modules import encryption
+
+#Code to accept sudo password from user
+sudo_password  = input("Enter sudo password:\n")
+miniCampus = input("Enter the miniCampus code:\n")
+buildEnv = input("Enter the env - Staging/Production:\n")
+
+dbusername = encryption.decode(config.mysql['username'],config.encryption['key'])
+dbpassword = encryption.decode(config.mysql['password'], config.encryption['key'])
+dockerusername = encryption.decode(config.docker['username'], config.encryption['key'])
+dockerpassword = encryption.decode(config.docker['password'], config.encryption['key'])
+
+#1. Install common packages and common tools
+installCommon.installCommonPackagesTools(sudo_password)
+
+#2. Perform Prerequisite Checks
+checks.checks()
+
+# 3. Configure configureMasterBox
+configure.configureMaster(sudo_password)
+
+#4. System cleanUp
+cleanup.cleanUp()
+
+#5. Updating dockerCompose
+dc.configureDocker(miniCampus, dbusername, dbpassword, dockerusername, dockerpassword, buildEnv)
