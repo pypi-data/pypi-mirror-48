@@ -1,0 +1,12 @@
+README.md
+setup.py
+gaia_control/__init__.py
+gaia_control/gaia_control.py
+gaia_control.egg-info/PKG-INFO
+gaia_control.egg-info/SOURCES.txt
+gaia_control.egg-info/dependency_links.txt
+gaia_control.egg-info/entry_points.txt
+gaia_control.egg-info/requires.txt
+gaia_control.egg-info/top_level.txt
+tests/__init__.py
+tests/test_placeholder.py
