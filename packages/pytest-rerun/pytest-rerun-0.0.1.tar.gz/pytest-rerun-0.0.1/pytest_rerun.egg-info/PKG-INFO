@@ -1,0 +1,24 @@
+Metadata-Version: 1.0
+Name: pytest-rerun
+Version: 0.0.1
+Summary: Re-run only changed files in specified branch
+Home-page: http://github.com/zeburek/pytest-rerun/
+Author: Parviz Khavari
+Author-email: me@parviz.pw
+License: UNKNOWN
+Description: # Pytest ReRun
+        
+        Re-run only changed files in specified branch
+        
+        # Install
+        
+        ```bash
+        pip install git+https://github.com/zeburek/pytest-rerun
+        ```
+        
+        # Run
+        
+        ```bash
+        pytest --only-changed --rerun-main-branch="origin/master" --rerun-diff-branch="current"
+        ```
+Platform: UNKNOWN
