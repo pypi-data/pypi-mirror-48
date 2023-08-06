@@ -1,0 +1,5 @@
+[console_scripts]
+name=pyblast:_version.get_name
+upver=pyblast:_version.pull_version
+version=pyblast:_version.get_version
+
