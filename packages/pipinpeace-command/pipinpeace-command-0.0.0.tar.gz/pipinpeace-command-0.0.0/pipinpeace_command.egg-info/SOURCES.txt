@@ -1,0 +1,7 @@
+README.md
+setup.py
+command/__init__.py
+pipinpeace_command.egg-info/PKG-INFO
+pipinpeace_command.egg-info/SOURCES.txt
+pipinpeace_command.egg-info/dependency_links.txt
+pipinpeace_command.egg-info/top_level.txt
