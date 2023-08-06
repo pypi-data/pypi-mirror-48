@@ -1,0 +1,14 @@
+README.md
+setup.py
+soyla/__init__.py
+soyla/__main__.py
+soyla/audio.py
+soyla/model.py
+soyla/soyla.py
+soyla/state.py
+soyla/view.py
+soyla.egg-info/PKG-INFO
+soyla.egg-info/SOURCES.txt
+soyla.egg-info/dependency_links.txt
+soyla.egg-info/requires.txt
+soyla.egg-info/top_level.txt
