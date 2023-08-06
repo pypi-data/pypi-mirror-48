@@ -1,0 +1,10 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+src/number_tools/__init__.py
+src/number_tools/converters.py
+src/number_tools.egg-info/PKG-INFO
+src/number_tools.egg-info/SOURCES.txt
+src/number_tools.egg-info/dependency_links.txt
+src/number_tools.egg-info/top_level.txt
