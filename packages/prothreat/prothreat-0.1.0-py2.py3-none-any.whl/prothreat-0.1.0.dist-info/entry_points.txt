@@ -1,0 +1,3 @@
+[console_scripts]
+prothreat = prothreat.__main__:main
+
