@@ -1,0 +1,12 @@
+jx_argparse/__init__.py,sha256=GR9LBGlmtbJxMGbe_bFjIWDYcVVz7zKbglebCQVElww,3849
+jx_argparse/command_line.py,sha256=x1vMretHxb5FkIUAoHPiBctbKO7_L1sgsKlnaeOd068,710
+jx_argparse/test.py,sha256=droBCQAlWyDTfXyszGsAzWW5RD_xHyZLyM_8K3r8EWU,2457
+jx_argparse/resources/examples/argdef.json,sha256=1dQfzaBeO8mOBu54rAt_eIuIZ1FN6U3nqRDoBQJ2LFk,344
+jx_argparse/resources/examples/argdef.xml,sha256=rg1nlpD0RCnmSsodiFAenn-uyynXfc7uyjkMlvfwMqg,439
+jx_argparse/resources/examples/description_example.txt,sha256=vDRE5D4KhVAv7vvDREwK8OZGS5SmiaHErJR5m1n8qic,101
+jx_argparse-0.0.3.dev0.dist-info/LICENSE.rst,sha256=UD7WqBi3dNouY00caoRV9QFXGvRrYvZebnt_lEM7CyA,1489
+jx_argparse-0.0.3.dev0.dist-info/METADATA,sha256=itoD1v7SPkgxsu-z0NXw7Y9ef5MKqhTrlgdu-CKghlE,792
+jx_argparse-0.0.3.dev0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+jx_argparse-0.0.3.dev0.dist-info/entry_points.txt,sha256=S2eEuYurxU0Nb1Ao9q3eLrCCtIgRkvAqbY_Bd6qAB4M,128
+jx_argparse-0.0.3.dev0.dist-info/top_level.txt,sha256=l3zrLQ8v8TaczsdwpSsgWgCCikUq1gnUpttiZWcQ8N4,12
+jx_argparse-0.0.3.dev0.dist-info/RECORD,,
