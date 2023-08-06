@@ -1,0 +1,3 @@
+[console_scripts]
+distroverify = distroverify.distroverify:main
+
