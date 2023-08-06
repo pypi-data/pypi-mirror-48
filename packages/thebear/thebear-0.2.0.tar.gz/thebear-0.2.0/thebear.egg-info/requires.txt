@@ -1,0 +1,17 @@
+
+[ci]
+coveralls
+
+[dev]
+pycodestyle
+pylint
+coverage
+
+[release]
+setuptools
+wheel
+pycodestyle
+pylint
+coverage
+coveralls
+twine
