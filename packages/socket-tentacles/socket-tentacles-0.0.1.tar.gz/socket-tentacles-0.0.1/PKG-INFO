@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: socket-tentacles
+Version: 0.0.1
+Summary: Simple tcp client/server that divorces the concept of server/client from which side opens the tcp connection.
+Home-page: https://github.com/innovationgarage/tentacles
+Author: Egil Moeller
+Author-email: egil@innovationgarage.no
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
