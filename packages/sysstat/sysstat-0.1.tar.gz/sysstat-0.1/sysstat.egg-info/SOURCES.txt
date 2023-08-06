@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+sysstat/__init__.py
+sysstat/__main__.py
+sysstat/conf.ini
+sysstat.egg-info/PKG-INFO
+sysstat.egg-info/SOURCES.txt
+sysstat.egg-info/dependency_links.txt
+sysstat.egg-info/requires.txt
+sysstat.egg-info/top_level.txt
