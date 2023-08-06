@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ipc_mngr/__init__.py
+ipc_mngr/__meta__.py
+ipc_mngr/cmd_parser.py
+ipc_mngr/com_mngr.py
+ipc_mngr.egg-info/PKG-INFO
+ipc_mngr.egg-info/SOURCES.txt
+ipc_mngr.egg-info/dependency_links.txt
+ipc_mngr.egg-info/top_level.txt
