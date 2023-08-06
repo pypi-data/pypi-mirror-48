@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: TorchSnooper
+Version: 0.4
+Summary: A poor man's debugger for PyTorch.
+Home-page: https://github.com/zasdfgbnm/TorchSnooper
+Author: Xiang Gao
+Author-email: qasdfgtyuiop@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: pysnooper (>=0.1.0)
+Requires-Dist: numpy
+
+UNKNOWN
+
+
