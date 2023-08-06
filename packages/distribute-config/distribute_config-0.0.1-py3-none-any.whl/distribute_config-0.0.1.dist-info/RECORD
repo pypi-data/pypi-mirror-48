@@ -1,0 +1,8 @@
+distribute_config/__init__.py,sha256=IlqX5W-yyG3F1EsDqDpTYSCQc0T0dpGi0h9I5oGOJCc,6520
+distribute_config/variable.py,sha256=frx0U9sifRdjzqhayJjm5JX8mNlXv2KBgkDBDsmb7tQ,1708
+distribute_config/tests/__init__.py,sha256=20uPTDp0wXS1yd89sSCoHrz0LoL5aXnsBBKCkJNCY1g,3945
+distribute_config-0.0.1.dist-info/LICENSE,sha256=uFeUgmGcciIvBTlfD5UUSRHaG-xWbr5R-c7qZ-fBCyA,1073
+distribute_config-0.0.1.dist-info/METADATA,sha256=ndh3m9QORxqiH4tG2ijWIAwBWTyRByu8C94nBoJu-aQ,1149
+distribute_config-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+distribute_config-0.0.1.dist-info/top_level.txt,sha256=Tl5BTmVlA0KSrZcHK3zNoobsAiL8UjVsMIUxzw1ws1c,18
+distribute_config-0.0.1.dist-info/RECORD,,
