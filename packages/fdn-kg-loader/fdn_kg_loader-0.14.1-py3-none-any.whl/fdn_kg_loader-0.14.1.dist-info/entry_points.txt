@@ -1,0 +1,3 @@
+[console_scripts]
+fdn_kg_loader = fdn_kg_loader:main
+
