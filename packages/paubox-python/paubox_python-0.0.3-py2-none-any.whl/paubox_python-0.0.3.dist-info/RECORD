@@ -1,0 +1,12 @@
+paubox/__init__.py,sha256=-h7MrtfRsHHQub0PQOs6vu5jJBF1XS2qJIhba-FAZvs,218
+paubox/paubox.py,sha256=xGBdol0qNQxmgks3f3q2B7ebFdwkFQhvEITv_BEVeQE,2968
+paubox/helpers/__init__.py,sha256=g9qwtpk8PgGSFZcLvdIaNuw3_H2XhY94Qp13nyuVhlI,124
+paubox/helpers/errors.py,sha256=64cRDezWI9KEL_vc-41xEV6ayjjeU6Esjx06sLE_0-4,208
+paubox/helpers/mail.py,sha256=zDDGSkZLF5rhAvuaW9wJVwk0ls_sQi-gBAywS0OpFGI,4549
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_paubox.py,sha256=KtIgcZi-gFTThQOOcLxARPK5FsHOj38FoTvcgrpOEaE,6057
+paubox_python-0.0.3.dist-info/LICENSE,sha256=SbvpEU5JIU3yzMMkyzrI0dGqHDoJR_lMKGdl6GZHsy4,11558
+paubox_python-0.0.3.dist-info/METADATA,sha256=h1qk1ljz9-VdHXAmPLAm9hXOrFSxwb9Fe31enosLJ7s,9868
+paubox_python-0.0.3.dist-info/WHEEL,sha256=2n5gfr2CmDNU5qrqPgO0uSe7oSWu-GEpPLFa0_ueMrk,97
+paubox_python-0.0.3.dist-info/top_level.txt,sha256=Lnpk_bIBLu5ZMwoNrS_Wfvvf9DCJMlLUCjD3JQpmxFo,12
+paubox_python-0.0.3.dist-info/RECORD,,
