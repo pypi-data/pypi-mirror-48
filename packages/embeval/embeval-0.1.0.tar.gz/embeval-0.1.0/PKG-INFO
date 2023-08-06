@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: embeval
+Version: 0.1.0
+Summary: A framework for embedding evaluation automation and visualization.
+Home-page: https://github.com/RubenBranco/embeval
+Author: Ruben Branco
+Author-email: ruben.branco@outlook.pt
+License: GPLv3
+Description: # EmbEval
+        
+        EmbEval is a framework that aims to provide a way to evaluate an arbitrary amount of word embeddings in an arbitrary amount of tasks, in parallel.
+        
+        To aid with the interpretability of the results, embeval resorts to graphs to visualize the performance of the different type of embeddings across each task.
+        
+        More information will be revealed as development progresses.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
