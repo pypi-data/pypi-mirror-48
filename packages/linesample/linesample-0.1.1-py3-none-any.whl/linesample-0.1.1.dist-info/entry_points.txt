@@ -1,0 +1,3 @@
+[console_scripts]
+linesample = linesample.__main__:main
+
