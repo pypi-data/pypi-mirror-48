@@ -1,0 +1,38 @@
+Metadata-Version: 1.1
+Name: wspr-varint
+Version: 0.2.0
+Summary: A variable length integer implementation for the wspr project.
+Home-page: UNKNOWN
+Author: Arkadiusz Michał Ryś
+Author-email: Arkadiusz.Michal.Rys@gmail.com
+License: MIT license
+Description: ===========
+        wspr-varint
+        ===========
+        
+        .. image:: https://img.shields.io/pypi/v/wspr_varint.svg
+                :target: https://pypi.python.org/pypi/wspr_varint
+        
+        A variable length integer implementation for the wspr project.
+        
+        
+        =======
+        History
+        =======
+        
+        0.2.0 (2019-07-07)
+        ------------------
+        
+        * Update documentation references.
+        
+        0.1.0 (2019-07-07)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: wspr_varint
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
