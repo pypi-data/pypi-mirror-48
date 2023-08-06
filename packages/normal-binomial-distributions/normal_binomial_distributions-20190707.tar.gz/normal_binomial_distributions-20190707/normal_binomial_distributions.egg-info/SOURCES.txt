@@ -1,0 +1,7 @@
+setup.cfg
+setup.py
+normal_binomial_distributions.egg-info/PKG-INFO
+normal_binomial_distributions.egg-info/SOURCES.txt
+normal_binomial_distributions.egg-info/dependency_links.txt
+normal_binomial_distributions.egg-info/not-zip-safe
+normal_binomial_distributions.egg-info/top_level.txt
