@@ -1,0 +1,12 @@
+{% load admin_pagination %}
+
+<div class="pull-left">
+    {% include 'cms/admin/actions.inc.html' %}
+    {% if current %}
+        <i class="sep">|</i>
+        <a href="{% url admin:cms:collection-edit current.pk %}" class="btn btn-sm btn-default"><i class="fa fa-edit"></i> 修改集合</a>
+    {% endif %}
+</div>
+<div class="pull-right">
+    {% paginate content_set %}
+</div>

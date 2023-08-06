@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+.table {
+	margin-bottom: 10px;
+}
+.table th {
+	background-color: #F2F2F2;
+}
+.table th.id,
+.table td.id,
+.table th.nowrap,
+.table td.nowrap,
+.table th.user,
+.table td.user,
+.table th.number,
+.table td.number,
+.table th.datetime,
+.table td.datetime {
+	white-space:nowrap;
+	width:10px;
+}
+.table th.id,
+.table td.id,
+.table th.number,
+.table td.number {
+	text-align:right;
+}
+.table td.id,
+.table td.datetime,
+.table td.number {
+	font-family: 'Consolas', 'Monaco', 'Bitstream Vera Sans Mono', monospace;
+}
+.table th.id,
+.table td.id {
+	color: #AAA;
+}
+.table td.empty {
+	padding: 30px;
+	text-align: center;
+	color: #AAA;
+}
+
+.checkbox-multiple:after {
+	display: table;
+	content: " ";
+	clear: both;
+}
+.checkbox-multiple ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.checkbox-multiple li {
+	display: inline-block;
+	margin-right: 10px;
+	white-space: nowrap;
+}
+.checkbox-multiple li>label {
+	font-weight: normal;
+}
+.checkbox-multiple li>label>input {
+    vertical-align: top;
+}
+
+
+.navigation-menu {
+	width: 100%;
+}
+.navigation-menu th {
+	white-space:nowrap;
+	text-align: right;
+	font-size: 18px;
+	vertical-align: top;
+	padding-left: 20px;
+	padding-right: 20px;
+	width: 10px;
+}
+.navigation-menu td,
+.navigation-menu th {
+	padding: 10px;
+	padding-bottom: 8px;
+	border-bottom: 1px dashed #eee;
+}
+.navigation-menu td>span>a>i {
+	font-size: 20px;
+	vertical-align: middle;
+	color: #999;
+	width: 25px;
+	text-align: center;
+}
+.navigation-menu td>span {
+	display: inline-block;
+	width: 150px;
+	overflow: hidden;
+	margin: 0 10px;
+}
+.navigation-menu td>span>a,
+.navigation-menu td>span>a:visited {
+	color: #000;
+}
+.navigation-menu td>span>a:hover,
+.navigation-menu td>span>a:hover>i {
+	color: #72afd2;
+}
+
+.help-block {
+	font-size: 12px;
+}
+
+/*
+ * utils
+ */
+i.sep {
+	font-style:normal;
+	color: #ddd;
+	margin: 0 5px;
+}
+
+@media (min-width: 768px) {
+	.form-inline .form-group {
+		vertical-align: top;
+	}
+}
+
+.m-0 {
+	margin: 0;
+}
+
+.mt-20 {
+	margin-top: 20px;
+}
+
+.mb-10 {
+	margin-bottom: 10px;
+}
+
+.ml-10 {
+	margin-left: 10px;
+}
+
+/* Flex */
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+.align-items-center {
+	align-items: center;
+}
+.ml-auto {
+	margin-left: auto;
+}
+.mr-auto {
+	margin-right: auto;
+}

@@ -1,0 +1,44 @@
+<section class="content">
+        <table class="table table-hover table-bordered">
+            <thead>
+                <tr>
+                    <th class="number">ID</th>
+                    <th class="nowrap">模型</th>
+                    <th class="nowrap">视图</th>
+                    <th>名称</th>
+                    <th class="datetime">修改日期</th>
+                    <th class="user">修改人</th>
+                    <th class="number">浏览量</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for i in path_set %}
+                <tr>
+                    <td class="number">{{i.pk}}</td>
+                    <td class="nowrap">{{i.get_model_display|default:'不可发布'}}</td>
+                    <td class="nowrap">{{i.get_default_view_display}}</td>
+                    <td><a href="{% url admin:cms:path-edit i.pk %}"><span style="margin-left:{{ i.depth }}em">{{ i.name }}</span></a>
+                        <div class="pull-right">
+                            <small>{{i.path}}</small>
+                            <i class="sep">|</i>
+                            {% if i.get_absolute_url %}
+                            <a href="{{i.get_absolute_url}}" target="_blank" class="btn btn-success btn-xs">查看</a>
+                            {% endif %}
+                            <a href="{% url admin:cms:path-delete i.pk %}" class="btn btn-danger btn-xs">删除</a>
+                        </div>
+                    </td>
+                    <td class="datetime">{{i.update_at}}</td>
+                    <td class="user">{{i.update_user}}</td>
+                    <td class="number">{{i.views}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="7">
+                        <a href="{% url admin:cms:path-create %}" class="btn btn-default btn-sm"><i class="fa fa-plus"></i> 新建栏目</a>
+                    </td>
+                </tr>
+            </tfoot>
+        </table>
+</section>

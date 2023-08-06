@@ -1,0 +1,5 @@
+{% include 'bootstrap/form-meta.inc.html' %}
+
+{% for field in form.visible_fields %}
+    {% include 'bootstrap/field.html' %}
+{% endfor %}
