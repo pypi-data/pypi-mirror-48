@@ -1,0 +1,8 @@
+waldcli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+waldcli/butler.py,sha256=yJe7-6mEA17ZAtiNLyJYjUPvZQEYjIbg8ZtnsZDG60w,43429
+waldcli/prompt.py,sha256=xCkmdy1e5JghsdWafZwh_w6jxJEfr_MKHD4PwZVvZDw,1879
+waldcli-0.2.3.dist-info/entry_points.txt,sha256=BcvJjTwjsVvW56cX3XSiTf9gxd3dJkMiiQ-BMk44-Sk,47
+waldcli-0.2.3.dist-info/LICENSE,sha256=7w0pobqcOQcBW0wRgXyCBpSLPim2a8NRN0qm-Xm2exg,921
+waldcli-0.2.3.dist-info/WHEEL,sha256=C90Mwr_Jk4_IPKbEQeJHH_TSkLAVFEZOMPO9_4HdXQI,85
+waldcli-0.2.3.dist-info/METADATA,sha256=MueWQ7fwYCWy8DPEmLxxW0xOdzP5MNxgyUo9N5idpcs,6996
+waldcli-0.2.3.dist-info/RECORD,,
