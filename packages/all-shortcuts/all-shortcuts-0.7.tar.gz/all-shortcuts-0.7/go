@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+try:
+    import shortcuts.services.ssh
+    import sys
+    if sys.argv[1]=="to":
+        byobu=True
+        server=sys.argv[2]
+        connect=shortcuts.services.ssh
+        try:
+            if sys.argv[3]=="--without-byobu":
+                byobu=False
+        except:
+                byobu=True
+    connect.ssh(server,byobu)
+except:
+    print("\nSee you baby")

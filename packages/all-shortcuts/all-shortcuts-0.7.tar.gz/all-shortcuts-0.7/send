@@ -1,0 +1,16 @@
+#!/usr/bin/env python3
+#send [path|filename] to server:[path|filename]
+try:
+    import shortcuts.services.sftp
+    import sys
+    origin=sys.argv[1]
+    originData=sys.argv[3].split(":")
+    server=originData[0]
+    try:
+        destiny=originData[1]
+    except:
+        destiny='~/.'
+    connect=shortcuts.services.sftp
+    connect.sftp(server,origin,destiny,'send')
+except:
+    print("\nSee you baby")
