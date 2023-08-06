@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Arvo|Lato|Literata|Montserrat|Raleway&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" type="text/css" href="/static/base.css">
+    <link rel="stylesheet" type="text/css" href="/static/canvas.css">
+    <script src="/static/jquery.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/socket.io/2.2.0/socket.io.js" integrity="sha256-yr4fRk/GU1ehYJPAs8P4JlTgu0Hdsp4ZKrx8bDEDC3I=" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    {% if me!=None and profile!=None%}
+    <div id="color-picker">
+      <span>Hello {{profile.name}}</span>
+      <span>You have {{profile['quantity']}} paint!</span>
+      <div id="example-pixel">
+	Selected Pixel at (<span id="x-holder"></span>,<span id="y-holder"></span>)
+      </div>
+      <form id="color-form" action="/canvas" method="post">
+	<input type='text' name="name" value="{{profile['name']}}" style="display:none"></input>
+	<input id="x-value" type='text' name="x" style="display:none"></input>
+	<input id="y-value" type='text' name="y" style="display:none"></input>
+	{% if profile.stock['Red'].quantity > 0 %}
+	<input required id="red" class="color" name="red" type='text' placeholder="% red"></input>
+	{% else %}
+	<input required id="red" class="color" name="red" type='text' placeholder="% red" value="0" hidden></input>
+	{% endif %}
+	{% if profile.stock['Green'].quantity > 0 %}
+	<input required id="green" class="color" name="green" type='text' placeholder="% green"></input>
+	{% else %}
+	<input required id="green" class="color" name="green" type='text' placeholder="% green" value="0" hidden></input>
+	{% endif %}
+	{% if profile.stock['Blue'].quantity > 0 %}
+	<input required id="blue" class="color" name="blue" type='text' placeholder="% blue"></input>
+	{% else %}
+	<input required id="blue" class="color" name="blue" type='text' placeholder="% blue" value="0" hidden></input>
+	{% endif %}
+	{% if True %}
+	<input type="submit" value="Buy Pixel"></input>
+	{% endif %}
+      </form>
+    </div>
+    {% endif %}
+    <div id="myCanvas">
+	{% for j in y %}
+	<div class="row">
+	  {% for i in x %}
+	  {% set r,g,b = colors[(i,j)] %}
+	  <div id="pix-{{i}}-{{j}}" class="column pixel" x="{{i}}" y="{{j}}" style="background-color: rgb({{r}},{{g}},{{b}})" >
+	  </div>
+	  {% endfor %}
+	</div>
+	{% endfor %}
+      </div>
+    <style>
+      body{
+	  margin: 0;
+	  background-color: white;
+      }
+    </style>
+    <script src="/static/canvas.js"></script> 
+  </body>
+</html>
+ 
