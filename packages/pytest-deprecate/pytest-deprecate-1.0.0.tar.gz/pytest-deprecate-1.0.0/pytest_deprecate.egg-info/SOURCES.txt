@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+pytest_deprecate/__init__.py
+pytest_deprecate/plugin.py
+pytest_deprecate.egg-info/PKG-INFO
+pytest_deprecate.egg-info/SOURCES.txt
+pytest_deprecate.egg-info/dependency_links.txt
+pytest_deprecate.egg-info/entry_points.txt
+pytest_deprecate.egg-info/not-zip-safe
+pytest_deprecate.egg-info/requires.txt
+pytest_deprecate.egg-info/top_level.txt
