@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: django-dashvisor-ui
+Version: 1.1
+Summary: Django Supervisor dashboard
+Home-page: https://github.com/alexsilva/django-dashvisor-ui
+Author: Alex
+Author-email: alex@fabricadigital.com.br
+License: BSD
+Keywords: supervisor,dashboard,remote,control
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+
+# django-dashvisor
+Django supervisor dashboard UI
+
+Requirements:
+
+    Django >= 1.11
+
+
+Install:
+
+    pip install django-dashvisor-ui
+
+Instructions
+============
+
+Add to django installed apps:
+
+    INSTALLED_APPS = [
+        ...
+        dashvisor
+    ]
+
+
+Configure urls:
+
+    url(r'^/dashboard/', include('dashvisor.urls'))
+
+
+Execute on web browser:
+
+    http://localhost:8000/dashboard/
+
+
+![dashboard](https://github.com/alexsilva/django-dashvisor-ui/blob/master/dashvisor/ui/dashboard.png)
+
