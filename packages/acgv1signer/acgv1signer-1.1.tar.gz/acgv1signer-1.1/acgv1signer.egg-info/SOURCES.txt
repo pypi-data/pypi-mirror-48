@@ -1,0 +1,8 @@
+README.rst
+setup.py
+acgv1signer/__init__.py
+acgv1signer/acgv1signer.py
+acgv1signer.egg-info/PKG-INFO
+acgv1signer.egg-info/SOURCES.txt
+acgv1signer.egg-info/dependency_links.txt
+acgv1signer.egg-info/top_level.txt
