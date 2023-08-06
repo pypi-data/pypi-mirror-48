@@ -1,0 +1,9 @@
+mcautograder/__init__.py,sha256=WY6uXjmk76URwJhsHqYU04XrdEB3zqSaAFf7xuF0RP8,122
+mcautograder/mcautograder.py,sha256=06j89xpOYFEweyGv_WMgXkZUGb0_zfgFOgXq2KuqCaE,3562
+mcautograder/notebook.py,sha256=NhGI3kkt-VifA2qG1vC0Sn-4arkHlsoauS0YjuhMCek,3883
+mcautograder/utils.py,sha256=GfzRGKORS0uAeleDejeU7-qeJAsUYs6_-B9TGFg5ZhM,398
+mcautograder-0.0.5.dist-info/LICENSE,sha256=2LZXMyPJ_yKDKFbh5REb_wLlxFPKUyd6aqiwjG86-Lw,1518
+mcautograder-0.0.5.dist-info/METADATA,sha256=V8eW5jCJTeAnbbCfY1Mv8hyUXCrndyVm3NbK35-jy5c,5309
+mcautograder-0.0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+mcautograder-0.0.5.dist-info/top_level.txt,sha256=U51MdqDCCFkuZ-SfbZHp3eLko4Exsi7fqBssobzQuSc,13
+mcautograder-0.0.5.dist-info/RECORD,,
