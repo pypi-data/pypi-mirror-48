@@ -1,0 +1,3 @@
+[console_scripts]
+beves = beves.__main__:main
+
