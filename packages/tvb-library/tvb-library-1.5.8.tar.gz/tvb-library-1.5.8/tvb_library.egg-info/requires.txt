@@ -1,0 +1,10 @@
+networkx
+numpy
+numba
+numexpr
+matplotlib
+pytest
+scikit-learn
+scipy
+tvb-gdist
+tvb-data
