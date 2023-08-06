@@ -1,0 +1,15 @@
+lambda-proxy~=4.1
+
+[dev]
+pytest
+pytest-cov
+mock
+pre-commit
+
+[memcache]
+python-binary-memcached
+
+[test]
+pytest
+pytest-cov
+mock
