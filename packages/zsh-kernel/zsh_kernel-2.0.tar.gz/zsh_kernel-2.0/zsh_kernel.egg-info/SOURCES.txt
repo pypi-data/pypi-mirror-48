@@ -1,0 +1,14 @@
+README.md
+setup.py
+zsh_kernel/__init__.py
+zsh_kernel/__main__.py
+zsh_kernel/banner.txt
+zsh_kernel/conf.py
+zsh_kernel/install.py
+zsh_kernel/kernel.py
+zsh_kernel/kernel_test.py
+zsh_kernel.egg-info/PKG-INFO
+zsh_kernel.egg-info/SOURCES.txt
+zsh_kernel.egg-info/dependency_links.txt
+zsh_kernel.egg-info/requires.txt
+zsh_kernel.egg-info/top_level.txt
