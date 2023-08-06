@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: marqeta
+Version: 0.0.1
+Summary: Marqeta Python SDK
+Home-page: https://github.com/marqeta/marqeta-python
+Author: Marqeta, Inc.
+License: MIT
+Project-URL: Documentation, https://marqeta.com/api
+Project-URL: Source Code, https://github.com/marqeta/marqeta-python
+Description: # marqeta-sdk-codegen
+        Tool to generate repetitive code using templates
+        ```requirments```
+        npm install ejs 
+        
+        ```to generate marqeta-sdk-python ```
+        
+        ./cli.js --target python
+        
+        
+        ``` To run drone locally ```
+        ```Tokens are defined in environment variables```
+        
+            SDK_BASE_URL
+            SDK_APP_TOKEN
+            SDK_ACCESS_TOKEN
+        ```and  to run ```
+        drone exec --event tag  --env-file ~/.<env_file> 
+        
+        ```link for builds on drone```
+        https://drone.marqeta.com/marqeta/marqeta-sdk-codegen
+Keywords: marqeta
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
