@@ -1,0 +1,10 @@
+markwrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markwrap/brew.py,sha256=6kVBFOJwCEi2Dordlh1f3ZJvNjiQlqmDLkOMFXcwil4,1741
+markwrap/check.py,sha256=0Jrbq0FzV9gtnTGmzaMSVQoLGtH95M7iiO-xm_N8ns0,910
+markwrap/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+markwrap/tar.py,sha256=ffUAvtmPZFXP8J-XozRlX50jYhKjmkE2wKHnvYThsXQ,1309
+markwrap-0.0.5.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+markwrap-0.0.5.dist-info/METADATA,sha256=3HmUjtMzL51HRF_6NC58fGy9ccZANMT9ztI3IEwVgo0,792
+markwrap-0.0.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+markwrap-0.0.5.dist-info/top_level.txt,sha256=lK-_HfMdiIvAXCPRl3x-acEl0r-8LSgLjkCYCbbQAkU,9
+markwrap-0.0.5.dist-info/RECORD,,
