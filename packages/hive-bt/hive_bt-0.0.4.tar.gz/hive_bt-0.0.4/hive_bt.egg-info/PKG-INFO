@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: hive-bt
+Version: 0.0.4
+Summary: Hive is a distributed bug tracker.
+Home-page: https://hz.mit.edu/hive
+Author: Adam Hartz
+Author-email: hz@mit.edu
+License: AGPLv3+
+Description: hive is a distributed bug tracker.
+        
+        See https://hz.mit.edu/hive for more information.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Environment :: Console
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Bug Tracking

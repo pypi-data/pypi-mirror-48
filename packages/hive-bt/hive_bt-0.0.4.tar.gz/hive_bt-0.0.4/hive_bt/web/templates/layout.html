@@ -1,0 +1,104 @@
+<html>
+<head>
+<title>{% block title %}{% endblock %}</title>
+<link rel="icon" href="{{url_root}}/static/favicon.gif" />
+<style>
+#bodydiv {
+  background-color: white;
+  padding: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+.comment {
+    border-left: #999999 3px solid;
+    background-color: #eeeeee;
+    margin-left: 20px;
+    margin-top: 10px;
+    padding-left: 5px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+}
+.issue {
+    background-color: #eeeeee;
+    border-radius: 5px;
+    padding:10px;
+    margin-bottom: 10px;
+}
+.issue-closed {
+    background-color: #eea0a0;
+}
+.label {
+    background-color: #888888;
+    border-radius: 10px;
+    padding: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: .8rem;
+}
+.label a {
+    text-decoration: none;
+    color: #ffffff;
+}
+.label a:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
+a {
+    color: #007a00;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+footer {
+     color: #777;
+     border-top: 0.0625rem solid #777;
+     padding-top: 1rem;
+     padding-bottom: 1rem;
+     font-size: 0.775rem;
+     width:calc(100%-4em) !important;
+     padding-left:2em;
+     padding-right:2em;
+     margin-left: 0px;
+     margin-right: 0px;
+     margin-top: 10rem;
+}
+pre {
+  padding:10px;
+  border-radius: 5px;
+  overflow-x: auto;
+}
+{% for label, lbldict in all_labels.items() %}
+{% if 'bgcolor' in lbldict and 'fgcolor' in lbldict %}
+{{'.label-' + label}}{
+    background-color: #{{lbldict['bgcolor']}};
+    color: #{{lbldict['fgcolor']}};
+}
+{{'.label-' + label}} a{
+    background-color: #{{lbldict['bgcolor']}};
+    color: #{{lbldict['fgcolor']}};
+}
+{{'.label-' + label}} a:hover{
+    background-color: #{{lbldict['bgcolor']}};
+    color: #{{lbldict['fgcolor']}};
+}
+{% endif %}
+{% endfor %}
+</style>
+</head>
+
+<body>
+<div id="bodydiv">
+{% block body %}
+{% endblock %}
+
+<footer>
+Powered by the <a href="https://hz.mit.edu/hive">Hive</a> Distributed Issue Tracker<br/>
+Version {{ version }}<br/>
+<center><img src="{{url_root}}/static/logo.png" style="margin-top:10px;"/></center>
+</footer>
+</div>
+
+</body>
