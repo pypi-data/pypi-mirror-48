@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: chemio
+Version: 1.2.0
+Summary: Quantum Chemical Softwares Input Generater & Output Parser
+Home-page: https://github.com/atomse/chemio
+Author: Sky Zhang
+Author-email: sky.atomse@gmail.com
+Maintainer: Sky Zhang
+Maintainer-email: sky.atomse@gmail.com
+License: MIT License
+Description: # CHEMIO
+        
+        
+        Chemical file IO
+        
+        
+        [![Build Status](https://travis-ci.org/atomse/chemio.svg?branch=master)](https://travis-ci.org/atomse/chemio)
+        [![PyPI](https://img.shields.io/pypi/v/chemio.svg)](https://pypi.org/project/chemio)
+        
+        
+        ## read/write
+        
+        ```python
+        import chemio
+        chemio.read(filename, index)
+        chemio.write(arrays, filename, format)
+        ```
+        
+        
+        ## cli
+        
+        ```bash
+        # chemio -h
+        usage: chemio [-h] [-i INDEX] [-k KEY] [--type TYPE] filename
+        
+        positional arguments:
+          filename
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          -i INDEX, --index INDEX
+          -k KEY, --key KEY
+          --type TYPE
+        
+        
+        chemio filename
+        ```
+        
+Platform: Linux
+Platform: Darwin
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: curate
+Provides-Extra: docs
+Provides-Extra: tests
