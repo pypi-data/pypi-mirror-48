@@ -1,0 +1,10 @@
+README.md
+setup.py
+mmr/__init__.py
+mmr/mmr.py
+mmr.py.egg-info/PKG-INFO
+mmr.py.egg-info/SOURCES.txt
+mmr.py.egg-info/dependency_links.txt
+mmr.py.egg-info/top_level.txt
+tests/__init__.py
+tests/test_mmr.py
