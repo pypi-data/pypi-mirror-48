@@ -1,0 +1,92 @@
+#!/usr/bin/env python
+import sys
+sys.path.insert(0,'../')
+
+try:
+    from Market import Market
+    from Business import Business
+    from db import getProfile
+except:
+    from mural.Market import Market
+    from mural.Business import Business
+    from mural.db import getProfile
+
+import argparse
+from pymongo import MongoClient
+from getpass import getpass
+import time,math,random
+from numpy.random import normal
+
+from PyInquirer import style_from_dict, Token, prompt, Separator,Validator, ValidationError
+parser = argparse.ArgumentParser(description='Utility used to make a trasaction between you and another business.')
+parser.add_argument('money', metavar='money', type=float, nargs=1, help="The amount of money you are willing to invest in your mining equipment. The more money you invest the faster you mine.")
+parser.add_argument('-r','--repeat', dest='repeat', action='store_true')
+
+def mine(money):
+    maxTime=30
+    minTime=1
+    width=maxTime-minTime
+    maxMoney=30
+    scale=(1-money/maxMoney)
+    if scale > 1: scale=1
+    if scale < 0: scale=0
+    duration=-1
+    while duration<minTime or duration>maxTime:
+        duration=normal(width*scale+minTime,2*scale)
+        #duration=width*scale+minTime
+    steps=math.ceil(1.5*duration)
+    print("Duration %.02f sec\n"%duration)
+    char=str(random.choice(['Þ','.','*','-','Ø','o','#','!','^','|']))
+    direction=random.choice(['>','<','^'])
+    allSteps=range(steps)
+    if random.choice([True,False]):
+        allSteps=reversed(allSteps)
+    for i in allSteps:
+        print(("{:%s%ss}"%(direction,steps)).format(char*(i+1)))
+        time.sleep(duration/steps)
+    print("\n")
+    if money>maxMoney:
+        print("The most money you can spend on this is %s."%maxMoney)
+        money=maxMoney
+    print("You spent $%.02f to save %d secconds."%(money,maxTime-duration))
+    me.spend(money)
+
+    v=normal(.5,1)
+    reward=1
+    if v > 1:
+        reward+=1
+    if v > 2:
+        reward+=2
+    if v > 3:
+        reward+=3
+    print("Added %d %s dye to your profile.\n"%(reward,commodity))
+    me.stock[commodity].quantity+=reward
+    me.save()
+
+
+print("Retreieving profile...")
+me=getProfile()
+commodity=me.market.exports[0]
+if not issubclass(type(commodity),str):
+    commodity=name.name
+
+if len(sys.argv) == 1:
+    questions=[
+        {
+            'type': 'input',
+            'name': 'money',
+            'message': 'How much money are you willing to invest in your mining equipment? The more money you invest the less time it takes to mine.',
+        },
+    ]
+    answers=prompt(questions)
+    money=int(answers['money'])
+    mine(money)
+else:
+    args=parser.parse_args()
+    if args.repeat:
+        while True:
+            mine(money=args.money[0])
+            print("Repeating!")
+    else:
+        mine(money=args.money[0])
+        me.display(commodity)
