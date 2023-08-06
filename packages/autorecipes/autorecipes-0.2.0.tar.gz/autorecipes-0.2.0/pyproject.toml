@@ -1,0 +1,37 @@
+[tool.poetry]
+name = "autorecipes"
+version = "0.2.0"
+description = "Generic Conan recipes for CMake and Python projects."
+authors = ["John Freeman <jfreeman08@gmail.com>"]
+documentation = "https://autorecipes.readthedocs.io/"
+repository = "https://github.com/thejohnfreeman/autorecipes/"
+readme = "README.rst"
+license = "ISC"
+packages = [{ include = "autorecipes" }]
+
+[tool.poetry.dependencies]
+python = "^3.6-dev"
+sphinx = {version = "^1.8",optional = true}
+sphinx_rtd_theme = {version = "^0.4.3",optional = true}
+toml = "^0.10.0"
+conan = "^1.14"
+typing_extensions = "^3.7"
+
+[tool.poetry.extras]
+docs = ["sphinx", "sphinx_rtd_theme"]
+
+[tool.poetry.dev-dependencies]
+invoke = "^1.2"
+mypy = "^0.701.0"
+pydocstyle = "^3.0"
+pylint = "^2.3"
+pytest = "^4.6"
+pytest-cov = "^2.7"
+sphinx = "^1.8"
+sphinx-autobuild = "^0.7.1"
+sphinx_rtd_theme = "^0.4.3"
+yapf = "^0.27.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
