@@ -1,0 +1,7 @@
+pytorch_msssim/__init__.py,sha256=uWkW5drVsN1eAiaa6gbtLalaMEJNwbjCY-oh4HQukGE,46
+pytorch_msssim/ssim.py,sha256=FG3rKuR86voCwlUNVnU3-y9-fDdJbjC6cDzvxxxPlrk,8604
+pytorch_msssim-0.1.3.dist-info/LICENSE,sha256=I3fStv0kvu6X985ODU9UpA35U4IwzEabZKUS_OjtMBg,1062
+pytorch_msssim-0.1.3.dist-info/METADATA,sha256=uX_4TSMR3hYbB_zG4z9a13A8bA6AY0zjfEcBlMYsxaQ,3382
+pytorch_msssim-0.1.3.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+pytorch_msssim-0.1.3.dist-info/top_level.txt,sha256=Tb7pYnpR6yrCDeFVd73NdLQm0awLLC9z3h63w0tJWy4,15
+pytorch_msssim-0.1.3.dist-info/RECORD,,
