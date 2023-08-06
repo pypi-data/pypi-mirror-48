@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+setup.py
+fileflow/__init__.py
+fileflow/config.py
+fileflow/file.py
+fileflow/util.py
+fileflow/workflow.py
+fileflow.egg-info/PKG-INFO
+fileflow.egg-info/SOURCES.txt
+fileflow.egg-info/dependency_links.txt
+fileflow.egg-info/requires.txt
+fileflow.egg-info/top_level.txt
+fileflow/__pycache__/config.cpython-37.pyc
+fileflow/__pycache__/file.cpython-37.pyc
+fileflow/__pycache__/util.cpython-37.pyc
