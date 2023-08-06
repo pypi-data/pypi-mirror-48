@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: ansible-lint-nunit
+Version: 0.3
+Summary: ansible-lint to NUnit converter.
+Home-page: https://github.com/ferhaty/ansible-lint-nunit
+Author: wasil
+Author-email: ferhat.yildiz@turingts.com
+License: UNKNOWN
+Download-URL: https://github.com/ferhaty/ansible-lint-nunit/archive/0.3.tar.gz
+Keywords: ansible,nunit
+Platform: UNKNOWN
+Requires-Dist: ansible-lint
+
+UNKNOWN
+
+
