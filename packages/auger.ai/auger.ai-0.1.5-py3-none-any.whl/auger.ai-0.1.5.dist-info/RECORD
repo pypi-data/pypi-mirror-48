@@ -1,0 +1,15 @@
+auger/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auger/api/auth.py,sha256=Sb84XH7Plog0z8cRGIPzjQcPH-z4LVzlqM4kZaI_MT4,1753
+auger/api/credentials.py,sha256=Z1DU_JxMAOxc6ZbHJ7DGqQRb0ONiNxBSOK8aV1gN-pc,2183
+auger/api/dataset.py,sha256=GbD8vhRCSpvGLM6ZrScJ6yiBPMPY3fTXEj708XiKWHY,765
+auger/api/experiment.py,sha256=TSjKva7QnbadieqekPTKCFjqerx9fn4XRJLagbvLPt8,2932
+auger/api/model.py,sha256=F-wwMj6zhfc79DcfUMb-nhTqhxg5dYaBY4uKxm0kL5Y,568
+auger/api/project.py,sha256=WZUQ9ccM-VB9o7ZAWSDSOazpO3jqDozT0ervSXXf-I8,397
+auger/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auger/cli/cli.py,sha256=tXQwUTeV9ByJGvkirqVkhr7_xo0tQ3THDc8wWBrd6c0,954
+auger.ai-0.1.5.dist-info/LICENSE,sha256=Z0KrQg8LOYcM8qODg45mdxTG5xVcxql1IWibPDsJs_Y,1062
+auger.ai-0.1.5.dist-info/METADATA,sha256=Sw5lfXj7y6FCq0rEcOLFcgz3nY14cUKxaVPn4zbsqcA,17695
+auger.ai-0.1.5.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+auger.ai-0.1.5.dist-info/entry_points.txt,sha256=1w66toPeEM62wWzTHLqgPpAvJs0w32Yk5MWsYB5DJjM,47
+auger.ai-0.1.5.dist-info/top_level.txt,sha256=v091ubdYYCQC7ZT9Agu9PvULlZanBny3erUP7vMz0Uk,6
+auger.ai-0.1.5.dist-info/RECORD,,
