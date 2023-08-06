@@ -1,0 +1,11 @@
+README.md
+setup.py
+stone_cli
+Modulos/__init__.py
+Modulos/azure.py
+Modulos/cloud.py
+Modulos/gcp.py
+brunotanakastonecli.egg-info/PKG-INFO
+brunotanakastonecli.egg-info/SOURCES.txt
+brunotanakastonecli.egg-info/dependency_links.txt
+brunotanakastonecli.egg-info/top_level.txt
