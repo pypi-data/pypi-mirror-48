@@ -1,0 +1,43 @@
+#!python
+import time
+import os
+import subprocess
+import signal
+import sys
+
+print()
+print("Launching DataDriver")
+print()
+time.sleep(1)
+os.environ["AIRFLOW_HOME"] = os.getcwd()
+if not os.path.exists('./airflow.db'):
+  subprocess.call(["airflow", "initdb"])
+if not os.path.exists('./plugins/'):
+  subprocess.call(["ddui", "install"])
+b = subprocess.Popen(["airflow", "webserver"])
+c = subprocess.Popen(["airflow", "scheduler"])
+print('')
+print()
+print()
+print("webserver on PID:", b.pid)
+print()
+print("scheduler on PID:", c.pid)
+print()
+print()
+print()
+
+
+
+def signal_handler(sig, frame):
+  print()
+  print('Closing subprocesses')
+  b.kill()
+  c.kill()
+  time.sleep(5)
+  sys.exit(0)
+
+
+signal.signal(signal.SIGINT, signal_handler)
+
+while True:
+  pass
