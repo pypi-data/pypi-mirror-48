@@ -1,0 +1,8 @@
+numpy
+cached-property
+
+[dev]
+check-manifest
+
+[test]
+coverage
