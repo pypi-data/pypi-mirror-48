@@ -1,0 +1,101 @@
+Metadata-Version: 1.2
+Name: tox-pipenv-install
+Version: 0.1.0
+Summary: Pipenv install plugin
+Home-page: https://github.com/ermakov-oleg/tox-pipenv-install
+Author: Oleg Ermakov
+Author-email: ermakovolegs@gmail.com
+Maintainer: Oleg Ermakov
+Maintainer-email: ermakovolegs@gmail.com
+License: MIT
+Description: ==================
+        tox-pipenv-install
+        ==================
+        
+        .. image:: https://img.shields.io/pypi/v/tox-pipenv-install.svg
+            :target: https://pypi.org/project/tox-pipenv-install
+            :alt: PyPI version
+        
+        .. image:: https://img.shields.io/pypi/pyversions/tox-pipenv-install.svg
+            :target: https://pypi.org/project/tox-pipenv-install
+            :alt: Python versions
+        
+        .. image:: https://travis-ci.org/ermakov-oleg/tox-pipenv-install.svg?branch=master
+            :target: https://travis-ci.org/ermakov-oleg/tox-pipenv-install
+            :alt: See Build Status on Travis CI
+        
+        .. image:: https://codecov.io/gh/ermakov-oleg/tox-pipenv-install/branch/master/graph/badge.svg
+            :target: https://codecov.io/gh/ermakov-oleg/tox-pipenv-install
+            :alt: codecov
+        
+        
+        TIL
+        
+        ----
+        
+        
+        Features
+        --------
+        
+        * TODO
+        
+        
+        Requirements
+        ------------
+        
+        * TODO
+        
+        
+        Installation
+        ------------
+        
+        You can install "tox-pipenv-install" via `pip`_ from `PyPI`_::
+        
+            $ pip install tox-pipenv-install
+        
+        
+        Usage
+        -----
+        
+        * TODO
+        
+        Contributing
+        ------------
+        Contributions are very welcome. Tests can be run with `tox`_, please ensure
+        the coverage at least stays the same before you submit a pull request.
+        
+        License
+        -------
+        
+        Distributed under the terms of the `MIT`_ license, "tox-pipenv-install" is free and open source software
+        
+        
+        Issues
+        ------
+        
+        If you encounter any problems, please `file an issue`_ along with a detailed description.
+        
+        .. _`MIT`: http://opensource.org/licenses/MIT
+        .. _`cookiecutter-tox-plugin`: https://github.com/tox-dev/cookiecutter-tox-plugin
+        .. _`file an issue`: https://github.com/ermakov-oleg/tox-pipenv-install/issues
+        .. _`tox`: https://tox.readthedocs.io/en/latest/
+        .. _`pip`: https://pypi.org/project/pip/
+        .. _`PyPI`: https://pypi.org
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Framework :: tox
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*

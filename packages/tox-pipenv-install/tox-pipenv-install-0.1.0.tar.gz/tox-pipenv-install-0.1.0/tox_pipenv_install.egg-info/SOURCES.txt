@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.py
+tox_pipenv_install/__init__.py
+tox_pipenv_install/plugin.py
+tox_pipenv_install.egg-info/PKG-INFO
+tox_pipenv_install.egg-info/SOURCES.txt
+tox_pipenv_install.egg-info/dependency_links.txt
+tox_pipenv_install.egg-info/entry_points.txt
+tox_pipenv_install.egg-info/requires.txt
+tox_pipenv_install.egg-info/top_level.txt
