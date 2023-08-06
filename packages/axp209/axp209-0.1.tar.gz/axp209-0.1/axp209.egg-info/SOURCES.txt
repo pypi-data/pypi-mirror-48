@@ -1,0 +1,10 @@
+README.rst
+axp209.py
+setup.cfg
+setup.py
+axp209.egg-info/PKG-INFO
+axp209.egg-info/SOURCES.txt
+axp209.egg-info/dependency_links.txt
+axp209.egg-info/entry_points.txt
+axp209.egg-info/requires.txt
+axp209.egg-info/top_level.txt
