@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: hexcover
+Version: 0.1.0
+Summary: Given a centroid and side length, tile an area with regular flat hexagons
+Home-page: https://github.com/urschrei/flathex
+Author: Stephan Hügel
+Author-email: shugel@tcd.ie
+License: Blue Oak Model License 1.0
+Download-URL: https://github.com/urschrei/flathex/tarball/v0.1.0
+Keywords: Geo,Telecoms,Hexagon,GIS
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Scientific/Engineering :: GIS
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.6.3)
+
+# Hexcover
+A small utility package which calculates a regular hexagonal tiling for an area, given a centroid as a Shapely [Point](https://shapely.readthedocs.io/en/latest/manual.html#Point), and a side length.
+
+# Example
+```python
+
+from shapely.geometry import Point
+from hexcover.util import hexagon_coverage
+
+# centroid
+c = Point(0.0, 0.0)
+coverage = hexagon_coverage(c, 10)
+
+# coverage is a List of seven polygons. The first entry is the central polygon.
+# Subsequent entries begin directly above the central polygon, and proceed clockwise.
+```
+
+There's also an example [notebook](hexcover.ipynb)
+
+# Requirements
+`Shapely` >= 1.6.3
+
+# License
+[The Blue Oak Model License 1.0](LICENSE.md)
+
+# DOI
+[![DOI](https://zenodo.org/badge/194419900.svg)](https://zenodo.org/badge/latestdoi/194419900)
+
+
