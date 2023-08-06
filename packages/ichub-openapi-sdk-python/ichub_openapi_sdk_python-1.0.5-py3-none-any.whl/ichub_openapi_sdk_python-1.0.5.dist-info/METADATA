@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: ichub-openapi-sdk-python
+Version: 1.0.5
+Summary: Ichub OpenApi Python SDK
+Home-page: https://www.ichub.com
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Requires-Dist: requests
+Requires-Dist: rsa
+
+# ICHUB OpenApi SDK for Python
+
+
