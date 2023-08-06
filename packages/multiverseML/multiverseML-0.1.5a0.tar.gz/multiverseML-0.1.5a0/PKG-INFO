@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: multiverseML
+Version: 0.1.5a0
+Summary: Aplicação para facilitar a criação de pipelines para desenvovimento de algoritmos de Machine Learning
+Home-page: https://github.com/cccadet/multiverseML/
+Author: Cristian Carlos dos Santos
+Author-email: perestra.ccds@gmail.com
+License: GNU General Public License v3.0
+Description: UNKNOWN
+Keywords: multiverseML,machine-learning,pipeline
+Platform: UNKNOWN
