@@ -1,0 +1,7 @@
+asyncpg_opentracing/__init__.py,sha256=QVCVbwj1PCHaqXjv4hIrWHfcMb6l0k5w1bq2rbIsZZ8,54
+asyncpg_opentracing/tracing.py,sha256=NCJwcqF07WOWoXrLOFNKPCYgWF7iym4XlVc6G8iiXdM,2728
+asyncpg_opentracing-0.1.0.dist-info/LICENSE.md,sha256=PH8r4Gr7fum7z9OGG0bmM2X-5Y9hRbrYXnG95t5lWPU,1071
+asyncpg_opentracing-0.1.0.dist-info/METADATA,sha256=IYUw7tuptq2QdGR-1fwk55CN8wHGnylb55NuE4kQWkE,783
+asyncpg_opentracing-0.1.0.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+asyncpg_opentracing-0.1.0.dist-info/top_level.txt,sha256=zka2S2hGBWGqnneL39LOkjjPZ6cHeYZzZhty-KKFqaE,20
+asyncpg_opentracing-0.1.0.dist-info/RECORD,,
