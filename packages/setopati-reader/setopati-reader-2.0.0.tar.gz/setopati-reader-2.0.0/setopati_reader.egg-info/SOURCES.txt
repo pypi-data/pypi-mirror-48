@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+reader/__init__.py
+reader/__main__.py
+reader/config.cfg
+reader/feed.py
+reader/viewer.py
+setopati_reader.egg-info/PKG-INFO
+setopati_reader.egg-info/SOURCES.txt
+setopati_reader.egg-info/dependency_links.txt
+setopati_reader.egg-info/entry_points.txt
+setopati_reader.egg-info/requires.txt
+setopati_reader.egg-info/top_level.txt
