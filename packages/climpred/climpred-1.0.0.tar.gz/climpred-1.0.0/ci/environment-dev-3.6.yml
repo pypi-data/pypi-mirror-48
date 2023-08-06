@@ -1,0 +1,26 @@
+name: climpred-dev
+channels:
+  - conda-forge
+dependencies:
+  - python=3.6
+  - numpy
+  - xarray
+  - jupyterlab
+  - dask
+  - scipy
+  - matplotlib
+  - bottleneck
+  - netcdf4
+  - pytest
+  - eofs
+  - lxml
+  - sphinx_rtd_theme
+  - sphinx
+  - nbsphinx
+  - pip
+  - pip:
+    - git+https://github.com/raybellwaves/xskillscore
+    - pytest-cov
+    - coveralls
+    - sphinxcontrib-napoleon
+    - importlib_metadata

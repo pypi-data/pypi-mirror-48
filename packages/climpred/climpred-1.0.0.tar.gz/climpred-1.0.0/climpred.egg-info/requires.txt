@@ -1,0 +1,8 @@
+numpy
+xarray
+scipy
+xskillscore
+eofs
+
+[graphics]
+matplotlib
