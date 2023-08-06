@@ -1,0 +1,5 @@
+pymediainfo
+
+[test]
+hypothesis
+pytest
