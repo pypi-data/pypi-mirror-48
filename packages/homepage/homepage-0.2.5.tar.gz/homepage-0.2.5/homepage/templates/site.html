@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0d2332" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://unpkg.com/material-components-web@2.3.1/dist/material-components-web.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" type="text/css">
+  <script src="https://unpkg.com/material-components-web@2.3.1/dist/material-components-web.min.js"></script>
+  <title>HomePage</title>
+  <link rel="icon" href="./static/favicon.png">
+  <link rel="stylesheet" href="./static/styles2.css" type="text/css">
+  <style>
+    html {
+      scroll-behavior: smooth;
+      height: 100%;
+    }
+    :root {
+      --mdc-theme-primary: #0d2332;
+    }
+    :focus {
+      outline: none !important;
+    }
+    .blurred_bg {
+      height: 100vh;
+      width: 100vw;
+      position: fixed;
+      right: 0;
+      left: 0;
+      margin: 0;
+      border: 0;
+      filter: blur(5px);
+      transform: scale(1.1);
+      display: block;
+      background: url("./static/Background.jpg") #0d2332 center/cover no-repeat;
+    }
+    .main_page_body {
+      position: relative;
+    }
+    .mdc-card {
+      width: auto;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px !important;
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    }
+    .mdc-card:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .card-body-text {
+      padding: 1rem;
+      height: 100% !important;
+      font-size: 18px !important;
+      color: rgba(0,0,0,.54);
+    }
+    .mdc-typography--body1 {
+      height: inherit !important;
+      background-color: #f5f5f5;
+      border-radius: 8px !important;
+    }
+    .mdc-list {
+      width: auto;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+      border-radius: 8px !important;
+      transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+      background-color: #f5f5f5;
+    }
+    .mdc-list:hover {
+      box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    }
+    .mdc-list-item__graphic {
+      margin-left: 0;
+      margin-right: 16px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+    }
+    .mdc-list-item__meta {
+      color: #0d2332;
+      cursor: pointer;
+    }
+    .mdc-layout-grid__inner {
+      max-width: 900px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .mdc-layout-grid {
+      max-width: 950px;
+    }
+    .page-form {
+      padding: 0;
+      margin: 0;
+      width: 100% !important;
+    }
+    .textfield_span_width_full {
+      margin-right: 5px;
+    }
+    .mdc-form-field > label {
+    	color: var(--mdc-theme-text-secondary-on-background,rgba(0,0,0,.54));
+    }
+    .mdc-linear-progress {
+    	margin-bottom: 5px;
+    }
+    #Previous-Track-Table {
+      display: none;
+    }
+    #site-menu-anchor {
+      display: inline;
+    }
+  </style>
+  <script>
+    function loadNewPage(pageUrl){
+      window.open(pageUrl, '_blank');
+    }
+  </script>
+</head>
+<body class="mdc-typography">
+  <header class="mdc-top-app-bar mdc-top-app-bar--short">
+    <div class="mdc-top-app-bar__row">
+      <section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
+        <a href="#" onclick="window.history.back();" class="material-icons mdc-top-app-bar__navigation-icon">arrow_back</a>
+        <span class="mdc-top-app-bar__title">HomePage</span>
+      </section>
+    </div>
+  </header>
+  <div class="blurred_bg"></div>
+  <div class="main_page_body mdc-top-app-bar--short-fixed-adjust">
+    <div class="mdc-layout-grid">
+      <div class="mdc-layout-grid__inner">
+        <div class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet">
+          <div class="mdc-card mdc-elevation-transition resources-tab-card">
+            <div class="padded-resource-card">
+                <h2 class="resource-card-title mdc-typography mdc-typography--headline6">Download Audio</h2>
+                <h3 class="resource-card-subtitle mdc-typography mdc-typography--subtitle2">with youtube_dl</h3>
+            </div>
+            <div class="resource-card-secondary mdc-typography mdc-typography--body2">
+              Download the audio track from almost any internet video, just paste the link, set your options, and click download!<br>
+              <br>
+              <span id="checkbox-control">Attach Thumbnail:</span>
+              <div class="mdc-form-field" id="checkbox-form-field">
+                <div class="mdc-checkbox">
+                  <input type="checkbox"
+                         class="mdc-checkbox__native-control"
+                         name="attach_thumb"/>
+                  <div class="mdc-checkbox__background">
+                    <svg class="mdc-checkbox__checkmark"
+                         viewBox="0 0 24 24">
+                      <path class="mdc-checkbox__checkmark-path"
+                            fill="none"
+                            d="M1.73,12.91 8.1,19.28 22.79,4.59"/>
+                    </svg>
+                    <div class="mdc-checkbox__mixedmark"></div>
+                  </div>
+                </div>
+              </div>
+              <br>
+              <span id="format-selection">Format Preference:</span>
+              <div class="mdc-form-field" id="form-field-1">
+                <div class="mdc-radio" id="radio-btn-1">
+                  <input class="mdc-radio__native-control" type="radio" id="radio-1" name="format_preference" checked>
+                  <div class="mdc-radio__background">
+                    <div class="mdc-radio__outer-circle"></div>
+                    <div class="mdc-radio__inner-circle"></div>
+                  </div>
+                </div>
+                <label for="radio-1">MP3</label>
+              </div>
+              <div class="mdc-form-field" id="form-field-2">
+                <div class="mdc-radio" id="radio-btn-2">
+                  <input class="mdc-radio__native-control" type="radio" id="radio-2" name="format_preference">
+                  <div class="mdc-radio__background">
+                    <div class="mdc-radio__outer-circle"></div>
+                    <div class="mdc-radio__inner-circle"></div>
+                  </div>
+                </div>
+                <label for="radio-2">M4A</label>
+              </div>
+              <br>
+              <span id="quality-selection">Preferred Quality:&nbsp;&nbsp;</span>
+              <div id="site-menu-anchor" class="mdc-menu-surface--anchor">
+                <button class="mdc-button" id="menu-opener-btn">Good (192k, Medium)</button>
+                <div class="mdc-menu mdc-menu-surface" id="main-quality-menu">
+                  <ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-1">
+                      <span class="mdc-list-item__text">Standard (128k, Fast)</span>
+                    </li>
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-2">
+                      <span class="mdc-list-item__text">Good (192k, Medium)</span>
+                    </li>
+                    <li class="mdc-list-item" role="menuitem" id="menu-pref-3">
+                      <span class="mdc-list-item__text">Best (256k, Slow)</span>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="mdc-card__actions adjusted-card-actions">
+              <div class="mdc-text-field mdc-text-field--outlined textfield_span_width_full" id="HIBP_Textfield">
+                <form name="submitLink" method="post" action="." class="page-form" onkeydown="return event.key != 'Enter';">
+                  <input name="videoURL" class="mdc-text-field__input" type="url" autocomplete="off">
+                </form>
+                <div class="mdc-notched-outline">
+                  <div class="mdc-notched-outline__leading leading-notch-textfield"></div>
+                  <div class="mdc-notched-outline__notch">
+                    <label class="mdc-floating-label">Link</label>
+                  </div>
+                  <div class="mdc-notched-outline__trailing trailling-notch-textfield"></div>
+                </div>
+              </div>
+              <div class="mdc-card__action-icons">
+                <button onclick="sendDownloadRequest();" class="mdc-icon-button material-icons mdc-card__action mdc-card__action--icon--unbounded" title="More options" data-mdc-ripple-is-unbounded="true" id="submit-main-form">arrow_forward</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div id="Previous-Track-Table" class="mdc-layout-grid__cell mdc-layout-grid__cell--align-middle mdc-layout-grid__cell--span-12-desktop mdc-layout-grid__cell--span-4-phone mdc-layout-grid__cell--span-8-tablet">
+          <ul class="mdc-list unselectable-text">
+
+            {{ previous_items|safe }}
+
+          </ul>
+        </div>
+        <div class="mdc-snackbar">
+          <div class="mdc-snackbar__surface">
+            <div class="mdc-snackbar__label"
+                 role="status"
+                 aria-live="polite">
+              Snackbar Text.
+            </div>
+            <div class="mdc-snackbar__actions">
+              <button type="button" class="mdc-button mdc-snackbar__action" id="snackbarActionBtnRipple">Action</button>
+              <button class="mdc-icon-button mdc-snackbar__dismiss material-icons" title="Dismiss">close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script>
+    function oneElementInit(a, b) {
+      if (null !== document.querySelector(a))
+        return new b(document.querySelector(a));
+    }
+    function initElement(elementClassName, elementInitFunction) {
+      var x = document.getElementsByClassName(elementClassName);
+      if (x[0] !== null){
+        for(var y = 0; y < x.length; y++){
+          elementInitFunction(x[y]);
+        }
+      }
+    }
+    var cdSiteTopAppBar = oneElementInit(".mdc-top-app-bar", mdc.topAppBar.MDCTopAppBar);
+    var downloadTextField = oneElementInit(".mdc-text-field", mdc.textField.MDCTextField);
+    var radio1 = oneElementInit("#radio-btn-1", mdc.radio.MDCRadio.attachTo);
+    var radio2 = oneElementInit("#radio-btn-2", mdc.radio.MDCRadio.attachTo);
+    var formField1 = oneElementInit("#form-field-1", mdc.formField.MDCFormField.attachTo);
+    var formField2 = oneElementInit("#form-field-2", mdc.formField.MDCFormField.attachTo);
+    var previousList = oneElementInit(".mdc-list", mdc.list.MDCList.attachTo);
+    oneElementInit("#submit-main-form", mdc.ripple.MDCRipple.attachTo);
+    initElement("mdc-button", mdc.ripple.MDCRipple.attachTo);
+    formField1.input = radio1;
+    formField2.input = radio2;
+    radio1.value = "mp3";
+    radio2.value = "m4a";
+    radio1.listen('click', () => {
+      radio1.checked = true;
+      radio2.checked = false;
+    });
+
+    radio2.listen('click', () => {
+      radio2.checked = true;
+      radio1.checked = false;
+    });
+
+    var checkbox = oneElementInit(".mdc-checkbox", mdc.checkbox.MDCCheckbox.attachTo);
+    var checkboxFormField = oneElementInit("#checkbox-form-field", mdc.formField.MDCFormField.attachTo);
+    checkboxFormField.input = checkbox;
+    checkbox.checked = true;
+
+    var qualityDict = {
+      "Standard (128k, Fast)": 128,
+      "Good (192k, Medium)": 192,
+      "Best (256k, Slow)": 256
+    };
+
+    var siteMenu = oneElementInit("#main-quality-menu", mdc.menu.MDCMenu.attachTo);
+    document.getElementById("menu-opener-btn").addEventListener("click", function(evt){
+        siteMenu.open = !siteMenu.open;
+    });
+    siteMenu.listen("MDCMenu:selected", function(evt){
+      document.getElementById("menu-opener-btn").innerHTML = evt.detail.item.innerText;
+    });
+    oneElementInit("#menu-pref-1", mdc.ripple.MDCRipple.attachTo);
+    oneElementInit("#menu-pref-2", mdc.ripple.MDCRipple.attachTo);
+    oneElementInit("#menu-pref-3", mdc.ripple.MDCRipple.attachTo);
+
+    var mdcSnackBar = oneElementInit(".mdc-snackbar", mdc.snackbar.MDCSnackbar.attachTo);
+    function displayMDCSnackbar(a, b, c, d) {
+      mdcSnackBar.timeoutMs = d;
+      mdcSnackBar.labelText = a;
+      mdcSnackBar.actionButtonText = b;
+      document.getElementById("snackbarActionBtnRipple").onclick = c;
+      mdcSnackBar.open();
+    }
+
+    function getPreviousTrack(trackPath){
+      let a = document.createElement('a');
+      a.href = trackPath;
+      a.download = trackPath.split('/').pop();
+      document.body.appendChild(a);
+      a.click();
+      document.body.removeChild(a);
+    }
+
+    function sendDownloadRequest() {
+      if (downloadTextField.value !== "" && downloadTextField.valid == true) {
+        document.getElementsByClassName("adjusted-card-actions")[0].innerHTML = linearProgressBar;
+        document.getElementById("format-selection").innerHTML = "Your track is downloading, this may take a while depending on the length of the video(s) and speed of the server.";
+        document.getElementById("form-field-1").style.display = "none";
+        document.getElementById("form-field-2").style.display = "none";
+        document.getElementById("checkbox-control").style.display = "none";
+        document.getElementById("checkbox-form-field").style.display = "none";
+        document.getElementById("quality-selection").style.display = "none";
+        document.getElementById("site-menu-anchor").style.display = "none";
+        var XHR = new XMLHttpRequest();
+        var FD  = new FormData();
+        FD.append("videoURL", downloadTextField.value);
+
+        if (radio1.checked) {
+          FD.append("format_preference", "mp3");
+        } else if (radio2.checked) {
+          FD.append("format_preference", "m4a");
+        }
+
+        if (checkbox.checked) {
+          FD.append("attach_thumb", "yes");
+        } else {
+          FD.append("attach_thumb", "no");
+        }
+
+        FD.append("quality_preference", qualityDict[document.getElementById("menu-opener-btn").innerHTML]);
+
+        XHR.onreadystatechange = function(evt) {
+          if (XHR.readyState == 4 && XHR.status == 200) {
+            getPreviousTrack(evt.target.responseText);
+            window.location.reload(false);
+
+          } else if (XHR.readyState == 4 && XHR.status >= 300) {
+            mdcSnackBar.listen("MDCSnackbar:closing", function() {
+              mdcSnackBar.open();
+            });
+            displayMDCSnackbar("Encountered an error, refresh the page and try again.", "Refresh", function(){window.location.reload(false);}, 10000);
+          }
+        };
+        XHR.open('POST', './');
+        XHR.send(FD);
+      } else {
+        displayMDCSnackbar("Please ensure that the link is valid and not empty.", "OK", function(){}, 5000);
+      }
+    }
+
+    var linearProgressBar = `
+    <div role="progressbar" class="mdc-linear-progress mdc-linear-progress--indeterminate">
+      <div class="mdc-linear-progress__buffering-dots"></div>
+      <div class="mdc-linear-progress__buffer"></div>
+      <div class="mdc-linear-progress__bar mdc-linear-progress__primary-bar">
+        <span class="mdc-linear-progress__bar-inner"></span>
+      </div>
+      <div class="mdc-linear-progress__bar mdc-linear-progress__secondary-bar">
+        <span class="mdc-linear-progress__bar-inner"></span>
+      </div>
+    </div>
+    `;
+
+    {{ extra_js|safe }}
+
+    window.mdc.autoInit();
+  </script>
+</body>
+</html>
