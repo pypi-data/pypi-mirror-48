@@ -1,0 +1,9 @@
+
+[dev]
+pytest
+
+[inflection]
+inflection
+
+[tests]
+pytest

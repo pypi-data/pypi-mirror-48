@@ -1,0 +1,10 @@
+README.rst
+setup.py
+AnyStrEnum.egg-info/PKG-INFO
+AnyStrEnum.egg-info/SOURCES.txt
+AnyStrEnum.egg-info/dependency_links.txt
+AnyStrEnum.egg-info/requires.txt
+AnyStrEnum.egg-info/top_level.txt
+anystrenum/__init__.py
+anystrenum/anystrenum.py
+anystrenum/inflected.py
