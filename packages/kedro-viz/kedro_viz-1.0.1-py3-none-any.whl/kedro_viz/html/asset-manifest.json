@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "./static/css/main.1e0bf853.chunk.css",
+    "main.js": "./static/js/main.95f6455e.chunk.js",
+    "main.js.map": "./static/js/main.95f6455e.chunk.js.map",
+    "runtime~main.js": "./static/js/runtime~main.d653cc00.js",
+    "runtime~main.js.map": "./static/js/runtime~main.d653cc00.js.map",
+    "static/css/2.d438ea0b.chunk.css": "./static/css/2.d438ea0b.chunk.css",
+    "static/js/2.ad4db969.chunk.js": "./static/js/2.ad4db969.chunk.js",
+    "static/js/2.ad4db969.chunk.js.map": "./static/js/2.ad4db969.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.336466d6fb49cfa051349ec40d8bdf8b.js": "./precache-manifest.336466d6fb49cfa051349ec40d8bdf8b.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.d438ea0b.chunk.css.map": "./static/css/2.d438ea0b.chunk.css.map",
+    "static/css/main.1e0bf853.chunk.css.map": "./static/css/main.1e0bf853.chunk.css.map",
+    "static/media/delete.svg": "./static/media/delete.74986976.svg"
+  }
+}
