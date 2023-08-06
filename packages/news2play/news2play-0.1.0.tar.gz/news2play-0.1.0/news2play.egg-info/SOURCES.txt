@@ -1,0 +1,14 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+news2play/__init__.py
+news2play/__main__.py
+news2play/__version__.py
+news2play/app.py
+news2play.egg-info/PKG-INFO
+news2play.egg-info/SOURCES.txt
+news2play.egg-info/dependency_links.txt
+news2play.egg-info/not-zip-safe
+news2play.egg-info/requires.txt
+news2play.egg-info/top_level.txt
