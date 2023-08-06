@@ -1,0 +1,241 @@
+MANIFEST.in
+README
+setup.py
+z5_tracker.egg-info/PKG-INFO
+z5_tracker.egg-info/SOURCES.txt
+z5_tracker.egg-info/dependency_links.txt
+z5_tracker.egg-info/entry_points.txt
+z5_tracker.egg-info/top_level.txt
+z5tracker/__init__.py
+z5tracker/__main__.py
+z5tracker/gui.py
+z5tracker/main.py
+z5tracker/version.py
+z5tracker/config/__init__.py
+z5tracker/config/config.py
+z5tracker/config/default.py
+z5tracker/config/globals.py
+z5tracker/config/images.py
+z5tracker/config/layout.py
+z5tracker/config/windows.py
+z5tracker/dungeons/__init__.py
+z5tracker/dungeons/dungeonobj.py
+z5tracker/dungeons/dungeons.py
+z5tracker/dungeons/lists.py
+z5tracker/gui-tkinter/__init__.py
+z5tracker/gui-tkinter/config.py
+z5tracker/gui-tkinter/dungeons.py
+z5tracker/gui-tkinter/hints.py
+z5tracker/gui-tkinter/interface.py
+z5tracker/gui-tkinter/items.py
+z5tracker/gui-tkinter/maps.py
+z5tracker/gui-tkinter/menu.py
+z5tracker/gui-tkinter/misc.py
+z5tracker/hints/__init__.py
+z5tracker/hints/hints.py
+z5tracker/images/HC.png
+z5tracker/images/HP.png
+z5tracker/images/agony.png
+z5tracker/images/bean.png
+z5tracker/images/bluetunic.png
+z5tracker/images/bolero.png
+z5tracker/images/bomb.png
+z5tracker/images/bombchu.png
+z5tracker/images/boomerang.png
+z5tracker/images/boots.png
+z5tracker/images/bosskey.png
+z5tracker/images/bottle.png
+z5tracker/images/bottle_bigpoe.png
+z5tracker/images/bottle_blue.png
+z5tracker/images/bottle_bugs.png
+z5tracker/images/bottle_fairy.png
+z5tracker/images/bottle_fire.png
+z5tracker/images/bottle_fish.png
+z5tracker/images/bottle_green.png
+z5tracker/images/bottle_halfmilk.png
+z5tracker/images/bottle_letter.png
+z5tracker/images/bottle_milk.png
+z5tracker/images/bottle_poe.png
+z5tracker/images/bottle_red.png
+z5tracker/images/bow.png
+z5tracker/images/broken_sword.png
+z5tracker/images/bunny.png
+z5tracker/images/chest_brown_closed.png
+z5tracker/images/chest_brown_open.png
+z5tracker/images/chest_golden_closed.png
+z5tracker/images/chest_golden_open.png
+z5tracker/images/claim.png
+z5tracker/images/cojiro.png
+z5tracker/images/cucco.png
+z5tracker/images/deku_scrub.png
+z5tracker/images/din.png
+z5tracker/images/dungeon_dekutree.png
+z5tracker/images/dungeon_dodongos.png
+z5tracker/images/dungeon_fire.png
+z5tracker/images/dungeon_forest.png
+z5tracker/images/dungeon_ganon.png
+z5tracker/images/dungeon_gerudo.png
+z5tracker/images/dungeon_ice.png
+z5tracker/images/dungeon_jabujabu.png
+z5tracker/images/dungeon_shadow.png
+z5tracker/images/dungeon_spirit.png
+z5tracker/images/dungeon_water.png
+z5tracker/images/dungeon_well.png
+z5tracker/images/egg.png
+z5tracker/images/emerald.png
+z5tracker/images/epona_colored.png
+z5tracker/images/eyedrops.png
+z5tracker/images/fairyocarina.png
+z5tracker/images/farore.png
+z5tracker/images/firearrow.png
+z5tracker/images/firemedallion.png
+z5tracker/images/forestmedallion.png
+z5tracker/images/frog.png
+z5tracker/images/gerudo_symbol_colored.png
+z5tracker/images/gerudocard.png
+z5tracker/images/greentunic.png
+z5tracker/images/grey_note.png
+z5tracker/images/hammer.png
+z5tracker/images/hookshot.png
+z5tracker/images/hookshotd.png
+z5tracker/images/hoverboots.png
+z5tracker/images/icearrow.png
+z5tracker/images/ironboots.png
+z5tracker/images/keaton.png
+z5tracker/images/kokiriboots.png
+z5tracker/images/lens.png
+z5tracker/images/letter.png
+z5tracker/images/lift1.png
+z5tracker/images/lift2.png
+z5tracker/images/lift3.png
+z5tracker/images/lightarrow.png
+z5tracker/images/lightmedallion.png
+z5tracker/images/longshot.png
+z5tracker/images/magic1.png
+z5tracker/images/magic2.png
+z5tracker/images/medicine.png
+z5tracker/images/minuet.png
+z5tracker/images/mushroom.png
+z5tracker/images/nayru.png
+z5tracker/images/nocturne.png
+z5tracker/images/nut.png
+z5tracker/images/ocarina.png
+z5tracker/images/overlay_10.png
+z5tracker/images/overlay_20.png
+z5tracker/images/overlay_30.png
+z5tracker/images/overlay_30_green.png
+z5tracker/images/overlay_40.png
+z5tracker/images/overlay_40_green.png
+z5tracker/images/overlay_50_green.png
+z5tracker/images/overworld.png
+z5tracker/images/perscription.png
+z5tracker/images/prelude.png
+z5tracker/images/redtunic.png
+z5tracker/images/requiem.png
+z5tracker/images/ruby.png
+z5tracker/images/rupee.png
+z5tracker/images/sapphire.png
+z5tracker/images/saria_colored.png
+z5tracker/images/saw.png
+z5tracker/images/scale1.png
+z5tracker/images/scale2.png
+z5tracker/images/scarecrow.png
+z5tracker/images/serenade.png
+z5tracker/images/shadowmedallion.png
+z5tracker/images/shield1.png
+z5tracker/images/shield2.png
+z5tracker/images/shield3.png
+z5tracker/images/skull.png
+z5tracker/images/skulltula.png
+z5tracker/images/skulltula_token.png
+z5tracker/images/slingshot.png
+z5tracker/images/smallkey.png
+z5tracker/images/sold_out.png
+z5tracker/images/spiritmedallion.png
+z5tracker/images/spooky.png
+z5tracker/images/stick.png
+z5tracker/images/storms_colored.png
+z5tracker/images/sun_colored.png
+z5tracker/images/sword1.png
+z5tracker/images/sword2.png
+z5tracker/images/sword3.png
+z5tracker/images/time_colored.png
+z5tracker/images/truth.png
+z5tracker/images/unknown.png
+z5tracker/images/wallet.png
+z5tracker/images/wallet1.png
+z5tracker/images/wallet2.png
+z5tracker/images/wallet3.png
+z5tracker/images/watermedallion.png
+z5tracker/images/zelda_colored.png
+z5tracker/items/__init__.py
+z5tracker/items/itemobj.py
+z5tracker/items/items.py
+z5tracker/items/lists.py
+z5tracker/maps/__init__.py
+z5tracker/maps/info.py
+z5tracker/maps/maps.py
+z5tracker/rulesets/__init__.py
+z5tracker/rulesets/rulesets.py
+z5tracker/rulesets/compatibility/Patches.py
+z5tracker/rulesets/compatibility/Utils.py
+z5tracker/rulesets/compatibility/__init__.py
+z5tracker/rulesets/rando_aa_v4/Cosmetics.py
+z5tracker/rulesets/rando_aa_v4/Dungeon.py
+z5tracker/rulesets/rando_aa_v4/DungeonList.py
+z5tracker/rulesets/rando_aa_v4/Entrance.py
+z5tracker/rulesets/rando_aa_v4/EntranceShuffle.py
+z5tracker/rulesets/rando_aa_v4/HintList.py
+z5tracker/rulesets/rando_aa_v4/Item.py
+z5tracker/rulesets/rando_aa_v4/ItemList.py
+z5tracker/rulesets/rando_aa_v4/Location.py
+z5tracker/rulesets/rando_aa_v4/LocationList.py
+z5tracker/rulesets/rando_aa_v4/Region.py
+z5tracker/rulesets/rando_aa_v4/RuleParser.py
+z5tracker/rulesets/rando_aa_v4/Rules.py
+z5tracker/rulesets/rando_aa_v4/Settings.py
+z5tracker/rulesets/rando_aa_v4/SettingsList.py
+z5tracker/rulesets/rando_aa_v4/Sounds.py
+z5tracker/rulesets/rando_aa_v4/State.py
+z5tracker/rulesets/rando_aa_v4/World.py
+z5tracker/rulesets/rando_aa_v4/__init__.py
+z5tracker/rulesets/rando_aa_v4/rulesets.py
+z5tracker/rulesets/rando_aa_v4/version.py
+z5tracker/rulesets/rando_aa_v4/data/ER.icns
+z5tracker/rulesets/rando_aa_v4/data/ER.ico
+z5tracker/rulesets/rando_aa_v4/data/ER16.gif
+z5tracker/rulesets/rando_aa_v4/data/ER32.gif
+z5tracker/rulesets/rando_aa_v4/data/ER48.gif
+z5tracker/rulesets/rando_aa_v4/data/default.zspr
+z5tracker/rulesets/rando_aa_v4/data/mqu.json
+z5tracker/rulesets/rando_aa_v4/data/presets_default.json
+z5tracker/rulesets/rando_aa_v4/data/title.bin
+z5tracker/rulesets/rando_aa_v4/data/World/Bottom of the Well MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Bottom of the Well.json
+z5tracker/rulesets/rando_aa_v4/data/World/Deku Tree MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Deku Tree.json
+z5tracker/rulesets/rando_aa_v4/data/World/Dodongos Cavern MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Dodongos Cavern.json
+z5tracker/rulesets/rando_aa_v4/data/World/Fire Temple MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Fire Temple.json
+z5tracker/rulesets/rando_aa_v4/data/World/Forest Temple MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Forest Temple.json
+z5tracker/rulesets/rando_aa_v4/data/World/Ganons Castle MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Ganons Castle.json
+z5tracker/rulesets/rando_aa_v4/data/World/Gerudo Training Grounds MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Gerudo Training Grounds.json
+z5tracker/rulesets/rando_aa_v4/data/World/Ice Cavern MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Ice Cavern.json
+z5tracker/rulesets/rando_aa_v4/data/World/Jabu Jabus Belly MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Jabu Jabus Belly.json
+z5tracker/rulesets/rando_aa_v4/data/World/Overworld.json
+z5tracker/rulesets/rando_aa_v4/data/World/Shadow Temple MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Shadow Temple.json
+z5tracker/rulesets/rando_aa_v4/data/World/Spirit Temple MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Spirit Temple.json
+z5tracker/rulesets/rando_aa_v4/data/World/Water Temple MQ.json
+z5tracker/rulesets/rando_aa_v4/data/World/Water Temple.json
+z5tracker/rulesets/rando_aa_v4/data/generated/rom_patch.txt
+z5tracker/rulesets/rando_aa_v4/data/generated/symbols.json
+z5tracker/world/__init__.py
+z5tracker/world/world.py
