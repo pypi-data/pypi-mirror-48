@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: shellutil
+Version: 0.6
+Summary: A shell
+Home-page: https://github.com/ryank262/pyBuild
+Author: Ryan Kirkpatrick
+Author-email: ryan.Kirkpatrick2@resmed.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.3
