@@ -1,0 +1,15 @@
+page_scrapers/__init__.py,sha256=PB9zgSg4Mc-aydsJy7zObu_VR736VL2kyFPkUbSp9N8,176
+page_scrapers/wikipedia/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+page_scrapers/wikipedia/exceptions.py,sha256=NFNpy0oodB4p7WgRyuWspy-hbYL8BcJLLptmaJlM8p8,42
+page_scrapers/wikipedia/utils.py,sha256=OaHPS1o_B6tqLVPpcRALrocaMyrxUDpwcKrE6WJ_2e4,843
+page_scrapers/wikipedia/filters/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+page_scrapers/wikipedia/filters/base.py,sha256=r_IMpVaxP7_0OvYsJPES3Hp09luRypOKQSWEQHMnuFs,4389
+page_scrapers/wikipedia/filters/film.py,sha256=IP1IUOA1JSmHC20GPKE4PD0WRaRRaw1pKAyqY4-uqd4,284
+page_scrapers/wikipedia/scrapers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+page_scrapers/wikipedia/scrapers/base.py,sha256=130cc84ybKwQ7gK_G7u6FTjp_V6W7RG_l6bkUjaQ4jg,5609
+page_scrapers/wikipedia/scrapers/film.py,sha256=TQ8JQtGY_FYmvNi1pYh-Td7AB23vtATlJGFQ95KQGZM,2351
+page_scrapers-2.3.0.dist-info/LICENSE.txt,sha256=EPbdzdWhgM45gQvcJZksiAREhO55qCgIyCjA4c55jSs,1268
+page_scrapers-2.3.0.dist-info/METADATA,sha256=IAFM6NOjdz2w2H3uvo6gW6CdzaKvrr3PeqFKVHNszb4,1505
+page_scrapers-2.3.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+page_scrapers-2.3.0.dist-info/top_level.txt,sha256=TKLrkYcxcRq4okYy9cislv4QbLsv9stpGyHGOy9T7mI,14
+page_scrapers-2.3.0.dist-info/RECORD,,
