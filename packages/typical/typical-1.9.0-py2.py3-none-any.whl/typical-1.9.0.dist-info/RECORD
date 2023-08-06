@@ -1,0 +1,12 @@
+typic/__about__.py,sha256=puk_01YYbkLe0jgI3BNEn3wVpSeB_Omeeyp9FbKSaKc,303
+typic/__init__.py,sha256=QJRv-TOkOWwIa-aVyEFyeaoG4WuPYoJ7rhlXV7QFseE,271
+typic/bind.py,sha256=dxVY1JMuT0HG0UQvGt_d3EdVFAHuCH24R21KEVxpTMI,4798
+typic/checks.py,sha256=tMuu66VCrwQVQNPGPMwoNGSDFrsbdZMrdIZSTM56LzM,3284
+typic/eval.py,sha256=naJW71hNreH1IkzV3R4XMKad0iXpJryJaZn2n8I1ZAA,1548
+typic/klass.py,sha256=TfLBLXi-4PgssfLIVPujeL90knF5uvM4_5tLK4rGY5M,1605
+typic/typed.py,sha256=Av1SRbY23K47ufZ_tMRNeymyam48J--TbB3y6T2Rd0Q,31830
+typical-1.9.0.dist-info/LICENSE,sha256=Ana3ouX3VLeBP0yUchezbPKdgG38Zy3Ig-FHFaoyevc,1080
+typical-1.9.0.dist-info/METADATA,sha256=2KF2AEDH-5lpad4ey9w81XfxKiy1xBysH3noQZ1UqJA,10087
+typical-1.9.0.dist-info/WHEEL,sha256=HX-v9-noUkyUoxyZ1PMSuS7auUxDAR4VBdoYLqD0xws,110
+typical-1.9.0.dist-info/top_level.txt,sha256=m2vY4NSWqGSrTBPzztuKneyzdIsYPKu6Sn1PArCT7og,6
+typical-1.9.0.dist-info/RECORD,,
