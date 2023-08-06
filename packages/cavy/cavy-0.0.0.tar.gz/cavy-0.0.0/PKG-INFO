@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: cavy
+Version: 0.0.0
+Summary: Library of unit testing helpers.
+Home-page: https://github.com/dave-shawley/cavy
+Author: Dave Shawley
+Author-email: daveshawley@gmail.com
+License: UNKNOWN
+Description: This is a *kitchen sink* library of utility classes that simplifies writing
+        richer tests.  I extracted the contents from various projects that I've
+        written over the past few years -- this is the result of not wanting to cut
+        and paste or rewrite the same code everywhere.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 1 - Planning
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Environment :: Web Environment
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Testing
+Provides-Extra: dev
