@@ -1,0 +1,12 @@
+fbupkeep/__init__.py,sha256=2x_3F19oL9XX5Uredl6EWPeoTYJcZhSBgqE6Cq_npLM,1488
+fbupkeep/base.py,sha256=bH9yliZ2TxlW9HRsHzYyniXErnz5bJcfwHUnz89e534,21299
+fbupkeep/runner.py,sha256=0K2QMTKbCvI_1wCAUFadkoSdz9X0AhNv62NNCRBFhzE,11399
+fbupkeep/tasks.py,sha256=F5pZmKut3CG8hXDjvly1In15zojDRQj_leSmgLGOzQg,20988
+fbupkeep-1.0.1.data/data/fbupkeep.cfg,sha256=8t8IM7y9ZxwuTPnfTVlhaZN0X2p3UeYz_jXHoxNcGoE,7694
+fbupkeep-1.0.1.dist-info/LICENSE,sha256=5F8cg7RSaqDBeCo8O1MIp-ZYs9QKRZRDiWadBt9RhSk,1095
+fbupkeep-1.0.1.dist-info/METADATA,sha256=crXQlR8XppCXkFLgmfPaAEyWiki-sn9WFD3ES7-9LHI,1944
+fbupkeep-1.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+fbupkeep-1.0.1.dist-info/entry_points.txt,sha256=BsG5148fC_6T1OlbHJjOTPhoKzVLcnPP2UogSik4kIY,350
+fbupkeep-1.0.1.dist-info/namespace_packages.txt,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+fbupkeep-1.0.1.dist-info/top_level.txt,sha256=yJUSyuWdxz8lDGd8yJSWyws9_WsGe4JlOlMsC5gFgcA,9
+fbupkeep-1.0.1.dist-info/RECORD,,
