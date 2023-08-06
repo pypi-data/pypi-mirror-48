@@ -1,0 +1,6 @@
+mysql-connector
+db-sqlite3
+mongo-connector
+numpy
+pandas
+pathlib
