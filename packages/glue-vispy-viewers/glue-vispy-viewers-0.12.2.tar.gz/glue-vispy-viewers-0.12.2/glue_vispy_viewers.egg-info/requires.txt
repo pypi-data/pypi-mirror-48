@@ -1,0 +1,21 @@
+numpy
+pyopengl
+glue-core>=0.15
+qtpy
+scipy
+astropy>=1.1
+pillow
+matplotlib
+
+[qt]
+
+[qt:python_version >= "3"]
+PyQt5
+
+[test]
+pytest<3.7,>=3.5
+pytest-cov
+pytest-qt
+pytest-faulthandler<1.6
+objgraph
+mock
