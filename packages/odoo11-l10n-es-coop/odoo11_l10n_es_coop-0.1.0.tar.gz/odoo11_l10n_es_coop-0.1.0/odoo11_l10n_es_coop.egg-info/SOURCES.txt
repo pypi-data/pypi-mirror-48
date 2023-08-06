@@ -1,0 +1,17 @@
+.gitignore
+README.md
+setup.py
+odoo/addons/l10n_es_coop/README.rst
+odoo/addons/l10n_es_coop/__init__.py
+odoo/addons/l10n_es_coop/__manifest__.py
+odoo/addons/l10n_es_coop/data/account_account_coop_full.xml
+odoo/addons/l10n_es_coop/data/account_account_coop_pyme.xml
+odoo/addons/l10n_es_coop/data/account_chart_template.xml
+odoo/addons/l10n_es_coop/data/account_chart_template_post.xml
+odoo/addons/l10n_es_coop/models/__init__.py
+odoo/addons/l10n_es_coop/models/chart_template.py
+odoo/addons/l10n_es_coop/static/description/icon.png
+odoo11_l10n_es_coop.egg-info/PKG-INFO
+odoo11_l10n_es_coop.egg-info/SOURCES.txt
+odoo11_l10n_es_coop.egg-info/dependency_links.txt
+odoo11_l10n_es_coop.egg-info/top_level.txt
