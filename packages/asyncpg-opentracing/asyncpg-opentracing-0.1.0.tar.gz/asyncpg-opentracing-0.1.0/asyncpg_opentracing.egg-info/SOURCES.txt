@@ -1,0 +1,11 @@
+LICENSE.md
+README.rst
+setup.cfg
+setup.py
+asyncpg_opentracing/__init__.py
+asyncpg_opentracing/tracing.py
+asyncpg_opentracing.egg-info/PKG-INFO
+asyncpg_opentracing.egg-info/SOURCES.txt
+asyncpg_opentracing.egg-info/dependency_links.txt
+asyncpg_opentracing.egg-info/requires.txt
+asyncpg_opentracing.egg-info/top_level.txt

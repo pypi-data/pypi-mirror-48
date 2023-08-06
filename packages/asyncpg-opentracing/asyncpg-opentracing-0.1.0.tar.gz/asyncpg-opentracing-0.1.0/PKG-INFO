@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: asyncpg-opentracing
+Version: 0.1.0
+Summary: Opentracing instrumentation for asyncpg
+Home-page: https://github.com/condorcet/asyncpg-opentracing
+Author: Vasilii Novikov
+Author-email: novikov.vz@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: opentracing
+Platform: any
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
