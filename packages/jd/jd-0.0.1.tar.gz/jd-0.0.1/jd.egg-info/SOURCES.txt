@@ -1,0 +1,15 @@
+README.md
+setup.py
+jd/__init__.py
+jd.egg-info/PKG-INFO
+jd.egg-info/SOURCES.txt
+jd.egg-info/dependency_links.txt
+jd.egg-info/requires.txt
+jd.egg-info/top_level.txt
+jd.egg-info/zip-safe
+jd/jd/__init__.py
+jd/jd/api.py
+jd/jd/comm.py
+jd/jd/order.py
+jd/tests/__init__.py
+jd/tests/test_comm.py
