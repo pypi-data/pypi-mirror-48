@@ -1,0 +1,10 @@
+README.md
+setup.py
+zest/__init__.py
+zest/all_tests.py
+zest/tests.py
+zest/utility.py
+zest.egg-info/PKG-INFO
+zest.egg-info/SOURCES.txt
+zest.egg-info/dependency_links.txt
+zest.egg-info/top_level.txt
