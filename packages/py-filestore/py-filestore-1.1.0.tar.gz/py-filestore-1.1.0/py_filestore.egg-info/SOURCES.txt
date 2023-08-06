@@ -1,0 +1,8 @@
+README.md
+setup.py
+filestore/__init__.py
+filestore/filestore.py
+py_filestore.egg-info/PKG-INFO
+py_filestore.egg-info/SOURCES.txt
+py_filestore.egg-info/dependency_links.txt
+py_filestore.egg-info/top_level.txt
