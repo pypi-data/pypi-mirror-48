@@ -1,0 +1,95 @@
+environment:
+  CARGO_HOME: "c:\\cargo"
+  RUSTUP_HOME: "c:\\rustup"
+  # Change this to the name of your binary
+  BINARY_NAME: "pyo3-pack.exe"
+  global:
+    RUST_BACKTRACE: full
+
+  PYO3_PACK_PASSWORD:
+    secure: 3xTkaAvLd84qjLwY/quMb0w1Kh5NRXQ0a/zHtjnH4WY=
+  matrix:
+    # Publishes to pypi
+    - TARGET: i686-pc-windows-msvc
+      CHANNEL: stable
+    - TARGET: x86_64-pc-windows-msvc
+      CHANNEL: stable
+
+    # Commented out to avoid duplicate uploads to pypi
+    #- TARGET: i686-pc-windows-gnu
+    #  CHANNEL: stable
+    #- TARGET: x86_64-pc-windows-gnu
+    #  CHANNEL: stable
+
+    # For the integration test
+    # Comment out because it is failing for not locally reproducable reasons (maybe LIB is set incorrectly)
+    #- TARGET: x86_64-pc-windows-msvc
+    #  CHANNEL: nightly
+
+matrix:
+  fast_finish: true
+
+install:
+  - cinst miniconda3
+  - ps: |
+      # For the gnu target we need gcc, provided by mingw. mingw which is already preinstalled,
+      # but we need the right version (32-bit or 64-bit) to the PATH.
+      # See https://www.appveyor.com/docs/build-environment/#mingw-msys-cygwin
+      if ($env:target -like "*-gnu") {
+        if ($env:target -like "x86_64-*") { # x86_64-pc-windows-gnu
+          $env:path += ";C:\msys64\mingw64\bin"
+        } else { # i686-pc-windows-gnu
+          $env:path += ";C:\msys64\mingw32\bin"
+        }
+        gcc --version
+      }
+  - appveyor-retry appveyor DownloadFile https://win.rustup.rs/ -FileName rustup-init.exe
+  - rustup-init.exe -y --default-host %TARGET% --default-toolchain %CHANNEL%
+  - SET PATH=%PATH%;%CARGO_HOME%\bin
+  # We need python 3.x 64 bit as default in path for the develop test
+  - SET PATH=C:\Python36-x64\bin;%PATH%
+  - rustc -V
+  - cargo -V
+
+test_script:
+  - cargo build
+  - ps: |
+      if ($env:channel -like "nightly") {
+        cargo test
+      }
+
+before_deploy:
+  - cargo build --release --features password-storage
+  # Grab the binary and pack it into a zip archive
+  - cd target\release\
+  # You can add more file to the archive by adding them to this line
+  - 7z a ../../%APPVEYOR_PROJECT_SLUG%-%APPVEYOR_REPO_TAG_NAME%-%TARGET%.zip %BINARY_NAME%
+  - appveyor PushArtifact ../../%APPVEYOR_PROJECT_SLUG%-%APPVEYOR_REPO_TAG_NAME%-%TARGET%.zip
+  - cd ../..
+  # Publish pypi
+  - cargo run -- publish -b bin -u konstin --no-sdist
+
+
+deploy:
+  # Add zipped binary to the github release
+  - artifact: /.*\.zip/
+    # - Create a `public_repo` GitHub token at https://github.com/settings/tokens/new
+    # - Encrypt it at https://ci.appveyor.com/tools/encrypt
+    # - Paste the output down here
+    auth_token:
+      secure: PQ91ezDbGmow+5tjZCAQ2/Y/2bHFffmQZoa5lr09JQIwARsAa2jHtucVn9826lWG
+    provider: GitHub
+    on:
+      # Deploy when a new tag is pushed and only on the stable channel
+      # Make sure you only release once per target
+      CHANNEL: stable
+      appveyor_repo_tag: true
+
+branches:
+  only:
+    # Pushes to the master branch
+    - master
+    # Match release tags with a regex
+    - /^v\d+\.\d+\.\d+.*$/
+
+build: off # Otherwise appveyor assumes we're building a .NET project
