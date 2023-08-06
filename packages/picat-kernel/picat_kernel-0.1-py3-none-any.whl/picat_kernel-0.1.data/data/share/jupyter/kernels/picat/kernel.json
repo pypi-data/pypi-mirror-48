@@ -1,0 +1,7 @@
+{
+ "argv": ["python3", "-m", "picat_kernel", "-f", "{connection_file}"
+ ],
+ "display_name": "Picat",
+ "language": "picat",
+ "codemirror_mode":  "scheme"
+}

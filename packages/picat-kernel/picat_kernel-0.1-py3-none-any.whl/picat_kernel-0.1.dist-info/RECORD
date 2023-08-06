@@ -1,0 +1,9 @@
+picat_kernel/__init__.py,sha256=dnRplJrwaKmhaxNf8unmz0QnudN9g7vx_r0xHItsRxY,88
+picat_kernel/__main__.py,sha256=iID9QsRnMpLacTa9F887cyyzwgw_dQgYMr9-875ZVpg,166
+picat_kernel/kernel.py,sha256=gn6wj-WHM_fP5WOMejsT5YjZ-8O54ErXNbpEDsMTeBQ,2151
+picat_kernel-0.1.data/data/share/jupyter/kernels/picat/kernel.json,sha256=wFL4NJlR3Gp9DJUY_CQsQ7pE_Upf470-936nuSi-7xA,154
+picat_kernel-0.1.dist-info/LICENSE.txt,sha256=-rPda9qyJvHAhjCx3ZF-Efy07F4eAg4sFvg6ChOGPoU,16726
+picat_kernel-0.1.dist-info/METADATA,sha256=HqpfdjyJA5xRJo5uyCX_cW7OgzV2zSeC5AJqCKuQSAg,1656
+picat_kernel-0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+picat_kernel-0.1.dist-info/top_level.txt,sha256=yeEEwDW3tuLuYAHwrl_6Zz6I3jpRDFwLLjz8jewVzzU,13
+picat_kernel-0.1.dist-info/RECORD,,
