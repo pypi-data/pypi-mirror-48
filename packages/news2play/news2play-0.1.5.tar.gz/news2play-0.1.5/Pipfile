@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+# pip already config proxy, see ~/.pip/pip.conf
+# url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+codecov = "*"
+pytest-cov = "*"
+pytest-xdist = "*"
+flake8 = "*"
+sphinx = "*"
+tox = "*"
+
+[packages]
+spacy = "*"
+pydub = "*"
+colorlog = "*"
+flask = "*"
+flask-httpauth = "*"
+
+[requires]
+python_version = "3.7"
