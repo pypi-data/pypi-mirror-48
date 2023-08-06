@@ -1,0 +1,7 @@
+rest_enumfield/__init__.py,sha256=dZvk2VzmaTHywoomdp4lhOr3Wq1gvGr5OvKcrsHA-Xw,228
+rest_enumfield/__version__.py,sha256=8D7YGu0EsrmoHK7lSHpCW-0zG7FVwuulL1fyoXYRRJU,243
+rest_enumfield/fields.py,sha256=3tM7AmyyJfdSCpkZrcGuuQe8n9kRDdfhDaKkFN0bmng,900
+django_rest_enumfield-0.1.1.dist-info/METADATA,sha256=Rcxvpcx86343uT9PJOF-_2Ql1G17a3UVYj2gehrfja0,2669
+django_rest_enumfield-0.1.1.dist-info/WHEEL,sha256=h_aVn5OB2IERUjMbi2pucmR_zzWJtk303YXvhh60NJ8,110
+django_rest_enumfield-0.1.1.dist-info/top_level.txt,sha256=ygiXoYVtkh-73-fw76uwk_Y6jk5qk2Ch5XNaaYcozLU,15
+django_rest_enumfield-0.1.1.dist-info/RECORD,,
