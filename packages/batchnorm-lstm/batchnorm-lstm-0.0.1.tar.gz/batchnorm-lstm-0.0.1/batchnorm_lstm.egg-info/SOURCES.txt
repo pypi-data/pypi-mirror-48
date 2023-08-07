@@ -1,0 +1,14 @@
+README.md
+setup.py
+batchnorm_lstm.egg-info/PKG-INFO
+batchnorm_lstm.egg-info/SOURCES.txt
+batchnorm_lstm.egg-info/dependency_links.txt
+batchnorm_lstm.egg-info/top_level.txt
+batchnormlstm/__init__.py
+batchnormlstm/gradient_check.py
+batchnormlstm/layer_utils.py
+batchnormlstm/layers.py
+batchnormlstm/optim.py
+batchnormlstm/solver.py
+batchnormlstm/classifiers/__init__.py
+batchnormlstm/classifiers/lstm.py
