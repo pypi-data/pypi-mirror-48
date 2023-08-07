@@ -1,0 +1,7 @@
+README.md
+setup.py
+JsonToXML/__init__.py
+JsonToXML.egg-info/PKG-INFO
+JsonToXML.egg-info/SOURCES.txt
+JsonToXML.egg-info/dependency_links.txt
+JsonToXML.egg-info/top_level.txt
