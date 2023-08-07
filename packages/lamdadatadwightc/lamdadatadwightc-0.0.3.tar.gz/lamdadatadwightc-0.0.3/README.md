@@ -1,0 +1,1 @@
+Simple package to check nulls in your Pandas DataFrame and split datetimes into separate columns!
