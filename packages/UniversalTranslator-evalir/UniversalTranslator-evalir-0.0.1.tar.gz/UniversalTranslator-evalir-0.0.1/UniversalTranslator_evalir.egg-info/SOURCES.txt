@@ -1,0 +1,6 @@
+README.md
+setup.py
+UniversalTranslator_evalir.egg-info/PKG-INFO
+UniversalTranslator_evalir.egg-info/SOURCES.txt
+UniversalTranslator_evalir.egg-info/dependency_links.txt
+UniversalTranslator_evalir.egg-info/top_level.txt
