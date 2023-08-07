@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: redcline
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: ianmanor.dev@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click
+Requires-Dist: selenium
+Requires-Dist: six
+Requires-Dist: pyfiglet
+Requires-Dist: PyInquirer
+
+UNKNOWN
+
+
