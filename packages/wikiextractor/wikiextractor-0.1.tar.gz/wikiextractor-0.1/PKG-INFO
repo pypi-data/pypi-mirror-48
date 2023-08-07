@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: wikiextractor
+Version: 0.1
+Summary: scripts for parsing the wikimedia xml dumps files
+Home-page: https://github.com/MouhamadAboShokor/wikiextractor
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/MouhamadAboShokor/wikiextractor/v_01.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2.7
