@@ -1,0 +1,13 @@
+batchnormlstm/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+batchnormlstm/gradient_check.py,sha256=L7Y7m1syVHthQ5Qe-4xt1-7zM2icKJyEw1pmvofT4JM,3396
+batchnormlstm/layer_utils.py,sha256=21oSAjEnHq_Gl1uTy2xvfPlnXjJGeLIGq8hZjAeUd0c,17608
+batchnormlstm/layers.py,sha256=v-9Crj7eJNf1KTmouTb0LalOhkO91gDf_y3ntZp2sNE,37119
+batchnormlstm/optim.py,sha256=iSfa9vUHShqTgGn27Lik0Yh_pFfQ4yYNb-1fcQSJoZo,6335
+batchnormlstm/solver.py,sha256=Hr0GlTpTP9CnJGIqyNKsRtAtIIRPJp-IPM-PC6fsLzY,11080
+batchnormlstm/classifiers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+batchnormlstm/classifiers/lstm.py,sha256=p8no9ZBr37AKJ4ALtjdp6Dk8i8mZu3HGYg7KPzyUWtU,18050
+batchnorm_lstm-0.0.1.dist-info/LICENSE,sha256=LklE8AQX0ycFHO2VwiCTJ67XuzxD0j8LyRBZQ37zOJ4,1065
+batchnorm_lstm-0.0.1.dist-info/METADATA,sha256=AiVLTlbV5I1HNu0b03jzc5JrwLv2IW14QM_vl-vnzGM,642
+batchnorm_lstm-0.0.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+batchnorm_lstm-0.0.1.dist-info/top_level.txt,sha256=NM77YZ7ezxDSFQmNO2s2BqcnHSBy-lsiKpbpZputFYw,14
+batchnorm_lstm-0.0.1.dist-info/RECORD,,

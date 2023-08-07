@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: batchnorm-lstm
+Version: 0.0.1
+Summary: A package that implements Many-to-One Long Short-Term Memory with batch normalization, dropout and layer stacking.
+Home-page: https://github.com/Zyx0Wu/batchnorm-lstm
+Author: Zyx Masic
+Author-email: zyx.masic@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# batchnorm-lstm
+A package that implements Many-to-One Long Short-Term Memory with batch normalization, dropout and layer stacking.
+
+
