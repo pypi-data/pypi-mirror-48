@@ -1,0 +1,17 @@
+middleware/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+middleware/command_manage_corpus_file.py,sha256=Ffj2BKgafdwK7lGCgTqu1h14i02maNp-RbwoovrVUSQ,14189
+middleware/api/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+middleware/api/corpus_file_manger.py,sha256=FUrJ8G6tDblHxIumyB9bY6bW8sNvGV6a2NgX3MHhQVo,17405
+middleware/downloader/__init__.py,sha256=lVL4VPz3c4kWCgjPtL4uuQLNmgwK92q1ffAsv5El02k,25
+middleware/downloader/http.py,sha256=NaV7R-XqHVUzVQ4UEEpREV8l5L60kW8JDis0w_1DL0k,2219
+middleware/settings/__init__.py,sha256=2un8k8GFsH9dCD4_ZThEPCMZq_JL335e0Wzkk034rmo,48
+middleware/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+middleware/utils/csv_merge.py,sha256=WaTr89ZkWGs5f65DZQZpjTs4nQTKok6c5NZRN0sxtbA,1451
+middleware/utils/file_util.py,sha256=3MGD_cVEJ4icxfLjemZqMM9WJkU1G0gBKNJlK3dkl8Y,4046
+middleware/utils/password.py,sha256=7ykCco-Xr58mJUm5yAMdTdrTqt6fq4y_Z52HNMkVvSM,685
+middleware/utils/time_util.py,sha256=cEicSODpaR9ZXchmmCoFDRNK9y3m6xc2G5nilTMPklM,1609
+corpus_middleware-0.2.9.dist-info/METADATA,sha256=6s3w-FJKWNO48Fntd8lxC1VgJsL4Ls0_qqS72mGxWGE,489
+corpus_middleware-0.2.9.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+corpus_middleware-0.2.9.dist-info/entry_points.txt,sha256=XWE1yOUoxh22xutqrFsuVTiB5aPBG4EH7H_6qq7PSkw,111
+corpus_middleware-0.2.9.dist-info/top_level.txt,sha256=4lLxxDRA9JlWrXsv3B2Q7oQGTqdmEnppkdoHPAiZhg0,11
+corpus_middleware-0.2.9.dist-info/RECORD,,

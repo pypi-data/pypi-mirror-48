@@ -1,0 +1,4 @@
+
+            [console_scripts]
+            corpus-middleware=middleware.command_manage_corpus_file:cli
+        

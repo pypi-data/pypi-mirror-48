@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: corpus-middleware
+Version: 0.2.9
+Summary: corpus-middleware
+Home-page: https://metasota.ai/
+Author: metasota
+Author-email: liuwentao@metasota.ai
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: click (==7.0)
+Requires-Dist: requests (==2.20.0)
+Requires-Dist: aiohttp (==3.4.4)
+Requires-Dist: aiofiles (==0.4.0)
+Requires-Dist: PyYAML (==3.13)
+Requires-Dist: setuptools (==40.8.0)
+Requires-Dist: pycryptodome
+Requires-Dist: tqdm (==4.32.1)
+
+# corpus-middleware
+
+
