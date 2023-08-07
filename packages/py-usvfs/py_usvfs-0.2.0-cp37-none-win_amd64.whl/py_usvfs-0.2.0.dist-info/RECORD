@@ -1,0 +1,12 @@
+usvfs/__init__.py,sha256=yMH7KWO37XXLHez2Sl4t95XgXb9HlxplHMXUsXJdT7E,555
+usvfs/_usvfs_dll.pyd,sha256=t4GQHuwHzz-IHxgDUmFhQY99-Hi3LUuH2sU-QVpA4Co,180224
+usvfs/usvfs_proxy_x64.exe,sha256=NXef9UJY51BiamNK3c1kjJLclsveyDkRi5voyNrM-U8,1133568
+usvfs/usvfs_proxy_x86.exe,sha256=SVlOWzBX8Q4bcunzg2SUINB3i-wsAodt2eulWL3TPq4,922112
+usvfs/usvfs_wrapper.py,sha256=Rn1lKR_SfNQD4ChQ0sb8-ueyAh5rrOcBRzdo9XBykSU,19320
+usvfs/usvfs_x64.dll,sha256=0GJsoc_f0taPNXHYYer9NEGvWQO8vbHp2rTTSkhcSyc,1842176
+usvfs/usvfs_x86.dll,sha256=l_md6DFx-3nYveSCxY9oTHckOlyeSu-EUshCWfUX4Jg,1529856
+py_usvfs-0.2.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+py_usvfs-0.2.0.dist-info/METADATA,sha256=S9VLMFPwfvScB6EJD6ogjiChL3Knp8I5FVxB0EK9Y-E,8892
+py_usvfs-0.2.0.dist-info/WHEEL,sha256=NmrgDWhUqsBWvIdpS5LZ_qEB7z3QDD0JoZljLuZDE7Q,104
+py_usvfs-0.2.0.dist-info/top_level.txt,sha256=VG2ReJPYST6NLM_K90oUqXU_LUaCvW5-uA1-9YTH6Jg,6
+py_usvfs-0.2.0.dist-info/RECORD,,
