@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: PyGlow
+Version: 0.0.1
+Summary: This package is an attempt to implement Keras like API functionalities on PyTorch backend.
+Home-page: https://github.com/spino17/PyGlow
+Author: Bhavya
+Author-email: bhavyabhatt17@gmail.com
+License: MIT
+Description: # PyGlow
+        This package is an attempt to implement Keras like API functionalities on PyTorch backend. 
+        
+Platform: UNKNOWN

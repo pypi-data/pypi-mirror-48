@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyGlow.egg-info/PKG-INFO
+PyGlow.egg-info/SOURCES.txt
+PyGlow.egg-info/dependency_links.txt
+PyGlow.egg-info/requires.txt
+PyGlow.egg-info/top_level.txt
