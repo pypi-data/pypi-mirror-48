@@ -1,0 +1,8 @@
+README.rst
+create_redirect.py
+setup.py
+create_redirect.egg-info/PKG-INFO
+create_redirect.egg-info/SOURCES.txt
+create_redirect.egg-info/dependency_links.txt
+create_redirect.egg-info/entry_points.txt
+create_redirect.egg-info/top_level.txt

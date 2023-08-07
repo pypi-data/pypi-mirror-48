@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: create_redirect
+Version: 0.1.2
+Summary: Python script for creating HTML redirects
+Home-page: https://github.com/domdfcoding/create_redirect
+Author: Dominic Davis-Foster
+Author-email: dominic@davis-foster.co.uk
+License: GPL3
+Description: ****************
+        create_redirect
+        ****************
+        
+        Python script for creating HTML redirects
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.4
+Classifier: Programming Language :: Python :: 2.5
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.0
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
