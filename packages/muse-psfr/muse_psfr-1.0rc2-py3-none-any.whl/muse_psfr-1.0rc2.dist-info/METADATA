@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: muse-psfr
+Version: 1.0rc2
+Summary: MUSE WFM-AO PSF reconstruction from SPARTA
+Home-page: UNKNOWN
+Author: Simon Conseil
+Author-email: simon.conseil@univ-lyon1.fr
+License: BSD 3-Clause License
+Keywords: astronomy,astrophysics,science,muse,vlt
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+Requires-Dist: mpdaf
+Requires-Dist: astropy
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: joblib
+Provides-Extra: all
+Requires-Dist: matplotlib ; extra == 'all'
+Requires-Dist: colorama ; extra == 'all'
+Provides-Extra: docs
+Requires-Dist: numpydoc ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme ; extra == 'docs'
+Requires-Dist: sphinx-automodapi ; extra == 'docs'
+Requires-Dist: sphinxcontrib-programoutput ; extra == 'docs'
+Requires-Dist: matplotlib ; extra == 'docs'
+
+MUSE-PSFR - PSF reconstruction for MUSE WFM-AO
+==============================================
+
+The *muse-psfr* code allows to reconstruct a PSF for the MUSE WFM-AO mode, using
+telemetry data from SPARTA. See documentation for details.
+
+The method will be presented in more details in a forthcoming publication ([Fusco et al. in prep.]).
+
+.. image:: https://travis-ci.org/musevlt/muse-psfr.svg?branch=master
+  :target: https://travis-ci.org/musevlt/muse-psfr
+
+.. image:: https://codecov.io/gh/musevlt/muse-psfr/branch/master/graph/badge.svg
+  :target: https://codecov.io/gh/musevlt/muse-psfr
+
+
+
