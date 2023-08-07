@@ -1,0 +1,9 @@
+pandas
+numpy
+protobuf
+flask
+jinja2
+flask-cors
+requests
+pillow
+tensorflow
