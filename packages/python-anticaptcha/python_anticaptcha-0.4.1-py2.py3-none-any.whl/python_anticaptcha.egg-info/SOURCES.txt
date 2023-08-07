@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+/home/adas/Devel/python-anticaptcha/build/lib/python_anticaptcha.egg-info/PKG-INFO
+/home/adas/Devel/python-anticaptcha/build/lib/python_anticaptcha.egg-info/SOURCES.txt
+/home/adas/Devel/python-anticaptcha/build/lib/python_anticaptcha.egg-info/dependency_links.txt
+/home/adas/Devel/python-anticaptcha/build/lib/python_anticaptcha.egg-info/requires.txt
+/home/adas/Devel/python-anticaptcha/build/lib/python_anticaptcha.egg-info/top_level.txt
+python_anticaptcha/__init__.py
+python_anticaptcha/base.py
+python_anticaptcha/compat.py
+python_anticaptcha/exceptions.py
+python_anticaptcha/fields.py
+python_anticaptcha/tasks.py
