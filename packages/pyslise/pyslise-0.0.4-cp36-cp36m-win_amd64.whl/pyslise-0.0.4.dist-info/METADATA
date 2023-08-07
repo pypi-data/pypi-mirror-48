@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pyslise
+Version: 0.0.4
+Summary: Python bindings for the C++ version of Matslise
+Home-page: https://matslise.ugent.be/
+Author: Toon Baeyens
+Author-email: toon.baeyens@ugent.be
+License: UNKNOWN
+Requires-Dist: numpy
+
+# PySlise 0.0.4
+
+
