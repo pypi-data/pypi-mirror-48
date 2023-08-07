@@ -1,0 +1,10 @@
+pyvww/__init__.py,sha256=ZU9Lau5yAyT868BunLb0jUvySN_pyAhc4qH3k_7n4Yw,39
+pyvww/pytorch/__init__.py,sha256=_258-SVYK7ASTPfWu3ge2FN08FkW4_ja4Zv2WvJi8PA,51
+pyvww/pytorch/datasets.py,sha256=X0u2msCmfSbOQWymdsnT_ZMpPzt0VPKSvTa2sVbv_0k,1761
+pyvww/utils/__init__.py,sha256=pMsFiOwraiIvhV270HCY_fL0gRZKq6ZaQ_ry5pJUgHg,44
+pyvww/utils/visualwakewords.py,sha256=jECBAZ-xvgMn72HSePeziRybx4-eEczWuvsCjxu3sS4,1488
+pyvww-0.1.0.dist-info/LICENSE,sha256=efvurw8Ai3xfQKikHJ4S2DM6ICMpXIwLdNEy0LD1vAo,11345
+pyvww-0.1.0.dist-info/METADATA,sha256=5AKWiqosqhtPIfMw2oJUzK1UyOc9enUHZzyUMJFKJ5s,4308
+pyvww-0.1.0.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+pyvww-0.1.0.dist-info/top_level.txt,sha256=Mq6Otz_RYhQMch7Lnjgufcv-emnoAXbJVUkLJtvnitQ,6
+pyvww-0.1.0.dist-info/RECORD,,
