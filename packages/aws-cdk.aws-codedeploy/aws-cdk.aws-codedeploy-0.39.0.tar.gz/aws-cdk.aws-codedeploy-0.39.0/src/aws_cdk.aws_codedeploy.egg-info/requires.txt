@@ -1,0 +1,10 @@
+jsii~=0.14.0
+publication>=0.0.3
+aws-cdk.aws-autoscaling~=0.39.0
+aws-cdk.aws-cloudwatch~=0.39.0
+aws-cdk.aws-elasticloadbalancing~=0.39.0
+aws-cdk.aws-elasticloadbalancingv2~=0.39.0
+aws-cdk.aws-iam~=0.39.0
+aws-cdk.aws-lambda~=0.39.0
+aws-cdk.aws-s3~=0.39.0
+aws-cdk.core~=0.39.0
