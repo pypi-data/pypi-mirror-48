@@ -1,0 +1,8 @@
+requests
+idna
+simplejson
+opencv-python==3.4.5.20
+numpy
+confapp
+urllib3
+Pillow
