@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: bargtd
+Version: 0.0.1a1
+Summary: A GTD tool in the titlebar
+Home-page: https://github.com/lidaobing/bargtd
+Author: LI Daobing
+Author-email: lidaobing@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# bargtd
+A GTD Tool on your OS menu bar
+
+## TODO
+
+* [x] support create new task from menu
+* [x] support merge multiple tasklist
+* [x] support JIRA
+* [ ] support custom query from github
+* [ ] support switch profile from menu
+* [ ] support create new task in merge mode
+* [ ] use `asyncio` when fetch data from remote
+* [ ] put the gitlab private token in header: [ref](https://docs.gitlab.com/ee/api/#personal-access-tokens)
+
+
