@@ -1,0 +1,14 @@
+README.md
+setup.py
+bin/buildcat-install
+buildcat/__init__.py
+buildcat/hou.py
+buildcat/test.py
+buildcat/worker.py
+buildcat.egg-info/PKG-INFO
+buildcat.egg-info/SOURCES.txt
+buildcat.egg-info/dependency_links.txt
+buildcat.egg-info/requires.txt
+buildcat.egg-info/top_level.txt
+buildcat/integrations/houdini/demo.hiplc
+buildcat/integrations/houdini/scd__buildcat.hdalc
