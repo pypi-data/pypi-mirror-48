@@ -1,0 +1,7 @@
+README.md
+rgbconv.c
+setup.py
+rgbconv.egg-info/PKG-INFO
+rgbconv.egg-info/SOURCES.txt
+rgbconv.egg-info/dependency_links.txt
+rgbconv.egg-info/top_level.txt
