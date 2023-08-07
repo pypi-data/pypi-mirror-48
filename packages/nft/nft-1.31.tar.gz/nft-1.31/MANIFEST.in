@@ -1,0 +1,13 @@
+
+global-exclude *.py[co]
+
+include LICENSE
+include README.rst
+include nft.py
+include setup.py
+include templates
+recursive-include templates
+exclude config.yaml
+include templates.pickle
+exclude test.py
+exclude requirements.txt
