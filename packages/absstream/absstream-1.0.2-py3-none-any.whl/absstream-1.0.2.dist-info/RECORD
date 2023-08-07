@@ -1,0 +1,9 @@
+absstream/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+absstream/stream.py,sha256=AY2nH20atGNiBn3xX55Pob32FKMn9LKrNcgdhcNEaFQ,1122
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/stream.py,sha256=fOTJ2W1hmcPREBI4WRAwKVe7_0WXQaK-W55vlH-dCo8,1463
+absstream-1.0.2.dist-info/LICENSE.txt,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+absstream-1.0.2.dist-info/METADATA,sha256=-1h2q6qdgt6lHVMeN1suvVpuonN5QarnNNc5PqwFJYk,569
+absstream-1.0.2.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+absstream-1.0.2.dist-info/top_level.txt,sha256=HeuNxvYOglM4r8r4xQLMDhPIjRS_C7cRUWrKfE-CzFc,16
+absstream-1.0.2.dist-info/RECORD,,
