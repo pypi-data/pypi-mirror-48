@@ -1,0 +1,12 @@
+scola/__init__.py,sha256=lVDKUNBUqTHz8HeE8fDeM7395GGSBVAUhHjn1eqhw1U,63
+scola/_common.py,sha256=9UOlzwqDjdnI6vYGGAy7s_41aoR-9gJDmtVqD5zOuMk,3399
+scola/_compute_null_correlation_matrix.py,sha256=F4KzNnbwMtbIhXOI1Nru-4dW_TNO76tV0sjluIXlAcg,3176
+scola/_golden_section_search.py,sha256=1VOCLPWVyewyz3P8BPl3TOvFtjUQOLKjpCp9PArjMdM,4148
+scola/_iscola.py,sha256=oHAZBv8ghu8jIH_LSItFFMtY8sfnlGBvXyAZhtlAVl8,4229
+scola/_scola.py,sha256=-w9JUdmf4SlHz8eL-uATaDh_dTqWHggMl6xqYmfFThw,5210
+scola/generate_network.py,sha256=DqWOdB-BS_18ZQcI9uBWgHOl5MBYdHN6Xay7UUtusHY,5169
+scola-0.0.17.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+scola-0.0.17.dist-info/METADATA,sha256=i3j1XQWo8k6_hrOotn7oDakZUqalTYfUGXOm1Pbrqrk,761
+scola-0.0.17.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+scola-0.0.17.dist-info/top_level.txt,sha256=JcsiVTI4CnPRtlLUp9g1M-zKNMxlrB0FAKpDQ_dGcmw,6
+scola-0.0.17.dist-info/RECORD,,
