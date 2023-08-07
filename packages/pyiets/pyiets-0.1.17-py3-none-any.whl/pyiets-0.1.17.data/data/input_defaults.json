@@ -1,0 +1,37 @@
+{
+  "sp_control": 
+  {
+    "qc_prog": "turbomole",
+    "params": null
+  },
+  "tcc": false,
+
+  "input_file": "input.json",
+  "vib_out": null,
+  "vib_out_file": null,
+  "restart": false,
+  "sp_restart_file": "sp.restart",
+  "sp_name": "sp",
+
+  "artaios_restart_file": "artaios.restart",
+  "artaios_bin": "artaios",
+  "artaios_tm_bin": "tm2unformcl",
+  "artaios_tm_soc_bin": "tm2unformsoc",
+  "artaios_gm_bin": "g09_2unform",
+  "artaios_gm_bin_spin_comp": 2,
+  "artaios_in": "artaios.in",
+  "artaios_out": "artaios.out",
+  "artaios_stdout": "artaios.in.stdout",
+  "artaios_stderr": "artaios.in.stderr",
+  "greenmatrix_file": "greensmatrix.1",
+  "troisi_greenmatrix_file": "greensmatrix",
+  "output_folder": "output",
+  "output_mode_folder_prefix": "mode",
+  "iets_output_file": "iets.dat",
+
+  "mode_folder": "distortions",
+  "modes": "all",
+  "cstep": 0.01,
+  "mp": 1,
+  "verbose": false
+}
