@@ -1,0 +1,3 @@
+[console_scripts]
+pydataweaver = pydataweaver.__main__:main
+
