@@ -1,0 +1,10 @@
+xinput_gui/__init__.py,sha256=6z4UlaFV4_OAdRJHkkos5reyq-A9rnGO2n_GvG4xodE,43
+xinput_gui/app.glade,sha256=YI1tfztMqUgKDOB_mSFnYJazzpIrLxQBbCKoYWIIITU,26563
+xinput_gui/gui.py,sha256=AUI7Dr0lfJdm5HfIrxqb8ND5J2WkoVBhoCku0ZXxdvk,7286
+xinput_gui/xinput.py,sha256=HOfvoKmGKaXE2pzBlMTCusruliRrExP1J6qh-PSsGU4,2670
+xinput_gui-0.1.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+xinput_gui-0.1.1.dist-info/METADATA,sha256=Tf6yMopjEcy3WNLk9g98YPMhrOq1gXwYxEAzFxdl4Vc,2174
+xinput_gui-0.1.1.dist-info/WHEEL,sha256=S8S5VL-stOTSZDYxHyf0KP7eds0J72qrK0Evu3TfyAY,92
+xinput_gui-0.1.1.dist-info/entry_points.txt,sha256=rCjsX8T9ZefGCSj16EwpttgbKQKoQkbFCmD2E2pAM5Y,48
+xinput_gui-0.1.1.dist-info/top_level.txt,sha256=yqKSuD2OfSJEQRcIS0OBHP8lnK2gB3aTxxHpJDyxbvk,11
+xinput_gui-0.1.1.dist-info/RECORD,,
