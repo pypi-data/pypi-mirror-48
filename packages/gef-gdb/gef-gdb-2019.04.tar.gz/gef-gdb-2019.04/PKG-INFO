@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: gef-gdb
+Version: 2019.04
+Summary: I am not the owner of this project, see --> https://github.com/hugsy/gef
+Home-page: https://github.com/hugsy/gef
+Author: @_hugsy_
+Author-email: UNKNOWN@UNKNOWN.UNKNOWN
+License: MIT
+Description: UNKNOWN
+Keywords: gef,gdb
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2
