@@ -1,0 +1,2 @@
+include code_domain_emissary/domains/code/**/*.txt
+include code_domain_emissary/entities/
