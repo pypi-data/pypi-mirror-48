@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+pyhg19/ENCFF001TDO.bed.gz
+pyhg19/__init__.py
+pyhg19/pyhg19.py
+pyhg19.egg-info/PKG-INFO
+pyhg19.egg-info/SOURCES.txt
+pyhg19.egg-info/dependency_links.txt
+pyhg19.egg-info/requires.txt
+pyhg19.egg-info/top_level.txt
