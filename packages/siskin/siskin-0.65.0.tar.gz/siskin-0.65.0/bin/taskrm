@@ -1,0 +1,60 @@
+#!/bin/sh
+# coding: utf-8
+
+# Copyright 2015 by Leipzig University Library, http://ub.uni-leipzig.de
+#                   The Finc Authors, http://finc.info
+#                   Martin Czygan, <martin.czygan@uni-leipzig.de>
+#
+# This file is part of some open source application.
+#
+# Some open source application is free software: you can redistribute
+# it and/or modify it under the terms of the GNU General Public
+# License as published by the Free Software Foundation, either
+# version 3 of the License, or (at your option) any later version.
+#
+# Some open source application is distributed in the hope that it will
+# be useful, but WITHOUT ANY WARRANTY; without even the implied warranty
+# of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with Foobar.  If not, see <http://www.gnu.org/licenses/>.
+#
+# @license GPL-3.0+ <http://spdx.org/licenses/GPL-3.0+>
+
+set -eu
+
+if [ "$#" -eq 0 ]; then
+    >&2 echo "usage: taskrm TASKNAME [--op1 abc, --op2, ...] [TASKNAME, TASKNAME, ...]"
+    exit 0
+fi
+
+case $2 in
+*--*)
+    # We have some flag, so args contain task name and args.
+    OUTPUT=$(taskoutput "$@")
+    if [ "$?" -ne 0 ]; then
+        >&2 printf "cannot determine task output [%d]\n" $?
+        exit 1
+    else
+        if [ -f "$OUTPUT" ]; then
+            rm -vf "$OUTPUT"
+        else
+            >&2 echo "[ok] nothing to remove"
+        fi
+        exit 0
+    fi
+    ;;
+*)
+    # Otherwise only tasknames, remove them one by one.
+    for name in "$@"; do
+        OUTPUT=$(taskoutput "$name")
+        if [ "$?" -ne 0 ]; then
+            >&2 printf "cannot determine task output [%d]\n" $?
+            exit 1
+        else
+            rm -vf "$OUTPUT"
+        fi
+    done
+    ;;
+esac
