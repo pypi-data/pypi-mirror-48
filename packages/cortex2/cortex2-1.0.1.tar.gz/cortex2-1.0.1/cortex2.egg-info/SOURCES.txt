@@ -1,0 +1,12 @@
+README.md
+setup.py
+cortex2/__init__.py
+cortex2/emotiv_cortex2_client.py
+cortex2.egg-info/PKG-INFO
+cortex2.egg-info/SOURCES.txt
+cortex2.egg-info/dependency_links.txt
+cortex2.egg-info/requires.txt
+cortex2.egg-info/top_level.txt
+cortex2/lib/__init__.py
+cortex2/lib/WebsocketClient/__init__.py
+cortex2/lib/WebsocketClient/websocket_client.py
