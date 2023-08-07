@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: robotframework-excellibrary-xwfintech
+Version: 0.0.3
+Summary: Robot Framework-xwfintech
+Home-page: https://github.com/houfy-github/robotframework-excellibrary.git
+Author: jyrkiwahlstedt, Simon McMorran, Bryan Hou
+Author-email: <smcmorran@navinet.net>
+License: Apache License 2.0
+Download-URL: https://github.com/NaviNet/robotframework-excellibrary/tarball/0.0.2
+Description: This test library provides some keywords to allow
+        opening, reading, writing, and saving Excel files
+        from Robot Framework.
+Keywords: robotframework testing testautomation excel
+Platform: any
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Quality Assurance
