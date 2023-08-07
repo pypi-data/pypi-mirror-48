@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pyiets
+Version: 0.1.17
+Summary: A tool for calculating inelastic tunneling spectra
+Home-page: UNKNOWN
+Author: Benjamin Bolbrinker, Michael Deffner, Martin Zoellner, Carmen Herrmann
+Author-email: benjamin.bolbrinker@chemie.uni.hamburg.de
+License: UNKNOWN
+Description: Install with:
+        
+        .. code-block:: bash
+        
+           ./install
+        
+        The full documentation can be found under https://www.chemie.uni-hamburg.de/institute/ac/arbeitsgruppen/herrmann/software.html
+        The source files of the documentation can be found in `docs`. To build the documentation type:
+        
+        .. code-block:: bash
+        
+           make documentation
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
