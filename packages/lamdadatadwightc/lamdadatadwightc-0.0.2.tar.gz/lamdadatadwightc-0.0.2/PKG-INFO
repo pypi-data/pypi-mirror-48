@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: lamdadatadwightc
+Version: 0.0.2
+Summary: Simple package to check nulls in your Pandas DataFrame and split datetimes into separate columns!
+Home-page: http://github.com/dwightchurchill/lambdadwight/
+Author: Dwight Churchill
+Author-email: dwight.a.churchill@gmail.com
+License: UNKNOWN
+Description: Simple package to check nulls in your Pandas DataFrame and split datetimes into separate columns!
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
