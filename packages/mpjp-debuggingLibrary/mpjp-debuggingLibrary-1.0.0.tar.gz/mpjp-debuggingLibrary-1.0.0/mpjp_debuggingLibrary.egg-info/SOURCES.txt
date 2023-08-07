@@ -1,0 +1,8 @@
+setup.py
+DebuggingLibrary/DebuggingLibrary.py
+DebuggingLibrary/__init__.py
+mpjp_debuggingLibrary.egg-info/PKG-INFO
+mpjp_debuggingLibrary.egg-info/SOURCES.txt
+mpjp_debuggingLibrary.egg-info/dependency_links.txt
+mpjp_debuggingLibrary.egg-info/requires.txt
+mpjp_debuggingLibrary.egg-info/top_level.txt
