@@ -1,0 +1,8 @@
+click==7.0
+requests==2.20.0
+aiohttp==3.4.4
+aiofiles==0.4.0
+PyYAML==3.13
+setuptools==40.8.0
+pycryptodome
+tqdm==4.32.1
