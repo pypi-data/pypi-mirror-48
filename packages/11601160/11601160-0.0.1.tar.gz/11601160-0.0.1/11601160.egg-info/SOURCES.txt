@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+11601160.egg-info/PKG-INFO
+11601160.egg-info/SOURCES.txt
+11601160.egg-info/dependency_links.txt
+11601160.egg-info/top_level.txt
+focusIT/Foc.py
+focusIT/__init__.py
+focusIT/file3.txt
