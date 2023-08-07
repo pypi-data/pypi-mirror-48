@@ -1,0 +1,10 @@
+hopt/__init__.py,sha256=Q0cYOfNaOAGuhy36E1yu8uoSQIzfNNvfpsqWfAgggxk,232
+hopt/hopt.py,sha256=vVF_8fEm1k-UiwcesBZpGncdER24ra05JmgX0ERQi6g,6754
+hopt/keras.py,sha256=hR-6XHhtVfQRfumJ_0LfgyfSKj9dNyS7GExaFMYXCSI,17380
+hopt/randoms.py,sha256=HTJvcor_bttpCwuaTHb2AF6pQ1hhEM6eFVRJlJvI43s,2771
+hopt/utils.py,sha256=uJhC2z9JmbrQDJZ2Szi6EgtablFxNl-rs1BZfHp0eWw,110
+hopt-0.2.1.dist-info/LICENSE,sha256=cY2XzGxk58BBH5NC_pKUiMVj10rYk1ASaM9XYqjF944,1090
+hopt-0.2.1.dist-info/METADATA,sha256=c6X_98jXf-IrLvxBHOx0u_uNl3sZBnC3vbrDcHFcIF0,711
+hopt-0.2.1.dist-info/WHEEL,sha256=QBOOAdG2icRHGBs2s94rfaUlHrdfNBp-TceubUYCwOE,97
+hopt-0.2.1.dist-info/top_level.txt,sha256=q69b-ZiyjV1Dz-ewplq0gnapbC5NMJQlC60tpzdcwNI,5
+hopt-0.2.1.dist-info/RECORD,,
