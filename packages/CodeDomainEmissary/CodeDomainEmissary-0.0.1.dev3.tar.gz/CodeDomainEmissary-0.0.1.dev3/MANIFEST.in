@@ -1,0 +1,3 @@
+include code_domain_emissary/domains/*/*/*.txt
+include code_domain_emissary/entities/*/*.json
+include code_domain_emissary/entities/*/*.txt

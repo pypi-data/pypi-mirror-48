@@ -1,0 +1,9 @@
+bye
+Good bye!
+Goodbye
+See you later.
+quit
+sayonara
+Leave
+exit
+abort
