@@ -1,0 +1,5 @@
+include LICENSE.md
+include README.rst
+include tests/data/*
+include tests/*
+
