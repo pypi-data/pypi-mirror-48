@@ -1,0 +1,6 @@
+mozilladecoder
+setup.py
+mozilladecoder.egg-info/PKG-INFO
+mozilladecoder.egg-info/SOURCES.txt
+mozilladecoder.egg-info/dependency_links.txt
+mozilladecoder.egg-info/top_level.txt
