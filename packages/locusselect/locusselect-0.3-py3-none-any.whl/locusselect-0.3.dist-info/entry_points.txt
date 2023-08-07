@@ -1,0 +1,7 @@
+[console_scripts]
+compute_deeplift_scores = locusselect.deeplift:main
+compute_embedding_distances = locusselect.dist:main
+compute_kmer_embeddings = locusselect.gapped_kmers:main
+compute_nn_embeddings = locusselect.embeddings:main
+visualize_embeddings = locusselect.vis:main
+
