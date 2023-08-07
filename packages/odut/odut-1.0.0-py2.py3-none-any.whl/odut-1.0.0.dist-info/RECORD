@@ -1,0 +1,10 @@
+odut/__init__.py,sha256=4z-1n09nnOAxZlof_zHZEEMbMrDNlgvx-ydlLgvlEuQ,148
+odut/__main__.py,sha256=O8LzwqC_4dan1BRUxjxdx-4fDUXfrs8zrvxuSXsxWfE,337
+odut/cli.py,sha256=971wgwymLDHi_ZcwWaj2mDP8j9U-GeVWQA4Ux215lBQ,1680
+odut/odoo.py,sha256=-xwgiTC5634lfoSDkNzg4fB--za-cQB_psg9Y4TME30,3441
+odut-1.0.0.dist-info/AUTHORS.rst,sha256=pJf5Fku4FFLNvUy_BsW73bQRj6S3nFWIEfutawWFGoY,157
+odut-1.0.0.dist-info/METADATA,sha256=kp9iWYpXHzR7RakOmUzPWRUr_ulQjYKtrCaD_PGgVzg,2071
+odut-1.0.0.dist-info/WHEEL,sha256=8T8fxefr_r-A79qbOJ9d_AaEgkpCGmEPHc-gpCq5BRg,110
+odut-1.0.0.dist-info/entry_points.txt,sha256=iQHh50L3CefEt57NFKb98VDo0iwr0CvLo2GaGLpM8d4,41
+odut-1.0.0.dist-info/top_level.txt,sha256=pvrE5KUocVmR23IBdJL6yoNIa4LlaDIRoiQDMToZDRc,5
+odut-1.0.0.dist-info/RECORD,,
