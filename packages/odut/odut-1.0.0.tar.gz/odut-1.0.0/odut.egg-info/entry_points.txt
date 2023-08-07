@@ -1,0 +1,3 @@
+[console_scripts]
+odut2 = odut.cli:main
+
