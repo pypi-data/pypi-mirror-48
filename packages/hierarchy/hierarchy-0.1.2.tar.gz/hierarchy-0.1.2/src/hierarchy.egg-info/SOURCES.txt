@@ -1,0 +1,13 @@
+README.md
+setup.py
+bin/hierarchy
+src/hierarchy/__init__.py
+src/hierarchy/cli.py
+src/hierarchy/cloner.py
+src/hierarchy/hierarchy.py
+src/hierarchy/rename.py
+src/hierarchy.egg-info/PKG-INFO
+src/hierarchy.egg-info/SOURCES.txt
+src/hierarchy.egg-info/dependency_links.txt
+src/hierarchy.egg-info/requires.txt
+src/hierarchy.egg-info/top_level.txt
