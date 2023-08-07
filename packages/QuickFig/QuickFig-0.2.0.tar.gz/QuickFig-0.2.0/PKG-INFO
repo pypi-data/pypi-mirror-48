@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: QuickFig
+Version: 0.2.0
+Summary: Quick and Painless Python Config File Tool
+Home-page: https://mlasevich.github.io/QuickFig/
+Author: Michael Lasevich
+Author-email: mlasevich+quickfig@gmail.com
+License: Apache 2.0
+Description: [![Build Status](https://travis-ci.org/mlasevich/QuickFig.svg?branch=master)](https://travis-ci.org/mlasevich/QuickFig)
+        [![Coverage Status](https://coveralls.io/repos/github/mlasevich/QuickFig/badge.svg?branch=master)](https://coveralls.io/github/mlasevich/QuickFig?branch=master)
+        [![PyPI version](https://badge.fury.io/py/QuickFig.svg)](https://badge.fury.io/py/QuickFig)
+        
+        # QuickFig - Quick and Painless Config Parser for Python
+        
+        A lightweight schema-supporting config parser for projects.
+        
+        I have written something like this for almost every project I have done. Time to just make it a
+        library.
+        
+        
+        ## QuickFig Release Notes
+        
+        * 0.2.0
+            *  Add support for Python 2.7
+        
+        * 0.1.1
+            * initial version
+        
+        ## Quick Intro to QuickFig
+        
+        ***TODO***
+        
+        ## Usage
+        
+        ***TODO***
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 2.7
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
