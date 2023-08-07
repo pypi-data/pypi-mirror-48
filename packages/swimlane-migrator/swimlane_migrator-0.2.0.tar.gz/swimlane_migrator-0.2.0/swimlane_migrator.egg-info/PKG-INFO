@@ -1,0 +1,14 @@
+Metadata-Version: 1.0
+Name: swimlane-migrator
+Version: 0.2.0
+Summary: Swimlane Content Migration Package
+Home-page: https://swimlane.com
+Author: Swimlane
+Author-email: info@swimlane.com
+License: UNKNOWN
+Description: # swimlane_migrator
+        
+        require swimlane python driver https://github.com/swimlane/swimlane-python
+        
+        
+Platform: UNKNOWN
