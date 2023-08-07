@@ -1,0 +1,15 @@
+jsii~=0.14.0
+publication>=0.0.3
+aws-cdk.assets~=0.39.0
+aws-cdk.aws-cloudwatch~=0.39.0
+aws-cdk.aws-codecommit~=0.39.0
+aws-cdk.aws-ec2~=0.39.0
+aws-cdk.aws-ecr~=0.39.0
+aws-cdk.aws-ecr-assets~=0.39.0
+aws-cdk.aws-events~=0.39.0
+aws-cdk.aws-iam~=0.39.0
+aws-cdk.aws-kms~=0.39.0
+aws-cdk.aws-s3~=0.39.0
+aws-cdk.aws-s3-assets~=0.39.0
+aws-cdk.aws-secretsmanager~=0.39.0
+aws-cdk.core~=0.39.0
