@@ -1,0 +1,13 @@
+README.md
+setup.py
+vocalist/__init__.py
+vocalist/extractor.py
+vocalist/listener.py
+vocalist.egg-info/PKG-INFO
+vocalist.egg-info/SOURCES.txt
+vocalist.egg-info/dependency_links.txt
+vocalist.egg-info/requires.txt
+vocalist.egg-info/top_level.txt
+vocalist/test/__init__.py
+vocalist/test/test_extractor.py
+vocalist/test/test_listener.py
