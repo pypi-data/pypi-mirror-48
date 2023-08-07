@@ -1,0 +1,8 @@
+README.md
+setup.py
+metaparse.egg-info/PKG-INFO
+metaparse.egg-info/SOURCES.txt
+metaparse.egg-info/dependency_links.txt
+metaparse.egg-info/not-zip-safe
+metaparse.egg-info/requires.txt
+metaparse.egg-info/top_level.txt
