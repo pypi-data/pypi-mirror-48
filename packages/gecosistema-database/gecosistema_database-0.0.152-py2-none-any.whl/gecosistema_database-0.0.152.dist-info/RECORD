@@ -1,0 +1,13 @@
+gecosistema_database/__init__.py,sha256=96t-XD9NmcpnAurKXAr1seyStkDV-RcHl8OPXKrRmQQ,1076
+gecosistema_database/abstractdb.py,sha256=xooJhvaI6zvomhgE7I0Q5F56gDB-AirWROgev9WjajI,14468
+gecosistema_database/aggregates.py,sha256=1aC7Pl8pQD97zuOdXtSnwxWcNYRcbsW-R9Vg3uA18Tc,1617
+gecosistema_database/functions.py,sha256=PztIf6kJf1nv5ELXRvKa2KUQfK5wEHrfLVP3NkRlxmY,1820
+gecosistema_database/http.py,sha256=oHtRR3yi7-rmmLwjhihPZB-burIKsfvRM9GXXWAh0Bg,1644
+gecosistema_database/mssqldb.py,sha256=ZiRRcN7cROOVIXpXjaly4uNi9F91kTesqjIQPisGojY,5291
+gecosistema_database/sql_utils.py,sha256=MWzRpLDtu3zCT52L8qlNjxU2hHf4Sx6LlTSX2mKrP7o,3633
+gecosistema_database/sqlitedb.py,sha256=GCRrmu7b-_l02OXV74oOpsLyYsp5yFkFscmfMRX_nSs,17696
+gecosistema_database-0.0.152.dist-info/LICENSE,sha256=djyKbJMN4U8g5Xuc34qSLM6hoBP4OLVITS8OfKi7uq4,1091
+gecosistema_database-0.0.152.dist-info/METADATA,sha256=rLEMG3uEE0zVu4FjpeP4HseaeFvuU5edvl_EJwc0AL4,569
+gecosistema_database-0.0.152.dist-info/WHEEL,sha256=66yg5r67RIT-GjSaJ3M-GBTsHX0QfofnyZ-5OqlTUU0,97
+gecosistema_database-0.0.152.dist-info/top_level.txt,sha256=_okDC6WMaKx5D8b5jeIOVPQHUAbJthhiQHEcCcWj7D0,21
+gecosistema_database-0.0.152.dist-info/RECORD,,
