@@ -1,0 +1,40 @@
+
+
+Examples using ``gsmote.GeometricSMOTE``
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="This example illustrates the Geometric SMOTE data  generation mechanism and the usage of its  h...">
+
+.. only:: html
+
+    .. figure:: /auto_examples/images/thumb/sphx_glr_plot_data_generation_mechanism_thumb.png
+
+        :ref:`sphx_glr_auto_examples_plot_data_generation_mechanism.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+    * :ref:`sphx_glr_auto_examples_plot_data_generation_mechanism.py`
+
+.. raw:: html
+
+    <div class="sphx-glr-thumbcontainer" tooltip="In this example the impact of the Geometric SMOTE&#x27;s hyperparameters is examined. The validation...">
+
+.. only:: html
+
+    .. figure:: /auto_examples/images/thumb/sphx_glr_plot_validation_curves_thumb.png
+
+        :ref:`sphx_glr_auto_examples_plot_validation_curves.py`
+
+.. raw:: html
+
+    </div>
+
+.. only:: not html
+
+    * :ref:`sphx_glr_auto_examples_plot_validation_curves.py`
