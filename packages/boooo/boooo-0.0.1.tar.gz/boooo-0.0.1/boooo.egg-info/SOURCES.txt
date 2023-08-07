@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+boooo.egg-info/PKG-INFO
+boooo.egg-info/SOURCES.txt
+boooo.egg-info/dependency_links.txt
+boooo.egg-info/top_level.txt
+khodet/Foc.py
+khodet/__init__.py
+khodet/file4.txt
