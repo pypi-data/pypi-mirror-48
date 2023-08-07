@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: aio-bitrix
+Version: 0.0.1
+Summary: Async Wrapper for Bitrix24 REST API
+Home-page: https://github.com/bzdvdn/aio_bitrix/
+Author: bzdvdn
+Author-email: bzdv.dn@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
