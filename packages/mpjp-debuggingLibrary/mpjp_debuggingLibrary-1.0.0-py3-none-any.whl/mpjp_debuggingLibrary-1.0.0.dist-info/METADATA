@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: mpjp-debuggingLibrary
+Version: 1.0.0
+Summary: Library for remote chrome browser
+Home-page: https://github.com/mpjp/DebuggingLibrary
+Author: mpjp
+Author-email: ingridchen82@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: robotframework-seleniumlibrary
+Requires-Dist: selenium
+
+# DebuggingLibrary
+Library for remote chrome browser
+
+
