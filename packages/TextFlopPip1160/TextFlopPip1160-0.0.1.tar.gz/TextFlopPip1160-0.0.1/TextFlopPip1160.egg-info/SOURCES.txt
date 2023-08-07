@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+TextDemo/__init__.py
+TextDemo/demo.py
+TextDemo/file1.txt
+TextFlopPip1160.egg-info/PKG-INFO
+TextFlopPip1160.egg-info/SOURCES.txt
+TextFlopPip1160.egg-info/dependency_links.txt
+TextFlopPip1160.egg-info/top_level.txt
