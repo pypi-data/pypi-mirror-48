@@ -1,0 +1,14 @@
+jsii~=0.14.0
+publication>=0.0.3
+aws-cdk.aws-applicationautoscaling~=0.39.0
+aws-cdk.aws-certificatemanager~=0.39.0
+aws-cdk.aws-ec2~=0.39.0
+aws-cdk.aws-ecs~=0.39.0
+aws-cdk.aws-elasticloadbalancingv2~=0.39.0
+aws-cdk.aws-events~=0.39.0
+aws-cdk.aws-events-targets~=0.39.0
+aws-cdk.aws-iam~=0.39.0
+aws-cdk.aws-route53~=0.39.0
+aws-cdk.aws-route53-targets~=0.39.0
+aws-cdk.aws-sqs~=0.39.0
+aws-cdk.core~=0.39.0
