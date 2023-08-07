@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: html2csv
+Version: 1.0.1
+Summary: Automatically download almost any spreadsheet from any website.
+Home-page: https://github.com/sl4vkek/html2csv
+Author: sl4v
+Author-email: iamsl4v@protonmail.com
+License: WTFPL
+Description: A Python script designed to Automatically download any almost spreadsheet from any website.
+Platform: UNKNOWN
