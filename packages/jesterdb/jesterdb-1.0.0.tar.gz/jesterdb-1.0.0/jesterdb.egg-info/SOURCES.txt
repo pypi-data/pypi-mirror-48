@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+jester/__init__.py
+jester/client.py
+jester/common.py
+jester/server.py
+jesterdb.egg-info/PKG-INFO
+jesterdb.egg-info/SOURCES.txt
+jesterdb.egg-info/dependency_links.txt
+jesterdb.egg-info/requires.txt
+jesterdb.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: jesterdb
+Version: 1.0.0
+Summary: Turning SQLite into a server is a good idea?
+Home-page: https://github.com/Zwork101/jester
+Author: Nathan Zilora
+Author-email: zwork101@gmail.com
+License: MIT
+Description: See github for documentation and explanation
+Platform: UNKNOWN
