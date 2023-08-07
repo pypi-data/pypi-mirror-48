@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: xc
+Version: 0.8
+Summary: xc is a simple command-line calculator with hex conversions
+Home-page: https://github.com/dustmop/xc
+Author: Dustin Long
+Author-email: me@dustmop.io
+License: GPL3
+Description: xc is a simple calculator meant to be used entirely from the command-line. It automatically displays results in both decimal and hexidecimal. It is focused on convenience and ease of use.
+Keywords: hex hexidecimal calc calculator command-line commandline
+Platform: UNKNOWN
