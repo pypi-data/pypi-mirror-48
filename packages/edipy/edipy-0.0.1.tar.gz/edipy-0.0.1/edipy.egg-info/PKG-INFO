@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: edipy
+Version: 0.0.1
+Summary: Parser positional files
+Home-page: https://github.com/fakeezz/edipy
+Author: fakeezz
+Author-email: fakeezz@gmail.com
+License: MIT
+Download-URL: https://github.com/fakeezz/edipy/tarball/0.0.1
+Description: edipy
+        =====
+        
+        **edipy** gives you a fancy way to read positional files by using declarative classes.
+        
+        Documentation
+        -------------
+        
+        Soon you can find docs at the [Read the docs](https://edipy.readthedocs.io/en/latest/) website.
+        
+Platform: any
+Classifier: Programming Language :: Python
+Classifier: Operating System :: OS Independent
