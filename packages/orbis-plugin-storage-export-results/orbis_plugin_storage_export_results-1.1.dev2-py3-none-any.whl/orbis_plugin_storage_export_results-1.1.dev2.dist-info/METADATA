@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: orbis-plugin-storage-export-results
+Version: 1.1.dev2
+Summary: The storage plugin to export Orbis results into different formats.
+Home-page: https://github.com/orbis-eval/orbis_plugin_storage_export_results
+Author: fabod
+License: GPL2
+Platform: UNKNOWN
+Requires-Python: >3.6
+Description-Content-Type: text/markdown
+
+# Cache Webservice results Storage Plugin for Orbis
+
+
