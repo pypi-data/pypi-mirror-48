@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+Thetheway.egg-info/PKG-INFO
+Thetheway.egg-info/SOURCES.txt
+Thetheway.egg-info/dependency_links.txt
+Thetheway.egg-info/top_level.txt
+Theway/Way.py
+Theway/__init__.py
+Theway/file6.txt
