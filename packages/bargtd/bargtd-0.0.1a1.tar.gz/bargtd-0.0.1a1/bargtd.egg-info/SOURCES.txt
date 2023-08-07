@@ -1,0 +1,8 @@
+README.md
+setup.py
+bargtd/__init__.py
+bargtd.egg-info/PKG-INFO
+bargtd.egg-info/SOURCES.txt
+bargtd.egg-info/dependency_links.txt
+bargtd.egg-info/top_level.txt
+bin/bargtd
