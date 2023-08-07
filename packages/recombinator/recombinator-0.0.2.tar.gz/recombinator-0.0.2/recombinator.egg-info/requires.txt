@@ -1,0 +1,7 @@
+cocos
+dataclasses
+numba
+numpy
+pandas
+scipy
+pytest
