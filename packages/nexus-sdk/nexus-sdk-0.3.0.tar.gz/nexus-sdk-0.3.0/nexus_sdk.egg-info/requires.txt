@@ -1,0 +1,10 @@
+python-magic
+requests
+sseclient
+
+[doc]
+sphinx
+
+[test]
+pytest
+pytest-cov
