@@ -1,0 +1,15 @@
+ria_remote/__init__.py,sha256=SLTa2npw_n7M-bE5huhGWshKt7yE5oqd1ZXX122PBgk,63
+ria_remote/remote.py,sha256=YZ4_1YdEVTfYMJBlx6JSR59I0_Zqi2AMZMbJ3yzkH3M,14295
+ria_remote/version.py,sha256=mSEGsm3krpaP32dIC6o0jfSpVPy-WcrOfoatVvRBnV4,20
+ria_remote/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ria_remote/tests/test_basics.py,sha256=0Os9kPvqdhqvqDgULtgE5YknvGxQ-7I3p7BSskM4XLE,1970
+ria_remote/tests/test_config.py,sha256=m4vjTUg6yucTAecR0MrITuIKmuZRsldP27cYSRQlhbg,1932
+ria_remote/tests/test_gitannex.py,sha256=jlqEDjxfBiyhpcTBffczoPJOzyRRa2_mX4i4b4TpFKY,926
+ria_remote/tests/utils.py,sha256=5Z_ayh4f-EXQnb2XpAh2rxTvyXhaE6JQr1PP40rBMDE,3465
+ria_remote-0.3.data/scripts/git-annex-remote-ria,sha256=AiJw8S0aMqGdHdIvrLAQUikHoOFAPqHwZ_l0BhMU8xU,231
+ria_remote-0.3.dist-info/DESCRIPTION.rst,sha256=OCTuuN6LcWulhHS3d5rfjdsQtW22n7HENFRh6jC6ego,10
+ria_remote-0.3.dist-info/METADATA,sha256=GHaZi4xbmCx9Z8woWHVswVLHcUkeA-cPHFCjdgK244Q,342
+ria_remote-0.3.dist-info/RECORD,,
+ria_remote-0.3.dist-info/WHEEL,sha256=kdsN-5OJAZIiHN-iO4Rhl82KyS0bDWf4uBwMbkNafr8,110
+ria_remote-0.3.dist-info/metadata.json,sha256=0Mfym0uxJw_CWQD06ovvAKa32qkbCJvg2TuW_i8Xj98,471
+ria_remote-0.3.dist-info/top_level.txt,sha256=3rZY91VFP9unHOPv81fX4GstsgqqWbTEbB9lZtWS7jg,11
