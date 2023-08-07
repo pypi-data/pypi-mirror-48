@@ -1,0 +1,10 @@
+setup.py
+distributions_tm1611/Binomialdistribution.py
+distributions_tm1611/Gaussiandistribution.py
+distributions_tm1611/Generaldistribution.py
+distributions_tm1611/__init__.py
+distributions_tm1611.egg-info/PKG-INFO
+distributions_tm1611.egg-info/SOURCES.txt
+distributions_tm1611.egg-info/dependency_links.txt
+distributions_tm1611.egg-info/not-zip-safe
+distributions_tm1611.egg-info/top_level.txt
